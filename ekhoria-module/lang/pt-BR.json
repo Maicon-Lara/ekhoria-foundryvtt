@@ -1,0 +1,27 @@
+{
+  "EKHORIA": {
+    "ModuleTitle": "Ekhoria — Sourcebook Oficial",
+    "Badge": "EKHORIA",
+    "Classes": {
+      "CUSTODIO":    "Custódio Solar",
+      "RELICARIO":   "Relicário Vivo",
+      "NARCOGUERRE": "Narcoguerreiro",
+      "PUGILISTA":   "Pugilista",
+      "LITO":        "Lito-arcanista",
+      "GUARDIAO":    "Guardião da Centelha",
+      "DIPLOMATA":   "Diplomata",
+      "VORAZ":       "Voraz"
+    },
+    "Racas": {
+      "ARKANIM":   "Arkanim",
+      "ATLANTE":   "Atlante",
+      "AUTOKTHON": "Autokthon",
+      "CAMBION":   "Cambion",
+      "MANTES":    "Mantes",
+      "NEFILIM":   "Nefilim",
+      "ORC_SOL":   "Orc do Sol Poente",
+      "SILENTE":   "Silente",
+      "VARKO":     "Varko"
+    }
+  }
+}

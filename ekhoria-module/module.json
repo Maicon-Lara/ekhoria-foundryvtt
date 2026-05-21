@@ -1,0 +1,61 @@
+{
+  "id": "ekhoria",
+  "title": "Ekhoria — Sourcebook Oficial",
+  "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Seu Nome Aqui"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "olddragon2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "ekhoria-classes",
+      "label": "Ekhoria: Classes",
+      "path": "packs/ekhoria-classes.db",
+      "type": "Item",
+      "system": "olddragon2e"
+    },
+    {
+      "name": "ekhoria-racas",
+      "label": "Ekhoria: Raças",
+      "path": "packs/ekhoria-racas.db",
+      "type": "Item",
+      "system": "olddragon2e"
+    },
+    {
+      "name": "ekhoria-journal",
+      "label": "Ekhoria: Referência do Mestre",
+      "path": "packs/ekhoria-journal.db",
+      "type": "JournalEntry",
+      "system": "olddragon2e"
+    }
+  ],
+  "esmodules": ["ekhoria.js"],
+  "styles": ["ekhoria.css"],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
