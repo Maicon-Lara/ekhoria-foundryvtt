@@ -1,0 +1,123 @@
+{
+  "folder": "WhZxLtkBfBRh2AUX",
+  "name": "Voraz",
+  "type": "class",
+  "_id": "yJoZums0vFrczwLR",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "flavor": "<p>Membro da Irmandade Voraz de Vornfell, caçador de criaturas monstruosas.</p>",
+    "description": "<p>Os Vorazes da Irmandade de Vornfell conhecem a anatomia das criaturas monstruosas como ninguém. Caçam metodicamente, usando o medo e os despojos do inimigo como armas. Seguem a progressão de Ladrão.</p>",
+    "hp": 6,
+    "high_level_hp_bonus": null,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas pequenas ou médias. Armas grandes geram ataques difíceis.",
+      "armors": "Apenas armaduras leves. Escudos e armaduras médias ou pesadas impedem o uso das habilidades de classe e protegem apenas metade da CA normal.",
+      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1000
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 4000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 7000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 14000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 24000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 34000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 44000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 88000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 180000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 260000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 340000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 420000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 500000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.0IpxxE8dZ5qTL4Kb",
+      "Compendium.ekhoria.ekhoria-classes.Item.O5NcWEED8C7dMqKA",
+      "Compendium.ekhoria.ekhoria-classes.Item.QnWLM4VbqrQBZIUC",
+      "Compendium.ekhoria.ekhoria-classes.Item.KH1CNwiseEWxBjtP",
+      "Compendium.ekhoria.ekhoria-classes.Item.RJF4VoZ2U8GcezpH"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!yJoZums0vFrczwLR"
+}

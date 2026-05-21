@@ -1,0 +1,124 @@
+{
+  "folder": "TG3m1fC4rmIEZzQ4",
+  "name": "Narcoguerreiro",
+  "type": "class",
+  "_id": "x3gVbl51gojgUnX2",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "flavor": "<p>Combatente especializado nos Fungos do Degelo de Vornfell.</p>",
+    "description": "<p>Os Narcoguerreiros dominam a química alquímica dos fungos que brotam no degelo de Vornfell, usando-os como armas e remédios. Resistentes a venenos, transformam o próprio metabolismo em campo de batalha. Seguem a progressão de Guerreiro.</p>",
+    "hp": 10,
+    "high_level_hp_bonus": null,
+    "equipment_restrictions": {
+      "weapons": "Pode usar todas as armas.",
+      "armors": "Pode usar todas as armaduras.",
+      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 600000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.O9cEH4vhwiNVtAKN",
+      "Compendium.ekhoria.ekhoria-classes.Item.jXDncOD7BhkxYLAI",
+      "Compendium.ekhoria.ekhoria-classes.Item.znoVwJjPrmB2CR4B",
+      "Compendium.ekhoria.ekhoria-classes.Item.AQRca7rDN11bXH00",
+      "Compendium.ekhoria.ekhoria-classes.Item.sJ8IgYJIAUD1GH8l",
+      "Compendium.ekhoria.ekhoria-classes.Item.nSuTBbHoc7Vz1QXW"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!x3gVbl51gojgUnX2"
+}

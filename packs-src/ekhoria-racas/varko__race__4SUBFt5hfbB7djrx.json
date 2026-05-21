@@ -1,0 +1,43 @@
+{
+  "folder": "UTXQb7pjDppJhpKB",
+  "name": "Varko",
+  "type": "race",
+  "_id": "4SUBFt5hfbB7djrx",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Pequenos seres das profundezas. Infravisão excepcional; a luz forte os prejudica.</p>",
+    "description": "<p>Os Varko habitam as profundezas subterrâneas de Ekhoria. Pequenos, vigorosos e adaptados à escuridão total, são exímios conhecedores do submundo — mas sofrem sob a luz forte da superfície.</p>",
+    "movement": 6,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 30,
+    "infravision_notes": "",
+    "alignment_tendency": "caotico",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.rp1lOrm4yGJcDONF",
+      "Compendium.ekhoria.ekhoria-racas.Item.TR1COGAzbrqLA6yH",
+      "Compendium.ekhoria.ekhoria-racas.Item.KUnF43RDme8nhl3a",
+      "Compendium.ekhoria.ekhoria-racas.Item.dtXjGeUxvUcQAbfW",
+      "Compendium.ekhoria.ekhoria-racas.Item.6YSlgED7wHAzWDlq"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4SUBFt5hfbB7djrx"
+}

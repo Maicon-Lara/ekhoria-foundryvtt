@@ -1,0 +1,42 @@
+{
+  "folder": "XkgJX3lK9msYH1eF",
+  "name": "Orc do Sol Poente",
+  "type": "race",
+  "_id": "k6Jn3SCDbmuJpEbY",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Orcs disciplinados e refinados, herdeiros de uma tradição marcial. Tendem à Ordem.</p>",
+    "description": "<p>Diferentemente dos orcs selvagens, os Orcs do Sol Poente cultivaram uma cultura de disciplina, técnica e honra marcial. São combatentes metódicos e resilientes em longas marchas.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "",
+    "alignment_tendency": "ordeiro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.9bnZbVw5WTu13QPD",
+      "Compendium.ekhoria.ekhoria-racas.Item.douqL6SRACtyBdZA",
+      "Compendium.ekhoria.ekhoria-racas.Item.yh6JjidT0VyfHxcH",
+      "Compendium.ekhoria.ekhoria-racas.Item.5G1STz7xQosF2XnS"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!k6Jn3SCDbmuJpEbY"
+}

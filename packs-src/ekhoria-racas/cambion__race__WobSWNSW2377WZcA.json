@@ -1,0 +1,41 @@
+{
+  "folder": "FqGbXOfDRav2F0v1",
+  "name": "Cambion",
+  "type": "race",
+  "_id": "WobSWNSW2377WZcA",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Descendentes de linhagem demoníaca. Tendem ao Caos.</p>",
+    "description": "<p>Nascidos de pactos antigos e uniões proibidas, os Cambion carregam sangue infernal. São marcados física e socialmente por sua herança, mas dela extraem resistência e poder.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "",
+    "alignment_tendency": "caotico",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.zzs43uFDWCkwPCOT",
+      "Compendium.ekhoria.ekhoria-racas.Item.DagcI4lAGxDbBrVt",
+      "Compendium.ekhoria.ekhoria-racas.Item.eCyeWl7wEM9wzAyk"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!WobSWNSW2377WZcA"
+}

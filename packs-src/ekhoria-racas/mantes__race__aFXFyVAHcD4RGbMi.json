@@ -1,0 +1,44 @@
+{
+  "folder": "p4SBEurlsHeHx7Dj",
+  "name": "Mantes",
+  "type": "race",
+  "_id": "aFXFyVAHcD4RGbMi",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Insectoides de exoesqueleto rígido e membros extras.</p>",
+    "description": "<p>Os Mantes são uma raça insectoide de movimentos precisos e graciosos. Seu exoesqueleto dispensa armaduras e seus membros adicionais lhes conferem vantagem em combate. A muda anual (Ecdise) renova seu corpo por completo.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "",
+    "alignment_tendency": "neutro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.npx6Ofn0YcR9uZpj",
+      "Compendium.ekhoria.ekhoria-racas.Item.n9dgGof6X2Kshzdr",
+      "Compendium.ekhoria.ekhoria-racas.Item.77eCalgsnJBtpwnX",
+      "Compendium.ekhoria.ekhoria-racas.Item.0SRNxrTmhZbfCiX2",
+      "Compendium.ekhoria.ekhoria-racas.Item.rR2fdjTI4Y7z0dID",
+      "Compendium.ekhoria.ekhoria-racas.Item.ysWlSdny97A6hhrN"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!aFXFyVAHcD4RGbMi"
+}

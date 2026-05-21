@@ -1,0 +1,44 @@
+{
+  "folder": "FqGbXOfDRav2F0v1",
+  "name": "Resistência das Trevas",
+  "type": "race_ability",
+  "_id": "zzs43uFDWCkwPCOT",
+  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "system": {
+    "description": "<p>O sangue infernal os protege: +1 em JPS e em JPC contra efeitos mágicos.</p>",
+    "xp": null,
+    "jp": {
+      "jpc": true,
+      "jpd": false,
+      "jps": true
+    },
+    "bonus_damage": 0,
+    "bonus_damage_condition": "none",
+    "bonus_damage_condition_2": "none",
+    "rogue_talent": "none",
+    "rogue_talent_2": "none",
+    "daily_uses": 0,
+    "natural_armor": 0,
+    "load_modifier": 0,
+    "max_load_override": 0,
+    "armor_weight_modifier": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!zzs43uFDWCkwPCOT"
+}

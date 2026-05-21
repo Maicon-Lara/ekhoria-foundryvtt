@@ -1,0 +1,123 @@
+{
+  "folder": "vYUQI8SJKLTTsuMZ",
+  "name": "Lito-arcanista",
+  "type": "class",
+  "_id": "tbsLpE5J4moo8KkN",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "flavor": "<p>Mago cujo corpo foi saturado de cristais pelo Ritual da Saturação.</p>",
+    "description": "<p>Submetidos ao Ritual da Saturação, os Lito-arcanistas têm o corpo permeado por cristais arcanos. Conjuram como Magos, mas sua carne mineral lhes confere resistências elementais crescentes. Seguem a progressão de Mago.</p>",
+    "hp": 4,
+    "high_level_hp_bonus": null,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas pequenas. Armas médias ou grandes geram ataques difíceis.",
+      "armors": "Nenhuma. Escudos e armaduras impedem a conjuração de magias e protegem apenas metade da CA normal.",
+      "magic_items": "Pode usar todos os tipos."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 650000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.KAE9SjbsFkBbD5s4",
+      "Compendium.ekhoria.ekhoria-classes.Item.BV9aoBeJfe3ACPYJ",
+      "Compendium.ekhoria.ekhoria-classes.Item.vTk5iea63OmgSkyz",
+      "Compendium.ekhoria.ekhoria-classes.Item.3tvhj2BDs3CDApZn",
+      "Compendium.ekhoria.ekhoria-classes.Item.JYHjyT95PO2RPIjE"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!tbsLpE5J4moo8KkN"
+}

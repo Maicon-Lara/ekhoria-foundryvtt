@@ -1,0 +1,50 @@
+{
+  "folder": "WhZxLtkBfBRh2AUX",
+  "name": "Medo Como Ferramenta",
+  "type": "class_ability",
+  "_id": "QnWLM4VbqrQBZIUC",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Uma vez por combate, ao abater uma criatura, intimida automaticamente outras do mesmo tipo.</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!QnWLM4VbqrQBZIUC"
+}

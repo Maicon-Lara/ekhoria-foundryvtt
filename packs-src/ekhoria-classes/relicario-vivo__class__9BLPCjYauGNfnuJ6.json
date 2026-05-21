@@ -1,0 +1,125 @@
+{
+  "folder": "CeZeHfmZTAJdoj6G",
+  "name": "Relicário Vivo",
+  "type": "class",
+  "_id": "9BLPCjYauGNfnuJ6",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "flavor": "<p>Hospedeiro de uma entidade aprisionada em seu Corpo Estático. Exclusivo de Silentes.</p>",
+    "description": "<p>Apenas o Corpo Estático dos Silentes pode hospedar uma entidade sem ser destruído por ela. O Relicário Vivo conjura poder divino pagando com a própria vitalidade e, no auge, funde-se à entidade que carrega. Segue a progressão de Clérigo.</p>",
+    "hp": 8,
+    "high_level_hp_bonus": null,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas impactantes. Usar armas cortantes ou perfurantes faz o personagem perder o acesso às suas magias até cumprir uma penitência.",
+      "armors": "Pode usar todas as armaduras.",
+      "magic_items": "Pode usar itens mágicos compatíveis com a sua fé."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": [
+        "Silente"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 550000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.Hr5twR39yEA9OHX2",
+      "Compendium.ekhoria.ekhoria-classes.Item.yi9O8JSk6DKk5VyA",
+      "Compendium.ekhoria.ekhoria-classes.Item.WCChpP8hOq7ise39",
+      "Compendium.ekhoria.ekhoria-classes.Item.IXQ5GTe1mKIuFWA1",
+      "Compendium.ekhoria.ekhoria-classes.Item.LTRXSuVOkctg3U8e"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9BLPCjYauGNfnuJ6"
+}

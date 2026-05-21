@@ -1,0 +1,123 @@
+{
+  "folder": "N42isdSQQO4yzSIL",
+  "name": "Pugilista",
+  "type": "class",
+  "_id": "5W19mc7jjyG4dMwV",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "flavor": "<p>Mestre do combate desarmado e de armas pequenas e médias.</p>",
+    "description": "<p>O Pugilista transforma o próprio corpo em arma. Filiado a uma das escolas marciais de Ekhoria, golpeia com técnica e resiste como um campeão. Segue a progressão de Guerreiro.</p>",
+    "hp": 10,
+    "high_level_hp_bonus": null,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas pequenas e médias. Especialista em combate desarmado.",
+      "armors": "Pode usar todas as armaduras.",
+      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 600000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.OvGSa9qqeKwKFXnS",
+      "Compendium.ekhoria.ekhoria-classes.Item.buOqh9RrnsKhH7OJ",
+      "Compendium.ekhoria.ekhoria-classes.Item.Okj3HJ8vH2wXyR3E",
+      "Compendium.ekhoria.ekhoria-classes.Item.BaJBqhGMil2ZYFIN",
+      "Compendium.ekhoria.ekhoria-classes.Item.NZ2HrAQefazivzZa"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5W19mc7jjyG4dMwV"
+}

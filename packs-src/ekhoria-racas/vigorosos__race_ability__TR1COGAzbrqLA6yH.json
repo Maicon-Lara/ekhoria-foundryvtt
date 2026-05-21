@@ -1,0 +1,44 @@
+{
+  "folder": "UTXQb7pjDppJhpKB",
+  "name": "Vigorosos",
+  "type": "race_ability",
+  "_id": "TR1COGAzbrqLA6yH",
+  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "system": {
+    "description": "<p>Resistência incomum para o tamanho: +1 em qualquer JPC.</p>",
+    "xp": null,
+    "jp": {
+      "jpc": true,
+      "jpd": false,
+      "jps": false
+    },
+    "bonus_damage": 0,
+    "bonus_damage_condition": "none",
+    "bonus_damage_condition_2": "none",
+    "rogue_talent": "none",
+    "rogue_talent_2": "none",
+    "daily_uses": 0,
+    "natural_armor": 0,
+    "load_modifier": 0,
+    "max_load_override": 0,
+    "armor_weight_modifier": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!TR1COGAzbrqLA6yH"
+}

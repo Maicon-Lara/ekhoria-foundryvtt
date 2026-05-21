@@ -1,0 +1,42 @@
+{
+  "folder": "9epsW9yoIJMsv40f",
+  "name": "Nefilim",
+  "type": "race",
+  "_id": "0cx4QafLUASJSmpd",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Descendentes celestiais. Presença calmante. Incapazes de mentir.</p>",
+    "description": "<p>Os Nefilim descendem de seres celestiais. Irradiam uma serenidade involuntária e são fisicamente incapazes de proferir mentiras — um fardo tão grande quanto sua bênção de recuperação acelerada.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 0,
+    "infravision_notes": "",
+    "alignment_tendency": "ordeiro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.rKHw2qhDGD7nhuEG",
+      "Compendium.ekhoria.ekhoria-racas.Item.ns1EerQr6JaxI3Np",
+      "Compendium.ekhoria.ekhoria-racas.Item.3YKF9dyH1cx7urXW",
+      "Compendium.ekhoria.ekhoria-racas.Item.ecM3H4DuveZ79xbW"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0cx4QafLUASJSmpd"
+}

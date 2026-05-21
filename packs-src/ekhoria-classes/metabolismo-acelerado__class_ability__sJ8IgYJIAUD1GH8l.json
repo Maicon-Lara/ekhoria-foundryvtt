@@ -1,0 +1,50 @@
+{
+  "folder": "TG3m1fC4rmIEZzQ4",
+  "name": "Metabolismo Acelerado",
+  "type": "class_ability",
+  "_id": "sJ8IgYJIAUD1GH8l",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>+1 permanente em JPC e +2 contra venenos e vícios.</p>",
+    "level": 6,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!sJ8IgYJIAUD1GH8l"
+}

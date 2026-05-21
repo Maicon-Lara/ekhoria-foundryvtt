@@ -1,0 +1,44 @@
+{
+  "folder": "p4SBEurlsHeHx7Dj",
+  "name": "Graciosos",
+  "type": "race_ability",
+  "_id": "77eCalgsnJBtpwnX",
+  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "system": {
+    "description": "<p>Controlam o corpo com precisão sobrenatural: +1 em qualquer JPD.</p>",
+    "xp": null,
+    "jp": {
+      "jpc": false,
+      "jpd": true,
+      "jps": false
+    },
+    "bonus_damage": 0,
+    "bonus_damage_condition": "none",
+    "bonus_damage_condition_2": "none",
+    "rogue_talent": "none",
+    "rogue_talent_2": "none",
+    "daily_uses": 0,
+    "natural_armor": 0,
+    "load_modifier": 0,
+    "max_load_override": 0,
+    "armor_weight_modifier": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!77eCalgsnJBtpwnX"
+}

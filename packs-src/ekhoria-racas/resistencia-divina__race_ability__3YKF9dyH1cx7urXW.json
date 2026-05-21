@@ -1,0 +1,44 @@
+{
+  "folder": "9epsW9yoIJMsv40f",
+  "name": "Resistência Divina",
+  "type": "race_ability",
+  "_id": "3YKF9dyH1cx7urXW",
+  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "system": {
+    "description": "<p>Recebe +1 em uma Jogada de Proteção à sua escolha (JPD, JPC ou JPS), definida na criação do personagem.</p>",
+    "xp": null,
+    "jp": {
+      "jpc": false,
+      "jpd": false,
+      "jps": false
+    },
+    "bonus_damage": 0,
+    "bonus_damage_condition": "none",
+    "bonus_damage_condition_2": "none",
+    "rogue_talent": "none",
+    "rogue_talent_2": "none",
+    "daily_uses": 0,
+    "natural_armor": 0,
+    "load_modifier": 0,
+    "max_load_override": 0,
+    "armor_weight_modifier": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!3YKF9dyH1cx7urXW"
+}

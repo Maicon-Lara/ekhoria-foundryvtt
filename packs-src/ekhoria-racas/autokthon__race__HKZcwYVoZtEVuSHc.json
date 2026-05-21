@@ -1,0 +1,43 @@
+{
+  "folder": "mUQGAHy7KSyvh8ju",
+  "name": "Autokthon",
+  "type": "race",
+  "_id": "HKZcwYVoZtEVuSHc",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Constructos vivos animados por uma Pedra da Alma. Não dormem, não comem, não envelhecem.</p>",
+    "description": "<p>Os Autokthons são seres artificiais que ganharam vida e consciência através de uma Pedra da Alma (Hers'ta) incrustada em seu corpo. São incansáveis e imortais ao tempo, mas presos à fragilidade de seu núcleo vital.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 0,
+    "infravision_notes": "",
+    "alignment_tendency": "none",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.M0hsQ359YXGXIabG",
+      "Compendium.ekhoria.ekhoria-racas.Item.5cI28k3Dd3IenwOp",
+      "Compendium.ekhoria.ekhoria-racas.Item.iJCoZo7mYpGWslfD",
+      "Compendium.ekhoria.ekhoria-racas.Item.ARbOSV4gVyxiGiX6",
+      "Compendium.ekhoria.ekhoria-racas.Item.FrQBlYdFz5iDAVML"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!HKZcwYVoZtEVuSHc"
+}

@@ -2,9 +2,9 @@
   "id": "ekhoria",
   "title": "Ekhoria — Sourcebook Oficial",
   "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "13",
     "verified": "13"
   },
   "authors": [
@@ -19,8 +19,8 @@
         "type": "system",
         "manifest": "https://github.com/olddragoneditora/olddragon2e-foundryvtt/releases/latest/download/olddragon2e.json",
         "compatibility": {
-          "minimum": "1.0.0",
-          "verified": "2.0.0"
+          "minimum": "2.0.0",
+          "verified": "2.4.0"
         }
       }
     ]
@@ -29,23 +29,30 @@
     {
       "name": "ekhoria-classes",
       "label": "Ekhoria: Classes",
-      "path": "packs/ekhoria-classes.db",
+      "path": "packs/ekhoria-classes",
       "type": "Item",
       "system": "olddragon2e"
     },
     {
       "name": "ekhoria-racas",
       "label": "Ekhoria: Raças",
-      "path": "packs/ekhoria-racas.db",
+      "path": "packs/ekhoria-racas",
       "type": "Item",
       "system": "olddragon2e"
     },
     {
       "name": "ekhoria-journal",
       "label": "Ekhoria: Referência do Mestre",
-      "path": "packs/ekhoria-journal.db",
+      "path": "packs/ekhoria-journal",
       "type": "JournalEntry",
       "system": "olddragon2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Ekhoria",
+      "sorting": "m",
+      "packs": ["ekhoria-classes", "ekhoria-racas", "ekhoria-journal"]
     }
   ],
   "esmodules": ["ekhoria.js"],
@@ -59,5 +66,5 @@
   ],
   "url": "https://github.com/Maicon-Lara/ekhoria-foundryvtt",
   "manifest": "https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json",
-  "download": "https://github.com/Maicon-Lara/ekhoria-foundryvtt/archive/refs/tags/v0.1.0.zip"
+  "download": "https://github.com/Maicon-Lara/ekhoria-foundryvtt/archive/refs/tags/v0.2.0.zip"
 }

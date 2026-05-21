@@ -1,0 +1,50 @@
+{
+  "folder": "cv8mk2BseSPHf5DH",
+  "name": "Audiência",
+  "type": "class_ability",
+  "_id": "dC5L3NM6uXRmRptg",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Com 1–2 em 1d6 + mod. CAR, obtém uma audiência favorável que concede bônus em Teste de Reação.</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dC5L3NM6uXRmRptg"
+}

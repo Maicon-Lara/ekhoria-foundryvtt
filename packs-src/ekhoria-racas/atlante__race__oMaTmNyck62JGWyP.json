@@ -1,0 +1,43 @@
+{
+  "folder": "pARuNgxHhEmoWuYp",
+  "name": "Atlante",
+  "type": "race",
+  "_id": "oMaTmNyck62JGWyP",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Anfíbios ordeiros oriundos de civilizações abissais.</p>",
+    "description": "<p>Os Atlantes vêm das grandes civilizações que prosperam nas profundezas dos oceanos de Ekhoria. Ordeiros e letrados, carregam para a superfície a disciplina e o conhecimento de seu povo — mas dependem da água para sobreviver.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "Funciona tanto submersa quanto fora d'água.",
+    "alignment_tendency": "ordeiro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.9eVNsEH9lSdz6TV8",
+      "Compendium.ekhoria.ekhoria-racas.Item.nJ8l96NbV8dzKH2m",
+      "Compendium.ekhoria.ekhoria-racas.Item.DQ7bq8tIaYMLdCYx",
+      "Compendium.ekhoria.ekhoria-racas.Item.8sLCYopcQEqAJ5zC"
+    ],
+    "movement_swim": 12
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!oMaTmNyck62JGWyP"
+}
