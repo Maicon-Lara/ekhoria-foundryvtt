@@ -55,7 +55,7 @@
       "path": "lang/pt-BR.json"
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/Maicon-Lara/ekhoria-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json",
+  "download": "https://github.com/Maicon-Lara/ekhoria-foundryvtt/archive/refs/tags/v0.1.0.zip"
 }
