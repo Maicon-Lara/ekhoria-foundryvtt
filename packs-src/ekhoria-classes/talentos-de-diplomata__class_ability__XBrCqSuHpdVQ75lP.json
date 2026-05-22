@@ -5,12 +5,38 @@
   "_id": "XBrCqSuHpdVQ75lP",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos (Arrombar, Culturas, Furtividade, Decifrar, Dossiê) e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Carisma:</strong> recebe, no 1º nível, 1 ponto extra para cada ponto de modificador de Carisma.</p>",
+    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Carisma:</strong> recebe, no 1º nível, 1 ponto extra para cada ponto de modificador de Carisma.</p><p><em>Automação:</em> a ficha do OD2 calcula os pontos de talento por <strong>Destreza</strong>; no cenário Ekhoria o Diplomata usa <strong>Carisma</strong> — ajuste a alocação manualmente conforme o livro.</p>",
     "level": 1,
     "level3": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
     "level6": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
     "level10": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
-    "rogue_talents": [],
+    "rogue_talents": [
+      {
+        "key": "arrombar",
+        "name": "Arrombar",
+        "description": "Abrir trancas e fechaduras para acessar correspondências e documentos."
+      },
+      {
+        "key": "culturas",
+        "name": "Culturas",
+        "description": "Heráldica, linhagens, história e etiqueta."
+      },
+      {
+        "key": "furtividade",
+        "name": "Furtividade",
+        "description": "Mover-se sem ser notado."
+      },
+      {
+        "key": "decifrar",
+        "name": "Decifrar",
+        "description": "Códigos, idiomas e alfabetos antigos."
+      },
+      {
+        "key": "dossie",
+        "name": "Dossiê",
+        "description": "Rede de informações para obter dados comprometedores (evolui de 1–2 em 1d6 / 1d4 dias até 1–5 em 1d6 / 1d6 turnos)."
+      }
+    ],
     "daily_uses": {
       "1": 0,
       "2": 0,

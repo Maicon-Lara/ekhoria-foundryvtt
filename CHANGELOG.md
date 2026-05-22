@@ -4,6 +4,17 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.4.1] — 2026-05-22
+
+### Corrigido
+- **Talentos de Diplomata** e **Talentos de Caçador** agora usam a mecânica
+  nativa de talentos do OD2 (campo `rogue_talents` populado), fazendo a ficha
+  exibir o alocador de pontos por talento (base 2 + pontos por nível, máximo 5),
+  igual aos Talentos de Ladrão. Cada talento tem nome e descrição próprios.
+- Nota: o sistema calcula os pontos por **Destreza** (correto para o Voraz).
+  Para o **Diplomata**, que no livro usa **Carisma**, a alocação deve ser
+  ajustada manualmente — registrado na descrição da habilidade.
+
 ## [0.4.0] — 2026-05-22
 
 ### Adicionado

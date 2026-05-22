@@ -95,7 +95,7 @@ export function classAbilityDoc(ability, folderId, seedPrefix, sort) {
       level3: ability.level3 || "",
       level6: ability.level6 || "",
       level10: ability.level10 || "",
-      rogue_talents: [],
+      rogue_talents: ability.rogue_talents || [],
       daily_uses: dailyUses(ability),
     },
     effects: [],
