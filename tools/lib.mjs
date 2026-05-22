@@ -248,7 +248,7 @@ export function journalDoc(entry, sort) {
         _id: pid,
         title: { show: true, level: 1 },
         image: {},
-        text: { format: 1, content: `<div class="ekhoria-doc">${p.content}</div>` },
+        text: { format: 1, content: `<div class="odo-markdown">${p.content}</div>` },
         video: { controls: true, volume: 0.5 },
         src: null,
         system: {},

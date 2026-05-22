@@ -4,6 +4,16 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.4] — 2026-05-22
+
+### Corrigido
+- **Cabeçalhos dos Journals (de verdade desta vez).** O conteúdo passa a ser
+  envolvido na classe `odo-markdown` — a mesma que o sistema OD2 usa nos seus
+  próprios journals —, então os cabeçalhos herdam o estilo oficial (carmesim
+  legível) e as tabelas/listas ficam estilizadas como nos compêndios do sistema.
+  (A tentativa anterior com `.ekhoria-doc` não pegava porque o sistema só
+  estiliza cabeçalhos dentro de `.odo-markdown`.)
+
 ## [0.5.3] — 2026-05-22
 
 ### Corrigido
