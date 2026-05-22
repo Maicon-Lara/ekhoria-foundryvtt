@@ -1,14 +1,14 @@
 {
-  "folder": "qwznfq0SyyAkPjW0",
-  "name": "Bala de Chumbo (20)",
+  "folder": "bSbrvtHO0J8GVgE1",
+  "name": "Virote de Ônix",
   "type": "misc",
-  "_id": "aTyjpqSAcHdVZhAY",
-  "img": "icons/consumables/ammunition/3-bullets-lead-grey.webp",
+  "_id": "1IMooo5ID3OZSTXm",
+  "img": "icons/weapons/ammunition/bolt-feathered-glowing-white.webp",
   "system": {
-    "odo_id": "bala-de-chumbo-20",
-    "description": "<p>Munição comum para armas de fogo (pacote com 20). Variantes especiais e de cristal nas categorias Munições.</p>",
+    "odo_id": "virote-de-onix",
+    "description": "<p>+1d6 de dano mágico; cura 1d4 PV do atirador. <strong>Contra mortos-vivos:</strong> causa Exaustão.</p>",
     "quantity": 1,
-    "cost": "4 PO",
+    "cost": "50 PO",
     "weight_in_load": 0,
     "weight_in_grams": 0,
     "magic_item": false,
@@ -31,5 +31,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!aTyjpqSAcHdVZhAY"
+  "_key": "!items!1IMooo5ID3OZSTXm"
 }

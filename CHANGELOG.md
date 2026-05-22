@@ -4,6 +4,17 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.4.2] — 2026-05-22
+
+### Adicionado
+- **Materiais e Cristais** como itens no compêndio Arsenal: Prata, Bronze,
+  Mitral, Arkanita, Ônix, Centelha Solar e Erebo (efeitos em armadura/arma/arma
+  de fogo e multiplicador de custo).
+- **Munições Especiais**: Balas de Prata, de Ferro Frio e Perfurantes (Mitral).
+- **Munições de Cristal** (12): Flecha/Virote/Bala de Arcanita, Ônix, Centelha
+  Solar e Erebo, com dano extra, efeito e risco. A regra de Instabilidade de
+  Ressonância (só funcionam em armas mundanas) segue no journal de referência.
+
 ## [0.4.1] — 2026-05-22
 
 ### Corrigido

@@ -1,0 +1,35 @@
+{
+  "folder": "v3Mt2ihzyRubQDWT",
+  "name": "Erebo",
+  "type": "misc",
+  "_id": "UhdXUjrLGHY8ZjCd",
+  "img": "icons/commodities/gems/gem-faceted-octagon-purple.webp",
+  "system": {
+    "odo_id": "erebo",
+    "description": "<p>Cristal raro que consome magia. Em armaduras: ao passar na JP contra uma magia, o efeito é totalmente anulado (sem dano parcial). Em armas: o alvo atingido tem a próxima magia que conjurar absorvida. Em armas mágicas: reduz o bônus em −1 por dia até ser removido. <strong>Custo: ×7 o valor base.</strong></p>",
+    "quantity": 1,
+    "cost": "",
+    "weight_in_load": 0,
+    "weight_in_grams": 0,
+    "magic_item": false,
+    "is_equipped": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!UhdXUjrLGHY8ZjCd"
+}
