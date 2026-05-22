@@ -6,7 +6,6 @@ const paginas = [
   {
     title: "Classes de Ekhoria",
     content: `
-<h1>Classes de Ekhoria</h1>
 <p>As 8 classes a seguir são <strong>Especializações</strong> exclusivas do cenário. Cada uma herda o BA/JP de um arquétipo base do OD2, mas usa uma tabela de XP de Especialista própria. As fichas completas (com habilidades por nível) estão no compêndio <strong>Ekhoria: Classes</strong>.</p>
 <table>
 <thead><tr><th>Classe</th><th>Especialização de</th><th>DV</th><th>Restrição</th></tr></thead>
@@ -27,7 +26,6 @@ const paginas = [
   {
     title: "Raças de Ekhoria",
     content: `
-<h1>Raças de Ekhoria</h1>
 <p>O cenário apresenta 7 raças com mecânica própria (compêndio <strong>Ekhoria: Raças</strong>). As raças base do OD2 (Humano, Elfo, Anão, Halfling, Meio-Elfo, Gnomo) recebem apenas <em>lore</em> no livro de Ekhoria e usam a mecânica do Livro de Regras Básicas do OD2.</p>
 <table>
 <thead><tr><th>Raça</th><th>Movimento</th><th>Infravisão</th><th>Alinhamento</th></tr></thead>
@@ -46,7 +44,6 @@ const paginas = [
   {
     title: "Exclusividades e Observações de Conversão",
     content: `
-<h1>Exclusividades e Observações de Conversão</h1>
 
 <h2>Restrições de classe por raça/origem</h2>
 <ul>
@@ -66,7 +63,6 @@ const paginas = [
   {
     title: "Arsenal — Materiais, Cristais e Regras",
     content: `
-<h1>Arsenal — Materiais, Cristais e Regras</h1>
 
 <h2>Metais Especiais</h2>
 <ul>

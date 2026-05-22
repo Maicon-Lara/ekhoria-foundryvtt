@@ -35,3 +35,47 @@
   margin-bottom: 6px;
   line-height: 1.5;
 }
+
+/* ================================================
+   Conteúdo de Journal do Ekhoria (.ekhoria-doc)
+   Cabeçalhos legíveis sobre fundo claro — escopado
+   para não afetar journals de outros módulos.
+   ================================================ */
+.ekhoria-doc h1 {
+  color: #7a2129 !important;
+  border-bottom: 2px solid #c47a2a;
+  padding-bottom: 4px;
+  margin-top: 0.4em;
+}
+.ekhoria-doc h2 {
+  color: #7a3e1a !important;
+  border-bottom: 1px solid #c9a36a;
+  padding-bottom: 3px;
+  margin-top: 0.8em;
+}
+.ekhoria-doc h3,
+.ekhoria-doc h4 {
+  color: #8a4a20 !important;
+}
+.ekhoria-doc blockquote {
+  border-left: 3px solid #c47a2a;
+  margin-left: 0;
+  padding: 2px 0 2px 12px;
+  font-style: italic;
+  color: #4a4a4a;
+}
+.ekhoria-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 8px 0;
+}
+.ekhoria-doc th {
+  background: #7a3e1a;
+  color: #f5e6c8;
+  padding: 4px 8px;
+  text-align: left;
+}
+.ekhoria-doc td {
+  border: 1px solid #c9a36a;
+  padding: 4px 8px;
+}

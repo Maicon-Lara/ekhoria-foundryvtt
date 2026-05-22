@@ -4,6 +4,17 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.3] — 2026-05-22
+
+### Corrigido
+- **Legibilidade dos cabeçalhos nos Journals.** Os títulos das seções ficavam
+  numa cor clara (herdada do tema do sistema), quase invisíveis no fundo branco.
+  O conteúdo dos journals do Ekhoria agora é envolvido em `.ekhoria-doc` e
+  estilizado no ekhoria.css com cabeçalhos legíveis (escopado, sem afetar
+  journals de outros módulos). Também estiliza tabelas e citações.
+- Removido o título `<h1>` duplicado dentro das páginas de referência (o nome da
+  página já é exibido pelo Foundry).
+
 ## [0.5.2] — 2026-05-22
 
 ### Adicionado
