@@ -5,14 +5,14 @@
   "_id": "GMQZLqc2EDVO3i4k",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Especialista em negociação, influência social e redes de contato.</p>",
-    "description": "<p>O Diplomata vence pela palavra onde outros falham pela espada. Mestre da reação e da persuasão, lidera comitivas e tece redes de informantes. Segue a progressão de Ladrão.</p>",
+    "flavor": "<p>O Arquiteto de Segredos e Alianças. Especialização de Ladrão.</p>",
+    "description": "<p>O Diplomata parece negociar, mas o que realmente faz é controlar informação: decide o que cada um sabe, pensa que sabe e nunca vai descobrir. É especialização de Ladrão porque rouba — apenas com palavras, sorrisos e o timing perfeito. Perde Ataque Furtivo; os Talentos de Diplomata substituem os Talentos de Ladrão.</p>",
     "hp": 6,
-    "high_level_hp_bonus": null,
+    "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Apenas armas pequenas ou médias. Armas grandes geram ataques difíceis.",
-      "armors": "Apenas armaduras leves. Escudos e armaduras médias ou pesadas impedem o uso das habilidades de classe e protegem apenas metade da CA normal.",
-      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+      "weapons": "Apenas armas pequenas ou médias.",
+      "armors": "Apenas armaduras leves.",
+      "magic_items": "Pode utilizar pergaminhos mágicos como se tivesse metade do seu nível."
     },
     "restrictions": {
       "alignments": [],
@@ -26,80 +26,82 @@
       "2": {
         "ba": 1,
         "jp": 5,
-        "xp": 1000
+        "xp": 1500
       },
       "3": {
         "ba": 2,
         "jp": 5,
-        "xp": 2000
+        "xp": 3000
       },
       "4": {
         "ba": 2,
         "jp": 5,
-        "xp": 4000
+        "xp": 5500
       },
       "5": {
         "ba": 3,
         "jp": 8,
-        "xp": 7000
+        "xp": 8500
       },
       "6": {
         "ba": 3,
         "jp": 8,
-        "xp": 14000
+        "xp": 17000
       },
       "7": {
         "ba": 4,
         "jp": 8,
-        "xp": 24000
+        "xp": 27000
       },
       "8": {
         "ba": 4,
         "jp": 8,
-        "xp": 34000
+        "xp": 37000
       },
       "9": {
         "ba": 5,
         "jp": 11,
-        "xp": 44000
+        "xp": 47000
       },
       "10": {
         "ba": 5,
         "jp": 11,
-        "xp": 88000
+        "xp": 94000
       },
       "11": {
         "ba": 6,
         "jp": 11,
-        "xp": 180000
+        "xp": 190000
       },
       "12": {
         "ba": 6,
         "jp": 11,
-        "xp": 260000
+        "xp": 280000
       },
       "13": {
         "ba": 7,
         "jp": 14,
-        "xp": 340000
+        "xp": 370000
       },
       "14": {
         "ba": 7,
         "jp": 14,
-        "xp": 420000
+        "xp": 460000
       },
       "15": {
         "ba": 8,
         "jp": 14,
-        "xp": 500000
+        "xp": 550000
       }
     },
     "class_abilities": [
       "Compendium.ekhoria.ekhoria-classes.Item.kNCaeO3SnSwa3FJQ",
       "Compendium.ekhoria.ekhoria-classes.Item.wPIoIZEfYtDpCapQ",
+      "Compendium.ekhoria.ekhoria-classes.Item.XBrCqSuHpdVQ75lP",
       "Compendium.ekhoria.ekhoria-classes.Item.dC5L3NM6uXRmRptg",
       "Compendium.ekhoria.ekhoria-classes.Item.mHSwGXAf6n7WLdLw",
-      "Compendium.ekhoria.ekhoria-classes.Item.m1XKo7w6H7TCHwUq"
+      "Compendium.ekhoria.ekhoria-classes.Item.m1XKo7w6H7TCHwUq",
+      "Compendium.ekhoria.ekhoria-classes.Item.97YOifhRM5rA6Q0P"
     ]
   },
   "effects": [],

@@ -1,0 +1,50 @@
+{
+  "folder": "N42isdSQQO4yzSIL",
+  "name": "Bom de Briga (Técnica Desarmada)",
+  "type": "class_ability",
+  "_id": "xi4EXkDbVRlLQEsr",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Ao lutar desarmado, não sofre penalidade de Ataque Difícil nem concede Ataque Fácil a inimigos armados. <strong>Dano Letal:</strong> ataques desarmados causam 2 + modificador de Força de dano de impacto, em vez de apenas nocautear.</p>",
+    "level": 1,
+    "level3": "<p>O dano desarmado aumenta para 1d4 + Força.</p>",
+    "level6": "",
+    "level10": "<p>O dano desarmado aumenta para 1d6 + Força.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!xi4EXkDbVRlLQEsr"
+}

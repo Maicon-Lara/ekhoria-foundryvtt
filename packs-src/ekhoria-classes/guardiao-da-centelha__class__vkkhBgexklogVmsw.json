@@ -5,101 +5,101 @@
   "_id": "vkkhBgexklogVmsw",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Elite militar de Cinthara, armada com cristais de combate.</p>",
-    "description": "<p>Os Guardiões da Centelha são a tropa de elite de Cinthara, treinada no uso de cristais de combate que disparam rajadas de energia. Combinam disciplina marcial com poder de fogo cristalino. Seguem a progressão de Guerreiro.</p>",
-    "hp": 10,
-    "high_level_hp_bonus": null,
+    "flavor": "<p>A Elite Tecnomanufaturada de Cinthara. Especialização de Mago (anões-magos), de alinhamento Ordeiro.</p>",
+    "description": "<p>Em Cinthara, onde engenharia é religião, os Guardiões da Centelha tratam magia como engenharia: cada feitiço tem custo calculado e margem de erro aceitável. Dominam os Cristais de Centelha como outros magos dominam componentes arcanos. Devem representar a cultura de Cinthara e ter alinhamento Ordeiro. Conjuram magias arcanas até o 5º círculo e mantêm Ler Magias e Detectar Magias.</p>",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Pode usar todas as armas.",
-      "armors": "Pode usar todas as armaduras.",
-      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+      "weapons": "Apenas armas pequenas. Armas médias ou grandes impõem Ataque Difícil.",
+      "armors": "Não pode usar armaduras nem escudos; se o fizer, perde a conjuração de magias e recebe apenas metade da CA.",
+      "magic_items": "Pode utilizar todos os tipos de itens mágicos."
     },
     "restrictions": {
-      "alignments": [],
+      "alignments": [
+        "ordeiro"
+      ],
       "races": []
     },
     "levels": {
       "1": {
-        "ba": 1,
+        "ba": 0,
         "jp": 5
       },
       "2": {
-        "ba": 2,
+        "ba": 1,
         "jp": 5,
-        "xp": 2000
+        "xp": 3000
       },
       "3": {
-        "ba": 3,
-        "jp": 6,
-        "xp": 4000
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
       },
       "4": {
-        "ba": 4,
-        "jp": 6,
-        "xp": 7000
-      },
-      "5": {
-        "ba": 5,
-        "jp": 8,
+        "ba": 1,
+        "jp": 5,
         "xp": 10000
       },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
       "6": {
-        "ba": 6,
-        "jp": 8,
-        "xp": 20000
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
       },
       "7": {
-        "ba": 7,
-        "jp": 10,
-        "xp": 30000
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
       },
       "8": {
-        "ba": 8,
-        "jp": 10,
-        "xp": 40000
+        "ba": 3,
+        "jp": 7,
+        "xp": 45000
       },
       "9": {
-        "ba": 9,
-        "jp": 11,
-        "xp": 50000
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
       },
       "10": {
-        "ba": 10,
-        "jp": 11,
-        "xp": 100000
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
       },
       "11": {
-        "ba": 11,
-        "jp": 13,
-        "xp": 200000
+        "ba": 4,
+        "jp": 10,
+        "xp": 190000
       },
       "12": {
-        "ba": 12,
-        "jp": 13,
-        "xp": 300000
+        "ba": 4,
+        "jp": 10,
+        "xp": 280000
       },
       "13": {
-        "ba": 13,
-        "jp": 14,
-        "xp": 400000
+        "ba": 4,
+        "jp": 10,
+        "xp": 370000
       },
       "14": {
-        "ba": 14,
-        "jp": 14,
-        "xp": 500000
+        "ba": 4,
+        "jp": 13,
+        "xp": 460000
       },
       "15": {
-        "ba": 15,
-        "jp": 16,
-        "xp": 600000
+        "ba": 5,
+        "jp": 13,
+        "xp": 550000
       }
     },
     "class_abilities": [
-      "Compendium.ekhoria.ekhoria-classes.Item.ljnNwTibb0EbPSXx",
-      "Compendium.ekhoria.ekhoria-classes.Item.kF43PAns0MmYmtxP",
-      "Compendium.ekhoria.ekhoria-classes.Item.cRudUA3NRYyiSOvu",
-      "Compendium.ekhoria.ekhoria-classes.Item.BNf6oy4i2P3LrtOV",
-      "Compendium.ekhoria.ekhoria-classes.Item.MYry3hVjj6HpOfSP"
+      "Compendium.ekhoria.ekhoria-classes.Item.ELtcGgGDlkXExhCp",
+      "Compendium.ekhoria.ekhoria-classes.Item.j5OW7ZCsdznybgx8",
+      "Compendium.ekhoria.ekhoria-classes.Item.ZthzfySeHG79NnuU"
     ]
   },
   "effects": [],

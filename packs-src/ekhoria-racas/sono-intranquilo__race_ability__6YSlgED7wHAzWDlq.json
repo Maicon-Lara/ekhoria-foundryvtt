@@ -5,7 +5,7 @@
   "_id": "6YSlgED7wHAzWDlq",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Dormem apenas 4 horas por ciclo, recuperando 1d2+1 PV por descanso.</p>",
+    "description": "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Varkos ainda precisam de 8 horas para recuperar magias.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

@@ -1,0 +1,50 @@
+{
+  "folder": "caKAwnjDegRGXR3R",
+  "name": "Domínio da Centelha",
+  "type": "class_ability",
+  "_id": "j5OW7ZCsdznybgx8",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Enquanto estiver de posse do Cristal, conjura automaticamente uma vez por dia, sem memorização, uma das magias: <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>.</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "<p>A conjuração dessa magia passa a exigir apenas 1 ação de movimento.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!j5OW7ZCsdznybgx8"
+}

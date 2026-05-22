@@ -5,7 +5,7 @@
   "_id": "rR2fdjTI4Y7z0dID",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Uma vez por ano, o Mantes passa 1 dia imóvel trocando o exoesqueleto. Ao final, recupera todos os PV, remove venenos e doenças crônicas e restaura membros perdidos não vitais.</p>",
+    "description": "<p>Uma vez ao ano realizam a muda do exoesqueleto: 1 dia inteiro imóvel. Após a muda, o novo exoesqueleto leva 10 dias para enrijecer — período em que o Mantes perde a habilidade Exoesqueleto. O Mestre determina quando ocorre.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

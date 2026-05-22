@@ -5,7 +5,7 @@
   "_id": "dtXjGeUxvUcQAbfW",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Só podem usar armas pequenas e médias. Sob luz forte, todas as suas ações são consideradas Difíceis.</p>",
+    "description": "<p>Não podem usar armas grandes e só usam uma arma média com as duas mãos. Sob sol ou luz forte, todos os testes e Jogadas de Proteção são realizados com ajuste Difícil.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

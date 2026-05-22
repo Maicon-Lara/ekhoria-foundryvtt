@@ -1,0 +1,50 @@
+{
+  "folder": "CeZeHfmZTAJdoj6G",
+  "name": "Consagrar os Esquecidos",
+  "type": "class_ability",
+  "_id": "DmfBkFcQtkI2tquk",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Brandindo seu símbolo sagrado, submete mortos-vivos a até 18 metros que falharem em Teste de Moral; eles obedecem a comandos simples por 1d6 rodadas. Controle Total: se o morto-vivo falhar com dados iguais (dois 4, dois 5 ou dois 6), permanece sob controle total até o próximo amanhecer. Uma vez por dia.</p>",
+    "level": 1,
+    "level3": "<p>+1 no teste e duas vezes por dia.</p>",
+    "level6": "",
+    "level10": "<p>+2 no teste e três vezes por dia.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!DmfBkFcQtkI2tquk"
+}

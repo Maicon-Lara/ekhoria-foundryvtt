@@ -5,21 +5,20 @@
   "_id": "HKZcwYVoZtEVuSHc",
   "img": "icons/environment/people/group.webp",
   "system": {
-    "flavor": "<p>Constructos vivos animados por uma Pedra da Alma. Não dormem, não comem, não envelhecem.</p>",
-    "description": "<p>Os Autokthons são seres artificiais que ganharam vida e consciência através de uma Pedra da Alma (Hers'ta) incrustada em seu corpo. São incansáveis e imortais ao tempo, mas presos à fragilidade de seu núcleo vital.</p>",
+    "flavor": "<p>Constructos que não deveriam existir — mas existem. Animados por uma Pedra da Alma.</p>",
+    "description": "<p>No centro de cada Autokthon há uma Pedra da Alma gravada com runas que apenas outros Autokthons leem — e apenas parcialmente. Sem ela, o Autokthon é objeto inanimado; destruí-la o mata instantaneamente, removê-la induz coma. Não há dois iguais: variam em material (metal, madeira, pedra, cristal), tamanho e forma. Não dormem, não comem, não envelhecem — e carregam para sempre a pergunta de quem os criou.</p>",
     "movement": 9,
     "movement_fly": 0,
     "movement_notes": "",
-    "infravision": 0,
+    "infravision": 30,
     "infravision_notes": "",
-    "alignment_tendency": "none",
-    "alignment_notes": "",
+    "alignment_tendency": "neutro",
+    "alignment_notes": "Tendem ao Neutro ou ao Ordeiro.",
     "race_abilities": [
-      "Compendium.ekhoria.ekhoria-racas.Item.M0hsQ359YXGXIabG",
       "Compendium.ekhoria.ekhoria-racas.Item.5cI28k3Dd3IenwOp",
-      "Compendium.ekhoria.ekhoria-racas.Item.iJCoZo7mYpGWslfD",
-      "Compendium.ekhoria.ekhoria-racas.Item.ARbOSV4gVyxiGiX6",
-      "Compendium.ekhoria.ekhoria-racas.Item.FrQBlYdFz5iDAVML"
+      "Compendium.ekhoria.ekhoria-racas.Item.Tm9UiD4ycziyELzr",
+      "Compendium.ekhoria.ekhoria-racas.Item.FrQBlYdFz5iDAVML",
+      "Compendium.ekhoria.ekhoria-racas.Item.c8GmJKvlqPB8gllj"
     ]
   },
   "effects": [],

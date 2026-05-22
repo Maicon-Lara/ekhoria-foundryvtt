@@ -5,14 +5,14 @@
   "_id": "5W19mc7jjyG4dMwV",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Mestre do combate desarmado e de armas pequenas e médias.</p>",
-    "description": "<p>O Pugilista transforma o próprio corpo em arma. Filiado a uma das escolas marciais de Ekhoria, golpeia com técnica e resiste como um campeão. Segue a progressão de Guerreiro.</p>",
+    "flavor": "<p>A Arma Viva da Resistência Inquebrável. Especialização de Guerreiro.</p>",
+    "description": "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe uma das Três Escolas — Mãos de Ferro (Benellikov), Dança do Vento (Yorugan) ou Punhos do Vale (Vale da Águia) — que muda o estilo e os códigos, mas não as habilidades mecânicas. Perde Aparar, mantém Maestria em Arma.</p>",
     "hp": 10,
-    "high_level_hp_bonus": null,
+    "high_level_hp_bonus": 2,
     "equipment_restrictions": {
-      "weapons": "Apenas armas pequenas e médias. Especialista em combate desarmado.",
-      "armors": "Pode usar todas as armaduras.",
-      "magic_items": "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção."
+      "weapons": "Pode usar armas pequenas e médias. Armas grandes impõem Ataque Difícil.",
+      "armors": "Pode usar apenas armaduras leves.",
+      "magic_items": "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção."
     },
     "restrictions": {
       "alignments": [],
@@ -26,80 +26,81 @@
       "2": {
         "ba": 2,
         "jp": 5,
-        "xp": 2000
+        "xp": 2500
       },
       "3": {
         "ba": 3,
         "jp": 6,
-        "xp": 4000
+        "xp": 5000
       },
       "4": {
         "ba": 4,
         "jp": 6,
-        "xp": 7000
+        "xp": 8500
       },
       "5": {
         "ba": 5,
         "jp": 8,
-        "xp": 10000
+        "xp": 11500
       },
       "6": {
         "ba": 6,
         "jp": 8,
-        "xp": 20000
+        "xp": 23000
       },
       "7": {
         "ba": 7,
         "jp": 10,
-        "xp": 30000
+        "xp": 33000
       },
       "8": {
         "ba": 8,
         "jp": 10,
-        "xp": 40000
+        "xp": 43000
       },
       "9": {
         "ba": 9,
         "jp": 11,
-        "xp": 50000
+        "xp": 53000
       },
       "10": {
         "ba": 10,
         "jp": 11,
-        "xp": 100000
+        "xp": 106000
       },
       "11": {
         "ba": 11,
         "jp": 13,
-        "xp": 200000
+        "xp": 210000
       },
       "12": {
         "ba": 12,
         "jp": 13,
-        "xp": 300000
+        "xp": 320000
       },
       "13": {
         "ba": 13,
         "jp": 14,
-        "xp": 400000
+        "xp": 430000
       },
       "14": {
         "ba": 14,
         "jp": 14,
-        "xp": 500000
+        "xp": 540000
       },
       "15": {
         "ba": 15,
         "jp": 16,
-        "xp": 600000
+        "xp": 650000
       }
     },
     "class_abilities": [
       "Compendium.ekhoria.ekhoria-classes.Item.OvGSa9qqeKwKFXnS",
-      "Compendium.ekhoria.ekhoria-classes.Item.buOqh9RrnsKhH7OJ",
-      "Compendium.ekhoria.ekhoria-classes.Item.Okj3HJ8vH2wXyR3E",
-      "Compendium.ekhoria.ekhoria-classes.Item.BaJBqhGMil2ZYFIN",
-      "Compendium.ekhoria.ekhoria-classes.Item.NZ2HrAQefazivzZa"
+      "Compendium.ekhoria.ekhoria-classes.Item.xi4EXkDbVRlLQEsr",
+      "Compendium.ekhoria.ekhoria-classes.Item.uwKELFTdGSFOWsLq",
+      "Compendium.ekhoria.ekhoria-classes.Item.DPEDZl7b65tNYHMi",
+      "Compendium.ekhoria.ekhoria-classes.Item.Ize8jTAvT0Mv0YVv",
+      "Compendium.ekhoria.ekhoria-classes.Item.8BfgycxqUYg0q9zt"
     ]
   },
   "effects": [],

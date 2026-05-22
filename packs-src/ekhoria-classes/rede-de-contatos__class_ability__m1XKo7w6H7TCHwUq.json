@@ -5,7 +5,7 @@
   "_id": "m1XKo7w6H7TCHwUq",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Com um teste de Carisma, aciona 1d4 contatos que fornecem informações obscuras.</p>",
+    "description": "<p>Mediante teste de Carisma, 1d4 contatos fornecem informações obscuras ou relatos de eventos distantes.</p>",
     "level": 10,
     "level3": "",
     "level6": "",
@@ -21,12 +21,12 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 1,
-      "11": 1,
-      "12": 1,
-      "13": 1,
-      "14": 1,
-      "15": 1
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
     }
   },
   "effects": [],
@@ -42,7 +42,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 600000,
   "ownership": {
     "default": 0
   },

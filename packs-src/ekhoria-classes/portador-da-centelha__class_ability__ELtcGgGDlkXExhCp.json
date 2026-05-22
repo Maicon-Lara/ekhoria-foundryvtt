@@ -1,0 +1,50 @@
+{
+  "folder": "caKAwnjDegRGXR3R",
+  "name": "Portador da Centelha",
+  "type": "class_ability",
+  "_id": "ELtcGgGDlkXExhCp",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Recebe 1 Cristal de Centelha, anexado a um objeto à escolha, concedendo um benefício: <strong>Arma</strong> (+1 no BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "<p>O bônus concedido passa a ser igual ao modificador de Inteligência (mínimo +1).</p>",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ELtcGgGDlkXExhCp"
+}

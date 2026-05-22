@@ -5,7 +5,7 @@
   "_id": "sJ8IgYJIAUD1GH8l",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>+1 permanente em JPC e +2 contra venenos e vícios.</p>",
+    "description": "<p><strong>Resiliência:</strong> +1 permanente em JPC, mais +2 adicionais em JPC para resistir a venenos e vício. <strong>Maestria em Dosagem:</strong> usa 1 fungo por dia sem teste de vício. <strong>Supressão de Dor (Nargula):</strong> ignora penalidades de movimento por ferimentos, fadiga, fome ou frio por 2d6+6 horas.</p>",
     "level": 6,
     "level3": "",
     "level6": "",
@@ -42,7 +42,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },

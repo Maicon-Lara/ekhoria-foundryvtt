@@ -1,0 +1,50 @@
+{
+  "folder": "CeZeHfmZTAJdoj6G",
+  "name": "Oferenda Reliquial",
+  "type": "class_ability",
+  "_id": "boR0O5hLNKgTfX8Y",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Troca uma magia memorizada por <em>Causar Ferimentos</em> (1º círculo), causando 1d8 de dano mágico por toque. Mortos-vivos são curados por esse efeito, incluindo o próprio Relicário.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "<p>Pode usar <em>Causar Ferimentos</em> de 3º círculo: até 2d8 de dano.</p>",
+    "level10": "<p>Pode usar <em>Causar Ferimentos</em> de 5º círculo: até 3d8 de dano.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!boR0O5hLNKgTfX8Y"
+}

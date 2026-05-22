@@ -5,8 +5,8 @@
   "_id": "aFXFyVAHcD4RGbMi",
   "img": "icons/environment/people/group.webp",
   "system": {
-    "flavor": "<p>Insectoides de exoesqueleto rígido e membros extras.</p>",
-    "description": "<p>Os Mantes são uma raça insectoide de movimentos precisos e graciosos. Seu exoesqueleto dispensa armaduras e seus membros adicionais lhes conferem vantagem em combate. A muda anual (Ecdise) renova seu corpo por completo.</p>",
+    "flavor": "<p>Caçadores insectoides de exoesqueleto rígido e quatro braços, vindos das Areias Esquecidas.</p>",
+    "description": "<p>Ninguém sabe de onde vieram os Mantes — nem eles. Entre dois e dois metros e quarenta, com cabeça triangular de olhos compostos, antenas sensoriais, mandíbulas em pinça e quatro braços de coordenação independente. Comunicam emoções por feromônios, o que outras raças confundem com frieza. Vivem em clãs nômades do deserto, leais até a morte.</p>",
     "movement": 9,
     "movement_fly": 0,
     "movement_notes": "",

@@ -5,7 +5,7 @@
   "_id": "AQRca7rDN11bXH00",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Combina os efeitos de dois Fungos do Degelo simultaneamente.</p>",
+    "description": "<p>Consome dois Fungos do Degelo diferentes simultaneamente. O risco de vício da dose combinada aumenta em +1, e a duração de qualquer exaustão ou penalidade pós-efeito dos fungos é dobrada.</p>",
     "level": 3,
     "level3": "",
     "level6": "",
@@ -42,7 +42,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },

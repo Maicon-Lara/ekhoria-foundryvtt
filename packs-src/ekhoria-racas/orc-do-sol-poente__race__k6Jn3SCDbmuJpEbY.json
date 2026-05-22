@@ -5,15 +5,15 @@
   "_id": "k6Jn3SCDbmuJpEbY",
   "img": "icons/environment/people/group.webp",
   "system": {
-    "flavor": "<p>Orcs disciplinados e refinados, herdeiros de uma tradição marcial. Tendem à Ordem.</p>",
-    "description": "<p>Diferentemente dos orcs selvagens, os Orcs do Sol Poente cultivaram uma cultura de disciplina, técnica e honra marcial. São combatentes metódicos e resilientes em longas marchas.</p>",
+    "flavor": "<p>Orcs disciplinados e refinados de um império marcial e filosófico. A força que se contém.</p>",
+    "description": "<p>Diferentemente dos orcs selvagens do ocidente, os Orcs do Sol Poente cultivaram uma cultura onde intelectual e guerreiro são a mesma pessoa. Movem-se com controle deliberado e econômico; sua musculatura é funcional, não de demonstração. Vivem segundo três pilares: Força Contida, Ordem e Disciplina, e Dever ao Coletivo.</p>",
     "movement": 9,
     "movement_fly": 0,
     "movement_notes": "",
     "infravision": 18,
     "infravision_notes": "",
     "alignment_tendency": "ordeiro",
-    "alignment_notes": "",
+    "alignment_notes": "Tendem ao Ordeiro, embora o Neutro seja igualmente comum entre os que passaram tempo fora do Império.",
     "race_abilities": [
       "Compendium.ekhoria.ekhoria-racas.Item.9bnZbVw5WTu13QPD",
       "Compendium.ekhoria.ekhoria-racas.Item.douqL6SRACtyBdZA",

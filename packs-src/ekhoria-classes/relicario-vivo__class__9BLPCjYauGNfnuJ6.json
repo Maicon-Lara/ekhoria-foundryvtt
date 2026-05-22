@@ -5,14 +5,14 @@
   "_id": "9BLPCjYauGNfnuJ6",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Hospedeiro de uma entidade aprisionada em seu Corpo Estático. Exclusivo de Silentes.</p>",
-    "description": "<p>Apenas o Corpo Estático dos Silentes pode hospedar uma entidade sem ser destruído por ela. O Relicário Vivo conjura poder divino pagando com a própria vitalidade e, no auge, funde-se à entidade que carrega. Segue a progressão de Clérigo.</p>",
+    "flavor": "<p>A Unidade Insurgente de Breônia. Especialização de Clérigo, exclusiva de Silentes.</p>",
+    "description": "<p>Agente oficialmente negável do Conselho de Ônix, o Relicário Vivo existe nas sombras de outras nações — observador silencioso e eliminador de ameaças que Breônia jamais admitirá ter enviado. Apenas um Silente pode trilhar esse caminho. Após o Juramento do Vazio, se capturado ou morto, Breônia negará conhecê-lo — embora seu nome esteja gravado em ônix nos Arquivos Silenciosos.</p>",
     "hp": 8,
-    "high_level_hp_bonus": null,
+    "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Apenas armas impactantes. Usar armas cortantes ou perfurantes faz o personagem perder o acesso às suas magias até cumprir uma penitência.",
+      "weapons": "Só pode usar armas cortantes.",
       "armors": "Pode usar todas as armaduras.",
-      "magic_items": "Pode usar itens mágicos compatíveis com a sua fé."
+      "magic_items": "Apenas itens mágicos caóticos. Itens ordeiros nunca funcionam."
     },
     "restrictions": {
       "alignments": [],
@@ -28,80 +28,81 @@
       "2": {
         "ba": 1,
         "jp": 5,
-        "xp": 1500
+        "xp": 2000
       },
       "3": {
         "ba": 1,
         "jp": 5,
-        "xp": 3000
+        "xp": 4000
       },
       "4": {
         "ba": 3,
         "jp": 7,
-        "xp": 5500
+        "xp": 7000
       },
       "5": {
         "ba": 3,
         "jp": 7,
-        "xp": 8500
+        "xp": 10000
       },
       "6": {
         "ba": 3,
         "jp": 7,
-        "xp": 17000
+        "xp": 20000
       },
       "7": {
         "ba": 5,
         "jp": 9,
-        "xp": 27000
+        "xp": 30000
       },
       "8": {
         "ba": 5,
         "jp": 9,
-        "xp": 37000
+        "xp": 40000
       },
       "9": {
         "ba": 5,
         "jp": 9,
-        "xp": 47000
+        "xp": 50000
       },
       "10": {
         "ba": 7,
         "jp": 11,
-        "xp": 94000
+        "xp": 100000
       },
       "11": {
         "ba": 7,
         "jp": 11,
-        "xp": 190000
+        "xp": 200000
       },
       "12": {
         "ba": 7,
         "jp": 11,
-        "xp": 280000
+        "xp": 300000
       },
       "13": {
         "ba": 9,
         "jp": 13,
-        "xp": 370000
+        "xp": 400000
       },
       "14": {
         "ba": 9,
         "jp": 13,
-        "xp": 460000
+        "xp": 500000
       },
       "15": {
         "ba": 9,
         "jp": 13,
-        "xp": 550000
+        "xp": 600000
       }
     },
     "class_abilities": [
-      "Compendium.ekhoria.ekhoria-classes.Item.Hr5twR39yEA9OHX2",
-      "Compendium.ekhoria.ekhoria-classes.Item.yi9O8JSk6DKk5VyA",
-      "Compendium.ekhoria.ekhoria-classes.Item.WCChpP8hOq7ise39",
-      "Compendium.ekhoria.ekhoria-classes.Item.IXQ5GTe1mKIuFWA1",
-      "Compendium.ekhoria.ekhoria-classes.Item.LTRXSuVOkctg3U8e"
+      "Compendium.ekhoria.ekhoria-classes.Item.rfNJTN1T8k7NjYcH",
+      "Compendium.ekhoria.ekhoria-classes.Item.DmfBkFcQtkI2tquk",
+      "Compendium.ekhoria.ekhoria-classes.Item.boR0O5hLNKgTfX8Y",
+      "Compendium.ekhoria.ekhoria-classes.Item.r4M1uF7rrlkWQDgU",
+      "Compendium.ekhoria.ekhoria-classes.Item.7WpyxFiPYS2DZwaO",
+      "Compendium.ekhoria.ekhoria-classes.Item.RWUEWraCqXb6rLaU"
     ]
   },
   "effects": [],

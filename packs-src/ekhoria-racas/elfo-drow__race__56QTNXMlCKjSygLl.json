@@ -1,0 +1,43 @@
+{
+  "folder": "hgDQJyoQNwza0RGL",
+  "name": "Elfo Drow",
+  "type": "race",
+  "_id": "56QTNXMlCKjSygLl",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "flavor": "<p>Elfos transformados há dois mil anos por um ritual proibido, que serve à Tecelã nas profundezas.</p>",
+    "description": "<p>Descendentes de elfos do Vale da Águia que buscaram longevidade num ritual proibido e encontraram algo anterior à Tríade — A Tecelã. Foram transformados: pele do negro-obsidiana ao púrpura, cabelos prateados ou negros, olhos vermelhos ou violetas. Vivem em Labirintos-Templo no Subterrâneo Profundo, numa sociedade matriarcal onde contratos são sagrados por cálculo.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "",
+    "alignment_tendency": "neutro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.llCUz7CkDObcPR6o",
+      "Compendium.ekhoria.ekhoria-racas.Item.QDeYsdIuEb02PCo7",
+      "Compendium.ekhoria.ekhoria-racas.Item.AbfhVxVp57ctdgou",
+      "Compendium.ekhoria.ekhoria-racas.Item.nte1v3Ek37vl0tIh",
+      "Compendium.ekhoria.ekhoria-racas.Item.AkIJCPVFeLGs73XK"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!56QTNXMlCKjSygLl"
+}

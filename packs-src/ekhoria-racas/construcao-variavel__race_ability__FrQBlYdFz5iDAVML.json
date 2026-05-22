@@ -5,7 +5,7 @@
   "_id": "FrQBlYdFz5iDAVML",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Cada Autokthon foi construído de forma única. Escolha 2 características de construção (definidas junto ao Mestre) que personalizam seu chassi.</p>",
+    "description": "<p>Ao criar o personagem, escolha duas características de construção da lista a seguir (a palavra final é do Mestre).</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -24,7 +24,73 @@
     "armor_weight_modifier": 0,
     "variable_construction": {
       "choices_count": 2,
-      "available_options": []
+      "available_options": [
+        {
+          "key": "arma-embutida",
+          "name": "Arma Embutida",
+          "description": "Uma arma de corpo a corpo de uma mão ou besta substitui uma das mãos. Não pode ser desarmado, mas possui uma mão a menos."
+        },
+        {
+          "key": "armadura-leve",
+          "name": "Armadura Leve",
+          "description": "Camada externa reforçada, conferindo +3 na CA. Impede o uso de armaduras externas."
+        },
+        {
+          "key": "armadura-pesada",
+          "name": "Armadura Pesada",
+          "description": "Camada muito reforçada, conferindo +5 na CA e –2 metros de deslocamento. Impede o uso de armaduras externas."
+        },
+        {
+          "key": "arpeu",
+          "name": "Arpéu",
+          "description": "Arpéu com 15 metros de cabo ejetável do corpo, usado para se içar ou como ataque à distância (Arremesso 5, Perfurante, 1d4+1 de dano)."
+        },
+        {
+          "key": "asas",
+          "name": "Asas",
+          "description": "Par de asas mecânicas com voo de 9 metros. Não é possível transportar mais que uma carga leve durante o voo. Armaduras precisam ser feitas sob medida."
+        },
+        {
+          "key": "bracos-extras",
+          "name": "Braços Extras",
+          "description": "Par de braços adicionais com duas mãos destras. Pode usar duas armas e realizar um ataque extra sem penalidade."
+        },
+        {
+          "key": "escudo-embutido",
+          "name": "Escudo Embutido",
+          "description": "Escudo preso permanentemente a um dos braços. Testes que exijam usar essa mão são difíceis. O braço não entra em lugares estreitos e impede o uso de armas de duas mãos."
+        },
+        {
+          "key": "espinhos",
+          "name": "Espinhos",
+          "description": "Corpo recoberto por espinhos (trate como adaga, 1d4 de dano) que ferem qualquer um que o agarre."
+        },
+        {
+          "key": "flutuadores",
+          "name": "Flutuadores",
+          "description": "Partes ocas permitem natação, mas tornam o Autokthon incapaz de afundar naturalmente."
+        },
+        {
+          "key": "material-incomum",
+          "name": "Material Incomum",
+          "description": "Partes do corpo feitas de prata, bronze, ferro frio, mitral ou similar. Ataques e defesas naturais recebem os benefícios do material escolhido."
+        },
+        {
+          "key": "resistencia",
+          "name": "Resistência",
+          "description": "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou veneno). Todo dano desse tipo é reduzido em 5 pontos."
+        },
+        {
+          "key": "tamanho-grande",
+          "name": "Tamanho Grande",
+          "description": "Entre 2 e 4 metros de altura. Equipamentos sob medida (no mínimo o triplo do custo). Usa armas médias e grandes com uma mão, e enormes com ambas."
+        },
+        {
+          "key": "tamanho-pequeno",
+          "name": "Tamanho Pequeno",
+          "description": "Cerca de 1 metro de altura. +2 na CA contra alvos grandes ou maiores. Só usa armas médias com ambas as mãos; não usa armas grandes. Armaduras sob medida."
+        }
+      ]
     }
   },
   "effects": [],
@@ -40,7 +106,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },

@@ -5,14 +5,14 @@
   "_id": "L4txFcgOaNc0DIPn",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Guerreiro-clérigo solar, canalizador da luz. Exclusivo de Autokthons.</p>",
-    "description": "<p>Os Custódios Solares são Autokthons cuja Pedra da Alma foi consagrada como um farol da luz solar. Combatentes devotos, curam aliados e fulminam mortos-vivos com a energia do sol. Seguem a progressão de Clérigo.</p>",
+    "flavor": "<p>A Sentinela Eterna da Luz Primordial. Especialização de Clérigo, exclusiva de Autokthons.</p>",
+    "description": "<p>O Custódio Solar não é escolhido por deuses: <em>escolhe</em>, com plena consciência, transferir sua alma para uma Pedra da Alma e renascer como Autokthon vinculado à Luz Primordial. Sua convicção não é emprestada de divindade alguma — quando a Ordem falha, o Custódio permanece. Ao passar pelo Ritual da Renúncia, assume todas as habilidades raciais dos Autokthons.</p>",
     "hp": 8,
-    "high_level_hp_bonus": null,
+    "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Apenas armas impactantes. Usar armas cortantes ou perfurantes faz o personagem perder o acesso às suas magias até cumprir uma penitência.",
+      "weapons": "Pode usar todas as armas.",
       "armors": "Pode usar todas as armaduras.",
-      "magic_items": "Pode usar itens mágicos compatíveis com a sua fé."
+      "magic_items": "Apenas itens mágicos ordeiros. Itens caóticos nunca funcionam para um Custódio."
     },
     "restrictions": {
       "alignments": [],
@@ -28,80 +28,81 @@
       "2": {
         "ba": 1,
         "jp": 5,
-        "xp": 1500
+        "xp": 2000
       },
       "3": {
         "ba": 1,
         "jp": 5,
-        "xp": 3000
+        "xp": 4000
       },
       "4": {
         "ba": 3,
         "jp": 7,
-        "xp": 5500
+        "xp": 7000
       },
       "5": {
         "ba": 3,
         "jp": 7,
-        "xp": 8500
+        "xp": 10000
       },
       "6": {
         "ba": 3,
         "jp": 7,
-        "xp": 17000
+        "xp": 20000
       },
       "7": {
         "ba": 5,
         "jp": 9,
-        "xp": 27000
+        "xp": 30000
       },
       "8": {
         "ba": 5,
         "jp": 9,
-        "xp": 37000
+        "xp": 40000
       },
       "9": {
         "ba": 5,
         "jp": 9,
-        "xp": 47000
+        "xp": 50000
       },
       "10": {
         "ba": 7,
         "jp": 11,
-        "xp": 94000
+        "xp": 100000
       },
       "11": {
         "ba": 7,
         "jp": 11,
-        "xp": 190000
+        "xp": 200000
       },
       "12": {
         "ba": 7,
         "jp": 11,
-        "xp": 280000
+        "xp": 300000
       },
       "13": {
         "ba": 9,
         "jp": 13,
-        "xp": 370000
+        "xp": 400000
       },
       "14": {
         "ba": 9,
         "jp": 13,
-        "xp": 460000
+        "xp": 500000
       },
       "15": {
         "ba": 9,
         "jp": 13,
-        "xp": 550000
+        "xp": 600000
       }
     },
     "class_abilities": [
-      "Compendium.ekhoria.ekhoria-classes.Item.Gzp1V4s30JcbgJ5Z",
-      "Compendium.ekhoria.ekhoria-classes.Item.wE0Ru0AnFftwbu6T",
+      "Compendium.ekhoria.ekhoria-classes.Item.lwMWHe6RBjxKOPM6",
+      "Compendium.ekhoria.ekhoria-classes.Item.n1fyE5GgSiJqWLGN",
       "Compendium.ekhoria.ekhoria-classes.Item.GX5CKMlRCrB8xqXH",
-      "Compendium.ekhoria.ekhoria-classes.Item.XDMKHFkwOksAmlSI",
-      "Compendium.ekhoria.ekhoria-classes.Item.P2TuHE9HFBiropHW"
+      "Compendium.ekhoria.ekhoria-classes.Item.V5c7Az0AjkEFDhfR",
+      "Compendium.ekhoria.ekhoria-classes.Item.ncazeQzXptX7VNRg",
+      "Compendium.ekhoria.ekhoria-classes.Item.StRQnvqVMSlR2EXf"
     ]
   },
   "effects": [],

@@ -1,0 +1,50 @@
+{
+  "folder": "CeZeHfmZTAJdoj6G",
+  "name": "Litania do Relicário",
+  "type": "class_ability",
+  "_id": "rfNJTN1T8k7NjYcH",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Prepara e conjura magias divinas diariamente meditando sobre a entropia e a Anomalia. Suas magias são manifestações internas, tornando-o imune a efeitos mágicos diretos de terceiros (magias de área o afetam normalmente). Por padrão, suas magias são sempre preparadas em versão reversa.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rfNJTN1T8k7NjYcH"
+}

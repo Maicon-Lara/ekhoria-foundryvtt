@@ -1,0 +1,50 @@
+{
+  "folder": "CeZeHfmZTAJdoj6G",
+  "name": "Veredicto do Relicário",
+  "type": "class_ability",
+  "_id": "7WpyxFiPYS2DZwaO",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Uma vez por dia, aponta para uma criatura a até 9 metros e pronuncia a sentença final. A criatura faz JP contra Morte (Difícil). Falha: criaturas vivas sofrem 3d8 de dano mágico e mortos-vivos são instantaneamente destruídos. Sucesso: metade do dano ou evita a destruição.</p>",
+    "level": 10,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7WpyxFiPYS2DZwaO"
+}

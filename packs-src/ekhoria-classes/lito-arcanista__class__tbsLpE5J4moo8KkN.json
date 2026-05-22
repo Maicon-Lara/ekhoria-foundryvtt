@@ -5,18 +5,20 @@
   "_id": "tbsLpE5J4moo8KkN",
   "img": "icons/sundries/documents/document-sealed-brown-red.webp",
   "system": {
-    "flavor": "<p>Mago cujo corpo foi saturado de cristais pelo Ritual da Saturação.</p>",
-    "description": "<p>Submetidos ao Ritual da Saturação, os Lito-arcanistas têm o corpo permeado por cristais arcanos. Conjuram como Magos, mas sua carne mineral lhes confere resistências elementais crescentes. Seguem a progressão de Mago.</p>",
+    "flavor": "<p>O Bastião Elemental da Estrutura Mineral. Especialização de Mago, exclusiva de Arkanim (Arkádia).</p>",
+    "description": "<p>O Lito-arcanista satura o próprio corpo com cristais de Arcanita, internalizando a Quintessência até tornar-se o vetor do poder: punhos que queimam, pele que endurece como diamante. Não conjura magias, mas continua recebendo espaços de magia até o 5º círculo, usados exclusivamente para ativar habilidades de classe. Mantém Ler Magias.</p>",
     "hp": 4,
-    "high_level_hp_bonus": null,
+    "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Apenas armas pequenas. Armas médias ou grandes geram ataques difíceis.",
-      "armors": "Nenhuma. Escudos e armaduras impedem a conjuração de magias e protegem apenas metade da CA normal.",
-      "magic_items": "Pode usar todos os tipos."
+      "weapons": "Pode usar todas as armas.",
+      "armors": "Não utiliza armaduras convencionais — apenas armaduras de Arcanita.",
+      "magic_items": "Pode utilizar todos os tipos de itens mágicos."
     },
     "restrictions": {
       "alignments": [],
-      "races": []
+      "races": [
+        "Arkanim"
+      ]
     },
     "levels": {
       "1": {
@@ -26,80 +28,80 @@
       "2": {
         "ba": 1,
         "jp": 5,
-        "xp": 2500
+        "xp": 3000
       },
       "3": {
         "ba": 1,
         "jp": 5,
-        "xp": 5000
+        "xp": 6000
       },
       "4": {
         "ba": 1,
         "jp": 5,
-        "xp": 8500
+        "xp": 10000
       },
       "5": {
         "ba": 2,
         "jp": 7,
-        "xp": 11500
+        "xp": 13000
       },
       "6": {
         "ba": 2,
         "jp": 7,
-        "xp": 23000
+        "xp": 26000
       },
       "7": {
         "ba": 2,
         "jp": 7,
-        "xp": 33000
+        "xp": 36000
       },
       "8": {
         "ba": 3,
         "jp": 7,
-        "xp": 43000
+        "xp": 45000
       },
       "9": {
         "ba": 3,
         "jp": 7,
-        "xp": 53000
+        "xp": 56000
       },
       "10": {
         "ba": 3,
         "jp": 10,
-        "xp": 106000
+        "xp": 112000
       },
       "11": {
         "ba": 4,
         "jp": 10,
-        "xp": 210000
+        "xp": 190000
       },
       "12": {
         "ba": 4,
         "jp": 10,
-        "xp": 320000
+        "xp": 280000
       },
       "13": {
         "ba": 4,
         "jp": 10,
-        "xp": 430000
+        "xp": 370000
       },
       "14": {
-        "ba": 5,
+        "ba": 4,
         "jp": 13,
-        "xp": 540000
+        "xp": 460000
       },
       "15": {
         "ba": 5,
         "jp": 13,
-        "xp": 650000
+        "xp": 550000
       }
     },
     "class_abilities": [
-      "Compendium.ekhoria.ekhoria-classes.Item.KAE9SjbsFkBbD5s4",
-      "Compendium.ekhoria.ekhoria-classes.Item.BV9aoBeJfe3ACPYJ",
-      "Compendium.ekhoria.ekhoria-classes.Item.vTk5iea63OmgSkyz",
-      "Compendium.ekhoria.ekhoria-classes.Item.3tvhj2BDs3CDApZn",
-      "Compendium.ekhoria.ekhoria-classes.Item.JYHjyT95PO2RPIjE"
+      "Compendium.ekhoria.ekhoria-classes.Item.AWntJG29sxKkaHkg",
+      "Compendium.ekhoria.ekhoria-classes.Item.cOblEDXF7Hp4tmPG",
+      "Compendium.ekhoria.ekhoria-classes.Item.Q5JSCbSB0ZH5Hr0c",
+      "Compendium.ekhoria.ekhoria-classes.Item.ICW9WAjSzPS1KV4f",
+      "Compendium.ekhoria.ekhoria-classes.Item.Hn16y2B25SvWiR17"
     ]
   },
   "effects": [],

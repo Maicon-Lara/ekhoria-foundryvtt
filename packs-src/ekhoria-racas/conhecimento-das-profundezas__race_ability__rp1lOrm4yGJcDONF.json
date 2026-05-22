@@ -5,7 +5,7 @@
   "_id": "rp1lOrm4yGJcDONF",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Com 1–2 em 1d6, obtêm informações úteis sobre construções, passagens e perigos de ambientes subterrâneos.</p>",
+    "description": "<p>Se a informação for pertinente ao mundo subterrâneo, têm chance de 1–2 em 1d6 de conhecê-la; para informações da superfície, 1 em 1d6. Varkos Magos e Clérigos somam +1; Varkos Acadêmicos, +2.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

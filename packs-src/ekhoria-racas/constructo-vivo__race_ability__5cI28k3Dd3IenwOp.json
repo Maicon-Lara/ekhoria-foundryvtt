@@ -5,7 +5,7 @@
   "_id": "5cI28k3Dd3IenwOp",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Não dorme, não come, não respira e não envelhece. É imune a venenos e doenças. Em contrapartida, não se beneficia de poções.</p>",
+    "description": "<p>A Pedra da Alma concede vida real, mas de natureza única. Autokthons não dormem, não se alimentam, não respiram e não envelhecem; não possuem sistema circulatório. São imunes a sono, venenos, doenças comuns e drenagem de sangue, e não podem beber poções mágicas. Precisam de 8 horas de estudo para memorizar magias. São plenamente suscetíveis a efeitos mentais, morte, paralisia, cegueira, surdez, drenagem de energia, acertos críticos e efeitos que exijam JPC. <em>Aprisionar Alma</em> e <em>Reviver Mortos</em> não os afetam; <em>Curar</em> e <em>Causar Ferimentos</em> os afetam pela metade.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -36,7 +36,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

@@ -5,11 +5,11 @@
   "_id": "wPIoIZEfYtDpCapQ",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Custo de contratação de seguidores reduzido em 25% e +1 de Moral para eles.</p>",
+    "description": "<p>Especialista em gerir subordinados. <strong>Logística:</strong> custos para contratar ajudantes e mercenários são 25% menores. <strong>Moral:</strong> seguidores recebem +1 em Moral.</p>",
     "level": 1,
-    "level3": "",
-    "level6": "",
-    "level10": "",
+    "level3": "<p>Ataques de proteção da comitiva são Ações Fáceis.</p>",
+    "level6": "<p>Os membros recebem PV adicionais iguais ao modificador de Carisma.</p>",
+    "level10": "<p>Os membros recebem bônus em JP e Dano iguais ao modificador de Carisma.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,

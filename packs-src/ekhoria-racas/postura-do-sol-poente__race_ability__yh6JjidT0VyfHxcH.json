@@ -5,7 +5,7 @@
   "_id": "yh6JjidT0VyfHxcH",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>A disciplina física os torna resistentes: +1 em qualquer JPC.</p>",
+    "description": "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p>",
     "xp": null,
     "jp": {
       "jpc": true,

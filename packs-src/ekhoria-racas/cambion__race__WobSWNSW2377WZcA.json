@@ -5,19 +5,20 @@
   "_id": "WobSWNSW2377WZcA",
   "img": "icons/environment/people/group.webp",
   "system": {
-    "flavor": "<p>Descendentes de linhagem demoníaca. Tendem ao Caos.</p>",
-    "description": "<p>Nascidos de pactos antigos e uniões proibidas, os Cambion carregam sangue infernal. São marcados física e socialmente por sua herança, mas dela extraem resistência e poder.</p>",
+    "flavor": "<p>Filhos do pacto profano — híbridos meio-humanoides, meio-demoníacos, que o mundo prefere ignorar.</p>",
+    "description": "<p>O Cambion nasce de um processo antinatural envolvendo um Súcubo/Íncubo, uma vítima e uma portadora. Carrega a aparência da raça da portadora como base e marcas infernais como constante — sempre incluindo a Marca do Três. É estéril: a linhagem termina nele. Herda o charme demoníaco e a desconfiança de quem foi traído repetidamente.</p>",
     "movement": 9,
     "movement_fly": 0,
-    "movement_notes": "",
-    "infravision": 18,
+    "movement_notes": "Cambions descendentes de raças pequenas mantêm a característica Pequeno, com movimento de 6 metros.",
+    "infravision": 15,
     "infravision_notes": "",
-    "alignment_tendency": "caotico",
+    "alignment_tendency": "none",
     "alignment_notes": "",
     "race_abilities": [
-      "Compendium.ekhoria.ekhoria-racas.Item.zzs43uFDWCkwPCOT",
-      "Compendium.ekhoria.ekhoria-racas.Item.DagcI4lAGxDbBrVt",
-      "Compendium.ekhoria.ekhoria-racas.Item.eCyeWl7wEM9wzAyk"
+      "Compendium.ekhoria.ekhoria-racas.Item.Sf1jNBXYQUOfKMCO",
+      "Compendium.ekhoria.ekhoria-racas.Item.YSu2yjPod7gJHr0b",
+      "Compendium.ekhoria.ekhoria-racas.Item.wHOPPAw205lQpp9M",
+      "Compendium.ekhoria.ekhoria-racas.Item.HF8zoG2qPXBX539K"
     ]
   },
   "effects": [],

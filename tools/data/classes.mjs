@@ -1,184 +1,202 @@
-// Classes exclusivas do cenário Ekhoria.
+// Classes (Especializações) do cenário Ekhoria — transcritas do livro
+// "Ekhoria — Mecânicas para Old Dragon 2" (capítulo CLASSES).
 //
-// Cada classe herda a progressão de BA/JP/XP de um arquétipo do OD2
-// (guerreiro, clerigo, mago, ladrao) via `progressao()`.
-// `dv` preenche o campo system.hp (Dado de Vida).
-// `restricao_racas` preenche system.restrictions.races (exclusividade racial).
-// Cada item de `habilidades` vira um Item "class_ability" com seu nível;
-// `usos_dia` define usos diários a partir do nível em que é obtida.
+// Cada classe herda o BA/JP do arquétipo base e usa uma tabela de XP de
+// Especialista (ver progressoes.mjs). `dv` -> system.hp; `high_level_hp_bonus`
+// -> PV fixo ganho a partir do nível 11. `restricao_racas` é informativo.
+// Habilidades com evoluções por nível usam os campos level3/level6/level10.
 
 import { progressao } from "./progressoes.mjs";
 
-const EQUIP = {
-  guerreiro: {
-    weapons: "Pode usar todas as armas.",
-    armors: "Pode usar todas as armaduras.",
-    magic_items:
-      "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção.",
-  },
-  clerigo: {
-    weapons:
-      "Apenas armas impactantes. Usar armas cortantes ou perfurantes faz o personagem perder o acesso às suas magias até cumprir uma penitência.",
-    armors: "Pode usar todas as armaduras.",
-    magic_items: "Pode usar itens mágicos compatíveis com a sua fé.",
-  },
-  mago: {
-    weapons: "Apenas armas pequenas. Armas médias ou grandes geram ataques difíceis.",
-    armors:
-      "Nenhuma. Escudos e armaduras impedem a conjuração de magias e protegem apenas metade da CA normal.",
-    magic_items: "Pode usar todos os tipos.",
-  },
-  ladrao: {
-    weapons: "Apenas armas pequenas ou médias. Armas grandes geram ataques difíceis.",
-    armors:
-      "Apenas armaduras leves. Escudos e armaduras médias ou pesadas impedem o uso das habilidades de classe e protegem apenas metade da CA normal.",
-    magic_items:
-      "Não pode usar cajados, varinhas e pergaminhos mágicos, com exceção dos pergaminhos de proteção.",
-  },
-};
+const EQUIP_GUERREIRO_MAGIC = "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção.";
 
 export const classes = [
   {
     nome: "Custódio Solar",
-    arquetipo: "clerigo",
+    tabela: "clerigo_esp",
     dv: 8,
+    high_level_hp_bonus: 1,
     restricao_racas: ["Autokthon"],
-    flavor: "<p>Guerreiro-clérigo solar, canalizador da luz. Exclusivo de Autokthons.</p>",
+    flavor: "<p>A Sentinela Eterna da Luz Primordial. Especialização de Clérigo, exclusiva de Autokthons.</p>",
     descricao:
-      "<p>Os Custódios Solares são Autokthons cuja Pedra da Alma foi consagrada como um farol da luz solar. Combatentes devotos, curam aliados e fulminam mortos-vivos com a energia do sol. Seguem a progressão de Clérigo.</p>",
-    equipment_restrictions: EQUIP.clerigo,
-    levels: progressao("clerigo"),
+      "<p>O Custódio Solar não é escolhido por deuses: <em>escolhe</em>, com plena consciência, transferir sua alma para uma Pedra da Alma e renascer como Autokthon vinculado à Luz Primordial. Sua convicção não é emprestada de divindade alguma — quando a Ordem falha, o Custódio permanece. Ao passar pelo Ritual da Renúncia, assume todas as habilidades raciais dos Autokthons.</p>",
+    equipment_restrictions: {
+      weapons: "Pode usar todas as armas.",
+      armors: "Pode usar todas as armaduras.",
+      magic_items: "Apenas itens mágicos ordeiros. Itens caóticos nunca funcionam para um Custódio.",
+    },
+    levels: progressao("clerigo_esp"),
     habilidades: [
-      { nome: "Magias Divinas Solares", level: 1, desc: "<p>Lança magias do círculo solar diariamente, conforme a progressão de magias do Clérigo.</p>" },
-      { nome: "Cura por Luz", level: 1, usos_dia: 1, desc: "<p>Uma vez por dia, cura 1d8 + nível PV em um aliado a até 9 metros.</p>" },
-      { nome: "Disciplina Solar", level: 3, desc: "<p>O Custódio recebe +1 na BA e no dano com armas, ou +1 na CA — escolha feita ao adquirir a habilidade.</p>" },
-      { nome: "Brilho Protetor", level: 6, desc: "<p>Emana uma aura de 3 metros que cega mortos-vivos (JPS anula) e concede +2 de CA aos aliados dentro dela.</p>" },
-      { nome: "Transcendência Solar", level: 10, usos_dia: 1, desc: "<p>Uma vez por dia, libera um pulso de luz em 9 metros causando nível × 1d6 de dano a mortos-vivos e quebrando maldições.</p>" },
+      { nome: "Presença da Luz", level: 1, desc: "<p>Lança magias divinas diariamente a partir do 1º nível. Para prepará-las, o Custódio medita para a Luz e pede que magias lhe sejam concedidas no dia, respeitando seus limites de nível.</p>" },
+      { nome: "Núcleo da Chama Primordial", level: 1, desc: "<p>Canaliza energia sagrada através da Pedra da Alma, preparando e lançando Magias Divinas desde o 1º nível (sem bônus de slots por Sabedoria). Recebe uma terceira característica de Construção Variável no 1º nível.</p>" },
+      { nome: "Disciplina Solar", level: 3, desc: "<p>Recebe +1 na Base de Ataque em relação ao Clérigo padrão e escolhe um aprimoramento permanente no chassi: +1 de dano com uma arma específica OU +1 de bônus na CA.</p>" },
+      { nome: "Portador da Luz", level: 6, usos_dia: 1, desc: "<p>Uma vez por dia, ao ser atingido por uma criatura Caótica, reage instantaneamente para reduzir o dano à metade ou impedir efeitos colaterais do ataque (drenagem, maldições ou corrupção).</p>" },
+      { nome: "Aura de Estabilidade", level: 10, desc: "<p>Emana uma aura constante em raio de 9 metros que funciona como <em>Proteção Contra Alinhamento</em> contra seres Caóticos. Aliados na área recebem bônus em JP contra efeitos caóticos enquanto o Custódio estiver consciente.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Os feitos do Custódio tornam-se notórios, conferindo Reputação 1 em 1d6, aumentando +1 a cada nível subsequente até o máximo de 5 em 1d6.</p>" },
     ],
   },
   {
     nome: "Relicário Vivo",
-    arquetipo: "clerigo",
+    tabela: "clerigo_esp",
     dv: 8,
+    high_level_hp_bonus: 1,
     restricao_racas: ["Silente"],
-    flavor: "<p>Hospedeiro de uma entidade aprisionada em seu Corpo Estático. Exclusivo de Silentes.</p>",
+    flavor: "<p>A Unidade Insurgente de Breônia. Especialização de Clérigo, exclusiva de Silentes.</p>",
     descricao:
-      "<p>Apenas o Corpo Estático dos Silentes pode hospedar uma entidade sem ser destruído por ela. O Relicário Vivo conjura poder divino pagando com a própria vitalidade e, no auge, funde-se à entidade que carrega. Segue a progressão de Clérigo.</p>",
-    equipment_restrictions: EQUIP.clerigo,
-    levels: progressao("clerigo"),
+      "<p>Agente oficialmente negável do Conselho de Ônix, o Relicário Vivo existe nas sombras de outras nações — observador silencioso e eliminador de ameaças que Breônia jamais admitirá ter enviado. Apenas um Silente pode trilhar esse caminho. Após o Juramento do Vazio, se capturado ou morto, Breônia negará conhecê-lo — embora seu nome esteja gravado em ônix nos Arquivos Silenciosos.</p>",
+    equipment_restrictions: {
+      weapons: "Só pode usar armas cortantes.",
+      armors: "Pode usar todas as armaduras.",
+      magic_items: "Apenas itens mágicos caóticos. Itens ordeiros nunca funcionam.",
+    },
+    levels: progressao("clerigo_esp"),
     habilidades: [
-      { nome: "Entidade Interna", level: 1, desc: "<p>Acessa magias divinas pagando 2 PV por círculo de magia conjurado.</p>" },
-      { nome: "Ressonância", level: 1, usos_dia: 1, desc: "<p>Uma vez por dia, invoca uma habilidade da entidade interna (definida junto ao Mestre).</p>" },
-      { nome: "Controle Parcial", level: 3, desc: "<p>Suprime ou liberta a entidade por até 1 hora. Ao suprimi-la, recupera 1d4 PV.</p>" },
-      { nome: "Fusão Temporária", level: 6, desc: "<p>Funde-se à entidade por 1 hora, ganhando +4 em um atributo à escolha e +2 de CA.</p>" },
-      { nome: "Domínio Pleno", level: 10, usos_dia: 1, desc: "<p>Uma vez por dia, usa todas as habilidades da entidade sem qualquer custo em PV.</p>" },
+      { nome: "Litania do Relicário", level: 1, desc: "<p>Prepara e conjura magias divinas diariamente meditando sobre a entropia e a Anomalia. Suas magias são manifestações internas, tornando-o imune a efeitos mágicos diretos de terceiros (magias de área o afetam normalmente). Por padrão, suas magias são sempre preparadas em versão reversa.</p>" },
+      { nome: "Consagrar os Esquecidos", level: 1, usos_dia: 1, desc: "<p>Brandindo seu símbolo sagrado, submete mortos-vivos a até 18 metros que falharem em Teste de Moral; eles obedecem a comandos simples por 1d6 rodadas. Controle Total: se o morto-vivo falhar com dados iguais (dois 4, dois 5 ou dois 6), permanece sob controle total até o próximo amanhecer. Uma vez por dia.</p>", level3: "<p>+1 no teste e duas vezes por dia.</p>", level10: "<p>+2 no teste e três vezes por dia.</p>" },
+      { nome: "Oferenda Reliquial", level: 1, desc: "<p>Troca uma magia memorizada por <em>Causar Ferimentos</em> (1º círculo), causando 1d8 de dano mágico por toque. Mortos-vivos são curados por esse efeito, incluindo o próprio Relicário.</p>", level6: "<p>Pode usar <em>Causar Ferimentos</em> de 3º círculo: até 2d8 de dano.</p>", level10: "<p>Pode usar <em>Causar Ferimentos</em> de 5º círculo: até 3d8 de dano.</p>" },
+      { nome: "Erguer os Consagrados", level: 1, usos_dia: 1, desc: "<p>Anima cadáveres como servos temporários (ritual de 1 turno por corpo): Esqueletos (1 DV) ou Zumbis (2 DV). Duração de 1 hora por nível; total máximo de DV igual ao modificador de Sabedoria. Uma vez por dia. Ao fim da duração, os servos viram pó.</p>" },
+      { nome: "Veredicto do Relicário", level: 10, usos_dia: 1, desc: "<p>Uma vez por dia, aponta para uma criatura a até 9 metros e pronuncia a sentença final. A criatura faz JP contra Morte (Difícil). Falha: criaturas vivas sofrem 3d8 de dano mágico e mortos-vivos são instantaneamente destruídos. Sucesso: metade do dano ou evita a destruição.</p>" },
+      { nome: "Reputação (Infâmia)", level: 11, desc: "<p>Torna-se figura amplamente temida: obtém Infâmia 1 em 1d6, aumentando +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Narcoguerreiro",
-    arquetipo: "guerreiro",
+    tabela: "guerreiro_esp",
     dv: 10,
-    flavor: "<p>Combatente especializado nos Fungos do Degelo de Vornfell.</p>",
+    high_level_hp_bonus: 2,
+    flavor: "<p>Onde a química se torna coragem, e a coragem se torna vício. Especialização de Guerreiro.</p>",
     descricao:
-      "<p>Os Narcoguerreiros dominam a química alquímica dos fungos que brotam no degelo de Vornfell, usando-os como armas e remédios. Resistentes a venenos, transformam o próprio metabolismo em campo de batalha. Seguem a progressão de Guerreiro.</p>",
-    equipment_restrictions: EQUIP.guerreiro,
-    levels: progressao("guerreiro"),
+      "<p>O Narcoguerreiro transforma o próprio corpo em arma por alquimia de combate, sacrificando longevidade por vantagem tática imediata. Domina os Fungos do Degelo de Vornfell — e paga o preço em vício e degradação progressiva. Perde a habilidade Aparar, mas mantém Maestria em Arma. Sempre que consome substâncias de combate, fica sujeito às regras de Vício e Abstinência.</p>",
+    equipment_restrictions: {
+      weapons: "Pode usar todas as armas.",
+      armors: "Pode usar todas as armaduras.",
+      magic_items: EQUIP_GUERREIRO_MAGIC,
+    },
+    levels: progressao("guerreiro_esp"),
     habilidades: [
       { nome: "Maestria em Arma", level: 1, desc: "<p>+1 no dano com uma arma à sua escolha.</p>" },
-      { nome: "Conhecimento Químico", level: 1, desc: "<p>Imune ao Pó de Morthan e a gases tóxicos.</p>" },
-      { nome: "Uso Seguro de Seiva", level: 1, usos_dia: 1, desc: "<p>Consome com segurança a Seiva de Yggdras Diluída, curando 1d4 PV.</p>" },
-      { nome: "Coquetel Marcial", level: 3, desc: "<p>Combina os efeitos de dois Fungos do Degelo simultaneamente.</p>" },
-      { nome: "Metabolismo Acelerado", level: 6, desc: "<p>+1 permanente em JPC e +2 contra venenos e vícios.</p>" },
-      { nome: "Tolerância de Elite", level: 10, desc: "<p>Regenera 1d4 PV por rodada durante 1d4 + mod. CON rodadas.</p>" },
+      { nome: "Conhecimento Químico e Filtros", level: 1, desc: "<p>Domina substâncias químicas e a sobrevivência em ambientes tóxicos. <strong>Máscara de Nurillion:</strong> enquanto a usa, fica imune ao Pó de Morthan e a gases naturais tóxicos. <strong>Uso Seguro de Seiva:</strong> consome Seiva de Yggdras Diluída recuperando 1d4 PV, um número de vezes por dia igual ao modificador de Constituição (mínimo 1), sem risco de vício. <strong>Uso Extra:</strong> além desse limite, a cura é reduzida à metade e o Mestre faz o teste de vício.</p>" },
+      { nome: "Coquetel Marcial", level: 3, desc: "<p>Consome dois Fungos do Degelo diferentes simultaneamente. O risco de vício da dose combinada aumenta em +1, e a duração de qualquer exaustão ou penalidade pós-efeito dos fungos é dobrada.</p>" },
+      { nome: "Metabolismo Acelerado", level: 6, desc: "<p><strong>Resiliência:</strong> +1 permanente em JPC, mais +2 adicionais em JPC para resistir a venenos e vício. <strong>Maestria em Dosagem:</strong> usa 1 fungo por dia sem teste de vício. <strong>Supressão de Dor (Nargula):</strong> ignora penalidades de movimento por ferimentos, fadiga, fome ou frio por 2d6+6 horas.</p>", jp: { jpc: true } },
+      { nome: "Efervescência Química", level: 10, desc: "<p><strong>Regeneração de Aelora (Albinus):</strong> regenera 1d4 PV por rodada durante 1d4 + modificador de Constituição rodadas. <strong>Vapor de Proteção:</strong> enquanto a regeneração estiver ativa, recebe +2 na CA. Essa regeneração não cura dano de fogo ou ácido.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Pugilista",
-    arquetipo: "guerreiro",
+    tabela: "guerreiro_esp",
     dv: 10,
-    flavor: "<p>Mestre do combate desarmado e de armas pequenas e médias.</p>",
+    high_level_hp_bonus: 2,
+    flavor: "<p>A Arma Viva da Resistência Inquebrável. Especialização de Guerreiro.</p>",
     descricao:
-      "<p>O Pugilista transforma o próprio corpo em arma. Filiado a uma das escolas marciais de Ekhoria, golpeia com técnica e resiste como um campeão. Segue a progressão de Guerreiro.</p>",
+      "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe uma das Três Escolas — Mãos de Ferro (Benellikov), Dança do Vento (Yorugan) ou Punhos do Vale (Vale da Águia) — que muda o estilo e os códigos, mas não as habilidades mecânicas. Perde Aparar, mantém Maestria em Arma.</p>",
     equipment_restrictions: {
-      weapons: "Apenas armas pequenas e médias. Especialista em combate desarmado.",
-      armors: "Pode usar todas as armaduras.",
-      magic_items: EQUIP.guerreiro.magic_items,
+      weapons: "Pode usar armas pequenas e médias. Armas grandes impõem Ataque Difícil.",
+      armors: "Pode usar apenas armaduras leves.",
+      magic_items: EQUIP_GUERREIRO_MAGIC,
     },
-    levels: progressao("guerreiro"),
+    levels: progressao("guerreiro_esp"),
     habilidades: [
-      { nome: "Maestria em Arma", level: 1, desc: "<p>+1 no dano com uma arma à sua escolha.</p>" },
-      { nome: "Escola Marcial", level: 1, desc: "<p>Escolha sua escola de combate: Mãos de Ferro, Dança do Vento ou Punhos do Vale.</p>" },
-      { nome: "Combate Desarmado Aprimorado", level: 3, desc: "<p>Ataques desarmados causam 1d4 + mod. FOR de dano.</p>" },
-      { nome: "Resistência de Campeão", level: 6, desc: "<p>+1 permanente em JP. Uma vez por combate, ao chegar a 0 PV, permanece de pé com 1 PV.</p>" },
-      { nome: "Maestria Corporal", level: 10, desc: "<p>Ataques desarmados causam 1d6 + mod. FOR e o Pugilista realiza um segundo ataque desarmado por rodada.</p>" },
+      { nome: "Maestria em Arma", level: 1, desc: "<p>Torna-se Mestre em uma arma à sua escolha, recebendo +1 no dano com ela.</p>" },
+      { nome: "Bom de Briga (Técnica Desarmada)", level: 1, desc: "<p>Ao lutar desarmado, não sofre penalidade de Ataque Difícil nem concede Ataque Fácil a inimigos armados. <strong>Dano Letal:</strong> ataques desarmados causam 2 + modificador de Força de dano de impacto, em vez de apenas nocautear.</p>", level3: "<p>O dano desarmado aumenta para 1d4 + Força.</p>", level10: "<p>O dano desarmado aumenta para 1d6 + Força.</p>" },
+      { nome: "Jogo de Perna e Manobras", level: 3, desc: "<p><strong>Jogo de Perna:</strong> se realizar uma ação de movimento no turno, todos os ataques contra ele são Difíceis até o início da próxima rodada. <strong>Mestre de Chão:</strong> manobras para imobilizar, derrubar ou desarmar são Ações Fáceis.</p>" },
+      { nome: "Calejado", level: 6, desc: "<p><strong>Resiliência:</strong> a cada nível recebe +2 PV adicionais à tabela de Guerreiro; testes para resistir a Medo tornam-se Fáceis. <strong>Queixo de Aço:</strong> a chance de nocauteá-lo é reduzida em 1 (mínimo 1 em 1d6). <strong>Nocauteador:</strong> sua chance de nocaute aumenta para 1 + modificador de Força em 1d6.</p>" },
+      { nome: "Ataque Rápido", level: 10, desc: "<p>Recebe um ataque extra por rodada, desde que ambos os ataques sejam desarmados ou realizados com soqueiras.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Lito-arcanista",
-    arquetipo: "mago",
+    tabela: "mago_esp",
     dv: 4,
-    flavor: "<p>Mago cujo corpo foi saturado de cristais pelo Ritual da Saturação.</p>",
+    high_level_hp_bonus: 1,
+    restricao_racas: ["Arkanim"],
+    flavor: "<p>O Bastião Elemental da Estrutura Mineral. Especialização de Mago, exclusiva de Arkanim (Arkádia).</p>",
     descricao:
-      "<p>Submetidos ao Ritual da Saturação, os Lito-arcanistas têm o corpo permeado por cristais arcanos. Conjuram como Magos, mas sua carne mineral lhes confere resistências elementais crescentes. Seguem a progressão de Mago.</p>",
-    equipment_restrictions: EQUIP.mago,
-    levels: progressao("mago"),
+      "<p>O Lito-arcanista satura o próprio corpo com cristais de Arcanita, internalizando a Quintessência até tornar-se o vetor do poder: punhos que queimam, pele que endurece como diamante. Não conjura magias, mas continua recebendo espaços de magia até o 5º círculo, usados exclusivamente para ativar habilidades de classe. Mantém Ler Magias.</p>",
+    equipment_restrictions: {
+      weapons: "Pode usar todas as armas.",
+      armors: "Não utiliza armaduras convencionais — apenas armaduras de Arcanita.",
+      magic_items: "Pode utilizar todos os tipos de itens mágicos.",
+    },
+    levels: progressao("mago_esp"),
     habilidades: [
-      { nome: "Corpo Cristalino", level: 1, desc: "<p>Resistência a fogo, gelo ou elétrico (cristal dominante, à escolha) e +1 de CA natural.</p>" },
-      { nome: "Ressonância Mineral", level: 1, desc: "<p>Detecta cristais mágicos a até 18 metros.</p>" },
-      { nome: "Magia Elementar", level: 3, desc: "<p>Conjura magias elementais associadas ao cristal dominante como magias extras de 1º círculo.</p>" },
-      { nome: "Forma de Pedra", level: 6, usos_dia: 1, desc: "<p>Uma vez por dia, transforma parcialmente o corpo em cristal por 1 hora, ganhando +2 de CA.</p>" },
-      { nome: "Coração de Cristal", level: 10, desc: "<p>Torna-se imune ao tipo de dano do seu cristal dominante.</p>" },
+      { nome: "Pulso de Arcanita", level: 1, desc: "<p>Ao sacrificar uma magia memorizada, sintoniza o núcleo com um elemento (Fogo, Frio, Eletricidade ou Ácido) e encanta os punhos ou uma arma. Dano adicional conforme o círculo sacrificado: 1º +1d8; 3º +2d8; 5º +3d8. <strong>Concentração Marcial:</strong> se sofrer dano com o efeito ativo, faz JPC ou o efeito se dissipa.</p>" },
+      { nome: "Geometria Dérmica", level: 3, desc: "<p>Ao sacrificar uma magia de 3º círculo, realinha as placas minerais defensivamente. Escolha: <strong>Enrijecer</strong> (ativa <em>Escudo Arcano</em>) ou <strong>Geotérmica</strong> (ativa <em>Proteção Contra Temperatura</em>).</p>" },
+      { nome: "Refração Rúnica", level: 6, desc: "<p>Ao sacrificar uma magia de 5º círculo, projeta uma barreira de luz sólida: todos os ataques contra o Lito-arcanista são Difíceis. Duração: 1d4 + 1 por nível turnos.</p>" },
+      { nome: "Ruptura do Núcleo", level: 10, desc: "<p>Sobrecarrega o sistema circulatório mágico e sacrifica uma magia de 5º círculo: 10d6 de dano elemental em raio de 6 metros centrado em si. JPD reduz o dano à metade e impede ser arremessado 1d4+3 metros.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Guardião da Centelha",
-    arquetipo: "guerreiro",
-    dv: 10,
-    flavor: "<p>Elite militar de Cinthara, armada com cristais de combate.</p>",
+    tabela: "mago_esp",
+    dv: 4,
+    high_level_hp_bonus: 1,
+    restricao_alinhamentos: ["ordeiro"],
+    flavor: "<p>A Elite Tecnomanufaturada de Cinthara. Especialização de Mago (anões-magos), de alinhamento Ordeiro.</p>",
     descricao:
-      "<p>Os Guardiões da Centelha são a tropa de elite de Cinthara, treinada no uso de cristais de combate que disparam rajadas de energia. Combinam disciplina marcial com poder de fogo cristalino. Seguem a progressão de Guerreiro.</p>",
-    equipment_restrictions: EQUIP.guerreiro,
-    levels: progressao("guerreiro"),
+      "<p>Em Cinthara, onde engenharia é religião, os Guardiões da Centelha tratam magia como engenharia: cada feitiço tem custo calculado e margem de erro aceitável. Dominam os Cristais de Centelha como outros magos dominam componentes arcanos. Devem representar a cultura de Cinthara e ter alinhamento Ordeiro. Conjuram magias arcanas até o 5º círculo e mantêm Ler Magias e Detectar Magias.</p>",
+    equipment_restrictions: {
+      weapons: "Apenas armas pequenas. Armas médias ou grandes impõem Ataque Difícil.",
+      armors: "Não pode usar armaduras nem escudos; se o fizer, perde a conjuração de magias e recebe apenas metade da CA.",
+      magic_items: "Pode utilizar todos os tipos de itens mágicos.",
+    },
+    levels: progressao("mago_esp"),
     habilidades: [
-      { nome: "Maestria em Arma", level: 1, desc: "<p>+1 no dano com uma arma à sua escolha.</p>" },
-      { nome: "Arte da Centelha", level: 1, desc: "<p>Dispara um cone de 3 metros causando 1d6 a até 3 criaturas (JPD reduz). Uma vez por rodada.</p>" },
-      { nome: "Escudo de Cristal", level: 3, usos_dia: 1, desc: "<p>Uma vez por dia, ergue uma barreira que absorve nível × 2 de dano.</p>" },
-      { nome: "Rajada Combinada", level: 6, desc: "<p>Usa dois cristais ao mesmo tempo: +1d6 de dano e adiciona o efeito do segundo cristal.</p>" },
-      { nome: "Mestre da Centelha", level: 10, usos_dia: 1, desc: "<p>+2d6 de dano com cristais. Uma vez por dia, usa a Arte da Centelha como magia de 3º círculo (3d6, cone de 9 metros).</p>" },
+      { nome: "Portador da Centelha", level: 1, desc: "<p>Recebe 1 Cristal de Centelha, anexado a um objeto à escolha, concedendo um benefício: <strong>Arma</strong> (+1 no BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>", level6: "<p>O bônus concedido passa a ser igual ao modificador de Inteligência (mínimo +1).</p>" },
+      { nome: "Domínio da Centelha", level: 3, usos_dia: 1, desc: "<p>Enquanto estiver de posse do Cristal, conjura automaticamente uma vez por dia, sem memorização, uma das magias: <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>.</p>", level10: "<p>A conjuração dessa magia passa a exigir apenas 1 ação de movimento.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Diplomata",
-    arquetipo: "ladrao",
+    tabela: "ladrao_esp",
     dv: 6,
-    flavor: "<p>Especialista em negociação, influência social e redes de contato.</p>",
+    high_level_hp_bonus: 1,
+    flavor: "<p>O Arquiteto de Segredos e Alianças. Especialização de Ladrão.</p>",
     descricao:
-      "<p>O Diplomata vence pela palavra onde outros falham pela espada. Mestre da reação e da persuasão, lidera comitivas e tece redes de informantes. Segue a progressão de Ladrão.</p>",
-    equipment_restrictions: EQUIP.ladrao,
-    levels: progressao("ladrao"),
+      "<p>O Diplomata parece negociar, mas o que realmente faz é controlar informação: decide o que cada um sabe, pensa que sabe e nunca vai descobrir. É especialização de Ladrão porque rouba — apenas com palavras, sorrisos e o timing perfeito. Perde Ataque Furtivo; os Talentos de Diplomata substituem os Talentos de Ladrão.</p>",
+    equipment_restrictions: {
+      weapons: "Apenas armas pequenas ou médias.",
+      armors: "Apenas armaduras leves.",
+      magic_items: "Pode utilizar pergaminhos mágicos como se tivesse metade do seu nível.",
+    },
+    levels: progressao("ladrao_esp"),
     habilidades: [
-      { nome: "Ouvir Ruídos", level: 1, desc: "<p>Com 1–2 em 1d6, percebe sons sutis em ambientes silenciosos.</p>" },
-      { nome: "Comitiva", level: 1, desc: "<p>Custo de contratação de seguidores reduzido em 25% e +1 de Moral para eles.</p>" },
-      { nome: "Audiência", level: 3, usos_dia: 1, desc: "<p>Com 1–2 em 1d6 + mod. CAR, obtém uma audiência favorável que concede bônus em Teste de Reação.</p>" },
-      { nome: "Traquejo Social", level: 6, desc: "<p>Aprende 1 idioma adicional por ponto de modificador de Carisma.</p>" },
-      { nome: "Rede de Contatos", level: 10, usos_dia: 1, desc: "<p>Com um teste de Carisma, aciona 1d4 contatos que fornecem informações obscuras.</p>" },
+      { nome: "Ouvir Ruídos", level: 1, desc: "<p>Ouve ruídos sutis em ambiente silencioso, fora de combate: chance de 1–2 em 1d6.</p>", level3: "<p>Chance de 1–3 em 1d6.</p>", level6: "<p>Chance de 1–4 em 1d6.</p>", level10: "<p>Chance de 1–5 em 1d6.</p>" },
+      { nome: "Comitiva", level: 1, desc: "<p>Especialista em gerir subordinados. <strong>Logística:</strong> custos para contratar ajudantes e mercenários são 25% menores. <strong>Moral:</strong> seguidores recebem +1 em Moral.</p>", level3: "<p>Ataques de proteção da comitiva são Ações Fáceis.</p>", level6: "<p>Os membros recebem PV adicionais iguais ao modificador de Carisma.</p>", level10: "<p>Os membros recebem bônus em JP e Dano iguais ao modificador de Carisma.</p>" },
+      { nome: "Talentos de Diplomata", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos (Arrombar, Culturas, Furtividade, Decifrar, Dossiê) e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Carisma:</strong> recebe, no 1º nível, 1 ponto extra para cada ponto de modificador de Carisma.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>" },
+      { nome: "Audiência", level: 3, desc: "<p>Ao preparar uma reunião formal, manipula o clima político: chance de 1–2 em 1d6 + modificador de Carisma para aplicar bônus ou penalidade no Teste de Reação.</p>", level10: "<p>O modificador aplicado passa a ser +2 ou −2.</p>" },
+      { nome: "Traquejo Social", level: 6, desc: "<p>Aprende uma língua adicional por ponto do modificador de Carisma (mínimo 1).</p>" },
+      { nome: "Rede de Contatos", level: 10, desc: "<p>Mediante teste de Carisma, 1d4 contatos fornecem informações obscuras ou relatos de eventos distantes.</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
     nome: "Voraz",
-    arquetipo: "ladrao",
+    tabela: "ladrao_esp",
     dv: 6,
-    flavor: "<p>Membro da Irmandade Voraz de Vornfell, caçador de criaturas monstruosas.</p>",
+    high_level_hp_bonus: 1,
+    flavor: "<p>O Anatomista de Campo da Irmandade Voraz. Especialização de Ladrão.</p>",
     descricao:
-      "<p>Os Vorazes da Irmandade de Vornfell conhecem a anatomia das criaturas monstruosas como ninguém. Caçam metodicamente, usando o medo e os despojos do inimigo como armas. Seguem a progressão de Ladrão.</p>",
-    equipment_restrictions: EQUIP.ladrao,
-    levels: progressao("ladrao"),
+      "<p>Para o Voraz, a morte da presa é apenas o início da parte interessante: a dissecção metódica, a catalogação e a transformação de componentes em arma, veneno, antídoto ou armadura. Usa o medo como ferramenta tática e bússola. Segue a progressão de Ladrão Especialista e perde o Ataque Furtivo, substituído pelas habilidades desta especialização.</p>",
+    equipment_restrictions: {
+      weapons: "Pode usar todas as armas.",
+      armors: "Pode usar todas as armaduras.",
+      magic_items: EQUIP_GUERREIRO_MAGIC,
+    },
+    levels: progressao("ladrao_esp"),
     habilidades: [
-      { nome: "Anatomia de Campo", level: 1, desc: "<p>Ataques contra criaturas monstruosas são Fáceis na primeira rodada de combate.</p>" },
-      { nome: "Arsenal do Inimigo", level: 1, desc: "<p>Cria armas improvisadas a partir de partes de criaturas abatidas, causando 1d6 de dano.</p>" },
-      { nome: "Medo Como Ferramenta", level: 3, desc: "<p>Uma vez por combate, ao abater uma criatura, intimida automaticamente outras do mesmo tipo.</p>" },
-      { nome: "Caça Especializada", level: 6, desc: "<p>Contra o tipo de criatura escolhido: +1d6 de dano e +2 em JP.</p>" },
-      { nome: "Anatomista de Elite", level: 10, desc: "<p>O Ataque Furtivo volta a ser aplicável contra as criaturas da sua caça especializada.</p>" },
+      { nome: "Análise de Campo", level: 1, desc: "<p>Após derrotar uma criatura significativa, faz um teste de perícia que (conforme o resultado) extrai componentes utilizáveis, identifica fraquezas da espécie para encontros futuros, ou descobre propriedades não catalogadas. O Mestre determina o que está disponível.</p>" },
+      { nome: "Rastreamento", level: 1, desc: "<p>Rastreia criaturas e humanoides em ambientes selvagens: 1–2 em 1d6 em terreno comum; 1 em 1d6 em terreno difícil (neve profunda, rocha sólida).</p>", level3: "<p>+1 na chance.</p>", level6: "<p>+1 na chance (cumulativo).</p>", level10: "<p>+1 na chance (cumulativo).</p>" },
+      { nome: "Talentos de Caçador", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos (Armadilha, Rastrear, Escalar, Furtividade, Armeiro de Carcaças) e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Destreza:</strong> recebe, no 1º nível, 1 ponto extra por ponto de modificador de Destreza.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>" },
+      { nome: "Conhecimento de Abominações", level: 1, desc: "<p>Conhecimento especializado sobre criaturas anômalas: chance de 1–2 em 1d6 de identificar espécie, vulnerabilidades e comportamentos de uma criatura nunca antes encontrada.</p>", level6: "<p>Aumenta para 1–3 em 1d6.</p>" },
+      { nome: "Armadilhas de Abate", level: 1, desc: "<p>Cria armadilhas de campo em 1 turno. Criaturas Grandes ou maiores presas não podem realizar ataques à distância na rodada seguinte e tornam-se Alvos Enredados (ataques contra elas são Fáceis).</p>" },
+      { nome: "Golpe Predatório", level: 3, desc: "<p>Ativa-se ao usar Golpe de Abate contra criaturas previamente identificadas (alvos não-humanoides, incluindo carapaças e couro grosso). Ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais (resolve contra a CA base 10 + modificador de Destreza). Se o ataque causar dano (×2), o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>" },
+      { nome: "Firmeza do Caçador", level: 6, desc: "<p><strong>Resistência:</strong> Teste Fácil em JP contra Medo, incluindo auras aterrorizantes. <strong>Letalidade:</strong> acertos críticos contra criaturas identificadas usam Dano Aumentado (o dado de dano sobe duas categorias antes de ser dobrado; ex.: d6 vira d10).</p>" },
+      { nome: "Caçada Implacável", level: 10, desc: "<p><strong>Imunidade:</strong> torna-se totalmente imune a Medo e Auras Aterrorizantes. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>" },
+      { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
 ];

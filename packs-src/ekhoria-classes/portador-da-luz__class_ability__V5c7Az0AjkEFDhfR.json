@@ -1,0 +1,50 @@
+{
+  "folder": "hf0tIVTGst4MvbLc",
+  "name": "Portador da Luz",
+  "type": "class_ability",
+  "_id": "V5c7Az0AjkEFDhfR",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Uma vez por dia, ao ser atingido por uma criatura Caótica, reage instantaneamente para reduzir o dano à metade ou impedir efeitos colaterais do ataque (drenagem, maldições ou corrupção).</p>",
+    "level": 6,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!V5c7Az0AjkEFDhfR"
+}

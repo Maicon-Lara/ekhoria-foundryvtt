@@ -5,7 +5,7 @@
   "_id": "KUnF43RDme8nhl3a",
   "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
   "system": {
-    "description": "<p>Seu tamanho reduzido torna Difíceis os ataques de criaturas Grandes contra eles.</p>",
+    "description": "<p>Todos os ataques de criaturas Grandes ou maiores são considerados Difíceis para acertar um Varko.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

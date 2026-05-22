@@ -1,0 +1,50 @@
+{
+  "folder": "WhZxLtkBfBRh2AUX",
+  "name": "Golpe Predatório",
+  "type": "class_ability",
+  "_id": "YDZSkWwDc2cWY3hK",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Ativa-se ao usar Golpe de Abate contra criaturas previamente identificadas (alvos não-humanoides, incluindo carapaças e couro grosso). Ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais (resolve contra a CA base 10 + modificador de Destreza). Se o ataque causar dano (×2), o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!YDZSkWwDc2cWY3hK"
+}

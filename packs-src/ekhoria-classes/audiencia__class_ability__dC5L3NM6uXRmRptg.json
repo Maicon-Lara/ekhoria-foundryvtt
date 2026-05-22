@@ -5,28 +5,28 @@
   "_id": "dC5L3NM6uXRmRptg",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Com 1–2 em 1d6 + mod. CAR, obtém uma audiência favorável que concede bônus em Teste de Reação.</p>",
+    "description": "<p>Ao preparar uma reunião formal, manipula o clima político: chance de 1–2 em 1d6 + modificador de Carisma para aplicar bônus ou penalidade no Teste de Reação.</p>",
     "level": 3,
     "level3": "",
     "level6": "",
-    "level10": "",
+    "level10": "<p>O modificador aplicado passa a ser +2 ou −2.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
       "2": 0,
-      "3": 1,
-      "4": 1,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 1,
-      "11": 1,
-      "12": 1,
-      "13": 1,
-      "14": 1,
-      "15": 1
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
     }
   },
   "effects": [],
@@ -42,7 +42,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },

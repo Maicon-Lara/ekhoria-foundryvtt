@@ -1,0 +1,50 @@
+{
+  "folder": "cv8mk2BseSPHf5DH",
+  "name": "Talentos de Diplomata",
+  "type": "class_ability",
+  "_id": "XBrCqSuHpdVQ75lP",
+  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "system": {
+    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos (Arrombar, Culturas, Furtividade, Decifrar, Dossiê) e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Carisma:</strong> recebe, no 1º nível, 1 ponto extra para cada ponto de modificador de Carisma.</p>",
+    "level": 1,
+    "level3": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level6": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level10": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XBrCqSuHpdVQ75lP"
+}
