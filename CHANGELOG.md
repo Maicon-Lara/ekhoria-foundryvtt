@@ -4,6 +4,21 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.4.3] — 2026-05-22
+
+### Corrigido
+- **Custódio Solar:** o aprimoramento que concede ao Autokthon uma 3ª
+  característica de Construção Variável agora é computável na ficha. Como o tipo
+  `class_ability` não suporta `variable_construction`, foi criada a habilidade de
+  raça **Construção Variável (Custódio Solar)** (compêndio Ekhoria: Raças, pasta
+  "Aprimoramentos de Classe"): ao adicioná-la, o personagem ganha o 3º seletor de
+  construção (2 da raça + 1 do Custódio). Descrição da habilidade da classe
+  atualizada com a instrução.
+
+### Revisão
+- Todas as 8 classes reconferidas contra o livro (EKHORIA_MECANICAS.docx);
+  habilidades e progressões confirmadas.
+
 ## [0.4.2] — 2026-05-22
 
 ### Adicionado

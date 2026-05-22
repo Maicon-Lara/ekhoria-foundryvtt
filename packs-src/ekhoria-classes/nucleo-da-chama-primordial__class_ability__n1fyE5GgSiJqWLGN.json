@@ -5,7 +5,7 @@
   "_id": "n1fyE5GgSiJqWLGN",
   "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
   "system": {
-    "description": "<p>Canaliza energia sagrada através da Pedra da Alma, preparando e lançando Magias Divinas desde o 1º nível (sem bônus de slots por Sabedoria). Recebe uma terceira característica de Construção Variável no 1º nível.</p>",
+    "description": "<p>Canaliza energia sagrada através da Pedra da Alma, preparando e lançando Magias Divinas desde o 1º nível (sem bônus de slots por Sabedoria). Recebe uma <strong>terceira</strong> característica de Construção Variável no 1º nível (totalizando 3 com as 2 da raça Autokthon).</p><p><em>Na ficha:</em> além das 2 escolhas da raça, adicione a habilidade de raça <strong>Construção Variável (Custódio Solar)</strong> — disponível no compêndio <em>Ekhoria: Raças</em>, pasta \"Aprimoramentos de Classe\" — para liberar o 3º seletor de construção.</p>",
     "level": 1,
     "level3": "",
     "level6": "",

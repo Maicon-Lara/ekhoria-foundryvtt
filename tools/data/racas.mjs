@@ -245,3 +245,18 @@ export const racas = [
     ],
   },
 ];
+
+// Habilidades de raça avulsas (não pertencem a uma raça específica; são
+// arrastadas para a ficha quando uma classe concede um aprimoramento racial).
+// O Custódio Solar concede ao Autokthon uma 3ª característica de Construção
+// Variável — como o tipo class_ability não suporta variable_construction, a
+// 3ª escolha é entregue por esta habilidade de raça (choices_count 1), que
+// soma +1 seletor na ficha além dos 2 da raça Autokthon.
+export const racaAbilitiesAvulsas = [
+  {
+    folder: "Aprimoramentos de Classe",
+    nome: "Construção Variável (Custódio Solar)",
+    desc: "<p>Aprimoramento da classe <strong>Custódio Solar</strong> (habilidade Núcleo da Chama Primordial): concede ao Autokthon uma 3ª característica de Construção Variável. Adicione esta habilidade à ficha do Custódio para liberar o seletor extra (totalizando 3 com os 2 da raça).</p>",
+    variable_construction: { choices_count: 1, available_options: CONSTRUCAO_VARIAVEL },
+  },
+];

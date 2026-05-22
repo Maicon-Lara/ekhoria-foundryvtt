@@ -15,7 +15,7 @@ import {
 } from "./lib.mjs";
 
 import { classes } from "./data/classes.mjs";
-import { racas } from "./data/racas.mjs";
+import { racas, racaAbilitiesAvulsas } from "./data/racas.mjs";
 import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
 import { categorias } from "./data/itens.mjs";
@@ -61,6 +61,15 @@ function buildRacasDocs() {
     });
     docs.push(raceDoc(race, folder._id, abilityUuids));
   }
+  // Habilidades de raça avulsas (aprimoramentos concedidos por classes).
+  const folders = {};
+  racaAbilitiesAvulsas.forEach((ab, i) => {
+    if (!folders[ab.folder]) {
+      folders[ab.folder] = folderDoc(ab.folder, "Item", "racas");
+      docs.push(folders[ab.folder]);
+    }
+    docs.push(raceAbilityDoc(ab, folders[ab.folder]._id, ab.folder, (i + 1) * 100000));
+  });
   return docs;
 }
 
