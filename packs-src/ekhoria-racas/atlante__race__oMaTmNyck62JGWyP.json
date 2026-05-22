@@ -1,0 +1,43 @@
+{
+  "folder": "pARuNgxHhEmoWuYp",
+  "name": "Atlante",
+  "type": "race",
+  "_id": "oMaTmNyck62JGWyP",
+  "img": "systems/olddragon2e/assets/icons/alignment.svg",
+  "system": {
+    "flavor": "<p>Eruditos errantes das correntes — nômades anfíbios que transformaram o movimento em filosofia.</p>",
+    "description": "<p>Sem lar fixo, os Atlantes vivem em frotas-cidade que nunca param de se mover, descendentes dos que fugiram para o mar no Dilúvio Ancestral. Têm guelras, pele em tons aquáticos e carregam o Diário de Corrente com tudo o que viveram. Para um Atlante, parar é morte.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 18,
+    "infravision_notes": "30 metros embaixo d'água; 18 metros fora dela.",
+    "alignment_tendency": "ordeiro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.9eVNsEH9lSdz6TV8",
+      "Compendium.ekhoria.ekhoria-racas.Item.nJ8l96NbV8dzKH2m",
+      "Compendium.ekhoria.ekhoria-racas.Item.DQ7bq8tIaYMLdCYx",
+      "Compendium.ekhoria.ekhoria-racas.Item.8sLCYopcQEqAJ5zC"
+    ],
+    "movement_swim": 12
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!oMaTmNyck62JGWyP"
+}

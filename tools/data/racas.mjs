@@ -244,6 +244,86 @@ export const racas = [
       },
     ],
   },
+  {
+    nome: "Arkanim",
+    flavor: "<p>Humanos transformados por gerações sob a pressão arcana de Arkádia. Cristais crescem em sua pele.</p>",
+    descricao:
+      "<p>Os Arkanim são o que acontece quando gerações de humanos vivem sob a pressão arcana de Arkádia. Cristais coloridos crescem pela pele e as veias brilham em azul-violeta sob emoção intensa; o corpo aprendeu a processar o que mataria um visitante não adaptado. Tratam magia como ferramenta, não milagre.</p>",
+    movement: 9,
+    infravision: 0,
+    alignment_tendency: "none",
+    habilidades: [
+      {
+        nome: "Filhos de Arkádia",
+        desc: "<p>Por nascerem em Arkádia, detectam anomalias mágicas com 1 em 1d6, mesmo sem analisar ativamente (como sob o efeito de Detectar Magias).</p>",
+      },
+      {
+        nome: "Infecção Mágica",
+        desc: "<p>Sua origem mágica os torna mais resistentes a efeitos que afetam mente e corpo: +1 em teste de JPS ou JPC (à escolha).</p>",
+      },
+      {
+        nome: "Herança Arcana",
+        desc: "<p>Uma vez por dia, conjuram uma magia de 1º círculo, definida aleatoriamente no nascimento ou escolhida pelo Mestre.</p>",
+        daily_uses: 1,
+      },
+    ],
+  },
+  {
+    nome: "Atlante",
+    flavor: "<p>Eruditos errantes das correntes — nômades anfíbios que transformaram o movimento em filosofia.</p>",
+    descricao:
+      "<p>Sem lar fixo, os Atlantes vivem em frotas-cidade que nunca param de se mover, descendentes dos que fugiram para o mar no Dilúvio Ancestral. Têm guelras, pele em tons aquáticos e carregam o Diário de Corrente com tudo o que viveram. Para um Atlante, parar é morte.</p>",
+    movement: 9,
+    movement_swim: 12,
+    infravision: 18,
+    infravision_notes: "30 metros embaixo d'água; 18 metros fora dela.",
+    alignment_tendency: "ordeiro",
+    habilidades: [
+      {
+        nome: "Anfíbios",
+        desc: "<p>Respiram sob a água e fora dela, sem nenhuma penalidade para agir ou lutar submersos.</p>",
+      },
+      {
+        nome: "Adaptabilidade",
+        desc: "<p>Recebem +1 em uma única Jogada de Proteção à sua escolha.</p>",
+      },
+      {
+        nome: "Letrados",
+        desc: "<p>Sabem ler e escrever o próprio idioma e ao menos um idioma adicional.</p>",
+      },
+      {
+        nome: "Dependência de Água",
+        desc: "<p>Em terra firme, bebem o dobro de água diária e precisam submergir totalmente ao menos uma vez por semana. Sem isso, após 1 semana todas as jogadas ficam Difíceis; após 2 semanas, Muito Difíceis.</p>",
+      },
+    ],
+  },
+  {
+    nome: "Silente",
+    flavor: "<p>Mortos-vivos conscientes — presos entre a vida e a morte por um ritual que falhou.</p>",
+    descricao:
+      "<p>Os Silentes são o erro da Velha Irmandade Voraz: veteranos mortos em combate e presos num limbo consciente. Carne fria e estática, movimento que rangue, sem necessidade de alimento, sono ou respiração — mas com a memória intacta de quem foram. <em>Observação: o livro de mecânicas não traz habilidades raciais para os Silentes; as abaixo seguem o material original do cenário e podem ser ajustadas pelo Mestre.</em></p>",
+    movement: 9,
+    infravision: 0,
+    alignment_tendency: "neutro",
+    habilidades: [
+      {
+        nome: "Eco-Sombrio",
+        desc: "<p>Sua presença incomoda: –4 em Testes de Reação. Em compensação, com 1 em 1d6 passam despercebidos em ambientes de penumbra.</p>",
+      },
+      {
+        nome: "Mestre das Lâminas Curtas",
+        desc: "<p>Ataques com adagas e facas são Fáceis. Empunhando duas lâminas curtas, recebem +1 de CA.</p>",
+      },
+      {
+        nome: "Corpo Estático",
+        desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV.</p>",
+      },
+      {
+        nome: "Eco Antimágico",
+        desc: "<p>Não conjuram magias de nenhuma espécie, mas são imunes a magias que os tenham como alvo direto.</p>",
+      },
+    ],
+  },
 ];
 
 // Habilidades de raça avulsas (não pertencem a uma raça específica; são

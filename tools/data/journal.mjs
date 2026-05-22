@@ -26,16 +26,19 @@ const paginas = [
   {
     title: "Raças de Ekhoria",
     content: `
-<p>O cenário apresenta 7 raças com mecânica própria (compêndio <strong>Ekhoria: Raças</strong>). As raças base do OD2 (Humano, Elfo, Anão, Halfling, Meio-Elfo, Gnomo) recebem apenas <em>lore</em> no livro de Ekhoria e usam a mecânica do Livro de Regras Básicas do OD2.</p>
+<p>O cenário apresenta 10 raças com mecânica própria (compêndio <strong>Ekhoria: Raças</strong>). As raças base do OD2 (Humano, Elfo, Anão, Halfling, Meio-Elfo, Gnomo) recebem apenas <em>lore</em> no livro de Ekhoria e usam a mecânica do Livro de Regras Básicas do OD2.</p>
 <table>
 <thead><tr><th>Raça</th><th>Movimento</th><th>Infravisão</th><th>Alinhamento</th></tr></thead>
 <tbody>
+<tr><td>Arkanim</td><td>9 m</td><td>—</td><td>Qualquer</td></tr>
+<tr><td>Atlante</td><td>9 m (12 m nadando)</td><td>18 m (30 m submerso)</td><td>Ordeiro</td></tr>
 <tr><td>Autokthon</td><td>9 m</td><td>30 m</td><td>Neutro ou Ordeiro</td></tr>
 <tr><td>Cambion</td><td>9 m (6 m se pequeno)</td><td>15 m</td><td>Qualquer</td></tr>
 <tr><td>Elfo Drow</td><td>9 m</td><td>18 m</td><td>Neutro</td></tr>
 <tr><td>Mantes</td><td>9 m</td><td>18 m</td><td>Neutro</td></tr>
 <tr><td>Nefilim</td><td>9 m (6 m se pequeno)</td><td>15 m</td><td>Ordeiro</td></tr>
 <tr><td>Orc do Sol Poente</td><td>9 m</td><td>18 m</td><td>Ordeiro</td></tr>
+<tr><td>Silente</td><td>9 m</td><td>—</td><td>Neutro</td></tr>
 <tr><td>Varko</td><td>6 m</td><td>30 m</td><td>Caótico</td></tr>
 </tbody>
 </table>
@@ -53,8 +56,8 @@ const paginas = [
 <li><strong>Guardião da Centelha → Cinthara:</strong> anões-magos de alinhamento Ordeiro, dependentes dos Cristais de Centelha.</li>
 </ul>
 
-<h2>Sobre "Silente" e "Arkanim"</h2>
-<p>No livro de Ekhoria, <strong>Silente</strong> (morto-vivo consciente de Breônia) e <strong>Arkanim</strong> (habitante de Arkádia) são <em>identidades de origem/lore</em>, e não raças jogáveis com ficha mecânica própria — diferentemente das 7 raças do capítulo "Povos de Ekhoria". As restrições acima são transcritas como o livro as define; cabe ao Mestre decidir como representá-las na criação de personagem.</p>
+<h2>Sobre "Silente"</h2>
+<p>O <strong>Arkanim</strong> e o <strong>Atlante</strong> têm ficha de raça completa no livro de mecânicas (já incluídos no compêndio). O <strong>Silente</strong> (morto-vivo consciente) aparece no lore e como pré-requisito do Relicário Vivo, mas o livro de mecânicas não define habilidades raciais para ele — as habilidades no compêndio seguem o material original do cenário e podem ser ajustadas pelo Mestre.</p>
 
 <h2>Itens, substâncias e magias</h2>
 <p>O arsenal (armas, armaduras e substâncias) está no compêndio <strong>Ekhoria: Arsenal</strong>, e as magias das quatro escolas, no compêndio <strong>Ekhoria: Magias</strong>. Os detalhes de materiais, cristais, munições e regras estão na página a seguir.</p>

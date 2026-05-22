@@ -4,6 +4,17 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.0] — 2026-05-22
+
+### Adicionado
+- **3 raças que faltavam**, completando as 10 raças originárias do cenário:
+  - **Arkanim** e **Atlante** — com ficha mecânica transcrita do livro de
+    mecânicas (corrigindo omissão das versões anteriores, que tinham só 7 raças).
+  - **Silente** — recriado a partir do material original do cenário (o livro de
+    mecânicas não define habilidades raciais para ele; é pré-requisito do
+    Relicário Vivo). Sujeito a ajuste pelo Mestre.
+- Tabela de raças e nota de conversão do journal atualizadas.
+
 ## [0.5.4] — 2026-05-22
 
 ### Corrigido

@@ -1,0 +1,42 @@
+{
+  "folder": "U1StBVXHgP4Ria35",
+  "name": "Silente",
+  "type": "race",
+  "_id": "xQevYDpx1HwkIDdD",
+  "img": "systems/olddragon2e/assets/icons/alignment.svg",
+  "system": {
+    "flavor": "<p>Mortos-vivos conscientes — presos entre a vida e a morte por um ritual que falhou.</p>",
+    "description": "<p>Os Silentes são o erro da Velha Irmandade Voraz: veteranos mortos em combate e presos num limbo consciente. Carne fria e estática, movimento que rangue, sem necessidade de alimento, sono ou respiração — mas com a memória intacta de quem foram. <em>Observação: o livro de mecânicas não traz habilidades raciais para os Silentes; as abaixo seguem o material original do cenário e podem ser ajustadas pelo Mestre.</em></p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 0,
+    "infravision_notes": "",
+    "alignment_tendency": "neutro",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.0IcXlWQMv4SscYiZ",
+      "Compendium.ekhoria.ekhoria-racas.Item.ThTDuewle2PUoATb",
+      "Compendium.ekhoria.ekhoria-racas.Item.mXIU1T114m5utcUE",
+      "Compendium.ekhoria.ekhoria-racas.Item.aVPhaIFEDplFUcRt"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!xQevYDpx1HwkIDdD"
+}

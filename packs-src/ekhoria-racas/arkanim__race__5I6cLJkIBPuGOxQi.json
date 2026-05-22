@@ -1,0 +1,41 @@
+{
+  "folder": "QE8DpzOssnGBI3p8",
+  "name": "Arkanim",
+  "type": "race",
+  "_id": "5I6cLJkIBPuGOxQi",
+  "img": "systems/olddragon2e/assets/icons/alignment.svg",
+  "system": {
+    "flavor": "<p>Humanos transformados por gerações sob a pressão arcana de Arkádia. Cristais crescem em sua pele.</p>",
+    "description": "<p>Os Arkanim são o que acontece quando gerações de humanos vivem sob a pressão arcana de Arkádia. Cristais coloridos crescem pela pele e as veias brilham em azul-violeta sob emoção intensa; o corpo aprendeu a processar o que mataria um visitante não adaptado. Tratam magia como ferramenta, não milagre.</p>",
+    "movement": 9,
+    "movement_fly": 0,
+    "movement_notes": "",
+    "infravision": 0,
+    "infravision_notes": "",
+    "alignment_tendency": "none",
+    "alignment_notes": "",
+    "race_abilities": [
+      "Compendium.ekhoria.ekhoria-racas.Item.9ffEY5lqWDovYLja",
+      "Compendium.ekhoria.ekhoria-racas.Item.75lQHdC767IstUnd",
+      "Compendium.ekhoria.ekhoria-racas.Item.AnJbTd9Wfn0dESJO"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5I6cLJkIBPuGOxQi"
+}
