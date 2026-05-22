@@ -1,0 +1,39 @@
+{
+  "folder": "qV5gtj46VBBxKtka",
+  "name": "Celeridade de Mordenkainen",
+  "type": "spell",
+  "_id": "9hCHkMuzQsyFj3gy",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "celeridade-de-mordenkainen",
+    "school": "arcane",
+    "circle": "4",
+    "arcane": "4",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "1 turno",
+    "jp": "nenhuma",
+    "description": "<p>Afeta magias de 1º a 3º círculo que alteram o movimento do mago (Queda Suave, Salto, Patas de Aranha, Levitação, Voar, Velocidade), expressas em até 1 rodada. Essas magias ganham +25% de duração; o movimento do mago aumenta 25%; e ele ganha bônus em JP contra magias de movimento de 1º–3º e paralisia mágica.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9hCHkMuzQsyFj3gy"
+}

@@ -1,0 +1,39 @@
+{
+  "folder": "qV5gtj46VBBxKtka",
+  "name": "Detectar Doença",
+  "type": "spell",
+  "_id": "A2FE7rMWr5KOaDTO",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "detectar-doenca",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "10 metros",
+    "duration": "1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p>Revela ao mago se um indivíduo ou criatura está infectado por alguma doença, normal ou mágica. Há ainda 10% de chance por nível do mago de identificar com precisão qual é a doença.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!A2FE7rMWr5KOaDTO"
+}

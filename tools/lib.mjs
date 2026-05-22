@@ -263,6 +263,124 @@ export function journalDoc(entry, sort) {
   };
 }
 
+// Item do tipo spell (magia).
+export function spellDoc(spell, folderId, seedPrefix, sort) {
+  const id = makeId(`spell:${seedPrefix}:${spell.nome}`);
+  const traditions = { arcane: "null", divine: "null", necromancer: "null", illusionist: "null" };
+  traditions[spell.school] = String(spell.circle);
+  return {
+    folder: folderId,
+    name: spell.nome,
+    type: "spell",
+    _id: id,
+    img: "icons/svg/daze.svg",
+    system: {
+      odo_id: slug(spell.nome),
+      school: spell.school,
+      circle: String(spell.circle),
+      ...traditions,
+      reverse: !!spell.reverse,
+      range: spell.range || "",
+      duration: spell.duration || "",
+      jp: spell.jp || "nenhuma",
+      description: spell.desc || "",
+    },
+    effects: [],
+    flags: {},
+    _stats: stats(),
+    sort: sort,
+    ownership: { default: 0 },
+    _key: `!items!${id}`,
+  };
+}
+
+// Campos comuns do equipamento (cost, peso, etc.).
+function equipmentBase(it) {
+  return {
+    odo_id: slug(it.nome),
+    description: it.desc || "",
+    quantity: 1,
+    cost: it.cost || "",
+    weight_in_load: it.weight_in_load ?? 0,
+    weight_in_grams: it.weight_in_grams ?? 0,
+    magic_item: !!it.magic_item,
+    is_equipped: false,
+  };
+}
+
+// Item do tipo weapon (arma).
+export function weaponDoc(it, folderId, seedPrefix, sort) {
+  const id = makeId(`weapon:${seedPrefix}:${it.nome}`);
+  return {
+    folder: folderId,
+    name: it.nome,
+    type: "weapon",
+    _id: id,
+    img: it.img || "icons/svg/sword.svg",
+    system: {
+      ...equipmentBase(it),
+      type: it.melee === false || it.ranged ? "ranged" : "melee",
+      damage_type: it.damage_type || "none",
+      damage: it.damage || "",
+      bonus_damage: it.bonus_damage ?? 0,
+      bonus_ba: it.bonus_ba ?? 0,
+      bonus_ca: it.bonus_ca ?? 0,
+      shoot_range: it.shoot_range ?? 0,
+      throw_range: it.throw_range ?? 0,
+      arrow: !!it.arrow,
+      bolt: !!it.bolt,
+      bolt_small: !!it.bolt_small,
+      polearm: !!it.polearm,
+      two_handed: !!it.two_handed,
+      versatile: !!it.versatile,
+    },
+    effects: [],
+    flags: {},
+    _stats: stats(),
+    sort: sort,
+    ownership: { default: 0 },
+    _key: `!items!${id}`,
+  };
+}
+
+// Item do tipo armor (armadura).
+export function armorDoc(it, folderId, seedPrefix, sort) {
+  const id = makeId(`armor:${seedPrefix}:${it.nome}`);
+  return {
+    folder: folderId,
+    name: it.nome,
+    type: "armor",
+    _id: id,
+    img: it.img || "icons/svg/shield.svg",
+    system: { ...equipmentBase(it), bonus_ca: it.bonus_ca ?? 0 },
+    effects: [],
+    flags: {},
+    _stats: stats(),
+    sort: sort,
+    ownership: { default: 0 },
+    _key: `!items!${id}`,
+  };
+}
+
+// Item do tipo misc (equipamento geral / consumível).
+export function miscDoc(it, folderId, seedPrefix, sort) {
+  const id = makeId(`misc:${seedPrefix}:${it.nome}`);
+  return {
+    folder: folderId,
+    name: it.nome,
+    type: "misc",
+    _id: id,
+    img: it.img || "icons/svg/item-bag.svg",
+    system: equipmentBase(it),
+    effects: [],
+    flags: {},
+    _stats: stats(),
+    sort: sort,
+    ownership: { default: 0 },
+    _key: `!items!${id}`,
+  };
+}
+
 // Caminho de UUID de um item dentro de um pack deste módulo.
 export function itemUuid(packName, itemId) {
   return `Compendium.ekhoria.${packName}.Item.${itemId}`;

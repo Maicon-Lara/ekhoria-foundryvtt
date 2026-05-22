@@ -1,0 +1,39 @@
+{
+  "folder": "mcwpkEs06D5tiyqf",
+  "name": "Terreno Ilusório",
+  "type": "spell",
+  "_id": "O1SmQnAqcsWrA6aA",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "terreno-ilusorio",
+    "school": "illusionist",
+    "circle": "4",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "4",
+    "reverse": false,
+    "range": "20 metros/nível",
+    "duration": "1 hora/nível",
+    "jp": "nenhuma",
+    "description": "<p>Disfarça o terreno na área: uma estrada pode parecer pântano, um lago pode parecer planície, etc. Persiste até Dissipar Magia ou o fim da duração. Quem percebe a ilusão não a desfaz; quem não percebe é afetado.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!O1SmQnAqcsWrA6aA"
+}

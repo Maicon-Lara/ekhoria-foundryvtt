@@ -2,7 +2,7 @@
   "id": "ekhoria",
   "title": "Ekhoria — Sourcebook Oficial",
   "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -41,6 +41,20 @@
       "system": "olddragon2e"
     },
     {
+      "name": "ekhoria-itens",
+      "label": "Ekhoria: Arsenal",
+      "path": "packs/ekhoria-itens",
+      "type": "Item",
+      "system": "olddragon2e"
+    },
+    {
+      "name": "ekhoria-magias",
+      "label": "Ekhoria: Magias",
+      "path": "packs/ekhoria-magias",
+      "type": "Item",
+      "system": "olddragon2e"
+    },
+    {
       "name": "ekhoria-journal",
       "label": "Ekhoria: Referência do Mestre",
       "path": "packs/ekhoria-journal",
@@ -52,7 +66,7 @@
     {
       "name": "Ekhoria",
       "sorting": "m",
-      "packs": ["ekhoria-classes", "ekhoria-racas", "ekhoria-journal"]
+      "packs": ["ekhoria-classes", "ekhoria-racas", "ekhoria-itens", "ekhoria-magias", "ekhoria-journal"]
     }
   ],
   "esmodules": ["ekhoria.js"],

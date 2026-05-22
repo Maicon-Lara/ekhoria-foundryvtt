@@ -4,6 +4,20 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.4.0] — 2026-05-22
+
+### Adicionado
+- **Compêndio "Ekhoria: Arsenal"** (itens): armas regionais (Kurogane, Soqueiras,
+  Kattar), armas de fogo (Pistola e Mosquete de pederneira), armaduras (Couraça
+  Lagarto-Gelo e armaduras de Núcleo Lítico) e substâncias alquímicas / Fungos do
+  Degelo (Mandra, Albinus, Nargula, Sacos de Esporos, Máscara de Nurillion, etc.).
+- **Compêndio "Ekhoria: Magias"**: 45 magias das quatro escolas — Arcana (9),
+  Divina (18, por divindade Aelora/Chronael/Morthan), Necromante (9, incluindo
+  o Buquê Púrpura exclusivo) e Ilusionista (9) — com escola, círculo, alcance,
+  duração, Jogada de Proteção e descrição.
+- Página de journal "Arsenal — Materiais, Cristais e Regras" (metais especiais,
+  cristais de Ekhoria, regras de armas de fogo, vício e extração de despojos).
+
 ## [0.3.0] — 2026-05-22
 
 ### Corrigido

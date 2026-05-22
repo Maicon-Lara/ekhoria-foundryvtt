@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Morte Aparente (Divina)",
+  "type": "spell",
+  "_id": "m8zztQK4drLD0ESN",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "morte-aparente-divina",
+    "school": "divine",
+    "circle": "3",
+    "arcane": "null",
+    "divine": "3",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "1 turno + 1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Morthan.</strong> Reduz a pessoa a um estado idêntico à morte. Ela ouve e sente cheiros, mas não percebe o corpo nem enxerga; não sente agressões. Todo dano é reduzido à metade; paralisia, dreno e veneno não a afetam (veneno age quando o efeito cessa).</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!m8zztQK4drLD0ESN"
+}

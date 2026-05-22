@@ -1,0 +1,39 @@
+{
+  "folder": "mcwpkEs06D5tiyqf",
+  "name": "Invisibilidade Melhorada",
+  "type": "spell",
+  "_id": "ihJhZrBa0cndkqKp",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "invisibilidade-melhorada",
+    "school": "illusionist",
+    "circle": "4",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "4",
+    "reverse": false,
+    "range": "toque",
+    "duration": "4 rodadas + 1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p>Como Invisibilidade, mas o alvo pode atacar e lançar magias e continua invisível. Sinais sutis (brilho) só são percebidos quando especificamente procurados, após a presença ser conhecida. Ataques contra a criatura invisível têm −4.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ihJhZrBa0cndkqKp"
+}

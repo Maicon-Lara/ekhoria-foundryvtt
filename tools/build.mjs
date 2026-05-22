@@ -11,12 +11,14 @@ import { compilePack } from "@foundryvtt/foundryvtt-cli";
 
 import {
   folderDoc, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
-  journalDoc, itemUuid, writeSource,
+  journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, itemUuid, writeSource,
 } from "./lib.mjs";
 
 import { classes } from "./data/classes.mjs";
 import { racas } from "./data/racas.mjs";
 import { journalPages } from "./data/journal.mjs";
+import { escolas } from "./data/magias.mjs";
+import { categorias } from "./data/itens.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -25,6 +27,8 @@ const OUT = path.join(ROOT, "ekhoria-module", "packs");
 const CLASSES_PACK = "ekhoria-classes";
 const RACAS_PACK = "ekhoria-racas";
 const JOURNAL_PACK = "ekhoria-journal";
+const ITENS_PACK = "ekhoria-itens";
+const MAGIAS_PACK = "ekhoria-magias";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
 function buildClassesDocs() {
@@ -65,6 +69,34 @@ function buildJournalDocs() {
   return journalPages.map((entry, i) => journalDoc(entry, (i + 1) * 100000));
 }
 
+// ── Pack de itens (Arsenal: armas, armaduras, substâncias) ──
+function buildItensDocs() {
+  const builders = { weapon: weaponDoc, armor: armorDoc, misc: miscDoc };
+  const docs = [];
+  for (const cat of categorias) {
+    const folder = folderDoc(cat.folder, "Item", "itens");
+    docs.push(folder);
+    const build = builders[cat.tipo];
+    cat.itens.forEach((it, i) => {
+      docs.push(build(it, folder._id, cat.folder, (i + 1) * 100000));
+    });
+  }
+  return docs;
+}
+
+// ── Pack de magias (4 escolas) ──
+function buildMagiasDocs() {
+  const docs = [];
+  for (const grupo of escolas) {
+    const folder = folderDoc(grupo.folder, "Item", "magias");
+    docs.push(folder);
+    grupo.magias.forEach((m, i) => {
+      docs.push(spellDoc({ ...m, school: grupo.school }, folder._id, grupo.school, (i + 1) * 100000));
+    });
+  }
+  return docs;
+}
+
 async function compile(packName, docs) {
   const srcDir = path.join(SRC, packName);
   const outDir = path.join(OUT, packName);
@@ -79,6 +111,8 @@ async function main() {
   console.log("Gerando compêndios do Ekhoria…");
   await compile(CLASSES_PACK, buildClassesDocs());
   await compile(RACAS_PACK, buildRacasDocs());
+  await compile(ITENS_PACK, buildItensDocs());
+  await compile(MAGIAS_PACK, buildMagiasDocs());
   await compile(JOURNAL_PACK, buildJournalDocs());
   console.log("Concluído.");
 }

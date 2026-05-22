@@ -1,0 +1,39 @@
+{
+  "folder": "vR8QVaW124qgHUo8",
+  "name": "Toque do Caniçal",
+  "type": "spell",
+  "_id": "AWhse05WhjaACxLG",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "toque-do-canical",
+    "school": "necromancer",
+    "circle": "2",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "2",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "1 rodada/nível",
+    "jp": "especial",
+    "description": "<p>O toque do mago paralisa humano, anão, gnomo, meio-elfo ou halfling por 1d6+2 rodadas (JPC anula). A vítima paralisada transpira um odor num raio de 3 m que causa náusea; quem não passar em JPC ataca com −2 até o fim da magia.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!AWhse05WhjaACxLG"
+}

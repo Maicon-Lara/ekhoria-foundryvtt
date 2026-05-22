@@ -1,0 +1,39 @@
+{
+  "folder": "qV5gtj46VBBxKtka",
+  "name": "Distorção de Distância",
+  "type": "spell",
+  "_id": "Yqizsio3V7a04bL8",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "distorcao-de-distancia",
+    "school": "arcane",
+    "circle": "5",
+    "arcane": "5",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "10 metros/nível",
+    "duration": "2 turnos/nível",
+    "jp": "nenhuma",
+    "description": "<p>Lançada apenas em áreas cercadas por terra, rocha ou areia, exige um Conjurar Elemental (da terra). O elemental dobra ou reduz à metade as dimensões da área para quem viajar sobre ela. Ao fim, o elemental retorna ao seu plano.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Yqizsio3V7a04bL8"
+}

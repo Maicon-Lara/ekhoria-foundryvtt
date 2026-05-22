@@ -1,0 +1,35 @@
+{
+  "folder": "oSvMCVHWMWqUGxUs",
+  "name": "Mandra (Pílula)",
+  "type": "misc",
+  "_id": "TnC7EjmHef5csjT0",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "odo_id": "mandra-pilula",
+    "description": "<p>Cura 4d6+3 PV e funciona como antídoto. <strong>Vício 1–2.</strong> Colateral/abstinência: insônia e exaustão permanente.</p>",
+    "quantity": 1,
+    "cost": "—",
+    "weight_in_load": 0,
+    "weight_in_grams": 0,
+    "magic_item": false,
+    "is_equipped": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!TnC7EjmHef5csjT0"
+}

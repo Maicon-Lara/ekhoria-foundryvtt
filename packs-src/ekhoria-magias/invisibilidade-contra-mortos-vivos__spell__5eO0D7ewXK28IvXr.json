@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Invisibilidade contra Mortos-Vivos",
+  "type": "spell",
+  "_id": "5eO0D7ewXK28IvXr",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "invisibilidade-contra-mortos-vivos",
+    "school": "divine",
+    "circle": "1",
+    "arcane": "null",
+    "divine": "1",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "6 rodadas",
+    "jp": "especial",
+    "description": "<p><strong>Morthan.</strong> Mortos-vivos afetados ignoram as criaturas protegidas. Com 4 DV ou menos são afetados automaticamente; acima disso, fazem JP. O clérigo não pode usar o poder da fé contra eles enquanto durar, e a magia cancela se ele atacar.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5eO0D7ewXK28IvXr"
+}

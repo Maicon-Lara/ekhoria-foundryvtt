@@ -1,0 +1,39 @@
+{
+  "folder": "vR8QVaW124qgHUo8",
+  "name": "Recordação de Morte",
+  "type": "spell",
+  "_id": "lnJypCCbGmoYCMHO",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "recordacao-de-morte",
+    "school": "necromancer",
+    "circle": "2",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "2",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "<p>Ao tocar um cadáver de criatura morta nas últimas 24 horas, o mago entra em transe e vê os 10 minutos finais da vida do alvo, pelos olhos dele, terminando na última cena antes da morte.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lnJypCCbGmoYCMHO"
+}

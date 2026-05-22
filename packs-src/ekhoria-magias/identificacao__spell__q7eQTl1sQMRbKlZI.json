@@ -1,0 +1,39 @@
+{
+  "folder": "qV5gtj46VBBxKtka",
+  "name": "Identificação",
+  "type": "spell",
+  "_id": "q7eQTl1sQMRbKlZI",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "identificacao",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p>Os itens mágicos tocados pelo mago podem ser identificados. As 8 horas anteriores devem ser gastas purificando os itens. A chance de obter uma informação é de 10% por nível, até 90%. Resultados de 96 a 00 indicam leitura errônea; de 91 a 95, nenhuma informação.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!q7eQTl1sQMRbKlZI"
+}

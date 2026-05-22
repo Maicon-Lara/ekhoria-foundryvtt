@@ -1,0 +1,39 @@
+{
+  "folder": "mcwpkEs06D5tiyqf",
+  "name": "Logro",
+  "type": "spell",
+  "_id": "XaYrtse5QGawfRqb",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "logro",
+    "school": "illusionist",
+    "circle": "3",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "3",
+    "reverse": false,
+    "range": "0",
+    "duration": "1 turno/nível",
+    "jp": "JPS nega",
+    "description": "<p>Mascara a tendência do mago com a de qualquer criatura (Inteligência > 1) a até 10 m no momento do lançamento. Revelar Tendência, Detectar Maldade ou Bondade registram a aura falsa. Combinada com Alterar-se/Transformação, dificulta ainda mais perceber o disfarce.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XaYrtse5QGawfRqb"
+}

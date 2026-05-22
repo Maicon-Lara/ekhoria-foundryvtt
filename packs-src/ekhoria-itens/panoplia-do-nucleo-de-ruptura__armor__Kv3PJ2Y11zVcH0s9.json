@@ -1,0 +1,36 @@
+{
+  "folder": "EEFFZ8nqBZDdirEU",
+  "name": "Panóplia do Núcleo de Ruptura",
+  "type": "armor",
+  "_id": "Kv3PJ2Y11zVcH0s9",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "system": {
+    "odo_id": "panoplia-do-nucleo-de-ruptura",
+    "description": "<p>Armadura Pesada de Arcanita, <strong>exclusiva de Lito-arcanistas</strong>. Concede +2 em JPC física e +1d6 no dano da habilidade Ruptura do Núcleo.</p>",
+    "quantity": 1,
+    "cost": "1.500 PO",
+    "weight_in_load": 2,
+    "weight_in_grams": 0,
+    "magic_item": false,
+    "is_equipped": false,
+    "bonus_ca": 5
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Kv3PJ2Y11zVcH0s9"
+}

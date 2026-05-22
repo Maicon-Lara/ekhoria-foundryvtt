@@ -1,0 +1,39 @@
+{
+  "folder": "vR8QVaW124qgHUo8",
+  "name": "Máscara da Morte",
+  "type": "spell",
+  "_id": "GW8nasb18e68wbhG",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "mascara-da-morte",
+    "school": "necromancer",
+    "circle": "4",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "4",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "1 turno/nível",
+    "jp": "JPS nega",
+    "description": "<p>O necromante assume a aparência exata de uma criatura morta cujo cadáver ele toque (feições, voz, maneirismos, vestimentas no momento da morte), retendo suas próprias capacidades. Detectar Magia ou Revelar Tendência têm 50% de chance de penetrar o disfarce. <em>Útil para infiltração.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GW8nasb18e68wbhG"
+}

@@ -1,0 +1,39 @@
+{
+  "folder": "vR8QVaW124qgHUo8",
+  "name": "Dedo da Morte",
+  "type": "spell",
+  "_id": "ohk5Ql5vV1Dt3Lrv",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "dedo-da-morte",
+    "school": "necromancer",
+    "circle": "7",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "7",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "60 metros",
+    "duration": "permanente",
+    "jp": "JPC anula",
+    "description": "<p>Suga a energia vital da vítima; se funcionar, ela não pode ser ressuscitada. O mago aponta o indicador: se a vítima falhar na JPC, morte instantânea; se passar, sofre 2d8+1. Em humanos mortos pela magia, após 3 dias o corpo pode ser animado como zumbi vudu (ritual de 1.000 po + 500 por vítima).</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ohk5Ql5vV1Dt3Lrv"
+}

@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Leitura da Mente",
+  "type": "spell",
+  "_id": "Gily6K7eK90DOplX",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "leitura-da-mente",
+    "school": "divine",
+    "circle": "2",
+    "arcane": "null",
+    "divine": "2",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "5 metros/nível",
+    "duration": "1 rodada/nível",
+    "jp": "especial",
+    "description": "<p><strong>Chronael.</strong> Versão sacerdotal da PES. Detecta pensamentos superficiais ao alcance e sonda mais fundo uma criatura. Sempre revela o tipo de criatura; 20% de chance de revelar a classe de personagem.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Gily6K7eK90DOplX"
+}

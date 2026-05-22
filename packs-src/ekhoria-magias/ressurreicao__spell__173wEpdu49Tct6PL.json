@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Ressurreição",
+  "type": "spell",
+  "_id": "173wEpdu49Tct6PL",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "ressurreicao",
+    "school": "divine",
+    "circle": "7",
+    "arcane": "null",
+    "divine": "7",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "<p><strong>Morthan.</strong> Mais poderosa que Reviver Mortos: restaura qualquer criatura morta, independentemente do tempo, desde que o corpo não tenha sido destruído. Volta com todos os PV. Adiciona 3 anos à idade do clérigo, que precisa descansar uma semana. <em>Em Ekhoria, lançá-la é forçar a mão de um deus que preferia não se envolver.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!173wEpdu49Tct6PL"
+}

@@ -60,7 +60,41 @@ const paginas = [
 <p>No livro de Ekhoria, <strong>Silente</strong> (morto-vivo consciente de Breônia) e <strong>Arkanim</strong> (habitante de Arkádia) são <em>identidades de origem/lore</em>, e não raças jogáveis com ficha mecânica própria — diferentemente das 7 raças do capítulo "Povos de Ekhoria". As restrições acima são transcritas como o livro as define; cabe ao Mestre decidir como representá-las na criação de personagem.</p>
 
 <h2>Itens, substâncias e magias</h2>
-<p>Fungos do Degelo, Cristais de Centelha, Pedra da Alma e demais itens do cenário são detalhados nos capítulos "Arsenal de Ekhoria" e "Magias de Ekhoria" do livro. Não foram incluídos neste módulo nesta versão.</p>
+<p>O arsenal (armas, armaduras e substâncias) está no compêndio <strong>Ekhoria: Arsenal</strong>, e as magias das quatro escolas, no compêndio <strong>Ekhoria: Magias</strong>. Os detalhes de materiais, cristais, munições e regras estão na página a seguir.</p>
+`,
+  },
+  {
+    title: "Arsenal — Materiais, Cristais e Regras",
+    content: `
+<h1>Arsenal — Materiais, Cristais e Regras</h1>
+
+<h2>Metais Especiais</h2>
+<ul>
+<li><strong>Prata</strong> (×2): essencial contra licantropos e certos mortos-vivos.</li>
+<li><strong>Bronze</strong> (×1,5): −1 na CA, mas reduz o peso (armadura pesada conta como média para Carga).</li>
+<li><strong>Mitral</strong> (×10): armaduras mais leves (+1 CA) e armas mais afiadas (+1 dano). Extremamente raro.</li>
+</ul>
+
+<h2>Cristais de Ekhoria</h2>
+<table>
+<thead><tr><th>Cristal</th><th>Em armadura</th><th>Em arma</th><th>Custo</th></tr></thead>
+<tbody>
+<tr><td>Arkanita</td><td>+1 em JP contra magias</td><td>Dano mágico (afeta imunes a armas normais)</td><td>×5</td></tr>
+<tr><td>Ônix</td><td>Furtividade Fácil</td><td>+2 dano em ataques furtivos/pelas costas; silencia armas de fogo</td><td>×4</td></tr>
+<tr><td>Centelha Solar</td><td>+1 em JP contra medo, paralisia e necromancia</td><td>+1d6 de fogo no 1º acerto de cada combate</td><td>×6</td></tr>
+<tr><td>Erebo</td><td>Anula totalmente magia se passar na JP</td><td>Absorve a próxima magia conjurada pelo alvo</td><td>×7</td></tr>
+</tbody>
+</table>
+
+<h2>Armas de Fogo (Instável)</h2>
+<p>Armas de pederneira usam tambor rotativo (recarga de 1 rodada por câmara) e não somam Força no dano. Resultados <strong>1–2 no d20</strong> são falha crítica (role 1d6: 1–2 emperramento; 3–4 gatilho preso; 5 backfire 1d3 de dano; 6 tambor travado por 1 turno).</p>
+<p><strong>Instabilidade de Ressonância:</strong> uma arma encantada ou forjada com cristal NÃO pode disparar munição de cristal — a munição detona na câmara (arma mundana destruída; arma mágica perde +1; usuário sofre o dano sem JP).</p>
+
+<h2>Regras de Vício e Abstinência</h2>
+<p>Sempre que uma substância é consumida fora de uso seguro, o Mestre rola 1d6 em segredo; resultado ≤ ao valor de Vício torna o personagem dependente. <strong>Recuperação:</strong> isolamento e 1d3+1 sucessos em JP (Sabedoria −10), semanais, com consumo diário de Extrato de Mandra Diluído.</p>
+
+<h2>Extração de Despojos</h2>
+<p>Com adaga/faca e tempo (1 a 4 Turnos conforme o tamanho), faz-se um Teste de Sabedoria (instinto) ou Inteligência (técnica). Sucesso extrai o recurso; falha o inutiliza; 20 natural dobra/melhora. Recursos biológicos não tratados degradam em 1d4 dias.</p>
 `,
   },
 ];

@@ -1,0 +1,39 @@
+{
+  "folder": "mcwpkEs06D5tiyqf",
+  "name": "Aura Esotérica de Nystul",
+  "type": "spell",
+  "_id": "77PVFsHBqu3icgSA",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "aura-esoterica-de-nystul",
+    "school": "illusionist",
+    "circle": "1",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "1",
+    "reverse": false,
+    "range": "toque",
+    "duration": "1 dia/nível",
+    "jp": "nenhuma",
+    "description": "<p>Um item de até 2 kg por nível recebe uma aura mágica falsa, do tipo que o mago especificar (Alteração, Ilusão, Convocação etc.), disfarçando a aura verdadeira (exceto a de artefatos). Se examinado por Identificação, há 50% de chance de perceber a fraude.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!77PVFsHBqu3icgSA"
+}

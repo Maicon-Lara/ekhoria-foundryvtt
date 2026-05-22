@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Andar Sobre as Chamas",
+  "type": "spell",
+  "_id": "jmpguWSBw0iktHiF",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "andar-sobre-as-chamas",
+    "school": "divine",
+    "circle": "3",
+    "arcane": "null",
+    "divine": "3",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "1 rodada + 1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Aelora.</strong> Os afetados resistem ao contato com chamas não mágicas de até 1.000 °C. Concede +2 em JP contra fogo mágico e reduz à metade o dano de tais chamas mesmo se a JP falhar. Acima do 5º nível, protege uma criatura extra por nível.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jmpguWSBw0iktHiF"
+}

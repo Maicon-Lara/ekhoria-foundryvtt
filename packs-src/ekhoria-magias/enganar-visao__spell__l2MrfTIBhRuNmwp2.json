@@ -1,0 +1,39 @@
+{
+  "folder": "mcwpkEs06D5tiyqf",
+  "name": "Enganar Visão",
+  "type": "spell",
+  "_id": "l2MrfTIBhRuNmwp2",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "enganar-visao",
+    "school": "illusionist",
+    "circle": "5",
+    "arcane": "null",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "5",
+    "reverse": false,
+    "range": "0",
+    "duration": "1d4 rodadas + 1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p>Impede que qualquer ponto na área seja espionado por meios místicos (o mago deve estar ciente da tentativa). O mago e o que ele desejar ficam indetectáveis e ele pode enviar informação falsa (som e visão) mantendo concentração.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!l2MrfTIBhRuNmwp2"
+}

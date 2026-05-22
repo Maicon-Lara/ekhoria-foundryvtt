@@ -1,0 +1,39 @@
+{
+  "folder": "IgHXD6yIrq2LwAVd",
+  "name": "Leitura de Memória",
+  "type": "spell",
+  "_id": "jgU8W7iKUGb500er",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "odo_id": "leitura-de-memoria",
+    "school": "divine",
+    "circle": "3",
+    "arcane": "null",
+    "divine": "3",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "5 metros",
+    "duration": "1 rodada/nível",
+    "jp": "JPS anula",
+    "description": "<p><strong>Chronael.</strong> O sacerdote vivencia a memória do alvo com a mesma intensidade. Visualizar uma memória leva 1/50 do tempo real do evento. O alvo precisa ter Inteligência ≥ 5 e permanecer no alcance.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jgU8W7iKUGb500er"
+}
