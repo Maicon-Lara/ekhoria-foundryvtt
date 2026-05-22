@@ -1,0 +1,224 @@
+{
+  "folder": null,
+  "name": "Construção Variável (Autokthon)",
+  "_id": "khCzDHtfNPjUZNIw",
+  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "description": "<p>Características de Construção Variável de um Autokthon. Escolha (ou role) o número de características que o personagem tem direito.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "7F0Ms3IW9BJM6OZJ",
+      "text": "<strong>Arma Embutida:</strong> arma de uma mão ou besta substitui uma das mãos.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.7F0Ms3IW9BJM6OZJ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "9BRK5z1joHNX3HlM",
+      "text": "<strong>Armadura Leve:</strong> +3 na CA; impede armaduras externas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.9BRK5z1joHNX3HlM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "9ACVfp3rlEidpd8v",
+      "text": "<strong>Armadura Pesada:</strong> +5 na CA e −2 m de deslocamento; impede armaduras externas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.9ACVfp3rlEidpd8v"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "pHqxIUualGQTjOTP",
+      "text": "<strong>Arpéu:</strong> cabo de 15 m ejetável (Arremesso 5, Perfurante, 1d4+1).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.pHqxIUualGQTjOTP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "TWMU37i3AAOG4EzH",
+      "text": "<strong>Asas:</strong> voo de 9 m (carga leve no máximo).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.TWMU37i3AAOG4EzH"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "vXI2LTKWLo2LxpUh",
+      "text": "<strong>Braços Extras:</strong> duas mãos destras; ataque extra sem penalidade.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.vXI2LTKWLo2LxpUh"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "bqCbC2mjl1zHZZvJ",
+      "text": "<strong>Escudo Embutido:</strong> escudo permanente em um braço.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.bqCbC2mjl1zHZZvJ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "V6HECxSqesQtzXe2",
+      "text": "<strong>Espinhos:</strong> ferem quem o agarrar (1d4).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.V6HECxSqesQtzXe2"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "PYHlpkPnzA327jPU",
+      "text": "<strong>Flutuadores:</strong> natação; não afunda naturalmente.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.PYHlpkPnzA327jPU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "5dvhfgD8t5ofmDq8",
+      "text": "<strong>Material Incomum:</strong> prata, bronze, ferro frio, mitral etc. nos ataques/defesas naturais.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.5dvhfgD8t5ofmDq8"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "D48W3mzLySxSN0Ug",
+      "text": "<strong>Resistência:</strong> reduz em 5 o dano de um tipo escolhido.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.D48W3mzLySxSN0Ug"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "1c0VCYI9aEeOrK4b",
+      "text": "<strong>Tamanho Grande:</strong> 2–4 m; usa armas médias/grandes com uma mão.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.1c0VCYI9aEeOrK4b"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "BsuUZFgOdVcFssUX",
+      "text": "<strong>Tamanho Pequeno:</strong> ~1 m; +2 CA contra alvos grandes.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!khCzDHtfNPjUZNIw.BsuUZFgOdVcFssUX"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d13",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!khCzDHtfNPjUZNIw"
+}

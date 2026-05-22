@@ -4,6 +4,13 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.0] — 2026-05-22
+
+### Adicionado
+- **Compêndio "Ekhoria: Tabelas"** (RollTables jogáveis): Falha Crítica de Arma
+  de Fogo (1d6), Marcas do Cambion (1d12), Construção Variável do Autokthon
+  (1d13) e Fungo do Degelo Aleatório (1d8).
+
 ## [0.4.3] — 2026-05-22
 
 ### Corrigido

@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Falha Crítica de Arma de Fogo",
+  "_id": "lHrHBcUTTk8AL936",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+  "description": "<p>Role nesta tabela quando uma arma de fogo der falha crítica (resultado 1 ou 2 no ataque). O Mestre pode escolher o resultado mais adequado em vez de rolar.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "azGsT1BgT8DVRByE",
+      "text": "<strong>Emperramento:</strong> perde a munição e não pode usar a arma até consertá-la (1 ação fora de combate).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!lHrHBcUTTk8AL936.azGsT1BgT8DVRByE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "dCGXhEeCzTubZwG7",
+      "text": "<strong>Gatilho Preso:</strong> requer 1 ação para desemperrar.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!lHrHBcUTTk8AL936.dCGXhEeCzTubZwG7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "m5nmJqfbWaYshxrL",
+      "text": "<strong>Backfire:</strong> sofre 1d3 de dano por retrocesso.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!lHrHBcUTTk8AL936.m5nmJqfbWaYshxrL"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "TFRJ9NfX9GCRseQB",
+      "text": "<strong>Tambor Travado:</strong> arma inutilizada por 1 turno.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!lHrHBcUTTk8AL936.TFRJ9NfX9GCRseQB"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!lHrHBcUTTk8AL936"
+}

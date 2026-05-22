@@ -381,6 +381,43 @@ export function miscDoc(it, folderId, seedPrefix, sort) {
   };
 }
 
+// RollTable (tabela de rolagem). `resultados` é um array de
+// { range: [min, max], text, img? }.
+export function rollTableDoc(table, sort) {
+  const id = makeId(`table:${table.nome}`);
+  const results = table.resultados.map((r, i) => {
+    const rid = makeId(`table-result:${table.nome}:${i}`);
+    return {
+      type: 0,
+      weight: 1,
+      range: r.range,
+      drawn: false,
+      _id: rid,
+      text: r.text,
+      documentId: null,
+      flags: {},
+      img: r.img || "icons/svg/d20-black.svg",
+      _key: `!tables.results!${id}.${rid}`,
+    };
+  });
+  return {
+    folder: null,
+    name: table.nome,
+    _id: id,
+    img: table.img || "icons/svg/d20-grey.svg",
+    description: table.desc || "",
+    results,
+    replacement: true,
+    displayRoll: true,
+    flags: {},
+    _stats: stats(),
+    formula: table.formula,
+    sort: sort,
+    ownership: { default: 0 },
+    _key: `!tables!${id}`,
+  };
+}
+
 // Caminho de UUID de um item dentro de um pack deste módulo.
 export function itemUuid(packName, itemId) {
   return `Compendium.ekhoria.${packName}.Item.${itemId}`;

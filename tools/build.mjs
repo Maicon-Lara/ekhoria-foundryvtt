@@ -11,7 +11,7 @@ import { compilePack } from "@foundryvtt/foundryvtt-cli";
 
 import {
   folderDoc, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
-  journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, itemUuid, writeSource,
+  journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, rollTableDoc, itemUuid, writeSource,
 } from "./lib.mjs";
 
 import { classes } from "./data/classes.mjs";
@@ -19,6 +19,7 @@ import { racas, racaAbilitiesAvulsas } from "./data/racas.mjs";
 import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
 import { categorias } from "./data/itens.mjs";
+import { tabelas } from "./data/tabelas.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -29,6 +30,7 @@ const RACAS_PACK = "ekhoria-racas";
 const JOURNAL_PACK = "ekhoria-journal";
 const ITENS_PACK = "ekhoria-itens";
 const MAGIAS_PACK = "ekhoria-magias";
+const TABELAS_PACK = "ekhoria-tabelas";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
 function buildClassesDocs() {
@@ -78,6 +80,11 @@ function buildJournalDocs() {
   return journalPages.map((entry, i) => journalDoc(entry, (i + 1) * 100000));
 }
 
+// ── Pack de tabelas de rolagem ──
+function buildTabelasDocs() {
+  return tabelas.map((t, i) => rollTableDoc(t, (i + 1) * 100000));
+}
+
 // ── Pack de itens (Arsenal: armas, armaduras, substâncias) ──
 function buildItensDocs() {
   const builders = { weapon: weaponDoc, armor: armorDoc, misc: miscDoc };
@@ -122,6 +129,7 @@ async function main() {
   await compile(RACAS_PACK, buildRacasDocs());
   await compile(ITENS_PACK, buildItensDocs());
   await compile(MAGIAS_PACK, buildMagiasDocs());
+  await compile(TABELAS_PACK, buildTabelasDocs());
   await compile(JOURNAL_PACK, buildJournalDocs());
   console.log("Concluído.");
 }

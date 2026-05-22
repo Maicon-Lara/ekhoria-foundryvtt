@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Marcas do Cambion",
+  "_id": "l6eG3acVySkDe2SL",
+  "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+  "description": "<p>O Cambion carrega ao menos duas marcas visíveis de sua descendência demoníaca. Role duas vezes (ou escolha com o Mestre).</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "jSodRX4gBCvo2GLc",
+      "text": "Olhos diferentes — coloridos e/ou animalescos, com possibilidade de heterocromia.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.jSodRX4gBCvo2GLc"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "IZyTmxeNF53uMu8d",
+      "text": "Mãos estranhas — número incomum de dedos ou unhas animalescas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.IZyTmxeNF53uMu8d"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "p0TemJjrEO7nXKfE",
+      "text": "Três olhos.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.p0TemJjrEO7nXKfE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "wmN1OCUkVIENXPCz",
+      "text": "Língua bifurcada ou anormalmente longa.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.wmN1OCUkVIENXPCz"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "3SqouFhiTyxD6qxA",
+      "text": "Chifres.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.3SqouFhiTyxD6qxA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "j5PCoDhLewItbX6C",
+      "text": "Pele anormal — escamas, textura de couro, cores não naturais.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.j5PCoDhLewItbX6C"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "Vy9wBns34G69CyrC",
+      "text": "Dentes pontiagudos.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.Vy9wBns34G69CyrC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "jbmcytEJBc0r33rY",
+      "text": "Ausência de nariz.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.jbmcytEJBc0r33rY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "9O80EyX2wDo1SaDn",
+      "text": "Orelhas pontudas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.9O80EyX2wDo1SaDn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "p7Vr5HEbSHXwXHYP",
+      "text": "Cauda.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.p7Vr5HEbSHXwXHYP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "keiuUDJ0FAaJZgNo",
+      "text": "Protuberâncias nas escápulas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.keiuUDJ0FAaJZgNo"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "HfjL2kcHBrRz0Cbs",
+      "text": "Odor de enxofre.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l6eG3acVySkDe2SL.HfjL2kcHBrRz0Cbs"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!l6eG3acVySkDe2SL"
+}

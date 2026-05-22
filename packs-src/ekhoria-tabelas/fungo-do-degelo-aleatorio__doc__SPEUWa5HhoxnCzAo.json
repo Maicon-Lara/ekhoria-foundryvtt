@@ -1,0 +1,149 @@
+{
+  "folder": null,
+  "name": "Fungo do Degelo Aleatório",
+  "_id": "SPEUWa5HhoxnCzAo",
+  "img": "icons/consumables/mushrooms/mushroom-multiple-blue.webp",
+  "description": "<p>Sorteio de uma substância dos Fungos do Degelo de Vornfell. Detalhes e valor de Vício no compêndio Ekhoria: Arsenal.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "s7jDSAZ8Yq1A6aWe",
+      "text": "<strong>Mandra (Pílula):</strong> cura 4d6+3 PV; antídoto. Vício 1–2.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.s7jDSAZ8Yq1A6aWe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "L8AJihDCgCmB1t0k",
+      "text": "<strong>Albinus:</strong> cura total (exceto fogo e ácido). Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.L8AJihDCgCmB1t0k"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "sROyTH6RBhHrZXoZ",
+      "text": "<strong>Fungo Sangue:</strong> Força 18 por 1d4+Nível rodadas. Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.sROyTH6RBhHrZXoZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "DDrCqFzi99B5d1JX",
+      "text": "<strong>Fungo Escarlate:</strong> Destreza 18 por 1d4+Nível rodadas. Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.DDrCqFzi99B5d1JX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "AYP9d30iNLJowxbt",
+      "text": "<strong>Fungo Azure:</strong> Sabedoria 18 e Visão no Escuro. Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.AYP9d30iNLJowxbt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "0F4ART5k1vd7pwvS",
+      "text": "<strong>Fungo Ébano:</strong> Pele de Pedra (+4 CA). Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.0F4ART5k1vd7pwvS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "f2OXFnyMMO7qp0gy",
+      "text": "<strong>Nargula:</strong> ignora dor, fome e frio por 2d6 horas. Vício 1.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.f2OXFnyMMO7qp0gy"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "q0h0e0wZAaEOFX1y",
+      "text": "<strong>Cristal dos Sonhos:</strong> alucinações e visões proféticas. Vício 1–5.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SPEUWa5HhoxnCzAo.q0h0e0wZAaEOFX1y"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d8",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!SPEUWa5HhoxnCzAo"
+}
