@@ -299,28 +299,28 @@ export const racas = [
   },
   {
     nome: "Silente",
-    flavor: "<p>Mortos-vivos conscientes — presos entre a vida e a morte por um ritual que falhou.</p>",
+    flavor: "<p>Os Esquecidos pelo Ciclo, presos entre a vida e o fim. Mortos-vivos conscientes que o mundo prefere esquecer.</p>",
     descricao:
-      "<p>Os Silentes são o erro da Velha Irmandade Voraz: veteranos mortos em combate e presos num limbo consciente. Carne fria e estática, movimento que rangue, sem necessidade de alimento, sono ou respiração — mas com a memória intacta de quem foram. <em>Observação: o livro de mecânicas não traz habilidades raciais para os Silentes; as abaixo seguem o material original do cenário e podem ser ajustadas pelo Mestre.</em></p>",
+      "<p>Os Silentes são mortos-vivos conscientes criados pela <strong>Magia do Eco</strong> — um ritual proibido (o Ritual do Eco Contaminado) que prende um eco da alma a um corpo morto, gerando uma existência limiar: nem vivo, nem morto, apenas persistência. Não apodrecem; têm pele pálida e fosca, são frios como mármore, suas veias são estáticas e seus ferimentos nunca cicatrizam. O mundo instintivamente os esquece, e para videntes, clérigos e magos eles emitem apenas <em>ausência</em> — por isso magias de alvo direto não os atingem.</p><p>Para persistir, precisam ingerir 500 ml de sangue fresco por semana e aplicar unguentos alquímicos; partes do corpo que falham são substituídas por peças de cadáveres. Foram criados pela Velha Irmandade há cerca de 150 anos — criar novos Silentes é proibido em toda Ekhoria.</p>",
     movement: 9,
     infravision: 0,
     alignment_tendency: "neutro",
     habilidades: [
       {
         nome: "Eco-Sombrio",
-        desc: "<p>Sua presença incomoda: –4 em Testes de Reação. Em compensação, com 1 em 1d6 passam despercebidos em ambientes de penumbra.</p>",
+        desc: "<p>Silentes sofrem –4 em Testes de Reação. Além disso, têm 1 em 1d6 de chance de simplesmente não serem percebidos, como se o mundo evitasse notá-los.</p>",
       },
       {
         nome: "Mestre das Lâminas Curtas",
-        desc: "<p>Ataques com adagas e facas são Fáceis. Empunhando duas lâminas curtas, recebem +1 de CA.</p>",
+        desc: "<p>Ataques com adagas e facas contam como Ataques Fáceis. Ao usar duas lâminas, recebem +1 na CA, como se portassem um escudo leve.</p>",
       },
       {
         nome: "Corpo Estático",
-        desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV.</p>",
+        desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV. Podem substituir partes perdidas ou transferir o núcleo espiritual (o Eco) para outro corpo preparado.</p>",
       },
       {
         nome: "Eco Antimágico",
-        desc: "<p>Não conjuram magias de nenhuma espécie, mas são imunes a magias que os tenham como alvo direto.</p>",
+        desc: "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente.</p>",
       },
     ],
   },

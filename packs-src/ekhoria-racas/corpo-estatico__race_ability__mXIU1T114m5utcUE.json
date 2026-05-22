@@ -5,7 +5,7 @@
   "_id": "mXIU1T114m5utcUE",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV.</p>",
+    "description": "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV. Podem substituir partes perdidas ou transferir o núcleo espiritual (o Eco) para outro corpo preparado.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

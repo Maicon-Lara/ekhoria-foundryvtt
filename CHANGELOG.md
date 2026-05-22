@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.1] — 2026-05-22
+
+### Modificado
+- **Silente** atualizado com as regras oficiais fornecidas pelo autor (não mais
+  reconstrução): Eco-Sombrio (1 em 1d6 de não ser percebido, não restrito a
+  penumbra), Corpo Estático (inclui substituir partes/transferir o Eco), Eco
+  Antimágico (magias de área afetam normalmente). Descrição atualizada com o
+  lore da Magia do Eco / Ritual do Eco Contaminado.
+
 ## [0.6.0] — 2026-05-22
 
 ### Adicionado

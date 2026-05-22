@@ -5,7 +5,7 @@
   "_id": "ThTDuewle2PUoATb",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Ataques com adagas e facas são Fáceis. Empunhando duas lâminas curtas, recebem +1 de CA.</p>",
+    "description": "<p>Ataques com adagas e facas contam como Ataques Fáceis. Ao usar duas lâminas, recebem +1 na CA, como se portassem um escudo leve.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

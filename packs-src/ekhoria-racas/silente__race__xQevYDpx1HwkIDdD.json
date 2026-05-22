@@ -5,8 +5,8 @@
   "_id": "xQevYDpx1HwkIDdD",
   "img": "systems/olddragon2e/assets/icons/alignment.svg",
   "system": {
-    "flavor": "<p>Mortos-vivos conscientes — presos entre a vida e a morte por um ritual que falhou.</p>",
-    "description": "<p>Os Silentes são o erro da Velha Irmandade Voraz: veteranos mortos em combate e presos num limbo consciente. Carne fria e estática, movimento que rangue, sem necessidade de alimento, sono ou respiração — mas com a memória intacta de quem foram. <em>Observação: o livro de mecânicas não traz habilidades raciais para os Silentes; as abaixo seguem o material original do cenário e podem ser ajustadas pelo Mestre.</em></p>",
+    "flavor": "<p>Os Esquecidos pelo Ciclo, presos entre a vida e o fim. Mortos-vivos conscientes que o mundo prefere esquecer.</p>",
+    "description": "<p>Os Silentes são mortos-vivos conscientes criados pela <strong>Magia do Eco</strong> — um ritual proibido (o Ritual do Eco Contaminado) que prende um eco da alma a um corpo morto, gerando uma existência limiar: nem vivo, nem morto, apenas persistência. Não apodrecem; têm pele pálida e fosca, são frios como mármore, suas veias são estáticas e seus ferimentos nunca cicatrizam. O mundo instintivamente os esquece, e para videntes, clérigos e magos eles emitem apenas <em>ausência</em> — por isso magias de alvo direto não os atingem.</p><p>Para persistir, precisam ingerir 500 ml de sangue fresco por semana e aplicar unguentos alquímicos; partes do corpo que falham são substituídas por peças de cadáveres. Foram criados pela Velha Irmandade há cerca de 150 anos — criar novos Silentes é proibido em toda Ekhoria.</p>",
     "movement": 9,
     "movement_fly": 0,
     "movement_notes": "",
