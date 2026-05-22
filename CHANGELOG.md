@@ -4,6 +4,14 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.2] — 2026-05-22
+
+### Adicionado
+- **Lore completo dos Silentes** no compêndio Ekhoria: Cenário (Lore) — origem
+  (Magia do Eco / Ritual do Eco Contaminado), aparência, manutenção (sangue e
+  unguentos), personalidade e ganchos de aventura. Páginas de lore autorais
+  ficam em `tools/data/lore-extra.mjs` (não sobrescritas pelo gerador).
+
 ## [0.6.1] — 2026-05-22
 
 ### Modificado

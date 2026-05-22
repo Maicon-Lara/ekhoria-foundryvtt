@@ -21,6 +21,7 @@ import { escolas } from "./data/magias.mjs";
 import { categorias } from "./data/itens.mjs";
 import { tabelas } from "./data/tabelas.mjs";
 import { loreJournal } from "./data/lore.mjs";
+import { loreExtraPages } from "./data/lore-extra.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -89,7 +90,8 @@ function buildTabelasDocs() {
 
 // ── Pack de lore (cenário de campanha) ──
 function buildLoreDocs() {
-  return [journalDoc(loreJournal, 100000)];
+  const entry = { ...loreJournal, pages: [...loreJournal.pages, ...loreExtraPages] };
+  return [journalDoc(entry, 100000)];
 }
 
 // ── Pack de itens (Arsenal: armas, armaduras, substâncias) ──
