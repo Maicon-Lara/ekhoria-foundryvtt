@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.2] — 2026-05-22
+
+### Adicionado
+- **Compêndio "Ekhoria: Cenário (Lore)"** — o sourcebook de ambientação,
+  transcrito do livro de lore: Sobre Ekhoria, Como Usar, Povos de Ekhoria, as
+  10 nações (Arkádia, Benellikov, Areias Esquecidas, Breônia, Cinthara, Ferro
+  Velho, Triarcis, Vale da Águia, Vornfell, Yorugan), A Tríade de Ekhoria,
+  Cosmologia, Calendário e Organizações — em 17 páginas de Journal.
+
 ## [0.5.1] — 2026-05-22
 
 ### Modificado

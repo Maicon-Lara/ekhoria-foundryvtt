@@ -11,7 +11,7 @@ const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const PACKS = path.join(ROOT, "ekhoria-module", "packs");
 const OUT = path.join(ROOT, "_verify");
 
-for (const name of ["ekhoria-classes", "ekhoria-racas", "ekhoria-itens", "ekhoria-magias", "ekhoria-tabelas", "ekhoria-journal"]) {
+for (const name of ["ekhoria-classes", "ekhoria-racas", "ekhoria-itens", "ekhoria-magias", "ekhoria-tabelas", "ekhoria-lore", "ekhoria-journal"]) {
   await extractPack(path.join(PACKS, name), path.join(OUT, name), {
     yaml: false,
     log: false,

@@ -20,6 +20,7 @@ import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
 import { categorias } from "./data/itens.mjs";
 import { tabelas } from "./data/tabelas.mjs";
+import { loreJournal } from "./data/lore.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -31,6 +32,7 @@ const JOURNAL_PACK = "ekhoria-journal";
 const ITENS_PACK = "ekhoria-itens";
 const MAGIAS_PACK = "ekhoria-magias";
 const TABELAS_PACK = "ekhoria-tabelas";
+const LORE_PACK = "ekhoria-lore";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
 function buildClassesDocs() {
@@ -85,6 +87,11 @@ function buildTabelasDocs() {
   return tabelas.map((t, i) => rollTableDoc(t, (i + 1) * 100000));
 }
 
+// ── Pack de lore (cenário de campanha) ──
+function buildLoreDocs() {
+  return [journalDoc(loreJournal, 100000)];
+}
+
 // ── Pack de itens (Arsenal: armas, armaduras, substâncias) ──
 function buildItensDocs() {
   const builders = { weapon: weaponDoc, armor: armorDoc, misc: miscDoc };
@@ -130,6 +137,7 @@ async function main() {
   await compile(ITENS_PACK, buildItensDocs());
   await compile(MAGIAS_PACK, buildMagiasDocs());
   await compile(TABELAS_PACK, buildTabelasDocs());
+  await compile(LORE_PACK, buildLoreDocs());
   await compile(JOURNAL_PACK, buildJournalDocs());
   console.log("Concluído.");
 }
