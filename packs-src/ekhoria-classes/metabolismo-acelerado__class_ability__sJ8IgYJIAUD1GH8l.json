@@ -3,7 +3,7 @@
   "name": "Metabolismo Acelerado",
   "type": "class_ability",
   "_id": "sJ8IgYJIAUD1GH8l",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Resiliência:</strong> +1 permanente em JPC, mais +2 adicionais em JPC para resistir a venenos e vício. <strong>Maestria em Dosagem:</strong> usa 1 fungo por dia sem teste de vício. <strong>Supressão de Dor (Nargula):</strong> ignora penalidades de movimento por ferimentos, fadiga, fome ou frio por 2d6+6 horas.</p>",
     "level": 6,

@@ -3,7 +3,7 @@
   "name": "Kurogane",
   "type": "weapon",
   "_id": "pTBf6HIAXA4yhdpv",
-  "img": "icons/weapons/swords/sword-katana-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/slashing.svg",
   "system": {
     "odo_id": "kurogane",
     "description": "<p>Arma tradicional dos Orcs de Yorugan (Média, Cortante). Lâmina larga e levemente curva, de fio assimétrico — os ferimentos tendem a abrir mais do que fechar. <strong>Sangrenta:</strong> realiza acertos críticos com 19 ou 20.</p>",

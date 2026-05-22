@@ -3,7 +3,7 @@
   "name": "Confundir Detecção",
   "type": "spell",
   "_id": "JEGC2qjlyJgSllT3",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "confundir-deteccao",
     "school": "illusionist",

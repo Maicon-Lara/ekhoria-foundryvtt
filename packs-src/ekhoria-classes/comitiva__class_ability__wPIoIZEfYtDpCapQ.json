@@ -3,7 +3,7 @@
   "name": "Comitiva",
   "type": "class_ability",
   "_id": "wPIoIZEfYtDpCapQ",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Especialista em gerir subordinados. <strong>Logística:</strong> custos para contratar ajudantes e mercenários são 25% menores. <strong>Moral:</strong> seguidores recebem +1 em Moral.</p>",
     "level": 1,

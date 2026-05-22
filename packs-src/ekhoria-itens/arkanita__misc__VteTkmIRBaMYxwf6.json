@@ -3,7 +3,7 @@
   "name": "Arkanita",
   "type": "misc",
   "_id": "VteTkmIRBaMYxwf6",
-  "img": "icons/commodities/gems/gem-faceted-octagon-teal.webp",
+  "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "odo_id": "arkanita",
     "description": "<p>Mineral que sustenta Arkádia, sagrado para os Clãs Mantis. Em armaduras: +1 em todas as JP contra magias. Em armas: o dano é mágico, afetando criaturas imunes a armas normais. <strong>Custo: ×5 o valor base.</strong></p>",

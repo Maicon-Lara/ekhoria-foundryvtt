@@ -3,7 +3,7 @@
   "name": "Membros Extras",
   "type": "race_ability",
   "_id": "ysWlSdny97A6hhrN",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Possuem duas mãos destras adicionais, podendo usar duas armas e realizar um ataque extra sem penalidade.</p>",
     "xp": null,

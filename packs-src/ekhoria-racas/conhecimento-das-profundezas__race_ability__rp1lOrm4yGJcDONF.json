@@ -3,7 +3,7 @@
   "name": "Conhecimento das Profundezas",
   "type": "race_ability",
   "_id": "rp1lOrm4yGJcDONF",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Se a informação for pertinente ao mundo subterrâneo, têm chance de 1–2 em 1d6 de conhecê-la; para informações da superfície, 1 em 1d6. Varkos Magos e Clérigos somam +1; Varkos Acadêmicos, +2.</p>",
     "xp": null,

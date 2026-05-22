@@ -3,7 +3,7 @@
   "name": "Panóplia do Núcleo de Ruptura",
   "type": "armor",
   "_id": "Kv3PJ2Y11zVcH0s9",
-  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "odo_id": "panoplia-do-nucleo-de-ruptura",
     "description": "<p>Armadura Pesada de Arcanita, <strong>exclusiva de Lito-arcanistas</strong>. Concede +2 em JPC física e +1d6 no dano da habilidade Ruptura do Núcleo.</p>",

@@ -3,7 +3,7 @@
   "name": "Rastreamento",
   "type": "class_ability",
   "_id": "BdDp42063nIz4TqX",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Rastreia criaturas e humanoides em ambientes selvagens: 1–2 em 1d6 em terreno comum; 1 em 1d6 em terreno difícil (neve profunda, rocha sólida).</p>",
     "level": 1,

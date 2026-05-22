@@ -3,7 +3,7 @@
   "name": "Albinus",
   "type": "misc",
   "_id": "J9EoLREEjVAhYWlb",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "albinus",
     "description": "<p>Cura total (exceto dano de fogo e ácido). <strong>Vício 1.</strong> Colateral: perda de 1d4 PV máximos por semana. Extraído ritualmente de Trolls das fendas térmicas de Vornfell.</p>",

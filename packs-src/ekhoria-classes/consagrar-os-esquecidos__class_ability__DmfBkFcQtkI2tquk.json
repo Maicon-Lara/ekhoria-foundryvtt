@@ -3,7 +3,7 @@
   "name": "Consagrar os Esquecidos",
   "type": "class_ability",
   "_id": "DmfBkFcQtkI2tquk",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Brandindo seu símbolo sagrado, submete mortos-vivos a até 18 metros que falharem em Teste de Moral; eles obedecem a comandos simples por 1d6 rodadas. Controle Total: se o morto-vivo falhar com dados iguais (dois 4, dois 5 ou dois 6), permanece sob controle total até o próximo amanhecer. Uma vez por dia.</p>",
     "level": 1,

@@ -3,7 +3,7 @@
   "name": "Traquejo Social",
   "type": "class_ability",
   "_id": "mHSwGXAf6n7WLdLw",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Aprende uma língua adicional por ponto do modificador de Carisma (mínimo 1).</p>",
     "level": 6,

@@ -3,7 +3,7 @@
   "name": "Aura Esotérica de Nystul",
   "type": "spell",
   "_id": "77PVFsHBqu3icgSA",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "aura-esoterica-de-nystul",
     "school": "illusionist",

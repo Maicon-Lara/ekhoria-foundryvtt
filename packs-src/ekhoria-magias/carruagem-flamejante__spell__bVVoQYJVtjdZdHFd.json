@@ -3,7 +3,7 @@
   "name": "Carruagem Flamejante",
   "type": "spell",
   "_id": "bVVoQYJVtjdZdHFd",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "carruagem-flamejante",
     "school": "divine",

@@ -3,7 +3,7 @@
   "name": "Restrições",
   "type": "race_ability",
   "_id": "dtXjGeUxvUcQAbfW",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Não podem usar armas grandes e só usam uma arma média com as duas mãos. Sob sol ou luz forte, todos os testes e Jogadas de Proteção são realizados com ajuste Difícil.</p>",
     "xp": null,

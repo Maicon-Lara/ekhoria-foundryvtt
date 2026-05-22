@@ -3,7 +3,7 @@
   "name": "Balas de Ferro Frio (10)",
   "type": "misc",
   "_id": "yf9d9I3sRCNHxWVB",
-  "img": "icons/consumables/ammunition/3-bullets-blue-grey.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "balas-de-ferro-frio-10",
     "description": "<p>Pacote com 10. Causa dano completo em criaturas vulneráveis ao Ferro Frio — fadas, demônios menores.</p>",

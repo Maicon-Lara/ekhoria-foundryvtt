@@ -3,7 +3,7 @@
   "name": "Bala de Ônix",
   "type": "misc",
   "_id": "oDNziGBjgMcUURzK",
-  "img": "icons/weapons/ammunition/bullet-cream.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "bala-de-onix",
     "description": "<p><strong>Efeito:</strong> −1 de Força no alvo por 8 turnos e cria Escuridão num raio de 4,5 m.</p>",

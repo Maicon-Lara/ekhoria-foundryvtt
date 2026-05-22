@@ -3,7 +3,7 @@
   "name": "Ecdise",
   "type": "race_ability",
   "_id": "rR2fdjTI4Y7z0dID",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Uma vez ao ano realizam a muda do exoesqueleto: 1 dia inteiro imóvel. Após a muda, o novo exoesqueleto leva 10 dias para enrijecer — período em que o Mantes perde a habilidade Exoesqueleto. O Mestre determina quando ocorre.</p>",
     "xp": null,

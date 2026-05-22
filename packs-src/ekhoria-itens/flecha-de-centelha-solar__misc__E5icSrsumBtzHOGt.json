@@ -3,7 +3,7 @@
   "name": "Flecha de Centelha Solar",
   "type": "misc",
   "_id": "E5icSrsumBtzHOGt",
-  "img": "icons/weapons/ammunition/arrow-head-war-flight-orange.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-centelha-solar",
     "description": "<p>+1d4 de dano de fogo; provoca Ignição no alvo.</p>",

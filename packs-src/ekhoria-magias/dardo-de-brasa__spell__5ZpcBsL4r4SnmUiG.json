@@ -3,7 +3,7 @@
   "name": "Dardo de Brasa",
   "type": "spell",
   "_id": "5ZpcBsL4r4SnmUiG",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "dardo-de-brasa",
     "school": "divine",

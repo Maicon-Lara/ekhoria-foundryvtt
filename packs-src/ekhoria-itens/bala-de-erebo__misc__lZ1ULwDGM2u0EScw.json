@@ -3,7 +3,7 @@
   "name": "Bala de Erebo",
   "type": "misc",
   "_id": "lZ1ULwDGM2u0EScw",
-  "img": "icons/weapons/ammunition/bullet-purple.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "bala-de-erebo",
     "description": "<p><strong>Efeito:</strong> todos os itens mágicos do alvo tornam-se mundanos por 1d4 rodadas.</p>",

@@ -3,7 +3,7 @@
   "name": "Couraça Lagarto-Gelo",
   "type": "armor",
   "_id": "p07v0rhq9a5qWSEd",
-  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "odo_id": "couraca-lagarto-gelo",
     "description": "<p>Armadura Leve de couro (Carga 1), feita com o couro de répteis das tundras de Vornfell. <strong>Antifuro:</strong> concede +1 na CA contra armas perfurantes, incluindo flechas, lanças e estocadas.</p>",

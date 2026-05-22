@@ -3,7 +3,7 @@
   "name": "Exoesqueleto",
   "type": "race_ability",
   "_id": "npx6Ofn0YcR9uZpj",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Possuem CA natural 14 em vez de 10. Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
     "xp": null,

@@ -3,7 +3,7 @@
   "name": "Olho do Morto",
   "type": "spell",
   "_id": "lmNn6qB5sHj9Wcka",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "olho-do-morto",
     "school": "necromancer",

@@ -3,7 +3,7 @@
   "name": "Portador da Centelha",
   "type": "class_ability",
   "_id": "ELtcGgGDlkXExhCp",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Recebe 1 Cristal de Centelha, anexado a um objeto à escolha, concedendo um benefício: <strong>Arma</strong> (+1 no BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>",
     "level": 1,

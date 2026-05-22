@@ -3,7 +3,7 @@
   "name": "Sono Intranquilo",
   "type": "race_ability",
   "_id": "6YSlgED7wHAzWDlq",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Varkos ainda precisam de 8 horas para recuperar magias.</p>",
     "xp": null,

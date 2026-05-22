@@ -3,7 +3,7 @@
   "name": "Tempestade de Fogo",
   "type": "spell",
   "_id": "nfDHh22bM0of41t1",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "tempestade-de-fogo",
     "school": "divine",

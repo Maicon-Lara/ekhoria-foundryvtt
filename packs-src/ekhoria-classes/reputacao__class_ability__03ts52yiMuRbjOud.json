@@ -3,7 +3,7 @@
   "name": "Reputação",
   "type": "class_ability",
   "_id": "03ts52yiMuRbjOud",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>",
     "level": 11,

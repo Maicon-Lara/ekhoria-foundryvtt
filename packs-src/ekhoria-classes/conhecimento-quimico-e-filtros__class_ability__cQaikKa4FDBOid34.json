@@ -3,7 +3,7 @@
   "name": "Conhecimento Químico e Filtros",
   "type": "class_ability",
   "_id": "cQaikKa4FDBOid34",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Domina substâncias químicas e a sobrevivência em ambientes tóxicos. <strong>Máscara de Nurillion:</strong> enquanto a usa, fica imune ao Pó de Morthan e a gases naturais tóxicos. <strong>Uso Seguro de Seiva:</strong> consome Seiva de Yggdras Diluída recuperando 1d4 PV, um número de vezes por dia igual ao modificador de Constituição (mínimo 1), sem risco de vício. <strong>Uso Extra:</strong> além desse limite, a cura é reduzida à metade e o Mestre faz o teste de vício.</p>",
     "level": 1,

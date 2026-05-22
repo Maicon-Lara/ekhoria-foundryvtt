@@ -3,7 +3,7 @@
   "name": "Morte Aparente (Necromante)",
   "type": "spell",
   "_id": "ZvHCsyFIbAEeFtrR",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "morte-aparente-necromante",
     "school": "necromancer",

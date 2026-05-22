@@ -3,7 +3,7 @@
   "name": "Mosquete de Chapa",
   "type": "weapon",
   "_id": "DnBjfqLBkw69Ta5H",
-  "img": "icons/weapons/guns/gun-musket-wood.webp",
+  "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "system": {
     "odo_id": "mosquete-de-chapa",
     "description": "<p>Média, Disparo (30 m), Duas Mãos. Tambor rotativo de 3 câmaras; recarga de 1 rodada por câmara. <strong>Instável:</strong> resultados 1–2 no d20 causam falha crítica. Por ser arma de Disparo, não soma modificador de Força no dano.</p>",

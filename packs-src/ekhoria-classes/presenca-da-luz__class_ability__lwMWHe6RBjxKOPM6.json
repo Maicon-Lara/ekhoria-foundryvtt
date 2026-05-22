@@ -3,7 +3,7 @@
   "name": "Presença da Luz",
   "type": "class_ability",
   "_id": "lwMWHe6RBjxKOPM6",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Lança magias divinas diariamente a partir do 1º nível. Para prepará-las, o Custódio medita para a Luz e pede que magias lhe sejam concedidas no dia, respeitando seus limites de nível.</p>",
     "level": 1,

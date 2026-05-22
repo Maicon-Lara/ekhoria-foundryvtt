@@ -3,7 +3,7 @@
   "name": "Vigorosos",
   "type": "race_ability",
   "_id": "TR1COGAzbrqLA6yH",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Pela capacidade de suportar exercícios contínuos: +1 em qualquer teste de JPC.</p>",
     "xp": null,

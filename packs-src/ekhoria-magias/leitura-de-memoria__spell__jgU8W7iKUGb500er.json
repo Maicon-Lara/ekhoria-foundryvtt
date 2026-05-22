@@ -3,7 +3,7 @@
   "name": "Leitura de Memória",
   "type": "spell",
   "_id": "jgU8W7iKUGb500er",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "leitura-de-memoria",
     "school": "divine",

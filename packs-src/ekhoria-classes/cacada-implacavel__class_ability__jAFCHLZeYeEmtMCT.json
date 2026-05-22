@@ -3,7 +3,7 @@
   "name": "Caçada Implacável",
   "type": "class_ability",
   "_id": "jAFCHLZeYeEmtMCT",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Imunidade:</strong> torna-se totalmente imune a Medo e Auras Aterrorizantes. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>",
     "level": 10,

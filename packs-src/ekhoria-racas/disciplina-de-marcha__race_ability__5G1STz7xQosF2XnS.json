@@ -3,7 +3,7 @@
   "name": "Disciplina de Marcha",
   "type": "race_ability",
   "_id": "5G1STz7xQosF2XnS",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Aprendem a carregar armadura como extensão do corpo: as armaduras são consideradas 1 ponto mais leves para fins de carga (até o mínimo de 1).</p>",
     "xp": null,

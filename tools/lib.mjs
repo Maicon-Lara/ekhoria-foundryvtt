@@ -30,12 +30,21 @@ export function slug(s) {
     .replace(/(^-|-$)/g, "");
 }
 
+// Ícones empacotados pelo próprio sistema OD2 (garantidos para qualquer usuário).
+const OD2I = "systems/olddragon2e/assets/icons";
 const ICONS = {
-  class: "icons/sundries/documents/document-sealed-brown-red.webp",
-  class_ability: "icons/sundries/scrolls/scroll-rolled-brown.webp",
-  race: "icons/environment/people/group.webp",
-  race_ability: "icons/sundries/books/book-embossed-jewel-gold.webp",
+  class: `${OD2I}/level-up.svg`,
+  class_ability: `${OD2I}/kit.svg`,
+  race: `${OD2I}/alignment.svg`,
+  race_ability: `${OD2I}/diamond.svg`,
 };
+
+// Ícone de arma conforme o tipo (alcance ou tipo de dano).
+function weaponIcon(it) {
+  if (it.ranged || it.melee === false) return `${OD2I}/ranged.svg`;
+  const byType = { cortante: "slashing", perfurante: "piercing", impactante: "bludgeoning" };
+  return `${OD2I}/${byType[it.damage_type] || "melee"}.svg`;
+}
 
 // _stats padrão. systemVersion é substituído automaticamente pelo Foundry.
 function stats() {
@@ -273,7 +282,7 @@ export function spellDoc(spell, folderId, seedPrefix, sort) {
     name: spell.nome,
     type: "spell",
     _id: id,
-    img: "icons/svg/daze.svg",
+    img: `${OD2I}/${spell.school}.svg`,
     system: {
       odo_id: slug(spell.nome),
       school: spell.school,
@@ -316,7 +325,7 @@ export function weaponDoc(it, folderId, seedPrefix, sort) {
     name: it.nome,
     type: "weapon",
     _id: id,
-    img: it.img || "icons/svg/sword.svg",
+    img: it.img || weaponIcon(it),
     system: {
       ...equipmentBase(it),
       type: it.melee === false || it.ranged ? "ranged" : "melee",
@@ -351,7 +360,7 @@ export function armorDoc(it, folderId, seedPrefix, sort) {
     name: it.nome,
     type: "armor",
     _id: id,
-    img: it.img || "icons/svg/shield.svg",
+    img: it.img || `${OD2I}/armor.svg`,
     system: { ...equipmentBase(it), bonus_ca: it.bonus_ca ?? 0 },
     effects: [],
     flags: {},
@@ -370,7 +379,7 @@ export function miscDoc(it, folderId, seedPrefix, sort) {
     name: it.nome,
     type: "misc",
     _id: id,
-    img: it.img || "icons/svg/item-bag.svg",
+    img: it.img || `${OD2I}/misc.svg`,
     system: equipmentBase(it),
     effects: [],
     flags: {},
@@ -404,7 +413,7 @@ export function rollTableDoc(table, sort) {
     folder: null,
     name: table.nome,
     _id: id,
-    img: table.img || "icons/svg/d20-grey.svg",
+    img: table.img || `${OD2I}/d6.svg`,
     description: table.desc || "",
     results,
     replacement: true,

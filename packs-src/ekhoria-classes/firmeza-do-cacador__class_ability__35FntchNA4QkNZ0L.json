@@ -3,7 +3,7 @@
   "name": "Firmeza do Caçador",
   "type": "class_ability",
   "_id": "35FntchNA4QkNZ0L",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Resistência:</strong> Teste Fácil em JP contra Medo, incluindo auras aterrorizantes. <strong>Letalidade:</strong> acertos críticos contra criaturas identificadas usam Dano Aumentado (o dado de dano sobe duas categorias antes de ser dobrado; ex.: d6 vira d10).</p>",
     "level": 6,

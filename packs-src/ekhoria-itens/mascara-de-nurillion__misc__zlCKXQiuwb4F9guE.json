@@ -3,7 +3,7 @@
   "name": "Máscara de Nurillion",
   "type": "misc",
   "_id": "zlCKXQiuwb4F9guE",
-  "img": "icons/equipment/head/mask-carved-scream-tan.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "odo_id": "mascara-de-nurillion",
     "description": "<p>Utiliza filtros minerais aquecidos que concedem imunidade a gases tóxicos e aos efeitos de todos os Sacos de Esporos. Item padrão em expedições de Vornfell e nas operações da Irmandade Voraz.</p>",

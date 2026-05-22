@@ -3,7 +3,7 @@
   "name": "Modificar Memória",
   "type": "spell",
   "_id": "o62whwAesOZnykSo",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "modificar-memoria",
     "school": "divine",

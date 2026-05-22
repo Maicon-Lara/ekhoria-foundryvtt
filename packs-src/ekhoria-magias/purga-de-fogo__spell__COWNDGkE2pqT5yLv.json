@@ -3,7 +3,7 @@
   "name": "Purga de Fogo",
   "type": "spell",
   "_id": "COWNDGkE2pqT5yLv",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "purga-de-fogo",
     "school": "divine",

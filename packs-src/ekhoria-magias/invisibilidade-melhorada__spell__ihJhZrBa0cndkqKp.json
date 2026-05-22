@@ -3,7 +3,7 @@
   "name": "Invisibilidade Melhorada",
   "type": "spell",
   "_id": "ihJhZrBa0cndkqKp",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "invisibilidade-melhorada",
     "school": "illusionist",

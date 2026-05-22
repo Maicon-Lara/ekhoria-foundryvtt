@@ -3,7 +3,7 @@
   "name": "Virote de Centelha Solar",
   "type": "misc",
   "_id": "Gk5m9CNR9SCXldUW",
-  "img": "icons/weapons/ammunition/bolt-feathered-glowing-orange.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-centelha-solar",
     "description": "<p>+1d6 de dano de fogo; provoca Cegueira. <strong>Risco:</strong> JPC se usado sob sol forte.</p>",

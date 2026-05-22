@@ -3,7 +3,7 @@
   "name": "Balas Perfurantes (Mitral) (10)",
   "type": "misc",
   "_id": "yOH2cg0GDOdysgZj",
-  "img": "icons/consumables/ammunition/3-bullets-paper-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "balas-perfurantes-mitral-10",
     "description": "<p>Pacote com 10. Ignora 2 pontos de CA do alvo.</p>",

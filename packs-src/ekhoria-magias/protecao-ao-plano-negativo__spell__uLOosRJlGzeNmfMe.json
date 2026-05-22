@@ -3,7 +3,7 @@
   "name": "Proteção ao Plano Negativo",
   "type": "spell",
   "_id": "uLOosRJlGzeNmfMe",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "protecao-ao-plano-negativo",
     "school": "divine",

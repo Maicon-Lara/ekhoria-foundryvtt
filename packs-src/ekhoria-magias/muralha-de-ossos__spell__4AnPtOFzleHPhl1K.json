@@ -3,7 +3,7 @@
   "name": "Muralha de Ossos",
   "type": "spell",
   "_id": "4AnPtOFzleHPhl1K",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "muralha-de-ossos",
     "school": "necromancer",

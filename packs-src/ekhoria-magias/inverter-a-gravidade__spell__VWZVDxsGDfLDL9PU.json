@@ -3,7 +3,7 @@
   "name": "Inverter a Gravidade",
   "type": "spell",
   "_id": "VWZVDxsGDfLDL9PU",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
     "odo_id": "inverter-a-gravidade",
     "school": "arcane",

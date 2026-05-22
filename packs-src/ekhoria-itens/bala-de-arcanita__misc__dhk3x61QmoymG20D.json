@@ -3,7 +3,7 @@
   "name": "Bala de Arcanita",
   "type": "misc",
   "_id": "dhk3x61QmoymG20D",
-  "img": "icons/weapons/ammunition/bullet-cream.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "bala-de-arcanita",
     "description": "<p>+2d6 de dano mágico; o alvo faz JPC ou fica Atordoado. <strong>Risco:</strong> a munição explode, causando 2d6 ao usuário e destruindo a arma.</p>",

@@ -3,7 +3,7 @@
   "name": "Virote de Ônix",
   "type": "misc",
   "_id": "1IMooo5ID3OZSTXm",
-  "img": "icons/weapons/ammunition/bolt-feathered-glowing-white.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-onix",
     "description": "<p>+1d6 de dano mágico; cura 1d4 PV do atirador. <strong>Contra mortos-vivos:</strong> causa Exaustão.</p>",

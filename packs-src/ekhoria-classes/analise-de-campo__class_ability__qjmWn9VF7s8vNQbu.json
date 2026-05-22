@@ -3,7 +3,7 @@
   "name": "Análise de Campo",
   "type": "class_ability",
   "_id": "qjmWn9VF7s8vNQbu",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Após derrotar uma criatura significativa, faz um teste de perícia que (conforme o resultado) extrai componentes utilizáveis, identifica fraquezas da espécie para encontros futuros, ou descobre propriedades não catalogadas. O Mestre determina o que está disponível.</p>",
     "level": 1,

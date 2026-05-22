@@ -3,7 +3,7 @@
   "name": "Disciplina Solar",
   "type": "class_ability",
   "_id": "GX5CKMlRCrB8xqXH",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Recebe +1 na Base de Ataque em relação ao Clérigo padrão e escolhe um aprimoramento permanente no chassi: +1 de dano com uma arma específica OU +1 de bônus na CA.</p>",
     "level": 3,

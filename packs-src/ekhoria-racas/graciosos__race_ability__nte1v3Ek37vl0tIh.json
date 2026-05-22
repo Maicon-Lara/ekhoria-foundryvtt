@@ -3,7 +3,7 @@
   "name": "Graciosos",
   "type": "race_ability",
   "_id": "nte1v3Ek37vl0tIh",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
     "xp": null,

@@ -3,7 +3,7 @@
   "name": "Coquetel Marcial",
   "type": "class_ability",
   "_id": "AQRca7rDN11bXH00",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Consome dois Fungos do Degelo diferentes simultaneamente. O risco de vício da dose combinada aumenta em +1, e a duração de qualquer exaustão ou penalidade pós-efeito dos fungos é dobrada.</p>",
     "level": 3,

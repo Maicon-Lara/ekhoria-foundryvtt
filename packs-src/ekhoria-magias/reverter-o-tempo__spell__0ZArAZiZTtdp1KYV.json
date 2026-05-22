@@ -3,7 +3,7 @@
   "name": "Reverter o Tempo",
   "type": "spell",
   "_id": "0ZArAZiZTtdp1KYV",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "reverter-o-tempo",
     "school": "divine",

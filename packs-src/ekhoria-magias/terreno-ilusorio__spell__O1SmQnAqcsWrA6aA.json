@@ -3,7 +3,7 @@
   "name": "Terreno Ilusório",
   "type": "spell",
   "_id": "O1SmQnAqcsWrA6aA",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "terreno-ilusorio",
     "school": "illusionist",

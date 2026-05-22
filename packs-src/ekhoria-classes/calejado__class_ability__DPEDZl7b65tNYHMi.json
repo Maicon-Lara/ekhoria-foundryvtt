@@ -3,7 +3,7 @@
   "name": "Calejado",
   "type": "class_ability",
   "_id": "DPEDZl7b65tNYHMi",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Resiliência:</strong> a cada nível recebe +2 PV adicionais à tabela de Guerreiro; testes para resistir a Medo tornam-se Fáceis. <strong>Queixo de Aço:</strong> a chance de nocauteá-lo é reduzida em 1 (mínimo 1 em 1d6). <strong>Nocauteador:</strong> sua chance de nocaute aumenta para 1 + modificador de Força em 1d6.</p>",
     "level": 6,

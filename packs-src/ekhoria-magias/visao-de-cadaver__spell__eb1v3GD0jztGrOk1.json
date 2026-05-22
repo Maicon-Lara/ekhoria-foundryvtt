@@ -3,7 +3,7 @@
   "name": "Visão de Cadáver",
   "type": "spell",
   "_id": "eb1v3GD0jztGrOk1",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "visao-de-cadaver",
     "school": "necromancer",

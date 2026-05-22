@@ -3,7 +3,7 @@
   "name": "Enganar Visão",
   "type": "spell",
   "_id": "l2MrfTIBhRuNmwp2",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "enganar-visao",
     "school": "illusionist",

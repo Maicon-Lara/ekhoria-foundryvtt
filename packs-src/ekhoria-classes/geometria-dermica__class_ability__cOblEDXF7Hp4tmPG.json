@@ -3,7 +3,7 @@
   "name": "Geometria Dérmica",
   "type": "class_ability",
   "_id": "cOblEDXF7Hp4tmPG",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Ao sacrificar uma magia de 3º círculo, realinha as placas minerais defensivamente. Escolha: <strong>Enrijecer</strong> (ativa <em>Escudo Arcano</em>) ou <strong>Geotérmica</strong> (ativa <em>Proteção Contra Temperatura</em>).</p>",
     "level": 3,

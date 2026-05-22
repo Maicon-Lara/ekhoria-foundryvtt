@@ -3,7 +3,7 @@
   "name": "Conhecimento de Abominações",
   "type": "class_ability",
   "_id": "VDaNkWJdCA3I38wF",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Conhecimento especializado sobre criaturas anômalas: chance de 1–2 em 1d6 de identificar espécie, vulnerabilidades e comportamentos de uma criatura nunca antes encontrada.</p>",
     "level": 1,

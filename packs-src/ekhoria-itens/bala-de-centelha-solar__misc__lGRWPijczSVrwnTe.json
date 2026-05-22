@@ -3,7 +3,7 @@
   "name": "Bala de Centelha Solar",
   "type": "misc",
   "_id": "lGRWPijczSVrwnTe",
-  "img": "icons/weapons/ammunition/bullet-orange.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "bala-de-centelha-solar",
     "description": "<p>Dano em Área: 3d6 de fogo em raio de 3 m. <strong>Risco:</strong> pode explodir no inventário.</p>",

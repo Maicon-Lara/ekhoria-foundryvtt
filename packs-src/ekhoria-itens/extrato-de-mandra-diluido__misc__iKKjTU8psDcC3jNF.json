@@ -3,7 +3,7 @@
   "name": "Extrato de Mandra Diluído",
   "type": "misc",
   "_id": "iKKjTU8psDcC3jNF",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "extrato-de-mandra-diluido",
     "description": "<p>Mandra diluída em 500 ml de líquido: cura 1d6 PV sem risco de vício. Também usado no tratamento de recuperação de vício.</p>",

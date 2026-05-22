@@ -3,7 +3,7 @@
   "name": "Fungo Ébano",
   "type": "misc",
   "_id": "bd4XBjfLNNDCJ9Uu",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-ebano",
     "description": "<p>Concede Pele de Pedra (+4 na CA). <strong>Vício 1.</strong> Colateral: testes Difíceis por 1d4 dias.</p>",

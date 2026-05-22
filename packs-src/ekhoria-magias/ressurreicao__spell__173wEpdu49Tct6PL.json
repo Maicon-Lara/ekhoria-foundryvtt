@@ -3,7 +3,7 @@
   "name": "Ressurreição",
   "type": "spell",
   "_id": "173wEpdu49Tct6PL",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "ressurreicao",
     "school": "divine",

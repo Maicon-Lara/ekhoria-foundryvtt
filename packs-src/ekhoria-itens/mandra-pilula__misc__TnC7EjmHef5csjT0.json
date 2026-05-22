@@ -3,7 +3,7 @@
   "name": "Mandra (Pílula)",
   "type": "misc",
   "_id": "TnC7EjmHef5csjT0",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "mandra-pilula",
     "description": "<p>Cura 4d6+3 PV e funciona como antídoto. <strong>Vício 1–2.</strong> Colateral/abstinência: insônia e exaustão permanente.</p>",

@@ -3,7 +3,7 @@
   "name": "Saber a Idade",
   "type": "spell",
   "_id": "r825s06gvP0RL1PB",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "saber-a-idade",
     "school": "divine",

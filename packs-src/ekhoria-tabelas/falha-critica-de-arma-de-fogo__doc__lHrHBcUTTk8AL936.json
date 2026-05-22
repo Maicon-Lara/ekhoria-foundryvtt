@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Falha Crítica de Arma de Fogo",
   "_id": "lHrHBcUTTk8AL936",
-  "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+  "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "description": "<p>Role nesta tabela quando uma arma de fogo der falha crítica (resultado 1 ou 2 no ataque). O Mestre pode escolher o resultado mais adequado em vez de rolar.</p>",
   "results": [
     {

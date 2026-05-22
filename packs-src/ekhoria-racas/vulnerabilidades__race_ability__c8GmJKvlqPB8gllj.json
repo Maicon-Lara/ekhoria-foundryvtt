@@ -3,7 +3,7 @@
   "name": "Vulnerabilidades",
   "type": "race_ability",
   "_id": "c8GmJKvlqPB8gllj",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>O material de construção cria suscetibilidades específicas. Um Autokthon com partes de madeira pode ser infectado por fungos ou cupins; um com partes metálicas teme o toque das antenas de um Monstro Ferrugem tanto quanto um guerreiro teme veneno.</p>",
     "xp": null,

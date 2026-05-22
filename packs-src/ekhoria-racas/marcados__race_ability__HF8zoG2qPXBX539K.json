@@ -3,7 +3,7 @@
   "name": "Marcados",
   "type": "race_ability",
   "_id": "HF8zoG2qPXBX539K",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Carrega ao menos duas marcas visíveis da descendência demoníaca (escolhidas com o Mestre): olhos diferentes, mãos estranhas, três olhos, língua bifurcada, chifres, pele anormal, dentes pontiagudos, ausência de nariz, orelhas pontudas, cauda, protuberâncias escapulares ou odor de enxofre.</p>",
     "xp": null,

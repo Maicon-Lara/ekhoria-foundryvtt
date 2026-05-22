@@ -3,7 +3,7 @@
   "name": "Saco de Esporos (Azul) — Pó de Morthan",
   "type": "misc",
   "_id": "edBtpXVH5TZ4ItSF",
-  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "img": "systems/olddragon2e/assets/icons/throw.svg",
   "system": {
     "odo_id": "saco-de-esporos-azul-po-de-morthan",
     "description": "<p>Arma de arremesso que, ao impacto, cria uma nuvem de 9 m de raio por 1d4 rodadas. Não causa vício. Variante Azul: provoca <strong>Paralisia</strong> (JP resiste).</p>",

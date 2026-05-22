@@ -3,7 +3,7 @@
   "name": "Armadilhas de Abate",
   "type": "class_ability",
   "_id": "Yh1MlmUM9XK8ZH5h",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Cria armadilhas de campo em 1 turno. Criaturas Grandes ou maiores presas não podem realizar ataques à distância na rodada seguinte e tornam-se Alvos Enredados (ataques contra elas são Fáceis).</p>",
     "level": 1,

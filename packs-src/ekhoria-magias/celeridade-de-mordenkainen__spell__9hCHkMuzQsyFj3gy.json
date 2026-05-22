@@ -3,7 +3,7 @@
   "name": "Celeridade de Mordenkainen",
   "type": "spell",
   "_id": "9hCHkMuzQsyFj3gy",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
     "odo_id": "celeridade-de-mordenkainen",
     "school": "arcane",

@@ -3,7 +3,7 @@
   "name": "Efervescência Química",
   "type": "class_ability",
   "_id": "kcGZHV2A46cj2KN1",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Regeneração de Aelora (Albinus):</strong> regenera 1d4 PV por rodada durante 1d4 + modificador de Constituição rodadas. <strong>Vapor de Proteção:</strong> enquanto a regeneração estiver ativa, recebe +2 na CA. Essa regeneração não cura dano de fogo ou ácido.</p>",
     "level": 10,

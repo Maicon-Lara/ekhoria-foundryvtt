@@ -3,7 +3,7 @@
   "name": "Prata",
   "type": "misc",
   "_id": "yBFEh8ZCU1jqaa5k",
-  "img": "icons/commodities/metal/ingot-stamped-silver.webp",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "odo_id": "prata",
     "description": "<p>Essencial contra licantropos e certas categorias de mortos-vivos. Amplamente disponível em centros urbanos. <strong>Custo: ×2 o valor base</strong> da arma/armadura forjada nele.</p>",

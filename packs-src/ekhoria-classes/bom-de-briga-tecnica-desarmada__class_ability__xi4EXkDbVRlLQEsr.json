@@ -3,7 +3,7 @@
   "name": "Bom de Briga (Técnica Desarmada)",
   "type": "class_ability",
   "_id": "xi4EXkDbVRlLQEsr",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Ao lutar desarmado, não sofre penalidade de Ataque Difícil nem concede Ataque Fácil a inimigos armados. <strong>Dano Letal:</strong> ataques desarmados causam 2 + modificador de Força de dano de impacto, em vez de apenas nocautear.</p>",
     "level": 1,

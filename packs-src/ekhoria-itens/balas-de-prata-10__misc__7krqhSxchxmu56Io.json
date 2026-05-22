@@ -3,7 +3,7 @@
   "name": "Balas de Prata (10)",
   "type": "misc",
   "_id": "7krqhSxchxmu56Io",
-  "img": "icons/consumables/ammunition/3-bullets-cream-grey.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "balas-de-prata-10",
     "description": "<p>Pacote com 10. Causa dano completo em criaturas vulneráveis à Prata (licantropos, certos mortos-vivos).</p>",

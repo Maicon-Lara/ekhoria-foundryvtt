@@ -3,7 +3,7 @@
   "name": "Graça Diabólica",
   "type": "race_ability",
   "_id": "YSu2yjPod7gJHr0b",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Movimentos graciosos e controlados por herança demoníaca: +1 em qualquer teste de JPD.</p>",
     "xp": null,

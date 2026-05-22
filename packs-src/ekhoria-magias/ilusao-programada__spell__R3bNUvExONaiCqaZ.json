@@ -3,7 +3,7 @@
   "name": "Ilusão Programada",
   "type": "spell",
   "_id": "R3bNUvExONaiCqaZ",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "ilusao-programada",
     "school": "illusionist",

@@ -3,7 +3,7 @@
   "name": "Vestimenta de Núcleo Condutor",
   "type": "armor",
   "_id": "kAKrdUkFSktDTbzP",
-  "img": "icons/equipment/chest/breastplate-cuirass-steel-blue.webp",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "odo_id": "vestimenta-de-nucleo-condutor",
     "description": "<p>Armadura Média de Arcanita, <strong>exclusiva de Lito-arcanistas</strong> (extensão do sistema vital Arkanim — fatal para quem não tem núcleo mineral ativo). Concede +1 em JPC para Concentração.</p>",

@@ -3,7 +3,7 @@
   "name": "Flecha de Erebo",
   "type": "misc",
   "_id": "ZITfE9mtjrHspmGZ",
-  "img": "icons/weapons/ammunition/arrow-head-war-flight-purple.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-erebo",
     "description": "<p>Ataque Fácil (+2) nas sombras. <strong>Efeito:</strong> apaga luzes menores no ponto de impacto por 1d4 rodadas.</p>",

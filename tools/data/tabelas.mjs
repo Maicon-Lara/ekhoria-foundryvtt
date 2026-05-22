@@ -5,7 +5,7 @@ export const tabelas = [
   {
     nome: "Falha Crítica de Arma de Fogo",
     formula: "1d6",
-    img: "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+    img: "systems/olddragon2e/assets/icons/ranged.svg",
     desc: "<p>Role nesta tabela quando uma arma de fogo der falha crítica (resultado 1 ou 2 no ataque). O Mestre pode escolher o resultado mais adequado em vez de rolar.</p>",
     resultados: [
       { range: [1, 2], text: "<strong>Emperramento:</strong> perde a munição e não pode usar a arma até consertá-la (1 ação fora de combate)." },
@@ -17,7 +17,7 @@ export const tabelas = [
   {
     nome: "Marcas do Cambion",
     formula: "1d12",
-    img: "icons/creatures/abilities/mouth-teeth-human.webp",
+    img: "systems/olddragon2e/assets/icons/diamond.svg",
     desc: "<p>O Cambion carrega ao menos duas marcas visíveis de sua descendência demoníaca. Role duas vezes (ou escolha com o Mestre).</p>",
     resultados: [
       { range: [1, 1], text: "Olhos diferentes — coloridos e/ou animalescos, com possibilidade de heterocromia." },
@@ -37,7 +37,7 @@ export const tabelas = [
   {
     nome: "Construção Variável (Autokthon)",
     formula: "1d13",
-    img: "icons/commodities/metal/ingot-stamped-steel.webp",
+    img: "systems/olddragon2e/assets/icons/gem.svg",
     desc: "<p>Características de Construção Variável de um Autokthon. Escolha (ou role) o número de características que o personagem tem direito.</p>",
     resultados: [
       { range: [1, 1], text: "<strong>Arma Embutida:</strong> arma de uma mão ou besta substitui uma das mãos." },
@@ -58,7 +58,7 @@ export const tabelas = [
   {
     nome: "Fungo do Degelo Aleatório",
     formula: "1d8",
-    img: "icons/consumables/mushrooms/mushroom-multiple-blue.webp",
+    img: "systems/olddragon2e/assets/icons/magic-potion.svg",
     desc: "<p>Sorteio de uma substância dos Fungos do Degelo de Vornfell. Detalhes e valor de Vício no compêndio Ekhoria: Arsenal.</p>",
     resultados: [
       { range: [1, 1], text: "<strong>Mandra (Pílula):</strong> cura 4d6+3 PV; antídoto. Vício 1–2." },

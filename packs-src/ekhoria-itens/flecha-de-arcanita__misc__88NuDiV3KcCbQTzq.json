@@ -3,7 +3,7 @@
   "name": "Flecha de Arcanita",
   "type": "misc",
   "_id": "88NuDiV3KcCbQTzq",
-  "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-arcanita",
     "description": "<p>Ataque Muito Fácil (+5). <strong>Risco:</strong> 1d6 de dano mágico ao usuário e a arma é danificada.</p>",

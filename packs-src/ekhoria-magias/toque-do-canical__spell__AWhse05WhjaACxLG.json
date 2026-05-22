@@ -3,7 +3,7 @@
   "name": "Toque do Caniçal",
   "type": "spell",
   "_id": "AWhse05WhjaACxLG",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "toque-do-canical",
     "school": "necromancer",

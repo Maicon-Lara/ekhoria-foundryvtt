@@ -3,7 +3,7 @@
   "name": "Kattar",
   "type": "weapon",
   "_id": "NX8piP5VhFeXDvKg",
-  "img": "icons/weapons/daggers/dagger-bone.webp",
+  "img": "systems/olddragon2e/assets/icons/slashing.svg",
   "system": {
     "odo_id": "kattar",
     "description": "<p>Pequena, Cortante. Soqueira de lâminas que permite causar dano letal cortante com ataques desarmados.</p>",

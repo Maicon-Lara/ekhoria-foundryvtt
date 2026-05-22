@@ -3,7 +3,7 @@
   "name": "Construção Variável",
   "type": "race_ability",
   "_id": "FrQBlYdFz5iDAVML",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Ao criar o personagem, escolha duas características de construção da lista a seguir (a palavra final é do Mestre).</p>",
     "xp": null,

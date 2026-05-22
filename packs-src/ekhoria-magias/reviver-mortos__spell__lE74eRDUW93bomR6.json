@@ -3,7 +3,7 @@
   "name": "Reviver Mortos",
   "type": "spell",
   "_id": "lE74eRDUW93bomR6",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "reviver-mortos",
     "school": "divine",

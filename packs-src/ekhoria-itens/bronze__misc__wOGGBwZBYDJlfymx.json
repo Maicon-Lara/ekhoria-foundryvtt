@@ -3,7 +3,7 @@
   "name": "Bronze",
   "type": "misc",
   "_id": "wOGGBwZBYDJlfymx",
-  "img": "icons/commodities/metal/ingot-stamped-bronze.webp",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "odo_id": "bronze",
     "description": "<p>Em armaduras: −1 na CA, mas diminui o peso (armadura pesada de bronze conta como média para Carga). Em armas de fogo: reduz a Carga da arma em 1 (mínimo 1). <strong>Custo: ×1,5 o valor base.</strong></p>",

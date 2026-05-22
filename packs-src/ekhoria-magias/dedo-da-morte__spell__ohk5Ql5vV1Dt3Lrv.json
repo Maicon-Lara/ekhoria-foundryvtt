@@ -3,7 +3,7 @@
   "name": "Dedo da Morte",
   "type": "spell",
   "_id": "ohk5Ql5vV1Dt3Lrv",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "dedo-da-morte",
     "school": "necromancer",

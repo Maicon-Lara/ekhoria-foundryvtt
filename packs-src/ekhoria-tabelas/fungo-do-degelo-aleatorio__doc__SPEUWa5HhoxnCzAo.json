@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Fungo do Degelo Aleatório",
   "_id": "SPEUWa5HhoxnCzAo",
-  "img": "icons/consumables/mushrooms/mushroom-multiple-blue.webp",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "description": "<p>Sorteio de uma substância dos Fungos do Degelo de Vornfell. Detalhes e valor de Vício no compêndio Ekhoria: Arsenal.</p>",
   "results": [
     {

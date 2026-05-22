@@ -3,7 +3,7 @@
   "name": "Elfos",
   "type": "race_ability",
   "_id": "llCUz7CkDObcPR6o",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Elfos Drow são tratados como elfos para todos os efeitos, incluindo o cumprimento de requisitos de classe ou especialização.</p>",
     "xp": null,

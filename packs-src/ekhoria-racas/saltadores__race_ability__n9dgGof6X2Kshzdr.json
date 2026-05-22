@@ -3,7 +3,7 @@
   "name": "Saltadores",
   "type": "race_ability",
   "_id": "n9dgGof6X2Kshzdr",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Saltam o dobro da distância de um humano — cerca de 10 metros para frente ou 3 metros para cima.</p>",
     "xp": null,

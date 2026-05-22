@@ -3,7 +3,7 @@
   "name": "Saco de Esporos (Púrpura) — Pó de Morthan",
   "type": "misc",
   "_id": "m9e7Jp1XQjctCAWR",
-  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "img": "systems/olddragon2e/assets/icons/throw.svg",
   "system": {
     "odo_id": "saco-de-esporos-purpura-po-de-morthan",
     "description": "<p>Arma de arremesso que cria uma nuvem de 9 m de raio por 1d4 rodadas. Não causa vício. Variante Púrpura: provoca <strong>Sono</strong> (JP resiste).</p>",

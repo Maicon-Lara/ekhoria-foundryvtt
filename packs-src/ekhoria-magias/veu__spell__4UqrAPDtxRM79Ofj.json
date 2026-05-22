@@ -3,7 +3,7 @@
   "name": "Véu",
   "type": "spell",
   "_id": "4UqrAPDtxRM79Ofj",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/illusionist.svg",
   "system": {
     "odo_id": "veu",
     "school": "illusionist",

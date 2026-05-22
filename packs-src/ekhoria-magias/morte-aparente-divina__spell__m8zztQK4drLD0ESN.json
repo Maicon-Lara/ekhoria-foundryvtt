@@ -3,7 +3,7 @@
   "name": "Morte Aparente (Divina)",
   "type": "spell",
   "_id": "m8zztQK4drLD0ESN",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "morte-aparente-divina",
     "school": "divine",

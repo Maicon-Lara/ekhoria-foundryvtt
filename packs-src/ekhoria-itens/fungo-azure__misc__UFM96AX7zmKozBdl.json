@@ -3,7 +3,7 @@
   "name": "Fungo Azure",
   "type": "misc",
   "_id": "UFM96AX7zmKozBdl",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-azure",
     "description": "<p>Concede Sabedoria 18 e Visão no Escuro. <strong>Vício 1.</strong> Colateral: cegueira temporária.</p>",

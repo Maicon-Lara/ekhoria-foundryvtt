@@ -3,7 +3,7 @@
   "name": "Pacíficos",
   "type": "race_ability",
   "_id": "1wkLQJF6MBFrKluv",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Uma vez por dia, podem lançar a magia <em>Santuário</em> como um Clérigo de nível igual aos seus DV.</p>",
     "xp": null,

@@ -3,7 +3,7 @@
   "name": "Leitura da Mente",
   "type": "spell",
   "_id": "Gily6K7eK90DOplX",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "leitura-da-mente",
     "school": "divine",

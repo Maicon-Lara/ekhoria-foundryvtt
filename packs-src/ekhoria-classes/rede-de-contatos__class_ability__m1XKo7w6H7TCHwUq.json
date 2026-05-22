@@ -3,7 +3,7 @@
   "name": "Rede de Contatos",
   "type": "class_ability",
   "_id": "m1XKo7w6H7TCHwUq",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Mediante teste de Carisma, 1d4 contatos fornecem informações obscuras ou relatos de eventos distantes.</p>",
     "level": 10,

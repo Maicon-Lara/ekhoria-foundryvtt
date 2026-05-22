@@ -3,7 +3,7 @@
   "name": "Virote de Erebo",
   "type": "misc",
   "_id": "TO1O9VCCkCvivxv5",
-  "img": "icons/weapons/ammunition/bolt-feathered-glowing-purple.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-erebo",
     "description": "<p><strong>Efeito:</strong> o alvo faz conjurações com ajuste Difícil (−2) por 1d4 rodadas.</p>",

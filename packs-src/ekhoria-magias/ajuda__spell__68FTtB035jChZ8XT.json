@@ -3,7 +3,7 @@
   "name": "Ajuda",
   "type": "spell",
   "_id": "68FTtB035jChZ8XT",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "ajuda",
     "school": "divine",

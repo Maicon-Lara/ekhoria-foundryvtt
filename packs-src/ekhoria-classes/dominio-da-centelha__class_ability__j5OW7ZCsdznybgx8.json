@@ -3,7 +3,7 @@
   "name": "Domínio da Centelha",
   "type": "class_ability",
   "_id": "j5OW7ZCsdznybgx8",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Enquanto estiver de posse do Cristal, conjura automaticamente uma vez por dia, sem memorização, uma das magias: <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>.</p>",
     "level": 3,

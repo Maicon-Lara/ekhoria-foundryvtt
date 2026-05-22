@@ -3,7 +3,7 @@
   "name": "Buquê Púrpura ★",
   "type": "spell",
   "_id": "GmQFulgyVwknfCEn",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "odo_id": "buque-purpura",
     "school": "necromancer",

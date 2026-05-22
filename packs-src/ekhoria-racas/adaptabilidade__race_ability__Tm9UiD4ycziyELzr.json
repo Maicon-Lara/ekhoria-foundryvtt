@@ -3,7 +3,7 @@
   "name": "Adaptabilidade",
   "type": "race_ability",
   "_id": "Tm9UiD4ycziyELzr",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>O Autokthon recebe +1 em uma única Jogada de Proteção à sua escolha.</p>",
     "xp": null,

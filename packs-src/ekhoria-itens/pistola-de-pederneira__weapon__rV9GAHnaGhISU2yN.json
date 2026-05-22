@@ -3,7 +3,7 @@
   "name": "Pistola de Pederneira",
   "type": "weapon",
   "_id": "rV9GAHnaGhISU2yN",
-  "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+  "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "system": {
     "odo_id": "pistola-de-pederneira",
     "description": "<p>Pequena, Disparo (15 m). Tambor rotativo de 4 câmaras; recarga de 1 rodada por câmara. <strong>Instável:</strong> resultados 1–2 no d20 causam falha crítica. Por ser arma de Disparo, não soma modificador de Força no dano.</p>",

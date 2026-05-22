@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.1] — 2026-05-22
+
+### Modificado
+- **Ícones temáticos** em todo o conteúdo, usando os ícones do próprio sistema
+  OD2 (garantidos de existir, sem risco de ícone quebrado): magias por escola
+  (arcana/divina/necromante/ilusionista), armas por tipo de dano
+  (cortante/perfurante/impactante/disparo), armaduras, munições, substâncias e
+  cristais, além de ícones consistentes para classes, raças e habilidades.
+
 ## [0.5.0] — 2026-05-22
 
 ### Adicionado

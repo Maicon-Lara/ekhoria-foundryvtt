@@ -3,7 +3,7 @@
   "name": "Fungo Escarlate",
   "type": "misc",
   "_id": "xqK8o28ZWGDCIjE6",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-escarlate",
     "description": "<p>Concede Destreza 18 por 1d4 + Nível rodadas. <strong>Vício 1.</strong> Colateral: exaustão por 1 turno.</p>",

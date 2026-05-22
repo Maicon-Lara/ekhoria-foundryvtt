@@ -3,7 +3,7 @@
   "name": "Detectar Doença",
   "type": "spell",
   "_id": "A2FE7rMWr5KOaDTO",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
     "odo_id": "detectar-doenca",
     "school": "arcane",

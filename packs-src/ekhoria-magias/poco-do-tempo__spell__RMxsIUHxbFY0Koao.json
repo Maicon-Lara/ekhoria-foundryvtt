@@ -3,7 +3,7 @@
   "name": "Poço do Tempo",
   "type": "spell",
   "_id": "RMxsIUHxbFY0Koao",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "poco-do-tempo",
     "school": "divine",

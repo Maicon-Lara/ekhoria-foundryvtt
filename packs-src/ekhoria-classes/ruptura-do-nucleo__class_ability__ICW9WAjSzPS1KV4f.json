@@ -3,7 +3,7 @@
   "name": "Ruptura do Núcleo",
   "type": "class_ability",
   "_id": "ICW9WAjSzPS1KV4f",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Sobrecarrega o sistema circulatório mágico e sacrifica uma magia de 5º círculo: 10d6 de dano elemental em raio de 6 metros centrado em si. JPD reduz o dano à metade e impede ser arremessado 1d4+3 metros.</p>",
     "level": 10,

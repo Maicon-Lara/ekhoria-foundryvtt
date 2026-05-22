@@ -3,7 +3,7 @@
   "name": "Reputação",
   "type": "class_ability",
   "_id": "StRQnvqVMSlR2EXf",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Os feitos do Custódio tornam-se notórios, conferindo Reputação 1 em 1d6, aumentando +1 a cada nível subsequente até o máximo de 5 em 1d6.</p>",
     "level": 11,

@@ -3,7 +3,7 @@
   "name": "Fungo Sangue",
   "type": "misc",
   "_id": "h2REgJCP8RWnlRYF",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-sangue",
     "description": "<p>Concede Força 18 por 1d4 + Nível rodadas. <strong>Vício 1.</strong> Colateral: perda de 1d4 PV.</p>",

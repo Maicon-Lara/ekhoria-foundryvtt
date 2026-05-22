@@ -3,7 +3,7 @@
   "name": "Bala de Chumbo (20)",
   "type": "misc",
   "_id": "aTyjpqSAcHdVZhAY",
-  "img": "icons/consumables/ammunition/3-bullets-lead-grey.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "bala-de-chumbo-20",
     "description": "<p>Munição comum para armas de fogo (pacote com 20). Variantes especiais e de cristal nas categorias Munições.</p>",

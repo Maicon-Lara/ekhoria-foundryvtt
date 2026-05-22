@@ -3,7 +3,7 @@
   "name": "Criar Chamas",
   "type": "spell",
   "_id": "XXvXeyVCLllQnUFH",
-  "img": "icons/svg/daze.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "odo_id": "criar-chamas",
     "school": "divine",

@@ -3,7 +3,7 @@
   "name": "Flecha de Ônix",
   "type": "misc",
   "_id": "oAiiRhcIUKytrC1W",
-  "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+  "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-onix",
     "description": "<p>Ataque Fácil (+2) nas sombras. +1d4 de dano mágico; realiza crítico com 19–20.</p>",

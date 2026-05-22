@@ -3,7 +3,7 @@
   "name": "Construção Variável (Custódio Solar)",
   "type": "race_ability",
   "_id": "lENHlXWcXFyor2OH",
-  "img": "icons/sundries/books/book-embossed-jewel-gold.webp",
+  "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "description": "<p>Aprimoramento da classe <strong>Custódio Solar</strong> (habilidade Núcleo da Chama Primordial): concede ao Autokthon uma 3ª característica de Construção Variável. Adicione esta habilidade à ficha do Custódio para liberar o seletor extra (totalizando 3 com os 2 da raça).</p>",
     "xp": null,

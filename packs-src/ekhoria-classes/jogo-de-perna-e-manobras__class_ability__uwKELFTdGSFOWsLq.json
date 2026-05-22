@@ -3,7 +3,7 @@
   "name": "Jogo de Perna e Manobras",
   "type": "class_ability",
   "_id": "uwKELFTdGSFOWsLq",
-  "img": "icons/sundries/scrolls/scroll-rolled-brown.webp",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p><strong>Jogo de Perna:</strong> se realizar uma ação de movimento no turno, todos os ataques contra ele são Difíceis até o início da próxima rodada. <strong>Mestre de Chão:</strong> manobras para imobilizar, derrubar ou desarmar são Ações Fáceis.</p>",
     "level": 3,
