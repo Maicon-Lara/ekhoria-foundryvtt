@@ -39,11 +39,20 @@ const ICONS = {
   race_ability: `${OD2I}/diamond.svg`,
 };
 
+// Tradução do tipo de dano: PT (como está no livro) → enum do sistema OD2
+// (slashing/piercing/bludgeoning). Os dados-fonte ficam em português; um valor
+// já em inglês passa direto, e ausência vira "none".
+const DANO_PT_EN = { cortante: "slashing", perfurante: "piercing", impactante: "bludgeoning" };
+function damageType(v) {
+  if (!v) return "none";
+  return DANO_PT_EN[v] ?? v;
+}
+
 // Ícone de arma conforme o tipo (alcance ou tipo de dano).
 function weaponIcon(it) {
   if (it.ranged || it.melee === false) return `${OD2I}/ranged.svg`;
-  const byType = { cortante: "slashing", perfurante: "piercing", impactante: "bludgeoning" };
-  return `${OD2I}/${byType[it.damage_type] || "melee"}.svg`;
+  const t = damageType(it.damage_type);
+  return `${OD2I}/${["slashing", "piercing", "bludgeoning"].includes(t) ? t : "melee"}.svg`;
 }
 
 // _stats padrão. systemVersion é substituído automaticamente pelo Foundry.
@@ -329,7 +338,7 @@ export function weaponDoc(it, folderId, seedPrefix, sort) {
     system: {
       ...equipmentBase(it),
       type: it.melee === false || it.ranged ? "ranged" : "melee",
-      damage_type: it.damage_type || "none",
+      damage_type: damageType(it.damage_type),
       damage: it.damage || "",
       bonus_damage: it.bonus_damage ?? 0,
       bonus_ba: it.bonus_ba ?? 0,

@@ -231,15 +231,6 @@ const EKHORIA_RACAS = {
 
 Hooks.once("init", () => {
   console.log("Ekhoria | Módulo inicializado.");
-
-  // Registra configurações do módulo
-  game.settings.register("ekhoria", "versao", {
-    name: "Versão do Módulo Ekhoria",
-    scope: "world",
-    config: false,
-    type: String,
-    default: "0.1.0"
-  });
 });
 
 Hooks.once("ready", () => {
@@ -258,32 +249,44 @@ Hooks.once("ready", () => {
 //  for exclusiva do cenário
 // ─────────────────────────────────────────────
 
-Hooks.on("renderActorSheet", (sheet, html, data) => {
+// Normaliza nome para comparação sem acento/caixa.
+function normalizarNome(s) {
+  return String(s ?? "")
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toUpperCase()
+    .trim();
+}
+
+// Conjunto dos nomes de classes/raças exclusivas de Ekhoria (normalizados).
+const NOMES_EKHORIA = new Set([
+  ...Object.values(EKHORIA_CLASSES).map(c => normalizarNome(c.nome)),
+  ...Object.values(EKHORIA_RACAS).map(r => normalizarNome(r.nome)),
+]);
+
+Hooks.on("renderActorSheet", (sheet, html) => {
   const actor = sheet.actor;
   if (!actor || actor.type !== "character") return;
 
-  const classeAtual = actor.system?.classe?.value || "";
-  const racaAtual   = actor.system?.raca?.value   || "";
+  // No OD2, classe e raça são Items embarcados na ficha (não há system.classe.value).
+  const classe = actor.items.find(i => i.type === "class");
+  const raca = actor.items.find(i => i.type === "race");
+  const usaEkhoria =
+    (classe && NOMES_EKHORIA.has(normalizarNome(classe.name))) ||
+    (raca && NOMES_EKHORIA.has(normalizarNome(raca.name)));
+  if (!usaEkhoria) return;
 
-  // Exibe aviso visual se classe for exclusiva de Ekhoria
-  const classesEkhoria = Object.keys(EKHORIA_CLASSES);
-  const racasEkhoria   = Object.keys(EKHORIA_RACAS);
+  // `html` é jQuery nas sheets V1 e HTMLElement nas V2 — normaliza para DOM nativo.
+  const root = html?.[0] ?? html;
+  const titulo = root?.querySelector?.(".window-header .window-title");
+  if (!titulo || titulo.parentElement?.querySelector(".ekhoria-badge")) return;
 
-  const isClasseEkhoria = classesEkhoria.some(c =>
-    classeAtual.toUpperCase().includes(c)
-  );
-  const isRacaEkhoria = racasEkhoria.some(r =>
-    racaAtual.toUpperCase().includes(r)
-  );
-
-  if (isClasseEkhoria || isRacaEkhoria) {
-    // Adiciona badge "Ekhoria" no topo da ficha
-    const badge = `
-      <div class="ekhoria-badge" title="Personagem usa conteúdo exclusivo de Ekhoria">
-        ✦ EKHORIA
-      </div>`;
-    html.find(".window-header .window-title").after(badge);
-  }
+  // Badge "Ekhoria" no topo da ficha (DOM seguro, sem innerHTML).
+  const badge = document.createElement("div");
+  badge.className = "ekhoria-badge";
+  badge.title = "Personagem usa conteúdo exclusivo de Ekhoria";
+  badge.textContent = "✦ EKHORIA";
+  titulo.after(badge);
 });
 
 // ─────────────────────────────────────────────
@@ -309,11 +312,12 @@ Hooks.once("ready", () => {
       <p><strong>DV:</strong> 1d${classe.dv}</p>
       <ul>${linhas}</ul>`;
 
-    new Dialog({
-      title: `Classe: ${classe.nome}`,
+    foundry.applications.api.DialogV2.prompt({
+      window: { title: `Classe: ${classe.nome}` },
       content: conteudo,
-      buttons: { ok: { label: "Fechar" } }
-    }).render(true);
+      ok: { label: "Fechar" },
+      rejectClose: false,
+    });
   };
 
   game.ekhoria.exibirRaca = function(idRaca) {
@@ -337,10 +341,11 @@ Hooks.once("ready", () => {
       <p><strong>Movimento:</strong> ${mov}</p>
       <ul>${linhas}</ul>`;
 
-    new Dialog({
-      title: `Raça: ${raca.nome}`,
+    foundry.applications.api.DialogV2.prompt({
+      window: { title: `Raça: ${raca.nome}` },
       content: conteudo,
-      buttons: { ok: { label: "Fechar" } }
-    }).render(true);
+      ok: { label: "Fechar" },
+      rejectClose: false,
+    });
   };
 });

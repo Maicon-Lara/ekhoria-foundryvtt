@@ -4,6 +4,25 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.3] — 2026-06-15
+
+### Corrigido
+- **Tipo de dano das armas compatível com o sistema OD2.** O `damage_type` das
+  armas passava em português (`cortante`/`impactante`/`perfurante`), valores que
+  o enum do sistema rejeita; agora é traduzido na geração dos compêndios para
+  `slashing`/`bludgeoning`/`piercing`. Os dados-fonte (`tools/data/itens.mjs`)
+  seguem em português — a tradução acontece no `weaponDoc` (`tools/lib.mjs`).
+- **Badge "Ekhoria" na ficha.** A detecção lia `system.classe.value`, que não
+  existe no Old Dragon 2e (classe e raça são *Items* embarcados na ficha). Agora
+  o aviso aparece quando a ficha tem um Item `class`/`race` do cenário, com
+  comparação de nome sem acento/caixa.
+- **Diálogos de classe/raça migrados para `DialogV2`** (a `Dialog` V1 está
+  deprecada no Foundry v13). A inserção do badge passa a usar DOM nativo
+  (sem `innerHTML`) e funciona tanto em fichas AppV1 quanto V2.
+
+### Removido
+- Setting interno `versao` (não utilizado).
+
 ## [0.6.2] — 2026-05-22
 
 ### Adicionado

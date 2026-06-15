@@ -14,7 +14,7 @@
     "magic_item": false,
     "is_equipped": false,
     "type": "melee",
-    "damage_type": "perfurante",
+    "damage_type": "piercing",
     "damage": "1d4",
     "bonus_damage": 0,
     "bonus_ba": 0,
