@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.5] — 2026-06-15
+
+### Corrigido
+- **Pacote de distribuição (`ekhoria.zip`) inválido.** Nas versões 0.6.3 e 0.6.4
+  o arquivo fora gerado como um *tar* com extensão `.zip` (o `tar` do Windows
+  ignora a extensão), e o Foundry não conseguia instalá-lo (`FILE_ENDED` /
+  "No module manifest found"). Agora o zip é gerado com `tools/make-zip.py`
+  (zip real, separadores `/`), compatível com o extrator do Foundry.
+
 ## [0.6.4] — 2026-06-15
 
 ### Modificado
