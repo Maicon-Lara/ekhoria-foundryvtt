@@ -34,7 +34,7 @@ bônus de Jogada de Proteção, etc.).
 3. No campo **Manifest URL**, cole:
 
    ```
-   https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json
+   https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/latest/download/module.json
    ```
 
 4. Clique em **Install**.
