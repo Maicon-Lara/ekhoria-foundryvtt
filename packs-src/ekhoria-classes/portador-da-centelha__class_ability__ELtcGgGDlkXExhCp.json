@@ -5,10 +5,10 @@
   "_id": "ELtcGgGDlkXExhCp",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Recebe 1 Cristal de Centelha, anexado a um objeto à escolha, concedendo um benefício: <strong>Arma</strong> (+1 no BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>",
+    "description": "<p>Recebe 1 Cristal de Centelha, anexado a um objeto manufaturado à escolha, concedendo um benefício técnico: <strong>Arma</strong> (+1 na BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada, do círculo mais alto disponível) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>",
     "level": 1,
     "level3": "",
-    "level6": "<p>O bônus concedido passa a ser igual ao modificador de Inteligência (mínimo +1).</p>",
+    "level6": "",
     "level10": "",
     "rogue_talents": [],
     "daily_uses": {

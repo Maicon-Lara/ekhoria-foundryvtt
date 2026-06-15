@@ -5,10 +5,10 @@
   "_id": "TR1COGAzbrqLA6yH",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Pela capacidade de suportar exercícios contínuos: +1 em qualquer teste de JPC.</p>",
+    "description": "<p>A resistência sobre-humana dos Varkos lhes permite suportar o dobro do tempo de marcha forçada, trabalho pesado ou privação antes de sofrer penalidades por exaustão.</p>",
     "xp": null,
     "jp": {
-      "jpc": true,
+      "jpc": false,
       "jpd": false,
       "jps": false
     },

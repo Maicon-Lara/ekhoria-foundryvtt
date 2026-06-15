@@ -1,15 +1,15 @@
 {
-  "folder": "WhZxLtkBfBRh2AUX",
-  "name": "Rastreamento",
+  "folder": "caKAwnjDegRGXR3R",
+  "name": "Sincronia Técnica",
   "type": "class_ability",
-  "_id": "BdDp42063nIz4TqX",
+  "_id": "Wwk7hgvHk8SE27Gb",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Rastreia criaturas e humanoides em ambientes selvagens: 1–2 em 1d6 em terreno comum; 1 em 1d6 em terreno difícil (neve profunda, rocha sólida).</p>",
-    "level": 1,
-    "level3": "<p>+1 na chance.</p>",
-    "level6": "<p>+1 na chance (cumulativo).</p>",
-    "level10": "<p>+1 na chance (cumulativo).</p>",
+    "description": "<p>O Guardião aprimora a ligação com o seu dispositivo. O bônus escolhido na habilidade <strong>Portador da Centelha</strong> (BA/Dano, Magia Extra ou CA) passa a ser igual ao seu <strong>modificador de Inteligência</strong> (mínimo de +1).</p>",
+    "level": 6,
+    "level3": "",
+    "level6": "",
+    "level10": "",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!BdDp42063nIz4TqX"
+  "_key": "!items!Wwk7hgvHk8SE27Gb"
 }

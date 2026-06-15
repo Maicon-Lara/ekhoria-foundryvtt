@@ -5,7 +5,7 @@
   "_id": "aVPhaIFEDplFUcRt",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente.</p>",
+    "description": "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente, mas magias de cura (mesmo em área) jamais surtem efeito.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

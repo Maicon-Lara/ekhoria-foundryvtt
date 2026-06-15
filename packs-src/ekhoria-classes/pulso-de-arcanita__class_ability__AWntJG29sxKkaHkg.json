@@ -5,7 +5,7 @@
   "_id": "AWntJG29sxKkaHkg",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Ao sacrificar uma magia memorizada, sintoniza o núcleo com um elemento (Fogo, Frio, Eletricidade ou Ácido) e encanta os punhos ou uma arma. Dano adicional conforme o círculo sacrificado: 1º +1d8; 3º +2d8; 5º +3d8. <strong>Concentração Marcial:</strong> se sofrer dano com o efeito ativo, faz JPC ou o efeito se dissipa.</p>",
+    "description": "<p>Ao sacrificar um espaço de magia memorizado de 1º círculo ou superior, sintoniza o núcleo com um elemento (Fogo, Frio, Eletricidade ou Ácido) e encanta os punhos ou uma arma por 1 turno por nível. Dano adicional conforme o círculo sacrificado: 1º +1d8; 3º +2d8; 5º +3d8. <strong>Concentração Marcial:</strong> se sofrer dano com o efeito ativo, faz JPC ou o efeito se dissipa.</p>",
     "level": 1,
     "level3": "",
     "level6": "",

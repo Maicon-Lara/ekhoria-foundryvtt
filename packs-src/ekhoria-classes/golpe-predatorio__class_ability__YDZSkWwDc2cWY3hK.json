@@ -5,7 +5,7 @@
   "_id": "YDZSkWwDc2cWY3hK",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Ativa-se ao usar Golpe de Abate contra criaturas previamente identificadas (alvos não-humanoides, incluindo carapaças e couro grosso). Ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais (resolve contra a CA base 10 + modificador de Destreza). Se o ataque causar dano (×2), o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>",
+    "description": "<p>Contra criaturas identificadas por <em>Anatomia das Feras</em>, ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais. Se causar o dano ×2 do <em>Golpe de Abate</em>, o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>",
     "level": 3,
     "level3": "",
     "level6": "",
@@ -42,7 +42,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 600000,
+  "sort": 700000,
   "ownership": {
     "default": 0
   },

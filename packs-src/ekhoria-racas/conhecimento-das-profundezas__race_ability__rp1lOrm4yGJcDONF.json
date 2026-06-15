@@ -5,10 +5,10 @@
   "_id": "rp1lOrm4yGJcDONF",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Se a informação for pertinente ao mundo subterrâneo, têm chance de 1–2 em 1d6 de conhecê-la; para informações da superfície, 1 em 1d6. Varkos Magos e Clérigos somam +1; Varkos Acadêmicos, +2.</p>",
+    "description": "<p>Pela capacidade de suportar exercícios contínuos e condições adversas: +1 em qualquer teste de JPC.</p>",
     "xp": null,
     "jp": {
-      "jpc": false,
+      "jpc": true,
       "jpd": false,
       "jps": false
     },

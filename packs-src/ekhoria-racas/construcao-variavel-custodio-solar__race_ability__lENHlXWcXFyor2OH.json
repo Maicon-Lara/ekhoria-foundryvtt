@@ -73,7 +73,7 @@
         {
           "key": "material-incomum",
           "name": "Material Incomum",
-          "description": "Partes do corpo feitas de prata, bronze, ferro frio, mitral ou similar. Ataques e defesas naturais recebem os benefícios do material escolhido."
+          "description": "Partes do corpo feitas de prata, ferro frio ou mitral. Ataques e defesas naturais recebem os benefícios do material escolhido."
         },
         {
           "key": "resistencia",

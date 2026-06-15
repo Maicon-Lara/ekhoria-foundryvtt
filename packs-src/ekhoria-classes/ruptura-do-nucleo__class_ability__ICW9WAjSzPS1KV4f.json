@@ -5,7 +5,7 @@
   "_id": "ICW9WAjSzPS1KV4f",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Sobrecarrega o sistema circulatório mágico e sacrifica uma magia de 5º círculo: 10d6 de dano elemental em raio de 6 metros centrado em si. JPD reduz o dano à metade e impede ser arremessado 1d4+3 metros.</p>",
+    "description": "<p>Sobrecarrega o próprio núcleo para uma liberação violenta de energia, sacrificando um espaço de magia de 5º círculo: todas as criaturas num raio de 6 metros centrado no Lito-arcanista sofrem 10d6 de dano elemental (do tipo sintonizado no <em>Pulso de Arcanita</em>).</p>",
     "level": 10,
     "level3": "",
     "level6": "",

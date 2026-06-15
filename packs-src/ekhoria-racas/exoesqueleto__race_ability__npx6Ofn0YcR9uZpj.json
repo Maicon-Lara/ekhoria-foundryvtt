@@ -5,7 +5,7 @@
   "_id": "npx6Ofn0YcR9uZpj",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Possuem CA natural 14 em vez de 10. Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
+    "description": "<p>Possuem uma carapaça rígida que garante CA natural 14 + modificador de Destreza (em vez dos 10 + Destreza usuais). Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
     "xp": null,
     "jp": {
       "jpc": false,

@@ -14,12 +14,12 @@
       {
         "key": "armadilha",
         "name": "Armadilha",
-        "description": "Detectar, desarmar ou montar armadilhas."
+        "description": "Detecta e desarma silenciosamente armadilhas em lugares ou objetos."
       },
       {
         "key": "rastrear",
         "name": "Rastrear",
-        "description": "Identificar e seguir rastros, inclusive térmicos ou no vazio."
+        "description": "Nos Ermos e durante a caçada, segue rastros de um inimigo, animal ou erva, e procura comida e água para si e seu grupo."
       },
       {
         "key": "escalar",
@@ -68,7 +68,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },

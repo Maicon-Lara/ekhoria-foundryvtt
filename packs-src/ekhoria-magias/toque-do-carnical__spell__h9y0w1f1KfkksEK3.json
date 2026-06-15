@@ -1,11 +1,11 @@
 {
   "folder": "vR8QVaW124qgHUo8",
-  "name": "Toque do Caniçal",
+  "name": "Toque do Carniçal",
   "type": "spell",
-  "_id": "AWhse05WhjaACxLG",
+  "_id": "h9y0w1f1KfkksEK3",
   "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
-    "odo_id": "toque-do-canical",
+    "odo_id": "toque-do-carnical",
     "school": "necromancer",
     "circle": "2",
     "arcane": "null",
@@ -16,7 +16,7 @@
     "range": "0",
     "duration": "1 rodada/nível",
     "jp": "especial",
-    "description": "<p>O toque do mago paralisa humano, anão, gnomo, meio-elfo ou halfling por 1d6+2 rodadas (JPC anula). A vítima paralisada transpira um odor num raio de 3 m que causa náusea; quem não passar em JPC ataca com −2 até o fim da magia.</p>"
+    "description": "<p>O toque do mago paralisa humano, anão, gnomo, meio-elfo ou halfling por 1d6+2 rodadas (JPC evita). A vítima paralisada transpira um odor num raio de 3 m que causa náusea; quem não passar em JPC ataca com −2 até o fim da magia.</p>"
   },
   "effects": [],
   "flags": {},
@@ -35,5 +35,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!AWhse05WhjaACxLG"
+  "_key": "!items!h9y0w1f1KfkksEK3"
 }

@@ -18,7 +18,7 @@ const CONSTRUCAO_VARIAVEL = [
   { key: "escudo-embutido", name: "Escudo Embutido", description: "Escudo preso permanentemente a um dos braços. Testes que exijam usar essa mão são difíceis. O braço não entra em lugares estreitos e impede o uso de armas de duas mãos." },
   { key: "espinhos", name: "Espinhos", description: "Corpo recoberto por espinhos (trate como adaga, 1d4 de dano) que ferem qualquer um que o agarre." },
   { key: "flutuadores", name: "Flutuadores", description: "Partes ocas permitem natação, mas tornam o Autokthon incapaz de afundar naturalmente." },
-  { key: "material-incomum", name: "Material Incomum", description: "Partes do corpo feitas de prata, bronze, ferro frio, mitral ou similar. Ataques e defesas naturais recebem os benefícios do material escolhido." },
+  { key: "material-incomum", name: "Material Incomum", description: "Partes do corpo feitas de prata, ferro frio ou mitral. Ataques e defesas naturais recebem os benefícios do material escolhido." },
   { key: "resistencia", name: "Resistência", description: "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou veneno). Todo dano desse tipo é reduzido em 5 pontos." },
   { key: "tamanho-grande", name: "Tamanho Grande", description: "Entre 2 e 4 metros de altura. Equipamentos sob medida (no mínimo o triplo do custo). Usa armas médias e grandes com uma mão, e enormes com ambas." },
   { key: "tamanho-pequeno", name: "Tamanho Pequeno", description: "Cerca de 1 metro de altura. +2 na CA contra alvos grandes ou maiores. Só usa armas médias com ambas as mãos; não usa armas grandes. Armaduras sob medida." },
@@ -127,7 +127,7 @@ export const racas = [
     habilidades: [
       {
         nome: "Exoesqueleto",
-        desc: "<p>Possuem CA natural 14 em vez de 10. Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
+        desc: "<p>Possuem uma carapaça rígida que garante CA natural 14 + modificador de Destreza (em vez dos 10 + Destreza usuais). Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
         natural_armor: 14,
       },
       {
@@ -196,6 +196,9 @@ export const racas = [
       {
         nome: "Técnica Refinada",
         desc: "<p>Séculos de duelos rituais e filosofia marcial ensinaram a explorar cada abertura com precisão: +1 no dano com armas cortantes e perfurantes.</p>",
+        bonus_damage: 1,
+        bonus_damage_condition: "slashing",
+        bonus_damage_condition_2: "piercing",
       },
       {
         nome: "Corpos Forjados",
@@ -207,8 +210,9 @@ export const racas = [
         jp: { jpc: true },
       },
       {
-        nome: "Disciplina de Marcha",
-        desc: "<p>Aprendem a carregar armadura como extensão do corpo: as armaduras são consideradas 1 ponto mais leves para fins de carga (até o mínimo de 1).</p>",
+        nome: "Fúria dos Ancestrais (Ki)",
+        desc: "<p>Com uma rodada de concentração — e apenas em estado de controle, jamais em pânico ou amedrontado — o orc abre seu Ki à perícia dos que vieram antes. Pode fazê-lo uma vez por dia, mais uma a cada 5 níveis (2×/dia no 6º, 3×/dia no 11º); o estado dura um número de rodadas igual ao seu modificador de Sabedoria (mínimo 1). Enquanto ativo:</p><ul><li><strong>Em combate:</strong> suas jogadas de ataque recebem um Ajuste Fácil (+2) e ele causa +2 de dano. A partir do estágio Heroico (6º nível), pode trocar esses bônus por um ataque extra por rodada.</li><li><strong>Num ofício ou perícia que já domine</strong> (forja, arte, navegação...): uma tarefa que exija teste é resolvida com Ajuste Muito Fácil (+5) — a mão de mil antepassados guiando a sua (um 20 natural ainda é falha).</li><li><strong>O preço da memória emprestada:</strong> quando o estado termina, todos os seus testes ficam em Ajuste Difícil (−2) por 1d4 rodadas.</li></ul>",
+        daily_uses: 1,
       },
     ],
   },
@@ -223,12 +227,12 @@ export const racas = [
     habilidades: [
       {
         nome: "Conhecimento das Profundezas",
-        desc: "<p>Se a informação for pertinente ao mundo subterrâneo, têm chance de 1–2 em 1d6 de conhecê-la; para informações da superfície, 1 em 1d6. Varkos Magos e Clérigos somam +1; Varkos Acadêmicos, +2.</p>",
+        desc: "<p>Pela capacidade de suportar exercícios contínuos e condições adversas: +1 em qualquer teste de JPC.</p>",
+        jp: { jpc: true },
       },
       {
         nome: "Vigorosos",
-        desc: "<p>Pela capacidade de suportar exercícios contínuos: +1 em qualquer teste de JPC.</p>",
-        jp: { jpc: true },
+        desc: "<p>A resistência sobre-humana dos Varkos lhes permite suportar o dobro do tempo de marcha forçada, trabalho pesado ou privação antes de sofrer penalidades por exaustão.</p>",
       },
       {
         nome: "Pequenos",
@@ -316,11 +320,11 @@ export const racas = [
       },
       {
         nome: "Corpo Estático",
-        desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV. Podem substituir partes perdidas ou transferir o núcleo espiritual (o Eco) para outro corpo preparado.</p>",
+        desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV. Energia necrótica — como a magia <em>Causar Ferimentos</em> — também o restaura em vez de feri-lo (é assim que o Relicário Vivo se autocura). Podem substituir partes perdidas ou transferir o núcleo espiritual (o Eco) para outro corpo preparado.</p>",
       },
       {
         nome: "Eco Antimágico",
-        desc: "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente.</p>",
+        desc: "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente, mas magias de cura (mesmo em área) jamais surtem efeito.</p>",
       },
     ],
   },

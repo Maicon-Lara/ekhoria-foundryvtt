@@ -10,8 +10,8 @@
     "hp": 6,
     "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Pode usar todas as armas.",
-      "armors": "Pode usar todas as armaduras.",
+      "weapons": "Pode usar armas pequenas ou médias. Armas grandes impõem Ataque Difícil.",
+      "armors": "Pode usar apenas armaduras leves. Escudos ou armaduras médias/pesadas impedem as habilidades de classe e dão só metade da CA.",
       "magic_items": "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção."
     },
     "restrictions": {
@@ -96,9 +96,10 @@
     },
     "class_abilities": [
       "Compendium.ekhoria.ekhoria-classes.Item.qjmWn9VF7s8vNQbu",
-      "Compendium.ekhoria.ekhoria-classes.Item.BdDp42063nIz4TqX",
+      "Compendium.ekhoria.ekhoria-classes.Item.NwNL20tIqaGfdKMP",
+      "Compendium.ekhoria.ekhoria-classes.Item.yJdtn6du0ek6FtHz",
       "Compendium.ekhoria.ekhoria-classes.Item.9AsJ7AQvIAfIkv75",
-      "Compendium.ekhoria.ekhoria-classes.Item.VDaNkWJdCA3I38wF",
+      "Compendium.ekhoria.ekhoria-classes.Item.fWEg48lprAGJMTJD",
       "Compendium.ekhoria.ekhoria-classes.Item.Yh1MlmUM9XK8ZH5h",
       "Compendium.ekhoria.ekhoria-classes.Item.YDZSkWwDc2cWY3hK",
       "Compendium.ekhoria.ekhoria-classes.Item.35FntchNA4QkNZ0L",

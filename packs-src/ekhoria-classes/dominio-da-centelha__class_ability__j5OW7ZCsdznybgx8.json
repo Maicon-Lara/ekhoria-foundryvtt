@@ -5,11 +5,11 @@
   "_id": "j5OW7ZCsdznybgx8",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Enquanto estiver de posse do Cristal, conjura automaticamente uma vez por dia, sem memorização, uma das magias: <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>.</p>",
+    "description": "<p>Enquanto estiver de posse do Cristal, conjura automaticamente uma vez por dia, sem memorização prévia, uma das magias: <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>.</p>",
     "level": 3,
     "level3": "",
     "level6": "",
-    "level10": "<p>A conjuração dessa magia passa a exigir apenas 1 ação de movimento.</p>",
+    "level10": "",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,

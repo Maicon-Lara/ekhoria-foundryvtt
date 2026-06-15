@@ -1,12 +1,12 @@
 {
   "folder": "WhZxLtkBfBRh2AUX",
-  "name": "Caçada Implacável",
+  "name": "Golpe de Abate",
   "type": "class_ability",
-  "_id": "jAFCHLZeYeEmtMCT",
+  "_id": "NwNL20tIqaGfdKMP",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p><strong>Imunidade:</strong> torna-se totalmente imune a Medo e Auras Aterrorizantes. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>",
-    "level": 10,
+    "description": "<p>Ao atacar após uma aproximação furtiva, o ataque é um <strong>Ataque Muito Fácil</strong> e causa <strong>dano ×2</strong>. É a base referenciada pelo Golpe Predatório.</p>",
+    "level": 1,
     "level3": "",
     "level6": "",
     "level10": "",
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 900000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!jAFCHLZeYeEmtMCT"
+  "_key": "!items!NwNL20tIqaGfdKMP"
 }

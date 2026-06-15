@@ -4,6 +4,27 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.6] — 2026-06-15
+
+### Modificado
+- **Sincronização das mecânicas com o livro de Mecânicas (vault).** Várias
+  classes e raças foram alinhadas à versão atual do material-fonte:
+  - **Classes:** Custódio Solar ganha "Pulso de Estabilidade" (a antiga
+    "Presença da Luz" foi absorvida pelo Núcleo da Chama Primordial); Voraz
+    ganha "Golpe de Abate" e "Ouvir Ruídos", "Conhecimento de Abominações"
+    vira "Anatomia das Feras" (evolução no 10º), e "Rastreamento" sai;
+    Pugilista "Calejado" passa a +1 PV permanente (não +2/nível); Guardião da
+    Centelha ganha "Sincronia Técnica" e "Reajuste Rápido" como habilidades
+    próprias e troca Cinthara→Durgrann; Lito-arcanista e Voraz têm as
+    restrições de armas/armaduras corrigidas; Narcoguerreiro e Diplomata têm
+    nomes/efeitos ajustados.
+  - **Raças:** Orc do Sol Poente troca "Disciplina de Marcha" por "Fúria dos
+    Ancestrais (Ki)" e ganha +1 de dano (cortante/perfurante) em "Técnica
+    Refinada"; Varko corrige a inversão entre "Conhecimento das Profundezas"
+    (+1 JPC) e "Vigorosos"; Silente, Mantes e Autokthon têm textos ajustados.
+  - **Arsenal:** Erebo passa a custo ×5; grafia "Arkanita"→"Arcanita".
+  - **Magias:** "Toque do Carniçal" (grafia) e verbo da JP ("evita").
+
 ## [0.6.5] — 2026-06-15
 
 ### Corrigido

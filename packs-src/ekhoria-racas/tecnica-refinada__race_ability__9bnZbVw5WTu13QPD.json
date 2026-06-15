@@ -12,9 +12,9 @@
       "jpd": false,
       "jps": false
     },
-    "bonus_damage": 0,
-    "bonus_damage_condition": "none",
-    "bonus_damage_condition_2": "none",
+    "bonus_damage": 1,
+    "bonus_damage_condition": "slashing",
+    "bonus_damage_condition_2": "piercing",
     "rogue_talent": "none",
     "rogue_talent_2": "none",
     "daily_uses": 0,

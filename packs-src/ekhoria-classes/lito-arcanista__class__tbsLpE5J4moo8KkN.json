@@ -10,8 +10,8 @@
     "hp": 4,
     "high_level_hp_bonus": 1,
     "equipment_restrictions": {
-      "weapons": "Pode usar todas as armas.",
-      "armors": "Não utiliza armaduras convencionais — apenas armaduras de Arcanita.",
+      "weapons": "Pode usar armas pequenas e médias. Armas grandes apenas se forem de Arcanita.",
+      "armors": "Não utiliza armaduras convencionais — apenas armaduras de Arcanita e escudos leves.",
       "magic_items": "Pode utilizar todos os tipos de itens mágicos."
     },
     "restrictions": {

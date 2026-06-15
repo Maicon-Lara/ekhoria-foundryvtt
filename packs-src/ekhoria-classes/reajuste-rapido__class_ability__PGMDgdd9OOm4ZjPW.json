@@ -1,14 +1,14 @@
 {
-  "folder": "WhZxLtkBfBRh2AUX",
-  "name": "Conhecimento de Abominações",
+  "folder": "caKAwnjDegRGXR3R",
+  "name": "Reajuste Rápido",
   "type": "class_ability",
-  "_id": "VDaNkWJdCA3I38wF",
+  "_id": "PGMDgdd9OOm4ZjPW",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Conhecimento especializado sobre criaturas anômalas: chance de 1–2 em 1d6 de identificar espécie, vulnerabilidades e comportamentos de uma criatura nunca antes encontrada.</p>",
-    "level": 1,
+    "description": "<p>A eficiência no manuseio dos cristais atinge o ápice. A conjuração das magias concedidas pela habilidade <strong>Domínio da Centelha</strong> exige agora apenas uma <strong>Ação de Movimento</strong>, permitindo que o Guardião realize outra ação ou ataque na mesma rodada.</p>",
+    "level": 10,
     "level3": "",
-    "level6": "<p>Aumenta para 1–3 em 1d6.</p>",
+    "level6": "",
     "level10": "",
     "rogue_talents": [],
     "daily_uses": {
@@ -46,5 +46,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!VDaNkWJdCA3I38wF"
+  "_key": "!items!PGMDgdd9OOm4ZjPW"
 }
