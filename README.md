@@ -73,6 +73,9 @@ npm run extract    # (opcional) extrai os packs de volta para _verify/ e confere
 Os IDs dos documentos são **determinísticos** (derivados do nome), de modo que as
 referências por UUID entre raça/classe e suas habilidades permanecem estáveis entre builds.
 
+> 📘 **Adicionar uma classe nova:** passo a passo completo (conteúdo → build →
+> zip → release) em [`docs/criar-classe.md`](docs/criar-classe.md).
+
 > **Observação:** Atlante, Autokthon, Cambion, Mantes, Nefilim e Varko também existem no
 > módulo oficial **Guia de Raças** (`olddragon2e-racas`). As versões deste módulo são as
 > adaptações do cenário Ekhoria e são auto-contidas (não dependem do Guia de Raças).
