@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.4] — 2026-06-15
+
+### Modificado
+- **Distribuição via release do GitHub.** O `manifest` passa a apontar para
+  `releases/latest/download/module.json` e o `download` para o `.zip` do release
+  versionado, em vez dos arquivos crus do branch `main`. Isso evita que um push
+  no `main` altere a versão servida a instalações existentes — cada release fica
+  imutável e a atualização no Foundry segue o fluxo padrão de módulos.
+
 ## [0.6.3] — 2026-06-15
 
 ### Corrigido
