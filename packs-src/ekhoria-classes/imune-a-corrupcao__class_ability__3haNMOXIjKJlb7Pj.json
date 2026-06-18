@@ -1,0 +1,50 @@
+{
+  "folder": "vxD39IO16OxKPFRC",
+  "name": "Imune à Corrupção",
+  "type": "class_ability",
+  "_id": "3haNMOXIjKJlb7Pj",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Recebe +2 nas Jogadas de Proteção contra efeitos de Morte, drenagem, maldições e Medo. Uma vez por dia, dissipa um desses efeitos em si mesmo ou num aliado tocado, como <em>Dissipar Magia</em>.</p>",
+    "level": 6,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!3haNMOXIjKJlb7Pj"
+}

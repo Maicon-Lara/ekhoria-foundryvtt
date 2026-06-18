@@ -1,0 +1,50 @@
+{
+  "folder": "Fyfi3AStFzHdJP54",
+  "name": "Grito Dissonante",
+  "type": "class_ability",
+  "_id": "JbMOeaW2j2At72fP",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Sacrifica um espaço de magia para emitir uma onda sônica num cone de 6 m: 1d6 de dano por círculo sacrificado (JPD reduz à metade) e os alvos ficam ensurdecidos por 1d4 rodadas (conjuradores ensurdecidos têm 50% de falhar magias verbais).</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JbMOeaW2j2At72fP"
+}

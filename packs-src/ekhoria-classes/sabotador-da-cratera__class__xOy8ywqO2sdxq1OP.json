@@ -1,0 +1,125 @@
+{
+  "folder": "EVb80mHqbTxqHDhi",
+  "name": "Sabotador da Cratera",
+  "type": "class",
+  "_id": "xOy8ywqO2sdxq1OP",
+  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "system": {
+    "flavor": "<p>Toda estrutura tem um ponto onde basta um empurrão — ou um estopim. Especialização de Ladrão de Benellikov.</p>",
+    "description": "<p>O Sabotador lê estruturas e carrega pólvora arcana: engenheiro insurgente que faz portas de cofre, Torres Estabilizadoras e joelhos de Construtos pararem de funcionar. Sua violência é o oposto do furtivo — alta, preparada e mirada nas coisas mais que nas pessoas. Perde o Ataque Furtivo; os Talentos de Sabotador substituem os Talentos de Ladrão.</p>",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "equipment_restrictions": {
+      "weapons": "Armas pequenas ou médias, e armas de fogo improvisadas (raras).",
+      "armors": "Apenas armaduras leves.",
+      "magic_items": "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.xK8aHz1WZHBVDrnt",
+      "Compendium.ekhoria.ekhoria-classes.Item.d687Z6QBXauzgAYC",
+      "Compendium.ekhoria.ekhoria-classes.Item.QUDGSkBaICo4fbhY",
+      "Compendium.ekhoria.ekhoria-classes.Item.Pv9FhQ1PGD93c9Cm",
+      "Compendium.ekhoria.ekhoria-classes.Item.cZl6Xit431rBN7Qj",
+      "Compendium.ekhoria.ekhoria-classes.Item.2OVmK6jouKY0uqSj",
+      "Compendium.ekhoria.ekhoria-classes.Item.WUCPzBfCcIfx2Jtt"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!xOy8ywqO2sdxq1OP"
+}

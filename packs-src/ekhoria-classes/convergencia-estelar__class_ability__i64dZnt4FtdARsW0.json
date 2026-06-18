@@ -1,0 +1,50 @@
+{
+  "folder": "NKhgBlrexL0ZQSfU",
+  "name": "Convergência Estelar",
+  "type": "class_ability",
+  "_id": "i64dZnt4FtdARsW0",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Uma vez por dia, aponta para uma criatura a até 9 m e descreve seu fim: JPS (Sabedoria) Difícil (−2) ou, por 1d4 rodadas, todos os ataques contra ela são Muito Fáceis (+5) e ela falha automaticamente nas próprias JP. Alternativamente, concede a todo o grupo uma re-rolagem livre utilizável até o fim da cena.</p>",
+    "level": 10,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!i64dZnt4FtdARsW0"
+}

@@ -1,0 +1,76 @@
+{
+  "folder": "EVb80mHqbTxqHDhi",
+  "name": "Talentos de Sabotador",
+  "type": "class_ability",
+  "_id": "d687Z6QBXauzgAYC",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Inteligência</strong>.</p><p><em>Automação:</em> a ficha calcula os pontos de talento por Destreza; no cenário o Sabotador usa o maior entre Destreza e Inteligência — ajuste a alocação manualmente.</p>",
+    "level": 1,
+    "level3": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level6": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level10": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "rogue_talents": [
+      {
+        "key": "arrombar",
+        "name": "Arrombar",
+        "description": "Trancas mecânicas, cofres e selos físicos."
+      },
+      {
+        "key": "engenhocas",
+        "name": "Engenhocas",
+        "description": "Identificar, montar e desarmar dispositivos arcanodinâmicos."
+      },
+      {
+        "key": "demolicao",
+        "name": "Demolição",
+        "description": "Calcular onde a carga derruba uma estrutura com o mínimo de material."
+      },
+      {
+        "key": "furtividade",
+        "name": "Furtividade",
+        "description": "Mover-se e esconder-se."
+      },
+      {
+        "key": "armadilhas",
+        "name": "Armadilhas",
+        "description": "Detectar, desarmar e construir armadilhas."
+      }
+    ],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!d687Z6QBXauzgAYC"
+}

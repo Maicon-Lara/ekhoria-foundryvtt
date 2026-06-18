@@ -1,0 +1,125 @@
+{
+  "folder": "D1vAP2T6Tgd1wirB",
+  "name": "Guardião da Pira",
+  "type": "class",
+  "_id": "seV5IG0BlPVyWW6X",
+  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "system": {
+    "flavor": "<p>Enquanto a chama arder, a escuridão espera do lado de fora. Especialização de Clérigo da Irmandade Voraz (Vornfell), devoto de Aelora.</p>",
+    "description": "<p>Em Vornfell, Aelora não é adorada — é mantida acesa. O Guardião da Pira é o lado divino do que o Voraz e o Marcado fazem com a lâmina: mantém a coluna viva e inteira contra as abominações do norte e a noite de três meses. Mantém as Magias Divinas, mas sua Cura Milagrosa dá lugar à Dádiva da Pira (o espontâneo de Aelora), e seu Afastar Mortos-Vivos ao conjunto da Pira.</p>",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "equipment_restrictions": {
+      "weapons": "Pode usar todas as armas.",
+      "armors": "Pode usar todas as armaduras.",
+      "magic_items": "Pode utilizar todos os tipos de itens mágicos."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 600000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.0lFiUWekHWYBCNdh",
+      "Compendium.ekhoria.ekhoria-classes.Item.aXqJYXNbrSMfoHy3",
+      "Compendium.ekhoria.ekhoria-classes.Item.mKI3ecxegViJ3tF8",
+      "Compendium.ekhoria.ekhoria-classes.Item.P7428QwPBypRCpVa",
+      "Compendium.ekhoria.ekhoria-classes.Item.DI0avzroxL1qhiD5",
+      "Compendium.ekhoria.ekhoria-classes.Item.MqmVIfDaeF4UWXn2",
+      "Compendium.ekhoria.ekhoria-classes.Item.OUVHtIc37Lc4ngjl"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!seV5IG0BlPVyWW6X"
+}

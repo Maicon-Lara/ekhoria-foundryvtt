@@ -1,0 +1,50 @@
+{
+  "folder": "vxD39IO16OxKPFRC",
+  "name": "Misericórdia do Limiar",
+  "type": "class_ability",
+  "_id": "9JUNt0Sb1j50d9LL",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>No lugar da <em>Cura Milagrosa</em> do Clérigo, o Inquisidor canaliza a passagem de Morthan: abrindo mão de uma magia memorizada, conjura na hora — sem tê-la preparado — uma magia de travessia de Morthan: <em>Invisibilidade contra Mortos-Vivos</em> (1º círculo). A magia sacrificada deve ser de círculo igual ou superior ao da magia conjurada.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "<p>Passa a poder conjurar também <em>Proteção ao Plano Negativo</em> (3º círculo).</p>",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9JUNt0Sb1j50d9LL"
+}

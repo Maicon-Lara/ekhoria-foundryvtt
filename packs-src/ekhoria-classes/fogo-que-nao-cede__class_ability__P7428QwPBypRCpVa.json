@@ -1,0 +1,50 @@
+{
+  "folder": "D1vAP2T6Tgd1wirB",
+  "name": "Fogo que Não Cede",
+  "type": "class_ability",
+  "_id": "P7428QwPBypRCpVa",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Sacrifica um espaço de magia memorizado para imbuir sua arma (ou a de um aliado tocado) com o fogo da Pira: +1d6 de dano de fogo por um número de turnos igual ao nível (+2d6 se o alvo for abominação ou morto-vivo).</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!P7428QwPBypRCpVa"
+}

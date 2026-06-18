@@ -5,7 +5,7 @@
   "_id": "PGMDgdd9OOm4ZjPW",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>A eficiência no manuseio dos cristais atinge o ápice. A conjuração das magias concedidas pela habilidade <strong>Domínio da Centelha</strong> exige agora apenas uma <strong>Ação de Movimento</strong>, permitindo que o Guardião realize outra ação ou ataque na mesma rodada.</p>",
+    "description": "<p>A eficiência no manuseio dos cristais atinge o ápice. A conjuração das magias concedidas pela habilidade <strong>Domínio da Centelha</strong> exige agora apenas uma <strong>Ação de Movimento</strong>, permitindo que o Guardião realize outra ação ou ataque na mesma rodada. Além disso, o Guardião integra um <strong>segundo Cristal de Centelha</strong>: escolhe um segundo benefício de <em>Portador da Centelha</em> (Arma, Joia ou Vestimenta), que também escala com o modificador de Inteligência (mínimo +1).</p>",
     "level": 10,
     "level3": "",
     "level6": "",

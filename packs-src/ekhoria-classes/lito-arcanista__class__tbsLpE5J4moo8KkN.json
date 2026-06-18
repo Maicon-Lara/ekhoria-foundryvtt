@@ -7,7 +7,7 @@
   "system": {
     "flavor": "<p>O Bastião Elemental da Estrutura Mineral. Especialização de Mago, exclusiva de Arkanim (Arkádia).</p>",
     "description": "<p>O Lito-arcanista satura o próprio corpo com cristais de Arcanita, internalizando a Quintessência até tornar-se o vetor do poder: punhos que queimam, pele que endurece como diamante. Não conjura magias, mas continua recebendo espaços de magia até o 5º círculo, usados exclusivamente para ativar habilidades de classe. Mantém Ler Magias.</p>",
-    "hp": 4,
+    "hp": 6,
     "high_level_hp_bonus": 1,
     "equipment_restrictions": {
       "weapons": "Pode usar armas pequenas e médias. Armas grandes apenas se forem de Arcanita.",

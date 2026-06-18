@@ -4,6 +4,26 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.7] — 2026-06-18
+
+### Adicionado
+- **As 8 classes que faltavam**, completando as 16 do cenário: Inquisidor
+  Lunar, Guardião da Pira, Astromante, Vociferante de Arcanita, Sabotador da
+  Cratera, Corvo, Marcado e Mestre das Armas.
+
+### Modificado
+- **Sincronização com o vault (revisão de balanço das classes):**
+  - **Clérigo:** Inquisidor Lunar e Guardião da Pira trocam a Cura Milagrosa
+    por um espontâneo temático (Misericórdia do Limiar / Dádiva da Pira),
+    alinhando ao padrão das especializações de Clérigo do OD2.
+  - **Mago:** Guardião da Centelha — Domínio da Centelha agora vezes/dia = mod.
+    INT e o capstone integra um 2º Cristal; Lito-arcanista ganha Foco Arcano
+    (ataca por INT) e tem o Dado de Vida corrigido para **d6**.
+  - **Guerreiro:** Mestre das Armas — Sequência Tática concede o Ataque Extra
+    (com trava de encadeamento); Narcoguerreiro — Metabolismo Acelerado
+    suavizado (o vício volta a pesar).
+- **XP de todas as classes validado contra o Old Dragon 2.**
+
 ## [0.6.6] — 2026-06-15
 
 ### Modificado

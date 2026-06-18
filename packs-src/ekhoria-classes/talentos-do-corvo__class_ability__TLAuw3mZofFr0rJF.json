@@ -1,0 +1,76 @@
+{
+  "folder": "lHBdDHAFyzyUAk8f",
+  "name": "Talentos do Corvo",
+  "type": "class_ability",
+  "_id": "TLAuw3mZofFr0rJF",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p><p><em>Automação:</em> a ficha calcula os pontos de talento por Destreza; no cenário o Corvo usa o maior entre Destreza e Carisma — ajuste a alocação manualmente.</p>",
+    "level": 1,
+    "level3": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level6": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "level10": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
+    "rogue_talents": [
+      {
+        "key": "furtividade",
+        "name": "Furtividade",
+        "description": "Esconder-se e mover-se em silêncio."
+      },
+      {
+        "key": "escalar",
+        "name": "Escalar",
+        "description": "Superfícies difíceis sem cordas."
+      },
+      {
+        "key": "culturas",
+        "name": "Culturas",
+        "description": "Heráldica, etiqueta, rotas e fronteiras."
+      },
+      {
+        "key": "decifrar",
+        "name": "Decifrar",
+        "description": "Idiomas, códigos e correspondência cifrada."
+      },
+      {
+        "key": "montaria-travessia",
+        "name": "Montaria & Travessia",
+        "description": "Cavalgar, atravessar ermos e nunca se perder."
+      }
+    ],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!TLAuw3mZofFr0rJF"
+}

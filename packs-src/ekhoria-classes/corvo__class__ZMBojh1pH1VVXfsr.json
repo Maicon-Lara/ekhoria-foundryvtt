@@ -1,0 +1,125 @@
+{
+  "folder": "lHBdDHAFyzyUAk8f",
+  "name": "Corvo",
+  "type": "class",
+  "_id": "ZMBojh1pH1VVXfsr",
+  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "system": {
+    "flavor": "<p>A pena negra entra onde o exército não passa. Especialização de Ladrão da Ordem do Corvo (Vale da Águia).</p>",
+    "description": "<p>Mensageiro inviolável e neutro, o Corvo é o espião que nunca precisa mentir sobre quem é: passa por postos que barram exércitos, fala a língua de quem o detém e some quando convém. Perde o Ataque Furtivo; os Talentos do Corvo substituem os Talentos de Ladrão. <strong>Juramento da Pena Negra:</strong> não pode iniciar violência letal contra quem respeita sua neutralidade — fazê-lo custa a Inviolabilidade até cumprir penitência junto à Ordem.</p>",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "equipment_restrictions": {
+      "weapons": "Armas pequenas ou médias.",
+      "armors": "Apenas armaduras leves.",
+      "magic_items": "Pode utilizar pergaminhos mágicos como se tivesse metade do seu nível."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.JJKjYPT7ZAutjjEL",
+      "Compendium.ekhoria.ekhoria-classes.Item.TLAuw3mZofFr0rJF",
+      "Compendium.ekhoria.ekhoria-classes.Item.jIuWCB1E5jWdGqXg",
+      "Compendium.ekhoria.ekhoria-classes.Item.OYc2Jl29JOD2puWs",
+      "Compendium.ekhoria.ekhoria-classes.Item.Xe1wRZLvqU18x079",
+      "Compendium.ekhoria.ekhoria-classes.Item.wI1oXrZovyLb3YRI",
+      "Compendium.ekhoria.ekhoria-classes.Item.zhN3t0nU8Si2cTqz"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ZMBojh1pH1VVXfsr"
+}

@@ -1,0 +1,50 @@
+{
+  "folder": "vxD39IO16OxKPFRC",
+  "name": "Julgamento de Morthan",
+  "type": "class_ability",
+  "_id": "39Uz6ZERG4I8vQwn",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>Substitui o <em>Afastar Mortos-Vivos</em>. Joga 2d6 + nível para afetar mortos-vivos a até 18 m: os de DV iguais ou menores que o nível são <strong>destruídos</strong> ao falhar no Teste de Moral. Conjuradores vivos na área fazem JPS (Sabedoria) ou sofrem Ajuste Difícil (−2) em todas as jogadas por 1d4 rodadas.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!39Uz6ZERG4I8vQwn"
+}

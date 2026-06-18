@@ -1,0 +1,123 @@
+{
+  "folder": "ne6RQydqI4vqAS7B",
+  "name": "Mestre das Armas",
+  "type": "class",
+  "_id": "6Lh7SleOMyqP1H0g",
+  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "system": {
+    "flavor": "<p>A técnica que sobrevive a qualquer arma. Especialização de Guerreiro da Legião de Ferro.</p>",
+    "description": "<p>O Mestre das Armas não tem truque — só aço e disciplina. Estudou as propriedades de cada armamento até todas virarem ferramentas precisas, e controla o ritmo da batalha: desarma, empurra, derruba, debilita. Perde Aparar, e suas Técnicas de Maestria substituem a Maestria em Arma do Guerreiro.</p>",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "equipment_restrictions": {
+      "weapons": "Pode usar todas as armas.",
+      "armors": "Apenas armaduras leves.",
+      "magic_items": "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.lcubZpYugQ7i67Ev",
+      "Compendium.ekhoria.ekhoria-classes.Item.vX8x7PPx3an6fNhB",
+      "Compendium.ekhoria.ekhoria-classes.Item.PYyF7SpSZ2Zpum5n",
+      "Compendium.ekhoria.ekhoria-classes.Item.6g5obaUEweEWWNkm",
+      "Compendium.ekhoria.ekhoria-classes.Item.PwZw0P0L7NXytErP"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6Lh7SleOMyqP1H0g"
+}

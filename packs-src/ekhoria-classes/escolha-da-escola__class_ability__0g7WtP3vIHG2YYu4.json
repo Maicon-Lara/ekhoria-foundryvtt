@@ -1,0 +1,50 @@
+{
+  "folder": "1Dj5GkuFSCDx9Ooq",
+  "name": "Escolha da Escola",
+  "type": "class_ability",
+  "_id": "0g7WtP3vIHG2YYu4",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "system": {
+    "description": "<p>O Marcado escolhe uma das quatro Escolas, ganhando seus benefícios nos níveis 3/6/10:</p><p><strong>Verme Escarlate</strong> (marcial): 3º +2 dano com espadas curtas/longas/bastardas; 6º Eco Draum (onda que derruba e atordoa, JPD); 10º ataque extra com essas espadas.<br><strong>Águia-Cadáver</strong> (Ecos): 3º +1 dano por dado nos Ecos e aprende Eco Skorn (como <em>Escudo Arcano</em>, 1×/dia); 6º Eco Ygth (prende ao plano, como <em>Teia</em> somática); 10º recupera todos os Ecos com 1 turno de descanso.<br><strong>Couraçado</strong> (furtivo): 3º talentos Furtividade e Escalar como Ladrão; 6º +1d6 contra alvo desprevenido/flanqueado; 10º +2 na CA contra criaturas não humanoides.<br><strong>Fera-Abissal</strong> (vigor): 3º tolera duas substâncias de combate ao mesmo tempo; 6º +1 PV por nível (retroativo) e +1 de CA natural; 10º sangue corrosivo (1d6 ácido + JPC a quem o morder).</p>",
+    "level": 3,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0g7WtP3vIHG2YYu4"
+}

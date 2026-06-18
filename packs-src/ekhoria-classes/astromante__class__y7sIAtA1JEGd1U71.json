@@ -1,0 +1,124 @@
+{
+  "folder": "NKhgBlrexL0ZQSfU",
+  "name": "Astromante",
+  "type": "class",
+  "_id": "y7sIAtA1JEGd1U71",
+  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "system": {
+    "flavor": "<p>Quem lê o céu não adivinha — apenas chega antes. Especialização de Mago.</p>",
+    "description": "<p>O Astromante amarrou a leitura das estrelas à arte arcana: não arremessa fogo, lê a probabilidade e chega antes dela. Tem pouco dano direto e é mais forte quando previu, mais fraco quando o céu está encoberto. Conjura magias arcanas até o 5º círculo e mantém Ler Magias e Detectar Magia. <strong>Dependência do Céu:</strong> a cada amanhecer observa o céu por 1 turno; privado da visão por mais de 24 h, recebe só 1 Presságio por dia.</p>",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas pequenas.",
+      "armors": "Nenhuma (qualquer armadura ou escudo anula a conjuração).",
+      "magic_items": "Pode utilizar todos os tipos de itens mágicos."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 45000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 4,
+        "jp": 13,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 550000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.akYlF8wC286IVYcf",
+      "Compendium.ekhoria.ekhoria-classes.Item.fEIQyPWnBru5389h",
+      "Compendium.ekhoria.ekhoria-classes.Item.4BbBsZFL4Nh0qxbc",
+      "Compendium.ekhoria.ekhoria-classes.Item.H4mX8sMpSvxYjxJl",
+      "Compendium.ekhoria.ekhoria-classes.Item.i64dZnt4FtdARsW0",
+      "Compendium.ekhoria.ekhoria-classes.Item.sxUNxgD3XBrytHS3"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!y7sIAtA1JEGd1U71"
+}
