@@ -1,15 +1,15 @@
 {
-  "folder": "9epsW9yoIJMsv40f",
-  "name": "Graciosos",
+  "folder": "SdL7pp0ODbsrmMPN",
+  "name": "Pequenos",
   "type": "race_ability",
-  "_id": "JxzfGpH7Shx8xBZ8",
+  "_id": "XXxChDWHEssLNWd2",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
+    "description": "<p>Todos os ataques de criaturas Grandes ou maiores são considerados Difíceis para acertar um Grimor.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
-      "jpd": true,
+      "jpd": false,
       "jps": false
     },
     "bonus_damage": 0,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!JxzfGpH7Shx8xBZ8"
+  "_key": "!items!XXxChDWHEssLNWd2"
 }

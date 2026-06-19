@@ -1,11 +1,11 @@
 {
-  "folder": "mUQGAHy7KSyvh8ju",
-  "name": "Adaptabilidade",
+  "folder": "pARuNgxHhEmoWuYp",
+  "name": "Filhos da Corrente",
   "type": "race_ability",
-  "_id": "Tm9UiD4ycziyELzr",
+  "_id": "yF3EWDENvimftnhy",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>O Autokthon recebe +1 em uma única Jogada de Proteção à sua escolha.</p>",
+    "description": "<p>Para os Atlantes, parar é morte — e o corpo rende no movimento. Em qualquer rodada em que se desloca, recebe +1 na CA e em JPD até o início da próxima rodada. Além disso, nunca sofre penalidade por marcha forçada ou viagens longas.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -40,5 +40,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!Tm9UiD4ycziyELzr"
+  "_key": "!items!yF3EWDENvimftnhy"
 }

@@ -1,11 +1,11 @@
 {
   "folder": "pARuNgxHhEmoWuYp",
-  "name": "Letrados",
+  "name": "Erudito Errante",
   "type": "race_ability",
-  "_id": "DQ7bq8tIaYMLdCYx",
+  "_id": "Mny6GyJbcaCuvLZU",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Sabem ler e escrever o próprio idioma e ao menos um idioma adicional.</p>",
+    "description": "<p>Criados em frotas letradas, leem e escrevem o próprio idioma e mais um número de idiomas igual ao modificador de Inteligência (mínimo 1), e têm 1–2 em 1d6 para recordar rotas, correntes, culturas e a história dos povos que já cruzaram.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -40,5 +40,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!DQ7bq8tIaYMLdCYx"
+  "_key": "!items!Mny6GyJbcaCuvLZU"
 }

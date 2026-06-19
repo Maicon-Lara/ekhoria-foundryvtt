@@ -9,19 +9,18 @@
 // natural_armor, daily_uses, variable_construction) são preenchidos.
 
 const CONSTRUCAO_VARIAVEL = [
-  { key: "arma-embutida", name: "Arma Embutida", description: "Uma arma de corpo a corpo de uma mão ou besta substitui uma das mãos. Não pode ser desarmado, mas possui uma mão a menos." },
-  { key: "armadura-leve", name: "Armadura Leve", description: "Camada externa reforçada, conferindo +3 na CA. Impede o uso de armaduras externas." },
-  { key: "armadura-pesada", name: "Armadura Pesada", description: "Camada muito reforçada, conferindo +5 na CA e –2 metros de deslocamento. Impede o uso de armaduras externas." },
-  { key: "arpeu", name: "Arpéu", description: "Arpéu com 15 metros de cabo ejetável do corpo, usado para se içar ou como ataque à distância (Arremesso 5, Perfurante, 1d4+1 de dano)." },
-  { key: "asas", name: "Asas", description: "Par de asas mecânicas com voo de 9 metros. Não é possível transportar mais que uma carga leve durante o voo. Armaduras precisam ser feitas sob medida." },
-  { key: "bracos-extras", name: "Braços Extras", description: "Par de braços adicionais com duas mãos destras. Pode usar duas armas e realizar um ataque extra sem penalidade." },
-  { key: "escudo-embutido", name: "Escudo Embutido", description: "Escudo preso permanentemente a um dos braços. Testes que exijam usar essa mão são difíceis. O braço não entra em lugares estreitos e impede o uso de armas de duas mãos." },
-  { key: "espinhos", name: "Espinhos", description: "Corpo recoberto por espinhos (trate como adaga, 1d4 de dano) que ferem qualquer um que o agarre." },
-  { key: "flutuadores", name: "Flutuadores", description: "Partes ocas permitem natação, mas tornam o Autokthon incapaz de afundar naturalmente." },
-  { key: "material-incomum", name: "Material Incomum", description: "Partes do corpo feitas de prata, ferro frio ou mitral. Ataques e defesas naturais recebem os benefícios do material escolhido." },
-  { key: "resistencia", name: "Resistência", description: "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou veneno). Todo dano desse tipo é reduzido em 5 pontos." },
-  { key: "tamanho-grande", name: "Tamanho Grande", description: "Entre 2 e 4 metros de altura. Equipamentos sob medida (no mínimo o triplo do custo). Usa armas médias e grandes com uma mão, e enormes com ambas." },
-  { key: "tamanho-pequeno", name: "Tamanho Pequeno", description: "Cerca de 1 metro de altura. +2 na CA contra alvos grandes ou maiores. Só usa armas médias com ambas as mãos; não usa armas grandes. Armaduras sob medida." },
+  { key: "chassi-blindado", name: "Chassi Blindado", description: "+3 na CA. Não pode vestir armadura externa." },
+  { key: "carcaca-de-cerco", name: "Carcaça de Cerco", description: "+5 na CA e −2 metros de deslocamento. Não pode vestir armadura externa." },
+  { key: "membro-ferramenta", name: "Membro-Ferramenta", description: "Uma das mãos é uma arma de uma mão ou besta embutida; não pode ser desarmado dela." },
+  { key: "bracos-auxiliares", name: "Braços Auxiliares", description: "Um par extra de braços: usa duas armas e ganha um ataque extra por rodada sem penalidade." },
+  { key: "placas-de-material-raro", name: "Placas de Material Raro", description: "Corpo revestido de prata, ferro frio ou mitral; ataques e defesas naturais ganham os benefícios do material." },
+  { key: "blindagem-reativa", name: "Blindagem Reativa", description: "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou frio); reduza-o em 5." },
+  { key: "articulacoes-de-voo", name: "Articulações de Voo", description: "Asas retráteis; voa a 9 metros (apenas com carga leve)." },
+  { key: "cabo-de-arpeu", name: "Cabo de Arpéu", description: "Cabo ejetável de 15 metros (Arremesso 5 m, perfurante, 1d4+1); também serve para escalar e puxar." },
+  { key: "espinhos-fixos", name: "Espinhos Fixos", description: "Corpo coberto de pontas (trate como adaga); quem o agarra sofre 1d4 de dano." },
+  { key: "estrutura-diminuta", name: "Estrutura Diminuta (~1 m)", description: "+2 na CA contra criaturas Grandes ou maiores; limita o porte das armas que empunha." },
+  { key: "estrutura-avantajada", name: "Estrutura Avantajada (2–4 m)", description: "Empunha armas grandes com uma mão; equipamento sob medida custa mais." },
+  { key: "sensores-apurados", name: "Sensores Apurados", description: "Não pode ser surpreendido por meios não-mágicos e detecta mecanismos ou armadilhas ocultas (1–2 em 1d6)." },
 ];
 
 export const racas = [
@@ -40,8 +39,8 @@ export const racas = [
         desc: "<p>A Pedra da Alma concede vida real, mas de natureza única. Autokthons não dormem, não se alimentam, não respiram e não envelhecem; não possuem sistema circulatório. São imunes a sono, venenos, doenças comuns e drenagem de sangue, e não podem beber poções mágicas. Precisam de 8 horas de estudo para memorizar magias. São plenamente suscetíveis a efeitos mentais, morte, paralisia, cegueira, surdez, drenagem de energia, acertos críticos e efeitos que exijam JPC. <em>Aprisionar Alma</em> e <em>Reviver Mortos</em> não os afetam; <em>Curar</em> e <em>Causar Ferimentos</em> os afetam pela metade.</p>",
       },
       {
-        nome: "Adaptabilidade",
-        desc: "<p>O Autokthon recebe +1 em uma única Jogada de Proteção à sua escolha.</p>",
+        nome: "Núcleo Exposto",
+        desc: "<p>A Pedra da Alma é vida e fraqueza ao mesmo tempo. O Autokthon é suscetível a efeitos mentais (a alma está exposta no cristal) e faz JPS contra eles com Ajuste Difícil (−2). Destruir a Pedra da Alma o mata na hora; removê-la o deixa em coma.</p>",
       },
       {
         nome: "Construção Variável",
@@ -69,9 +68,8 @@ export const racas = [
         desc: "<p>Por parentesco com criaturas metamórficas, alteram ligeiramente a aparência (altura até 15 cm, peso até 25%, cor de pele/olhos/cabelos, gênero, formato do rosto). Não permite se passar por alguém específico, mas modifica testes de reação em +1 ou –1 com quem não conhece sua verdadeira natureza.</p>",
       },
       {
-        nome: "Graça Diabólica",
-        desc: "<p>Movimentos graciosos e controlados por herança demoníaca: +1 em qualquer teste de JPD.</p>",
-        jp: { jpd: true },
+        nome: "Sangue Infernal",
+        desc: "<p>A herança demoníaca arde nas veias: reduz em 2 o dano de fogo que sofre e recebe +1 em JP contra Medo (o inferno não o assusta).</p>",
       },
       {
         nome: "Conhecimento Ancestral",
@@ -106,9 +104,8 @@ export const racas = [
         desc: "<p>Imunes a efeitos e magias que envolvam sono e à paralisia causada por Ghouls. Precisam de apenas 4 horas de meditação por dia como descanso.</p>",
       },
       {
-        nome: "Graciosos",
-        desc: "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
-        jp: { jpd: true },
+        nome: "Pacto da Teia",
+        desc: "<p>Na cultura drow, o acordo é sagrado. O personagem pode firmar um Pacto com um aliado ou um objetivo jurado: enquanto o cumpre, recebe +1 em ataques e JP ligados a ele. Quebrá-lo conscientemente impõe −2 em todas as jogadas até reparar a falta junto à Teia (a critério do Mestre).</p>",
       },
       {
         nome: "Vulnerabilidade",
@@ -131,13 +128,8 @@ export const racas = [
         natural_armor: 14,
       },
       {
-        nome: "Saltadores",
-        desc: "<p>Saltam o dobro da distância de um humano — cerca de 10 metros para frente ou 3 metros para cima.</p>",
-      },
-      {
-        nome: "Graciosos",
-        desc: "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
-        jp: { jpd: true },
+        nome: "Sentidos de Caçador",
+        desc: "<p>Olhos compostos que nunca piscam e membros impulsores: o Mantes não pode ser surpreendido por meios não-mágicos e salta o dobro da distância de um humano — cerca de 10 metros para frente ou 3 metros para cima.</p>",
       },
       {
         nome: "Sem Sono",
@@ -168,9 +160,8 @@ export const racas = [
         desc: "<p>A aura de paz dos Nefilins faz todos tenderem a se sentir bem em sua presença. Havendo um Nefilim no grupo, os testes de Reação são feitos com bônus de +2.</p>",
       },
       {
-        nome: "Graciosos",
-        desc: "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
-        jp: { jpd: true },
+        nome: "Luz Celeste",
+        desc: "<p>Herança dos céus: pode emitir Luz (como a magia <em>Luz</em>) à vontade e recebe +1 em JP contra efeitos de Morte, drenagem de energia e mortos-vivos.</p>",
       },
       {
         nome: "Pacíficos",
@@ -217,8 +208,8 @@ export const racas = [
     ],
   },
   {
-    nome: "Varko",
-    flavor: "<p>Os Halflings das Profundezas — exilados do subterrâneo, paranoicos e adaptados à escuridão.</p>",
+    nome: "Grimor",
+    flavor: "<p>Os Halflings das Profundezas (Grimor) — exilados do subterrâneo, paranoicos e adaptados à escuridão.</p>",
     descricao:
       "<p>Há oitocentos anos, um clã Halfling desceu fundo demais e o subterrâneo ficou com eles. A pele clareou sem sol, os olhos cresceram, e a paranoia se instalou como postura corporal. Mantêm o porte halfling (90 cm a 1,10 m), veneram deuses esquecidos e tratam relíquias antigas como história viva. Foram exilados pelos Halflings da superfície — e o ressentimento só amadureceu.</p>",
     movement: 6,
@@ -226,17 +217,17 @@ export const racas = [
     alignment_tendency: "caotico",
     habilidades: [
       {
-        nome: "Conhecimento das Profundezas",
-        desc: "<p>Pela capacidade de suportar exercícios contínuos e condições adversas: +1 em qualquer teste de JPC.</p>",
+        nome: "Têmpera das Profundezas",
+        desc: "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p>",
         jp: { jpc: true },
       },
       {
         nome: "Vigorosos",
-        desc: "<p>A resistência sobre-humana dos Varkos lhes permite suportar o dobro do tempo de marcha forçada, trabalho pesado ou privação antes de sofrer penalidades por exaustão.</p>",
+        desc: "<p>A resistência sobre-humana dos Grimor lhes permite suportar o dobro do tempo de marcha forçada, trabalho pesado ou privação antes de sofrer penalidades por exaustão.</p>",
       },
       {
         nome: "Pequenos",
-        desc: "<p>Todos os ataques de criaturas Grandes ou maiores são considerados Difíceis para acertar um Varko.</p>",
+        desc: "<p>Todos os ataques de criaturas Grandes ou maiores são considerados Difíceis para acertar um Grimor.</p>",
       },
       {
         nome: "Restrições",
@@ -244,7 +235,7 @@ export const racas = [
       },
       {
         nome: "Sono Intranquilo",
-        desc: "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Varkos ainda precisam de 8 horas para recuperar magias.</p>",
+        desc: "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Grimor ainda precisam de 8 horas para recuperar magias.</p>",
       },
     ],
   },
@@ -288,12 +279,12 @@ export const racas = [
         desc: "<p>Respiram sob a água e fora dela, sem nenhuma penalidade para agir ou lutar submersos.</p>",
       },
       {
-        nome: "Adaptabilidade",
-        desc: "<p>Recebem +1 em uma única Jogada de Proteção à sua escolha.</p>",
+        nome: "Filhos da Corrente",
+        desc: "<p>Para os Atlantes, parar é morte — e o corpo rende no movimento. Em qualquer rodada em que se desloca, recebe +1 na CA e em JPD até o início da próxima rodada. Além disso, nunca sofre penalidade por marcha forçada ou viagens longas.</p>",
       },
       {
-        nome: "Letrados",
-        desc: "<p>Sabem ler e escrever o próprio idioma e ao menos um idioma adicional.</p>",
+        nome: "Erudito Errante",
+        desc: "<p>Criados em frotas letradas, leem e escrevem o próprio idioma e mais um número de idiomas igual ao modificador de Inteligência (mínimo 1), e têm 1–2 em 1d6 para recordar rotas, correntes, culturas e a história dos povos que já cruzaram.</p>",
       },
       {
         nome: "Dependência de Água",

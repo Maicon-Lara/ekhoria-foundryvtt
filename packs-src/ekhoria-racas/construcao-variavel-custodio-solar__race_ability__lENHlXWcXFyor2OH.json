@@ -26,69 +26,64 @@
       "choices_count": 1,
       "available_options": [
         {
-          "key": "arma-embutida",
-          "name": "Arma Embutida",
-          "description": "Uma arma de corpo a corpo de uma mão ou besta substitui uma das mãos. Não pode ser desarmado, mas possui uma mão a menos."
+          "key": "chassi-blindado",
+          "name": "Chassi Blindado",
+          "description": "+3 na CA. Não pode vestir armadura externa."
         },
         {
-          "key": "armadura-leve",
-          "name": "Armadura Leve",
-          "description": "Camada externa reforçada, conferindo +3 na CA. Impede o uso de armaduras externas."
+          "key": "carcaca-de-cerco",
+          "name": "Carcaça de Cerco",
+          "description": "+5 na CA e −2 metros de deslocamento. Não pode vestir armadura externa."
         },
         {
-          "key": "armadura-pesada",
-          "name": "Armadura Pesada",
-          "description": "Camada muito reforçada, conferindo +5 na CA e –2 metros de deslocamento. Impede o uso de armaduras externas."
+          "key": "membro-ferramenta",
+          "name": "Membro-Ferramenta",
+          "description": "Uma das mãos é uma arma de uma mão ou besta embutida; não pode ser desarmado dela."
         },
         {
-          "key": "arpeu",
-          "name": "Arpéu",
-          "description": "Arpéu com 15 metros de cabo ejetável do corpo, usado para se içar ou como ataque à distância (Arremesso 5, Perfurante, 1d4+1 de dano)."
+          "key": "bracos-auxiliares",
+          "name": "Braços Auxiliares",
+          "description": "Um par extra de braços: usa duas armas e ganha um ataque extra por rodada sem penalidade."
         },
         {
-          "key": "asas",
-          "name": "Asas",
-          "description": "Par de asas mecânicas com voo de 9 metros. Não é possível transportar mais que uma carga leve durante o voo. Armaduras precisam ser feitas sob medida."
+          "key": "placas-de-material-raro",
+          "name": "Placas de Material Raro",
+          "description": "Corpo revestido de prata, ferro frio ou mitral; ataques e defesas naturais ganham os benefícios do material."
         },
         {
-          "key": "bracos-extras",
-          "name": "Braços Extras",
-          "description": "Par de braços adicionais com duas mãos destras. Pode usar duas armas e realizar um ataque extra sem penalidade."
+          "key": "blindagem-reativa",
+          "name": "Blindagem Reativa",
+          "description": "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou frio); reduza-o em 5."
         },
         {
-          "key": "escudo-embutido",
-          "name": "Escudo Embutido",
-          "description": "Escudo preso permanentemente a um dos braços. Testes que exijam usar essa mão são difíceis. O braço não entra em lugares estreitos e impede o uso de armas de duas mãos."
+          "key": "articulacoes-de-voo",
+          "name": "Articulações de Voo",
+          "description": "Asas retráteis; voa a 9 metros (apenas com carga leve)."
         },
         {
-          "key": "espinhos",
-          "name": "Espinhos",
-          "description": "Corpo recoberto por espinhos (trate como adaga, 1d4 de dano) que ferem qualquer um que o agarre."
+          "key": "cabo-de-arpeu",
+          "name": "Cabo de Arpéu",
+          "description": "Cabo ejetável de 15 metros (Arremesso 5 m, perfurante, 1d4+1); também serve para escalar e puxar."
         },
         {
-          "key": "flutuadores",
-          "name": "Flutuadores",
-          "description": "Partes ocas permitem natação, mas tornam o Autokthon incapaz de afundar naturalmente."
+          "key": "espinhos-fixos",
+          "name": "Espinhos Fixos",
+          "description": "Corpo coberto de pontas (trate como adaga); quem o agarra sofre 1d4 de dano."
         },
         {
-          "key": "material-incomum",
-          "name": "Material Incomum",
-          "description": "Partes do corpo feitas de prata, ferro frio ou mitral. Ataques e defesas naturais recebem os benefícios do material escolhido."
+          "key": "estrutura-diminuta",
+          "name": "Estrutura Diminuta (~1 m)",
+          "description": "+2 na CA contra criaturas Grandes ou maiores; limita o porte das armas que empunha."
         },
         {
-          "key": "resistencia",
-          "name": "Resistência",
-          "description": "Escolha um tipo de dano (cortante, perfurante, impactante, fogo, ácido ou veneno). Todo dano desse tipo é reduzido em 5 pontos."
+          "key": "estrutura-avantajada",
+          "name": "Estrutura Avantajada (2–4 m)",
+          "description": "Empunha armas grandes com uma mão; equipamento sob medida custa mais."
         },
         {
-          "key": "tamanho-grande",
-          "name": "Tamanho Grande",
-          "description": "Entre 2 e 4 metros de altura. Equipamentos sob medida (no mínimo o triplo do custo). Usa armas médias e grandes com uma mão, e enormes com ambas."
-        },
-        {
-          "key": "tamanho-pequeno",
-          "name": "Tamanho Pequeno",
-          "description": "Cerca de 1 metro de altura. +2 na CA contra alvos grandes ou maiores. Só usa armas médias com ambas as mãos; não usa armas grandes. Armaduras sob medida."
+          "key": "sensores-apurados",
+          "name": "Sensores Apurados",
+          "description": "Não pode ser surpreendido por meios não-mágicos e detecta mecanismos ou armadilhas ocultas (1–2 em 1d6)."
         }
       ]
     }

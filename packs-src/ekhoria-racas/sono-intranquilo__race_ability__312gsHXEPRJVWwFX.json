@@ -1,15 +1,15 @@
 {
-  "folder": "FqGbXOfDRav2F0v1",
-  "name": "Graça Diabólica",
+  "folder": "SdL7pp0ODbsrmMPN",
+  "name": "Sono Intranquilo",
   "type": "race_ability",
-  "_id": "YSu2yjPod7gJHr0b",
+  "_id": "312gsHXEPRJVWwFX",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Movimentos graciosos e controlados por herança demoníaca: +1 em qualquer teste de JPD.</p>",
+    "description": "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Grimor ainda precisam de 8 horas para recuperar magias.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
-      "jpd": true,
+      "jpd": false,
       "jps": false
     },
     "bonus_damage": 0,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 500000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!YSu2yjPod7gJHr0b"
+  "_key": "!items!312gsHXEPRJVWwFX"
 }

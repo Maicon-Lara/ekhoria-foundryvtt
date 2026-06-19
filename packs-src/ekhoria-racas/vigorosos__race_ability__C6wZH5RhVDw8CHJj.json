@@ -1,11 +1,11 @@
 {
-  "folder": "UTXQb7pjDppJhpKB",
-  "name": "Sono Intranquilo",
+  "folder": "SdL7pp0ODbsrmMPN",
+  "name": "Vigorosos",
   "type": "race_ability",
-  "_id": "6YSlgED7wHAzWDlq",
+  "_id": "C6wZH5RhVDw8CHJj",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Têm sono agitado e dormem apenas quatro horas por noite, recuperando apenas 1d2+1 PV ao repousar. Magos Varkos ainda precisam de 8 horas para recuperar magias.</p>",
+    "description": "<p>A resistência sobre-humana dos Grimor lhes permite suportar o dobro do tempo de marcha forçada, trabalho pesado ou privação antes de sofrer penalidades por exaustão.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!6YSlgED7wHAzWDlq"
+  "_key": "!items!C6wZH5RhVDw8CHJj"
 }

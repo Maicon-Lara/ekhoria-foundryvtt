@@ -1,14 +1,14 @@
 {
-  "folder": "UTXQb7pjDppJhpKB",
-  "name": "Conhecimento das Profundezas",
+  "folder": "FqGbXOfDRav2F0v1",
+  "name": "Sangue Infernal",
   "type": "race_ability",
-  "_id": "rp1lOrm4yGJcDONF",
+  "_id": "DmhM3HZtAzcgshmM",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Pela capacidade de suportar exercícios contínuos e condições adversas: +1 em qualquer teste de JPC.</p>",
+    "description": "<p>A herança demoníaca arde nas veias: reduz em 2 o dano de fogo que sofre e recebe +1 em JP contra Medo (o inferno não o assusta).</p>",
     "xp": null,
     "jp": {
-      "jpc": true,
+      "jpc": false,
       "jpd": false,
       "jps": false
     },
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 100000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!rp1lOrm4yGJcDONF"
+  "_key": "!items!DmhM3HZtAzcgshmM"
 }

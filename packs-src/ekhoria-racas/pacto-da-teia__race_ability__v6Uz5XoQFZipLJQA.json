@@ -1,11 +1,11 @@
 {
-  "folder": "UTXQb7pjDppJhpKB",
-  "name": "Restrições",
+  "folder": "hgDQJyoQNwza0RGL",
+  "name": "Pacto da Teia",
   "type": "race_ability",
-  "_id": "dtXjGeUxvUcQAbfW",
+  "_id": "v6Uz5XoQFZipLJQA",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Não podem usar armas grandes e só usam uma arma média com as duas mãos. Sob sol ou luz forte, todos os testes e Jogadas de Proteção são realizados com ajuste Difícil.</p>",
+    "description": "<p>Na cultura drow, o acordo é sagrado. O personagem pode firmar um Pacto com um aliado ou um objetivo jurado: enquanto o cumpre, recebe +1 em ataques e JP ligados a ele. Quebrá-lo conscientemente impõe −2 em todas as jogadas até reparar a falta junto à Teia (a critério do Mestre).</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -40,5 +40,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!dtXjGeUxvUcQAbfW"
+  "_key": "!items!v6Uz5XoQFZipLJQA"
 }

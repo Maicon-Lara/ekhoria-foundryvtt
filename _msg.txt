@@ -1,16 +1,16 @@
-v0.6.7: completa as 16 classes + sincroniza balanco com o vault
+v0.6.8: sincroniza as racas com o livro de Mecanicas atual
 
-Adiciona as 8 classes que faltavam (Inquisidor Lunar, Guardiao da Pira,
-Astromante, Vociferante de Arcanita, Sabotador da Cratera, Corvo, Marcado,
-Mestre das Armas) e aplica a revisao de balanco desta sessao:
-- Clerigo: Inquisidor/Guardiao da Pira trocam Cura Milagrosa por espontaneo
-  tematico (Misericordia do Limiar / Dadiva da Pira).
-- Mago: Guardiao da Centelha (Dominio mod INT/dia + 2o Cristal); Lito d6 +
-  Foco Arcano.
-- Guerreiro: Mestre das Armas (Sequencia Tatica concede Ataque Extra +
-  trava); Narcoguerreiro (Metabolismo suavizado).
-- XP validado contra o OD2.
+O racas.mjs estava num rascunho antigo. Alinhado ao capitulo Povos vigente:
+- Autokthon: "Adaptabilidade (+1 JP)" -> Nucleo Exposto; lista de Construcao
+  Variavel passa as 12 adaptacoes oficiais.
+- Atlante: -> Filhos da Corrente + Erudito Errante.
+- Cambion: "Graca Diabolica" -> Sangue Infernal.
+- Elfo Drow: "Graciosos" -> Pacto da Teia.
+- Nefilim: "Graciosos" -> Luz Celeste.
+- Mantes: "Saltadores + Graciosos" -> Sentidos de Cacador.
+- Grimor: renomeada (era "Varko"); Tempera das Profundezas completada.
+Arkanim, Orc do Sol Poente e Silente ja estavam alinhados.
 
-Build regenera packs (ekhoria-classes: 132 documentos) + ekhoria.zip.
+Build regenera packs (ekhoria-racas: 64 documentos) + ekhoria.zip.
 
 Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>

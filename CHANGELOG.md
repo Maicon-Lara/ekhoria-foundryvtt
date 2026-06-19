@@ -4,6 +4,26 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.6.8] — 2026-06-19
+
+### Modificado
+- **Sincronização das raças com o livro de Mecânicas atual.** O `racas.mjs`
+  estava baseado num rascunho antigo; alinhado ao capítulo *Povos* vigente:
+  - **Autokthon:** a antiga "Adaptabilidade (+1 JP)" vira **Núcleo Exposto**
+    (vulnerabilidade: suscetível a efeitos mentais, JPS Difícil); a lista de
+    **Construção Variável** passa a ser as 12 adaptações oficiais (Chassi
+    Blindado, Carcaça de Cerco, Membro-Ferramenta, etc.).
+  - **Atlante:** "Adaptabilidade/Letrados" → **Filhos da Corrente** (+1 CA/JPD
+    ao se mover) e **Erudito Errante**.
+  - **Cambion:** "Graça Diabólica (+1 JPD)" → **Sangue Infernal** (reduz dano
+    de fogo + JP vs Medo).
+  - **Elfo Drow:** "Graciosos (+1 JPD)" → **Pacto da Teia**.
+  - **Nefilim:** "Graciosos (+1 JPD)" → **Luz Celeste**.
+  - **Mantes:** "Saltadores + Graciosos" fundidos em **Sentidos de Caçador**.
+  - **Grimor:** raça renomeada (era "Varko") e "Têmpera das Profundezas"
+    completada com o reconhecimento do subterrâneo.
+- Arkanim, Orc do Sol Poente e Silente já estavam alinhados.
+
 ## [0.6.7] — 2026-06-18
 
 ### Adicionado

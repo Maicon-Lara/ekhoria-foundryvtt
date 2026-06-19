@@ -1,15 +1,15 @@
 {
-  "folder": "hgDQJyoQNwza0RGL",
-  "name": "Graciosos",
+  "folder": "SdL7pp0ODbsrmMPN",
+  "name": "Têmpera das Profundezas",
   "type": "race_ability",
-  "_id": "nte1v3Ek37vl0tIh",
+  "_id": "jwNUfTHLXy1BeQKk",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Controlam com precisão seus movimentos: +1 em qualquer teste de JPD.</p>",
+    "description": "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p>",
     "xp": null,
     "jp": {
-      "jpc": false,
-      "jpd": true,
+      "jpc": true,
+      "jpd": false,
       "jps": false
     },
     "bonus_damage": 0,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!nte1v3Ek37vl0tIh"
+  "_key": "!items!jwNUfTHLXy1BeQKk"
 }
