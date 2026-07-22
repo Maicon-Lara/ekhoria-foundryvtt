@@ -1,0 +1,210 @@
+{
+  "name": "Caldreth, a Guardiã da Fenda",
+  "type": "monster",
+  "_id": "tCQXvSoNW5dx0DpA",
+  "img": "systems/olddragon2e/assets/monsters-concepts/dragao-colossal.webp",
+  "system": {
+    "odo_id": "caldreth-a-guardia-da-fenda",
+    "concept": "Dragão",
+    "size": "colossal",
+    "description": "<p><strong>Tipo (fonte):</strong> Dragão (Lendário)</p>\n<p>Caldreth não guarda a <strong>Fenda Abissal</strong> de Cinthara — Caldreth <em>é</em> o que a mantém fechada. Um dos fragmentos da Ordem que sobraram da Fragmentação, encarnado em forma de dragão, enroscado sobre o rasgo há mais tempo do que Durgrann existe. Os anões sabem que ela está lá; é o segredo que o Conselho de Clãs mais protege, porque a verdade é simples e intolerável: se Caldreth se for, a Fenda abre. Ela não é um inimigo a ser abatido — é uma condição do mundo continuar inteiro. Lutar contra ela quase nunca é o objetivo; convencê-la, entendê-la, ou impedir que algo a faça partir, sim.</p>\n<p><strong>Movimento (fonte):</strong> 12/24Vo — 12 m, 24 m voando.</p>\n<p><em>Nota de mesa.</em> Caldreth é uma entidade de fim de campanha, não um encontro de combate comum. Use as estatísticas para uma confrontação verdadeiramente catastrófica — mas lembre que <em>vencê-la</em> pode ser o pior resultado possível para todos.</p>\n<ul>\n  <li><p><strong>Fragmento de Ordem</strong>: imune a Medo, encanto, sono, paralisia, veneno e a efeitos mentais ou de morte instantânea. Magia caótica é reduzida à metade contra ela.</p></li>\n  <li><p><strong>Sopro de Selamento</strong>: em vez de fogo, exala um cone de luz cristalina de pura Ordem (30 m). Causa <strong>12d8 de dano</strong> (JPD reduz à metade); criaturas <strong>Caóticas</strong> sofrem o dobro e, na falha, ficam <strong>ancoradas</strong> (paralisadas) por 1d4 rodadas.</p></li>\n  <li><p><strong>Vínculo da Fenda</strong>: enquanto Caldreth vive e permanece sobre o rasgo, a Fenda Abissal continua selada e a pressão dimensional, contida. Removê-la, matá-la ou atraí-la para longe <strong>abre a Fenda</strong> — consequência de escala mundial, a critério do Mestre.</p></li>\n  <li><p><strong>Presença de Ordem</strong>: num raio de 30 m, criaturas Caóticas devem passar num <strong>Teste de Moral</strong> ao se aproximarem ou recuam; magia caótica conjurada na área tem 50% de chance de simplesmente falhar.</p></li>\n  <li><p><strong>Couraça Primordial</strong>: reduz em <strong>8 pontos</strong> todo dano de fontes não-mágicas (mínimo 1) e regenera <strong>3d6 PV por rodada</strong> enquanto estiver sobre a Fenda.</p></li>\n</ul>",
+    "habitat": "Cinthara (Durgrann) — sobre a Fenda Abissal",
+    "alignment": "ordeiro",
+    "mv": "12",
+    "dv": "22",
+    "hp": {
+      "value": 99,
+      "max": 99
+    },
+    "ca": "22",
+    "jp": "11",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Caldreth, a Guardiã da Fenda",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/dragao-colossal.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "FZ6dtzglXU3MQ0PM",
+      "name": "1 × Mordida +22 (4d10)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 22,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Mordida",
+        "damage_description": "4d10",
+        "damage": "4d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!tCQXvSoNW5dx0DpA.FZ6dtzglXU3MQ0PM"
+    },
+    {
+      "_id": "sx9ofSCLxHs2N5KE",
+      "name": "2 × Garras +22 (2d10)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 22,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garras",
+        "damage_description": "2d10",
+        "damage": "2d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!tCQXvSoNW5dx0DpA.sx9ofSCLxHs2N5KE"
+    },
+    {
+      "_id": "oAkpwDAZ9hEslWXa",
+      "name": "1 × Cauda +22 (3d10)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 22,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Cauda",
+        "damage_description": "3d10",
+        "damage": "3d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!tCQXvSoNW5dx0DpA.oAkpwDAZ9hEslWXa"
+    }
+  ],
+  "effects": [],
+  "folder": "N8YWa8xKZ8iDIEYW",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!tCQXvSoNW5dx0DpA"
+}

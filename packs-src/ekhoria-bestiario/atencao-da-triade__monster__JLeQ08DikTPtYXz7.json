@@ -1,0 +1,141 @@
+{
+  "name": "Atenção da Tríade",
+  "type": "monster",
+  "_id": "JLeQ08DikTPtYXz7",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+  "system": {
+    "odo_id": "atencao-da-triade",
+    "concept": "Besta",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Manifestação divina</p>\n<p>A Tríade não ouve preces, não premia nem pune — apenas <strong>existe</strong>, como uma lei. Mas lançar uma magia divina é <em>roubar a atenção</em> de uma dessas forças, e forçar um milagre grande demais — devolver a vida a um morto, parar o tempo, fazer a carne crescer sem fim — faz o olhar de um dos Três <strong>pousar</strong> onde não devia. O que se manifesta não vem servir nem castigar: vem <strong>corrigir o desequilíbrio</strong>. É indiferente à sua intenção como o sol é indiferente ao que ilumina. Não se negocia com uma Atenção; cessa-se a intromissão que a chamou — ou desfaz-se ela, e reza-se para que o deus perca o interesse de novo.</p>\n<p>Não é um encontro comum: é um evento, e quase sempre a resposta certa é <em>parar de fazer o que a chamou</em>.</p>\n<ul>\n  <li><p><strong>Indiferença Encarnada</strong>: não é servo nem inimigo — é uma correção. Imune a Medo, encanto, sono, paralisia, veneno e a todos os efeitos mentais ou de morte instantânea. Não pode ser desmoralizada nem barganhada por meios comuns.</p></li>\n  <li><p><strong>Chamada pela Intromissão</strong>: só se manifesta quando um mortal rouba a atenção de um dos Três (um milagre grande demais). Ignora todos os alvos e vai atrás da <strong>fonte do desequilíbrio</strong> primeiro; os que a defendem só a atrasam.</p></li>\n  <li><p><strong>Retorno ao Silêncio</strong>: reduzida a 0 PV, dissipa-se sem deixar corpo. Se o desequilíbrio que a chamou persiste (o morto segue de pé, o feitiço segue ativo), <strong>volta a se manifestar</strong> tempos depois — desfazer a causa é o único fim verdadeiro.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "9",
+    "hp": {
+      "value": 40,
+      "max": 40
+    },
+    "ca": "18",
+    "jp": "8",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Atenção da Tríade",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "IxG7kBK4y4DZLt6r",
+      "name": "1 × Toque do Divino +9 (2d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 9,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque do Divino",
+        "damage_description": "2d8",
+        "damage": "2d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!JLeQ08DikTPtYXz7.IxG7kBK4y4DZLt6r"
+    }
+  ],
+  "effects": [],
+  "folder": "sJQPYvvwN66HiFEp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!JLeQ08DikTPtYXz7"
+}

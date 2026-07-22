@@ -1,0 +1,141 @@
+{
+  "name": "Abominação",
+  "type": "monster",
+  "_id": "ZSTk6Q14pt1el2bR",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "abominacao",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Uma <strong>Abominação</strong> não é uma espécie — é o que acontece quando um ser vivo passa tempo demais sob uma das <strong>anomalias</strong> de Ekhoria e a carne cede ao que a deforma. Cada região marca a sua: o frio que não devia existir em Vornfell, a coisa enterrada sob as Areias, a fome do Breu em Breônia, a pressão arcana de Arkádia. São o inimigo recorrente da <strong>Irmandade Voraz</strong>, o que o <strong>Guardião da Pira</strong> mantém do lado de fora da fogueira e o que o <strong>Voraz</strong> disseca para entender. (A versão deformada pela <strong>Fenda Abissal</strong> de Cinthara tem ficha própria: ver Fera-Abissal.)</p>\n<p>Use esta ficha-base para uma Abominação sem origem definida; para um encontro ancorado numa região, use a variante correspondente (do Degelo, das Areias, do Breu, Arcana).</p>\n<ul>\n  <li><p><strong>Carne Errada</strong>: não sente dor; imune a Medo, encanto e demais efeitos mentais (a mente que tinha já se foi). Não pode ser desmoralizada por meios comuns — só recua diante de dano que a fira de verdade.</p></li>\n  <li><p><strong>Presença Antinatural</strong>: humanoides a até 9 m que a avistem devem passar numa <strong>JPS</strong> ou ficam <strong>abalados</strong> (Ajuste Difícil em testes e ataques) por 1d4 rodadas.</p></li>\n  <li><p><strong>Marca da Anomalia</strong>: toda Abominação carrega a assinatura da região que a fez — veja as variantes. Uma Abominação base não tem nenhuma marca adicional (uma criatura recém-tocada, ou longe da origem).</p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "14",
+    "jp": "5",
+    "mo": "9"
+  },
+  "prototypeToken": {
+    "name": "Abominação",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "ZIkyeuTbJ8m2JpPb",
+      "name": "2 × Membros Disformes +5 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Membros Disformes",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!ZSTk6Q14pt1el2bR.ZIkyeuTbJ8m2JpPb"
+    }
+  ],
+  "effects": [],
+  "folder": "l51yWERrbAauUjuC",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!ZSTk6Q14pt1el2bR"
+}

@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Triarcis",
+  "_id": "DHVPSfyaQD3L1pic",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: intriga política e religiosa, opressão sutil. A fé é lei, e a Chama Tripla congela os indignos.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "7F8KyXxBqCuHyjup",
+      "text": "Um Inquisidor Lunar interpela o grupo: alguém entre eles \"cheira a morte\"? — <em>Facção / tensão</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.7F8KyXxBqCuHyjup"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ocEHug6L8cB3YRfd",
+      "text": "Um clérigo do Colégio Solar anota discretamente os nomes de quem lhe parece herege. — <em>Opressão sutil</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.ocEHug6L8cB3YRfd"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "CsQ46wTfbUEc9OlB",
+      "text": "Um <strong>Sem-Hora</strong> oferece guiar o grupo pelos becos por uma moeda e uma gentileza. — <em>Social / NPC</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.CsQ46wTfbUEc9OlB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "eZD3fqHogSY8m30p",
+      "text": "Um necromante foragido pede asilo — com um Escrito-em-Carne no seu encalço. — <em>Dilema / combate</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.eZD3fqHogSY8m30p"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "dALvFdpN6GjGoEWB",
+      "text": "A Chama Tripla vacila quando o grupo passa; um clérigo percebe e empalidece. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.dALvFdpN6GjGoEWB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "T59bxjnZUTATDyCA",
+      "text": "Um agente do Colégio Estelar propõe um \"favor\" que cheira a espionagem para Arkádia. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.T59bxjnZUTATDyCA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "KEmFedOAWuf7WfWf",
+      "text": "Convidam o grupo a assistir à execução pública de um \"necromante\" de culpa duvidosa. — <em>Dilema moral</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.KEmFedOAWuf7WfWf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "hYa6ikWPMDZyWkq5",
+      "text": "Uma cura no Hospital da Luz saiu do controle: a carne não para de crescer — O Viço. — <em>Horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.hYa6ikWPMDZyWkq5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "5YJd28wvN3lR8oMR",
+      "text": "Boato: o Pontífice \"some\" com os clérigos que discordam do Debate da Arcanita. — <em>Pista / intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.5YJd28wvN3lR8oMR"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "Ozs6BtysINciey3E",
+      "text": "O Sem-Rosto veste a batina de um cardeal menor; suas bênçãos soam decoradas demais. — <em>Perigo oculto</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.Ozs6BtysINciey3E"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "FnSiPPESunlNcLo2",
+      "text": "Um bibliotecário sussurra sobre o andar da Biblioteca das Eras que só o Pontífice acessa. — <em>Gancho</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.FnSiPPESunlNcLo2"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "AwqR96J0agmCHiEe",
+      "text": "Na Câmara dos Véus, uma necromancia <em>legal</em> atrai o que não devia: O Limiar vem cobrar. — <em>Presságio de chefe</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!DHVPSfyaQD3L1pic.AwqR96J0agmCHiEe"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!DHVPSfyaQD3L1pic"
+}

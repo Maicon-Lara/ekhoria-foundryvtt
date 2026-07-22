@@ -1,0 +1,143 @@
+{
+  "name": "Legionário de Ferro",
+  "type": "monster",
+  "_id": "HxhFgi5TAnFSMPWk",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "legionario-de-ferro",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano — Guerreiro 3º</p>\n<p>Soldado da <strong>Legião de Ferro</strong>, a lei do porto neutro de Ferro Velho.</p>\n<p><strong>Capitão (elite, DV 6):</strong> BA +6, PV 34, acesso ao Salão dos Contratos; some liderança (+1 aos Legionários em 9 m).</p>\n<ul>\n  <li><p><strong>Disciplina de Ferro</strong>: +1 na CA quando lado a lado com outro Legionário (formação).</p></li>\n  <li><p><strong>Cumpre o Contrato</strong>: não abandona uma missão paga; moral 12 enquanto o contrato vale.</p></li>\n</ul>",
+    "flavor": "A lei do porto neutro: só caça quem quebra contrato — mas aí não solta.",
+    "habitat": "Ferro Velho",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "3",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ca": "17",
+    "jp": "6",
+    "mo": "10"
+  },
+  "prototypeToken": {
+    "name": "Legionário de Ferro",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "lEqdduGwK7LGDcik",
+      "name": "1 × Espada longa +4 (1d8+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 4,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Espada longa",
+        "damage_description": "1d8+1",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!HxhFgi5TAnFSMPWk.lEqdduGwK7LGDcik"
+    }
+  ],
+  "effects": [],
+  "folder": "mrh0lg4XkZr13baC",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!HxhFgi5TAnFSMPWk"
+}

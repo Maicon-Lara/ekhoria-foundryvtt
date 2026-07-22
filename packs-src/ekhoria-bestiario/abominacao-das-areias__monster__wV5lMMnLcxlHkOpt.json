@@ -1,0 +1,144 @@
+{
+  "name": "Abominação das Areias",
+  "type": "monster",
+  "_id": "wV5lMMnLcxlHkOpt",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "abominacao-das-areias",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Variante regional da <strong>Abominação</strong>, moldada pela anomalia enterrada sob as Areias.</p>\n<p><strong>Movimento (fonte):</strong> 9/9E — 9 m, 9 m escavando.</p>\n<ul>\n  <li><p><strong>Carne Errada</strong>: não sente dor; imune a Medo, encanto e demais efeitos mentais (a mente que tinha já se foi). Não pode ser desmoralizada por meios comuns — só recua diante de dano que a fira de verdade.</p></li>\n  <li><p><strong>Presença Antinatural</strong>: humanoides a até 9 m que a avistem devem passar numa <strong>JPS</strong> ou ficam <strong>abalados</strong> (Ajuste Difícil em testes e ataques) por 1d4 rodadas.</p></li>\n  <li><p><strong>Emboscada Soterrada</strong>: escava e se enterra na areia (movimento de escavação 9 m). Ao atacar surgindo do solo contra um alvo desprevenido, o ataque é <strong>Muito Fácil</strong> e causa <strong>dano dobrado</strong>.</p></li>\n  <li><p><strong>Ressecamento</strong>: quem é mordido deve passar numa <strong>JPC</strong> ou perde 1 ponto de Constituição temporário (recupera com descanso e água); a Abominação se cura do mesmo tanto em PV.</p></li>\n</ul>",
+    "flavor": "As Areias Esquecidas — a coisa enterrada que espera o calor passar.",
+    "habitat": "As Areias Esquecidas",
+    "alignment": "caotico",
+    "variant": true,
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "14",
+    "jp": "5",
+    "mo": "9"
+  },
+  "prototypeToken": {
+    "name": "Abominação das Areias",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "eZyJSc0kH4U0Ogvp",
+      "name": "1 × Presas Retráteis +5 (2d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Presas Retráteis",
+        "damage_description": "2d6",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!wV5lMMnLcxlHkOpt.eZyJSc0kH4U0Ogvp"
+    }
+  ],
+  "effects": [],
+  "folder": "SKwQsm8qC1nm17LR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!wV5lMMnLcxlHkOpt"
+}

@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Clãs Mantis (Linhagem)",
+  "_id": "VDroQMmdjucLcJoI",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Clãs Mantis — o segundo nome marca a casta/linhagem de feromônio.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "FLJ0dBrwjYHMnbRR",
+      "text": "Shir'reth",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.FLJ0dBrwjYHMnbRR"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "4m4uNkuyF2p9iKrY",
+      "text": "Vok'thar",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.4m4uNkuyF2p9iKrY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "S2mBQyOKD3HaEyPW",
+      "text": "Ss'nel",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.S2mBQyOKD3HaEyPW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "c2dsKX3sdHzzVzYO",
+      "text": "Kir'zaa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.c2dsKX3sdHzzVzYO"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "qXKHXRG6Al3sHw91",
+      "text": "Mel'quor",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.qXKHXRG6Al3sHw91"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "w3ldV9uJdq5bq92p",
+      "text": "Dro'seth",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!VDroQMmdjucLcJoI.w3ldV9uJdq5bq92p"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!VDroQMmdjucLcJoI"
+}

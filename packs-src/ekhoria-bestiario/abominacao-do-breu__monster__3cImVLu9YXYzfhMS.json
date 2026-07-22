@@ -1,0 +1,144 @@
+{
+  "name": "Abominação do Breu",
+  "type": "monster",
+  "_id": "3cImVLu9YXYzfhMS",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "abominacao-do-breu",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Variante regional da <strong>Abominação</strong>: um ser vivo que passou tempo demais sob a fome do Breu e cuja carne cedeu ao que a deforma.</p>\n<ul>\n  <li><p><strong>Carne Errada</strong>: não sente dor; imune a Medo, encanto e demais efeitos mentais (a mente que tinha já se foi). Não pode ser desmoralizada por meios comuns — só recua diante de dano que a fira de verdade.</p></li>\n  <li><p><strong>Presença Antinatural</strong>: humanoides a até 9 m que a avistem devem passar numa <strong>JPS</strong> ou ficam <strong>abalados</strong> (Ajuste Difícil em testes e ataques) por 1d4 rodadas.</p></li>\n  <li><p><strong>Devorar Lembrança</strong>: ao acertar com as duas Garras na mesma rodada, força uma <strong>JPS</strong>; na falha, a vítima esquece os últimos minutos e fica confusa por 1 rodada (a Abominação se alimenta do que arranca).</p></li>\n  <li><p><strong>Filha do Breu</strong>: enxerga no escuro total e some nas sombras (1-4 em 1d6 para se esconder na penumbra). Sob <strong>luz forte</strong> (sol, a Pira do Guardião, <em>Luz</em>), perde Devorar Lembrança e ataca com <strong>Ajuste Difícil</strong>. Caça humanoides por preferência.</p></li>\n</ul>",
+    "flavor": "Breônia — o que a escuridão faminta deixa para trás.",
+    "habitat": "Breônia",
+    "alignment": "caotico",
+    "variant": true,
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "14",
+    "jp": "6",
+    "mo": "9"
+  },
+  "prototypeToken": {
+    "name": "Abominação do Breu",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "rXLfdRYPMMAFgBMe",
+      "name": "2 × Garras de Sombra +5 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garras de Sombra",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!3cImVLu9YXYzfhMS.rXLfdRYPMMAFgBMe"
+    }
+  ],
+  "effects": [],
+  "folder": "AhxOOdLAJ0pVXTKO",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!3cImVLu9YXYzfhMS"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Capitão Rorik Sem-Descanso",
+  "type": "monster",
+  "_id": "aJKvzdKdC9CWZNsN",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "capitao-rorik-sem-descanso",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado | Guerreiro — Legionário 12º nível</p>\n<p>Capitão da legião silente. Não dorme, não cansa, não cede o posto — segue comandando os mortos sob suas ordens como se a batalha nunca tivesse terminado.</p>\n<p>FOR 17 / DES 14 / CON 16 / INT 13 / SAB 15 / CAR 16. BA +14 corpo a corpo. Armadura completa de ônix + escudo.</p>\n<p>Comanda o Silente Ancorado - Tropa sem Fim (×4).</p>\n<ul>\n  <li><p><strong>Eco Antimágico</strong>: imune a magias diretas arcanas; vulnerável a magias divinas.</p></li>\n  <li><p><strong>Corpo Estático</strong>: sem cura natural ou arcana. Albinus cura tudo exceto fogo e ácido.</p></li>\n  <li><p><strong>Legionário de Elite</strong>: +4 de dano com espada longa, +1 CA com kit completo (já somados acima).</p></li>\n  <li><p><strong>Aparar</strong>: sacrifica o escudo para absorver todo o dano de um ataque.</p></li>\n  <li><p><strong>Liderança</strong>: +2 de moral para aliados em 9 metros.</p></li>\n  <li><p><strong>Sem exaustão</strong>: não dorme, não cansa, não sente dor.</p></li>\n</ul>",
+    "flavor": "Silente ancorado | Guerreiro — Legionário 12º nível | Alinhamento: Ordeiro",
+    "habitat": "Breônia — à frente da Tropa Sem Fim",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 83,
+      "max": 83
+    },
+    "ca": "22",
+    "jp": "13",
+    "mo": "12",
+    "xp": "2400"
+  },
+  "prototypeToken": {
+    "name": "Capitão Rorik Sem-Descanso",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "9yjiceQvwwT6F0ip",
+      "name": "2 × Espada longa +14 (1d8+9)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 14,
+        "damage_bonus": 9,
+        "weapon": false,
+        "description": "Espada longa",
+        "damage_description": "1d8+9",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!aJKvzdKdC9CWZNsN.9yjiceQvwwT6F0ip"
+    }
+  ],
+  "effects": [],
+  "folder": "ZGyJzJVEW41txHDe",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!aJKvzdKdC9CWZNsN"
+}

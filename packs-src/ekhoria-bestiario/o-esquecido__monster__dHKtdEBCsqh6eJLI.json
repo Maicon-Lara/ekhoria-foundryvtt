@@ -1,0 +1,142 @@
+{
+  "name": "O Esquecido",
+  "type": "monster",
+  "_id": "dHKtdEBCsqh6eJLI",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "o-esquecido",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Morto-vivo</p>\n<p>Foi uma pessoa. Ficou tempo demais no escuro de Breônia e o Breu não a matou — fez pior: apagou-a da memória do mundo, como uma nota que some de uma canção. O que restou caminha entre os vivos procurando ser lembrado, e leva consigo quem toca. Não há maldade nele, só uma fome silenciosa por existir de novo — por isso os breônios acendem velas para os nomes, e o <strong>Guardião da Pira</strong> reza para que nenhum fogo se apague antes da hora.</p>\n<ul>\n  <li><p><strong>Apagado do Mundo</strong>: ninguém recorda de tê-lo visto. Age sempre na surpresa na primeira rodada e não pode ser rastreado por meios comuns.</p></li>\n  <li><p><strong>Toque do Esquecimento</strong>: ao acertar, o alvo faz <strong>JPS</strong>; na falha, até o fim da cena os aliados o tratam como se não estivesse ali — não podem curá-lo, socorrê-lo nem incluí-lo em ações coordenadas. Um aliado pode gastar a ação para \"reconhecê-lo\" (nova JPS; sucesso o traz de volta).</p></li>\n  <li><p><strong>Filho do Breu</strong>: enxerga no escuro total. Sob <strong>luz forte</strong> (sol, a Pira, <em>Luz</em>) fica <strong>abalado</strong> e não pode usar o Toque do Esquecimento.</p></li>\n  <li><p><strong>Corpo Esquecido</strong>: imune a Medo, encanto e demais efeitos mentais; vulnerável a magia divina, como todo morto-vivo do cenário.</p></li>\n</ul>",
+    "habitat": "Breônia — o escuro do Breu",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "14",
+    "jp": "6",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "O Esquecido",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "OGahgQj2Y5u9mLFm",
+      "name": "1 × Toque do esquecimento +5 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque do esquecimento",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!dHKtdEBCsqh6eJLI.OGahgQj2Y5u9mLFm"
+    }
+  ],
+  "effects": [],
+  "folder": "AhxOOdLAJ0pVXTKO",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!dHKtdEBCsqh6eJLI"
+}

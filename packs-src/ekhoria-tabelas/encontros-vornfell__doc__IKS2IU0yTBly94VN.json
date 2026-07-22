@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Vornfell",
+  "_id": "IKS2IU0yTBly94VN",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: horror de sobrevivência e cósmico, paranoia. A fogueira contra a escuridão do norte.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "lUUzk5RlkIcWuPrN",
+      "text": "A noite cai e a temperatura despenca: achar a fogueira em 1d4 turnos, ou 1d6 de frio por turno. — <em>Ambiental</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.lUUzk5RlkIcWuPrN"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "oR8DA5yWD8bUY4QG",
+      "text": "Uma Águia-Cadáver segue o grupo, à espera das sobras. — <em>Combate leve</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.oR8DA5yWD8bUY4QG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "MWsLcQzldOXSwr8Y",
+      "text": "Um Fulgor da Irmandade Voraz avalia o grupo: úteis contra o norte, ou peso morto? — <em>Facção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.MWsLcQzldOXSwr8Y"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "HxaTdkwlV6axAdQp",
+      "text": "Uma Abominação do Degelo desce das Montanhas Lamentantes. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.HxaTdkwlV6axAdQp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "U6s3Sz6mHVEaLpR2",
+      "text": "Um dos selos das Cavernas Profundas cede, e sons sobem lá de baixo. — <em>Presságio de horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.U6s3Sz6mHVEaLpR2"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WMmOHIRk3Jk59R3N",
+      "text": "Um Farol (arquivista) sussurra o que a Velha Irmandade fez — e implora segredo. — <em>Pista / segredo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.WMmOHIRk3Jk59R3N"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "siMHw0dCdXNvpo1s",
+      "text": "Na Noite de Morthan, os Silentes presos no limbo se agitam. — <em>Horror / combate</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.siMHw0dCdXNvpo1s"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "41sti2NM2gAD7C2c",
+      "text": "A Grande Pira quase apaga numa ventania; reacendê-la vira questão de vida ou morte. — <em>Ambiental / relógio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.41sti2NM2gAD7C2c"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "UIqDPt1SmiHLa7DC",
+      "text": "Um Incandescente executa um irmão por \"traição\", e o grupo é testemunha incômoda. — <em>Tensão</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.UIqDPt1SmiHLa7DC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "b9ucIXlGieRwCBr0",
+      "text": "Um caçador não voltou; seu rastro entra nos Pinheirais Negros. — <em>Gancho / exploração</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.b9ucIXlGieRwCBr0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "6mqF8I5MaGRTK63U",
+      "text": "A prova de que a Irmandade já traiu o próprio povo cai nas mãos do grupo. — <em>Segredo / dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.6mqF8I5MaGRTK63U"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "o0okfnFyl3J29dMl",
+      "text": "Das Cavernas Profundas, algo que a Velha Irmandade despertou responde à Pira lá em cima. — <em>Presságio cósmico</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IKS2IU0yTBly94VN.o0okfnFyl3J29dMl"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!IKS2IU0yTBly94VN"
+}

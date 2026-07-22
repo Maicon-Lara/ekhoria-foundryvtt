@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Triarcis (Título / sobrenome)",
+  "_id": "jYJDcA6id0yRnz8e",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Triarcis — numeral para o clero alto.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "dNqCmWF23jXCstG2",
+      "text": "Solares III",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.dNqCmWF23jXCstG2"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "414LnCgMncWJdOfG",
+      "text": "Vela-Trina",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.414LnCgMncWJdOfG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "YuumaOkcY2ctFYlR",
+      "text": "Eremitas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.YuumaOkcY2ctFYlR"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ZlNF2lrCTtOPZaR5",
+      "text": "do Crepúsculo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.ZlNF2lrCTtOPZaR5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "6TcZ2t1FaI1TthaA",
+      "text": "Três-Chamas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.6TcZ2t1FaI1TthaA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "sYxsOQEXvJ50kHmr",
+      "text": "Sem-Hora",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!jYJDcA6id0yRnz8e.sYxsOQEXvJ50kHmr"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!jYJDcA6id0yRnz8e"
+}

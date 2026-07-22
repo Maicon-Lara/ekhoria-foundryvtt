@@ -1,0 +1,142 @@
+{
+  "name": "Construto de Arcanita",
+  "type": "monster",
+  "_id": "apktYnUizOOw5M7h",
+  "img": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+  "system": {
+    "odo_id": "construto-de-arcanita",
+    "concept": "Constructo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Construto</p>\n<p>Autômato de Arcanita trabalhada, manufaturado pela <strong>Ars Vocalis</strong> de Arkádia — há cerca de 1.200 deles a serviço da magocracia, como guardiões, operários e braços armados dos Buscadores. Não é vivo no sentido dos Arkanim: é cristal moldado e animado por Quintessência selada num núcleo. Obedece a ordens, não a vontade própria — e por isso o <strong>Vociferante de Arcanita</strong> pode arrancá-lo do controle alheio com a voz, enquanto o <strong>Sabotador da Cratera</strong> aprendeu exatamente onde a carga precisa ir.</p>\n<ul>\n  <li><p><strong>Natureza de Construto</strong>: imune a sono, encanto, medo, veneno, sangramento e a todos os efeitos mentais; não respira, não se cansa e nunca recua por Moral (testa Moral apenas se a ordem que o anima for desfeita).</p></li>\n  <li><p><strong>Comando por Tom (Arkanes)</strong>: responde a comandos em Arkanes. Um conjurador que fale a língua pode tentar redirecioná-lo — o Construto faz um <strong>Teste de Moral</strong> (2d6 + nível do conjurador vs. Moral) ou passa a obedecê-lo. É assim que o Vociferante o comanda, o \"Erguer\" o domina por completo e o \"Estilhaçar\" o desfaz.</p></li>\n  <li><p><strong>Núcleo de Arcanita</strong>: carrega no peito o núcleo de Quintessência. Ataques certeiros contra o núcleo (ou a habilidade <strong>Olho de Engenheiro/Sabotagem</strong> do Sabotador) causam <strong>dano dobrado e ignoram metade da CA</strong>. Ao ser destruído, o Construto <strong>estilhaça</strong>: criaturas a até 1,5 m sofrem <strong>2d6 de dano cortante</strong> (JPD reduz à metade).</p></li>\n  <li><p><strong>Sintonia Elemental</strong>: muitos são sintonizados a um elemento (Fogo, Frio, Eletricidade ou Ácido). Quando o são, o Golpe de Cristal causa <strong>+1d6</strong> de dano daquele tipo.</p></li>\n</ul>",
+    "habitat": "Arkádia",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 27,
+      "max": 27
+    },
+    "ca": "17",
+    "jp": "6",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Construto de Arcanita",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "M2WBHHHB3olwVImb",
+      "name": "2 × Golpe de Cristal +6 (1d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 6,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Golpe de Cristal",
+        "damage_description": "1d8",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!apktYnUizOOw5M7h.M2WBHHHB3olwVImb"
+    }
+  ],
+  "effects": [],
+  "folder": "WkGs8KoJLkukyNyR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!apktYnUizOOw5M7h"
+}

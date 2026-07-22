@@ -1,0 +1,143 @@
+{
+  "name": "O Registro (Atenção de Chronael)",
+  "type": "monster",
+  "_id": "DYZYlyysvZ2erwlL",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+  "system": {
+    "odo_id": "o-registro-atencao-de-chronael",
+    "concept": "Besta",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Manifestação divina</p>\n<p>A Atenção de <strong>Chronael</strong> — tempo, memória e destino corrigindo um registro que saiu errado.</p>\n<ul>\n  <li><p><strong>Indiferença Encarnada</strong>: não é servo nem inimigo — é uma correção. Imune a Medo, encanto, sono, paralisia, veneno e a todos os efeitos mentais ou de morte instantânea. Não pode ser desmoralizada nem barganhada por meios comuns.</p></li>\n  <li><p><strong>Chamada pela Intromissão</strong>: só se manifesta quando um mortal rouba a atenção de um dos Três. Ignora todos os alvos e vai atrás da <strong>fonte do desequilíbrio</strong> primeiro.</p></li>\n  <li><p><strong>Retorno ao Silêncio</strong>: reduzida a 0 PV, dissipa-se sem deixar corpo. Se o desequilíbrio que a chamou persiste, <strong>volta a se manifestar</strong> tempos depois.</p></li>\n  <li><p><strong>Instante Preso</strong>: um alvo em 9 m faz <strong>JPS</strong> ou fica preso repetindo a ação da rodada anterior, incapaz de escolher outra coisa por 1 rodada — o tempo o registrou ali.</p></li>\n  <li><p><strong>Memória Emprestada</strong>: quem é tocado faz <strong>JPS</strong> ou perde a lembrança do que ia fazer (perde a próxima ação), ou volta com uma memória que não é sua, ficando <strong>abalado</strong> por 1d4 rodadas.</p></li>\n  <li><p><strong>Fora de Sincronia</strong>: o tempo dobra ao seu redor — <strong>age duas vezes por rodada</strong>, sempre no topo e no fim da ordem de iniciativa.</p></li>\n</ul>",
+    "flavor": "Tempo, memória, destino. O gancho: um lugar onde o tempo \"registrou errado\".",
+    "alignment": "neutro",
+    "variant": true,
+    "mv": "12",
+    "dv": "8",
+    "hp": {
+      "value": 36,
+      "max": 36
+    },
+    "ca": "19",
+    "jp": "8",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "O Registro (Atenção de Chronael)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "BU5CSIWGuktODR4W",
+      "name": "1 × Toque Fora do Tempo +8 (2d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 8,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque Fora do Tempo",
+        "damage_description": "2d6",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!DYZYlyysvZ2erwlL.BU5CSIWGuktODR4W"
+    }
+  ],
+  "effects": [],
+  "folder": "sJQPYvvwN66HiFEp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!DYZYlyysvZ2erwlL"
+}

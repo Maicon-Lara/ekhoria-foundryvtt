@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Yorugan (Clã)",
+  "_id": "UGYdCCPx6UNhDrpK",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Yorugan — o clã vem antes ou depois do nome.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "WiVO5Ep6qUWwrftG",
+      "text": "Ogarawa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.WiVO5Ep6qUWwrftG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "yX0MHpIAYKBGdFnY",
+      "text": "Yamarz",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.yX0MHpIAYKBGdFnY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "usUkDa0wI6pm0uov",
+      "text": "Kurogane",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.usUkDa0wI6pm0uov"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "OoKcFwC8VgXAbvgh",
+      "text": "Sanoda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.OoKcFwC8VgXAbvgh"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Lpdupd98cy9ypzbM",
+      "text": "Tsuraki",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.Lpdupd98cy9ypzbM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "BQCm08PzrrxIpYjN",
+      "text": "Hoshino",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!UGYdCCPx6UNhDrpK.BQCm08PzrrxIpYjN"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!UGYdCCPx6UNhDrpK"
+}

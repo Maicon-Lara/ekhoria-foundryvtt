@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Breônia (Femininos)",
+  "_id": "KkLkY45TRhmuYF41",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Breônia — gótico, germânico, com epíteto. <em>Ecoam Rorik, Verena, Thomen, Selka, Abelard.</em> Combine com um epíteto/sobrenome da mesma cultura.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "xk5mtWWeVu6LoD6H",
+      "text": "Verena",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.xk5mtWWeVu6LoD6H"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "aC09mtotNHJeDqwR",
+      "text": "Selka",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.aC09mtotNHJeDqwR"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "HClZ63A6vfmbsmkD",
+      "text": "Maren",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.HClZ63A6vfmbsmkD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "zjjeZAXMdKGxjlJt",
+      "text": "Orsa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.zjjeZAXMdKGxjlJt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "4qcqQJ8FUarnIp2g",
+      "text": "Nilda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.4qcqQJ8FUarnIp2g"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "wYYe4CFNCGuS0ihA",
+      "text": "Bréa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!KkLkY45TRhmuYF41.wYYe4CFNCGuS0ihA"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!KkLkY45TRhmuYF41"
+}

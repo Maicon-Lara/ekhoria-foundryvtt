@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Arkádia",
+  "_id": "FJQ0fLhjamJYskeb",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: mistério arcano, sabotagem, body-horror mágico. Cristal, luz e a arrogância do saber.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "iITQf1l0r97Jp2GB",
+      "text": "Um PJ sem o feitiço de amortecimento desmaia de vertigem: 24h até os primeiros sintomas da Pressão Arcana. — <em>Ambiental / relógio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.iITQf1l0r97Jp2GB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "zOBvYdK9TLgqHBYy",
+      "text": "Um Construto de Arcanita barra um setor restrito e só cede a um comando em Arkanes. — <em>Combate / social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.zOBvYdK9TLgqHBYy"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "cdpmP2wZzKGj5dWS",
+      "text": "Um Buscador da Ars Vocalis paga bem para capturar um \"irregular\" foragido — <strong>vivo</strong>. — <em>Dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.cdpmP2wZzKGj5dWS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "OGdgVw0kNJ34ZYHs",
+      "text": "Um dos 144 Estabilizadores parou de responder; se dois vizinhos falharem, ninguém sabe o resultado. — <em>Gancho / relógio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.OGdgVw0kNJ34ZYHs"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "gwqDSyECBK2sTQWG",
+      "text": "Um pesquisador do Vazio Silencioso sumiu, deixando anotações \"que não deveriam poder ser escritas\". — <em>Mistério</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.gwqDSyECBK2sTQWG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "55TNoWXya2jZ01L7",
+      "text": "Um Coro Vazio se formou numa ala esquecida da Ars Vocalis, repetindo a voz de quem sumiu. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.55TNoWXya2jZ01L7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "nKFTc6qyXgGqZHpq",
+      "text": "Um Representante Arkanim pede discrição: quer denunciar um experimento do Sexto Círculo. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.nKFTc6qyXgGqZHpq"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "iSEKxtAHffxmQQJD",
+      "text": "Mercado negro do feitiço de amortecimento; um mutante desesperado paga qualquer preço. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.iSEKxtAHffxmQQJD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "wxZMzqddseJODN01",
+      "text": "Uma cobaia da Mutação Arcano-Biológica escapou — uma Abominação Arcana vaga pelos subníveis. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.wxZMzqddseJODN01"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "d7Uh8ZDnB6Vf3lLA",
+      "text": "Alguém decide que o grupo \"não deveria estar aqui\" e passa a observá-los de longe. — <em>Paranoia</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.d7Uh8ZDnB6Vf3lLA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "akEL776OWJrMLNQ7",
+      "text": "Uma tentativa de Núcleo de Cristal Estável explode perto do grupo como mil quilos de pólvora. — <em>Perigo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.akEL776OWJrMLNQ7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "7NLkDMHIN3pPpUih",
+      "text": "As Runas Pré-Primevas na face inferior da ilha <em>respondem</em> a algo. Arkádia não subiu — foi expulsa? — <em>Presságio cósmico</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!FJQ0fLhjamJYskeb.7NLkDMHIN3pPpUih"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!FJQ0fLhjamJYskeb"
+}

@@ -1,0 +1,142 @@
+{
+  "name": "Coro Vazio",
+  "type": "monster",
+  "_id": "gzwz9pRL1FAPyioc",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-medio.webp",
+  "system": {
+    "odo_id": "coro-vazio",
+    "concept": "Besta",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Onde a <strong>Pressão Arcana</strong> de Arkádia fica densa demais, às vezes o som de vozes que já não existem se acumula até quase virar gente. O Coro Vazio é isso: uma ressonância que aprendeu a repetir palavras sem nunca ter tido boca. A <strong>Ars Vocalis</strong> os estuda com um interesse que os arcanistas chamam de \"científico\" e os vizinhos chamam de doentio — afinal, o que é a magocracia senão a fé de que a voz certa comanda o mundo?</p>\n<p><strong>Movimento (fonte):</strong> 9/12Vo — 9 m, 12 m voando.</p>\n<ul>\n  <li><p><strong>Ressonância</strong>: quem ouve a Palavra faz <strong>JPC</strong> ou age com <strong>Ajuste Difícil</strong> em todas as jogadas por 1 rodada — o som se instala na cabeça.</p></li>\n  <li><p><strong>Corpo de Som</strong>: só um borrão de eco e luz. Armas cortantes e perfurantes causam <strong>metade do dano</strong>; concussão, magia e dano sônico o ferem em cheio.</p></li>\n  <li><p><strong>Preso à Pressão</strong>: não pode deixar a zona de alta Pressão Arcana que o gerou. Fora dela, dissipa-se em 1d4 rodadas.</p></li>\n  <li><p><strong>Eco de Arkanes</strong>: repete fragmentos de <strong>Arkanes</strong> que ouviu. Um conjurador que fale a língua pode tentar aquietá-lo com um <strong>Teste de Moral</strong> (2d6 + nível vs. Moral) — é assim que os Buscadores da Ars Vocalis o coletam vivo.</p></li>\n</ul>",
+    "habitat": "Arkádia — zonas de alta Pressão Arcana",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 27,
+      "max": 27
+    },
+    "ca": "16",
+    "jp": "6",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Coro Vazio",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "JjwEWKtZVzsqEwAV",
+      "name": "1 × Palavra dissonante +6 (1d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 6,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Palavra dissonante",
+        "damage_description": "1d8",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!gzwz9pRL1FAPyioc.JjwEWKtZVzsqEwAV"
+    }
+  ],
+  "effects": [],
+  "folder": "WkGs8KoJLkukyNyR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!gzwz9pRL1FAPyioc"
+}

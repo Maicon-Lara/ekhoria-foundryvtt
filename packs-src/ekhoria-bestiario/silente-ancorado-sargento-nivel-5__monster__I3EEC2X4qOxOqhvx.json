@@ -1,0 +1,145 @@
+{
+  "name": "Silente Ancorado (Sargento, nível 5)",
+  "type": "monster",
+  "_id": "I3EEC2X4qOxOqhvx",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "silente-ancorado-sargento-nivel-5",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado</p>\n<p>Comandantes de pelotão da Tropa Sem Fim, logo abaixo de Rorik. Lembram cada ordem que já cumpriram — e fazem os Legionários lembrarem também. Enquanto o Sargento está de pé, a formação é uma máquina; derrubá-lo é a melhor chance de quem ousa lutar.</p>\n<ul>\n  <li><p><strong>Eco Antimágico</strong>: imune a magias diretas arcanas; vulnerável a magias divinas.</p></li>\n  <li><p><strong>Corpo Estático</strong>: sem cura; reduzido a 0 PV, é destruído em definitivo.</p></li>\n  <li><p><strong>Disciplina Inquebrável</strong>: nunca recua; em formação (3+), os Ancorados ganham +2 CA e não podem ser flanqueados.</p></li>\n  <li><p><strong>Voz de Comando</strong>: Silentes Ancorados a até 9 m ganham +1 nos ataques e mantêm a Disciplina Inquebrável mesmo isolados. Se o Sargento é destruído, os Ancorados sob seu comando perdem o +1 e voltam a precisar da formação para os bônus de Disciplina.</p></li>\n  <li><p><strong>Sem Exaustão</strong>: imune a Medo, sono e encanto; não cansa nem sente dor.</p></li>\n</ul>",
+    "flavor": "Comandante de pelotão ancorado. Sustenta a formação ao redor. BA +5.",
+    "habitat": "Breônia — postos da Tropa Sem Fim",
+    "alignment": "ordeiro",
+    "variant": true,
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 38,
+      "max": 38
+    },
+    "ca": "18",
+    "jp": "7",
+    "mo": "12",
+    "xp": "600"
+  },
+  "prototypeToken": {
+    "name": "Silente Ancorado (Sargento, nível 5)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "PhKRGL1iEzJnptYZ",
+      "name": "1 × Espada longa +7 (1d8+3)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 7,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Espada longa",
+        "damage_description": "1d8+3",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!I3EEC2X4qOxOqhvx.PhKRGL1iEzJnptYZ"
+    }
+  ],
+  "effects": [],
+  "folder": "ZGyJzJVEW41txHDe",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!I3EEC2X4qOxOqhvx"
+}

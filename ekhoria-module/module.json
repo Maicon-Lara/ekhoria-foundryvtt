@@ -2,10 +2,10 @@
   "id": "ekhoria",
   "title": "Ekhoria — Sourcebook Oficial",
   "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
-  "version": "0.6.8",
+  "version": "0.7.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
@@ -74,17 +74,51 @@
       "path": "packs/ekhoria-journal",
       "type": "JournalEntry",
       "system": "olddragon2e"
+    },
+    {
+      "name": "ekhoria-bestiario",
+      "label": "Ekhoria: Bestiário",
+      "path": "packs/ekhoria-bestiario",
+      "type": "Actor",
+      "system": "olddragon2e"
+    },
+    {
+      "name": "ekhoria-campanha",
+      "label": "Ekhoria: A Guerra do Esmaecer (Mestre)",
+      "path": "packs/ekhoria-campanha",
+      "type": "JournalEntry",
+      "system": "olddragon2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
     }
   ],
   "packFolders": [
     {
       "name": "Ekhoria",
       "sorting": "m",
-      "packs": ["ekhoria-classes", "ekhoria-racas", "ekhoria-itens", "ekhoria-magias", "ekhoria-tabelas", "ekhoria-lore", "ekhoria-journal"]
+      "packs": [
+        "ekhoria-classes",
+        "ekhoria-racas",
+        "ekhoria-itens",
+        "ekhoria-magias",
+        "ekhoria-tabelas",
+        "ekhoria-lore",
+        "ekhoria-journal",
+        "ekhoria-bestiario",
+        "ekhoria-campanha"
+      ]
     }
   ],
-  "esmodules": ["ekhoria.js"],
-  "styles": ["ekhoria.css"],
+  "esmodules": [
+    "ekhoria.js"
+  ],
+  "styles": [
+    "ekhoria.css"
+  ],
   "languages": [
     {
       "lang": "pt-BR",

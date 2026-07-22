@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Tesouro — Achados Menores",
+  "_id": "IjmroEUAtHKinodL",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Componentes e consumíveis temáticos: úteis, perecíveis, cheios de cor.</em></p><p><strong>Instabilidade de Ressonância:</strong> os quatro cristais (Arcanita, Ônix, Centelha Solar, Erebo) vibram em frequências incompatíveis — dois no mesmo objeto colapsam, e uma arma já encantada (ou de cristal) que dispare munição de cristal detona na câmara. Nunca combine dois cristais num achado.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Uvwi1DWdtsVae9QZ",
+      "text": "<strong>Fragmento de ônix ativo</strong> — 24h de imunidade ao Breu; depois se desfaz em pó. Vale mais que ouro em Breônia.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.Uvwi1DWdtsVae9QZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "fdtWtGgq0F00JRcT",
+      "text": "<strong>Lasca de Arcanita bruta</strong> — amplifica magia, mas instável: perto de outro cristal ou de arma encantada, é risco.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.fdtWtGgq0F00JRcT"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "7OQ44jJxn9zZ4rMH",
+      "text": "<strong>Cristal de Centelha</strong> — guarda tempo dentro de si; libera fogo no primeiro golpe e brilha sob a luz da lua Ithara.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.7OQ44jJxn9zZ4rMH"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Z1GwpIuTSH9d5ube",
+      "text": "<strong>Caco de Erebo</strong> — consome a magia ao redor, inclusive a de quem o carrega sem cuidado. Os Drow o acharam primeiro.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.Z1GwpIuTSH9d5ube"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "KPp4sjWEzPB9DmM5",
+      "text": "<strong>Dose de Albinus</strong> — regenera quase qualquer ferida (não fogo nem ácido); extraído ritualmente de trolls.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.KPp4sjWEzPB9DmM5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "0sCMeqdFYxGNiTFq",
+      "text": "<strong>Raiz de Mandra</strong> — cura e serve de antídoto; a base honesta de qualquer bolsa de aventureiro.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.0sCMeqdFYxGNiTFq"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "Ty0N0nbEwTlXggsH",
+      "text": "<strong>Pitada de Pó de Morthan</strong> — esporos que paralisam, cegam ou adormecem. Arma de dois gumes.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.Ty0N0nbEwTlXggsH"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "BCyJyhGzTRdxWJAW",
+      "text": "<strong>Máscara de Nurillion</strong> — filtros minerais contra gases tóxicos e o Pó de Morthan. Item de quem trabalha no risco.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.BCyJyhGzTRdxWJAW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "wYJkEmDXOslQv1TE",
+      "text": "<strong>Fungo do Degelo (ou parente)</strong> — turbina força/reflexo/percepção por instantes; cobra degradação e vício.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.wYJkEmDXOslQv1TE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "Tc9DEsfW62NE90UA",
+      "text": "<strong>Talismã breoniano</strong> — afasta o Breu por um tempo; o comprador de fora nem imagina contra o quê protege.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.Tc9DEsfW62NE90UA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "OVFsWYNwj4EKw9AT",
+      "text": "<strong>Virote de ônix</strong> — munição que engole o clarão e o estrondo do disparo (só em arma mundana!).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.OVFsWYNwj4EKw9AT"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "VQADenkuQfwyyEED",
+      "text": "<strong>Pena de Águia do Vale</strong> — não é arma: é status. Abre portas no Vale — e condena quem a obteve matando a ave.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IjmroEUAtHKinodL.VQADenkuQfwyyEED"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!IjmroEUAtHKinodL"
+}

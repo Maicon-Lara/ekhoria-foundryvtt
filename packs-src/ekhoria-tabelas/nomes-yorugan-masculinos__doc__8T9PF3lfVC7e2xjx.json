@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Yorugan (Masculinos)",
+  "_id": "8T9PF3lfVC7e2xjx",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Yorugan — japonês, clã honrado. <em>Ecoam Kaito Ogarawa, Takeshi, Yoshida Yamarz.</em> O clã vem antes ou depois do nome; armas ganham nome próprio.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "K4FWAJQguj5KL3uA",
+      "text": "Kaito",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.K4FWAJQguj5KL3uA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "3KhqWfc0Aj3J5Wpm",
+      "text": "Takeshi",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.3KhqWfc0Aj3J5Wpm"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "tOAYVGP0TmxEgJsw",
+      "text": "Hiro",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.tOAYVGP0TmxEgJsw"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "3GPJW0SiMvlzQqiS",
+      "text": "Ren",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.3GPJW0SiMvlzQqiS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "RPH7gBqjq4S04FaC",
+      "text": "Daichi",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.RPH7gBqjq4S04FaC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "JycR63BZP8enCUCv",
+      "text": "Sora",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!8T9PF3lfVC7e2xjx.JycR63BZP8enCUCv"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!8T9PF3lfVC7e2xjx"
+}

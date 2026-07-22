@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Durgrann (Femininos)",
+  "_id": "hufNxSDoBqRfyvzs",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Durgrann — anão, nórdico duro, Clã de pedra. <em>Ecoam Thror Stonebeard, Ragan Dratggar.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "sYVy5MaIfXl0jlGE",
+      "text": "Dagna",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.sYVy5MaIfXl0jlGE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "qwLVX5YPBh95FVOp",
+      "text": "Hilda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.qwLVX5YPBh95FVOp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "WgSJUSK0Zxnf6TvV",
+      "text": "Brunna",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.WgSJUSK0Zxnf6TvV"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "a0D5E64WfkcRcQED",
+      "text": "Vestra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.a0D5E64WfkcRcQED"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Dey6bELmHZiuHHDi",
+      "text": "Katla",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.Dey6bELmHZiuHHDi"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "r5hVIHA8nUHFoGU8",
+      "text": "Yrsa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hufNxSDoBqRfyvzs.r5hVIHA8nUHFoGU8"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!hufNxSDoBqRfyvzs"
+}

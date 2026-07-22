@@ -55,8 +55,23 @@ function weaponIcon(it) {
   return `${OD2I}/${["slashing", "piercing", "bludgeoning"].includes(t) ? t : "melee"}.svg`;
 }
 
+// "Usuário" que assina os documentos gerados. O Foundry valida este campo como
+// um ID de documento: EXATAMENTE 16 caracteres alfanuméricos. Com qualquer
+// outro tamanho, o MUNDO INTEIRO falha ao carregar (o erro estoura em
+// Game.initializePacks, antes de a mesa abrir):
+//   DataModelValidationError: ... lastModifiedBy: must be a valid
+//   16-character alphanumeric ID
+// "ekhoriabuildtool" tem 16 por coincidência — a validação abaixo garante que
+// continue assim se alguém renomear.
+const BUILD_USER_ID = "ekhoriabuildtool";
+if (!/^[A-Za-z0-9]{16}$/.test(BUILD_USER_ID)) {
+  throw new Error(
+    `BUILD_USER_ID inválido (${BUILD_USER_ID.length} chars): precisa ter exatamente 16 caracteres alfanuméricos.`
+  );
+}
+
 // _stats padrão. systemVersion é substituído automaticamente pelo Foundry.
-function stats() {
+export function stats() {
   return {
     compendiumSource: null,
     duplicateSource: null,
@@ -65,7 +80,7 @@ function stats() {
     systemVersion: "This is auto replaced",
     createdTime: 0,
     modifiedTime: 0,
-    lastModifiedBy: "ekhoriabuildtool",
+    lastModifiedBy: BUILD_USER_ID,
     exportSource: null,
   };
 }

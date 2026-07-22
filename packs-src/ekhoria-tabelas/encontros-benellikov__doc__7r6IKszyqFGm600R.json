@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Benellikov",
+  "_id": "7r6IKszyqFGm600R",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: intriga de classe, heist industrial, noir. A ferida que nunca cicatrizou sob a sombra de Arkádia.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "RhZiAKsSEG81dltv",
+      "text": "Um recrutador do <strong>SUF</strong> sonda o grupo: querem gente para \"abrir a Cidade-Limpa\". — <em>Gancho de facção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.RhZiAKsSEG81dltv"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "J8ThSTJNIaLHkNvu",
+      "text": "A poeira de Arcanita adoece um PJ desprotegido — tosse com brilho na saliva. — <em>Ambiental</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.J8ThSTJNIaLHkNvu"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "oIEKDGEot9cSzRcF",
+      "text": "Uma carga de pólvora arcana explode numa ruela. Sabotagem ou acidente? — <em>Perigo / mistério</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.oIEKDGEot9cSzRcF"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "wJQmQDCM0B3w9z7k",
+      "text": "Um mineiro implora ajuda: soube que o Diretorato vai lacrar a Cidade-Suja. — <em>Dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.wJQmQDCM0B3w9z7k"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "NTGwJ478aXAjuyqB",
+      "text": "A Barreira Magitécnica marca um PJ como \"indesejável\" e o paralisa em plena rua. — <em>Ambiental / perigo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.NTGwJ478aXAjuyqB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "KRZLHF3qHdk8VVXX",
+      "text": "Um agente da <strong>Ajupop</strong> contrata o grupo para conter a revolta \"antes que seja tarde\". — <em>Facção / dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.KRZLHF3qHdk8VVXX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "A6rRxZjfbu1D96pb",
+      "text": "Fanáticos que rezam para os vultos de Arkádia no céu pedem que o grupo \"leve um recado aos deuses\". — <em>Cor local</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.A6rRxZjfbu1D96pb"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "eGJkYFkeJTEwFQIr",
+      "text": "Uma criança-batedora oferece guiar pelos túneis da cratera por um prato de comida. — <em>Social / NPC</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.eGJkYFkeJTEwFQIr"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "v6VhW63PKd4l894K",
+      "text": "Uma carga instável de Arcanita abriu \"algo que não fecha\" num porão — uma Abominação Arcana nascente. — <em>Combate / horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.v6VhW63PKd4l894K"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "HAc2iHFDBT33hXyA",
+      "text": "Capangas do Diretorato \"convidam\" o grupo a parar de fazer perguntas. — <em>Combate leve</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.HAc2iHFDBT33hXyA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "6y3x8u2V6m5aAftj",
+      "text": "O SUF revela a arma que derruba barreiras mágicas — e quer um teste de campo. — <em>Gancho pesado</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.6y3x8u2V6m5aAftj"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "N50Cz0wPaGsP9CKN",
+      "text": "O Diretor Massimo Benelli oferece ao grupo um lugar no barco da fuga, em troca de silêncio. — <em>Dilema / intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!7r6IKszyqFGm600R.N50Cz0wPaGsP9CKN"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!7r6IKszyqFGm600R"
+}

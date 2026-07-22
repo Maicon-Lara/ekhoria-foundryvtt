@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Yorugan (Femininos)",
+  "_id": "e16qnkYF3PwjkiDl",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Yorugan — japonês, clã honrado. <em>Ecoam Kaito Ogarawa, Takeshi, Yoshida Yamarz.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "6u3QVlGnAA6cNaAn",
+      "text": "Aiko",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.6u3QVlGnAA6cNaAn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "HXBctnAF9R0NhJTt",
+      "text": "Hana",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.HXBctnAF9R0NhJTt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "XF6gg7CnErq8d9A0",
+      "text": "Yuki",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.XF6gg7CnErq8d9A0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "aJgvbVkXq9FJVACm",
+      "text": "Rin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.aJgvbVkXq9FJVACm"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Qj2XM7zqpzEn0KAP",
+      "text": "Mei",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.Qj2XM7zqpzEn0KAP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Cw5pMDfNP5806yPD",
+      "text": "Kaede",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!e16qnkYF3PwjkiDl.Cw5pMDfNP5806yPD"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!e16qnkYF3PwjkiDl"
+}

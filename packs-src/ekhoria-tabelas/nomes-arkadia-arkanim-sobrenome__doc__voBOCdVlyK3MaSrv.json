@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Arkádia / Arkanim (Sobrenome)",
+  "_id": "voBOCdVlyK3MaSrv",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Arkádia (Arkanim) — o sobrenome soa a fórmula ou astro.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "4HUDhwEg5YdrdWOU",
+      "text": "Solis",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.4HUDhwEg5YdrdWOU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "0dzrDYeRCCJfHWas",
+      "text": "Vox",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.0dzrDYeRCCJfHWas"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "AoAjT5arW5UctH36",
+      "text": "Nyxis",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.AoAjT5arW5UctH36"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "BN8jG0tILlHQpxN6",
+      "text": "Quintus",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.BN8jG0tILlHQpxN6"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Q4oSU7kksPMQ1hl5",
+      "text": "Aetheris",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.Q4oSU7kksPMQ1hl5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "jokP4JPRiDaqlEko",
+      "text": "Ventris",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!voBOCdVlyK3MaSrv.jokP4JPRiDaqlEko"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!voBOCdVlyK3MaSrv"
+}

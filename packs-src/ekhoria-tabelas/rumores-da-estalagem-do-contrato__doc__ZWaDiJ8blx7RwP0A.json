@@ -1,0 +1,329 @@
+{
+  "folder": null,
+  "name": "Rumores da Estalagem do Contrato",
+  "_id": "ZWaDiJ8blx7RwP0A",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Na <strong>Estalagem do Contrato</strong> de Mira \"Dois-Contratos\" Orendal, em Ferro Velho, o continente inteiro passa — e fala. Role quando o grupo escuta a mesa ao lado, sonda um contato ou espera um trabalho.</p><p>Cada rumor traz um <strong>fundo</strong>: <em>Contrato</em> (trabalho verificado por Mira, gancho pronto), <em>Verdade</em> (procede, ainda que ninguém ali saiba o quanto), <em>Exagero</em> (núcleo real inflado pelo boca a boca) e <em>Isca</em> (falso ou distorcido; testa quem confia rápido demais).</p><p>Um rumor que o grupo não morde não se perde: deixe-o amadurecer e reaparecer semanas depois, já mais perto (ou mais tarde demais).</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "psURot8PjN5b6J5t",
+      "text": "Uma caravana de armas de Casturel sumiu a caminho de Durgrann. Mira paga adiantado, sem perguntas. — <em>Contrato</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.psURot8PjN5b6J5t"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "wGa2KH8qzTMJs7bt",
+      "text": "\"Em uma vila de Breônia falta <em>uma pessoa</em> de quem ninguém mais lembra o nome.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.wGa2KH8qzTMJs7bt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "mozEOnOmwrpBxQg0",
+      "text": "\"Um dos Estabilizadores de Arkádia parou de responder — a cidade inteira pode despencar.\" — <em>Exagero</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.mozEOnOmwrpBxQg0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "aOGHKpbXOEHeJ3yf",
+      "text": "\"O mapa do Cofre Central de Ferro Velho está à venda; são 80 milhões lá dentro.\" — <em>Isca</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.aOGHKpbXOEHeJ3yf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "l2HOpakRd4XDnfmZ",
+      "text": "Um mercador de ônix quer escolta de Breônia até o porto e paga em talismãs contra o Breu. — <em>Contrato</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.l2HOpakRd4XDnfmZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "xT7s8llqarC0tGnn",
+      "text": "\"A Tropa Sem Fim está se desfazendo: dizem que os mortos começaram a pedir para partir.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.xT7s8llqarC0tGnn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "GHwjWaAD7dT3rqd0",
+      "text": "\"O Punhal Tenebroso guarda uma verdade capaz de derrubar toda a elite de Durgrann.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.GHwjWaAD7dT3rqd0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "UWQt4fohjMT5DyLb",
+      "text": "\"No Vale, quem abate uma águia ganha o direito a um pedido no Conselho dos Sete.\" — <em>Isca</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.UWQt4fohjMT5DyLb"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "hqpnaEVB1GAigC85",
+      "text": "A Ars Vocalis paga muito bem por um \"irregular\" foragido — entregue <strong>vivo</strong>. — <em>Contrato</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.hqpnaEVB1GAigC85"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "5SySr8zhWYc7iTVn",
+      "text": "\"No deserto, ossos colossais tremeram sob as dunas. O Tarrasque vai acordar.\" — <em>Exagero</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.5SySr8zhWYc7iTVn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "UcKf3p8XB3FdMfWN",
+      "text": "\"Um alquimista vende Cristal dos Sonhos que dá as visões <em>sem</em> trazer o vício.\" — <em>Isca</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.UcKf3p8XB3FdMfWN"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "8YvEjowO8a9h7jM7",
+      "text": "\"Vornfell esconde que a própria Irmandade que protege o povo já o traiu, há muito.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.8YvEjowO8a9h7jM7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "MphgyyP1hCV82jZx",
+      "text": "Um necromante foragido de Triarcis paga para cruzar a fronteira sem topar com um Inquisidor. — <em>Contrato</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.MphgyyP1hCV82jZx"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "T4oFWl3yRL3kfylD",
+      "text": "\"O SUF de Benellikov está a um teste de ter uma arma que derruba barreiras mágicas.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.T4oFWl3yRL3kfylD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "dtLAIzJ6jUcvdbvn",
+      "text": "\"Chegou ônix barato pelo porto — pechincha da estação, aproveitem antes que acabe.\" — <em>Isca</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.dtLAIzJ6jUcvdbvn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "RTZ1skyrsB0kjd99",
+      "text": "\"Ponta da Lua está fervilhando de espiões dos sete principados. Algo vai estourar.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.RTZ1skyrsB0kjd99"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "IGZBiKzdN5AT4Erl",
+      "text": "Uma expedição procura guias para o Eixo Torto de Durgrann. Metade não costuma voltar. — <em>Contrato</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.IGZBiKzdN5AT4Erl"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "WoLwAGO4l7BhGxBG",
+      "text": "\"O Imperador de Yorugan vai cercar a ilha com torres voadoras roubadas de Arkádia.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.WoLwAGO4l7BhGxBG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "8JsNn1kUIAFDFIC5",
+      "text": "\"Um contato novo de Mira paga em dobro — é só procurar um tal sujeito no cais, à noite.\" — <em>Isca</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.8JsNn1kUIAFDFIC5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "FKCEjpIJ5athU13G",
+      "text": "\"Dizem que forçar um milagre grande demais atrai <em>algo</em> indiferente, que vem cobrar o preço.\" — <em>Verdade</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ZWaDiJ8blx7RwP0A.FKCEjpIJ5athU13G"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ZWaDiJ8blx7RwP0A"
+}

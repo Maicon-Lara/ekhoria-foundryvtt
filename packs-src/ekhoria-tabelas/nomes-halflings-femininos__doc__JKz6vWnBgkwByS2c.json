@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Halflings (Femininos)",
+  "_id": "JKz6vWnBgkwByS2c",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Halflings — bucólico, caloroso, nome de mesa.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "rBeMCpuBgruikq7f",
+      "text": "Poppy",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.rBeMCpuBgruikq7f"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "r1VaUvK4JkII03gK",
+      "text": "Lila",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.r1VaUvK4JkII03gK"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "brU2CibghL11ztr8",
+      "text": "Rosa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.brU2CibghL11ztr8"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "aZokCIIwOCpFfdyg",
+      "text": "Dahlia",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.aZokCIIwOCpFfdyg"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "0aUkGRyIfR9qr8HE",
+      "text": "Bru",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.0aUkGRyIfR9qr8HE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "R7ROvc3ReyLrIOBg",
+      "text": "Vesta",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!JKz6vWnBgkwByS2c.R7ROvc3ReyLrIOBg"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!JKz6vWnBgkwByS2c"
+}

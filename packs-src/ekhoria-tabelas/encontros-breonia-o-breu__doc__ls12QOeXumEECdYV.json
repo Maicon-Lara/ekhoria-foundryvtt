@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Breônia (o Breu)",
+  "_id": "ls12QOeXumEECdYV",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: horror de sobrevivência. A escuridão caça; a luz é recurso; o ônix é vida.</em></p><p>Role quando fizer sentido — numa etapa de viagem, num descanso arriscado, na virada de uma cena parada. Nem toda entrada é combate: há gente, presságios e escolhas. Trate os <em>presságios de chefe</em> como plantios, não como o confronto em si.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "DYa0E7266B9Ql1pe",
+      "text": "Um santuário de beira de estrada com a vela apagada. Pegadas entram na escuridão e não voltam. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.DYa0E7266B9Ql1pe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "A7X9NF5CXHe1iIgP",
+      "text": "1d4 Umbras Pávidas emergem quando a última tocha do grupo bruxuleia. — <em>Combate leve</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.A7X9NF5CXHe1iIgP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Bg7H71LGHiySoXF3",
+      "text": "Pelotão de Silentes Ancorados em patrulha: aliados incômodos com salvo-conduto, revista tensa sem ele. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.Bg7H71LGHiySoXF3"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "c2D8wYhBWomU7GYA",
+      "text": "Um viajante implora ônix emprestado; já não lembra o próprio nome — é O Esquecido em formação. — <em>Dilema / horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.c2D8wYhBWomU7GYA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "v1j24IKMtVZOMIAT",
+      "text": "Mercador de ônix com a carga saqueada paga bem por escolta até a cidade de Ônix. — <em>Gancho</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.v1j24IKMtVZOMIAT"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "IN2wT3EAAxP99Pxq",
+      "text": "O Cristalizado bloqueia uma passagem estreita — foi um viajante que não chegou. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.IN2wT3EAAxP99Pxq"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "wHcmLEgFsfDGF3Js",
+      "text": "Uma criança segura uma vela no meio do nada. Ninguém na vila lembra de ter tido uma criança. — <em>Mistério</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.wHcmLEgFsfDGF3Js"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "NTy0n1uX2NHK9Wsp",
+      "text": "Uma Abominação do Breu farejou o grupo e caça a lembrança fresca. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.NTy0n1uX2NHK9Wsp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "OAcYslF4qXdcpsSL",
+      "text": "O Guardião da Pira pede ajuda: a Pira está apagando e o ônix não chegou. — <em>Gancho de facção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.OAcYslF4qXdcpsSL"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "1RtIPPlJOAmD2zko",
+      "text": "Um Relicário Vivo oferece \"proteção\" contra o Breu — por um preço tabu. — <em>Social sombrio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.1RtIPPlJOAmD2zko"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "dSV5deXilGWlNll9",
+      "text": "Um trecho onde o mundo <em>esqueceu</em> o caminho: a estrada some do mapa e da memória. — <em>Ambiental</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.dSV5deXilGWlNll9"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "UKUnULrkTIKxQiBy",
+      "text": "Uma aldeia inteira sumiu dos mapas e da lembrança de todos. Uma Fauce do Breu está se formando. — <em>Presságio de chefe</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ls12QOeXumEECdYV.UKUnULrkTIKxQiBy"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ls12QOeXumEECdYV"
+}

@@ -1,0 +1,179 @@
+{
+  "folder": null,
+  "name": "Nomes — Ferro Velho (Alcunhas de reputação)",
+  "_id": "qJA9XLH36EWvZ4E8",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Ferro Velho não pergunta seu passado, então quase todo mundo carrega uma <strong>alcunha de reputação</strong> que resume o que você faz na cara de quem contrata. Some qualquer nome das outras culturas a uma destas (ecoam Mira \"Dois-Contratos\", Tivara \"Ondas-de-Cobre\").</p><p><em>Observação: a fonte lista as dez alcunhas sem indicar dado; a rolagem 1d10 foi adotada aqui apenas para tornar a lista rolável.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ygSVAA70U3OgFkCT",
+      "text": "Dois-Contratos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.ygSVAA70U3OgFkCT"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "0tJkmFODkVpr083h",
+      "text": "Mão-Leve",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.0tJkmFODkVpr083h"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "roMRGATD5or8TzCZ",
+      "text": "Nunca-Perde",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.roMRGATD5or8TzCZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "FDkDWJyKFLCrHu6M",
+      "text": "Sem-Fiança",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.FDkDWJyKFLCrHu6M"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "J3PmG4RzpRv9XmEK",
+      "text": "Última-Palavra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.J3PmG4RzpRv9XmEK"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "4vIX4Cy4b8Fxp0Di",
+      "text": "Paga-à-Vista",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.4vIX4Cy4b8Fxp0Di"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "fA9CmMIfDgtAUc3B",
+      "text": "Boca-Selada",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.fA9CmMIfDgtAUc3B"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "eBwcBF4gy0dJsaO5",
+      "text": "Meia-Verdade",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.eBwcBF4gy0dJsaO5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "pZ96B0tXNHgK2HQj",
+      "text": "Ferro-nos-Dentes",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.pZ96B0tXNHgK2HQj"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "oewTvGIFhDgZVXMc",
+      "text": "Conta-Certa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!qJA9XLH36EWvZ4E8.oewTvGIFhDgZVXMc"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!qJA9XLH36EWvZ4E8"
+}

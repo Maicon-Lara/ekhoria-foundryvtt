@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Triarcis (Solários / Cronistas)",
+  "_id": "1DCGIySsGiI3r4Gl",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Triarcis — eclesiástico, latino, casta pela hora. <em>Ecoam Solares, Cícero, Seraphine, Umbral.</em> Solários soam luminosos.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "yAYKXsxDaMkgZBR3",
+      "text": "Cassian",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.yAYKXsxDaMkgZBR3"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "KcBf3SZJV5dzyHEK",
+      "text": "Ambrose",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.KcBf3SZJV5dzyHEK"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "nXYXstQlZAujJCy9",
+      "text": "Seraphine",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.nXYXstQlZAujJCy9"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "lGj1p8UxsnzuDazL",
+      "text": "Iustina",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.lGj1p8UxsnzuDazL"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "BxULtxgZMZKk21U7",
+      "text": "Aurelio",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.BxULtxgZMZKk21U7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "5gdSMqAkPoW2NDmK",
+      "text": "Clementa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!1DCGIySsGiI3r4Gl.5gdSMqAkPoW2NDmK"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!1DCGIySsGiI3r4Gl"
+}

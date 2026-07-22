@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Durgrann (Masculinos)",
+  "_id": "53tgmmMchq3VMlvs",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Durgrann — anão, nórdico duro, Clã de pedra. <em>Ecoam Thror Stonebeard, Ragan Dratggar.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "A4Dt9nqLY7bSjIhK",
+      "text": "Thror",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.A4Dt9nqLY7bSjIhK"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "viU66xF0lpo240mO",
+      "text": "Ragan",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.viU66xF0lpo240mO"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "cI7MuLTYZFInJP3y",
+      "text": "Durin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.cI7MuLTYZFInJP3y"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "mcOcFgslrOlNUOev",
+      "text": "Grimm",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.mcOcFgslrOlNUOev"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "8paYjW52STsoajye",
+      "text": "Bofin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.8paYjW52STsoajye"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "1sYuR6mIqWmOPqZP",
+      "text": "Balin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!53tgmmMchq3VMlvs.1sYuR6mIqWmOPqZP"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!53tgmmMchq3VMlvs"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Abominação Arcana",
+  "type": "monster",
+  "_id": "eXtRUEoW9zMCoGA6",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "abominacao-arcana",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Variante regional da <strong>Abominação</strong>. Magos a reconhecem como uma cobaia da Ars Vocalis que escapou, ou um visitante que ficou tempo demais sob a Pressão Arcana.</p>\n<ul>\n  <li><p><strong>Carne Errada</strong>: não sente dor; imune a Medo, encanto e demais efeitos mentais (a mente que tinha já se foi). Não pode ser desmoralizada por meios comuns — só recua diante de dano que a fira de verdade.</p></li>\n  <li><p><strong>Presença Antinatural</strong>: humanoides a até 9 m que a avistem devem passar numa <strong>JPS</strong> ou ficam <strong>abalados</strong> (Ajuste Difícil em testes e ataques) por 1d4 rodadas.</p></li>\n  <li><p><strong>Descarga de Quintessência</strong>: 1×/1d4 rodadas, libera uma rajada num cone de 6 m: <strong>2d6 de dano</strong> de um elemento aleatório (role 1d4 — Fogo/Frio/Eletricidade/Ácido); JPD reduz à metade.</p></li>\n  <li><p><strong>Carne Instável</strong>: no início de cada rodada, role 1d4 — a Abominação ganha resistência (metade do dano) ao elemento correspondente até a próxima rodada.</p></li>\n</ul>",
+    "flavor": "Arkádia — a carne que a pressão arcana não devia ter moldado.",
+    "habitat": "Arkádia",
+    "alignment": "caotico",
+    "variant": true,
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 27,
+      "max": 27
+    },
+    "ca": "14",
+    "jp": "6",
+    "mo": "9"
+  },
+  "prototypeToken": {
+    "name": "Abominação Arcana",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "nfvjLmQLuJ8nwnHT",
+      "name": "2 × Tentáculo Cristalino +6 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 6,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Tentáculo Cristalino",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!eXtRUEoW9zMCoGA6.nfvjLmQLuJ8nwnHT"
+    }
+  ],
+  "effects": [],
+  "folder": "WkGs8KoJLkukyNyR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!eXtRUEoW9zMCoGA6"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Silente Ancorado - Tropa sem Fim",
+  "type": "monster",
+  "_id": "pGTSCLWiOPlVHDSX",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "silente-ancorado-tropa-sem-fim",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado</p>\n<p>Veteranos mortos-vivos da <strong>Tropa Sem Fim</strong>, ancorados ao posto que juraram guardar em vida. Surgem em formação, nunca sozinhos, e seguram a linha até serem destruídos. Não são fortes por serem monstros — são fortes por serem <strong>soldados disciplinados que a morte não dispensou</strong>.</p>\n<p><em>Nota de mesa — como funciona o medo (e a esperança).</em> A Tropa Sem Fim foi feita para você <em>não querer</em> enfrentá-la: não cansam, não fogem, não sentem dor, e a magia arcana escorrega por eles. Encarar um pelotão em formação aberta é suicídio, e existem <strong>1.847 deles</strong>. Mas não são invencíveis: são <strong>destruídos de vez</strong> (nenhuma cura ou ressurreição os reergue), a <strong>magia divina</strong> os fere em cheio, e a <strong>Disciplina Inquebrável</strong> depende da formação — quebrar a linha, isolar um soldado ou derrubar o Sargento transforma uma muralha impossível num punhado de inimigos que dá, sim, para vencer.</p>\n<p>Comandados pelo Capitão Rorik Sem-Descanso.</p>\n<ul>\n  <li><p><strong>Eco Antimágico</strong>: imune a magias diretas arcanas; vulnerável a magias divinas (dano divino o fere normalmente; Afastar/Destruir Mortos-Vivos funciona).</p></li>\n  <li><p><strong>Corpo Estático</strong>: sem cura natural, arcana ou alquímica. Reduzido a 0 PV, é destruído em definitivo — não pode ser reanimado nem ressuscitado.</p></li>\n  <li><p><strong>Disciplina Inquebrável</strong>: nunca testa Moral para fugir; luta até ser destruído. Com 3+ Ancorados lado a lado em formação, todos ganham +2 na CA (muralha) e não podem ser flanqueados; quem ataca um deles sofre um ataque de oportunidade de outro Silente adjacente. Isolado ou com a formação quebrada, perde estes bônus.</p></li>\n  <li><p><strong>Sem Exaustão</strong>: não dorme, não cansa, não sente dor; imune a Medo, sono e encanto.</p></li>\n</ul>",
+    "flavor": "Veterano ancorado da Tropa Sem Fim. Luta em formação, nunca recua. BA +3.",
+    "habitat": "Breônia — postos da Tropa Sem Fim",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "3",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "17",
+    "jp": "6",
+    "mo": "12",
+    "xp": "200"
+  },
+  "prototypeToken": {
+    "name": "Silente Ancorado - Tropa sem Fim",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "67CnLDowyq2XSo5E",
+      "name": "1 × Lança longa +5 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Lança longa",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!pGTSCLWiOPlVHDSX.67CnLDowyq2XSo5E"
+    }
+  ],
+  "effects": [],
+  "folder": "ZGyJzJVEW41txHDe",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!pGTSCLWiOPlVHDSX"
+}

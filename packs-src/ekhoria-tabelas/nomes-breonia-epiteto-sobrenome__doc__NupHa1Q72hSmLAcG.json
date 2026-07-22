@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Breônia (Epíteto / sobrenome)",
+  "_id": "NupHa1Q72hSmLAcG",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Breônia — o sobrenome costuma ser um epíteto sombrio ou uma virtude.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "A23Y6PF7EZAt0c7s",
+      "text": "Sem-Descanso",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.A23Y6PF7EZAt0c7s"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "q2WRrvvFw8qOyVfj",
+      "text": "Vela-Eterna",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.q2WRrvvFw8qOyVfj"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "MnznCvKzDCIbmS6A",
+      "text": "de Ônix",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.MnznCvKzDCIbmS6A"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "cVC0ydUAN7IVxUTr",
+      "text": "Moeda-Justa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.cVC0ydUAN7IVxUTr"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "i7KJOdp8UB8e9rJz",
+      "text": "Cinza-Fria",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.i7KJOdp8UB8e9rJz"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "F6jF4f6buiIn0QaD",
+      "text": "Guarda-Memória",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!NupHa1Q72hSmLAcG.F6jF4f6buiIn0QaD"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!NupHa1Q72hSmLAcG"
+}

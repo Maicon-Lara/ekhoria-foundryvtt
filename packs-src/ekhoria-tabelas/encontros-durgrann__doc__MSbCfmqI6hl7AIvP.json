@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Durgrann",
+  "_id": "MSbCfmqI6hl7AIvP",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: dungeon, claustrofobia, intriga geracional. O martelo nunca para — e algo empurra por baixo.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "EBPDwr9zUHqyKkXV",
+      "text": "Uma patrulha anã exige saber o assunto do grupo antes de liberar a descida. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.EBPDwr9zUHqyKkXV"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "rLq77QROAww68j7t",
+      "text": "Agentes do <strong>Punhal Tenebroso</strong> se aproximam com uma \"proposta\" discreta. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.rLq77QROAww68j7t"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "GDzAaSXCM87fPzfu",
+      "text": "Os Cristais de Centelha piscam por um instante — e um arrepio percorre os anões mais velhos. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.GDzAaSXCM87fPzfu"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ZYuJD1dvEGup9lEm",
+      "text": "Um jovem engenheiro faz campanha para expulsar Caldreth e quer o apoio do grupo. — <em>Intriga geracional</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.ZYuJD1dvEGup9lEm"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "t5R4obsInCKXwfH9",
+      "text": "Um guia oferece o <strong>Eixo Torto</strong>, a rota secreta que contorna o dragão. — <em>Gancho / dungeon</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.t5R4obsInCKXwfH9"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "l4SU5ECs0t0WGMK5",
+      "text": "Perto da Fenda, um membro do Punhal enlouqueceu e fala coisas que ninguém devia saber. — <em>Horror / pista</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.l4SU5ECs0t0WGMK5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "VEY6aH5KHFDnlR4f",
+      "text": "Uma Fera-Abissal subiu pelo Gasoduto e está solta na Cidade Baixa. — <em>Combate (DV 8+)</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.VEY6aH5KHFDnlR4f"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "U2zYZMmehgybVdqg",
+      "text": "Ragan Martelo-Mudo, por sinais, oferece ao grupo \"a verdade\" como arma política. — <em>Intriga pesada</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.U2zYZMmehgybVdqg"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "BCjy9biBEXVi0yXq",
+      "text": "Vaza gás da Fenda por uma junta do Gasoduto; quem respira tem alucinações. — <em>Ambiental</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.BCjy9biBEXVi0yXq"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "eFLAFqz8qTwkRRl7",
+      "text": "Um ancião do Conselho puxa o grupo em segredo: sabe o que Caldreth realmente faz. — <em>Segredo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.eFLAFqz8qTwkRRl7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "3EsGaGqVlX7jU5ud",
+      "text": "Nos Níveis Proibidos, a geometria de contenção dos Primeiros foi removida numa \"reforma superior\". — <em>Pista / presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.3EsGaGqVlX7jU5ud"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "GGdcOgF3FFh4tYk3",
+      "text": "Aos pés dos Portões de Ferro, Caldreth abre um olho e <em>observa</em> o grupo passar. — <em>Presságio de chefe</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!MSbCfmqI6hl7AIvP.GGdcOgF3FFh4tYk3"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!MSbCfmqI6hl7AIvP"
+}

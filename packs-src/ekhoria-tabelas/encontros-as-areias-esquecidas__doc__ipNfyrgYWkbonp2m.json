@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — As Areias Esquecidas",
+  "_id": "ipNfyrgYWkbonp2m",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: exploração e sobrevivência. Deserto de vidro; o que se enterra espera o calor passar.</em></p><p>Ajuste a quantidade de criaturas ao nível do grupo. Um encontro que não cabe agora pode virar rumor e voltar depois.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "2oUE31BkLeZ8Qaty",
+      "text": "Uma caravana Mante oferece água e rota segura — por um preço, ou um favor guardado. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.2oUE31BkLeZ8Qaty"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "YYd5KTqGyDukT8QP",
+      "text": "O chão vibra: Verme Escarlate à caça. Fugir, esconder o rastro sísmico ou virar refeição. — <em>Perigo maior</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.YYd5KTqGyDukT8QP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "XiA6rrVYBh7ZMX8G",
+      "text": "1d3 Abominações das Areias irrompem da areia ao anoitecer. — <em>Combate médio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.XiA6rrVYBh7ZMX8G"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ikZ7x0ME3DIEJlbE",
+      "text": "Tempestade de vidro no horizonte: abrigo em 1d4 turnos ou 1d6 de dano por turno. — <em>Ambiental</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.ikZ7x0ME3DIEJlbE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "KFSC1kDu5WFhxoxk",
+      "text": "Um Couraçado das Areias adormecido no caminho. Contorná-lo em silêncio ou arriscar acordá-lo. — <em>Combate opcional</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.KFSC1kDu5WFhxoxk"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Ui9F2VDRzn4rNwGo",
+      "text": "Ruínas afloradas pela areia: saque tentador — e algo se enterrou ali de novo, recente. — <em>Exploração</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.Ui9F2VDRzn4rNwGo"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "tet2zjyFG4YRGcUA",
+      "text": "Um exilado Mante pede para se juntar; conhece cada duna e cada mentira do deserto. — <em>NPC / social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.tet2zjyFG4YRGcUA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Aj7gL1OiKrmZdxNe",
+      "text": "A Passagem do Escorpião parece logo ali. É espelhismo real ou uma Miragem Viva? — <em>Percepção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.Aj7gL1OiKrmZdxNe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "T0BQcCcukYu4X3FU",
+      "text": "Corpos vitrificados numa duna, em pose de fuga. Do quê fugiam? — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.T0BQcCcukYu4X3FU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "84GzSGn19exateVP",
+      "text": "Uma patrulha do Império Mantis de Kha'lix aborda o grupo: quem são, e a serviço de quem? — <em>Facção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.84GzSGn19exateVP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "dvCeMj4DAXFrLkao",
+      "text": "Ossos colossais meio enterrados começam a tremer: a Tarrasque das Areias pode aflorar. — <em>Presságio de chefe</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.dvCeMj4DAXFrLkao"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "jroo1Meuw54aikaH",
+      "text": "Um poço de água disputado por dois grupos sedentos. Mediar, tomar à força ou seguir sede adentro. — <em>Conflito</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ipNfyrgYWkbonp2m.jroo1Meuw54aikaH"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ipNfyrgYWkbonp2m"
+}

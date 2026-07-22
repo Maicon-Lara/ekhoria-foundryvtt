@@ -1,0 +1,141 @@
+{
+  "name": "Miragem Viva",
+  "type": "monster",
+  "_id": "Ii2tOJ3Ndg1gIzaY",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-medio.webp",
+  "system": {
+    "odo_id": "miragem-viva",
+    "concept": "Besta",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Algumas ilusões duram mais que quem as lançou. Uma <em>Ilusão Programada</em> que nunca foi dissipada, um <em>Terreno Ilusório</em> esquecido, um <em>Véu</em> que sobreviveu ao mago — quando ficam tempo demais, começam a acreditar em si mesmas. A Miragem Viva não tem matéria: é percepção que ganhou vontade, e fere de verdade porque <em>você acredita que ela pode</em>. Muitas guardam as comunidades que não deveriam existir no mapa — as que a <strong>Rede de Sombras dos Halflings</strong> prefere manter fora dos registros — e caem sobre quem chega perto demais.</p>\n<p><em>Nota de mesa.</em> É um enigma disfarçado de monstro: o grupo que insiste na força alimenta a criatura; o que percebe a farsa a apaga. Recompensa o jogador esperto e pune o instinto de sacar a espada — bem no espírito do ilusionismo de Ekhoria.</p>\n<ul>\n  <li><p><strong>Só Fere Quem Crê</strong>: o dano só afeta quem a toma por real. Uma criatura pode gastar a ação para se convencer de que é ilusão (<strong>JPS</strong>); no sucesso, fica imune ao dano dela até o fim da cena e pode atravessá-la. Na falha, sofre normalmente.</p></li>\n  <li><p><strong>Sem Corpo Verdadeiro</strong>: armas físicas a atravessam sem efeito. Só magia, <em>Dissipar Magia</em>, ou o dano de quem já a \"revelou\" a ferem.</p></li>\n  <li><p><strong>Alimenta-se da Crença</strong>: cada vez que uma criatura falha em descrer dela, a Miragem recupera <strong>1d6 PV</strong> e fica mais nítida (<strong>+1</strong> de ataque, cumulativo na cena).</p></li>\n  <li><p><strong>Órfã de um Feitiço</strong>: está presa ao lugar ou objeto que a ancora (o ponto onde o feitiço original foi lançado). Destruir esse elo a desfaz de vez — muitas vezes mais fácil que \"derrotá-la\".</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "4",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ca": "15",
+    "jp": "5",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Miragem Viva",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "lTEuwIQzYzM6ShLT",
+      "name": "1 × Toque aterrador +4 (1d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 4,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque aterrador",
+        "damage_description": "1d8",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!Ii2tOJ3Ndg1gIzaY.lTEuwIQzYzM6ShLT"
+    }
+  ],
+  "effects": [],
+  "folder": "m9nvA0kuzXfrIykl",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!Ii2tOJ3Ndg1gIzaY"
+}

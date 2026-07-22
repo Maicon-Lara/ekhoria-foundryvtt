@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Vale da Águia (Masculinos)",
+  "_id": "4JwItJeJ6adkuHfZ",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Vale da Águia — latino-nórdico, apóstrofo, Casa. <em>Ecoam Boreas Kar'vhen, Maris Sal'terra, Korvax, Sylvara.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "4yOzVljSY7PLGtNV",
+      "text": "Boreas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.4yOzVljSY7PLGtNV"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "BCVEoOm5GW67SB63",
+      "text": "Aldric",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.BCVEoOm5GW67SB63"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "byGG4LAJWw06nLSV",
+      "text": "Korvax",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.byGG4LAJWw06nLSV"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "VmKRsGNCiFTPWjuj",
+      "text": "Caelum",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.VmKRsGNCiFTPWjuj"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "DgP2VhjTz7mHIwxW",
+      "text": "Doran",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.DgP2VhjTz7mHIwxW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "BxpxEOk4RVjkidUo",
+      "text": "Halvard",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!4JwItJeJ6adkuHfZ.BxpxEOk4RVjkidUo"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!4JwItJeJ6adkuHfZ"
+}

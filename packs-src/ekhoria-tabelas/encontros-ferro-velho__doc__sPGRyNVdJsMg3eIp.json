@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Ferro Velho",
+  "_id": "sPGRyNVdJsMg3eIp",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: urbano e intriga. Porto neutro, ninguém pergunta seu passado — o ponto de partida natural.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "rGX6jt0eN7YN7Ey7",
+      "text": "Na <strong>Estalagem do Contrato</strong>, Mira \"Dois-Contratos\" oferece um trabalho verificado. — <em>Gancho</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.rGX6jt0eN7YN7Ey7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "dC4QG4kVTtEsZkCa",
+      "text": "Um ex-assassino reconhece um dos PJs — ou finge muito bem que reconhece. — <em>Tensão</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.dC4QG4kVTtEsZkCa"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "uSTtTA42M6gPLx1E",
+      "text": "Batedores halflings da <strong>Rede de Sombras</strong>; podem virar bolso vazio ou contato valioso. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.uSTtTA42M6gPLx1E"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "gEKLhc1fK8tEPGql",
+      "text": "Uma briga de taverna entre mercenários de facções rivais, a um copo de explodir. — <em>Combate leve</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.gEKLhc1fK8tEPGql"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "ke28UQL4BxGB4RPB",
+      "text": "Um Buscador da <strong>Ars Vocalis</strong>, disfarçado, caça um \"irregular\" foragido pela cidade. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.ke28UQL4BxGB4RPB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "SauHFYFNxGXgH2t3",
+      "text": "Um corpo no cais que ninguém reclama — e ninguém consegue lembrar quem era. — <em>Mistério</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.SauHFYFNxGXgH2t3"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "e7dev84RA8HDJp55",
+      "text": "Um contrabandista oferece ônix de Breônia a preço bom demais. Saturado, falso ou roubado? — <em>Trapaça</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.e7dev84RA8HDJp55"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "FK3JARIHPKZcSsrD",
+      "text": "Um Inquisidor de Morthan desembarca fazendo perguntas sobre necromancia. — <em>Facção / tensão</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.FK3JARIHPKZcSsrD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "qL36RNNBfrGKgRKh",
+      "text": "O Sem-Rosto assumiu a identidade de um contato do grupo. Algo não fecha nas histórias dele. — <em>Perigo oculto</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.qL36RNNBfrGKgRKh"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "uftSAnxLMsaNUfVi",
+      "text": "Uma dívida antiga cobra um PJ; o agiota manda capangas \"só para conversar\". — <em>Combate leve</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.uftSAnxLMsaNUfVi"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "UDSH8xe8CD7p9VR3",
+      "text": "Um navio atraca com notícias de outra nação — semente de aventura recém-chegada. — <em>Gancho</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.UDSH8xe8CD7p9VR3"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "fz1UZArquB2PTBI5",
+      "text": "Alguém tenta contratar o grupo para um serviço que exige trair Mira. — <em>Dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sPGRyNVdJsMg3eIp.fz1UZArquB2PTBI5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!sPGRyNVdJsMg3eIp"
+}

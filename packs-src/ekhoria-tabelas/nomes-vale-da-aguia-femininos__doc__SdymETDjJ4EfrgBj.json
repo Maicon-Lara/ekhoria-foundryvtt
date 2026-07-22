@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Vale da Águia (Femininos)",
+  "_id": "SdymETDjJ4EfrgBj",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Vale da Águia — latino-nórdico, apóstrofo, Casa. <em>Ecoam Boreas Kar'vhen, Maris Sal'terra, Korvax, Sylvara.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "xyi3aLQkgAI8q9MF",
+      "text": "Maris",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.xyi3aLQkgAI8q9MF"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "7WDLJBb1ByVzpO9s",
+      "text": "Sylvara",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.7WDLJBb1ByVzpO9s"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "5BQDy3xDe67zjGlf",
+      "text": "Morgana",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.5BQDy3xDe67zjGlf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "CchAkP3OrL9YGMKT",
+      "text": "Elara",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.CchAkP3OrL9YGMKT"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "vdgVS7aOxWMwAGi3",
+      "text": "Rowena",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.vdgVS7aOxWMwAGi3"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "aFJhjjTSeHANukqO",
+      "text": "Ysolde",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!SdymETDjJ4EfrgBj.aFJhjjTSeHANukqO"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!SdymETDjJ4EfrgBj"
+}

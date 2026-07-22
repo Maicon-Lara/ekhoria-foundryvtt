@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Tesouro — Relíquias",
+  "_id": "aMg9cHUGaEHatFkQ",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Itens memoráveis. Cada um vem com um <strong>Fio</strong>: um gancho, um custo ou uma consequência.</em></p><p>Lembre da <strong>Instabilidade de Ressonância</strong>: nunca combine dois cristais (Arcanita, Ônix, Centelha Solar, Erebo) num mesmo achado.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "5fEFFDHRGt1bAMww",
+      "text": "<strong>Lâmina de Ônix</strong> — dispara em silêncio o que devora; morde fundo mortos-vivos e drena a energia que os anima. <em>Fio:</em> quem a vê saca sabe que você caça o que não morre — e pergunta por quê.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.5fEFFDHRGt1bAMww"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "VTMTrVKrNGues1gF",
+      "text": "<strong>Kurogane herdada</strong> — katana de Yorugan, fio assimétrico: os ferimentos abrem mais do que fecham. <em>Fio:</em> carrega o nome de um clã; usá-la sem honrá-lo é ofensa que alguém virá cobrar.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.VTMTrVKrNGues1gF"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "SjCS6i3a8CFu26PM",
+      "text": "<strong>Aço de Casturel</strong> — a melhor lâmina <em>mundana</em> do continente; rivaliza com cristal sem magia nem manutenção. <em>Fio:</em> cobiçada. Meia dúzia de pessoas mataria para reavê-la — e uma delas a forjou.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.SjCS6i3a8CFu26PM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "qIJFrD8uhYHjPX2n",
+      "text": "<strong>Estilhaço de Erebo lapidado</strong> — consome a magia inimiga como nenhum escudo faz. <em>Fio:</em> devora também o encanto das <em>suas</em> armas e poções guardadas junto. Bênção e maldição.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.qIJFrD8uhYHjPX2n"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Gqd7atL0sqKgHHAX",
+      "text": "<strong>Talismã do Guardião da Pira</strong> — ônix consagrado que segura o Breu por mais tempo que o normal. <em>Fio:</em> foi tirado de um santuário de Breônia. Alguém notou a falta — e reza pela sua volta.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.Gqd7atL0sqKgHHAX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "YelMpTrhiEIK2WGH",
+      "text": "<strong>Núcleo de Arcanita estabilizado</strong> — amplifica magia como um coração de Arkádia em miniatura. <em>Fio:</em> nunca é <em>totalmente</em> estável. Toda a Ars Vocalis mataria por ele; ele pode explodir por conta própria.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.YelMpTrhiEIK2WGH"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "JWNOsYMbaZ1uC0ga",
+      "text": "<strong>Frasco de Albinus antigo</strong> — regenera quase qualquer ferida em segundos. <em>Fio:</em> só existe porque um troll morreu no ritual. Repor exige repetir o ato.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.JWNOsYMbaZ1uC0ga"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "DbwQj4t8GFwukToD",
+      "text": "<strong>Cristal dos Sonhos</strong> — visões proféticas reais quando você mais precisa. <em>Fio:</em> e a escuridão que vem com elas, lenta e certa, já levou muitos ao próprio fim.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.DbwQj4t8GFwukToD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "wtqLMvD2mjMxOZJe",
+      "text": "<strong>Fragmento do Codex Mortis</strong> — poder necromante cru, direto do único grimório da morte. <em>Fio:</em> onde ele está, um Inquisidor de Morthan já está a caminho. Largá-lo é difícil; carregá-lo, pior.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.wtqLMvD2mjMxOZJe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "5b2jWyWsoGnAnHdx",
+      "text": "<strong>Máscara de Nurillion de um herói morto</strong> — imune a gases e ao Pó de Morthan; guarda o rosto de quem a usou. <em>Fio:</em> alguém reconhece a máscara — e quer saber o que houve com o dono.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.5b2jWyWsoGnAnHdx"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "S3ERIJnOWZ8eYqBy",
+      "text": "<strong>Âncora de Erebo profundo</strong> — um caco dos veios que talvez <em>contenha</em> um fragmento sem forma da Fragmentação. <em>Fio:</em> pode selar uma anomalia (Fenda, Tarrasque) — ou ser exatamente o que a solta, se manuseada errado.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.S3ERIJnOWZ8eYqBy"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "zmheLTqTkB2ciCYb",
+      "text": "<strong>Pena Real da Águia do Vale</strong> — dada, não tomada: prova de um laço com uma Águia do Vale. <em>Fio:</em> abre as portas dos sete principados. Mas laço com águia é mútuo: um dia ela cobrará a sua parte.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!aMg9cHUGaEHatFkQ.zmheLTqTkB2ciCYb"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!aMg9cHUGaEHatFkQ"
+}

@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Vale da Águia (Casa / epíteto)",
+  "_id": "IMFW33beywfqfG4l",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Vale da Águia — nobres levam o nome da Casa ou um epíteto de feito.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "CtGeMgknEb76nsS8",
+      "text": "Kar'vhen",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.CtGeMgknEb76nsS8"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "0jC8PAzSIVW3hyno",
+      "text": "Sal'terra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.0jC8PAzSIVW3hyno"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "7D1sHaFgdQ7OSeFA",
+      "text": "dos Ramos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.7D1sHaFgdQ7OSeFA"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "vvQQC1dTp46YJ6EP",
+      "text": "das Águas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.vvQQC1dTp46YJ6EP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "ZkfCNN0b5eazTNQ8",
+      "text": "Grão-de-Ouro",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.ZkfCNN0b5eazTNQ8"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "bcPwDxyVTGeAXPXi",
+      "text": "Martelo-de-Ferro",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!IMFW33beywfqfG4l.bcPwDxyVTGeAXPXi"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!IMFW33beywfqfG4l"
+}

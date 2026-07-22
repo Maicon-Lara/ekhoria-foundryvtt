@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Halflings (Masculinos)",
+  "_id": "W6x4Z1NsEjqQfRES",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Halflings — bucólico, caloroso, nome de mesa. Sem exemplos canônicos: sonoridade acolhedora.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "mp1cro0hQEHKYfvt",
+      "text": "Bodo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.mp1cro0hQEHKYfvt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "WYQXbFF7OkOvwk6u",
+      "text": "Tobin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.WYQXbFF7OkOvwk6u"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "eGSigmFNKDxopY1X",
+      "text": "Perin",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.eGSigmFNKDxopY1X"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "BGMeCzosmc9OHVKu",
+      "text": "Milo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.BGMeCzosmc9OHVKu"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "lFsEqdoPWW2GhfGl",
+      "text": "Odo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.lFsEqdoPWW2GhfGl"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "ZN6iz6YJr7VfYZJ6",
+      "text": "Hamon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W6x4Z1NsEjqQfRES.ZN6iz6YJr7VfYZJ6"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!W6x4Z1NsEjqQfRES"
+}

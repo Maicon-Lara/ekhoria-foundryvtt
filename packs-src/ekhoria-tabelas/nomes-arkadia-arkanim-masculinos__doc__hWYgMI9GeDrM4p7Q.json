@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Arkádia / Arkanim (Masculinos)",
+  "_id": "hWYgMI9GeDrM4p7Q",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Arkádia (Arkanim) — latino frio, quase um título. <em>Ecoam Lyra Solis.</em> Nomes curtos, científicos.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "jARZ5OM3BCg7ftOx",
+      "text": "Vero",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.jARZ5OM3BCg7ftOx"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "YdOhXtLTGTX65Clu",
+      "text": "Cael",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.YdOhXtLTGTX65Clu"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "J64uOj0P8C6iDzHN",
+      "text": "Octan",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.J64uOj0P8C6iDzHN"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Bk4h5f7zWepouEXf",
+      "text": "Ptolem",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.Bk4h5f7zWepouEXf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "q7mBoFIPgoZ7MPpe",
+      "text": "Ansel",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.q7mBoFIPgoZ7MPpe"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "DeMWjhxIxQGS0RbE",
+      "text": "Doriel",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!hWYgMI9GeDrM4p7Q.DeMWjhxIxQGS0RbE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!hWYgMI9GeDrM4p7Q"
+}

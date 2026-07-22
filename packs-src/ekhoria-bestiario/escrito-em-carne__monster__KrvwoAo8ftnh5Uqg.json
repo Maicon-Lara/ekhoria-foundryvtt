@@ -1,0 +1,175 @@
+{
+  "name": "Escrito-em-Carne",
+  "type": "monster",
+  "_id": "KrvwoAo8ftnh5Uqg",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "escrito-em-carne",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Morto-vivo</p>\n<p>Toda necromancia de Ekhoria nasce do mesmo grimório, o <strong>Codex Mortis</strong> — e o Escrito-em-Carne é sua assinatura mais crua. Não é um esqueleto reanimado por magia comum: é um corpo talhado com as runas do Códice, que reescrevem a morte enquanto a tinta brilha. É o oposto sombrio do <strong>Silente Ancorado</strong> — onde a Tropa Sem Fim serve sob acordo e disciplina, o Escrito-em-Carne é o uso <em>proibido</em>, o que faz um Inquisidor de Morthan cruzar meio continente.</p>\n<p><em>Nota de mesa.</em> O \"se reergue\" ensina a mesa a olhar além dos PV: a vitória real é apagar as runas, não zerar a vida. Um necromante mandando-os em ondas, protegido atrás, é um bom combate de dois níveis.</p>\n<ul>\n  <li><p><strong>Runas do Códice</strong>: enquanto as runas na carne brilham, ao cair a 0 PV ele se reergue com <strong>1 PV</strong> no início da rodada seguinte (uma vez). <em>Dissipar Magia</em>, luz divina, ou raspar/queimar as runas impede o retorno.</p></li>\n  <li><p><strong>Servo do Códice</strong>: obedece apenas a quem porta um fragmento do Codex Mortis; sem um portador por perto, ataca o vivo mais próximo. Imune a Medo, encanto, efeitos mentais e veneno.</p></li>\n  <li><p><strong>Marca do Crime</strong>: onde há um Escrito-em-Carne, há um necromante criminoso por perto — e os <strong>Inquisidores de Morthan</strong> logo atrás dele. Serve tanto de ameaça quanto de pista.</p></li>\n  <li><p><strong>Vulnerável ao Divino</strong>: magia divina o fere em cheio; <em>Afastar/Destruir Mortos-Vivos</em> funciona normalmente.</p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "9",
+    "dv": "4",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ca": "13",
+    "jp": "5",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Escrito-em-Carne",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "wmTi5ddAISnpwQhL",
+      "name": "2 × Garras +4 (1d4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 4,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garras",
+        "damage_description": "1d4",
+        "damage": "1d4"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!KrvwoAo8ftnh5Uqg.wmTi5ddAISnpwQhL"
+    },
+    {
+      "_id": "kjEo9rPWxpS04VCK",
+      "name": "1 × Mordida +4 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 4,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Mordida",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!KrvwoAo8ftnh5Uqg.kjEo9rPWxpS04VCK"
+    }
+  ],
+  "effects": [],
+  "folder": "ZGyJzJVEW41txHDe",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!KrvwoAo8ftnh5Uqg"
+}

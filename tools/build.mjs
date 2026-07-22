@@ -13,6 +13,7 @@ import {
   folderDoc, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
   journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, rollTableDoc, itemUuid, writeSource,
 } from "./lib.mjs";
+import { monsterDoc } from "./lib-actors.mjs";
 
 import { classes } from "./data/classes.mjs";
 import { racas, racaAbilitiesAvulsas } from "./data/racas.mjs";
@@ -20,8 +21,12 @@ import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
 import { categorias } from "./data/itens.mjs";
 import { tabelas } from "./data/tabelas.mjs";
+import { tabelasMestre } from "./data/tabelas-mestre.mjs";
+import { grupos as gruposBestiario } from "./data/bestiario.mjs";
 import { loreJournal } from "./data/lore.mjs";
 import { loreExtraPages } from "./data/lore-extra.mjs";
+import { worldbuildingPages } from "./data/lore-worldbuilding.mjs";
+import { campanhaJournal } from "./data/campanha.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -33,6 +38,8 @@ const JOURNAL_PACK = "ekhoria-journal";
 const ITENS_PACK = "ekhoria-itens";
 const MAGIAS_PACK = "ekhoria-magias";
 const TABELAS_PACK = "ekhoria-tabelas";
+const BESTIARIO_PACK = "ekhoria-bestiario";
+const CAMPANHA_PACK = "ekhoria-campanha";
 const LORE_PACK = "ekhoria-lore";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
@@ -85,12 +92,16 @@ function buildJournalDocs() {
 
 // ── Pack de tabelas de rolagem ──
 function buildTabelasDocs() {
-  return tabelas.map((t, i) => rollTableDoc(t, (i + 1) * 100000));
+  // As de mecânica (tabelas.mjs) + as da Seção do Mestre (tabelas-mestre.mjs).
+  return [...tabelas, ...tabelasMestre].map((t, i) => rollTableDoc(t, (i + 1) * 100000));
 }
 
 // ── Pack de lore (cenário de campanha) ──
 function buildLoreDocs() {
-  const entry = { ...loreJournal, pages: [...loreJournal.pages, ...loreExtraPages] };
+  const entry = {
+    ...loreJournal,
+    pages: [...loreJournal.pages, ...loreExtraPages, ...worldbuildingPages],
+  };
   return [journalDoc(entry, 100000)];
 }
 
@@ -122,6 +133,24 @@ function buildMagiasDocs() {
   return docs;
 }
 
+// ── Pack de bestiário (Actors do tipo monster) ──
+function buildBestiarioDocs() {
+  const docs = [];
+  for (const grupo of gruposBestiario) {
+    const folder = folderDoc(grupo.folder, "Actor", "bestiario");
+    docs.push(folder);
+    grupo.monstros.forEach((m, i) => {
+      docs.push(monsterDoc(m, folder._id, grupo.folder, (i + 1) * 100000));
+    });
+  }
+  return docs;
+}
+
+// ── Pack da campanha (material do mestre; ownership restrito no module.json) ──
+function buildCampanhaDocs() {
+  return [journalDoc(campanhaJournal, 100000)];
+}
+
 async function compile(packName, docs) {
   const srcDir = path.join(SRC, packName);
   const outDir = path.join(OUT, packName);
@@ -139,8 +168,10 @@ async function main() {
   await compile(ITENS_PACK, buildItensDocs());
   await compile(MAGIAS_PACK, buildMagiasDocs());
   await compile(TABELAS_PACK, buildTabelasDocs());
+  await compile(BESTIARIO_PACK, buildBestiarioDocs());
   await compile(LORE_PACK, buildLoreDocs());
   await compile(JOURNAL_PACK, buildJournalDocs());
+  await compile(CAMPANHA_PACK, buildCampanhaDocs());
   console.log("Concluído.");
 }
 

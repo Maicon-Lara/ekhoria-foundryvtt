@@ -1,0 +1,143 @@
+{
+  "name": "O Viço (Atenção de Aelora)",
+  "type": "monster",
+  "_id": "pwJ5X37LfI3P8ecP",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+  "system": {
+    "odo_id": "o-vico-atencao-de-aelora",
+    "concept": "Besta",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Manifestação divina</p>\n<p>A Atenção de <strong>Aelora</strong> — vida, luz e crescimento sem freio, pousando onde um milagre de fertilidade ou de cura foi longe demais.</p>\n<ul>\n  <li><p><strong>Indiferença Encarnada</strong>: não é servo nem inimigo — é uma correção. Imune a Medo, encanto, sono, paralisia, veneno e a todos os efeitos mentais ou de morte instantânea. Não pode ser desmoralizada nem barganhada por meios comuns.</p></li>\n  <li><p><strong>Chamada pela Intromissão</strong>: só se manifesta quando um mortal rouba a atenção de um dos Três. Ignora todos os alvos e vai atrás da <strong>fonte do desequilíbrio</strong> primeiro.</p></li>\n  <li><p><strong>Retorno ao Silêncio</strong>: reduzida a 0 PV, dissipa-se sem deixar corpo. Se o desequilíbrio que a chamou persiste, <strong>volta a se manifestar</strong> tempos depois.</p></li>\n  <li><p><strong>Crescimento Voraz</strong>: quem é tocado faz <strong>JPC</strong> ou tem carne e vegetação brotando do próprio corpo — sofre <strong>1d6/rodada</strong> e age com Ajuste Difícil até que alguém gaste uma ação arrancando o viço (ou até morrer e virar canteiro).</p></li>\n  <li><p><strong>Cura que Corrompe</strong>: pode \"curar\" à força um alvo em 9 m, restaurando PV <strong>além do máximo</strong>; o excedente vira tumor descontrolado — nova <strong>JPC</strong> ou o alvo fica com Ajuste Difícil permanente até tratamento. A luz não tem preferidos: tudo deve crescer.</p></li>\n  <li><p><strong>Sede de Fim</strong>: sofre <strong>+50%</strong> de dano de fogo e de frio — o toque de Morthan é o que a natureza de Aelora não suporta.</p></li>\n</ul>",
+    "flavor": "Vida, luz, crescimento. O gancho: uma \"bênção\" sem clero, e o crescimento foge ao controle.",
+    "alignment": "neutro",
+    "variant": true,
+    "mv": "6",
+    "dv": "9",
+    "hp": {
+      "value": 40,
+      "max": 40
+    },
+    "ca": "17",
+    "jp": "8",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "O Viço (Atenção de Aelora)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "JAzbKJ2raCiRAfaO",
+      "name": "2 × Toque Fértil +9 (1d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 9,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque Fértil",
+        "damage_description": "1d8",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!pwJ5X37LfI3P8ecP.JAzbKJ2raCiRAfaO"
+    }
+  ],
+  "effects": [],
+  "folder": "sJQPYvvwN66HiFEp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!pwJ5X37LfI3P8ecP"
+}

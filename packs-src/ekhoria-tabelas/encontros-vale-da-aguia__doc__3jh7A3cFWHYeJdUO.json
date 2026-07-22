@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Vale da Águia",
+  "_id": "3jh7A3cFWHYeJdUO",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: intriga estilo Game of Thrones, diplomacia, espionagem. Sete ventos, nenhum governa sozinho.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Wv98ahnjiEsvt990",
+      "text": "Duas águias circulam juntas no alto — o sinal de que a guerra vem chegando. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.Wv98ahnjiEsvt990"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "AhThzrxeVau2zawS",
+      "text": "Um mensageiro da <strong>Ordem do Corvo</strong> entrega uma carta trocada de propósito. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.AhThzrxeVau2zawS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "YX6hHjDDOMIogSjr",
+      "text": "Uma Águia do Vale ferida no caminho: ajudá-la pode render um laço — ou uma acusação. — <em>Dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.YX6hHjDDOMIogSjr"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "IKF4Ua620tJRJ2OO",
+      "text": "Um agente de Vento Gélido sonda de que lado o grupo ficaria \"se houvesse guerra\". — <em>Facção</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.IKF4Ua620tJRJ2OO"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "jzwEgukwkfKdiHb9",
+      "text": "Em <strong>Ponta da Lua</strong>, espiões dos sete principados cruzam-se no mesmo salão neutro. — <em>Social / intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.jzwEgukwkfKdiHb9"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "VlxxiGFBabc6lV11",
+      "text": "Um caçador acusa um PJ de ter mirado numa águia — pena de morte no local. — <em>Perigo social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.VlxxiGFBabc6lV11"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "RnSN9jMamia2l5Dt",
+      "text": "Uma encomenda de armas de Casturel some a caminho de Durgrann. Quem quer os dois em guerra? — <em>Gancho (A Encomenda Perdida)</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.RnSN9jMamia2l5Dt"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "PuN8FNtcpyBED7qC",
+      "text": "Um Corvo é achado morto — e a inviolabilidade que segura 88 anos de paz treme. — <em>Presságio de crise</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.PuN8FNtcpyBED7qC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "g0qls5n1FweWyZUS",
+      "text": "A Princesa Maris contrata o grupo para garantir sua independência sem deixar prova. — <em>Intriga / traição</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.g0qls5n1FweWyZUS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "La46H0pBRwAa8gZS",
+      "text": "No pântano de DorneSul, um exército inteiro entrou e não saiu. — <em>Gancho de horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.La46H0pBRwAa8gZS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "oirUFZZqBt9T24Lk",
+      "text": "Ao norte, no sítio da <strong>velha Irmandade Voraz</strong>, uma Abominação ronda as runas mutadas. — <em>Combate / exploração</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.oirUFZZqBt9T24Lk"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "Lw07z3hkkcfzws9H",
+      "text": "Convidam o grupo a \"ouvir o vento\" no ponto mais alto antes de uma decisão — e o vento para de repente. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3jh7A3cFWHYeJdUO.Lw07z3hkkcfzws9H"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!3jh7A3cFWHYeJdUO"
+}

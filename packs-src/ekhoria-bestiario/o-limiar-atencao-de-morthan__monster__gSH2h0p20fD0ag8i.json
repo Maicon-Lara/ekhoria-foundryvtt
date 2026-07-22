@@ -1,0 +1,143 @@
+{
+  "name": "O Limiar (Atenção de Morthan)",
+  "type": "monster",
+  "_id": "gSH2h0p20fD0ag8i",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+  "system": {
+    "odo_id": "o-limiar-atencao-de-morthan",
+    "concept": "Besta",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Manifestação divina</p>\n<p>A Atenção de <strong>Morthan</strong> — morte, fim e silêncio vindo cobrar o que já devia ter sido levado. É o predador natural de todo morto-vivo do cenário.</p>\n<ul>\n  <li><p><strong>Indiferença Encarnada</strong>: não é servo nem inimigo — é uma correção. Imune a Medo, encanto, sono, paralisia, veneno e a todos os efeitos mentais ou de morte instantânea. Não pode ser desmoralizada nem barganhada por meios comuns.</p></li>\n  <li><p><strong>Chamada pela Intromissão</strong>: só se manifesta quando um mortal rouba a atenção de um dos Três. Ignora todos os alvos e vai atrás da <strong>fonte do desequilíbrio</strong> primeiro.</p></li>\n  <li><p><strong>Retorno ao Silêncio</strong>: reduzida a 0 PV, dissipa-se sem deixar corpo. Se o desequilíbrio que a chamou persiste, <strong>volta a se manifestar</strong> tempos depois.</p></li>\n  <li><p><strong>Cobrança do Limiar</strong>: contra criaturas que burlaram a morte — mortos-vivos, ressuscitados, quem fingiu o próprio óbito — o Toque do Fim causa <strong>dano dobrado</strong>, e na falha de <strong>JPC</strong> a criatura simplesmente <em>termina</em>, a morte fora de hora enfim corrigida. É o que a Tropa Sem Fim de Breônia teme, e o que um dia pode vir cobrar o Capitão Rorik.</p></li>\n  <li><p><strong>Silêncio Final</strong>: um alvo reduzido a 0 PV por ela não pode ser ressuscitado, reanimado nem transformado em morto-vivo. O que ela encerra, fica encerrado.</p></li>\n  <li><p><strong>Presença de Ausência</strong>: humanoides a até 9 m fazem <strong>JPS</strong> ou ficam desorientados (Ajuste Difícil) — <em>\"a sensação de ter chegado ao lugar certo pela última vez\"</em>, nas palavras do único que a descreveu.</p></li>\n</ul>",
+    "flavor": "Morte, fim, silêncio. O gancho: Morthan ignora algo que já deveria ter levado — até deixar de ignorar.",
+    "alignment": "neutro",
+    "variant": true,
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 40,
+      "max": 40
+    },
+    "ca": "18",
+    "jp": "8",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "O Limiar (Atenção de Morthan)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "V5lwesVw3Gy97GNz",
+      "name": "1 × Toque do Fim +9 (2d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 9,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque do Fim",
+        "damage_description": "2d8",
+        "damage": "2d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!gSH2h0p20fD0ag8i.V5lwesVw3Gy97GNz"
+    }
+  ],
+  "effects": [],
+  "folder": "sJQPYvvwN66HiFEp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!gSH2h0p20fD0ag8i"
+}

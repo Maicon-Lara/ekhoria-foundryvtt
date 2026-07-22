@@ -1,0 +1,142 @@
+{
+  "name": "Umbra Pávida",
+  "type": "monster",
+  "_id": "HPT1788610DHsb1M",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "umbra-pavida",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Morto-vivo</p>\n<p>Quando alguém fica exposto ao <strong>Breu</strong> tempo demais, seus próprios medos podem se descolar e ganhar forma. A Umbra Pávida é isso: uma sombra fiada do terror de uma pessoa específica, condenada a caçar exatamente quem a gerou. Vêm em bandos quando uma vila inteira adormece no escuro — e é por elas que a <strong>Pira</strong> do Guardião nunca pode apagar.</p>\n<ul>\n  <li><p><strong>Nascida do Medo</strong>: só existe na escuridão. Nas sombras, esconde-se (1-4 em 1d6) e ataca na surpresa. Sob luz plena fica visível e age com <strong>Ajuste Difícil</strong>.</p></li>\n  <li><p><strong>Toque do Pavor</strong>: quem sofre dano faz <strong>JPS</strong> ou fica <strong>abalado</strong> por 1d4 rodadas; se já estava abalado, foge apavorado.</p></li>\n  <li><p><strong>Caça o Gerador</strong>: <strong>+2</strong> para acertar a criatura de cujos medos nasceu, e a prioriza sobre qualquer outro alvo.</p></li>\n  <li><p><strong>Desfeita pela Luz</strong>: dano de fogo ou de luz mágica a fere em cheio; um facho de <em>Luz</em> ou a Pira do Guardião a dissipa em 1 rodada.</p></li>\n</ul>",
+    "habitat": "Breônia — o escuro do Breu",
+    "alignment": "caotico",
+    "mv": "12",
+    "dv": "3",
+    "hp": {
+      "value": 13,
+      "max": 13
+    },
+    "ca": "15",
+    "jp": "5",
+    "mo": "10"
+  },
+  "prototypeToken": {
+    "name": "Umbra Pávida",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "qRn3gXnk4uTCgzWi",
+      "name": "1 × Garra gélida +3 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 3,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garra gélida",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!HPT1788610DHsb1M.qRn3gXnk4uTCgzWi"
+    }
+  ],
+  "effects": [],
+  "folder": "AhxOOdLAJ0pVXTKO",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!HPT1788610DHsb1M"
+}

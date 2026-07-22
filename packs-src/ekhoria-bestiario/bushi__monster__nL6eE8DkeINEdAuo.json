@@ -1,0 +1,143 @@
+{
+  "name": "Bushi",
+  "type": "monster",
+  "_id": "nL6eE8DkeINEdAuo",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "bushi",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Orc de Yorugan — Guerreiro (Samurai) 5º</p>\n<p>Guerreiro de honra de <strong>Yorugan</strong>. Luta por necessidade, nunca por raiva.</p>\n<ul>\n  <li><p><strong>Fio que Abre</strong>: a Kurogane faz ferimentos sangrarem — 1 de dano por rodada até serem tratados (acumula).</p></li>\n  <li><p><strong>Duelo de Honra</strong>: ao desafiar um oponente formalmente, +2 no primeiro golpe se o duelo for aceito.</p></li>\n  <li><p><strong>Domínio do Ki</strong>: 1×/combate, um feito sobre-humano (quebrar um escudo, um salto impossível, desarmar sem sacar).</p></li>\n  <li><p><strong>Controle</strong>: imune a provocação e Medo; jamais ataca por fúria — o que o torna assustador.</p></li>\n</ul>",
+    "flavor": "Guerreiro de honra. Luta por necessidade, nunca por raiva.",
+    "habitat": "Yorugan",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 26,
+      "max": 26
+    },
+    "ca": "16",
+    "jp": "7",
+    "mo": "11"
+  },
+  "prototypeToken": {
+    "name": "Bushi",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "Ah4HzDIJWnw7tfy0",
+      "name": "1 × Kurogane +6 (1d10+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 6,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Kurogane",
+        "damage_description": "1d10+1",
+        "damage": "1d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!nL6eE8DkeINEdAuo.Ah4HzDIJWnw7tfy0"
+    }
+  ],
+  "effects": [],
+  "folder": "mrh0lg4XkZr13baC",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!nL6eE8DkeINEdAuo"
+}

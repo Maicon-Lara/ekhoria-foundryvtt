@@ -1,0 +1,210 @@
+{
+  "name": "Tarrasque das Areias",
+  "type": "monster",
+  "_id": "mae6SGTw5bJEJxnl",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-colossal.webp",
+  "system": {
+    "odo_id": "tarrasque-das-areias",
+    "concept": "Besta",
+    "size": "colossal",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro (Lendário)</p>\n<p>Não é um animal nem uma fera grande: é o que acontece quando um dos <strong>fragmentos sem forma</strong> da Fragmentação aflora sob as <strong>Areias Esquecidas</strong> e veste areia, osso e vidro como corpo. Some por décadas e ressurge sem aviso — um sinal, dizem os Mantes, de que os sistemas de contenção do mundo estão cedendo. Quando emerge, clãs inteiros se mudam, e a Irmandade Voraz a trata não como caça, mas como catástrofe a ser sobrevivida. Matá-la talvez seja impossível; o que se aprende é a fazê-la <em>afundar de novo</em>.</p>\n<p><strong>Movimento (fonte):</strong> 12/12E — 12 m, 12 m escavando.</p>\n<ul>\n  <li><p><strong>Manifestação Sem Forma</strong>: não tem mente que se enfeitice nem alma que se drene — imune a Medo, encanto, sono, paralisia, veneno e a todos os efeitos mentais e de morte instantânea.</p></li>\n  <li><p><strong>Couraça Vitrificada</strong>: a areia fundida que a recobre reduz em <strong>5 pontos</strong> todo dano físico de fontes não-mágicas (mínimo 1).</p></li>\n  <li><p><strong>Carapaça Reflexiva</strong>: quando uma magia que exige Jogada de Proteção falha contra ela (ela passa na JP), o efeito <strong>ricocheteia para o conjurador</strong>, que faz a própria JP contra a própria magia.</p></li>\n  <li><p><strong>Emergir das Areias</strong>: escava a 12 m e irrompe do solo. No turno em que emerge, todas as criaturas em pé num raio de 9 m fazem <strong>JPD</strong> ou são <strong>derrubadas</strong>; um alvo desprevenido por baixo sofre a Mordida como ataque <strong>Muito Fácil</strong> e com <strong>dano dobrado</strong>.</p></li>\n  <li><p><strong>Engolir</strong>: num acerto de Mordida contra alvo de tamanho <strong>Grande ou menor</strong>, se a margem for de 5+, o alvo é engolido — sofre <strong>2d6 por rodada</strong> e age com Ajuste Difícil até escapar (abrir caminho por dentro exige causar 30 pontos de dano à parede estomacal).</p></li>\n  <li><p><strong>Indomável</strong>: regenera <strong>2d6 PV por rodada</strong>. Reduzida a 0 PV, <strong>afunda nas Areias</strong> e se desfaz em vez de morrer — volta a se manifestar tempos depois, a menos que seja contida por meios que tratem a <em>causa</em>, não o corpo (selamento arcano, um fragmento de <strong>Erebo</strong>, ou o que quer que o Mestre decida que ancora um fragmento sem forma).</p></li>\n</ul>",
+    "habitat": "As Areias Esquecidas",
+    "alignment": "caotico",
+    "mv": "12",
+    "dv": "18",
+    "hp": {
+      "value": 81,
+      "max": 81
+    },
+    "ca": "20",
+    "jp": "10",
+    "mo": "12"
+  },
+  "prototypeToken": {
+    "name": "Tarrasque das Areias",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-colossal.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "nEDEvFSUxRChmUFX",
+      "name": "1 × Mordida +18 (4d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 18,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Mordida",
+        "damage_description": "4d8",
+        "damage": "4d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!mae6SGTw5bJEJxnl.nEDEvFSUxRChmUFX"
+    },
+    {
+      "_id": "hyy4TT4CIqRfUyaf",
+      "name": "2 × Garras +18 (2d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 18,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garras",
+        "damage_description": "2d8",
+        "damage": "2d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!mae6SGTw5bJEJxnl.hyy4TT4CIqRfUyaf"
+    },
+    {
+      "_id": "B1nLZt03dTNXuv7G",
+      "name": "1 × Cauda +18 (3d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 18,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Cauda",
+        "damage_description": "3d8",
+        "damage": "3d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!mae6SGTw5bJEJxnl.B1nLZt03dTNXuv7G"
+    }
+  ],
+  "effects": [],
+  "folder": "SKwQsm8qC1nm17LR",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!mae6SGTw5bJEJxnl"
+}

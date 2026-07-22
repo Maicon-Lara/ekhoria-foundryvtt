@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Halflings (Sobrenome)",
+  "_id": "sW6k620ylmPegixl",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Halflings — sobrenome ligado à comida, à casa ou à Rede de Sombras.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "khvOMAI5IoDQcdgp",
+      "text": "Pé-de-Cogumelo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.khvOMAI5IoDQcdgp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "3O6mQG5kcwqACpKC",
+      "text": "Boa-Mesa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.3O6mQG5kcwqACpKC"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "A7WS9omJCHJTl7MR",
+      "text": "Sete-Refeições",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.A7WS9omJCHJTl7MR"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "MRap1xXOSJZJ0x2F",
+      "text": "Toca-Funda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.MRap1xXOSJZJ0x2F"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "ijC6DYnkx4nf8hbK",
+      "text": "Guarda-Boato",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.ijC6DYnkx4nf8hbK"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Bf4AWtokldB8RU0H",
+      "text": "Colina-Cavada",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!sW6k620ylmPegixl.Bf4AWtokldB8RU0H"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!sW6k620ylmPegixl"
+}

@@ -1,0 +1,209 @@
+{
+  "folder": null,
+  "name": "Encontros — Yorugan",
+  "_id": "ayvpKsukiYuMtEqg",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><em>Tom: honra e duelo, choque cultural, disciplina. Onde o silêncio é controle e o Ki é fé.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "V5hyJcJbhpDd2KWZ",
+      "text": "Falar alto numa rua atrai olhares de reprovação: quebrar o silêncio é falta de controle. — <em>Choque cultural</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.V5hyJcJbhpDd2KWZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "TgAtZvT7fhICDbW6",
+      "text": "Um Bushi desafia um PJ para um duelo de honra por uma ofensa que o grupo nem percebeu. — <em>Social / combate</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.TgAtZvT7fhICDbW6"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "AIY8qEU1t4nfQoTU",
+      "text": "Um <strong>Gitare</strong> marcado pela tatuagem da vergonha pede ajuda para lavar a desonra. — <em>Gancho / NPC</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.AIY8qEU1t4nfQoTU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "yPJ0MDzv4cj7BkV5",
+      "text": "Um Sohei oferece pouso no templo — e observa em silêncio a disciplina (ou falta) do grupo. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.yPJ0MDzv4cj7BkV5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "B75Snvh5T0MJswjr",
+      "text": "Um Heimin ferreiro entra em Fúria dos Ancestrais e forja uma obra-prima numa única noite. — <em>Cor local</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.B75Snvh5T0MJswjr"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "HXrRbPpgHkdp5e8X",
+      "text": "Guardas barram o grupo: estrangeiros precisam de escolta e de um propósito declarado. — <em>Social</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.HXrRbPpgHkdp5e8X"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "lqsllG11GL7DzAK6",
+      "text": "Um praticante entrou na Fúria sem disciplina e não voltou. O que ronda os bambuzais agora? — <em>Combate / horror</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.lqsllG11GL7DzAK6"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "QbavUW8pMDeWBspZ",
+      "text": "Um Gakusha diplomata sonda o grupo por notícias do continente, medindo cada palavra. — <em>Intriga</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.QbavUW8pMDeWBspZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "6B0vMfIKO9NaAh1S",
+      "text": "Um jovem Bushi falha em alcançar os ancestrais e esconde a vergonha: o Ki está minguando. — <em>Pista / segredo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.6B0vMfIKO9NaAh1S"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "FqSRUGxB8C94nbWa",
+      "text": "O grupo testemunha a rotina imutável do Imperador Kaito — e o instante em que ela quase falha. — <em>Segredo</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.FqSRUGxB8C94nbWa"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "GhsTtO7tkqlVx7NG",
+      "text": "Rumores de torres erguidas para \"cercar a ilha\": Yorugan começa a se fechar. — <em>Presságio</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.GhsTtO7tkqlVx7NG"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "EzpJtdVLD6RTHU6H",
+      "text": "Alguém pede ao grupo que leve para fora uma verdade capaz de envergonhar o Império. — <em>Dilema</em>",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ayvpKsukiYuMtEqg.EzpJtdVLD6RTHU6H"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ayvpKsukiYuMtEqg"
+}

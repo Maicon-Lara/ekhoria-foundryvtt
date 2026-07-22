@@ -1,0 +1,177 @@
+{
+  "name": "Fera-Abissal",
+  "type": "monster",
+  "_id": "XLOMVgQZqzX2Gsiu",
+  "img": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+  "system": {
+    "odo_id": "fera-abissal",
+    "concept": "Besta",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>Organismo deformado pela proximidade da <strong>Fenda Abissal</strong>, nas profundezas de Cinthara (Durgrann). Não é uma espécie: é o que a pressão dimensional faz com a carne que vive perto demais do rasgo. O <strong>Punhal Tenebroso</strong> já capturou alguns para extrair seus fluidos — é desse sangue que o Marcado da <strong>Escola da Fera-Abissal</strong> deriva sua habilidade homônima.</p>\n<p><strong>Movimento (fonte):</strong> 9/6E — 9 m, 6 m escavando.</p>\n<ul>\n  <li><p><strong>Sangue Corrosivo</strong>: quem a fere em corpo a corpo (ou a morde) sofre <strong>1d6 de dano ácido</strong> imediato.</p></li>\n  <li><p><strong>Vigor Abissal</strong>: não sente dor nem medo, e só pode ser desmoralizada por dano mágico. Enquanto estiver a até 30 m da Fenda, cura <strong>1 PV por rodada</strong>.</p></li>\n  <li><p><strong>Presença Dissonante</strong>: humanoides a até 9 m que a avistem devem passar numa <strong>JPS</strong> ou ficam <strong>abalados</strong> (Ajuste Difícil em testes e ataques) por 1d4 rodadas — o mesmo pavor que faz quem chega perto da Fenda enlouquecer.</p></li>\n</ul>",
+    "habitat": "Cinthara (Durgrann) — proximidades da Fenda Abissal",
+    "alignment": "caotico",
+    "mv": "9",
+    "dv": "8",
+    "dv_bonus": "+3",
+    "hp": {
+      "value": 39,
+      "max": 39
+    },
+    "ca": "16",
+    "jp": "6",
+    "mo": "10"
+  },
+  "prototypeToken": {
+    "name": "Fera-Abissal",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/besta-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "wMhv1075wqTcfeYJ",
+      "name": "2 × Garras +8 (1d8)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 8,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Garras",
+        "damage_description": "1d8",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!XLOMVgQZqzX2Gsiu.wMhv1075wqTcfeYJ"
+    },
+    {
+      "_id": "MSyQU0wtWkPMT0SM",
+      "name": "1 × Dentadura +8 (2d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 8,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Dentadura",
+        "damage_description": "2d6",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!XLOMVgQZqzX2Gsiu.MSyQU0wtWkPMT0SM"
+    }
+  ],
+  "effects": [],
+  "folder": "N8YWa8xKZ8iDIEYW",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!XLOMVgQZqzX2Gsiu"
+}

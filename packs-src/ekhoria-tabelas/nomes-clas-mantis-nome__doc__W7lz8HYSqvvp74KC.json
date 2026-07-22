@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Clãs Mantis (Nome)",
+  "_id": "W7lz8HYSqvvp74KC",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Clãs Mantis — insectoide, consoante dura, apóstrofo. <em>Ecoam Kha'lix Shir'reth.</em> Sem gênero humano.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ShJdJeMf3zdqdTFl",
+      "text": "Kha'lix",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.ShJdJeMf3zdqdTFl"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "zZoG0AokO75c1tP5",
+      "text": "Zt'kaa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.zZoG0AokO75c1tP5"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "A2oLmFbTZDuB7OVy",
+      "text": "Rrik'tha",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.A2oLmFbTZDuB7OVy"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "w5nBqjrnEsU5QpDD",
+      "text": "Vo'sskt",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.w5nBqjrnEsU5QpDD"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "92y79pfj1AvK4tpn",
+      "text": "Th'raxx",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.92y79pfj1AvK4tpn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "EqQMJ7l1We7KNFej",
+      "text": "Nyx'ka",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!W7lz8HYSqvvp74KC.EqQMJ7l1We7KNFej"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!W7lz8HYSqvvp74KC"
+}

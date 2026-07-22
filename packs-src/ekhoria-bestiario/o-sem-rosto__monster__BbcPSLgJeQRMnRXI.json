@@ -1,0 +1,141 @@
+{
+  "name": "O Sem-Rosto",
+  "type": "monster",
+  "_id": "BbcPSLgJeQRMnRXI",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "o-sem-rosto",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\n<p>O ilusionismo não tem escola nem mestres — só gente que aprendeu a distorcer a percepção porque a alternativa era ser encontrada. O Sem-Rosto é o preço quando a máscara dura tempo demais: um Cambion que precisou parecer humano por vidas seguidas, ou um meio-elfo que fez o <strong>Juramento do Espelho</strong> e escolheu <em>rejeitar ambas as heranças e virar algo sem nome</em> — e virou, literalmente. Debaixo da última máscara não sobrou rosto: só a fome de usar o de outra pessoa. À pergunta \"quem é o rosto por baixo?\", ele é a resposta que ninguém queria.</p>\n<p><em>Nota de mesa.</em> Não é um combate — é uma investigação. Plante-o cedo (um NPC recorrente \"estranho\"), deixe a mesa sentir que algo não fecha, e faça a revelação valer. Ótimo vilão para arcos ligados à Rede de Sombras, aos Cambions ou ao Súcubo que os gera.</p>\n<ul>\n  <li><p><strong>Sem Rosto Próprio</strong>: sem uma máscara vestida, é um borrão pálido e sem feições. Quem o vê assim faz <strong>JPS</strong> ou fica <strong>abalado</strong> por 1d4 rodadas.</p></li>\n  <li><p><strong>Roubar o Rosto</strong>: estudando uma criatura humanoide por alguns minutos (ou tocando-a durante o sono), assume sua aparência, voz e maneirismos com perfeição — inclui tendência falsa (como <em>Logro</em>) e engana até <em>Detectar Mentiras</em>. Só <em>Visão da Verdade</em> ou magia de revelação o desmascara.</p></li>\n  <li><p><strong>Usurpar o Original</strong>: enquanto veste o rosto de alguém, os que conhecem a vítima fazem <strong>JPS</strong> ao encontrá-la de verdade ou a confundem com um impostor. Se o original morre enquanto o Sem-Rosto o veste, a identidade passa a ser dele — sem emenda.</p></li>\n  <li><p><strong>Golpe de Confiança</strong>: o primeiro ataque contra quem confia na máscara (alvo desprevenido) é <strong>Muito Fácil</strong> e causa <strong>dano dobrado</strong>. Ele não vence em campo aberto; vence antes de a luta começar.</p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "14",
+    "jp": "6",
+    "mo": "9"
+  },
+  "prototypeToken": {
+    "name": "O Sem-Rosto",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "TKGfmQHx4OQtZ9Te",
+      "name": "1 × Lâmina oculta +5 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Lâmina oculta",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!BbcPSLgJeQRMnRXI.TKGfmQHx4OQtZ9Te"
+    }
+  ],
+  "effects": [],
+  "folder": "m9nvA0kuzXfrIykl",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!BbcPSLgJeQRMnRXI"
+}
