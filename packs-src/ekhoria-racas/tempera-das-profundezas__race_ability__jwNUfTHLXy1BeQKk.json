@@ -5,7 +5,7 @@
   "_id": "jwNUfTHLXy1BeQKk",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p>",
+    "description": "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
     "xp": null,
     "jp": {
       "jpc": true,

@@ -197,7 +197,7 @@ export const racas = [
       },
       {
         nome: "Postura do Sol Poente",
-        desc: "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p>",
+        desc: "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
         jp: { jpc: true },
       },
       {
@@ -218,7 +218,7 @@ export const racas = [
     habilidades: [
       {
         nome: "Têmpera das Profundezas",
-        desc: "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p>",
+        desc: "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
         jp: { jpc: true },
       },
       {

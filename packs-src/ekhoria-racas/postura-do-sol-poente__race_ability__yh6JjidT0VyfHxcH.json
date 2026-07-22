@@ -5,7 +5,7 @@
   "_id": "yh6JjidT0VyfHxcH",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p>",
+    "description": "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
     "xp": null,
     "jp": {
       "jpc": true,
