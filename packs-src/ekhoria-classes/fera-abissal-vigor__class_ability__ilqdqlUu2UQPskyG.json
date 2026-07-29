@@ -1,11 +1,11 @@
 {
-  "folder": "PxDNfp70qwZ7bza3",
+  "folder": "CbIAVCmUTQsyYXBz",
   "name": "Fera-Abissal (vigor)",
   "type": "class_ability",
-  "_id": "FGzgQrvteaMNOcNo",
+  "_id": "ilqdqlUu2UQPskyG",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>A Escola do vigor: o corpo aceita mais veneno do que deveria, e devolve.</p><p>Tolera <strong>duas substâncias de combate ao mesmo tempo</strong>.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta habilidade <strong>para dentro dessa janela</strong> — ela é sincronizada para o personagem automaticamente.</p><p><em>Atalho:</em> o compêndio de Classes já traz variantes prontas (ex.: <em>Marcado (Couraçado)</em>) com a Escola embutida — basta arrastar a variante e pular este passo.</p>",
+    "description": "<p>A Escola do vigor: o corpo aceita mais veneno do que deveria, e devolve.</p><p>Tolera <strong>duas substâncias de combate ao mesmo tempo</strong>.</p><hr><p><strong>Esta é a sua Escola</strong> — progride inteira, nos degraus 3º, 6º e 10º.</p>",
     "level": 3,
     "level3": "",
     "level6": "<p><strong>+1 PV por nível</strong> (retroativo) e <strong>+1 de CA natural</strong>.</p>",
@@ -46,5 +46,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!FGzgQrvteaMNOcNo"
+  "_key": "!items!ilqdqlUu2UQPskyG"
 }

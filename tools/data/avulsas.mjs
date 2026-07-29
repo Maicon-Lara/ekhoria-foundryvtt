@@ -9,11 +9,11 @@
 // A pasta se chama "Marcado (Escolas)" de propósito: aninhaPastas() lê o
 // parêntese e a coloca dentro da pasta "Marcado", virando "Escolas".
 
-const ESCOLAS = "Marcado (Escolas)";
+const PASTA_ESCOLAS = "Marcado (Escolas)";
 
-export const classAbilitiesAvulsas = [
+const ESCOLAS = [
   {
-    folder: ESCOLAS,
+    folder: PASTA_ESCOLAS,
     nome: "Verme Escarlate (marcial)",
     level: 3,
     desc:
@@ -25,7 +25,7 @@ export const classAbilitiesAvulsas = [
     level10: "<p><strong>Ataque extra</strong> por rodada com essas espadas.</p>",
   },
   {
-    folder: ESCOLAS,
+    folder: PASTA_ESCOLAS,
     nome: "Águia-Cadáver (Ecos)",
     level: 3,
     desc:
@@ -38,7 +38,7 @@ export const classAbilitiesAvulsas = [
       "<p>Recupera <strong>todos os Ecos</strong> com <strong>1 turno de descanso</strong>.</p>",
   },
   {
-    folder: ESCOLAS,
+    folder: PASTA_ESCOLAS,
     nome: "Couraçado (furtivo)",
     level: 3,
     desc:
@@ -51,7 +51,7 @@ export const classAbilitiesAvulsas = [
       "<p><strong>+2 na CA</strong> contra criaturas <strong>não humanoides</strong>.</p>",
   },
   {
-    folder: ESCOLAS,
+    folder: PASTA_ESCOLAS,
     nome: "Fera-Abissal (vigor)",
     level: 3,
     desc:
@@ -64,3 +64,23 @@ export const classAbilitiesAvulsas = [
       "e faz <strong>JPC</strong>.</p>",
   },
 ];
+
+// O sistema OD2 NAO deixa soltar uma class_ability direto no personagem: a
+// ficha bloqueia com "Habilidades de classe nao podem ser adicionadas
+// diretamente ao personagem. Adicione-as a classe do personagem." O caminho
+// nativo e abrir o item da CLASSE que ja esta na ficha e soltar a habilidade
+// dentro dele — funciona, mas e pouco descobrivel. Por isso existem tambem as
+// variantes de classe em variantes.mjs, com a Escola ja embutida.
+const COMO_ADICIONAR =
+  "<hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta habilidade <strong>para dentro dessa janela</strong> — ela é sincronizada para o personagem automaticamente.</p>" +
+  "<p><em>Atalho:</em> o compêndio de Classes já traz variantes prontas (ex.: <em>Marcado (Couraçado)</em>) com a Escola embutida — basta arrastar a variante e pular este passo.</p>";
+
+// Versao CRUA, sem a nota de uso: e o que as variantes de classe embutem.
+// Quem arrasta "Marcado (Couracado)" ja usou o atalho, entao a instrucao de
+// "como adicionar manualmente" so faria ruido na ficha dele.
+export const classAbilitiesBase = ESCOLAS;
+
+export const classAbilitiesAvulsas = ESCOLAS.map((a) => ({
+  ...a,
+  desc: (a.desc || "") + COMO_ADICIONAR,
+}));

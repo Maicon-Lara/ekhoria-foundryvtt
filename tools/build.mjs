@@ -17,6 +17,7 @@ import { monsterDoc } from "./lib-actors.mjs";
 
 import { classes } from "./data/classes.mjs";
 import { classAbilitiesAvulsas } from "./data/avulsas.mjs";
+import { variantes } from "./data/variantes.mjs";
 import { racas, racaAbilitiesAvulsas } from "./data/racas.mjs";
 import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
@@ -59,7 +60,7 @@ function buildClassesDocs() {
   const docs = [];
   const pastaChassi = new Map();
 
-  for (const cls of classes) {
+  for (const cls of [...classes, ...variantes]) {
     const chassi = CHASSI[cls.tabela];
     let pai = null;
     if (chassi) {

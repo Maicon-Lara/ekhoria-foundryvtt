@@ -1,11 +1,11 @@
 {
-  "folder": "PxDNfp70qwZ7bza3",
+  "folder": "kVTQOefl3vi7kaDq",
   "name": "Águia-Cadáver (Ecos)",
   "type": "class_ability",
-  "_id": "KkkDZioO04M4KKum",
+  "_id": "9r3AhqKqtyKmLkWj",
   "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>A Escola que aprofunda os Ecos, a herança sonora da marcação.</p><p><strong>+1 de dano por dado</strong> nos Ecos, e aprende o <strong>Eco Skorn</strong> (como <em>Escudo Arcano</em>, <strong>1×/dia</strong>).</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta habilidade <strong>para dentro dessa janela</strong> — ela é sincronizada para o personagem automaticamente.</p><p><em>Atalho:</em> o compêndio de Classes já traz variantes prontas (ex.: <em>Marcado (Couraçado)</em>) com a Escola embutida — basta arrastar a variante e pular este passo.</p>",
+    "description": "<p>A Escola que aprofunda os Ecos, a herança sonora da marcação.</p><p><strong>+1 de dano por dado</strong> nos Ecos, e aprende o <strong>Eco Skorn</strong> (como <em>Escudo Arcano</em>, <strong>1×/dia</strong>).</p><hr><p><strong>Esta é a sua Escola</strong> — progride inteira, nos degraus 3º, 6º e 10º.</p>",
     "level": 3,
     "level3": "",
     "level6": "<p><strong>Eco Ygth:</strong> prende o alvo ao plano, como <em>Teia</em> somática.</p>",
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!KkkDZioO04M4KKum"
+  "_key": "!items!9r3AhqKqtyKmLkWj"
 }

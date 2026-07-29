@@ -1,0 +1,122 @@
+{
+  "folder": "CbIAVCmUTQsyYXBz",
+  "name": "Marcado (Fera-Abissal)",
+  "type": "class",
+  "_id": "6vRNsVBokvN46a8F",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
+  "system": {
+    "flavor": "<p>O Marcado da Escola <strong>Fera-Abissal</strong>. <em>Especialização de Guerreiro.</em></p>",
+    "description": "<p>O Marcado bebe o que matou e sobrevive: o Rito de Marcação integra toxinas concentradas ao metabolismo, e quem passa desenvolve olhos de pupila vertical. Perde Aparar e Maestria em Arma. <strong>Dependência:</strong> ao consumir substâncias de combate, fica sujeito às regras de Vício e Abstinência.</p><p><strong>Esta variante já traz a Escola Fera-Abissal embutida</strong> — arraste-a para a ficha e a Escola vem junto, com as evoluções de 3º, 6º e 10º nível. Para trocar de Escola depois, use a versão genérica da classe e adicione a Escola pelo compêndio <em>Marcado › Escolas</em>.</p>",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "equipment_restrictions": {
+      "weapons": "Pode usar todas as armas.",
+      "armors": "Apenas armaduras leves.",
+      "magic_items": "Não pode usar cajados, varinhas ou pergaminhos mágicos, exceto pergaminhos de proteção."
+    },
+    "restrictions": {
+      "alignments": [],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.AJYdLVC43rZljOgX",
+      "Compendium.ekhoria.ekhoria-classes.Item.bohRnvnzDQoTvGov",
+      "Compendium.ekhoria.ekhoria-classes.Item.JPYYq1Sfu8lUFaRv",
+      "Compendium.ekhoria.ekhoria-classes.Item.ilqdqlUu2UQPskyG"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6vRNsVBokvN46a8F"
+}
