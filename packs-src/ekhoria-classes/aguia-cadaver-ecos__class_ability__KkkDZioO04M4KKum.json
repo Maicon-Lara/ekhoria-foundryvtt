@@ -1,15 +1,15 @@
 {
-  "folder": "1Dj5GkuFSCDx9Ooq",
-  "name": "Escolha da Escola",
+  "folder": "PxDNfp70qwZ7bza3",
+  "name": "Águia-Cadáver (Ecos)",
   "type": "class_ability",
-  "_id": "0g7WtP3vIHG2YYu4",
-  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
+  "_id": "KkkDZioO04M4KKum",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Escolhe <strong>uma das quatro Escolas</strong> — Verme Escarlate, Águia-Cadáver, Couraçado ou Fera-Abissal. A Escola é a linha de habilidades do Marcado: um caminho que <strong>progride com o nível</strong> nos degraus 3, 6 e 10.</p>",
+    "description": "<p>A Escola que aprofunda os Ecos, a herança sonora da marcação.</p><p><strong>+1 de dano por dado</strong> nos Ecos, e aprende o <strong>Eco Skorn</strong> (como <em>Escudo Arcano</em>, <strong>1×/dia</strong>).</p>",
     "level": 3,
     "level3": "",
-    "level6": "<p>A Escola escolhida avança para o seu segundo degrau.</p>",
-    "level10": "<p>A Escola escolhida avança para o seu degrau final.</p>",
+    "level6": "<p><strong>Eco Ygth:</strong> prende o alvo ao plano, como <em>Teia</em> somática.</p>",
+    "level10": "<p>Recupera <strong>todos os Ecos</strong> com <strong>1 turno de descanso</strong>.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!0g7WtP3vIHG2YYu4"
+  "_key": "!items!KkkDZioO04M4KKum"
 }

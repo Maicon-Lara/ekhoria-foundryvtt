@@ -16,6 +16,7 @@ import {
 import { monsterDoc } from "./lib-actors.mjs";
 
 import { classes } from "./data/classes.mjs";
+import { classAbilitiesAvulsas } from "./data/avulsas.mjs";
 import { racas, racaAbilitiesAvulsas } from "./data/racas.mjs";
 import { journalPages } from "./data/journal.mjs";
 import { escolas } from "./data/magias.mjs";
@@ -80,6 +81,19 @@ function buildClassesDocs() {
     });
     docs.push(classDoc(cls, folder._id, abilityUuids));
   }
+
+  // Escolhas de linha (Escolas do Marcado): o jogador arrasta a que escolheu.
+  // A pasta "Marcado (Escolas)" é aninhada dentro de "Marcado" por
+  // aninhaPastas(), que lê o parêntese.
+  const avulsas = {};
+  classAbilitiesAvulsas.forEach((ab, i) => {
+    if (!avulsas[ab.folder]) {
+      avulsas[ab.folder] = folderDoc(ab.folder, "Item", "classes");
+      docs.push(avulsas[ab.folder]);
+    }
+    docs.push(classAbilityDoc(ab, avulsas[ab.folder]._id, ab.folder, (i + 1) * 100000));
+  });
+
   return docs;
 }
 

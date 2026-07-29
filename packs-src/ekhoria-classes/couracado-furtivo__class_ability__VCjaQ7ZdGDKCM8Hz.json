@@ -1,15 +1,15 @@
 {
-  "folder": "1Dj5GkuFSCDx9Ooq",
-  "name": "Escolha da Escola",
+  "folder": "PxDNfp70qwZ7bza3",
+  "name": "Couraçado (furtivo)",
   "type": "class_ability",
-  "_id": "0g7WtP3vIHG2YYu4",
-  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
+  "_id": "VCjaQ7ZdGDKCM8Hz",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
-    "description": "<p>Escolhe <strong>uma das quatro Escolas</strong> — Verme Escarlate, Águia-Cadáver, Couraçado ou Fera-Abissal. A Escola é a linha de habilidades do Marcado: um caminho que <strong>progride com o nível</strong> nos degraus 3, 6 e 10.</p>",
+    "description": "<p>A Escola furtiva: o Marcado que aprendeu a não ser visto antes de ser temido.</p><p>Ganha os talentos <strong>Furtividade</strong> e <strong>Escalar</strong> com as chances do <strong>Ladrão</strong>.</p>",
     "level": 3,
     "level3": "",
-    "level6": "<p>A Escola escolhida avança para o seu segundo degrau.</p>",
-    "level10": "<p>A Escola escolhida avança para o seu degrau final.</p>",
+    "level6": "<p><strong>+1d6</strong> de dano contra alvo <strong>desprevenido ou flanqueado</strong>.</p>",
+    "level10": "<p><strong>+2 na CA</strong> contra criaturas <strong>não humanoides</strong>.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -46,5 +46,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!0g7WtP3vIHG2YYu4"
+  "_key": "!items!VCjaQ7ZdGDKCM8Hz"
 }

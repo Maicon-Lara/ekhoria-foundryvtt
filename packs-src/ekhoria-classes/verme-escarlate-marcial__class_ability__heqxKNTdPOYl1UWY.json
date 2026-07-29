@@ -1,15 +1,15 @@
 {
-  "folder": "1Dj5GkuFSCDx9Ooq",
-  "name": "Escolha da Escola",
+  "folder": "PxDNfp70qwZ7bza3",
+  "name": "Verme Escarlate (marcial)",
   "type": "class_ability",
-  "_id": "0g7WtP3vIHG2YYu4",
-  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
+  "_id": "heqxKNTdPOYl1UWY",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
-    "description": "<p>Escolhe <strong>uma das quatro Escolas</strong> — Verme Escarlate, Águia-Cadáver, Couraçado ou Fera-Abissal. A Escola é a linha de habilidades do Marcado: um caminho que <strong>progride com o nível</strong> nos degraus 3, 6 e 10.</p>",
+    "description": "<p>A Escola marcial do Marcado: a toxina afia o golpe em vez de mudar o corpo.</p><p><strong>+2 de dano</strong> com espadas <strong>curtas, longas e bastardas</strong>.</p>",
     "level": 3,
     "level3": "",
-    "level6": "<p>A Escola escolhida avança para o seu segundo degrau.</p>",
-    "level10": "<p>A Escola escolhida avança para o seu degrau final.</p>",
+    "level6": "<p><strong>Eco Draum:</strong> libera uma onda que <strong>derruba e atordoa</strong> (<strong>JPD</strong> para evitar).</p>",
+    "level10": "<p><strong>Ataque extra</strong> por rodada com essas espadas.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!0g7WtP3vIHG2YYu4"
+  "_key": "!items!heqxKNTdPOYl1UWY"
 }

@@ -1,15 +1,15 @@
 {
-  "folder": "1Dj5GkuFSCDx9Ooq",
-  "name": "Escolha da Escola",
+  "folder": "PxDNfp70qwZ7bza3",
+  "name": "Fera-Abissal (vigor)",
   "type": "class_ability",
-  "_id": "0g7WtP3vIHG2YYu4",
-  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
+  "_id": "FGzgQrvteaMNOcNo",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Escolhe <strong>uma das quatro Escolas</strong> — Verme Escarlate, Águia-Cadáver, Couraçado ou Fera-Abissal. A Escola é a linha de habilidades do Marcado: um caminho que <strong>progride com o nível</strong> nos degraus 3, 6 e 10.</p>",
+    "description": "<p>A Escola do vigor: o corpo aceita mais veneno do que deveria, e devolve.</p><p>Tolera <strong>duas substâncias de combate ao mesmo tempo</strong>.</p>",
     "level": 3,
     "level3": "",
-    "level6": "<p>A Escola escolhida avança para o seu segundo degrau.</p>",
-    "level10": "<p>A Escola escolhida avança para o seu degrau final.</p>",
+    "level6": "<p><strong>+1 PV por nível</strong> (retroativo) e <strong>+1 de CA natural</strong>.</p>",
+    "level10": "<p><strong>Sangue corrosivo:</strong> quem o morder sofre <strong>1d6 de ácido</strong> e faz <strong>JPC</strong>.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!0g7WtP3vIHG2YYu4"
+  "_key": "!items!FGzgQrvteaMNOcNo"
 }
