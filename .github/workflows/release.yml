@@ -1,0 +1,60 @@
+name: Release
+
+# Publica quando uma tag vX.Y.Z e enviada.
+#
+# A TAG e a fonte unica da versao. Antes, `version` e `download` no module.json
+# eram dois campos mantidos na mao, e nada obrigava os dois a concordarem: no
+# v0.7.3 o download seguia apontando para o zip do v0.6.8 — o Foundry lia o
+# manifest novo, baixava o pacote velho e nao dava erro nenhum.
+#
+# O empacotamento reusa tools/make-zip.py, o mesmo script do build local, para
+# nao existirem duas definicoes do que entra no pacote.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Versao a partir da tag
+        id: versao
+        run: echo "valor=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Gravar a versao no module.json
+        env:
+          VERSAO: ${{ steps.versao.outputs.valor }}
+        run: |
+          jq --arg v "$VERSAO" '.version = $v' ekhoria-module/module.json > module.tmp
+          mv module.tmp ekhoria-module/module.json
+
+      # make-zip.py deriva o `download` da versao e so entao empacota, entao
+      # este passo tambem corrige o campo.
+      - name: Empacotar
+        run: python tools/make-zip.py
+
+      - name: Conferir que manifest e pacote concordam
+        env:
+          VERSAO: ${{ steps.versao.outputs.valor }}
+        run: |
+          dentro=$(unzip -p ekhoria.zip module.json | jq -r '.version')
+          alvo=$(jq -r '.download' ekhoria-module/module.json)
+          echo "versao no zip: $dentro | download: $alvo"
+          test "$dentro" = "$VERSAO"
+          echo "$alvo" | grep -q "/v$VERSAO/ekhoria.zip"
+
+      - name: Publicar release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            ekhoria.zip ekhoria-module/module.json \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes

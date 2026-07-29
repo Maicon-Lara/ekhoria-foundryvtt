@@ -84,3 +84,25 @@ referências por UUID entre raça/classe e suas habilidades permanecem estáveis
 
 Conteúdo do cenário Ekhoria por **Maicon Lara**. Compatível com o sistema Old Dragon 2e
 da Old Dragon Editora. Old Dragon é marca de seus respectivos detentores.
+
+## Publicar uma versao
+
+```sh
+git tag v0.7.4
+git push origin v0.7.4
+```
+
+A **tag e a fonte unica da versao**. O workflow `.github/workflows/release.yml`
+grava a versao no `module.json`, roda `tools/make-zip.py` e cria o release com
+`ekhoria.zip` e `module.json` anexados. A URL de instalacao nao muda:
+
+```
+https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/latest/download/module.json
+```
+
+> **Nao edite `download` na mao.** `make-zip.py` o deriva de `version`
+> (`releases/download/v{version}/ekhoria.zip`). Os dois campos precisam
+> concordar e nada obrigava isso: no v0.7.3 o download seguia apontando para o
+> zip do v0.6.8 — o Foundry lia o manifest novo, baixava o pacote velho e nao
+> dava erro nenhum.
+
