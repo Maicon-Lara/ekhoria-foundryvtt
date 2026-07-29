@@ -3,7 +3,7 @@
   "name": "Mestre das Armas",
   "type": "class",
   "_id": "6Lh7SleOMyqP1H0g",
-  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "flavor": "<p>A técnica que sobrevive a qualquer arma. Especialização de Guerreiro da Legião de Ferro.</p>",
     "description": "<p>O Mestre das Armas não tem truque — só aço e disciplina. Estudou as propriedades de cada armamento até todas virarem ferramentas precisas, e controla o ritmo da batalha: desarma, empurra, derruba, debilita. Perde Aparar, e suas Técnicas de Maestria substituem a Maestria em Arma do Guerreiro.</p>",

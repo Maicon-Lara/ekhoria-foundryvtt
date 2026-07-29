@@ -43,10 +43,34 @@ const CAMPANHA_PACK = "ekhoria-campanha";
 const LORE_PACK = "ekhoria-lore";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
+// Nome de exibicao do chassi do OD2 sobre o qual cada classe roda. As 16
+// classes de Ekhoria se dividem 4 por chassi, e isso vira a hierarquia do
+// compendio — o mesmo papel que classe-base/especializacao fez no modulo de
+// Star Wars, aqui vindo de um campo em vez de palavra-chave no nome.
+const CHASSI = {
+  guerreiro_esp: { nome: "Guerreiro", sort: 100000 },
+  mago_esp: { nome: "Mago", sort: 200000 },
+  clerigo_esp: { nome: "Clérigo", sort: 300000 },
+  ladrao_esp: { nome: "Ladrão", sort: 400000 },
+};
+
 function buildClassesDocs() {
   const docs = [];
+  const pastaChassi = new Map();
+
   for (const cls of classes) {
-    const folder = folderDoc(cls.nome, "Item", "classes");
+    const chassi = CHASSI[cls.tabela];
+    let pai = null;
+    if (chassi) {
+      if (!pastaChassi.has(cls.tabela)) {
+        const nova = folderDoc(chassi.nome, "Item", "classes:chassi", { sort: chassi.sort });
+        pastaChassi.set(cls.tabela, nova);
+        docs.push(nova);
+      }
+      pai = pastaChassi.get(cls.tabela)._id;
+    }
+    // O _id da pasta deriva do nome da classe, nao do pai: aninhar nao muda ID.
+    const folder = folderDoc(cls.nome, "Item", "classes", { parentId: pai });
     docs.push(folder);
     const abilityUuids = [];
     cls.habilidades.forEach((ab, i) => {

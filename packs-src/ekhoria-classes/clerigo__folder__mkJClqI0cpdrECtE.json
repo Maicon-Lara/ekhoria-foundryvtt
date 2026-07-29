@@ -1,11 +1,11 @@
 {
-  "name": "Pugilista",
+  "name": "Clérigo",
   "sorting": "m",
-  "folder": "olGz6q2LtEA7uwNy",
+  "folder": null,
   "type": "Item",
-  "_id": "N42isdSQQO4yzSIL",
+  "_id": "mkJClqI0cpdrECtE",
   "description": "",
-  "sort": 0,
+  "sort": 300000,
   "color": null,
   "flags": {},
   "_stats": {
@@ -18,5 +18,5 @@
     "modifiedTime": 0,
     "lastModifiedBy": "ekhoriabuildtool"
   },
-  "_key": "!folders!N42isdSQQO4yzSIL"
+  "_key": "!folders!mkJClqI0cpdrECtE"
 }

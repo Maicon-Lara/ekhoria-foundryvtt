@@ -3,7 +3,7 @@
   "name": "Narcoguerreiro",
   "type": "class",
   "_id": "x3gVbl51gojgUnX2",
-  "img": "systems/olddragon2e/assets/icons/level-up.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "flavor": "<p>Onde a química se torna coragem, e a coragem se torna vício. Especialização de Guerreiro.</p>",
     "description": "<p>O Narcoguerreiro transforma o próprio corpo em arma por alquimia de combate, sacrificando longevidade por vantagem tática imediata. Domina os Fungos do Degelo de Vornfell — e paga o preço em vício e degradação progressiva. Perde a habilidade Aparar, mas mantém Maestria em Arma. Sempre que consome substâncias de combate, fica sujeito às regras de Vício e Abstinência.</p>",

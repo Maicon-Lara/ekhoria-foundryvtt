@@ -144,28 +144,21 @@ function normaliza(s) {
     .toLowerCase();
 }
 
-// Ícone das CLASSES. Tabela própria, separada de REGRAS_ICONE, porque os nomes
-// de classe ("Operativo — Sabotador", "Veterano — Mercenário") não casam com o
-// vocabulário de habilidade — e misturar as duas listas faria regra de classe
-// pegar habilidade por acidente.
+// Icone da classe pelo chassi do OD2 sobre o qual ela roda.
 //
-// Ordem: senda mandaloriana e formas de sabre primeiro, porque aparecem
-// combinadas com a classe-base no nome ("Sensível à Força — Guardião (Ataru)").
-const ICONES_CLASSE = [
-  [/mandalor|resol'?nare|beskar/, "legiao-shield"],
-  [/guardiao|ataru|makashi|soresu|djem so|niman|juyo|vaapad|shii-cho|sabre/, "slashing"],
-  [/sensivel a forca|consular|sentinela|vidente/, "brain"],
-  [/tecnico|engenheiro|medico de campo|slicer/, "kit"],
-  [/operativo|assassino|contrabandista|espiao|sabotador/, "bag"],
-  [/veterano|mercenario|cacador de recompensas|emissario/, "melee"],
-];
+// Ao contrario das habilidades, aqui nao ha adivinhacao por palavra-chave: o
+// chassi ja e um dado (`tabela: "guerreiro_esp"`), e as 16 classes de Ekhoria
+// se dividem exatamente 4 por chassi.
+const ICONE_CHASSI = {
+  guerreiro_esp: "melee",
+  mago_esp: "arcane",
+  clerigo_esp: "divine",
+  ladrao_esp: "bag",
+};
 
-export function iconeClasse(nome, padrao) {
-  const alvo = normaliza(nome);
-  for (const [regra, icone] of ICONES_CLASSE) {
-    if (regra.test(alvo)) return `${OD2I}/${icone}.svg`;
-  }
-  return padrao;
+export function iconeClasse(cls, padrao) {
+  const icone = ICONE_CHASSI[cls?.tabela];
+  return icone ? `${OD2I}/${icone}.svg` : padrao;
 }
 
 export function iconeSemantico(texto, padrao) {
@@ -349,7 +342,7 @@ export function classDoc(cls, folderId, abilityUuids) {
     name: cls.nome,
     type: "class",
     _id: id,
-    img: cls.img || ICONS.class,
+    img: cls.img || iconeClasse(cls, ICONS.class),
     system: {
       flavor: cls.flavor || "",
       description: cls.descricao || "",

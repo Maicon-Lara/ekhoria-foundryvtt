@@ -1,11 +1,11 @@
 {
-  "name": "Pugilista",
+  "name": "Guerreiro",
   "sorting": "m",
-  "folder": "olGz6q2LtEA7uwNy",
+  "folder": null,
   "type": "Item",
-  "_id": "N42isdSQQO4yzSIL",
+  "_id": "olGz6q2LtEA7uwNy",
   "description": "",
-  "sort": 0,
+  "sort": 100000,
   "color": null,
   "flags": {},
   "_stats": {
@@ -18,5 +18,5 @@
     "modifiedTime": 0,
     "lastModifiedBy": "ekhoriabuildtool"
   },
-  "_key": "!folders!N42isdSQQO4yzSIL"
+  "_key": "!folders!olGz6q2LtEA7uwNy"
 }
