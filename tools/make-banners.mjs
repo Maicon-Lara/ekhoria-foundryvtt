@@ -1,8 +1,10 @@
 /**
  * Gera as capas dos compêndios em SVG.
  *
- * Desenho autoral e abstrato — gradiente, poeira de Arcanita e um emblema
- * geométrico por pack. Nada de arte licenciada nem silhueta reconhecível.
+ * Desenho autoral e abstrato — gradiente, poeira de Arcanita e um emblema por
+ * pack, cada um tirado do cenário: a Marca, Ithara, o cristal de Arcanita, a
+ * estrela quebrada, a Cratera, a Fenda, a Pira e o Esmaecer. Nada de arte
+ * licenciada nem silhueta reconhecível.
  *
  * A paleta vem do tema (ekhoria-module/ekhoria.css): azuis de Arcanita com o
  * dourado da Centelha Solar na barra inferior. Mudou o tema? Mude aqui junto.
@@ -47,39 +49,51 @@ const raios = () =>
   }).join(" ");
 
 const EMBLEMAS = {
+  // A Marca: o rito que abre a classe. Traço vertical partido por três cortes.
   classes: `
-    <path d="M420 106 L470 70 L520 106"/>
-    <path d="M420 128 L470 92 L520 128"/>
-    <path d="M420 150 L470 114 L520 150"/>`,
+    <path d="M470 54 V146"/>
+    <path d="M446 78 L494 90"/>
+    <path d="M446 100 L494 112"/>
+    <path d="M446 122 L494 134"/>`,
+  // Ithara, a lua do cenário — cheia e minguante, o par que marca as noites.
   racas: `
-    <circle cx="470" cy="86" r="30"/>
-    <circle cx="500" cy="112" r="30"/>
-    <circle cx="440" cy="112" r="30"/>`,
+    <circle cx="452" cy="100" r="34"/>
+    <path d="M506 66 A44 44 0 1 0 506 134 A34 34 0 1 1 506 66"/>`,
+  // Cristal de Arcanita: hexágono com os veios que o percorrem.
   itens: `
     <polygon points="${pol(470, 100, 44, 6, -Math.PI / 2)}"/>
-    <polygon points="${pol(470, 100, 22, 6, -Math.PI / 2)}"/>`,
+    <path d="M470 56 V144 M432 78 L508 122 M432 122 L508 78"/>`,
+  // "Poeira brilhando no ar como se alguém tivesse quebrado uma estrela."
   magias: `
     <path d="${raios()}"/>
     <circle cx="470" cy="100" r="10"/>`,
+  // A Cratera: anéis de impacto, de onde saiu o que o cenário conta.
   tabelas: `
-    <path d="M428 60 V144 M456 60 V144 M484 60 V144 M512 60 V144"/>
-    <path d="M428 60 H512 M428 88 H512 M428 116 H512 M428 144 H512"/>`,
+    <ellipse cx="470" cy="104" rx="46" ry="18"/>
+    <ellipse cx="470" cy="100" rx="30" ry="12"/>
+    <ellipse cx="470" cy="96" rx="14" ry="6"/>
+    <path d="M470 96 V64"/>`,
   bestiario: `
     <path d="M430 62 Q452 100 442 140"/>
     <path d="M462 56 Q484 100 474 144"/>
     <path d="M494 62 Q516 100 506 140"/>`,
+  // A Fenda: a rachadura que atravessa o mundo.
   lore: `
-    <path d="M428 132 L470 118 L512 132"/>
-    <path d="M428 132 V74 L470 60 V118"/>
-    <path d="M512 132 V74 L470 60"/>`,
+    <path d="M462 50 L484 84 L458 96 L488 122 L462 132 L480 150"/>
+    <path d="M436 72 L458 96"/>
+    <path d="M504 108 L488 122"/>`,
+  // A Pira: a chama que os Guardiões carregam.
   journal: `
-    <rect x="428" y="60" width="84" height="80" rx="4"/>
-    <path d="M444 84 H496 M444 100 H496 M444 116 H478"/>`,
+    <path d="M470 52 Q502 92 486 122 Q478 140 470 148 Q462 140 454 122 Q438 92 470 52 Z"/>
+    <path d="M470 96 Q482 116 470 136 Q458 116 470 96 Z"/>`,
+  // O Esmaecer: o círculo que se desfaz em poeira — a guerra que dá nome à campanha.
   campanha: `
-    <path d="M424 132 Q470 52 516 128"/>
-    <circle cx="424" cy="132" r="7" fill="${OURO}" stroke="none"/>
-    <circle cx="470" cy="92" r="7" fill="${OURO}" stroke="none"/>
-    <circle cx="516" cy="128" r="7" fill="${OURO}" stroke="none"/>`,
+    <path d="M470 56 A44 44 0 0 1 470 144"/>
+    <path d="M470 56 A44 44 0 0 0 442 68"/>
+    <circle cx="430" cy="82" r="3" fill="${TRACO}" stroke="none"/>
+    <circle cx="424" cy="100" r="2.5" fill="${TRACO}" stroke="none"/>
+    <circle cx="430" cy="118" r="2" fill="${TRACO}" stroke="none"/>
+    <circle cx="442" cy="132" r="1.5" fill="${TRACO}" stroke="none"/>`,
 };
 
 function* poeira(semente, n) {

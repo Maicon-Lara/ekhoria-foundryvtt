@@ -15,7 +15,7 @@
   <rect width="600" height="200" fill="url(#brilho)"/>
   <g fill="none" stroke="#eef3f8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
     <polygon points="470.0,56.0 508.1,78.0 508.1,122.0 470.0,144.0 431.9,122.0 431.9,78.0"/>
-    <polygon points="470.0,78.0 489.1,89.0 489.1,111.0 470.0,122.0 450.9,111.0 450.9,89.0"/>
+    <path d="M470 56 V144 M432 78 L508 122 M432 122 L508 78"/>
   </g>
   <rect x="0" y="196" width="600" height="4" fill="#c9a227"/>
 </svg>
