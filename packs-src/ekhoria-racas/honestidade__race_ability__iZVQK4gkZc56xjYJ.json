@@ -3,7 +3,7 @@
   "name": "Honestidade",
   "type": "race_ability",
   "_id": "iZVQK4gkZc56xjYJ",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>Têm grande dificuldade em ser desonestos. Falham automaticamente em testes de JP contra efeitos que os obriguem a contar a verdade.</p>",
     "xp": null,

@@ -3,7 +3,7 @@
   "name": "Marca do Profano",
   "type": "class_ability",
   "_id": "AeBDxg1skRDc6osR",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "description": "<p>Marca um alvo visível (morto-vivo, necromante ou abominação): tem Ajuste Fácil (+2) nos ataques contra ele, sempre sabe sua direção, e o alvo não recupera PV por necromancia. Uma vez por dia.</p>",
     "level": 3,

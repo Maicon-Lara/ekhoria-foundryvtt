@@ -3,7 +3,7 @@
   "name": "Mestre das Lâminas Curtas",
   "type": "race_ability",
   "_id": "ThTDuewle2PUoATb",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Ataques com adagas e facas contam como Ataques Fáceis. Ao usar duas lâminas, recebem +1 na CA, como se portassem um escudo leve.</p>",
     "xp": null,

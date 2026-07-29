@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "OpXWCvUAT6iIVDTe",
   "name": "Leitura de Memória",
   "type": "spell",
   "_id": "jgU8W7iKUGb500er",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 900000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },

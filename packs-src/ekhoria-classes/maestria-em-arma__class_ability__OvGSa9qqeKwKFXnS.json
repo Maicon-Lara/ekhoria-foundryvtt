@@ -3,7 +3,7 @@
   "name": "Maestria em Arma",
   "type": "class_ability",
   "_id": "OvGSa9qqeKwKFXnS",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Torna-se Mestre em uma arma à sua escolha, recebendo +1 no dano com ela.</p>",
     "level": 1,

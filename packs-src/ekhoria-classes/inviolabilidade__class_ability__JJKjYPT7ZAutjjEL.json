@@ -3,7 +3,7 @@
   "name": "Inviolabilidade",
   "type": "class_ability",
   "_id": "JJKjYPT7ZAutjjEL",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Reconhecido por suas insígnias e salvo-conduto: +2 em Testes de Reação, e atacar um Corvo em missão é crime grave em Ekhoria. Fala um número de idiomas adicionais igual a 2 + modificador de Inteligência.</p>",
     "level": 1,

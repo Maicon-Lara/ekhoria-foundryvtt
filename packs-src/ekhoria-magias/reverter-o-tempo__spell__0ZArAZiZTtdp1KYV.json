@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "tYr5jiyqItCBmREY",
   "name": "Reverter o Tempo",
   "type": "spell",
   "_id": "0ZArAZiZTtdp1KYV",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 1200000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

@@ -3,7 +3,7 @@
   "name": "Eco-Sombrio",
   "type": "race_ability",
   "_id": "0IcXlWQMv4SscYiZ",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "description": "<p>Silentes sofrem –4 em Testes de Reação. Além disso, têm 1 em 1d6 de chance de simplesmente não serem percebidos, como se o mundo evitasse notá-los.</p>",
     "xp": null,

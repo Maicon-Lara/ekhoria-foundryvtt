@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "odo_id": "onix",
-    "description": "<p>Extraído das Montanhas de Ônix Negro de Breônia. Em armaduras: teste Fácil em Furtividade. Em armas brancas: +2 no dano em Ataques Furtivos ou pelas costas. Em armas de fogo: disparo completamente silencioso. <strong>Custo: ×4 o valor base.</strong></p>",
+    "description": "Extraído das Montanhas de Ônix Negro de Breônia. Em armaduras: teste Fácil em Furtividade. Em armas brancas: +2 no dano em Ataques Furtivos ou pelas costas. Em armas de fogo: disparo completamente silencioso. Custo: ×4 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

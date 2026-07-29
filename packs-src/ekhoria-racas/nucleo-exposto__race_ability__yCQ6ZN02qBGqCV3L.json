@@ -3,7 +3,7 @@
   "name": "Núcleo Exposto",
   "type": "race_ability",
   "_id": "yCQ6ZN02qBGqCV3L",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "description": "<p>A Pedra da Alma é vida e fraqueza ao mesmo tempo. O Autokthon é suscetível a efeitos mentais (a alma está exposta no cristal) e faz JPS contra eles com Ajuste Difícil (−2). Destruir a Pedra da Alma o mata na hora; removê-la o deixa em coma.</p>",
     "xp": null,

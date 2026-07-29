@@ -3,7 +3,7 @@
   "name": "Anfíbios",
   "type": "race_ability",
   "_id": "9eVNsEH9lSdz6TV8",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/movement.svg",
   "system": {
     "description": "<p>Respiram sob a água e fora dela, sem nenhuma penalidade para agir ou lutar submersos.</p>",
     "xp": null,

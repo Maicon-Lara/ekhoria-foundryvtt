@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "3fRljozoPIQ84InM",
   "name": "Distorção de Distância",
   "type": "spell",
   "_id": "Yqizsio3V7a04bL8",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 700000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

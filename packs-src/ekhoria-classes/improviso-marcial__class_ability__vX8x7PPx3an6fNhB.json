@@ -3,7 +3,7 @@
   "name": "Improviso Marcial",
   "type": "class_ability",
   "_id": "vX8x7PPx3an6fNhB",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Aprende mais duas propriedades de maestria (total de quatro). Uma vez por combate, pode realizar uma Manobra para aplicar uma maestria numa arma normalmente incompatível, desde que faça sentido.</p>",
     "level": 3,

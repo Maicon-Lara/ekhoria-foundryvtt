@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 
 import {
-  folderDoc, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
+  folderDoc, aninhaPastas, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
   journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, rollTableDoc, itemUuid, writeSource,
 } from "./lib.mjs";
 import { monsterDoc } from "./lib-actors.mjs";
@@ -124,11 +124,29 @@ function buildItensDocs() {
 function buildMagiasDocs() {
   const docs = [];
   for (const grupo of escolas) {
-    const folder = folderDoc(grupo.folder, "Item", "magias");
-    docs.push(folder);
-    grupo.magias.forEach((m, i) => {
-      docs.push(spellDoc({ ...m, school: grupo.school }, folder._id, grupo.school, (i + 1) * 100000));
-    });
+    const escola = folderDoc(grupo.folder, "Item", "magias");
+    docs.push(escola);
+
+    // Dentro da escola, uma subpasta por círculo.
+    const porCirculo = new Map();
+    for (const m of grupo.magias) {
+      const c = m.circle ?? 1;
+      if (!porCirculo.has(c)) porCirculo.set(c, []);
+      porCirculo.get(c).push(m);
+    }
+
+    for (const c of [...porCirculo.keys()].sort((a, b) => a - b)) {
+      // A seed inclui a escola: sem isso o "1º Círculo" da Arcana e o da
+      // Divina gerariam o mesmo _id e um sobrescreveria o outro.
+      const sub = folderDoc(`${c}º Círculo`, "Item", `magias:${grupo.folder}`, {
+        parentId: escola._id,
+        sort: c * 100000,
+      });
+      docs.push(sub);
+      porCirculo.get(c).forEach((m, i) => {
+        docs.push(spellDoc({ ...m, school: grupo.school }, sub._id, grupo.school, (i + 1) * 100000));
+      });
+    }
   }
   return docs;
 }
@@ -154,7 +172,9 @@ function buildCampanhaDocs() {
 async function compile(packName, docs) {
   const srcDir = path.join(SRC, packName);
   const outDir = path.join(OUT, packName);
-  const n = writeSource(srcDir, docs);
+  // Converte a hierarquia dos NOMES ("Guerreiro — Bárbaro") em pastas
+  // aninhadas de verdade. Vale para todos os packs, por isso mora aqui.
+  const n = writeSource(srcDir, aninhaPastas(docs));
   fs.rmSync(outDir, { recursive: true, force: true });
   fs.mkdirSync(outDir, { recursive: true });
   await compilePack(srcDir, outDir, { log: false });

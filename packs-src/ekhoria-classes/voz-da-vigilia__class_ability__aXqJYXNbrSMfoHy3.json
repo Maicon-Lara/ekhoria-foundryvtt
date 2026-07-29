@@ -3,7 +3,7 @@
   "name": "Voz da Vigília",
   "type": "class_ability",
   "_id": "aXqJYXNbrSMfoHy3",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
   "system": {
     "description": "<p>Enquanto consciente e de pé, sua presença inspira os aliados que o ouvem: todos ganham +1 em Moral e fazem Jogadas de Proteção contra Medo com Ajuste Fácil (+2).</p>",
     "level": 1,

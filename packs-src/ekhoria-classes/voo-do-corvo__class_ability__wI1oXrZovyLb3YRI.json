@@ -3,7 +3,7 @@
   "name": "Voo do Corvo",
   "type": "class_ability",
   "_id": "wI1oXrZovyLb3YRI",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Uma vez por cena, evade-se automaticamente de perseguições urbanas ou naturais. Alternativamente, em combate, declara que previu o golpe e anula completamente o dano do primeiro ataque que sofreria na rodada (como <em>Aparar</em>, mas sem sacrificar equipamento).</p>",
     "level": 10,

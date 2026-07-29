@@ -3,7 +3,7 @@
   "name": "Dependência de Água",
   "type": "race_ability",
   "_id": "8sLCYopcQEqAJ5zC",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/movement.svg",
   "system": {
     "description": "<p>Em terra firme, bebem o dobro de água diária e precisam submergir totalmente ao menos uma vez por semana. Sem isso, após 1 semana todas as jogadas ficam Difíceis; após 2 semanas, Muito Difíceis.</p>",
     "xp": null,

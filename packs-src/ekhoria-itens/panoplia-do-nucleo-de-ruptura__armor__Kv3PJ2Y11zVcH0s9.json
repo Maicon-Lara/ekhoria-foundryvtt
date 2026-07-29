@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "odo_id": "panoplia-do-nucleo-de-ruptura",
-    "description": "<p>Armadura Pesada de Arcanita, <strong>exclusiva de Lito-arcanistas</strong>. Concede +2 em JPC física e +1d6 no dano da habilidade Ruptura do Núcleo.</p>",
+    "description": "Armadura Pesada de Arcanita, exclusiva de Lito-arcanistas. Concede +2 em JPC física e +1d6 no dano da habilidade Ruptura do Núcleo.",
     "quantity": 1,
     "cost": "1.500 PO",
     "weight_in_load": 2,

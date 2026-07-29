@@ -3,7 +3,7 @@
   "name": "Carga Direcionada",
   "type": "class_ability",
   "_id": "cZl6Xit431rBN7Qj",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Pode moldar a explosão e definir um gatilho (pressão, tempo de 1d6 rodadas ou toque). O raio das cargas de Fragmentação sobe para 6 m, e o Sabotador fica imune ao dano das próprias cargas a mais de 1,5 m da detonação.</p>",
     "level": 6,

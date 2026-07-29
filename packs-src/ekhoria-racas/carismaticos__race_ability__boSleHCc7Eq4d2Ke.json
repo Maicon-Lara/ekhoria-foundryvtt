@@ -3,7 +3,7 @@
   "name": "Carismáticos",
   "type": "race_ability",
   "_id": "boSleHCc7Eq4d2Ke",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>A aura de paz dos Nefilins faz todos tenderem a se sentir bem em sua presença. Havendo um Nefilim no grupo, os testes de Reação são feitos com bônus de +2.</p>",
     "xp": null,

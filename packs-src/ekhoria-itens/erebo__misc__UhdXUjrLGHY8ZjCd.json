@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "odo_id": "erebo",
-    "description": "<p>Cristal raro que consome magia. Em armaduras: ao passar na JP contra uma magia, o efeito é totalmente anulado (sem dano parcial). Em armas: o alvo atingido tem a próxima magia que conjurar absorvida. Em armas mágicas: reduz o bônus em −1 por dia até ser removido. <strong>Custo: ×5 o valor base.</strong></p>",
+    "description": "Cristal raro que consome magia. Em armaduras: ao passar na JP contra uma magia, o efeito é totalmente anulado (sem dano parcial). Em armas: o alvo atingido tem a próxima magia que conjurar absorvida. Em armas mágicas: reduz o bônus em −1 por dia até ser removido. Custo: ×5 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

@@ -3,7 +3,7 @@
   "name": "Litania do Relicário",
   "type": "class_ability",
   "_id": "rfNJTN1T8k7NjYcH",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "description": "<p>Prepara e conjura magias divinas diariamente meditando sobre a entropia e a Anomalia. Suas magias são manifestações internas, tornando-o imune a efeitos mágicos diretos de terceiros (magias de área o afetam normalmente). Por padrão, suas magias são sempre preparadas em versão reversa.</p>",
     "level": 1,

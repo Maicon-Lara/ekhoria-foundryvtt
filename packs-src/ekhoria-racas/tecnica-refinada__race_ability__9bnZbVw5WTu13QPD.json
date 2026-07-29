@@ -3,7 +3,7 @@
   "name": "Técnica Refinada",
   "type": "race_ability",
   "_id": "9bnZbVw5WTu13QPD",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
     "description": "<p>Séculos de duelos rituais e filosofia marcial ensinaram a explorar cada abertura com precisão: +1 no dano com armas cortantes e perfurantes.</p>",
     "xp": null,

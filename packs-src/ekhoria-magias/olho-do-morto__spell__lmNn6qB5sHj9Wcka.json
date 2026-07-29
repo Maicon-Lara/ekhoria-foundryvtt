@@ -1,5 +1,5 @@
 {
-  "folder": "vR8QVaW124qgHUo8",
+  "folder": "OiHMWzkt7aDqlhnt",
   "name": "Olho do Morto",
   "type": "spell",
   "_id": "lmNn6qB5sHj9Wcka",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 800000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

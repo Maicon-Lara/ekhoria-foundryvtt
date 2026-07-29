@@ -3,7 +3,7 @@
   "name": "Conhecimento Ancestral",
   "type": "race_ability",
   "_id": "wHOPPAw205lQpp9M",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
   "system": {
     "description": "<p>Chance de 1–2 em 1d6 de reconhecer símbolos demoníacos ou profanos, ou recordar informações sobre demônios (a critério do Mestre). Cambions Magos e Clérigos: 1–3 em 1d6. Cambions Acadêmicos: 1–4 em 1d6.</p>",
     "xp": null,

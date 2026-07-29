@@ -3,7 +3,7 @@
   "name": "Portador da Luz",
   "type": "class_ability",
   "_id": "V5c7Az0AjkEFDhfR",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "description": "<p>Uma vez por dia, ao ser atingido por uma criatura Caótica, reage instantaneamente para reduzir o dano à metade ou impedir efeitos colaterais do ataque (drenagem, maldições ou corrupção).</p>",
     "level": 6,

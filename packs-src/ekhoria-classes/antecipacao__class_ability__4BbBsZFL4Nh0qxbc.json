@@ -3,7 +3,7 @@
   "name": "Antecipação",
   "type": "class_ability",
   "_id": "4BbBsZFL4Nh0qxbc",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Uma vez por combate, declara que previu a batalha e escolhe: <strong>Defesa Estelar</strong> (+2 na CA contra um ataque), <strong>Iniciativa Cósmica</strong> (ele ou um aliado age primeiro na rodada) ou <strong>Negação do Destino</strong> (converte um acerto crítico inimigo em acerto normal).</p>",
     "level": 3,

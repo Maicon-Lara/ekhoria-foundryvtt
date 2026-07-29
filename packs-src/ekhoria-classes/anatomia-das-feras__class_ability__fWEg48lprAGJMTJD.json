@@ -3,7 +3,7 @@
   "name": "Anatomia das Feras",
   "type": "class_ability",
   "_id": "fWEg48lprAGJMTJD",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "system": {
     "description": "<p>Capaz de identificar monstros e animais (ataques, defesas e fraquezas) com um resultado de 1–2 em 1d6.</p>",
     "level": 1,

@@ -3,7 +3,7 @@
   "name": "Olhar de Chronael",
   "type": "class_ability",
   "_id": "fEIQyPWnBru5389h",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Uma vez por dia, lê as estrelas como a magia <em>Augúrio</em>, sabendo se uma ação trará bonança ou ruína.</p>",
     "level": 1,

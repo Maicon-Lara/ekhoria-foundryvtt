@@ -3,7 +3,7 @@
   "name": "Dádiva da Pira",
   "type": "class_ability",
   "_id": "mKI3ecxegViJ3tF8",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "description": "<p>No lugar da <em>Cura Milagrosa</em> do Clérigo, o Guardião canaliza a chama de Aelora: abrindo mão de uma magia memorizada, conjura na hora — sem tê-la preparado — uma magia de Aelora: <em>Dardo de Brasa</em> (1º círculo). A magia sacrificada deve ser de círculo igual ou superior ao da magia conjurada.</p>",
     "level": 1,

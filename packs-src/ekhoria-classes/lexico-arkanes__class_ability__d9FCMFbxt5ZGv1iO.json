@@ -3,7 +3,7 @@
   "name": "Léxico Arkanes",
   "type": "class_ability",
   "_id": "d9FCMFbxt5ZGv1iO",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
     "description": "<p>Fala Arkanes e comanda a Arcanita ao redor: mecanismos de Arcanita respondem ao tom correto e ele é imune a armadilhas trancadas por tom. Contra um Construto de Arcanita, emite uma ordem — o Construto faz Teste de Moral (2d6 + nível) ou obedece a um comando simples por 1d6 rodadas.</p>",
     "level": 1,

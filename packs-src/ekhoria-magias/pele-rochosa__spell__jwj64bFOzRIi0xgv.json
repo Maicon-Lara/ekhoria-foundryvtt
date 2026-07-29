@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "wrdpDg8aAhYyFz6b",
   "name": "Pele Rochosa",
   "type": "spell",
   "_id": "jwj64bFOzRIi0xgv",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

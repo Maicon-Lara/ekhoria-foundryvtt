@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "v27U0E9aD3LK3IAB",
   "name": "Detectar Vida",
   "type": "spell",
   "_id": "V0NNqUksY4CFpaSp",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

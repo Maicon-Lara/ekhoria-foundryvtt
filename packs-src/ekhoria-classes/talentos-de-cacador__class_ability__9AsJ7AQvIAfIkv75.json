@@ -3,7 +3,7 @@
   "name": "Talentos de Caçador",
   "type": "class_ability",
   "_id": "9AsJ7AQvIAfIkv75",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Destreza:</strong> recebe, no 1º nível, 1 ponto extra por ponto de modificador de Destreza.</p>",
     "level": 1,

@@ -3,7 +3,7 @@
   "name": "Tolerância de Elite",
   "type": "class_ability",
   "_id": "nSuTBbHoc7Vz1QXW",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>O personagem atinge o ápice da resistência química. Ao consumir a substância <strong>Albinus</strong>, ativa uma <strong>Efervescência Solar:</strong> recupera 1d4 PV por rodada durante um número de rodadas igual a 1d4 + modificador de Constituição. <strong>Vapor de Proteção:</strong> enquanto a regeneração estiver ativa, emite um vapor protetor que concede +2 na CA. Essa regeneração não cura dano de fogo ou ácido.</p>",
     "level": 10,

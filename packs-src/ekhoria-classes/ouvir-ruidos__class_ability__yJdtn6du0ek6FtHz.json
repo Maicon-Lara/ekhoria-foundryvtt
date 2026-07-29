@@ -3,7 +3,7 @@
   "name": "Ouvir Ruídos",
   "type": "class_ability",
   "_id": "yJdtn6du0ek6FtHz",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Em ambiente silencioso e fora de combate, consegue ouvir ruídos sutis (uma conversa do outro lado de uma porta, monstros se aproximando): chance de 1–2 em 1d6.</p>",
     "level": 1,

@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "7CtaQuAgqfAt9eyW",
   "name": "Tempestade de Fogo",
   "type": "spell",
   "_id": "nfDHh22bM0of41t1",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

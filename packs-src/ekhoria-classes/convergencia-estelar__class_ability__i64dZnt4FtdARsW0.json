@@ -3,7 +3,7 @@
   "name": "Convergência Estelar",
   "type": "class_ability",
   "_id": "i64dZnt4FtdARsW0",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Uma vez por dia, aponta para uma criatura a até 9 m e descreve seu fim: JPS (Sabedoria) Difícil (−2) ou, por 1d4 rodadas, todos os ataques contra ela são Muito Fáceis (+5) e ela falha automaticamente nas próprias JP. Alternativamente, concede a todo o grupo uma re-rolagem livre utilizável até o fim da cena.</p>",
     "level": 10,

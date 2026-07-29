@@ -3,7 +3,7 @@
   "name": "Imune à Corrupção",
   "type": "class_ability",
   "_id": "3haNMOXIjKJlb7Pj",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Recebe +2 nas Jogadas de Proteção contra efeitos de Morte, drenagem, maldições e Medo. Uma vez por dia, dissipa um desses efeitos em si mesmo ou num aliado tocado, como <em>Dissipar Magia</em>.</p>",
     "level": 6,

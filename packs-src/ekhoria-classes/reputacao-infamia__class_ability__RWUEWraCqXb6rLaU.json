@@ -3,7 +3,7 @@
   "name": "Reputação (Infâmia)",
   "type": "class_ability",
   "_id": "RWUEWraCqXb6rLaU",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>Torna-se figura amplamente temida: obtém Infâmia 1 em 1d6, aumentando +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>",
     "level": 11,

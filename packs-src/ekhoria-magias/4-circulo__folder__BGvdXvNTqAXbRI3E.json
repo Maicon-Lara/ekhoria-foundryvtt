@@ -1,0 +1,22 @@
+{
+  "name": "4º Círculo",
+  "sorting": "m",
+  "folder": "IgHXD6yIrq2LwAVd",
+  "type": "Item",
+  "_id": "BGvdXvNTqAXbRI3E",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool"
+  },
+  "_key": "!folders!BGvdXvNTqAXbRI3E"
+}

@@ -3,7 +3,7 @@
   "name": "Reescrever a Linha",
   "type": "class_ability",
   "_id": "H4mX8sMpSvxYjxJl",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Gasta 1 Presságio para anular um acerto crítico inimigo ou converter um sucesso natural de um inimigo (em teste de talento ou JP) numa rolagem comum.</p>",
     "level": 6,

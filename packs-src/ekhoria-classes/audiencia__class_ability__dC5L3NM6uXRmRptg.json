@@ -3,7 +3,7 @@
   "name": "Audiência",
   "type": "class_ability",
   "_id": "dC5L3NM6uXRmRptg",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>Ao preparar uma reunião formal, manipula o clima político: chance de 1–2 em 1d6 + modificador de Carisma para aplicar bônus ou penalidade no Teste de Reação.</p>",
     "level": 3,

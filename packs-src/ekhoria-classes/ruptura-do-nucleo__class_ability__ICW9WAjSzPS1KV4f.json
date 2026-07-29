@@ -3,7 +3,7 @@
   "name": "Ruptura do Núcleo",
   "type": "class_ability",
   "_id": "ICW9WAjSzPS1KV4f",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "description": "<p>Sobrecarrega o próprio núcleo para uma liberação violenta de energia, sacrificando um espaço de magia de 5º círculo: todas as criaturas num raio de 6 metros centrado no Lito-arcanista sofrem 10d6 de dano elemental (do tipo sintonizado no <em>Pulso de Arcanita</em>).</p>",
     "level": 10,

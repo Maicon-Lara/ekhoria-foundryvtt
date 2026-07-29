@@ -3,7 +3,7 @@
   "name": "Bastião contra a Escuridão",
   "type": "class_ability",
   "_id": "DI0avzroxL1qhiD5",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Com um ritual de 1 turno, consagra uma fogueira ou acampamento: raio de 9 m por 1 hora por nível. Mortos-vivos e abominações fazem Teste de Moral para entrar; aliados dentro ficam imunes a Medo e frio e recuperam 1 PV por rodada em descanso (não acumula com cura natural comum).</p>",
     "level": 6,

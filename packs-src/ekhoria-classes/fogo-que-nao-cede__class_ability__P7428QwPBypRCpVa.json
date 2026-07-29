@@ -3,7 +3,7 @@
   "name": "Fogo que Não Cede",
   "type": "class_ability",
   "_id": "P7428QwPBypRCpVa",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "description": "<p>Sacrifica um espaço de magia memorizado para imbuir sua arma (ou a de um aliado tocado) com o fogo da Pira: +1d6 de dano de fogo por um número de turnos igual ao nível (+2d6 se o alvo for abominação ou morto-vivo).</p>",
     "level": 3,

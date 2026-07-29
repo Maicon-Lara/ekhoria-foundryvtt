@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "OpXWCvUAT6iIVDTe",
   "name": "Morte Aparente (Divina)",
   "type": "spell",
   "_id": "m8zztQK4drLD0ESN",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 1500000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },

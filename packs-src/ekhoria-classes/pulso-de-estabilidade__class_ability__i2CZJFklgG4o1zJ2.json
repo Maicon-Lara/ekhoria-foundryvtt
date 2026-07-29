@@ -3,7 +3,7 @@
   "name": "Pulso de Estabilidade",
   "type": "class_ability",
   "_id": "i2CZJFklgG4o1zJ2",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>O Custódio emite uma frequência de Ordem absoluta através de sua Pedra da Alma. Criaturas <strong>Caóticas</strong> num raio de 18 metros devem realizar um <strong>Teste de Moral</strong> (2d6 + nível do Custódio vs. Moral do alvo). Aquelas que falharem fugirão desesperadamente por 1 turno. <strong>Desintegração:</strong> se a falha ocorrer com dados iguais (dois 4, 5 ou 6), a criatura é imediatamente desintegrada, reduzida a pó. Alvos bem-sucedidos tornam-se imunes a esta habilidade até o próximo amanhecer.</p>",
     "level": 1,

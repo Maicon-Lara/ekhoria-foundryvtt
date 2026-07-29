@@ -3,7 +3,7 @@
   "name": "Veredicto Lunar",
   "type": "class_ability",
   "_id": "c9K3WIBK8uRBIEj4",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Um número de vezes por dia igual ao modificador de Sabedoria (mínimo 1), aponta para um alvo a até 9 m, que faz JPC (Constituição) Difícil (−2). Falha: mortos-vivos são destruídos; caóticos ou necromantes sofrem 3d8 de dano mágico (neutros ou ordeiros, metade). Sucesso: metade do dano ou evita a destruição.</p>",
     "level": 10,

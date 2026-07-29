@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "XupBDAHBUkg8pyv2",
   "name": "Invisibilidade contra Mortos-Vivos",
   "type": "spell",
   "_id": "5eO0D7ewXK28IvXr",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 1300000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },

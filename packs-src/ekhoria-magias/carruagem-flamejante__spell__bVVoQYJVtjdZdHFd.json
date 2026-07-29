@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "xORwErsowWQZmmxv",
   "name": "Carruagem Flamejante",
   "type": "spell",
   "_id": "bVVoQYJVtjdZdHFd",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 600000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

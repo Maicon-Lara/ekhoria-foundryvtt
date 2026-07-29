@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "odo_id": "mitral",
-    "description": "<p>Torna armaduras mais leves (+1 na CA) e armas mais afiadas (+1 no dano). Em armas de fogo: +1 no dano e só engasga em 1 natural se também falhar no ataque. Extremamente raro. <strong>Custo: ×10 o valor base.</strong></p>",
+    "description": "Torna armaduras mais leves (+1 na CA) e armas mais afiadas (+1 no dano). Em armas de fogo: +1 no dano e só engasga em 1 natural se também falhar no ataque. Extremamente raro. Custo: ×10 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

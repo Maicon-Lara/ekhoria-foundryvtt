@@ -1,5 +1,5 @@
 {
-  "folder": "mcwpkEs06D5tiyqf",
+  "folder": "jiHLQp3exA3yXgBa",
   "name": "Confundir Detecção",
   "type": "spell",
   "_id": "JEGC2qjlyJgSllT3",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

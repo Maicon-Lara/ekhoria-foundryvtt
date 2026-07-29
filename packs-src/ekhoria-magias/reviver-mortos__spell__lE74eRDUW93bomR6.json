@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "7CtaQuAgqfAt9eyW",
   "name": "Reviver Mortos",
   "type": "spell",
   "_id": "lE74eRDUW93bomR6",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 1700000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },

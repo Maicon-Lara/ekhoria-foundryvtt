@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "OpXWCvUAT6iIVDTe",
   "name": "Andar Sobre as Chamas",
   "type": "spell",
   "_id": "jmpguWSBw0iktHiF",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

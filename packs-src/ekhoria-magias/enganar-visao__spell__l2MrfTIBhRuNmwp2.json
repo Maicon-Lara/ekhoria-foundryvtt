@@ -1,5 +1,5 @@
 {
-  "folder": "mcwpkEs06D5tiyqf",
+  "folder": "dfGUBAoQ9esTghWh",
   "name": "Enganar Visão",
   "type": "spell",
   "_id": "l2MrfTIBhRuNmwp2",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 700000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

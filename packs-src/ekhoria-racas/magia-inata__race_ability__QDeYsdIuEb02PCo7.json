@@ -3,7 +3,7 @@
   "name": "Magia Inata",
   "type": "race_ability",
   "_id": "QDeYsdIuEb02PCo7",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
     "description": "<p>Podem conjurar a magia <em>Escuridão</em> uma vez por dia, como um Mago de nível igual aos seus DV.</p>",
     "xp": null,

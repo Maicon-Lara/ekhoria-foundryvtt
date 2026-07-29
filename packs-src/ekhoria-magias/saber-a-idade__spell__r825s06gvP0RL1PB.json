@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "XupBDAHBUkg8pyv2",
   "name": "Saber a Idade",
   "type": "spell",
   "_id": "r825s06gvP0RL1PB",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 700000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },

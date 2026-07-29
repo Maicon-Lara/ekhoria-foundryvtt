@@ -3,7 +3,7 @@
   "name": "Última Chama",
   "type": "class_ability",
   "_id": "MqmVIfDaeF4UWXn2",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "description": "<p>Uma vez por dia, libera um clarão num raio de 9 m: 4d8 de dano de fogo (6d8 contra abominações/mortos-vivos), JPD reduz à metade. <strong>Sacrifício Final:</strong> alternativamente, ao ser reduzido a 0 PV, pode arder de pé e consciente por 1d4 rodadas antes de sucumbir.</p>",
     "level": 10,

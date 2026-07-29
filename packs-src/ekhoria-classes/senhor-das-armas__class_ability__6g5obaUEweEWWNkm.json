@@ -3,7 +3,7 @@
   "name": "Senhor das Armas",
   "type": "class_ability",
   "_id": "6g5obaUEweEWWNkm",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Domina todas as oito propriedades de maestria. Além disso, ao obter um Acerto Crítico (20 natural), aplica os efeitos de duas maestrias diferentes ao mesmo alvo.</p>",
     "level": 10,

@@ -3,7 +3,7 @@
   "name": "Grito Dissonante",
   "type": "class_ability",
   "_id": "JbMOeaW2j2At72fP",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
   "system": {
     "description": "<p>Sacrifica um espaço de magia para emitir uma onda sônica num cone de 6 m: 1d6 de dano por círculo sacrificado (JPD reduz à metade) e os alvos ficam ensurdecidos por 1d4 rodadas (conjuradores ensurdecidos têm 50% de falhar magias verbais).</p>",
     "level": 3,

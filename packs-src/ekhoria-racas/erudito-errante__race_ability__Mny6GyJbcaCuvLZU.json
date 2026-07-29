@@ -3,7 +3,7 @@
   "name": "Erudito Errante",
   "type": "race_ability",
   "_id": "Mny6GyJbcaCuvLZU",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
   "system": {
     "description": "<p>Criados em frotas letradas, leem e escrevem o próprio idioma e mais um número de idiomas igual ao modificador de Inteligência (mínimo 1), e têm 1–2 em 1d6 para recordar rotas, correntes, culturas e a história dos povos que já cruzaram.</p>",
     "xp": null,

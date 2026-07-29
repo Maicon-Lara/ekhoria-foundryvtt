@@ -3,7 +3,7 @@
   "name": "Metabolismo Acelerado",
   "type": "class_ability",
   "_id": "sJ8IgYJIAUD1GH8l",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "description": "<p><strong>Resiliência:</strong> +1 permanente em JPC, e +2 contra venenos. <strong>Maestria em Dosagem:</strong> uma vez por dia consome uma <strong>única</strong> substância sem teste de vício — esse benefício <strong>não se aplica a Coquetéis</strong> (doses combinadas sempre exigem teste). <strong>Supressão de Dor (Nargula):</strong> ignora penalidades de movimento por ferimentos, fadiga, fome ou frio por 2d6+6 horas.</p>",
     "level": 6,

@@ -3,7 +3,7 @@
   "name": "Aura de Estabilidade",
   "type": "class_ability",
   "_id": "ncazeQzXptX7VNRg",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Emana uma aura constante em raio de 9 metros que funciona como <em>Proteção Contra Alinhamento</em> contra seres Caóticos. Aliados na área recebem bônus em JP contra efeitos caóticos enquanto o Custódio estiver consciente.</p>",
     "level": 10,

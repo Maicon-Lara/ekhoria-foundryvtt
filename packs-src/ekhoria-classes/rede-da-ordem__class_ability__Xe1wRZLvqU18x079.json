@@ -3,7 +3,7 @@
   "name": "Rede da Ordem",
   "type": "class_ability",
   "_id": "Xe1wRZLvqU18x079",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>Em qualquer assentamento, aciona contatos da Ordem para obter uma informação específica, abrigo seguro ou enviar uma mensagem cifrada. Mensagens escritas por ele só são lidas por outros Corvos ou com <em>Ler Idiomas</em>.</p>",
     "level": 6,

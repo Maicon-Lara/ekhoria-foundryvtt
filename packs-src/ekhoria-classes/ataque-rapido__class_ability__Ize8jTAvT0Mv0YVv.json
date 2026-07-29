@@ -3,7 +3,7 @@
   "name": "Ataque Rápido",
   "type": "class_ability",
   "_id": "Ize8jTAvT0Mv0YVv",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>Recebe um ataque extra por rodada, desde que ambos os ataques sejam desarmados ou realizados com soqueiras.</p>",
     "level": 10,

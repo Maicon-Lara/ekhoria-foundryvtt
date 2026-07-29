@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "BGvdXvNTqAXbRI3E",
   "name": "Purga de Fogo",
   "type": "spell",
   "_id": "COWNDGkE2pqT5yLv",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

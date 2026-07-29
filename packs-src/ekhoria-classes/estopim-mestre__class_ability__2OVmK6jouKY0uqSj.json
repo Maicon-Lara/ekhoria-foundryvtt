@@ -3,7 +3,7 @@
   "name": "Estopim Mestre",
   "type": "class_ability",
   "_id": "2OVmK6jouKY0uqSj",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Uma vez por dia, monta uma carga devastadora: 10d6 de dano num raio de 9 m (JPD reduz à metade), capaz de romper barreiras e dispositivos mágicos como <em>Dissipar Magia</em> (nível 10). Alternativamente, detona até 3 cargas preparadas com uma única ação.</p>",
     "level": 10,

@@ -3,7 +3,7 @@
   "name": "Golpe Predatório",
   "type": "class_ability",
   "_id": "YDZSkWwDc2cWY3hK",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "system": {
     "description": "<p>Contra criaturas identificadas por <em>Anatomia das Feras</em>, ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais. Se causar o dano ×2 do <em>Golpe de Abate</em>, o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>",
     "level": 3,

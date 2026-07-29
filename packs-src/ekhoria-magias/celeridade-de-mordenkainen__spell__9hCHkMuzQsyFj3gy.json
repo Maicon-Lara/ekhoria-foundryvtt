@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "wrdpDg8aAhYyFz6b",
   "name": "Celeridade de Mordenkainen",
   "type": "spell",
   "_id": "9hCHkMuzQsyFj3gy",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 600000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },

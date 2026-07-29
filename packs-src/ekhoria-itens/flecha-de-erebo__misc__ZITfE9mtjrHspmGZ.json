@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-erebo",
-    "description": "<p>Ataque Fácil (+2) nas sombras. <strong>Efeito:</strong> apaga luzes menores no ponto de impacto por 1d4 rodadas.</p>",
+    "description": "Ataque Fácil (+2) nas sombras. Efeito: apaga luzes menores no ponto de impacto por 1d4 rodadas.",
     "quantity": 1,
     "cost": "40 PO",
     "weight_in_load": 0,

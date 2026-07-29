@@ -3,7 +3,7 @@
   "name": "Sequência Tática",
   "type": "class_ability",
   "_id": "PYyF7SpSZ2Zpum5n",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>O Mestre das Armas ganha um <strong>Ataque Extra</strong> por rodada (mesma Base de Ataque) — sua exceção entre as especializações de Guerreiro, que normalmente não recebem o Ataque Extra do 6º nível. Ao usá-lo, aplica maestrias diferentes em cada ataque. Aprende mais duas propriedades (total de seis).</p>",
     "level": 6,

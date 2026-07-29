@@ -3,7 +3,7 @@
   "name": "Sentir o Fora-de-Hora",
   "type": "class_ability",
   "_id": "U0kp1AGXAHDwzBth",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>Com uma ação de ativação, detecta mortos-vivos, necromancia ativa ou itens necromânticos num raio de 18 metros, e percebe se um cadáver recente foi vítima de ritual profano ou ressurreição. Não prepara magias na versão reversa.</p>",
     "level": 1,

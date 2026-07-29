@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "balas-de-prata-10",
-    "description": "<p>Pacote com 10. Causa dano completo em criaturas vulneráveis à Prata (licantropos, certos mortos-vivos).</p>",
+    "description": "Pacote com 10. Causa dano completo em criaturas vulneráveis à Prata (licantropos, certos mortos-vivos).",
     "quantity": 1,
     "cost": "50 PO",
     "weight_in_load": 0,

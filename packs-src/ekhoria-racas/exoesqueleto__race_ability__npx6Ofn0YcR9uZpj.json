@@ -3,7 +3,7 @@
   "name": "Exoesqueleto",
   "type": "race_ability",
   "_id": "npx6Ofn0YcR9uZpj",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "description": "<p>Possuem uma carapaça rígida que garante CA natural 14 + modificador de Destreza (em vez dos 10 + Destreza usuais). Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
     "xp": null,

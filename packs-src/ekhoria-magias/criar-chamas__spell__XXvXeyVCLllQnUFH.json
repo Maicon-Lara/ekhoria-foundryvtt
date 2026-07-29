@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "b2HBWUlWXchlgRxB",
   "name": "Criar Chamas",
   "type": "spell",
   "_id": "XXvXeyVCLllQnUFH",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

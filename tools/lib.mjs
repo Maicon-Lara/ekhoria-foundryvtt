@@ -20,6 +20,44 @@ export function makeId(seed) {
   return id;
 }
 
+// Converte a descrição de HTML para texto puro.
+//
+// Por que: no olddragon2e o campo `system.description` muda de contrato conforme
+// o tipo do item. Classe, habilidade, magia e monstro são renderizados com
+// {{{ }}} e aceitam HTML. Mas weapon/armor/misc aparecem em
+// `templates/sheets/*-sheet.hbs` dentro de um <textarea>, que exibe tag como
+// texto, e a lista de equipamento da ficha passa por {{truncate ... 35}} — um
+// corte cego que, caindo no meio de uma tag, deixa elemento aberto e faz as
+// tabelas seguintes da ficha aninharem umas nas outras.
+//
+// O conteúdo oficial do OD2 segue essa mesma divisão: 0 de 96 itens do pack
+// `equipment` têm HTML na descrição, enquanto 139 de 179 das classes têm.
+//
+// A autoria em `data/*.mjs` continua em HTML (é mais legível e as notas são
+// compartilhadas com journals); a conversão acontece só na saída.
+export function htmlParaTexto(html) {
+  if (!html) return "";
+  return String(html)
+    .replace(/<\s*br\s*\/?>/gi, "\n")
+    .replace(/<\s*li[^>]*>/gi, "• ")
+    .replace(/<\s*\/\s*(p|div|li|tr|h[1-6]|ul|ol)\s*>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&hellip;/g, "…")
+    .replace(/&times;/g, "×")
+    .replace(/&quot;/g, '"')
+    .replace(/&(?:#0?39|apos);/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&") // por último: senão reintroduz entidade
+    .replace(/[ \t]+/g, " ")
+    .replace(/[ \t]*\n[ \t]*/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 // Slug simples para usar em seeds.
 export function slug(s) {
   return String(s)
@@ -46,6 +84,96 @@ const DANO_PT_EN = { cortante: "slashing", perfurante: "piercing", impactante: "
 function damageType(v) {
   if (!v) return "none";
   return DANO_PT_EN[v] ?? v;
+}
+
+// Ícone semântico por palavra-chave.
+//
+// Sem isto, 100 habilidades dividiam kit.svg e 43 de espécie dividiam
+// diamond.svg: abrir o compêndio era uma parede de linhas idênticas. As regras
+// usam só os 35 ícones que o próprio olddragon2e empacota.
+//
+// Ordem importa: vence a primeira que casar, então o específico vem antes do
+// genérico — "Bala de Arcanita" é munição, não material.
+const REGRAS_ICONE = [
+  // Munição: antes dos materiais, senão "Flecha de Ônix" vira gema
+  [/bala|flecha|virote|municao|perfurante|balas/, "ammunition"],
+  // Alquimia, fungos e substâncias
+  [/fungo|extrato|mandra|esporo|pilula|po de|substancia|coquetel|quimic|filtro|metabolismo|antidoto/, "magic-potion"],
+  // Materiais, cristais e relíquias
+  [/arcanita|erebo|onix|mitral|prata|bronze|albinus|nargula|cristal|centelha|relicario|reliquial|gema/, "gem"],
+  // Fogo, sol e luz
+  [/pira|chama|fogo|solar|luz|incandesc|brasa/, "divine"],
+  // Baluarte contra a escuridão é defesa, não tema sombrio: vem antes
+  [/bastiao|baluarte|salvaguarda/, "shield"],
+  // Sombra, profano e morte ("abate" saiu: é armadilha de caçador e golpe
+  // marcial, não morte — "Armadilhas de Abate", "Golpe de Abate")
+  [/profano|sombrio|escuridao|infernal|morthan|consagrad|esquecidos|necro|morte/, "necromancer"],
+  // Arcano e runas
+  [/arcan|arkanes|arkadia|runic|rune|magia|magic|antimagic|feitic/, "arcane"],
+  // Ilusão e engano
+  [/ilusa|engan|miragem|disfarce/, "illusionist"],
+  // Furtividade, corvo e sabotagem
+  [/corvo|furtiv|sabotag|sabotador|cobertura|ouvir ruidos|estopim|contatos|ladrao|talentos d/, "bag"],
+  // Caça e tiro
+  [/cacad|caca|presa|feras|armadilha|arco|tiro|predator/, "ranged"],
+  // Combate desarmado
+  [/desarmad|briga|jogo de perna|punho|manobras/, "unarmed"],
+  // Combate com arma
+  [/arma|golpe|ataque|marcial|maestria|lamina|espada|carga|combate|guerra|tatic/, "melee"],
+  // Defesa, resistência e imunidade
+  [/estabilidade|inviolab|imune|imunidade|bastiao|resistenc|vulnerab|restric|tolerancia|firmeza|calejad|temper/, "shield"],
+  // Corpo, carapaça e mutação
+  [/exoesqueleto|ecdise|dermic|corpo|corpos|constructo|nucleo|membros|forjad|escama|couro/, "armor"],
+  // Mente, presságio e tempo
+  [/antecipa|pressagio|chronael|linha|fora-de-hora|estelar|lunar|sono|mente|visao|sentidos|percep/, "brain"],
+  // Palavra escrita, léxico e conhecimento
+  [/lexico|litania|palavra|conhecimento|erudito|escola|texto|tomo|codex|voz|grito|coro|tom /, "magic-scroll"],
+  // Social, reputação e comércio
+  [/audiencia|comitiva|rede |reputacao|traquejo|social|diplomat|carismat|honestidade|pacific|veredicto|julgamento|ordem/, "coins"],
+  // Ofício técnico e engenharia
+  [/engenheiro|tecnic|sincronia|reajuste|analise|campo|improviso|sequencia|oficio/, "kit"],
+  // Água e movimento
+  [/anfibio|agua|profundezas|nautic|voo|passo|movimento|velocidade|rapid/, "movement"],
+];
+
+// Remove acentos e caixa para as regras acima casarem sem depender de grafia.
+function normaliza(s) {
+  return String(s ?? "")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
+}
+
+// Ícone das CLASSES. Tabela própria, separada de REGRAS_ICONE, porque os nomes
+// de classe ("Operativo — Sabotador", "Veterano — Mercenário") não casam com o
+// vocabulário de habilidade — e misturar as duas listas faria regra de classe
+// pegar habilidade por acidente.
+//
+// Ordem: senda mandaloriana e formas de sabre primeiro, porque aparecem
+// combinadas com a classe-base no nome ("Sensível à Força — Guardião (Ataru)").
+const ICONES_CLASSE = [
+  [/mandalor|resol'?nare|beskar/, "legiao-shield"],
+  [/guardiao|ataru|makashi|soresu|djem so|niman|juyo|vaapad|shii-cho|sabre/, "slashing"],
+  [/sensivel a forca|consular|sentinela|vidente/, "brain"],
+  [/tecnico|engenheiro|medico de campo|slicer/, "kit"],
+  [/operativo|assassino|contrabandista|espiao|sabotador/, "bag"],
+  [/veterano|mercenario|cacador de recompensas|emissario/, "melee"],
+];
+
+export function iconeClasse(nome, padrao) {
+  const alvo = normaliza(nome);
+  for (const [regra, icone] of ICONES_CLASSE) {
+    if (regra.test(alvo)) return `${OD2I}/${icone}.svg`;
+  }
+  return padrao;
+}
+
+export function iconeSemantico(texto, padrao) {
+  const alvo = normaliza(texto);
+  for (const [regra, icone] of REGRAS_ICONE) {
+    if (regra.test(alvo)) return `${OD2I}/${icone}.svg`;
+  }
+  return padrao;
 }
 
 // Ícone de arma conforme o tipo (alcance ou tipo de dano).
@@ -86,21 +214,94 @@ export function stats() {
 }
 
 // Pasta (folder) que agrupa, dentro de um pack, uma classe/raça com suas habilidades.
-export function folderDoc(name, contentType /* "Item" */, seedPrefix) {
+export function folderDoc(name, contentType /* "Item" */, seedPrefix, opts = {}) {
   const id = makeId(`folder:${seedPrefix}:${name}`);
   return {
     name,
     sorting: "m",
-    folder: null,
+    folder: opts.parentId ?? null,
     type: contentType,
     _id: id,
     description: "",
-    sort: 0,
-    color: null,
+    sort: opts.sort ?? 0,
+    color: opts.color ?? null,
     flags: {},
     _stats: { ...stats(), exportSource: undefined },
     _key: `!folders!${id}`,
   };
+}
+
+// Transforma a hierarquia que hoje só existe no NOME da pasta em hierarquia de
+// verdade. O projeto já nomeia por convenção — "Operativo — Assassino",
+// "Sensível à Força — Guardião (Ataru)" —, então a própria convenção vira a
+// regra: se existe uma pasta com o nome do prefixo, a pasta vira filha dela e
+// fica só com o sufixo no rótulo.
+//
+// Duas formas de prefixo, aplicadas em laço até estabilizar (para encadear
+// Sensível à Força > Guardião > Ataru):
+//   "Pai — Filho"   (travessão)
+//   "Pai (Filho)"   (parêntese, usado pelas Formas de Sabre)
+//
+// O _id continua derivado do nome COMPLETO original, então renomear aqui não
+// muda ID nenhum: referências por UUID seguem válidas.
+export function aninhaPastas(docs) {
+  const pastas = docs.filter((d) => d._key?.startsWith("!folders!"));
+  const porId = new Map(pastas.map((f) => [f._id, f]));
+
+  // Nome curto -> pasta. Só registra o primeiro: nomes repetidos (várias
+  // "Senda Mandaloriana", uma por classe) não devem virar pai de ninguém.
+  const porNome = new Map();
+  const ambiguos = new Set();
+  const registra = (nome, pasta) => {
+    if (ambiguos.has(nome)) return;
+    if (porNome.has(nome) && porNome.get(nome) !== pasta) {
+      porNome.delete(nome);
+      ambiguos.add(nome);
+      return;
+    }
+    porNome.set(nome, pasta);
+  };
+  for (const f of pastas) registra(f.name, f);
+
+  // Evita ciclo: um pai não pode ser descendente do próprio filho.
+  const ehDescendente = (possivel, ancestral) => {
+    let atual = possivel;
+    while (atual?.folder) {
+      if (atual.folder === ancestral._id) return true;
+      atual = porId.get(atual.folder);
+    }
+    return false;
+  };
+
+  let mudou = true;
+  while (mudou) {
+    mudou = false;
+    for (const pasta of pastas) {
+      const travessao = pasta.name.lastIndexOf(" — ");
+      const parenteses = pasta.name.match(/^(.+) \(([^)]+)\)$/);
+
+      let pai = null;
+      let rotulo = null;
+      if (travessao > 0) {
+        pai = porNome.get(pasta.name.slice(0, travessao)) ?? null;
+        if (pai) rotulo = pasta.name.slice(travessao + 3);
+      }
+      if (!pai && parenteses) {
+        pai = porNome.get(parenteses[1]) ?? null;
+        if (pai) rotulo = parenteses[2];
+      }
+
+      if (!pai || pai === pasta) continue;
+      if (pasta.folder === pai._id && pasta.name === rotulo) continue;
+      if (ehDescendente(pai, pasta)) continue;
+
+      pasta.folder = pai._id;
+      pasta.name = rotulo;
+      registra(rotulo, pasta); // permite descer mais um nível na volta do laço
+      mudou = true;
+    }
+  }
+  return docs;
 }
 
 // daily_uses por nível (1..15). Se a habilidade tem `usos_dia`, aplica esse
@@ -121,7 +322,7 @@ export function classAbilityDoc(ability, folderId, seedPrefix, sort) {
     name: ability.nome,
     type: "class_ability",
     _id: id,
-    img: ability.img || ICONS.class_ability,
+    img: ability.img || iconeSemantico(ability.nome, ICONS.class_ability),
     system: {
       description: ability.desc || "",
       level: ability.level ?? 1,
@@ -216,7 +417,7 @@ export function raceAbilityDoc(ability, folderId, seedPrefix, sort) {
     name: ability.nome,
     type: "race_ability",
     _id: id,
-    img: ability.img || ICONS.race_ability,
+    img: ability.img || iconeSemantico(ability.nome, ICONS.race_ability),
     system: sys,
     effects: [],
     flags: {},
@@ -331,7 +532,8 @@ export function spellDoc(spell, folderId, seedPrefix, sort) {
 function equipmentBase(it) {
   return {
     odo_id: slug(it.nome),
-    description: it.desc || "",
+    // weapon/armor/misc: a ficha exibe num <textarea>. Ver htmlParaTexto().
+    description: htmlParaTexto(it.desc),
     quantity: 1,
     cost: it.cost || "",
     weight_in_load: it.weight_in_load ?? 0,
@@ -403,7 +605,7 @@ export function miscDoc(it, folderId, seedPrefix, sort) {
     name: it.nome,
     type: "misc",
     _id: id,
-    img: it.img || `${OD2I}/misc.svg`,
+    img: it.img || iconeSemantico(it.nome, `${OD2I}/misc.svg`),
     system: equipmentBase(it),
     effects: [],
     flags: {},

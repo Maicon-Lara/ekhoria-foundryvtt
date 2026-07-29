@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "T7mqmI4vMIk11mx1",
   "name": "Inverter a Gravidade",
   "type": "spell",
   "_id": "VWZVDxsGDfLDL9PU",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 900000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

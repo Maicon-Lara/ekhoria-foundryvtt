@@ -3,7 +3,7 @@
   "name": "Vulnerabilidade",
   "type": "race_ability",
   "_id": "AkIJCPVFeLGs73XK",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Sob sol ou luz forte, todos os testes e Jogadas de Proteção do Drow são realizados com ajuste Difícil.</p>",
     "xp": null,

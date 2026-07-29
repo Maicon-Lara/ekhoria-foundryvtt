@@ -3,7 +3,7 @@
   "name": "Maestria em Arma",
   "type": "class_ability",
   "_id": "O9cEH4vhwiNVtAKN",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
     "description": "<p>+1 no dano com uma arma à sua escolha.</p>",
     "level": 1,

@@ -1,5 +1,5 @@
 {
-  "folder": "qV5gtj46VBBxKtka",
+  "folder": "ZidlehvRCrz9xzug",
   "name": "Elucubração de Mordenkainen",
   "type": "spell",
   "_id": "Gnn1yB09kJbCbmwa",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 800000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

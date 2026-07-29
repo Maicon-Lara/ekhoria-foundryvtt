@@ -3,7 +3,7 @@
   "name": "Imunidades",
   "type": "race_ability",
   "_id": "AbfhVxVp57ctdgou",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p>Imunes a efeitos e magias que envolvam sono e à paralisia causada por Ghouls. Precisam de apenas 4 horas de meditação por dia como descanso.</p>",
     "xp": null,

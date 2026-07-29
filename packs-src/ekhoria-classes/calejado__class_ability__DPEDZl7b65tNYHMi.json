@@ -3,7 +3,7 @@
   "name": "Calejado",
   "type": "class_ability",
   "_id": "DPEDZl7b65tNYHMi",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
     "description": "<p><strong>Resiliência:</strong> recebe +1 Ponto de Vida permanente (uma única vez, adicionado ao seu total); testes para resistir a Medo tornam-se Fáceis (+2). <strong>Queixo de Aço:</strong> a chance de nocauteá-lo é reduzida em 1 (mínimo 1 em 1d6). <strong>Nocauteador:</strong> sua chance de nocaute aumenta para 1 + modificador de Força em 1d6.</p>",
     "level": 6,

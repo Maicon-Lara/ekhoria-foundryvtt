@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/bludgeoning.svg",
   "system": {
     "odo_id": "soqueira-de-bronze",
-    "description": "<p>Pequena, Impactante. Permite causar dano letal com ataques desarmados. É a única variante de soqueira permitida a Clérigos.</p>",
+    "description": "Pequena, Impactante. Permite causar dano letal com ataques desarmados. É a única variante de soqueira permitida a Clérigos.",
     "quantity": 1,
     "cost": "2 PO",
     "weight_in_load": 1,

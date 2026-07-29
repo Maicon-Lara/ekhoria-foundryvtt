@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ranged.svg",
   "system": {
     "odo_id": "mosquete-de-chapa",
-    "description": "<p>Média, Disparo (30 m), Duas Mãos. Tambor rotativo de 3 câmaras; recarga de 1 rodada por câmara. <strong>Instável:</strong> resultados 1–2 no d20 causam falha crítica. Por ser arma de Disparo, não soma modificador de Força no dano.</p>",
+    "description": "Média, Disparo (30 m), Duas Mãos. Tambor rotativo de 3 câmaras; recarga de 1 rodada por câmara. Instável: resultados 1–2 no d20 causam falha crítica. Por ser arma de Disparo, não soma modificador de Força no dano.",
     "quantity": 1,
     "cost": "110 PO",
     "weight_in_load": 2,

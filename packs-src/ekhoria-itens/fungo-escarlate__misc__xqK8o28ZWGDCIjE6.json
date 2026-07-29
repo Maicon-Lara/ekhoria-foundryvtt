@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-escarlate",
-    "description": "<p>Concede Destreza 18 por 1d4 + Nível rodadas. <strong>Vício 1.</strong> Colateral: exaustão por 1 turno.</p>",
+    "description": "Concede Destreza 18 por 1d4 + Nível rodadas. Vício 1. Colateral: exaustão por 1 turno.",
     "quantity": 1,
     "cost": "—",
     "weight_in_load": 0,

@@ -3,7 +3,7 @@
   "name": "Erguer os Consagrados",
   "type": "class_ability",
   "_id": "r4M1uF7rrlkWQDgU",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "description": "<p>Anima cadáveres como servos temporários (ritual de 1 turno por corpo): Esqueletos (1 DV) ou Zumbis (2 DV). Duração de 1 hora por nível; total máximo de DV igual ao modificador de Sabedoria. Uma vez por dia. Ao fim da duração, os servos viram pó.</p>",
     "level": 1,

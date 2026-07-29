@@ -3,7 +3,7 @@
   "name": "Sabotagem",
   "type": "class_ability",
   "_id": "Pv9FhQ1PGD93c9Cm",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Ao atacar objetos inanimados, Construtos, portas ou barreiras, causa dano dobrado e ignora metade da Resistência a Dano ou CA do alvo.</p>",
     "level": 3,

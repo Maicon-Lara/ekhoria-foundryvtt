@@ -3,7 +3,7 @@
   "name": "Sangue Infernal",
   "type": "race_ability",
   "_id": "DmhM3HZtAzcgshmM",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
   "system": {
     "description": "<p>A herança demoníaca arde nas veias: reduz em 2 o dano de fogo que sofre e recebe +1 em JP contra Medo (o inferno não o assusta).</p>",
     "xp": null,

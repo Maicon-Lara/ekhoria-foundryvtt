@@ -3,7 +3,7 @@
   "name": "Corpos Forjados",
   "type": "race_ability",
   "_id": "douqL6SRACtyBdZA",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "description": "<p>O treinamento diário desde a infância transforma o corpo em instrumento: testes de Força para erguer ou empurrar são sempre Fáceis.</p>",
     "xp": null,

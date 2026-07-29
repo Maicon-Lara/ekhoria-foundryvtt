@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "balas-perfurantes-mitral-10",
-    "description": "<p>Pacote com 10. Ignora 2 pontos de CA do alvo.</p>",
+    "description": "Pacote com 10. Ignora 2 pontos de CA do alvo.",
     "quantity": 1,
     "cost": "150 PO",
     "weight_in_load": 0,

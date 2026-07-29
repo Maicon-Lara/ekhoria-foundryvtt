@@ -3,7 +3,7 @@
   "name": "Presságios",
   "type": "class_ability",
   "_id": "akYlF8wC286IVYcf",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/brain.svg",
   "system": {
     "description": "<p>A cada amanhecer registra um número de Presságios igual ao modificador de Inteligência (mínimo 1), acumulando até o dobro. Gasta 1 Presságio para forçar a re-rolagem de qualquer dado (seu, de aliado ou de inimigo a até 18 m) ou aplicar ±2 a uma rolagem, declarado antes do resultado.</p>",
     "level": 1,

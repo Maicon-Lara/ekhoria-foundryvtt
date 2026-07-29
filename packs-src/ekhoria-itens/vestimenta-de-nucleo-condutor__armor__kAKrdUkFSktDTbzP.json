@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/armor.svg",
   "system": {
     "odo_id": "vestimenta-de-nucleo-condutor",
-    "description": "<p>Armadura Média de Arcanita, <strong>exclusiva de Lito-arcanistas</strong> (extensão do sistema vital Arkanim — fatal para quem não tem núcleo mineral ativo). Concede +1 em JPC para Concentração.</p>",
+    "description": "Armadura Média de Arcanita, exclusiva de Lito-arcanistas (extensão do sistema vital Arkanim — fatal para quem não tem núcleo mineral ativo). Concede +1 em JPC para Concentração.",
     "quantity": 1,
     "cost": "40 PO",
     "weight_in_load": 1,

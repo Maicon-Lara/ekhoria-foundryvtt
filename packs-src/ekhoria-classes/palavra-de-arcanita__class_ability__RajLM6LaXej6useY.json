@@ -3,7 +3,7 @@
   "name": "Palavra de Arcanita",
   "type": "class_ability",
   "_id": "RajLM6LaXej6useY",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "description": "<p>Uma vez por dia profere uma Palavra de Poder e escolhe: <strong>Calar</strong> (alvo a 18 m faz JP ou fica silenciado e sem conjurar por 1d4 rodadas), <strong>Estilhaçar</strong> (objeto ou Construto de Arcanita a 18 m faz JP ou é destruído/desativado) ou <strong>Erguer</strong> (assume controle total de um Construto de Arcanita por 1 hora).</p>",
     "level": 10,

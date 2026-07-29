@@ -3,7 +3,7 @@
   "name": "Cobertura Perfeita",
   "type": "class_ability",
   "_id": "OYc2Jl29JOD2puWs",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Ao assumir um disfarce social neutro (mensageiro ou funcionário oficial), faz testes de Carisma para enganar autoridades como Ajuste Fácil (+2). Suas credenciais forjadas são quase impossíveis de detectar sem magia como <em>Visão da Verdade</em>.</p>",
     "level": 3,

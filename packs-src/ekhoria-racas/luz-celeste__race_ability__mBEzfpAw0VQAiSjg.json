@@ -3,7 +3,7 @@
   "name": "Luz Celeste",
   "type": "race_ability",
   "_id": "mBEzfpAw0VQAiSjg",
-  "img": "systems/olddragon2e/assets/icons/diamond.svg",
+  "img": "systems/olddragon2e/assets/icons/divine.svg",
   "system": {
     "description": "<p>Herança dos céus: pode emitir Luz (como a magia <em>Luz</em>) à vontade e recebe +1 em JP contra efeitos de Morte, drenagem de energia e mortos-vivos.</p>",
     "xp": null,

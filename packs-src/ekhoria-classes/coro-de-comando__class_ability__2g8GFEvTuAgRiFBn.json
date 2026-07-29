@@ -3,7 +3,7 @@
   "name": "Coro de Comando",
   "type": "class_ability",
   "_id": "2g8GFEvTuAgRiFBn",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/magic-scroll.svg",
   "system": {
     "description": "<p>Enquanto fala, todos os aliados que o ouvem ganham +1 em Moral e Ajuste Fácil (+2) em JP contra Medo e controle mental. Além disso, pode manter sob comando até o modificador de Inteligência em Construtos de Arcanita simultaneamente.</p>",
     "level": 6,

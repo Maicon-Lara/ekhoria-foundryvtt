@@ -3,7 +3,7 @@
   "name": "Passo do Corvo",
   "type": "class_ability",
   "_id": "jIuWCB1E5jWdGqXg",
-  "img": "systems/olddragon2e/assets/icons/kit.svg",
+  "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
     "description": "<p>Movimento base de 12 metros (valor fixo, independente do povo; ignora redutores de carga leve) e ignora o custo extra de terrenos difíceis naturais. Sua habilidade Ouvir Ruídos progride como a do Ladrão: 1–2 em 1d6.</p>",
     "level": 1,

@@ -1,5 +1,5 @@
 {
-  "folder": "vR8QVaW124qgHUo8",
+  "folder": "qBbxipfNrPp0c3fQ",
   "name": "Muralha de Ossos",
   "type": "spell",
   "_id": "4AnPtOFzleHPhl1K",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 700000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

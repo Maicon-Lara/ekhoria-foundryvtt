@@ -1,5 +1,5 @@
 {
-  "folder": "IgHXD6yIrq2LwAVd",
+  "folder": "b2HBWUlWXchlgRxB",
   "name": "Leitura da Mente",
   "type": "spell",
   "_id": "Gily6K7eK90DOplX",
@@ -31,7 +31,7 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 800000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
