@@ -1,6 +1,12 @@
 name: Release
 
-# Publica quando uma tag vX.Y.Z e enviada.
+# Cria o release quando uma tag vX.Y.Z e enviada.
+#
+# ATENCAO: o release e ARQUIVO HISTORICO, nao o canal de instalacao. O Foundry
+# busca manifest e zip em raw.githubusercontent.com/.../main/, porque o servidor
+# onde o modulo roda nao alcanca release-assets.githubusercontent.com — a URL
+# releases/latest/download atravessa tres hosts e termina la, dando "fetch
+# failed". Quem publica de fato e o push na main.
 #
 # A TAG e a fonte unica da versao. Antes, `version` e `download` no module.json
 # eram dois campos mantidos na mao, e nada obrigava os dois a concordarem: no
@@ -48,7 +54,22 @@ jobs:
           alvo=$(jq -r '.download' ekhoria-module/module.json)
           echo "versao no zip: $dentro | download: $alvo"
           test "$dentro" = "$VERSAO"
-          echo "$alvo" | grep -q "/v$VERSAO/ekhoria.zip"
+          # A entrega vive no branch, nao no release: o servidor onde o modulo
+          # roda nao alcanca release-assets.githubusercontent.com.
+          echo "$alvo" | grep -q "raw.githubusercontent.com/.*/main/ekhoria.zip"
+
+      # A versao gravada pela tag precisa voltar para a main: e de la que o
+      # Foundry le o manifest.
+      - name: Devolver a versao para a main
+        env:
+          VERSAO: ${{ steps.versao.outputs.valor }}
+        run: |
+          if git diff --quiet; then echo "nada a commitar"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ekhoria-module/module.json ekhoria.zip
+          git commit -m "chore: v$VERSAO"
+          git push origin HEAD:main
 
       - name: Publicar release
         env:

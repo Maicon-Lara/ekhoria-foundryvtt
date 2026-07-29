@@ -24,45 +24,46 @@ ITEMS = ["ekhoria.js", "ekhoria.css", "module.json", "lang", "packs", "assets"]
 
 
 REPO = "Maicon-Lara/ekhoria-foundryvtt"
+RAW = f"https://raw.githubusercontent.com/{REPO}/main"
+MANIFEST = f"{RAW}/ekhoria-module/module.json"
+DOWNLOAD = f"{RAW}/ekhoria.zip"
 
 
-def sincroniza_download():
-    """Deriva o campo `download` a partir de `version`.
+def confere_urls():
+    """Garante que manifest e download apontam para o branch, nao para o release.
 
-    Os dois campos precisam concordar, e nada obrigava isso: no v0.7.3 o
-    download seguia apontando para o zip do v0.6.8. O Foundry lia o manifest
-    novo, baixava o pacote velho e nao dava erro nenhum — versao nova na tela,
-    conteudo velho na mesa.
+    O servidor onde o modulo roda nao consegue buscar anexo de release: a URL
+    releases/latest/download atravessa tres hosts e termina em
+    release-assets.githubusercontent.com, que da "fetch failed" la. raw
+    funciona (o outro modulo atualiza por ele), entao a entrega vive no branch.
 
-    A versao passa a ser a fonte unica: o download e sempre
-    releases/download/v{version}/ekhoria.zip.
+    Com o download apontando para um arquivo fixo, `version` e `download`
+    deixam de ser dois campos que precisam concordar — some a classe de bug que
+    fez o v0.7.3 servir o pacote do v0.6.8.
     """
     caminho = os.path.join(SRC, "module.json")
     with open(caminho, encoding="utf-8") as f:
         bruto = f.read()
-    versao = json.loads(bruto)["version"]
-    esperado = f"https://github.com/{REPO}/releases/download/v{versao}/ekhoria.zip"
+    manifesto = json.loads(bruto)
+    texto = bruto
 
-    atual = json.loads(bruto).get("download", "")
-    if atual == esperado:
-        return versao
-
-    # Reescreve so o valor do campo, preservando a formatacao do arquivo.
-    novo_texto = re.sub(
-        r'("download"\s*:\s*)"[^"]*"',
-        lambda m: m.group(1) + '"' + esperado + '"',
-        bruto,
-        count=1,
-    )
-    with open(caminho, "w", encoding="utf-8", newline="\n") as f:
-        f.write(novo_texto)
-    anterior = atual.split("/releases/")[-1] or "(vazio)"
-    print(f"  download corrigido: {anterior} -> v{versao}/ekhoria.zip")
-    return versao
+    for campo, esperado in (("manifest", MANIFEST), ("download", DOWNLOAD)):
+        if manifesto.get(campo) != esperado:
+            print(f"  {campo} corrigido -> .../{esperado.split('/main/')[-1]}")
+            texto = re.sub(
+                r'("' + campo + r'"\s*:\s*)"[^"]*"',
+                lambda m, e=esperado: m.group(1) + '"' + e + '"',
+                texto,
+                count=1,
+            )
+    if texto != bruto:
+        with open(caminho, "w", encoding="utf-8", newline="\n") as f:
+            f.write(texto)
+    return manifesto["version"]
 
 
 def main():
-    versao = sincroniza_download()
+    versao = confere_urls()
     print(f"  empacotando v{versao}")
     if os.path.exists(OUT):
         os.remove(OUT)

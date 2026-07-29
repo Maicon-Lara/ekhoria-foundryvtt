@@ -34,7 +34,7 @@ bônus de Jogada de Proteção, etc.).
 3. No campo **Manifest URL**, cole:
 
    ```
-   https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/latest/download/module.json
+   https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json
    ```
 
 4. Clique em **Install**.
@@ -110,12 +110,20 @@ git tag v0.7.4
 git push origin v0.7.4
 ```
 
+> ⚠️ **A entrega vive no branch, não no release.** O servidor onde o módulo roda
+> não alcança `release-assets.githubusercontent.com` — a URL
+> `releases/latest/download` atravessa três hosts e termina lá, dando
+> `fetch failed` no Foundry. `raw` funciona. Os releases continuam sendo criados
+> por tag, mas como **arquivo histórico**: quem publica é o push na `main`.
+>
+> Consequência: dê alguns minutos após o push, porque o `raw` tem cache de CDN.
+
 A **tag e a fonte unica da versao**. O workflow `.github/workflows/release.yml`
 grava a versao no `module.json`, roda `tools/make-zip.py` e cria o release com
 `ekhoria.zip` e `module.json` anexados. A URL de instalacao nao muda:
 
 ```
-https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/latest/download/module.json
+https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json
 ```
 
 > **Nao edite `download` na mao.** `make-zip.py` o deriva de `version`

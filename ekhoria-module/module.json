@@ -2,7 +2,7 @@
   "id": "ekhoria",
   "title": "Ekhoria — Sourcebook Oficial",
   "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -136,7 +136,7 @@
     }
   ],
   "url": "https://github.com/Maicon-Lara/ekhoria-foundryvtt",
-  "manifest": "https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/latest/download/module.json",
-  "download": "https://github.com/Maicon-Lara/ekhoria-foundryvtt/releases/download/v0.7.7/ekhoria.zip",
+  "manifest": "https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria-module/module.json",
+  "download": "https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/ekhoria.zip",
   "changelog": "https://raw.githubusercontent.com/Maicon-Lara/ekhoria-foundryvtt/main/CHANGELOG.md"
 }
