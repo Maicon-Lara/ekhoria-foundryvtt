@@ -3,3 +3,9 @@ _verify/
 *.log
 .DS_Store
 Thumbs.db
+
+# LevelDB: o write-ahead log FAZ PARTE do pack. O `*.log` acima o excluia, e o
+# release montado pelo workflow (checkout limpo) saia sem ele — no v0.7.4 os
+# logs estavam vazios e nada se perdeu, mas um build que deixe dado no log
+# publicaria compendio incompleto, em silencio.
+!ekhoria-module/packs/**/*.log
