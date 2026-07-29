@@ -31,56 +31,64 @@
       "label": "Ekhoria: Classes",
       "path": "packs/ekhoria-classes",
       "type": "Item",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/classes.svg"
     },
     {
       "name": "ekhoria-racas",
       "label": "Ekhoria: Raças",
       "path": "packs/ekhoria-racas",
       "type": "Item",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/racas.svg"
     },
     {
       "name": "ekhoria-itens",
       "label": "Ekhoria: Arsenal",
       "path": "packs/ekhoria-itens",
       "type": "Item",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/itens.svg"
     },
     {
       "name": "ekhoria-magias",
       "label": "Ekhoria: Magias",
       "path": "packs/ekhoria-magias",
       "type": "Item",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/magias.svg"
     },
     {
       "name": "ekhoria-tabelas",
       "label": "Ekhoria: Tabelas",
       "path": "packs/ekhoria-tabelas",
       "type": "RollTable",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/tabelas.svg"
     },
     {
       "name": "ekhoria-lore",
       "label": "Ekhoria: Cenário (Lore)",
       "path": "packs/ekhoria-lore",
       "type": "JournalEntry",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/lore.svg"
     },
     {
       "name": "ekhoria-journal",
       "label": "Ekhoria: Referência do Mestre",
       "path": "packs/ekhoria-journal",
       "type": "JournalEntry",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/journal.svg"
     },
     {
       "name": "ekhoria-bestiario",
       "label": "Ekhoria: Bestiário",
       "path": "packs/ekhoria-bestiario",
       "type": "Actor",
-      "system": "olddragon2e"
+      "system": "olddragon2e",
+      "banner": "modules/ekhoria/assets/banners/bestiario.svg"
     },
     {
       "name": "ekhoria-campanha",
@@ -93,7 +101,8 @@
         "TRUSTED": "NONE",
         "ASSISTANT": "NONE",
         "GAMEMASTER": "OWNER"
-      }
+      },
+      "banner": "modules/ekhoria/assets/banners/campanha.svg"
     }
   ],
   "packFolders": [

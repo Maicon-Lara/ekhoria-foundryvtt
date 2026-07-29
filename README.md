@@ -85,6 +85,24 @@ referências por UUID entre raça/classe e suas habilidades permanecem estáveis
 Conteúdo do cenário Ekhoria por **Maicon Lara**. Compatível com o sistema Old Dragon 2e
 da Old Dragon Editora. Old Dragon é marca de seus respectivos detentores.
 
+## Aparencia
+
+O modulo repinta as fichas do OD2 com a paleta do cenario (prata-azulada de
+Arcanita, dourado da Centelha Solar no que esta selecionado), mas so quando a
+opcao **Tema Ekhoria nas fichas** esta ligada — `ekhoria.js` poe a classe
+`ekhoria-tema` no `<body>`. Todas as cores vivem no bloco `:root` de
+`ekhoria.css`: para mudar o tema, edite so ali.
+
+As capas dos compendios sao geradas:
+
+```sh
+node tools/make-banners.mjs
+```
+
+> `tools/make-zip.py` tem a lista `ITEMS` do que vai no pacote. **Pasta nova no
+> modulo precisa ser adicionada la** — senao o arquivo existe no repositorio e
+> nunca chega ao servidor.
+
 ## Publicar uma versao
 
 ```sh

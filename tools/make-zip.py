@@ -18,7 +18,9 @@ SRC = os.path.join(ROOT, "ekhoria-module")
 OUT = os.path.join(ROOT, "ekhoria.zip")
 
 # Conteúdo do módulo, com os arquivos na raiz do zip (layout que o Foundry espera).
-ITEMS = ["ekhoria.js", "ekhoria.css", "module.json", "lang", "packs"]
+# Pasta nova no módulo PRECISA entrar aqui: senão o arquivo existe no
+# repositório e nunca chega ao servidor.
+ITEMS = ["ekhoria.js", "ekhoria.css", "module.json", "lang", "packs", "assets"]
 
 
 REPO = "Maicon-Lara/ekhoria-foundryvtt"
