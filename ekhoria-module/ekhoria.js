@@ -229,12 +229,34 @@ const EKHORIA_RACAS = {
 //  INICIALIZAÇÃO DO MÓDULO
 // ─────────────────────────────────────────────
 
+const ID_MODULO = "ekhoria";
+const CLASSE_TEMA = "ekhoria-tema";
+
+function aplicarTema(ligado) {
+  document.body.classList.toggle(CLASSE_TEMA, !!ligado);
+}
+
 Hooks.once("init", () => {
   console.log("Ekhoria | Módulo inicializado.");
+
+  game.settings.register(ID_MODULO, "tema", {
+    name: "Tema Ekhoria nas fichas",
+    hint:
+      "Repinta as fichas do Old Dragon 2 com a paleta do cenário: prata-azulada " +
+      "de Arcanita, com o dourado da Centelha Solar no que está selecionado. " +
+      "Desligue para manter a aparência original do sistema.",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+    onChange: aplicarTema, // sem recarregar: a classe sai e o sistema volta
+  });
 });
 
 Hooks.once("ready", () => {
   console.log("Ekhoria | Módulo pronto.");
+
+  aplicarTema(game.settings.get(ID_MODULO, "tema"));
 
   // Expõe os dados globalmente para uso em macros e outros módulos
   game.ekhoria = {
@@ -264,7 +286,13 @@ const NOMES_EKHORIA = new Set([
   ...Object.values(EKHORIA_RACAS).map(r => normalizarNome(r.nome)),
 ]);
 
-Hooks.on("renderActorSheet", (sheet, html) => {
+// O Foundry monta o nome do gancho a partir do nome interno da classe. A ficha
+// do OD2 herda da camada de compatibilidade (foundry.appv1.sheets.ActorSheet),
+// cujo nome interno nao e garantido no v13 — e `renderActorSheet` simplesmente
+// nao dispara, deixando o selo invisivel sem erro nenhum. Ouvimos tambem o nome
+// concreto da classe do sistema; a funcao ja verifica se o selo existe, entao
+// disparar duas vezes e inofensivo.
+const colocarSelo = (sheet, html) => {
   const actor = sheet.actor;
   if (!actor || actor.type !== "character") return;
 
@@ -287,7 +315,11 @@ Hooks.on("renderActorSheet", (sheet, html) => {
   badge.title = "Personagem usa conteúdo exclusivo de Ekhoria";
   badge.textContent = "✦ EKHORIA";
   titulo.after(badge);
-});
+};
+
+for (const gancho of ["renderOD2CharacterSheet", "renderActorSheet"]) {
+  Hooks.on(gancho, colocarSelo);
+}
 
 // ─────────────────────────────────────────────
 //  MACRO AUXILIAR — Exibir habilidades da classe

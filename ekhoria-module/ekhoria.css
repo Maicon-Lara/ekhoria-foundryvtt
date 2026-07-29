@@ -1,13 +1,40 @@
 /* ================================================
    Ekhoria — Estilos do Módulo
    Compatível com Old Dragon 2e para Foundry VTT
+   ================================================
+
+   Paleta de Arcanita e Centelha Solar: prata-azulada da poeira que "brilha no
+   ar como se alguém tivesse quebrado uma estrela", com o dourado da Centelha
+   marcando o que está selecionado.
+
+   TODA cor mora no bloco :root abaixo. Para mudar o tema, edite só ali —
+   nenhuma regra daqui para baixo carrega valor de cor solto.
+
+   O tema das fichas pende de `body.ekhoria-tema`, classe que ekhoria.js põe no
+   <body> quando a opção "Tema Ekhoria nas fichas" está ligada. Sem ela, o
+   sistema fica exatamente como era: um módulo de conteúdo não tem o direito de
+   repintar a interface de quem não pediu.
    ================================================ */
 
-/* Badge "EKHORIA" no topo da ficha */
+:root {
+  --ekh-barra: #4a6b8a;        /* barras de seção e cabeçalhos de lista */
+  --ekh-lateral: #3f556b;      /* barra lateral da ficha                */
+  --ekh-botao: #2f4d69;        /* botões                                */
+  --ekh-hover: #5e82a6;        /* estados de hover                      */
+  --ekh-selecionado: #c9a227;  /* aba ativa e destaques (Centelha)      */
+  --ekh-fundo: #f3f5f7;        /* área da ficha                         */
+  --ekh-painel: #e6ebf0;       /* painéis e caixas de modificador       */
+  --ekh-borda: #c8ced6;        /* fios e bordas                         */
+  --ekh-texto: #2c2f33;        /* corpo do texto                        */
+  --ekh-texto-claro: #eef3f8;  /* texto sobre superfície escura         */
+}
+
+/* ── Selo "EKHORIA" no topo da ficha ───────────────────────────────────── */
+
 .ekhoria-badge {
   display: inline-block;
-  background: linear-gradient(135deg, #7a3e1a, #c47a2a);
-  color: #f5e6c8;
+  background: linear-gradient(135deg, var(--ekh-botao), var(--ekh-barra));
+  color: var(--ekh-selecionado);
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -15,14 +42,17 @@
   border-radius: 3px;
   margin-left: 8px;
   vertical-align: middle;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-/* Diálogos de habilidades de classe/raça */
-.dialog .window-content h2 {
-  color: #7a3e1a;
-  border-bottom: 1px solid #c47a2a;
+/* ── Diálogos do módulo ────────────────────────────────────────────────── */
+/* Escopado no tema: a versão anterior pintava o h2 de QUALQUER diálogo do
+   mundo — do sistema, do core, de outros módulos. */
+
+body.ekhoria-tema .dialog .window-content h2 {
+  color: var(--ekh-botao);
+  border-bottom: 1px solid var(--ekh-barra);
   padding-bottom: 4px;
   margin-bottom: 8px;
 }
@@ -34,4 +64,130 @@
 .dialog .window-content ul li {
   margin-bottom: 6px;
   line-height: 1.5;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * Tema das fichas do Old Dragon 2
+ *
+ * `!important` é necessário: o sistema pinta as barras em seletores de
+ * especificidade 0,6,0 como
+ *   .olddragon2e.sheet.character .character-tab-equipment .weapon .list
+ * Igualar exigiria replicar a árvore de cada aba, e qualquer refatoração do
+ * OD2 quebraria o tema em silêncio.
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+body.ekhoria-tema .olddragon2e.sheet .window-content {
+  background: var(--ekh-fundo) !important;
+}
+
+/* Barras de seção e cabeçalhos de lista */
+body.ekhoria-tema .olddragon2e.sheet .list,
+body.ekhoria-tema .olddragon2e.sheet .tab-title,
+body.ekhoria-tema .olddragon2e.sheet .ability-level {
+  background-color: var(--ekh-barra) !important;
+  color: var(--ekh-texto-claro) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet .list a {
+  color: var(--ekh-texto-claro) !important;
+}
+
+/* Selo de evolução por nível: um tom acima da barra, para a hierarquia
+   aparecer — nível da habilidade na barra, upgrade no tom claro. */
+body.ekhoria-tema .olddragon2e.sheet li span.ability-on-level {
+  background-color: var(--ekh-hover) !important;
+  color: var(--ekh-texto-claro) !important;
+  float: left;
+  clear: left;
+  margin: 0.2rem 0.45rem 0.2rem 0;
+}
+
+body.ekhoria-tema .olddragon2e.sheet li .ability,
+body.ekhoria-tema .olddragon2e.sheet li .rogue-talent-points,
+body.ekhoria-tema .olddragon2e.sheet li .daily-uses {
+  clear: both;
+}
+
+body.ekhoria-tema .olddragon2e.sheet li span.ability-on-level ~ p {
+  padding-left: 0.3rem;
+  border-left: 2px solid var(--ekh-borda);
+}
+
+/* Texto de acento */
+body.ekhoria-tema .olddragon2e.sheet .overview,
+body.ekhoria-tema .olddragon2e.sheet .sheet-container h1,
+body.ekhoria-tema .olddragon2e.sheet .sheet-container h2,
+body.ekhoria-tema .olddragon2e.sheet .sheet-container h3,
+body.ekhoria-tema .olddragon2e.sheet .sheet-container h4,
+body.ekhoria-tema .olddragon2e.sheet .sheet-container h5,
+body.ekhoria-tema .olddragon2e.sheet li span.diamond {
+  color: var(--ekh-botao) !important;
+}
+
+/* Aba ativa: dourado da Centelha */
+body.ekhoria-tema .olddragon2e.sheet .tabs .item.active,
+body.ekhoria-tema .olddragon2e.sheet .class-ability-tabs .item.active {
+  color: var(--ekh-botao) !important;
+  text-decoration-color: var(--ekh-selecionado) !important;
+  text-decoration-thickness: 2px;
+}
+
+/* Hover */
+body.ekhoria-tema .olddragon2e.sheet a:hover,
+body.ekhoria-tema .olddragon2e.sheet a.item:hover,
+body.ekhoria-tema .olddragon2e.sheet .border-button:hover {
+  color: var(--ekh-hover) !important;
+  border-color: var(--ekh-hover) !important;
+}
+
+/* ── Barra lateral escura ──────────────────────────────────────────────────
+ * A lateral do OD2 é clara com texto escuro. Pintá-la de --ekh-lateral exige
+ * clarear o texto de dentro junto, senão vira escuro sobre escuro. Os inputs
+ * mantêm fundo claro e texto escuro: continuam legíveis e marcam o que é
+ * campo editável. */
+
+body.ekhoria-tema .olddragon2e.sheet .sidebar {
+  background-color: var(--ekh-lateral) !important;
+  color: var(--ekh-texto-claro) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet .sidebar label,
+body.ekhoria-tema .olddragon2e.sheet .sidebar span,
+body.ekhoria-tema .olddragon2e.sheet .sidebar div,
+body.ekhoria-tema .olddragon2e.sheet .sidebar a {
+  color: var(--ekh-texto-claro) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet .sidebar input,
+body.ekhoria-tema .olddragon2e.sheet .sidebar select {
+  background-color: var(--ekh-painel) !important;
+  color: var(--ekh-texto) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet .sidebar a:hover {
+  color: var(--ekh-selecionado) !important;
+}
+
+/* ── Painéis e caixas ──────────────────────────────────────────────────── */
+
+body.ekhoria-tema .olddragon2e.sheet .stat-modifier {
+  background-color: var(--ekh-painel) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet .border,
+body.ekhoria-tema .olddragon2e.sheet .border-button {
+  border-color: var(--ekh-borda) !important;
+}
+
+/* ── Botões ────────────────────────────────────────────────────────────── */
+
+body.ekhoria-tema .olddragon2e.sheet button {
+  background-color: var(--ekh-botao) !important;
+  border-color: var(--ekh-botao) !important;
+  color: var(--ekh-texto-claro) !important;
+}
+
+body.ekhoria-tema .olddragon2e.sheet button:hover {
+  background-color: var(--ekh-hover) !important;
+  border-color: var(--ekh-hover) !important;
 }
