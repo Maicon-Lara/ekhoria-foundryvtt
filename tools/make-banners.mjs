@@ -6,8 +6,9 @@
  * estrela quebrada, a Cratera, a Fenda, a Pira e o Esmaecer. Nada de arte
  * licenciada nem silhueta reconhecível.
  *
- * A paleta vem do tema (ekhoria-module/ekhoria.css): azuis de Arcanita com o
- * dourado da Centelha Solar na barra inferior. Mudou o tema? Mude aqui junto.
+ * A paleta vem do tema (ekhoria-module/ekhoria.css): carmim sobre pergaminho,
+ * a mesma dos brasões do cenário, com o dourado da Centelha na barra inferior.
+ * Mudou o tema? Mude aqui junto.
  *
  * A poeira usa um gerador congruencial com semente fixa — Math.random geraria
  * um arquivo diferente a cada execução e sujaria o diff sem motivo.
@@ -25,13 +26,13 @@ const OUT = path.join(ROOT, "ekhoria-module", "assets", "banners");
 const L = 600;
 const A = 200;
 
-// Espelham o :root de ekhoria.css
-const FUNDO_ESCURO = "#17212d";
-const FUNDO_MEIO = "#2f4d69";
-const FUNDO_BAIXO = "#1f2d3c";
-const TRACO = "#eef3f8";
+// Espelham o :root de ekhoria.css (carmim e pergaminho)
+const FUNDO_ESCURO = "#2b0d0d";
+const FUNDO_MEIO = "#781818";
+const FUNDO_BAIXO = "#3d1010";
+const TRACO = "#f3ecdb";
 const OURO = "#c9a227";
-const BRILHO = "#5e82a6";
+const BRILHO = "#c0a878";
 
 const pol = (cx, cy, r, lados, giro = 0) =>
   Array.from({ length: lados }, (_, i) => {

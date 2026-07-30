@@ -2,7 +2,7 @@
   "id": "ekhoria",
   "title": "Ekhoria — Sourcebook Oficial",
   "description": "Módulo de conteúdo para o cenário Ekhoria, compatível com o sistema Old Dragon 2e. Adiciona classes, raças e conteúdo exclusivo do cenário.",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14"

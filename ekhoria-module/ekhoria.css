@@ -3,9 +3,8 @@
    Compatível com Old Dragon 2e para Foundry VTT
    ================================================
 
-   Paleta de Arcanita e Centelha Solar: prata-azulada da poeira que "brilha no
-   ar como se alguém tivesse quebrado uma estrela", com o dourado da Centelha
-   marcando o que está selecionado.
+   Paleta de carmim sobre pergaminho, a mesma dos brasões do cenário, com o
+   dourado da Centelha Solar marcando o que está selecionado.
 
    TODA cor mora no bloco :root abaixo. Para mudar o tema, edite só ali —
    nenhuma regra daqui para baixo carrega valor de cor solto.
@@ -17,16 +16,21 @@
    ================================================ */
 
 :root {
-  --ekh-barra: #4a6b8a;        /* barras de seção e cabeçalhos de lista */
-  --ekh-lateral: #3f556b;      /* barra lateral da ficha                */
-  --ekh-botao: #2f4d69;        /* botões                                */
-  --ekh-hover: #5e82a6;        /* estados de hover                      */
+  /* Paleta extraída dos brasões do cenário (Compendio/Imagens/Icones): a
+     mancha de aquarela em carmim sobre papel envelhecido, com o glifo branco.
+     Não é escolha de gosto — é a identidade que a arte já estabelecia, e que a
+     versão azul anterior contrariava. O dourado da Centelha Solar fica no que
+     está selecionado. */
+  --ekh-barra: #781818;        /* barras de seção e cabeçalhos de lista */
+  --ekh-lateral: #600000;      /* barra lateral da ficha                */
+  --ekh-botao: #480000;        /* botões — o carmim mais fechado         */
+  --ekh-hover: #93302c;        /* estados de hover                      */
   --ekh-selecionado: #c9a227;  /* aba ativa e destaques (Centelha)      */
-  --ekh-fundo: #f3f5f7;        /* área da ficha                         */
-  --ekh-painel: #e6ebf0;       /* painéis e caixas de modificador       */
-  --ekh-borda: #c8ced6;        /* fios e bordas                         */
-  --ekh-texto: #2c2f33;        /* corpo do texto                        */
-  --ekh-texto-claro: #eef3f8;  /* texto sobre superfície escura         */
+  --ekh-fundo: #f3ecdb;        /* área da ficha: pergaminho claro        */
+  --ekh-painel: #e6d9b8;       /* painéis e caixas de modificador        */
+  --ekh-borda: #c0a878;        /* fios e bordas                         */
+  --ekh-texto: #2b2118;        /* corpo do texto: marrom de tinta        */
+  --ekh-texto-claro: #f5ecd8;  /* texto sobre superfície carmim          */
 }
 
 /* ── Selo "EKHORIA" no topo da ficha ───────────────────────────────────── */
