@@ -5,12 +5,23 @@
   "_id": "mvsqFPyDJFkM1ns5",
   "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
-    "description": "<p>A Escola furtiva: o Marcado que aprendeu a não ser visto antes de ser temido.</p><p>Ganha os talentos <strong>Furtividade</strong> e <strong>Escalar</strong> com as chances do <strong>Ladrão</strong>.</p><hr><p><strong>Esta é a sua Escola</strong> — progride inteira, nos degraus 3º, 6º e 10º.</p>",
+    "description": "<p>A Escola furtiva: o Marcado que aprendeu a não ser visto antes de ser temido.</p><p>Ganha os talentos <strong>Furtividade</strong> e <strong>Escalar</strong> com as chances do <strong>Ladrão</strong>.</p><p><em>Na ficha:</em> os dois talentos aparecem roláveis no bloco de Talentos. O OD2 distribui a mesma reserva de pontos do Ladrão (2 + modificador de Destreza, mais 2 nos níveis 3, 6 e 10) — como aqui há só dois talentos em vez de cinco, sobra ponto; gaste até o teto de 5 em cada e ignore o resto.</p><hr><p><strong>Esta é a sua Escola</strong> — progride inteira, nos degraus 3º, 6º e 10º.</p>",
     "level": 3,
     "level3": "",
     "level6": "<p><strong>+1d6</strong> de dano contra alvo <strong>desprevenido ou flanqueado</strong>.</p>",
     "level10": "<p><strong>+2 na CA</strong> contra criaturas <strong>não humanoides</strong>.</p>",
-    "rogue_talents": [],
+    "rogue_talents": [
+      {
+        "key": "furtividade",
+        "name": "Furtividade",
+        "description": "Esconder-se imóvel nas sombras, sem ser detectado sem o uso de magia."
+      },
+      {
+        "key": "escalar",
+        "name": "Escalar",
+        "description": "Escalar superfícies sem cordas, incluindo as íngremes e lisas."
+      }
+    ],
     "daily_uses": {
       "1": 0,
       "2": 0,

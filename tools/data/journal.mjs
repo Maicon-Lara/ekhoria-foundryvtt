@@ -78,10 +78,10 @@ const paginas = [
 <table>
 <thead><tr><th>Cristal</th><th>Em armadura</th><th>Em arma</th><th>Custo</th></tr></thead>
 <tbody>
-<tr><td>Arkanita</td><td>+1 em JP contra magias</td><td>Dano mágico (afeta imunes a armas normais)</td><td>×5</td></tr>
-<tr><td>Ônix</td><td>Furtividade Fácil</td><td>+2 dano em ataques furtivos/pelas costas; silencia armas de fogo</td><td>×4</td></tr>
-<tr><td>Centelha Solar</td><td>+1 em JP contra medo, paralisia e necromancia</td><td>+1d6 de fogo no 1º acerto de cada combate</td><td>×6</td></tr>
-<tr><td>Erebo</td><td>Anula totalmente magia se passar na JP</td><td>Absorve a próxima magia conjurada pelo alvo</td><td>×7</td></tr>
+<tr><td>Arcanita</td><td>+1 em todas as JP contra magia</td><td>Dano vira mágico (afeta imunes a armas normais)</td><td>×5</td></tr>
+<tr><td>Ônix</td><td>Furtividade Fácil (+2); resistência a frio e +2 em JP contra drenagem</td><td>Silencia armas de fogo; brancas ganham +2 em furtivo/pelas costas e ferem mortos-vivos a pleno</td><td>×4</td></tr>
+<tr><td>Centelha Solar</td><td>+1 em JP contra medo, paralisia e necromancia; emite luz</td><td>+1d6 de fogo no 1º acerto de cada combate (com Estouro), dobrado contra vulneráveis a fogo</td><td>×6</td></tr>
+<tr><td>Erebo</td><td>JP bem-sucedida anula a magia por inteiro, não pela metade</td><td>Caça-conjuradores: ao ferir quem conjura, o alvo faz JP ou perde a magia; dissipa um efeito ativo e ignora CA mágica. Não aceita encantamento nem outro cristal</td><td>×5</td></tr>
 </tbody>
 </table>
 
@@ -92,8 +92,89 @@ const paginas = [
 <h2>Regras de Vício e Abstinência</h2>
 <p>Sempre que uma substância é consumida fora de uso seguro, o Mestre rola 1d6 em segredo; resultado ≤ ao valor de Vício torna o personagem dependente. <strong>Recuperação:</strong> isolamento e 1d3+1 sucessos em JP (Sabedoria −10), semanais, com consumo diário de Extrato de Mandra Diluído.</p>
 
-<h2>Extração de Despojos</h2>
-<p>Com adaga/faca e tempo (1 a 4 Turnos conforme o tamanho), faz-se um Teste de Sabedoria (instinto) ou Inteligência (técnica). Sucesso extrai o recurso; falha o inutiliza; 20 natural dobra/melhora. Recursos biológicos não tratados degradam em 1d4 dias.</p>
+<h2>Coleta de Materiais</h2>
+<p>Qualquer personagem com tempo e ao menos uma faca coleta de carcaça recém-abatida ou de fonte natural. O recurso é contado em <strong>unidades de coleta</strong>: criatura Pequena ½ · Média 1 · Grande 3 · Enorme 5 · Colossal 7.</p>
+<p><strong>Teste:</strong> 1 turno (10 min) por unidade; Sabedoria (instinto) ou Inteligência (técnica), com Ajuste pela periculosidade da fonte — Normal (fera comum), Difícil (−2) (monstro perigoso), Muito Difícil (−5) (algo lendário). Falha inutiliza aquela unidade; 20 natural dá qualidade superior ou dobra a unidade. Material biológico não tratado <strong>estraga em 1d4 dias</strong>; matéria bruta vale <strong>DV × 2,5 PO</strong>.</p>
+<p><strong>Seis categorias:</strong> Calcificados, Couros, Líquidos e Órgãos vêm de criaturas; Flora e Minérios, do ambiente. Mortos-vivos viram pó (só resíduo necrótico); Constructos dão lascas de Arcanita e o núcleo; demônios dão ícor ilegal; dragões dão a matéria lendária.</p>
+<p><em>Os números de produção — quantas unidades cada item consome, custo, teste e tempo — estão na página seguinte.</em></p>
+`,
+  },
+  {
+    title: "Produção — Narcoguerreiro e Voraz",
+    content: `
+
+<p>Duas classes fabricam por regra própria. As tabelas abaixo são as do Livro de Mecânicas (4.4 e 4.10).</p>
+
+<h2>Narcoguerreiro — alquimia de catálogo</h2>
+<p>O Narcoguerreiro fabrica os compostos pela <strong>metade do custo base</strong>. Os compostos são <em>equipamento</em>, não habilidade de classe: qualquer um compra e consome, e as Regras de Vício valem igual para todos. O que muda é a perícia.</p>
+<table>
+<thead><tr><th>Item</th><th>Custo de fabricação</th><th>Custo de balcão</th><th>Dificuldade (JP)</th><th>Tempo</th></tr></thead>
+<tbody>
+<tr><td>Saco de Esporos</td><td>25 PO</td><td>50 PO</td><td>Normal</td><td>1 semana</td></tr>
+<tr><td>Cogumelo de Combate</td><td>50 PO</td><td>100 PO</td><td>Normal</td><td>1 semana</td></tr>
+<tr><td>Albinus / Mandra Pura</td><td>250 PO</td><td>500 PO</td><td>Difícil (−5)</td><td>2 semanas</td></tr>
+</tbody>
+</table>
+<p><em>Além do preço: ignora o teste de vício de uma dose por dia, recebe +3 nos testes de vício e veneno, combina duas substâncias ao mesmo tempo (Coquetel Marcial, do 3º nível) e é imune a gases e esporos.</em></p>
+
+<h2>Voraz — manufatura de carcaça</h2>
+<p>Vale para qualquer personagem; a vantagem do Voraz vem do talento <strong>Armeiro de Carcaças</strong>. O teste é de <strong>Inteligência</strong> ou <strong>Destreza</strong> com a ferramenta certa, ao fim do trabalho. Falha custa os insumos mundanos e 1 unidade de material.</p>
+<table>
+<thead><tr><th>Item produzido</th><th>Material (unidades)</th><th>Insumos</th><th>Teste</th><th>Etapas</th></tr></thead>
+<tbody>
+<tr><td>Arma Simples</td><td>1 Calcificado</td><td>½ do custo base</td><td>Normal</td><td>1 etapa (1–3 dias)</td></tr>
+<tr><td>Arma Marcial</td><td>2 Calcificados</td><td>½ do custo base</td><td>Normal</td><td>1 etapa + Oficina (+1d4 dias)</td></tr>
+<tr><td>Escudo</td><td>1 Calcificado</td><td>½ do custo base</td><td>Normal</td><td>1 etapa (1–3 dias)</td></tr>
+<tr><td>Armadura Leve</td><td>2 Couros</td><td>½ do custo base</td><td>Normal</td><td>1 etapa (1–3 dias)</td></tr>
+<tr><td>Armadura Média</td><td>3 Couros ou Calcificados</td><td>½ do custo base</td><td>Normal</td><td>1 etapa + Oficina (+1d4 dias)</td></tr>
+<tr><td>Armadura Pesada</td><td>4 Calcificados</td><td>½ do custo base</td><td>Normal</td><td>1 etapa + Oficina (+1d4 dias)</td></tr>
+<tr><td>Consumível (óleo, veneno, poção)</td><td>1 Líquido, Órgão ou Flora</td><td>½ do custo base</td><td>Normal</td><td>1 etapa (1–3 dias)</td></tr>
+<tr><td>Equipamento</td><td>1 Couro, Flora ou Minério</td><td>½ do custo base</td><td>Normal</td><td>1 etapa (1–3 dias)</td></tr>
+<tr><td><strong>Qualquer um como Item Superior</strong></td><td>o mesmo <strong>+ o Componente-Assinatura</strong></td><td>½ do custo base</td><td><strong>Difícil (−2)</strong></td><td>1 etapa + <strong>Oficina obrigatória</strong></td></tr>
+</tbody>
+</table>
+
+<h3>Tempo de coleta</h3>
+<p>A coleta custa 1 turno por unidade; o Voraz gasta metade.</p>
+<table>
+<thead><tr><th>Tamanho</th><th>Unidades</th><th>Coleta comum</th><th>Coleta do Voraz</th></tr></thead>
+<tbody>
+<tr><td>Pequena</td><td>½</td><td>5 min</td><td>~3 min</td></tr>
+<tr><td>Média</td><td>1</td><td>10 min</td><td>5 min</td></tr>
+<tr><td>Grande</td><td>3</td><td>30 min</td><td>15 min</td></tr>
+<tr><td>Enorme</td><td>5</td><td>50 min</td><td>25 min</td></tr>
+<tr><td>Colossal</td><td>7</td><td>70 min</td><td>35 min</td></tr>
+</tbody>
+</table>
+
+<h3>O que só o Voraz faz</h3>
+<ul>
+<li><strong>Dispensa a Receita</strong> para transformar o Componente-Assinatura em Item Superior — ele é a receita. Sem um Voraz (ou uma Receita comprada), o grupo só fabrica itens <em>comuns</em> a partir de carcaças.</li>
+<li>O item produzido mantém <strong>estatísticas plenas</strong> e <strong>não quebra no "1" natural</strong>.</li>
+<li>O material coletado dura <strong>1d6+2 dias</strong> em vez de estragar em 1d4.</li>
+<li>Ao identificar a criatura (<em>Anatomia das Feras</em>), pode <strong>preservar uma característica natural dela</strong> no item: resistência elemental, veneno ou outra habilidade da fera.</li>
+</ul>
+
+<h3>Efeitos do item manufaturado</h3>
+<table>
+<thead><tr><th>Item</th><th>Efeito</th><th>Comum</th><th>Superior</th></tr></thead>
+<tbody>
+<tr><td>Armadura</td><td>Reduz um tipo de dano</td><td>−1</td><td>−2</td></tr>
+<tr><td>Armadura</td><td>Bônus em JP contra uma condição/tipo de dano</td><td>+1</td><td>+2</td></tr>
+<tr><td>Armadura</td><td>Espinhos: reflete dano em corpo a corpo</td><td>1</td><td>2</td></tr>
+<tr><td>Arma</td><td>Bônus de dano (um tipo)</td><td>+1</td><td>+2</td></tr>
+<tr><td>Arma</td><td>Bônus de dano contra um tipo de criatura</td><td>+1</td><td>+2</td></tr>
+<tr><td>Arma</td><td>Ganha Propriedade de Maestria</td><td>uma fixa</td><td>escolhe entre duas</td></tr>
+<tr><td>Arma</td><td>Dano extra em acerto crítico</td><td>+1d4</td><td>+2d4</td></tr>
+<tr><td>Consumível</td><td>Óleo de arma (1 turno): + dano</td><td>+1</td><td>+1d4</td></tr>
+<tr><td>Consumível</td><td>Óleo de proteção (1 turno): reduz um tipo de dano</td><td>−1</td><td>−2</td></tr>
+<tr><td>Consumível</td><td>Poção: PV temporários</td><td>5</td><td>10</td></tr>
+<tr><td>Equipamento</td><td>Bônus em testes de um atributo/talento</td><td>+1</td><td>+2</td></tr>
+<tr><td>Equipamento</td><td>Bônus de deslocamento</td><td>+1,5 m</td><td>+3 m</td></tr>
+<tr><td>Equipamento</td><td>Bônus de iniciativa</td><td>+1</td><td>+2</td></tr>
+</tbody>
+</table>
+<p><em>Outros especialistas têm seus domínios: o Sabotador da Cratera trabalha Minérios e engenhocas; o Lito-arcanista e o Guardião da Centelha, a Arcanita e os Cristais.</em></p>
 `,
   },
 ];

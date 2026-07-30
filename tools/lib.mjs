@@ -298,12 +298,37 @@ export function aninhaPastas(docs) {
   return docs;
 }
 
-// daily_uses por nível (1..15). Se a habilidade tem `usos_dia`, aplica esse
-// número de usos a partir do nível em que ela é obtida.
+// daily_uses por nível (1..15).
+//
+// O sistema NÃO deriva nada do texto: o template lê `daily_uses[nível do
+// personagem]` e desenha um checkbox por uso (helper generateClassAbilityDailyUses).
+// Então uma habilidade que vai de 1×/dia para 2× no 3º e 3× no 10º precisa ter
+// isso NO MAPA — escrever "duas vezes por dia" em level3 muda o texto exibido e
+// mais nada. Era esse o buraco: todas as evoluções de uso estavam só em prosa.
+//
+// `usos_dia` aceita três formas:
+//   2                   número fixo, valendo do nível em que a habilidade é obtida
+//   { 1: 1, 3: 2, 10: 3 }  degraus: de cada nível listado em diante, aquele valor
+//   "nivel"             o próprio nível do personagem (Pólvora Arcana do Sabotador)
 function dailyUses(ability) {
   const level = ability.level ?? 1;
   const usos = ability.usos_dia ?? 0;
   const o = {};
+
+  if (usos === "nivel") {
+    for (let i = 1; i <= 15; i++) o[String(i)] = i >= level ? i : 0;
+    return o;
+  }
+
+  if (usos && typeof usos === "object") {
+    const degraus = Object.keys(usos).map(Number).sort((a, b) => a - b);
+    for (let i = 1; i <= 15; i++) {
+      const degrau = degraus.filter((n) => n <= i).pop();
+      o[String(i)] = degrau === undefined ? 0 : usos[degrau];
+    }
+    return o;
+  }
+
   for (let i = 1; i <= 15; i++) o[String(i)] = i >= level ? usos : 0;
   return o;
 }

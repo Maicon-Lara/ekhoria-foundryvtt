@@ -28,6 +28,8 @@ const ESCOLAS = [
     folder: PASTA_ESCOLAS,
     nome: "Águia-Cadáver (Ecos)",
     level: 3,
+    // O Eco Skorn é o único uso diário de Escola: 1×/dia a partir do 3º.
+    usos_dia: 1,
     desc:
       "<p>A Escola que aprofunda os Ecos, a herança sonora da marcação.</p>" +
       "<p><strong>+1 de dano por dado</strong> nos Ecos, e aprende o <strong>Eco Skorn</strong> " +
@@ -44,7 +46,15 @@ const ESCOLAS = [
     desc:
       "<p>A Escola furtiva: o Marcado que aprendeu a não ser visto antes de ser temido.</p>" +
       "<p>Ganha os talentos <strong>Furtividade</strong> e <strong>Escalar</strong> " +
-      "com as chances do <strong>Ladrão</strong>.</p>",
+      "com as chances do <strong>Ladrão</strong>.</p>" +
+      "<p><em>Na ficha:</em> os dois talentos aparecem roláveis no bloco de Talentos. O OD2 distribui a mesma reserva de pontos do Ladrão (2 + modificador de Destreza, mais 2 nos níveis 3, 6 e 10) — como aqui há só dois talentos em vez de cinco, sobra ponto; gaste até o teto de 5 em cada e ignore o resto.</p>",
+    // A regra dá dois Talentos de Ladrão a uma classe de Guerreiro. Sem este
+    // array o sistema não mostra bloco de talento nenhum — has_rogue_talents
+    // procura justamente uma class_ability com rogue_talents preenchido.
+    rogue_talents: [
+      { key: "furtividade", name: "Furtividade", description: "Esconder-se imóvel nas sombras, sem ser detectado sem o uso de magia." },
+      { key: "escalar", name: "Escalar", description: "Escalar superfícies sem cordas, incluindo as íngremes e lisas." },
+    ],
     level6:
       "<p><strong>+1d6</strong> de dano contra alvo <strong>desprevenido ou flanqueado</strong>.</p>",
     level10:

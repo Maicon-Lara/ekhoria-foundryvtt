@@ -6,9 +6,9 @@
   "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-ebano",
-    "description": "Concede Pele de Pedra (+4 na CA). Vício 1. Colateral: testes Difíceis por 1d4 dias.",
+    "description": "Concede Pele de Pedra (+4 na CA). Vício 1. Colateral: testes Difíceis por 1d4 dias. Cogumelo de Combate: Narcoguerreiro fabrica por 50 PO em 1 semana.",
     "quantity": 1,
-    "cost": "—",
+    "cost": "100 PO",
     "weight_in_load": 0,
     "weight_in_grams": 0,
     "magic_item": false,

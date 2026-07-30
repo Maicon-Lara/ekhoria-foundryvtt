@@ -5,7 +5,7 @@
   "_id": "7WpyxFiPYS2DZwaO",
   "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
-    "description": "<p>Uma quantidade de vezes por dia igual ao seu <strong>modificador de Sabedoria (mínimo 1)</strong>, aponta para uma criatura a até 9 metros e pronuncia a sentença final. A criatura faz Jogada de Proteção de Constituição (JPC) contra Morte com Ajuste Difícil (−2). Falha: criaturas vivas sofrem 3d8 de dano mágico e mortos-vivos são instantaneamente destruídos (reduzidos a pó). Sucesso: metade do dano ou evita a destruição.</p>",
+    "description": "<p>Uma quantidade de vezes por dia igual ao seu <strong>modificador de Sabedoria (mínimo 1)</strong>, aponta para uma criatura a até 9 metros e pronuncia a sentença final. A criatura faz Jogada de Proteção de Constituição (JPC) contra Morte com Ajuste Difícil (−2). Falha: criaturas vivas sofrem 3d8 de dano mágico e mortos-vivos são instantaneamente destruídos (reduzidos a pó). Sucesso: metade do dano ou evita a destruição.</p><p><em>Na ficha:</em> o marcador de usos diários vem com <strong>1</strong>, o mínimo da regra. Ajuste para o seu modificador de Sabedoria na aba <strong>Mecânicas</strong> da habilidade.</p>",
     "level": 10,
     "level3": "",
     "level6": "",
