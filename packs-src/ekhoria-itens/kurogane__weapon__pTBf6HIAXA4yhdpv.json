@@ -8,7 +8,7 @@
     "odo_id": "kurogane",
     "description": "Arma tradicional dos Orcs de Yorugan (Média, Cortante). Lâmina larga e levemente curva, de fio assimétrico — os ferimentos tendem a abrir mais do que fechar. Sangrenta: realiza acertos críticos com 19 ou 20.",
     "quantity": 1,
-    "cost": "30 PO",
+    "cost": "300 PO",
     "weight_in_load": 1,
     "weight_in_grams": 0,
     "magic_item": false,

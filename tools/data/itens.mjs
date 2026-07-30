@@ -14,7 +14,7 @@ export const categorias = [
     folder: "Armas",
     tipo: "weapon",
     itens: [
-      { nome: "Kurogane", damage: "2d4", damage_type: "cortante", cost: "30 PO", weight_in_load: 1, desc: "<p>Arma tradicional dos Orcs de Yorugan (Média, Cortante). Lâmina larga e levemente curva, de fio assimétrico — os ferimentos tendem a abrir mais do que fechar. <strong>Sangrenta:</strong> realiza acertos críticos com 19 ou 20.</p>" },
+      { nome: "Kurogane", damage: "2d4", damage_type: "cortante", cost: "300 PO", weight_in_load: 1, desc: "<p>Arma tradicional dos Orcs de Yorugan (Média, Cortante). Lâmina larga e levemente curva, de fio assimétrico — os ferimentos tendem a abrir mais do que fechar. <strong>Sangrenta:</strong> realiza acertos críticos com 19 ou 20.</p>" },
       { nome: "Soqueira de Bronze", damage: "1d4", damage_type: "impactante", cost: "2 PO", weight_in_load: 1, desc: "<p>Pequena, Impactante. Permite causar dano letal com ataques desarmados. É a única variante de soqueira permitida a Clérigos.</p>" },
       { nome: "Soqueira de Espinhos", damage: "1d4", damage_type: "perfurante", cost: "4 PO", weight_in_load: 1, desc: "<p>Pequena, Perfurante. Permite causar dano letal com ataques desarmados.</p>" },
       { nome: "Kattar", damage: "1d4", damage_type: "cortante", cost: "5 PO", weight_in_load: 1, desc: "<p>Pequena, Cortante. Soqueira de lâminas que permite causar dano letal cortante com ataques desarmados.</p>" },
@@ -63,11 +63,26 @@ export const categorias = [
     itens: [
       { nome: "Prata", cost: "", weight_in_load: 0, img: `${IC}/coins.svg`, desc: "<p>Essencial contra licantropos e certas categorias de mortos-vivos. Amplamente disponível em centros urbanos. <strong>Custo: ×2 o valor base</strong> da arma/armadura forjada nele.</p>" },
       { nome: "Bronze", cost: "", weight_in_load: 0, img: `${IC}/coins.svg`, desc: "<p>Em armaduras: −1 na CA, mas diminui o peso (armadura pesada de bronze conta como média para Carga). Em armas de fogo: reduz a Carga da arma em 1 (mínimo 1). <strong>Custo: ×1,5 o valor base.</strong></p>" },
+      { nome: "Aço de Casturel", cost: "", weight_in_load: 0, img: `${IC}/coins.svg`, desc: "<p>O melhor aço <strong>mundano</strong> de Ekhoria, do Vale da Águia: armas <strong>+1 no dano</strong> <em>ou</em> armaduras <strong>+1 na CA</strong> (escolha na forja). Sem magia — não exige manutenção ritual, não quebra por desgaste e <strong>mantém o bônus onde encantamentos falham</strong> (contra Silentes e Construtos, em zonas de Erebo). <strong>Custo: ×4 o valor base.</strong></p>" },
       { nome: "Mitral", cost: "", weight_in_load: 0, img: `${IC}/coins.svg`, desc: "<p>Torna armaduras mais leves (+1 na CA) e armas mais afiadas (+1 no dano). Em armas de fogo: +1 no dano e só engasga em 1 natural se também falhar no ataque. Extremamente raro. <strong>Custo: ×10 o valor base.</strong></p>" },
       { nome: "Arcanita", cost: "", weight_in_load: 0, img: `${IC}/gem.svg`, desc: "<p>Mineral que sustenta Arkádia, sagrado para os Clãs Mantis. Em armaduras: +1 em todas as JP contra magias. Em armas: o dano é mágico, afetando criaturas imunes a armas normais. <strong>Custo: ×5 o valor base.</strong></p>" },
       { nome: "Ônix", cost: "", weight_in_load: 0, img: `${IC}/gem.svg`, desc: "<p>Extraído das Montanhas de Ônix Negro de Breônia. Em armaduras: teste Fácil em Furtividade. Em armas brancas: +2 no dano em Ataques Furtivos ou pelas costas. Em armas de fogo: disparo completamente silencioso. <strong>Custo: ×4 o valor base.</strong></p>" },
       { nome: "Centelha Solar", cost: "", weight_in_load: 0, img: `${IC}/gem.svg`, desc: "<p>Forjado pela Guilda dos Ferreiros de Benellikov. Em armaduras: +1 em todas as JP contra medo, paralisia ou necromancia. Em armas: no primeiro ataque bem-sucedido de cada combate, +1d6 de dano de fogo. <strong>Custo: ×6 o valor base.</strong></p>" },
       { nome: "Erebo", cost: "", weight_in_load: 0, img: `${IC}/diamond.svg`, desc: "<p>Cristal raro que consome magia. Em armaduras: ao passar na JP contra uma magia, o efeito é totalmente anulado (sem dano parcial). Em armas: o alvo atingido tem a próxima magia que conjurar absorvida. Em armas mágicas: reduz o bônus em −1 por dia até ser removido. <strong>Custo: ×5 o valor base.</strong></p>" },
+    ],
+  },
+  {
+    folder: "Explosivos de Benellikov",
+    tipo: "misc",
+    itens: [
+      { nome: "Granada de Fragmentação", cost: "40 PO", weight_in_load: 1, img: `${IC}/misc.svg`,
+        desc: "<p><strong>2d6</strong> num raio de <strong>3 m</strong> (<strong>JPD</strong> reduz à metade). Arremesso a <strong>9 m</strong>.</p>" },
+      { nome: "Bomba de Fumaça", cost: "20 PO", weight_in_load: 1, img: `${IC}/misc.svg`,
+        desc: "<p>Cobertura total num raio de <strong>6 m</strong> por <strong>1d4 rodadas</strong>. Arremesso a <strong>9 m</strong>.</p>" },
+      { nome: "Bomba de Clarão", cost: "25 PO", weight_in_load: 1, img: `${IC}/misc.svg`,
+        desc: "<p>Alvos a até <strong>3 m</strong> do impacto fazem <strong>JP</strong> ou ficam <strong>cegos e ensurdecidos por 1 rodada</strong>. Arremesso a <strong>9 m</strong>.</p>" },
+      { nome: "Carga de Demolição", cost: "60 PO", weight_in_load: 2, img: `${IC}/misc.svg`,
+        desc: "<p>Fixa, alcance de <strong>toque</strong>. Contra estruturas, objetos e Construtos causa <strong>4d6</strong> ignorando metade da \"CA\" inanimada; detona no <strong>início da próxima rodada</strong>.</p>" },
     ],
   },
   {

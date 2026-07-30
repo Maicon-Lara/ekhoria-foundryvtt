@@ -1,15 +1,15 @@
 {
-  "folder": "v3Mt2ihzyRubQDWT",
-  "name": "Mitral",
+  "folder": "TPKwiVDjG4lFgIhl",
+  "name": "Bomba de Fumaça",
   "type": "misc",
-  "_id": "BrSLcheBcYgZ0bdd",
-  "img": "systems/olddragon2e/assets/icons/coins.svg",
+  "_id": "hZBKOpQpldRs5Cxn",
+  "img": "systems/olddragon2e/assets/icons/misc.svg",
   "system": {
-    "odo_id": "mitral",
-    "description": "Torna armaduras mais leves (+1 na CA) e armas mais afiadas (+1 no dano). Em armas de fogo: +1 no dano e só engasga em 1 natural se também falhar no ataque. Extremamente raro. Custo: ×10 o valor base.",
+    "odo_id": "bomba-de-fumaca",
+    "description": "Cobertura total num raio de 6 m por 1d4 rodadas. Arremesso a 9 m.",
     "quantity": 1,
-    "cost": "",
-    "weight_in_load": 0,
+    "cost": "20 PO",
+    "weight_in_load": 1,
     "weight_in_grams": 0,
     "magic_item": false,
     "is_equipped": false
@@ -27,9 +27,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!BrSLcheBcYgZ0bdd"
+  "_key": "!items!hZBKOpQpldRs5Cxn"
 }

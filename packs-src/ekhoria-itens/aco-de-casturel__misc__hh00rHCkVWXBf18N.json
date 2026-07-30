@@ -1,12 +1,12 @@
 {
   "folder": "v3Mt2ihzyRubQDWT",
-  "name": "Mitral",
+  "name": "Aço de Casturel",
   "type": "misc",
-  "_id": "BrSLcheBcYgZ0bdd",
+  "_id": "hh00rHCkVWXBf18N",
   "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
-    "odo_id": "mitral",
-    "description": "Torna armaduras mais leves (+1 na CA) e armas mais afiadas (+1 no dano). Em armas de fogo: +1 no dano e só engasga em 1 natural se também falhar no ataque. Extremamente raro. Custo: ×10 o valor base.",
+    "odo_id": "aco-de-casturel",
+    "description": "O melhor aço mundano de Ekhoria, do Vale da Águia: armas +1 no dano ou armaduras +1 na CA (escolha na forja). Sem magia — não exige manutenção ritual, não quebra por desgaste e mantém o bônus onde encantamentos falham (contra Silentes e Construtos, em zonas de Erebo). Custo: ×4 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,
@@ -27,9 +27,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 300000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!BrSLcheBcYgZ0bdd"
+  "_key": "!items!hh00rHCkVWXBf18N"
 }
