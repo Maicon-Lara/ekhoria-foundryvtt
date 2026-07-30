@@ -32,7 +32,7 @@ const nomeCurto = (nome) => nome.split("(")[0].trim();
 // não escolheu Escola (ela vem no 3º nível).
 const marcado = acha("Marcado");
 
-export const variantes = classAbilitiesBase.map((escola) => {
+const marcados = classAbilitiesBase.map((escola) => {
   const curto = nomeCurto(escola.nome);
   return {
     ...marcado,
@@ -56,3 +56,54 @@ export const variantes = classAbilitiesBase.map((escola) => {
     ],
   };
 });
+
+// ── Guardião da Centelha: uma variante por benefício do Cristal ──────────────
+// A escolha é feita no 1º nível (Portador da Centelha) e PROGRIDE: no 6º a
+// Sincronia Técnica faz o bônus escolhido escalar com Inteligência. Por isso
+// vale variante — diferente de um bônus pontual como a Disciplina Solar.
+//
+// O 10º nível continua fora da variante de propósito: lá o Guardião escolhe um
+// SEGUNDO benefício, e embutir as nove combinações inflaria o compêndio sem
+// ganho. A segunda escolha é anotada na ficha, como sempre foi.
+const centelha = acha("Guardião da Centelha");
+
+const BENEFICIOS = [
+  { nome: "Arma", efeito: "<strong>+1 na Base de Ataque e +1 no dano</strong>", curto: "BA e dano" },
+  {
+    nome: "Joia",
+    efeito: "<strong>+1 magia memorizada</strong>, do círculo mais alto disponível",
+    curto: "a magia extra",
+  },
+  { nome: "Vestimenta", efeito: "<strong>+1 na Classe de Armadura</strong>", curto: "o bônus de CA" },
+];
+
+const centelhas = BENEFICIOS.map((b) => ({
+  ...centelha,
+  nome: `Guardião da Centelha (${b.nome})`,
+  flavor: `<p>O Guardião cujo Cristal está anexado a uma <strong>${b.nome.toLowerCase()}</strong>. <em>Especialização de Mago.</em></p>`,
+  descricao:
+    centelha.descricao +
+    `<p><strong>Esta variante já traz o Cristal na ${b.nome.toLowerCase()}</strong> — arraste-a para a ficha e o benefício vem escolhido. Para outro benefício, use a variante correspondente ou a versão genérica da classe.</p>`,
+  habilidades: centelha.habilidades.map((h) => {
+    if (h.nome === "Portador da Centelha") {
+      return {
+        ...h,
+        desc:
+          `<p>Recebe 1 Cristal de Centelha anexado a uma <strong>${b.nome}</strong>, concedendo ${b.efeito}.</p>` +
+          "<p>Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, " +
+          "Ler Magias e Detectar Magias); requisitar um novo leva <strong>1d4 semanas</strong> de canalização.</p>",
+      };
+    }
+    if (h.nome === "Sincronia Técnica") {
+      return {
+        ...h,
+        desc:
+          `<p>O Guardião aprimora a ligação com o seu dispositivo: ${b.curto} de <em>Portador da Centelha</em> ` +
+          "passa a ser igual ao seu <strong>modificador de Inteligência</strong> (mínimo +1).</p>",
+      };
+    }
+    return h;
+  }),
+}));
+
+export const variantes = [...marcados, ...centelhas];

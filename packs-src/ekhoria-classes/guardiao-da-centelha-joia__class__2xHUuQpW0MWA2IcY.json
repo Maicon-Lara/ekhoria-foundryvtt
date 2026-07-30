@@ -1,0 +1,125 @@
+{
+  "folder": "RGBpl3ieCbneNaZh",
+  "name": "Guardião da Centelha (Joia)",
+  "type": "class",
+  "_id": "2xHUuQpW0MWA2IcY",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "flavor": "<p>O Guardião cujo Cristal está anexado a uma <strong>joia</strong>. <em>Especialização de Mago.</em></p>",
+    "description": "<p>Em Durgrann, onde engenharia é religião, os Guardiões da Centelha tratam magia como engenharia: cada feitiço tem custo calculado e margem de erro aceitável. Dominam os Cristais de Centelha como outros magos dominam componentes arcanos. Devem representar a cultura de Durgrann e ter alinhamento Ordeiro. Conjuram magias arcanas até o 5º círculo e mantêm Ler Magias e Detectar Magias.</p><p><strong>Esta variante já traz o Cristal na joia</strong> — arraste-a para a ficha e o benefício vem escolhido. Para outro benefício, use a variante correspondente ou a versão genérica da classe.</p>",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "equipment_restrictions": {
+      "weapons": "Apenas armas pequenas. Armas médias ou grandes impõem Ataque Difícil.",
+      "armors": "Não pode usar armaduras nem escudos; se o fizer, perde a conjuração de magias e recebe apenas metade da CA.",
+      "magic_items": "Pode utilizar todos os tipos de itens mágicos."
+    },
+    "restrictions": {
+      "alignments": [
+        "ordeiro"
+      ],
+      "races": []
+    },
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 45000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 4,
+        "jp": 13,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 550000
+      }
+    },
+    "class_abilities": [
+      "Compendium.ekhoria.ekhoria-classes.Item.U3rCklMgx3T0QiVc",
+      "Compendium.ekhoria.ekhoria-classes.Item.99EV9Xc87bQrDjjz",
+      "Compendium.ekhoria.ekhoria-classes.Item.OpBJ66SVzAUvrN4e",
+      "Compendium.ekhoria.ekhoria-classes.Item.RQg1Vq3m3Z1UvJQT",
+      "Compendium.ekhoria.ekhoria-classes.Item.ly3CTEtJsMtAWkCW"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2xHUuQpW0MWA2IcY"
+}
