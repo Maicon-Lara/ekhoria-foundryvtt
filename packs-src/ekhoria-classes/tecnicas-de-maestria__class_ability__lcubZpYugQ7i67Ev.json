@@ -5,7 +5,7 @@
   "_id": "lcubZpYugQ7i67Ev",
   "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
-    "description": "<p>Escolhe duas propriedades de maestria entre as oito (Corte Rápido, Irritar, Debilitar, Arranhão, Derrubar, Empurrar, Desacelerar, Trespassar). Ao empunhar uma arma compatível, aplica suas maestrias — apenas uma por ataque. <strong>Limite de encadeamento:</strong> ataques bônus de uma maestria (como Corte Rápido ou Trespassar) não desencadeiam novas maestrias de ataque extra, e ele faz no máximo um ataque bônus de maestria por rodada.</p>",
+    "description": "<p>Escolhe <strong>duas</strong> propriedades de maestria entre as oito: <em>Corte Rápido, Irritar, Debilitar, Arranhão, Derrubar, Empurrar, Desacelerar</em> e <em>Trespassar</em>. Sempre que empunhar uma arma compatível, pode aplicar suas maestrias — <strong>apenas uma por ataque</strong>. Quando uma maestria exigir Ajuste, valem as regras normais de <strong>Ajuste Fácil (+2)</strong> e <strong>Ajuste Difícil (−2)</strong>.</p><p><strong>Limite de encadeamento:</strong> ataques bônus concedidos por uma maestria (como <em>Corte Rápido</em> ou <em>Trespassar</em>) não desencadeiam novas maestrias de ataque extra, e o Mestre das Armas realiza <strong>no máximo um ataque bônus de maestria por rodada</strong>.</p><p><em>Na ficha:</em> as oito maestrias estão no compêndio de Classes, em <strong>Mestre das Armas › Maestrias</strong> — arraste para dentro do item da classe apenas as que você domina. São duas no 1º nível, quatro no 3º, seis no 6º e todas as oito no 10º.</p>",
     "level": 1,
     "level3": "",
     "level6": "",

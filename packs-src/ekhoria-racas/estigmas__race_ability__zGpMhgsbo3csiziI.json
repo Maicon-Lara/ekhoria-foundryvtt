@@ -1,11 +1,11 @@
 {
   "folder": "FqGbXOfDRav2F0v1",
-  "name": "Marcados",
+  "name": "Estigmas",
   "type": "race_ability",
-  "_id": "HF8zoG2qPXBX539K",
+  "_id": "zGpMhgsbo3csiziI",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>Carrega ao menos duas marcas visíveis da descendência demoníaca (escolhidas com o Mestre): olhos diferentes, mãos estranhas, três olhos, língua bifurcada, chifres, pele anormal, dentes pontiagudos, ausência de nariz, orelhas pontudas, cauda, protuberâncias escapulares ou odor de enxofre.</p>",
+    "description": "<p>Carrega ao menos <strong>duas</strong> marcas visíveis da linhagem. Escolha-as ou role 1d12 na tabela <em>Estigmas do Cambion</em> (compêndio <strong>Ekhoria: Tabelas</strong>): 1. íris que toma todo o olho; 2. veias que brilham sob a pele; 3. um terceiro olho na testa; 4. língua bífida; 5. chifres curtos; 6. pele de tom incomum (cinza, púrpura); 7. presas; 8. ausência de sombra própria; 9. orelhas longas e finas; 10. cauda fina; 11. saliências sob as escápulas (asas atrofiadas); 12. cheiro persistente de enxofre.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 500000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!HF8zoG2qPXBX539K"
+  "_key": "!items!zGpMhgsbo3csiziI"
 }

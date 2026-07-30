@@ -1,0 +1,50 @@
+{
+  "folder": "QextTPqFsQXlSjC2",
+  "name": "Arranhão",
+  "type": "class_ability",
+  "_id": "0CILqPcrcXelucFo",
+  "img": "systems/olddragon2e/assets/icons/slashing.svg",
+  "system": {
+    "description": "<p>Ao <strong>errar</strong> um ataque corpo a corpo (sem Erro Crítico), o alvo ainda sofre dano igual ao <strong>modificador de Força</strong> do atacante (mínimo 1).</p><p><strong>Armas compatíveis:</strong> Montante.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe Mestre das Armas que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta maestria <strong>para dentro dessa janela</strong>.</p><p><em>Quantas você pode ter:</em> duas no 1º nível, quatro no 3º, seis no 6º e todas as oito no 10º. <strong>Apenas uma por ataque</strong> — com o Ataque Extra do 6º, uma diferente em cada ataque da rodada.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0CILqPcrcXelucFo"
+}

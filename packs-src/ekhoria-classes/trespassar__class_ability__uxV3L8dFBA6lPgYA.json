@@ -1,0 +1,50 @@
+{
+  "folder": "QextTPqFsQXlSjC2",
+  "name": "Trespassar",
+  "type": "class_ability",
+  "_id": "uxV3L8dFBA6lPgYA",
+  "img": "systems/olddragon2e/assets/icons/piercing.svg",
+  "system": {
+    "description": "<p>Ao atingir e causar dano, realiza imediatamente um <strong>segundo ataque contra outra criatura adjacente</strong> ao alvo e dentro do alcance, usando a mesma Base de Ataque do primeiro.</p><p><strong>Limite de encadeamento:</strong> ataques bônus concedidos por uma maestria não desencadeiam novas maestrias de ataque extra, e o Mestre das Armas realiza <strong>no máximo um ataque bônus de maestria por rodada</strong>.</p><p><strong>Armas compatíveis:</strong> Machado de Batalha, Alabarda.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe Mestre das Armas que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta maestria <strong>para dentro dessa janela</strong>.</p><p><em>Quantas você pode ter:</em> duas no 1º nível, quatro no 3º, seis no 6º e todas as oito no 10º. <strong>Apenas uma por ataque</strong> — com o Ataque Extra do 6º, uma diferente em cada ataque da rodada.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!uxV3L8dFBA6lPgYA"
+}

@@ -1,7 +1,7 @@
 {
   "folder": null,
-  "name": "Marcas do Cambion",
-  "_id": "l6eG3acVySkDe2SL",
+  "name": "Estigmas do Cambion",
+  "_id": "WTLLGDQj8UjbeusE",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "description": "<p>O Cambion carrega ao menos duas marcas visíveis de sua descendência demoníaca. Role duas vezes (ou escolha com o Mestre).</p>",
   "results": [
@@ -13,12 +13,12 @@
         1
       ],
       "drawn": false,
-      "_id": "jSodRX4gBCvo2GLc",
-      "text": "Olhos diferentes — coloridos e/ou animalescos, com possibilidade de heterocromia.",
+      "_id": "kJBKtkw1LvUkOo9Y",
+      "text": "Íris que toma todo o olho.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.jSodRX4gBCvo2GLc"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.kJBKtkw1LvUkOo9Y"
     },
     {
       "type": 0,
@@ -28,12 +28,12 @@
         2
       ],
       "drawn": false,
-      "_id": "IZyTmxeNF53uMu8d",
-      "text": "Mãos estranhas — número incomum de dedos ou unhas animalescas.",
+      "_id": "M5zLnX7hpZXxdAKu",
+      "text": "Veias que brilham sob a pele.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.IZyTmxeNF53uMu8d"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.M5zLnX7hpZXxdAKu"
     },
     {
       "type": 0,
@@ -43,12 +43,12 @@
         3
       ],
       "drawn": false,
-      "_id": "p0TemJjrEO7nXKfE",
-      "text": "Três olhos.",
+      "_id": "hYUtzSaLjGhrSjq0",
+      "text": "Um terceiro olho na testa.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.p0TemJjrEO7nXKfE"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.hYUtzSaLjGhrSjq0"
     },
     {
       "type": 0,
@@ -58,12 +58,12 @@
         4
       ],
       "drawn": false,
-      "_id": "wmN1OCUkVIENXPCz",
-      "text": "Língua bifurcada ou anormalmente longa.",
+      "_id": "4R2GElntxNf373ce",
+      "text": "Língua bífida.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.wmN1OCUkVIENXPCz"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.4R2GElntxNf373ce"
     },
     {
       "type": 0,
@@ -73,12 +73,12 @@
         5
       ],
       "drawn": false,
-      "_id": "3SqouFhiTyxD6qxA",
-      "text": "Chifres.",
+      "_id": "pbXnKL0iy9E0XP7P",
+      "text": "Chifres curtos.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.3SqouFhiTyxD6qxA"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.pbXnKL0iy9E0XP7P"
     },
     {
       "type": 0,
@@ -88,12 +88,12 @@
         6
       ],
       "drawn": false,
-      "_id": "j5PCoDhLewItbX6C",
-      "text": "Pele anormal — escamas, textura de couro, cores não naturais.",
+      "_id": "GHaGv8E0ZCx0gXJO",
+      "text": "Pele de tom incomum — cinza, púrpura.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.j5PCoDhLewItbX6C"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.GHaGv8E0ZCx0gXJO"
     },
     {
       "type": 0,
@@ -103,12 +103,12 @@
         7
       ],
       "drawn": false,
-      "_id": "Vy9wBns34G69CyrC",
-      "text": "Dentes pontiagudos.",
+      "_id": "R1LAzyAVA1dHUfgG",
+      "text": "Presas.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.Vy9wBns34G69CyrC"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.R1LAzyAVA1dHUfgG"
     },
     {
       "type": 0,
@@ -118,12 +118,12 @@
         8
       ],
       "drawn": false,
-      "_id": "jbmcytEJBc0r33rY",
-      "text": "Ausência de nariz.",
+      "_id": "JVF0CWpEH56g7ilU",
+      "text": "Ausência de sombra própria.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.jbmcytEJBc0r33rY"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.JVF0CWpEH56g7ilU"
     },
     {
       "type": 0,
@@ -133,12 +133,12 @@
         9
       ],
       "drawn": false,
-      "_id": "9O80EyX2wDo1SaDn",
-      "text": "Orelhas pontudas.",
+      "_id": "WRaRPtJ64EnFML5T",
+      "text": "Orelhas longas e finas.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.9O80EyX2wDo1SaDn"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.WRaRPtJ64EnFML5T"
     },
     {
       "type": 0,
@@ -148,12 +148,12 @@
         10
       ],
       "drawn": false,
-      "_id": "p7Vr5HEbSHXwXHYP",
-      "text": "Cauda.",
+      "_id": "kYdRDyTzRI0SXLqD",
+      "text": "Cauda fina.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.p7Vr5HEbSHXwXHYP"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.kYdRDyTzRI0SXLqD"
     },
     {
       "type": 0,
@@ -163,12 +163,12 @@
         11
       ],
       "drawn": false,
-      "_id": "keiuUDJ0FAaJZgNo",
-      "text": "Protuberâncias nas escápulas.",
+      "_id": "1nJQfjvOTcSwhwvy",
+      "text": "Saliências sob as escápulas — asas atrofiadas.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.keiuUDJ0FAaJZgNo"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.1nJQfjvOTcSwhwvy"
     },
     {
       "type": 0,
@@ -178,12 +178,12 @@
         12
       ],
       "drawn": false,
-      "_id": "HfjL2kcHBrRz0Cbs",
-      "text": "Odor de enxofre.",
+      "_id": "q2O2uDhAuBUhWCpZ",
+      "text": "Cheiro persistente de enxofre.",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "_key": "!tables.results!l6eG3acVySkDe2SL.HfjL2kcHBrRz0Cbs"
+      "_key": "!tables.results!WTLLGDQj8UjbeusE.q2O2uDhAuBUhWCpZ"
     }
   ],
   "replacement": true,
@@ -205,5 +205,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!tables!l6eG3acVySkDe2SL"
+  "_key": "!tables!WTLLGDQj8UjbeusE"
 }

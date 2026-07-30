@@ -106,16 +106,44 @@ function hpFromDv(dvRaw) {
   return Math.max(1, Math.floor(n * 4.5) + (parseInt(bonus, 10) || 0));
 }
 
-// "6 m (escavando)" → { mv: "6", mvo: "escavando" }; "9 m (nadando)" → mvn.
+// Deslocamento nas notações que o cofre realmente usa. O OD2 guarda quatro
+// campos: mv (terrestre), mvn (natação), mvv (voo) e mvo (outro, ex.: escavação).
+//
+//   "9" · "9 m"          → mv 9
+//   "9/9E"               → mv 9  + escavação 9   (sufixo E)
+//   "12/24Vo" · "6/18V"  → mv 12 + voo 24        (sufixo V ou Vo)
+//   "9/12N"              → mv 9  + natação 12    (sufixo N)
+//   "9 m (nadando)"      → mv 9  + natação 9
+//   "6 (voo 36)"         → mv 6  + voo 36
+//   "3 (acorrentado)"    → mv 3, e nada mais: a nota não é um segundo movimento
+//
+// A versão anterior exigia o "m" logo depois do número e devolvia {} para tudo
+// que fugisse disso — as fichas com "12/24Vo" e "6 (voo 36)" ficavam SEM
+// deslocamento nenhum, e as com "9/30Vo" perdiam o voo em silêncio.
 function movement(mov) {
   if (!mov) return {};
-  const m = String(mov).match(/(\d+)\s*m\s*(?:\(([^)]+)\))?/i);
-  if (!m) return {};
-  const out = { mv: m[1] };
-  const nota = normalize(m[2]);
-  if (nota.startsWith("nad")) out.mvn = m[1];
-  else if (nota.startsWith("vo")) out.mvv = m[1];
-  else if (nota) out.mvo = m[1];
+  const txt = String(mov).trim();
+  const base = txt.match(/^(\d+)/);
+  if (!base) return {};
+  const out = { mv: base[1] };
+
+  const barra = txt.match(/^\d+\s*\/\s*(\d+)\s*([A-Za-z]*)/);
+  if (barra) {
+    const tipo = normalize(barra[2]);
+    if (tipo.startsWith("v")) out.mvv = barra[1];
+    else if (tipo.startsWith("n")) out.mvn = barra[1];
+    else out.mvo = barra[1]; // E de escavação, e qualquer sufixo desconhecido
+    return out;
+  }
+
+  const nota = txt.match(/\(([^)]+)\)/);
+  if (nota) {
+    const conteudo = normalize(nota[1]);
+    const valor = (conteudo.match(/(\d+)/) || [])[1] || base[1];
+    if (conteudo.startsWith("nad") || conteudo.startsWith("nat")) out.mvn = valor;
+    else if (conteudo.startsWith("vo")) out.mvv = valor;
+    else if (conteudo.startsWith("escav")) out.mvo = valor;
+  }
   return out;
 }
 

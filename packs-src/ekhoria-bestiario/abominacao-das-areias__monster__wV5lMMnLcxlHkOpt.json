@@ -13,6 +13,7 @@
     "alignment": "caotico",
     "variant": true,
     "mv": "9",
+    "mvo": "9",
     "dv": "5",
     "hp": {
       "value": 22,

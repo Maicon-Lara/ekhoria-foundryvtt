@@ -156,8 +156,10 @@ def monstro_js(d, ident="      "):
             continue
         v = d[campo]
         if campo == "movimento":
-            # movement() exige o sufixo: um `12` cru não casa com /(\d+)\s*m/
-            v = f"{v} m" if not re.search(r"m", str(v)) else str(v)
+            # Verbatim: movement() já lê "9", "9 m", "9/12Vo" e "6 (voo 36)".
+            # Antes daqui saía um " m" colado no fim, e "6 (voo 36) m" não casava
+            # com regex nenhuma — a ficha ficava sem deslocamento.
+            v = str(v)
         linhas.append(f"{p}{campo}: {js(str(v) if campo != 'xp' else v)},")
     linhas.append(f"{p}conceito: {js(conceito_de(d.get('tipo', '')))},")
 

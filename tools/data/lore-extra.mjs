@@ -43,7 +43,7 @@ export const loreExtraPages = [
 <li><strong>Eco-Sombrio:</strong> –4 em Testes de Reação; 1 em 1d6 de simplesmente não ser percebido, como se o mundo evitasse notá-lo.</li>
 <li><strong>Mestre das Lâminas Curtas:</strong> ataques com adagas e facas são Fáceis; com duas lâminas, +1 na CA (como escudo leve).</li>
 <li><strong>Corpo Estático:</strong> não cura naturalmente nem por magia; 500 ml de sangue fresco restauram 1d4 PV; pode substituir partes perdidas ou transferir o Eco para outro corpo preparado.</li>
-<li><strong>Eco Antimágico:</strong> não conjura e não é alvo de magias diretas; magias de área o afetam normalmente.</li>
+<li><strong>Silêncio Arcano:</strong> não conjura e não é alvo de magias diretas; magias de área o afetam normalmente.</li>
 </ul>
 <p><em>Movimento 9 m · Infravisão: não possui · Alinhamento: tende ao Neutro.</em></p>
 `,

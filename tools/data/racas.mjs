@@ -81,16 +81,12 @@ export const racas = [
         desc: "<p>Por parentesco com criaturas metamórficas, alteram ligeiramente a aparência (altura até 15 cm, peso até 25%, cor de pele/olhos/cabelos, gênero, formato do rosto). Não permite se passar por alguém específico, mas modifica testes de reação em +1 ou –1 com quem não conhece sua verdadeira natureza.</p>",
       },
       {
-        nome: "Sangue Infernal",
-        desc: "<p>A herança demoníaca arde nas veias: reduz em 2 o dano de fogo que sofre e recebe +1 em JP contra Medo (o inferno não o assusta).</p>",
-      },
-      {
         nome: "Conhecimento Ancestral",
         desc: "<p>Chance de 1–2 em 1d6 de reconhecer símbolos demoníacos ou profanos, ou recordar informações sobre demônios (a critério do Mestre). Cambions Magos e Clérigos: 1–3 em 1d6. Cambions Acadêmicos: 1–4 em 1d6.</p>",
       },
       {
-        nome: "Marcados",
-        desc: "<p>Carrega ao menos duas marcas visíveis da descendência demoníaca (escolhidas com o Mestre): olhos diferentes, mãos estranhas, três olhos, língua bifurcada, chifres, pele anormal, dentes pontiagudos, ausência de nariz, orelhas pontudas, cauda, protuberâncias escapulares ou odor de enxofre.</p>",
+        nome: "Estigmas",
+        desc: "<p>Carrega ao menos <strong>duas</strong> marcas visíveis da linhagem. Escolha-as ou role 1d12 na tabela <em>Estigmas do Cambion</em> (compêndio <strong>Ekhoria: Tabelas</strong>): 1. íris que toma todo o olho; 2. veias que brilham sob a pele; 3. um terceiro olho na testa; 4. língua bífida; 5. chifres curtos; 6. pele de tom incomum (cinza, púrpura); 7. presas; 8. ausência de sombra própria; 9. orelhas longas e finas; 10. cauda fina; 11. saliências sob as escápulas (asas atrofiadas); 12. cheiro persistente de enxofre.</p>",
       },
     ],
   },
@@ -384,7 +380,7 @@ export const racas = [
         desc: "<p>Não se curam naturalmente nem por magia. Beber 500 ml de sangue fresco restaura 1d4 PV. Energia necrótica — como a magia <em>Causar Ferimentos</em> — também o restaura em vez de feri-lo (é assim que o Relicário Vivo se autocura). Podem substituir partes perdidas ou transferir o núcleo espiritual (o Eco) para outro corpo preparado.</p>",
       },
       {
-        nome: "Eco Antimágico",
+        nome: "Silêncio Arcano",
         desc: "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente, mas magias de cura (mesmo em área) jamais surtem efeito.</p>",
       },
     ],

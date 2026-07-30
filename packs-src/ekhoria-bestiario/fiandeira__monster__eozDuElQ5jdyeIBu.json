@@ -9,6 +9,8 @@
     "size": "medio",
     "description": "<p><strong>Tipo (fonte):</strong> Drow</p>\nCavaleira drow montada num versperto — construto alado de asa membranosa e sem cabeça. Luta com lança de fio e não fala. BA +5.\n<ul>\n  <li><p><strong>Rasante</strong>: Ataque mergulhando: Ajuste Difícil no ataque; se acertar alvo surpreso, dano dobrado (LB2 cap.7).</p></li>\n  <li><p><strong>Ancoragem</strong>: Um alvo reduzido a 0 PV pela lança de fio não morre: fica ancorado, inconsciente e com um filamento preso à nuca. Cortar o filamento nas primeiras 24 h liberta sem sequela; depois disso, não.</p></li>\n  <li><p><strong>O Versperto</strong>: A montaria tem CA 15 e 14 PV separados. Destruída, a Fiandeira cai — e drow não usam correia de segurança.</p></li>\n  <li><p><strong>Sem Voz</strong>: Não conjura, não grita, não se rende e não testa Moral enquanto o Tear Suspenso estiver no ar.</p></li>\n</ul>",
     "alignment": "caotico",
+    "mv": "6",
+    "mvv": "24",
     "dv": "5",
     "hp": {
       "value": 29,

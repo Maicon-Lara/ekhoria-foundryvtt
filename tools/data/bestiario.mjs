@@ -227,7 +227,7 @@ export const grupos = [
         conceito: "Humanoide Monstruoso",
         tamanho: "medio",
         alinhamento: "caotico",
-        movimento: "9 m",
+        movimento: "9/9E",
         dv: "5",
         ca: "14",
         jp: "5",
@@ -265,7 +265,7 @@ export const grupos = [
         conceito: "Besta",
         tamanho: "grande",
         alinhamento: "neutro",
-        movimento: "12 m",
+        movimento: "12/15E",
         dv: "8",
         ca: "18",
         jp: "6",
@@ -306,7 +306,7 @@ export const grupos = [
         conceito: "Besta",
         tamanho: "imenso",
         alinhamento: "neutro",
-        movimento: "6 m",
+        movimento: "6/9E",
         dv: "12",
         ca: "17",
         jp: "5",
@@ -340,7 +340,7 @@ export const grupos = [
         conceito: "Besta",
         tamanho: "colossal",
         alinhamento: "caotico",
-        movimento: "12 m",
+        movimento: "12/12E",
         dv: "18",
         ca: "20",
         jp: "10",
@@ -473,7 +473,7 @@ export const grupos = [
         conceito: "Besta",
         tamanho: "medio",
         alinhamento: "neutro",
-        movimento: "9 m",
+        movimento: "9/12Vo",
         dv: "6",
         ca: "16",
         jp: "6",
@@ -517,7 +517,7 @@ export const grupos = [
         conceito: "Besta",
         tamanho: "grande",
         alinhamento: "caotico",
-        movimento: "9 m",
+        movimento: "9/6E",
         dv: "8+3",
         ca: "16",
         jp: "6",
@@ -553,7 +553,7 @@ export const grupos = [
         conceito: "Dragão",
         tamanho: "colossal",
         alinhamento: "ordeiro",
-        movimento: "12 m",
+        movimento: "12/24Vo",
         dv: "22",
         ca: "22",
         jp: "11",
@@ -623,7 +623,7 @@ export const grupos = [
         ataques: [{ nome: "Lança longa", qtd: 1, bonus: 5, dano: "1d8+2" }],
         habilidades: [
           {
-            nome: "Eco Antimágico",
+            nome: "Silêncio Arcano",
             desc: "imune a magias diretas arcanas; vulnerável a magias divinas (dano divino o fere normalmente; Afastar/Destruir Mortos-Vivos funciona).",
           },
           {
@@ -664,7 +664,7 @@ export const grupos = [
         ataques: [{ nome: "Arco longo", qtd: 1, bonus: 5, dano: "1d8+1" }],
         habilidades: [
           {
-            nome: "Eco Antimágico",
+            nome: "Silêncio Arcano",
             desc: "imune a magias diretas arcanas; vulnerável a magias divinas.",
           },
           {
@@ -709,7 +709,7 @@ export const grupos = [
         ataques: [{ nome: "Machado de batalha", qtd: 1, bonus: 6, dano: "1d10+1" }],
         habilidades: [
           {
-            nome: "Eco Antimágico",
+            nome: "Silêncio Arcano",
             desc: "imune a magias diretas arcanas; vulnerável a magias divinas.",
           },
           {
@@ -754,7 +754,7 @@ export const grupos = [
         ataques: [{ nome: "Espada longa", qtd: 1, bonus: 7, dano: "1d8+3" }],
         habilidades: [
           {
-            nome: "Eco Antimágico",
+            nome: "Silêncio Arcano",
             desc: "imune a magias diretas arcanas; vulnerável a magias divinas.",
           },
           {
@@ -837,7 +837,7 @@ export const grupos = [
         ataques: [{ nome: "Espada longa", qtd: 2, bonus: 14, dano: "1d8+9" }],
         habilidades: [
           {
-            nome: "Eco Antimágico",
+            nome: "Silêncio Arcano",
             desc: "imune a magias diretas arcanas; vulnerável a magias divinas.",
           },
           {
@@ -948,7 +948,7 @@ export const grupos = [
         conceito: "Animal",
         tamanho: "medio",
         alinhamento: "neutro",
-        movimento: "6 m",
+        movimento: "6/18V",
         dv: "4+2",
         ca: "15",
         jp: "5",
@@ -985,7 +985,7 @@ export const grupos = [
         conceito: "Animal",
         tamanho: "grande",
         alinhamento: "neutro",
-        movimento: "6 m",
+        movimento: "6/30Vo",
         dv: "5",
         ca: "15",
         jp: "5",
@@ -1026,7 +1026,7 @@ export const grupos = [
         conceito: "Humanoide Monstruoso",
         tamanho: "medio",
         alinhamento: "caotico",
-        movimento: "9 m",
+        movimento: "9/15Vo",
         dv: "6",
         ca: "15",
         jp: "7",

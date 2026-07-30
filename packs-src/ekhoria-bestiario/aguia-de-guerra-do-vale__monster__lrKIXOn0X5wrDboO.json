@@ -9,6 +9,8 @@
     "size": "medio",
     "description": "<p><strong>Tipo (fonte):</strong> Animal</p>\nEnvergadura de sete metros, arreio de duas pessoas, treinada desde o ovo. Não é montaria: é sócia. BA +4.\n<ul>\n  <li><p><strong>Investida em Mergulho</strong>: Ataque rasante com Ajuste Difícil; dano dobrado contra alvo surpreso. Em contrainvestida, dano dobrado ao acertar.</p></li>\n  <li><p><strong>Ela Decide</strong>: Se o cavaleiro cair da sela preso à correia, a águia interrompe o que estiver fazendo e nivela o voo. Isso custa a ação dela, e ela faz sempre.</p></li>\n  <li><p><strong>Não se Ataca</strong>: Matar uma águia no Vale da Águia é execução imediata no local, por qualquer cidadão. Isto não é habilidade da criatura: é a lei, e vale para os PJs.</p></li>\n</ul>",
     "alignment": "neutro",
+    "mv": "6",
+    "mvv": "36",
     "dv": "4",
     "hp": {
       "value": 22,

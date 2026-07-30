@@ -1,11 +1,11 @@
 {
-  "folder": "FqGbXOfDRav2F0v1",
-  "name": "Sangue Infernal",
+  "folder": "U1StBVXHgP4Ria35",
+  "name": "Silêncio Arcano",
   "type": "race_ability",
-  "_id": "DmhM3HZtAzcgshmM",
-  "img": "systems/olddragon2e/assets/icons/necromancer.svg",
+  "_id": "RYqGFghVF4yswBYU",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
-    "description": "<p>A herança demoníaca arde nas veias: reduz em 2 o dano de fogo que sofre e recebe +1 em JP contra Medo (o inferno não o assusta).</p>",
+    "description": "<p>Não podem conjurar magias e não podem ser alvo de magias de efeito direto. Magias de área os afetam normalmente, mas magias de cura (mesmo em área) jamais surtem efeito.</p>",
     "xp": null,
     "jp": {
       "jpc": false,
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 400000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!DmhM3HZtAzcgshmM"
+  "_key": "!items!RYqGFghVF4yswBYU"
 }

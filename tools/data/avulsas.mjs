@@ -10,6 +10,7 @@
 // parêntese e a coloca dentro da pasta "Marcado", virando "Escolas".
 
 import { ecosComuns } from "./ecos.mjs";
+import { maestriasArmas } from "./maestrias.mjs";
 
 const PASTA_ESCOLAS = "Marcado (Escolas)";
 
@@ -160,10 +161,12 @@ const COMO_ADICIONAR =
 // "como adicionar manualmente" so faria ruido na ficha dele.
 export const classAbilitiesBase = ESCOLAS;
 
-// As Escolas levam a nota de uso; os Ecos já vêm com a sua (ecos.mjs). Os dois
-// grupos vão no mesmo export porque o build só precisa saber a `folder` de cada
-// um — "Marcado (Escolas)" e "Marcado (Ecos)" viram duas subpastas de Marcado.
+// As Escolas levam a nota de uso; Ecos e Maestrias já vêm com a sua. Vão todos
+// no mesmo export porque o build só precisa da `folder` de cada um — o
+// parêntese no nome da pasta faz aninhaPastas() encaixá-la dentro da classe:
+// "Marcado (Ecos)" vira Marcado › Ecos, e assim por diante.
 export const classAbilitiesAvulsas = [
   ...ESCOLAS.map((a) => ({ ...a, desc: (a.desc || "") + COMO_ADICIONAR })),
   ...ecosComuns,
+  ...maestriasArmas,
 ];
