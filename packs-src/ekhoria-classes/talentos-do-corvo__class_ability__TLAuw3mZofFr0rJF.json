@@ -5,7 +5,7 @@
   "_id": "TLAuw3mZofFr0rJF",
   "img": "systems/olddragon2e/assets/icons/bag.svg",
   "system": {
-    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p><p><em>Automação:</em> a ficha calcula os pontos de talento por Destreza; no cenário o Corvo usa o maior entre Destreza e Carisma — ajuste a alocação manualmente.</p>",
+    "description": "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p><p><em>Automação:</em> o OD2 calcula os pontos de talento só por <strong>Destreza</strong>. O módulo Ekhoria corrige e usa o maior entre Destreza e <strong>Carisma</strong>, como manda o livro. Para voltar ao cálculo puro do sistema, desligue <em>Talentos pelo atributo do cenário</em> nas configurações do módulo.</p>",
     "level": 1,
     "level3": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
     "level6": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",

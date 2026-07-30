@@ -18,6 +18,13 @@ const EQUIP_GUERREIRO_MAGIC = "Não pode usar cajados, varinhas ou pergaminhos m
 const AJUSTE_USOS = (attr) =>
   `<p><em>Na ficha:</em> o marcador de usos diários vem com <strong>1</strong>, o mínimo da regra. Ajuste para o seu modificador de ${attr} na aba <strong>Mecânicas</strong> da habilidade.</p>`;
 
+// Pontos de talento: o sistema calcula 2 + modificador de DESTREZA, fixo. Três
+// classes de Ekhoria usam o maior entre Destreza e outro atributo. Isso o
+// ekhoria.js corrige em tempo de execução (mesma lógica que o OD2 já usa na
+// iniciativa, que compara Destreza e Sabedoria e fica com a maior).
+const TALENTO_ATRIBUTO_NOTA = (attr) =>
+  `<p><em>Automação:</em> o OD2 calcula os pontos de talento só por <strong>Destreza</strong>. O módulo Ekhoria corrige e usa o maior entre Destreza e <strong>${attr}</strong>, como manda o livro. Para voltar ao cálculo puro do sistema, desligue <em>Talentos pelo atributo do cenário</em> nas configurações do módulo.</p>`;
+
 export const classes = [
   {
     nome: "Custódio Solar",
@@ -177,7 +184,7 @@ export const classes = [
       { nome: "Itens Mágicos", level: 1, desc: "<p>Sabe usar <strong>pergaminhos</strong> como um conjurador de <strong>metade do seu nível</strong> (arredondado para baixo, mínimo 1).</p>" },
       { nome: "Ouvir Ruídos", level: 1, desc: "<p>Ouve ruídos sutis em ambiente silencioso, fora de combate: chance de 1–2 em 1d6.</p>", level3: "<p>Chance de 1–3 em 1d6.</p>", level6: "<p>Chance de 1–4 em 1d6.</p>", level10: "<p>Chance de 1–5 em 1d6.</p>" },
       { nome: "Comitiva", level: 1, desc: "<p>Especialista em gerir subordinados. <strong>Logística:</strong> custos para contratar ajudantes e mercenários são 25% menores. <strong>Moral:</strong> seguidores recebem +1 em Moral.</p>", level3: "<p>Ataques de proteção da comitiva são Ações Fáceis.</p>", level6: "<p>Os membros recebem PV adicionais iguais ao modificador de Carisma.</p>", level10: "<p>Os membros recebem bônus em JP e Dano iguais ao modificador de Carisma.</p>" },
-      { nome: "Talentos de Diplomata", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p><p><em>Automação:</em> a ficha do OD2 calcula os pontos de talento por <strong>Destreza</strong>; no cenário Ekhoria o Diplomata usa o maior valor entre Destreza e Carisma — ajuste a alocação manualmente conforme o livro.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
+      { nome: "Talentos de Diplomata", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p>" + TALENTO_ATRIBUTO_NOTA("Carisma"), level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
         { key: "arrombar", name: "Arrombar", description: "Abrir trancas e fechaduras para acessar correspondências e documentos." },
         { key: "culturas", name: "Culturas", description: "Heráldica, linhagens, história e etiqueta." },
         { key: "furtividade", name: "Furtividade", description: "Mover-se sem ser notado." },
@@ -209,7 +216,11 @@ export const classes = [
       { nome: "Golpe de Abate", level: 1, desc: "<p>Ao atacar após uma aproximação furtiva, o ataque é um <strong>Ataque Muito Fácil</strong> e causa <strong>dano ×2</strong>. É a base referenciada pelo Golpe Predatório.</p>" },
       { nome: "Ouvir Ruídos", level: 1, desc: "<p>Em ambiente silencioso e fora de combate, consegue ouvir ruídos sutis (uma conversa do outro lado de uma porta, monstros se aproximando): chance de 1–2 em 1d6.</p>", level3: "<p>Chance de 1–3 em 1d6.</p>", level6: "<p>Chance de 1–4 em 1d6.</p>", level10: "<p>Chance de 1–5 em 1d6.</p>" },
       { nome: "Talentos de Caçador", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Destreza:</strong> recebe, no 1º nível, 1 ponto extra por ponto de modificador de Destreza.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
-        { key: "armadilha", name: "Armadilha", description: "Detecta e desarma silenciosamente armadilhas em lugares ou objetos." },
+        // Chave no plural de propósito, igual à do Sabotador: o nome exibido
+        // segue o livro (singular no Voraz), mas a CHAVE é o que grava os pontos
+        // gastos e o que um bônus de raça teria de casar. Duas chaves para o
+        // mesmo conceito só criaria ambiguidade na primeira raça que desse bônus.
+        { key: "armadilhas", name: "Armadilha", description: "Detecta e desarma silenciosamente armadilhas em lugares ou objetos." },
         { key: "rastrear", name: "Rastrear", description: "Nos Ermos e durante a caçada, segue rastros de um inimigo, animal ou erva, e procura comida e água para si e seu grupo." },
         { key: "escalar", name: "Escalar", description: "Escalar superfícies íngremes ou lisas sem o uso de cordas." },
         { key: "furtividade", name: "Furtividade", description: "Esconder-se em ambientes naturais ou nas sombras." },
@@ -239,7 +250,13 @@ export const classes = [
     },
     levels: progressao("clerigo_esp"),
     habilidades: [
-      { nome: "Sentir o Fora-de-Hora", level: 1, desc: "<p>Com uma ação de ativação, detecta mortos-vivos, necromancia ativa ou itens necromânticos num raio de 18 metros, e percebe se um cadáver recente foi vítima de ritual profano ou ressurreição. Não prepara magias na versão reversa.</p>" },
+      // O nome e o texto vêm do Livro de Mecânicas (capítulo Classes). O arquivo
+      // Sistema/Classes/Inquisidor Lunar.md chamava esta habilidade de "Sentir o
+      // Fora-de-Hora" e dava a ela uma detecção de 18 m — mas esse mesmo arquivo
+      // declara "texto completo: ver capítulo Classes do Livro de Mecânicas", e
+      // lá o 1º nível é a conjuração divina. O "sentir quando uma morte ficou
+      // fora de hora" existe no livro como prosa de abertura, não como regra.
+      { nome: "Magias Divinas", level: 1, desc: "<p>Lança magias divinas diariamente a partir do 1º nível. Para prepará-las, reza a Morthan e pede que as magias lhe sejam concedidas naquele dia, respeitando os limites de nível e de Sabedoria.</p><p><strong>Nunca prepara magias na versão reversa</strong> — não causa ferimentos por toque nem cria mortos-vivos. A recusa é o voto: quebrá-la é deixar de ser Inquisidor.</p>" },
       { nome: "Julgamento de Morthan", level: 1, desc: "<p>Substitui o <em>Afastar Mortos-Vivos</em>. Joga 2d6 + nível para afetar mortos-vivos a até 18 m: os de DV iguais ou menores que o nível são <strong>destruídos</strong> ao falhar no Teste de Moral. Conjuradores vivos na área fazem JPS (Sabedoria) ou sofrem Ajuste Difícil (−2) em todas as jogadas por 1d4 rodadas.</p>" },
       { nome: "Misericórdia do Limiar", level: 1, desc: "<p>No lugar da <em>Cura Milagrosa</em> do Clérigo, o Inquisidor canaliza a passagem de Morthan: abrindo mão de uma magia memorizada, conjura na hora — sem tê-la preparado — uma magia de travessia de Morthan: <em>Invisibilidade contra Mortos-Vivos</em> (1º círculo). A magia sacrificada deve ser de círculo igual ou superior ao da magia conjurada.</p>", level6: "<p>Passa a poder conjurar também <em>Proteção ao Plano Negativo</em> (3º círculo).</p>" },
       { nome: "Marca do Profano", level: 3, usos_dia: { 3: 1, 6: 2, 10: 3 }, desc: "<p>Marca um alvo visível (morto-vivo, necromante ou abominação): tem Ajuste Fácil (+2) nos ataques contra ele, sempre sabe sua direção, e o alvo não recupera PV por necromancia. Uma vez por dia.</p>", level6: "<p>Duas vezes por dia.</p>", level10: "<p>Três vezes por dia.</p>" },
@@ -334,7 +351,7 @@ export const classes = [
     levels: progressao("ladrao_esp"),
     habilidades: [
       { nome: "Pólvora Arcana", level: 1, usos_dia: "nivel", desc: "<p>Prepara cargas alquímicas instáveis em número igual ao nível por dia. Usar uma carga exige uma Manobra (instalar) ou um ataque à distância (arremessar). <strong>Fragmentação:</strong> 2d6 de dano num raio de 3 m (+1d6 nos níveis 4, 7 e 10; JPD reduz à metade). <strong>Fumaça:</strong> cobertura total num raio de 6 m por 1d4 rodadas. <strong>Clarão:</strong> alvos a 3 m fazem JPD ou ficam cegos e ensurdecidos por 1 rodada.</p>" },
-      { nome: "Talentos de Sabotador", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Inteligência</strong>.</p><p><em>Automação:</em> a ficha calcula os pontos de talento por Destreza; no cenário o Sabotador usa o maior entre Destreza e Inteligência — ajuste a alocação manualmente.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
+      { nome: "Talentos de Sabotador", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Inteligência</strong>.</p>" + TALENTO_ATRIBUTO_NOTA("Inteligência"), level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
         { key: "arrombar", name: "Arrombar", description: "Trancas mecânicas, cofres e selos físicos." },
         { key: "engenhocas", name: "Engenhocas", description: "Identificar, montar e desarmar dispositivos arcanodinâmicos." },
         { key: "demolicao", name: "Demolição", description: "Calcular onde a carga derruba uma estrutura com o mínimo de material." },
@@ -364,7 +381,7 @@ export const classes = [
     levels: progressao("ladrao_esp"),
     habilidades: [
       { nome: "Inviolabilidade", level: 1, desc: "<p>Reconhecido por suas insígnias e salvo-conduto: +2 em Testes de Reação, e atacar um Corvo em missão é crime grave em Ekhoria. Fala um número de idiomas adicionais igual a 2 + modificador de Inteligência.</p>" },
-      { nome: "Talentos do Corvo", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p><p><em>Automação:</em> a ficha calcula os pontos de talento por Destreza; no cenário o Corvo usa o maior entre Destreza e Carisma — ajuste a alocação manualmente.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
+      { nome: "Talentos do Corvo", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Atributo:</strong> recebe, no 1º nível, pontos extras iguais ao <strong>maior modificador entre Destreza ou Carisma</strong>.</p>" + TALENTO_ATRIBUTO_NOTA("Carisma"), level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
         { key: "furtividade", name: "Furtividade", description: "Esconder-se e mover-se em silêncio." },
         { key: "escalar", name: "Escalar", description: "Superfícies difíceis sem cordas." },
         { key: "culturas", name: "Culturas", description: "Heráldica, etiqueta, rotas e fronteiras." },

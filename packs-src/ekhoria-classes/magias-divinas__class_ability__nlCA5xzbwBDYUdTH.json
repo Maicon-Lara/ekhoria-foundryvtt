@@ -1,11 +1,11 @@
 {
   "folder": "vxD39IO16OxKPFRC",
-  "name": "Sentir o Fora-de-Hora",
+  "name": "Magias Divinas",
   "type": "class_ability",
-  "_id": "U0kp1AGXAHDwzBth",
-  "img": "systems/olddragon2e/assets/icons/brain.svg",
+  "_id": "nlCA5xzbwBDYUdTH",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
   "system": {
-    "description": "<p>Com uma ação de ativação, detecta mortos-vivos, necromancia ativa ou itens necromânticos num raio de 18 metros, e percebe se um cadáver recente foi vítima de ritual profano ou ressurreição. Não prepara magias na versão reversa.</p>",
+    "description": "<p>Lança magias divinas diariamente a partir do 1º nível. Para prepará-las, reza a Morthan e pede que as magias lhe sejam concedidas naquele dia, respeitando os limites de nível e de Sabedoria.</p><p><strong>Nunca prepara magias na versão reversa</strong> — não causa ferimentos por toque nem cria mortos-vivos. A recusa é o voto: quebrá-la é deixar de ser Inquisidor.</p>",
     "level": 1,
     "level3": "",
     "level6": "",
@@ -46,5 +46,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!U0kp1AGXAHDwzBth"
+  "_key": "!items!nlCA5xzbwBDYUdTH"
 }

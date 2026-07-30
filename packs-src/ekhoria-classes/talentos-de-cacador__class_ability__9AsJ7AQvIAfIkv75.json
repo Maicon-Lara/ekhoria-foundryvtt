@@ -12,7 +12,7 @@
     "level10": "<p>Recebe 2 pontos para evoluir seus talentos.</p>",
     "rogue_talents": [
       {
-        "key": "armadilha",
+        "key": "armadilhas",
         "name": "Armadilha",
         "description": "Detecta e desarma silenciosamente armadilhas em lugares ou objetos."
       },
