@@ -19,7 +19,12 @@
     },
     "ca": "14",
     "jp": "6",
-    "mo": "8"
+    "mo": "8",
+    "xp": "135",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "C"
   },
   "prototypeToken": {
     "name": "Agente do Punhal Tenebroso",

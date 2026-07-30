@@ -18,7 +18,11 @@
     },
     "ca": "18",
     "jp": "6",
-    "mo": "10"
+    "mo": "10",
+    "xp": "830",
+    "encounters": "1",
+    "encounters_lair": "1d4",
+    "treasure_lair": "D"
   },
   "prototypeToken": {
     "name": "Couraçado das Areias",

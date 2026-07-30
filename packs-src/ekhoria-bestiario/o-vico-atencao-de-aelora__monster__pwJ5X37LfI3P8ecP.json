@@ -19,7 +19,9 @@
     },
     "ca": "17",
     "jp": "8",
-    "mo": "12"
+    "mo": "12",
+    "xp": "1225",
+    "encounters": "1"
   },
   "prototypeToken": {
     "name": "O Viço (Atenção de Aelora)",

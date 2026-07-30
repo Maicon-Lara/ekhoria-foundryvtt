@@ -18,7 +18,11 @@
     },
     "ca": "15",
     "jp": "5",
-    "mo": "9"
+    "mo": "9",
+    "xp": "295",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure_lair": "L"
   },
   "prototypeToken": {
     "name": "Águia do Vale",

@@ -19,7 +19,12 @@
     },
     "ca": "13",
     "jp": "7",
-    "mo": "8"
+    "mo": "8",
+    "xp": "200",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Buscador da Ars Vocalis",

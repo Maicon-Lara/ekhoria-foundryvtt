@@ -21,7 +21,11 @@
     "ca": "18",
     "jp": "7",
     "mo": "12",
-    "xp": "600"
+    "xp": "600",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Silente Ancorado (Sargento, nível 5)",

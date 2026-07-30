@@ -17,7 +17,10 @@
     },
     "ca": "14",
     "jp": "6",
-    "mo": "9"
+    "mo": "9",
+    "xp": "295",
+    "encounters": "1d6",
+    "encounters_lair": "2d4"
   },
   "prototypeToken": {
     "name": "O Sem-Rosto",

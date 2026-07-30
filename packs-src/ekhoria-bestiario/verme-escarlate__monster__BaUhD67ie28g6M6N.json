@@ -18,7 +18,11 @@
     },
     "ca": "17",
     "jp": "5",
-    "mo": "9"
+    "mo": "9",
+    "xp": "2175",
+    "encounters": "1",
+    "encounters_lair": "1",
+    "treasure_lair": "F"
   },
   "prototypeToken": {
     "name": "Verme Escarlate",

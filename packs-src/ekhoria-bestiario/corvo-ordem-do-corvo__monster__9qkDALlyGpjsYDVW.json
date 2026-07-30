@@ -19,7 +19,12 @@
     },
     "ca": "15",
     "jp": "7",
-    "mo": "9"
+    "mo": "9",
+    "xp": "265",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Corvo (Ordem do Corvo)",

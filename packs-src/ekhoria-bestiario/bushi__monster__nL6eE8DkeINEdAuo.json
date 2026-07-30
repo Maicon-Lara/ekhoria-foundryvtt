@@ -19,7 +19,12 @@
     },
     "ca": "16",
     "jp": "7",
-    "mo": "11"
+    "mo": "11",
+    "xp": "295",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Bushi",

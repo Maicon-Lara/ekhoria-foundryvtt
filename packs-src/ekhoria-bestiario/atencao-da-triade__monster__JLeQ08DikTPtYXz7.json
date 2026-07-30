@@ -17,7 +17,9 @@
     },
     "ca": "18",
     "jp": "8",
-    "mo": "12"
+    "mo": "12",
+    "xp": "1075",
+    "encounters": "1"
   },
   "prototypeToken": {
     "name": "Atenção da Tríade",

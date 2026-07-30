@@ -255,7 +255,12 @@ export function monsterDoc(monstro, folderId, seedPrefix, sort) {
   if (monstro.jp != null) system.jp = String(monstro.jp);
   if (monstro.moral != null) system.mo = String(monstro.moral);
   if (monstro.xp != null) system.xp = String(monstro.xp);
+  // Encontro e tesouro, errante e de covil (tabelas 9.4 e 9.5 do OD2). A ficha
+  // do sistema tem campo para os quatro; sem eles o bloco sai vazio.
+  if (monstro.encontro) system.encounters = String(monstro.encontro);
+  if (monstro.encontroCovil) system.encounters_lair = String(monstro.encontroCovil);
   if (monstro.tesouro) system.treasure = monstro.tesouro;
+  if (monstro.tesouroCovil) system.treasure_lair = monstro.tesouroCovil;
 
   const items = (monstro.ataques || []).map((a, i) =>
     attackItem(a, id, seedPrefix, monstro.nome, i)

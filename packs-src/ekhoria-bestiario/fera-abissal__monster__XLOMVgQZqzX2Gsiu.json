@@ -19,7 +19,10 @@
     },
     "ca": "16",
     "jp": "6",
-    "mo": "10"
+    "mo": "10",
+    "xp": "785",
+    "encounters": "1",
+    "encounters_lair": "1d4"
   },
   "prototypeToken": {
     "name": "Fera-Abissal",

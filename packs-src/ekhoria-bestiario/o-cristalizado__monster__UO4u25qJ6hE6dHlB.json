@@ -18,7 +18,10 @@
     },
     "ca": "17",
     "jp": "6",
-    "mo": "12"
+    "mo": "12",
+    "xp": "375",
+    "encounters": "1",
+    "encounters_lair": "1d4"
   },
   "prototypeToken": {
     "name": "O Cristalizado",

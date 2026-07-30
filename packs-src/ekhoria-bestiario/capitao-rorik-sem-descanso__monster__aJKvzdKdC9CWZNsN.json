@@ -20,7 +20,11 @@
     "ca": "22",
     "jp": "13",
     "mo": "12",
-    "xp": "2400"
+    "xp": "2400",
+    "encounters": "1",
+    "encounters_lair": "1d4",
+    "treasure": "U",
+    "treasure_lair": "E"
   },
   "prototypeToken": {
     "name": "Capitão Rorik Sem-Descanso",

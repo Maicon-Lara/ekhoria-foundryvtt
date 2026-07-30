@@ -18,7 +18,10 @@
     },
     "ca": "18",
     "jp": "8",
-    "mo": "12"
+    "mo": "12",
+    "xp": "1900",
+    "encounters": "1",
+    "encounters_lair": "1"
   },
   "prototypeToken": {
     "name": "Fauce do Breu",

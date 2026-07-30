@@ -18,7 +18,10 @@
     },
     "ca": "20",
     "jp": "10",
-    "mo": "12"
+    "mo": "12",
+    "xp": "4500",
+    "encounters": "1",
+    "encounters_lair": "1"
   },
   "prototypeToken": {
     "name": "Tarrasque das Areias",

@@ -19,7 +19,12 @@
     },
     "ca": "15",
     "jp": "6",
-    "mo": "10"
+    "mo": "10",
+    "xp": "200",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Fulgor da Irmandade Voraz",

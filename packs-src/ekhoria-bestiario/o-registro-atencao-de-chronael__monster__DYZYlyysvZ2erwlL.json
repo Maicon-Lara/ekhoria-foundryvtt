@@ -19,7 +19,9 @@
     },
     "ca": "19",
     "jp": "8",
-    "mo": "12"
+    "mo": "12",
+    "xp": "920",
+    "encounters": "1"
   },
   "prototypeToken": {
     "name": "O Registro (Atenção de Chronael)",

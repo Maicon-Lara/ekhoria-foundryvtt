@@ -18,7 +18,12 @@
     },
     "ca": "13",
     "jp": "5",
-    "mo": "8"
+    "mo": "8",
+    "xp": "35",
+    "encounters": "2d4",
+    "encounters_lair": "4d6",
+    "treasure": "Q",
+    "treasure_lair": "C"
   },
   "prototypeToken": {
     "name": "Mercenário",

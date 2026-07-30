@@ -19,7 +19,12 @@
     },
     "ca": "13",
     "jp": "5",
-    "mo": "9"
+    "mo": "9",
+    "xp": "80",
+    "encounters": "2d4",
+    "encounters_lair": "4d6",
+    "treasure": "Q",
+    "treasure_lair": "C"
   },
   "prototypeToken": {
     "name": "Militante do SUF",

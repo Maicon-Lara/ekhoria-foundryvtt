@@ -18,7 +18,11 @@
     },
     "ca": "22",
     "jp": "11",
-    "mo": "12"
+    "mo": "12",
+    "xp": "5825",
+    "encounters": "1",
+    "encounters_lair": "1",
+    "treasure_lair": "M"
   },
   "prototypeToken": {
     "name": "Caldreth, a Guardiã da Fenda",

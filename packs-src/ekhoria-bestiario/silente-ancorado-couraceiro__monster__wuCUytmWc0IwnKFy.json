@@ -21,7 +21,11 @@
     "ca": "19",
     "jp": "6",
     "mo": "12",
-    "xp": "350"
+    "xp": "350",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "B"
   },
   "prototypeToken": {
     "name": "Silente Ancorado (Couraceiro)",

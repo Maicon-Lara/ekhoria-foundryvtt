@@ -18,7 +18,12 @@
     },
     "ca": "14",
     "jp": "6",
-    "mo": "7"
+    "mo": "7",
+    "xp": "80",
+    "encounters": "2d4",
+    "encounters_lair": "4d6",
+    "treasure": "Q",
+    "treasure_lair": "C"
   },
   "prototypeToken": {
     "name": "Batedor da Rede de Sombras",

@@ -17,7 +17,12 @@
     },
     "ca": "15",
     "jp": "7",
-    "mo": "10"
+    "mo": "10",
+    "xp": "445",
+    "encounters": "1",
+    "encounters_lair": "1d3",
+    "treasure": "U",
+    "treasure_lair": "E"
   },
   "prototypeToken": {
     "name": "Súcubo / Íncubo",

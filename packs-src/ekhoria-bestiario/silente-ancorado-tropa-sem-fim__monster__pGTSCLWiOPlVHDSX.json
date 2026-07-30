@@ -20,7 +20,11 @@
     "ca": "17",
     "jp": "6",
     "mo": "12",
-    "xp": "200"
+    "xp": "200",
+    "encounters": "1d6",
+    "encounters_lair": "2d4",
+    "treasure": "Q",
+    "treasure_lair": "C"
   },
   "prototypeToken": {
     "name": "Silente Ancorado - Tropa sem Fim",
