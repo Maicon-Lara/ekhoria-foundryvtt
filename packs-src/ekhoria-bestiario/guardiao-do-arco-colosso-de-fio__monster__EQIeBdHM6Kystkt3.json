@@ -1,0 +1,176 @@
+{
+  "name": "Guardião do Arco — Colosso de Fio",
+  "type": "monster",
+  "_id": "EQIeBdHM6Kystkt3",
+  "img": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+  "system": {
+    "odo_id": "guardiao-do-arco-colosso-de-fio",
+    "concept": "Constructo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Construto (drow/triárcio)</p>\n<ul>\n  <li><p><strong>Movido a Gente</strong></p></li>\n  <li><p><strong>Sopro de Fiação</strong></p></li>\n  <li><p><strong>Passo que Racha</strong></p></li>\n  <li><p><strong>A Válvula</strong></p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "6",
+    "dv": "12",
+    "hp": {
+      "value": 78,
+      "max": 78
+    },
+    "ca": "19",
+    "jp": "6",
+    "mo": "12",
+    "xp": "2250"
+  },
+  "prototypeToken": {
+    "name": "Guardião do Arco — Colosso de Fio",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "pe7Tbs8NSBxbMrr2",
+      "name": "2 × Braço de forja +13 (2d8+5)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 13,
+        "damage_bonus": 5,
+        "weapon": false,
+        "description": "Braço de forja",
+        "damage_description": "2d8+5",
+        "damage": "2d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!EQIeBdHM6Kystkt3.pe7Tbs8NSBxbMrr2"
+    },
+    {
+      "_id": "KcVpsVM4zEo0Z5XG",
+      "name": "1 × Sopro de fiação +— (4d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": "—",
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Sopro de fiação",
+        "damage_description": "4d6",
+        "damage": "4d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!EQIeBdHM6Kystkt3.KcVpsVM4zEo0Z5XG"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!EQIeBdHM6Kystkt3"
+}

@@ -1,0 +1,142 @@
+{
+  "name": "Tolmo Quebrantar",
+  "type": "monster",
+  "_id": "0mvqxUMmZz0EP7Yt",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "tolmo-quebrantar",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nFundidor de sinos, 2,10 m, campeão surpresa do Colégio Lunar. Não vai matar ninguém. BA +6.\n<ul>\n  <li><p><strong>Quebra-Armas</strong>: Em vez de atacar, pode golpear a arma ou o escudo de um oponente. Ataque contra CA 14; sucesso destrói o item (escudos e armas comuns) ou, se for mágico, o item faz JP com bônus igual ao dobro do próprio bônus mágico. É o ataque que ele PREFERE.</p></li>\n  <li><p><strong>Não Mata</strong>: Nunca reduz um oponente abaixo de 1 PV. Um golpe que mataria deixa o alvo caído e inconsciente. Se derruba alguém, PARA e espera a pessoa se levantar. Se alguém se rende, ajuda a levantar e pede desculpa.</p></li>\n  <li><p><strong>Braço de Fundição</strong>: Imune a desarme e a derrubada. Não pode ser empurrado por Força inferior à dele.</p></li>\n  <li><p><strong>Resolvível por conversa</strong>: Tolmo não sabe o que está fazendo ali: disseram-lhe que era 'prova de humildade' e que o prêmio era um telhado. Qualquer PJ que fale com ele em vez de bater descobre isso em duas ou três trocas. Explicar-lhe a verdade — ou prometer o telhado — o faz erguer a própria palma. Nenhum teste é obrigatório; se a mesa quiser dados, Carisma (1 em 1d6) com Ajuste Fácil, uma tentativa por rodada.</p></li>\n  <li><p><strong>Se poupado</strong>: Aliado recorrente da campanha. Não lê, não entende política, recusa armas com gume — e é o coração moral do grupo dali em diante.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 44,
+      "max": 44
+    },
+    "ca": "16",
+    "jp": "11",
+    "mo": "12",
+    "xp": "1000"
+  },
+  "prototypeToken": {
+    "name": "Tolmo Quebrantar",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "5IGgAa332AX2AeNg",
+      "name": "1 × Barra de fundição +9 (2d6+4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 9,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Barra de fundição",
+        "damage_description": "2d6+4",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!0mvqxUMmZz0EP7Yt.5IGgAa332AX2AeNg"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!0mvqxUMmZz0EP7Yt"
+}

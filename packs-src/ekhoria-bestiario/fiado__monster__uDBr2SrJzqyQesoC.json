@@ -1,0 +1,142 @@
+{
+  "name": "Fiado",
+  "type": "monster",
+  "_id": "uDBr2SrJzqyQesoC",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "fiado",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Morto-vivo tecido</p>\n<ul>\n  <li><p><strong>Foi Alguém</strong></p></li>\n  <li><p><strong>Atravessa a Parede</strong></p></li>\n  <li><p><strong>Reposto</strong></p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "12",
+    "dv": "4",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ca": "15",
+    "jp": "6",
+    "mo": "12",
+    "xp": "200"
+  },
+  "prototypeToken": {
+    "name": "Fiado",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "ZwjKvx9sgI50lQM8",
+      "name": "2 × Mãos com fio +5 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 5,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Mãos com fio",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!uDBr2SrJzqyQesoC.ZwjKvx9sgI50lQM8"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!uDBr2SrJzqyQesoC"
+}

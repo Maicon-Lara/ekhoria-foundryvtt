@@ -1,0 +1,142 @@
+{
+  "name": "Brasa da Irmandade",
+  "type": "monster",
+  "_id": "289Lnj3iAPcIrmBN",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "brasa-da-irmandade",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nIniciado de dezesseis a vinte anos, ainda sem a Vigília do Degelo. BA +1.\n<ul>\n  <li><p><strong>Aprendendo</strong>: Ao lado de um Fulgor ou Incandescente, ataca com Ajuste Fácil e não testa Moral.</p></li>\n  <li><p><strong>Vinte e Cinco por Cento</strong>: Um em cada quatro não passa da Vigília do Degelo. Todo mundo em Vornfell sabe qual é a proporção, inclusive eles.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "1",
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "ca": "13",
+    "jp": "16",
+    "mo": "9",
+    "xp": "25"
+  },
+  "prototypeToken": {
+    "name": "Brasa da Irmandade",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "s0rTdliQpj3hFXxf",
+      "name": "1 × Lança curta +1 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 1,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Lança curta",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!289Lnj3iAPcIrmBN.s0rTdliQpj3hFXxf"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!289Lnj3iAPcIrmBN"
+}

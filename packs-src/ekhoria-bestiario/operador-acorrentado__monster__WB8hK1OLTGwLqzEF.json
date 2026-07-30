@@ -1,0 +1,140 @@
+{
+  "name": "Operador Acorrentado",
+  "type": "monster",
+  "_id": "WB8hK1OLTGwLqzEF",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "operador-acorrentado",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humanoide (ancorado)</p>\nUma das oitenta e quatro pessoas que fazem o Colosso de Fio funcionar. Consciente, lúcida, e atrasada no turno. NÃO É INIMIGO.\n<ul>\n  <li><p><strong>A Regeneração é Deles</strong>: Enquanto houver operadores trabalhando, o Colosso fecha qualquer brecha em cerca de 40 segundos. Libertar todos desliga a regeneração permanentemente. Esta é a informação central da aventura e ela deve ser DESCOBERTA, nunca explicada.</p></li>\n  <li><p><strong>O Turno</strong>: Muitos pedem que o grupo não atrapalhe. Não estão dominados: estão exaustos, ancorados e há meses sem outra estrutura mental além do turno. Um libertado leva 1d6 dias para parar de tentar trabalhar.</p></li>\n  <li><p><strong>A Marca</strong>: Queimadura circular na nuca, permanente, e reconhecível a dez passos por qualquer pessoa que já tenha visto uma. É por isso que eles são a prova que o Conselho de Clãs não consegue argumentar contra.</p></li>\n</ul>",
+    "dv": "1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ca": "10",
+    "jp": "16",
+    "mo": "12",
+    "xp": "0"
+  },
+  "prototypeToken": {
+    "name": "Operador Acorrentado",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "tCADGJIHTHOyGokx",
+      "name": "0 × nenhum +0 (—)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 0,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "nenhum",
+        "damage_description": "—",
+        "damage": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!WB8hK1OLTGwLqzEF.tCADGJIHTHOyGokx"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!WB8hK1OLTGwLqzEF"
+}

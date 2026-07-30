@@ -1,0 +1,142 @@
+{
+  "name": "Legada-Menor Sabra Tovin",
+  "type": "monster",
+  "_id": "egQozF0E1l9WHIVN",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "legada-menor-sabra-tovin",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nNotária de tratados do Colégio Estelar, cinquenta e dois anos, trinta de ofício. Desarmada, sozinha, e lê o que assina. NÃO É UM COMBATE. BA +2.\n<ul>\n  <li><p><strong>Parlamento</strong>: Atacá-la aciona o santuário do mensageiro da Ordem do Corvo: bloqueio total de comunicações da Aliança, e TODAS as unidades aliadas perdem 1 de Poder na Batalha Principal. A Legião de Ferro registra, e o registro reaparece no Arco 3.</p></li>\n  <li><p><strong>Os Termos</strong>: Quatro dos cinco itens são verdadeiros e seriam cumpridos. O item 4 (Aurelia devolvida viva em trinta dias) é a única mentira, e Sabra não sabe — ela perguntou sobre o prazo de verificação e não foi respondida, e vai contar isso ao grupo na porta da tenda.</p></li>\n  <li><p><strong>Se tratada bem</strong>: Um PJ que escreva de verdade uma resposta escrita a conquista. No Arco 3 ela é a pessoa que abre a porta que ninguém abre.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "3",
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "ca": "11",
+    "jp": "14",
+    "mo": "8",
+    "xp": "0"
+  },
+  "prototypeToken": {
+    "name": "Legada-Menor Sabra Tovin",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "NZ1IfpMs1R5eo7Pm",
+      "name": "0 × Não luta +0 (—)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 0,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Não luta",
+        "damage_description": "—",
+        "damage": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!egQozF0E1l9WHIVN.NZ1IfpMs1R5eo7Pm"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!egQozF0E1l9WHIVN"
+}

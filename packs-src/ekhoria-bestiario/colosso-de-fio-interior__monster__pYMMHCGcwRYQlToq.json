@@ -1,0 +1,176 @@
+{
+  "name": "Colosso de Fio (interior)",
+  "type": "monster",
+  "_id": "pYMMHCGcwRYQlToq",
+  "img": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+  "system": {
+    "odo_id": "colosso-de-fio-interior",
+    "concept": "Constructo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Construto</p>\nSe os PJs abrirem um. Sete metros de ferro triárcio e ossos drow, movido por onze pessoas amarradas no compartimento central, conscientes. BA +9.\n<ul>\n  <li><p><strong>Movido a Gente</strong>: Onze pessoas no compartimento. Cada uma libertada reduz o Poder da unidade em 1 e o dano do Colosso em 1d8. Libertar todas as onze o desliga — e as onze não conseguem andar sozinhas, e alguém vai ter que carregá-las através de uma batalha.</p></li>\n  <li><p><strong>Ígnea</strong>: Em batalha em massa: a unidade que perder para um Colosso perde 4 de Poder em vez de 2.</p></li>\n  <li><p><strong>A Escotilha</strong>: Abrir por fora exige teste de Força (1 em 1d6) com Ajuste Difícil, ou uma ação de Tolmo Quebrantar, que faz isso sem rolar e sem comentar.</p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "6",
+    "dv": "11",
+    "hp": {
+      "value": 70,
+      "max": 70
+    },
+    "ca": "20",
+    "jp": "9",
+    "mo": "12",
+    "xp": "3000"
+  },
+  "prototypeToken": {
+    "name": "Colosso de Fio (interior)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "E7Vq4qxzkZDkVr4m",
+      "name": "2 × Braço de bigorna +12 (2d8+6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 12,
+        "damage_bonus": 6,
+        "weapon": false,
+        "description": "Braço de bigorna",
+        "damage_description": "2d8+6",
+        "damage": "2d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!pYMMHCGcwRYQlToq.E7Vq4qxzkZDkVr4m"
+    },
+    {
+      "_id": "nSE7AXe1fU6jkVFs",
+      "name": "1 × Sopro de fio +0 (5d6 em linha de 18 m, JPD para metade)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Sopro de fio",
+        "damage_description": "5d6 em linha de 18 m, JPD para metade",
+        "damage": "5d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!pYMMHCGcwRYQlToq.nSE7AXe1fU6jkVFs"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!pYMMHCGcwRYQlToq"
+}

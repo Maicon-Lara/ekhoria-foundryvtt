@@ -1,0 +1,176 @@
+{
+  "name": "Teodemar Vell, o Anfitrião — o Padre que Ficou",
+  "type": "monster",
+  "_id": "u3ZYtplzgfeCDm8y",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "teodemar-vell-o-anfitriao-o-padre-que-ficou",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Morto-vivo (Desmorto)</p>\nUm dos Treze do Conclave Secreto Desmorto, e o mais velho deles. Breônia o chora há quarenta anos como mártir. Oitenta e tantos anos aparentes, mãos boas, voz baixa; levanta quando alguém entra e usa o nome de todo mundo. NÃO É UM VILÃO ODIOSO E NÃO DEVE SER JOGADO COMO UM. BA +11.\n<ul>\n  <li><p><strong>Inscrito</strong>: Um alvo Inscrito entra no livro da Vigília. Enquanto estiver dentro dos muros, as defesas o poupam — e ele NÃO PODE atravessar os portões sem que Teodemar retire o nome. Não é dano: é cadastro. Retirar o nome à força exige o Corte Limpo (Cena 5b) ou a morte dele.</p></li>\n  <li><p><strong>A Casa Vem Junto</strong>: Se atacado dentro da Vigília, 1.200 moradores saem de casa para defendê-lo, desarmados ou com ferramenta, todos ao mesmo tempo, em 1d4 rodadas. Não são unidade de batalha: são um obstáculo moral. O grupo NÃO pode vencer este combate sem massacrar uma cidade de gente salva, e você deve dizer isso à mesa antes da primeira rodada.</p></li>\n  <li><p><strong>Ancorado Nele Mesmo</strong>: Reduzido a 0 PV, não morre: uma das quarenta vidas separadas para a âncora é gasta, e ele se reergue com 30 PV no início da rodada seguinte. Isso acontece até quarenta vezes. A cada vez, ele diz o nome de quem foi gasto, em voz alta, e ele sabe todos os nomes.</p></li>\n  <li><p><strong>Não Persegue</strong>: Nunca persegue quem sai pelo portão. Nunca mandou atrás de ninguém em quarenta anos. Isso é verdade e é a coisa mais desestabilizadora dele.</p></li>\n  <li><p><strong>A Ampulheta</strong>: Traz o símbolo do Conclave no forro do casaco. Se o grupo rodou A Mentira de Ônix, ele é quem recebeu as amostras de Breu que escaparam — e vai reconhecer os PJs antes de eles o reconhecerem.</p></li>\n  <li><p><strong>O Silêncio</strong>: Imune a intimidação, medo e apelo moral — com UMA exceção: se um PJ apontar que os argumentos dele são exatamente os de Umbral, ele não tem resposta e fica em silêncio por um tempo longo. Não concede nada mecanicamente. É a única fenda que ele tem, e a mesa merece encontrá-la.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "13",
+    "hp": {
+      "value": 68,
+      "max": 68
+    },
+    "ca": "19",
+    "jp": "7",
+    "mo": "12",
+    "xp": "9000"
+  },
+  "prototypeToken": {
+    "name": "Teodemar Vell, o Anfitrião — o Padre que Ficou",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "yWRHzLOa0M8imGBs",
+      "name": "1 × Toque de Inscrição +13 (3d8 + JPC ou o alvo é INSCRITO (ver abaixo))",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 13,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque de Inscrição",
+        "damage_description": "3d8 + JPC ou o alvo é INSCRITO (ver abaixo)",
+        "damage": "3d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!u3ZYtplzgfeCDm8y.yWRHzLOa0M8imGBs"
+    },
+    {
+      "_id": "exNHxqbDkoqcLYM4",
+      "name": "1 × Báculo do priorado +13 (1d6+4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 13,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Báculo do priorado",
+        "damage_description": "1d6+4",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!u3ZYtplzgfeCDm8y.exNHxqbDkoqcLYM4"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!u3ZYtplzgfeCDm8y"
+}

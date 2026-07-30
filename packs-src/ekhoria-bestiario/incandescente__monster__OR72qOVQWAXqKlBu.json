@@ -1,0 +1,142 @@
+{
+  "name": "Incandescente",
+  "type": "monster",
+  "_id": "OR72qOVQWAXqKlBu",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "incandescente",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nVeterano de Vornfell, com direito de executar por traição. Onze deles vivos. BA +6.\n<ul>\n  <li><p><strong>Marca Voraz</strong>: Um traço por monstruosidade maior abatida. Contra criaturas com 6 ou mais DV, ataca com Ajuste Fácil.</p></li>\n  <li><p><strong>Julgamento Sumário</strong>: Pode declarar traição a um alvo à vista. Enquanto a declaração estiver de pé, todos os membros da Irmandade a até 30 m atacam preferencialmente aquele alvo. Só se retira publicamente.</p></li>\n  <li><p><strong>Não Recua</strong>: Nunca testa Moral enquanto houver uma fogueira acesa à vista.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 38,
+      "max": 38
+    },
+    "ca": "17",
+    "jp": "11",
+    "mo": "12",
+    "xp": "900"
+  },
+  "prototypeToken": {
+    "name": "Incandescente",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "FFkBXroj8Bpb3w9f",
+      "name": "2 × Lâmina aquecida +8 (1d8+3 (+1d6 de fogo))",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 8,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Lâmina aquecida",
+        "damage_description": "1d8+3 (+1d6 de fogo)",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!OR72qOVQWAXqKlBu.FFkBXroj8Bpb3w9f"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!OR72qOVQWAXqKlBu"
+}

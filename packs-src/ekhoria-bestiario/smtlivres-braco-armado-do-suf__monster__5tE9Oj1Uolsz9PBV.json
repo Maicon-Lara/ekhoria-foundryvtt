@@ -1,0 +1,142 @@
+{
+  "name": "SMTLIVRES (braço armado do SUF)",
+  "type": "monster",
+  "_id": "5tE9Oj1Uolsz9PBV",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "smtlivres-braco-armado-do-suf",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nAssalariado da cratera com besta e ordens que não entendeu. Não é fanático e não quer morrer. BA +4.\n<ul>\n  <li><p><strong>Carga de Pólvora Arcana</strong>: Dois dos catorze carregam uma. 3d6 em área de 6 m, JPD para metade, e o terreno atingido vira instável (movimento à metade) pelo resto da cena. Estourar uma carga ANTES do uso reduz o dano ao comboio em 2d6 na rodada seguinte.</p></li>\n  <li><p><strong>Assalariados</strong>: Testam Moral 2d6 ao perder o quinto homem e de novo ao perder o oitavo. Debandam com folga. Um grupo que quebre a moral resolve a cena em quatro rodadas sem matar ninguém.</p></li>\n  <li><p><strong>Não Sabem</strong>: Nenhum dos catorze sabe por que a estrada foi cortada. Um prisioneiro entrega o intermediário, e o intermediário entrega Fattoreto.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "4",
+    "hp": {
+      "value": 20,
+      "max": 20
+    },
+    "ca": "15",
+    "jp": "13",
+    "mo": "7",
+    "xp": "200"
+  },
+  "prototypeToken": {
+    "name": "SMTLIVRES (braço armado do SUF)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "4yMUxEpDoSEQTSMq",
+      "name": "1 × Besta pesada +6 (1d10+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 6,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Besta pesada",
+        "damage_description": "1d10+1",
+        "damage": "1d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!5tE9Oj1Uolsz9PBV.4yMUxEpDoSEQTSMq"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!5tE9Oj1Uolsz9PBV"
+}

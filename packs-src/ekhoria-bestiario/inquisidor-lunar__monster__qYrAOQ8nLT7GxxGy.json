@@ -1,0 +1,142 @@
+{
+  "name": "Inquisidor Lunar",
+  "type": "monster",
+  "_id": "qYrAOQ8nLT7GxxGy",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "inquisidor-lunar",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nExecutor do Colégio Lunar. Reza o nome do alvo antes de matá-lo. BA +4.\n<ul>\n  <li><p><strong>Nomear o Impuro</strong>: Uma vez por combate, declara em voz alta o nome de um alvo à vista. O alvo faz JPS; falhando, sofre Ajuste Difícil em ataques e testes por 1d4 rodadas, e todos os Levas a até 18 m atacam preferencialmente ele.</p></li>\n  <li><p><strong>Rito Menor</strong>: Conjura como Clérigo de 2º nível (Curar Ferimentos, Purificar, Afastar Mortos-Vivos). Afastar funciona plenamente contra Silentes Ancorados — é assim que Halvir cai.</p></li>\n  <li><p><strong>Convicção</strong>: Imune a Medo. Não se rende e não aceita rendição de impuro registrado.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "4",
+    "hp": {
+      "value": 24,
+      "max": 24
+    },
+    "ca": "17",
+    "jp": "12",
+    "mo": "11",
+    "xp": "350"
+  },
+  "prototypeToken": {
+    "name": "Inquisidor Lunar",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "48BcK0nrDiuIOz9c",
+      "name": "1 × Maça de ônix +5 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Maça de ônix",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!qYrAOQ8nLT7GxxGy.48BcK0nrDiuIOz9c"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!qYrAOQ8nLT7GxxGy"
+}

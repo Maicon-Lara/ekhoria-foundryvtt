@@ -1,0 +1,142 @@
+{
+  "name": "Leva de Fé (tropa triárcia)",
+  "type": "monster",
+  "_id": "lvNcV4PUbCKjzSeg",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "leva-de-fe-tropa-triarcia",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\n<ul>\n  <li><p><strong>Formação de Leva</strong></p></li>\n  <li><p><strong>Gente, não Soldado</strong></p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ca": "14",
+    "jp": "4",
+    "mo": "7",
+    "xp": "35"
+  },
+  "prototypeToken": {
+    "name": "Leva de Fé (tropa triárcia)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "oX8zo0cHbBPkhOa0",
+      "name": "1 × Lança de leva +2 (1d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 2,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Lança de leva",
+        "damage_description": "1d6",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!lvNcV4PUbCKjzSeg.oX8zo0cHbBPkhOa0"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!lvNcV4PUbCKjzSeg"
+}

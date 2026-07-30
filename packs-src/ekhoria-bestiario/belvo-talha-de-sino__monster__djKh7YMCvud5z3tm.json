@@ -1,0 +1,142 @@
+{
+  "name": "Belvo Talha-de-Sino",
+  "type": "monster",
+  "_id": "djKh7YMCvud5z3tm",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "belvo-talha-de-sino",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\n61 anos, campeão da paróquia de Vez-do-Sino, com o coração falhando e ninguém sabe. BA +5.\n<ul>\n  <li><p><strong>Ofício Velho</strong>: Nas duas primeiras rodadas luta como o soldado que foi: +2 nos ataques e Ajuste Fácil para desarmar.</p></li>\n  <li><p><strong>O Mal do Peito</strong>: AO FIM DA 3ª RODADA DE COMBATE, CORVIN MORRE — de exaustão, não de ferimento. Sem JP, sem cura possível na areia. O Mestre deve sinalizar isto na ficção a partir da 2ª rodada: o suor errado, a mão esquerda encolhida, o silêncio.</p></li>\n  <li><p><strong>Duas saídas</strong>: (1) Derrubá-lo com dano NÃO-LETAL dentro de 3 rodadas — 22 PV caem rápido para quem está tentando. (2) Falar com ele no meio da luta: teste de Carisma (1 em 1d6), Ajuste Fácil se citarem o telhado, a paróquia ou o nome dele; ele se rende chorando de alívio.</p></li>\n  <li><p><strong>Se viver</strong>: Vira aliado menor permanente: conhece meia Trisólio há quarenta anos e, no Arco 2, é ele quem tira o grupo da cidade.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "16",
+    "jp": "12",
+    "mo": "10",
+    "xp": "400"
+  },
+  "prototypeToken": {
+    "name": "Belvo Talha-de-Sino",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "PrJtwbE7LCSy85Gk",
+      "name": "1 × Espada longa +6 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 6,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Espada longa",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!djKh7YMCvud5z3tm.PrJtwbE7LCSy85Gk"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!djKh7YMCvud5z3tm"
+}

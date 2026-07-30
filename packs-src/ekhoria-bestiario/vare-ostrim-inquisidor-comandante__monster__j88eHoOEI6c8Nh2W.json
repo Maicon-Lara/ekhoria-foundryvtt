@@ -1,0 +1,176 @@
+{
+  "name": "Vare Ostrim, Inquisidor-Comandante",
+  "type": "monster",
+  "_id": "j88eHoOEI6c8Nh2W",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "vare-ostrim-inquisidor-comandante",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nO rosto da ocupação em Breônia. Convicto, sereno, competente. NÃO É PARA SER DERROTADO NESTA AVENTURA. BA +9.\n<ul>\n  <li><p><strong>Suspensão de Graça</strong>: Uma vez por combate, declara um alvo 'suspenso'. Aquele alvo não pode ser curado por magia divina até o fim do combate. Ostrim considera isto um ato administrativo, não um ataque.</p></li>\n  <li><p><strong>Serenidade</strong>: Imune a Medo, encanto e a qualquer efeito que dependa de emoção. Nunca testa Moral e nunca corre.</p></li>\n  <li><p><strong>Conjuração Lunar</strong>: Conjura como Clérigo de 6º nível.</p></li>\n  <li><p><strong>A Papelada</strong>: Ostrim prefere prisioneiros a cadáveres quando o alvo tem valor administrativo — nobres, arcanistas registrados, Silentes. Isto é a razão pela qual Ysolde sobrevive à Cena 5, e é a razão pela qual PJs capturados continuam vivos.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 78,
+      "max": 78
+    },
+    "ca": "20",
+    "jp": "8",
+    "mo": "12",
+    "xp": "3000"
+  },
+  "prototypeToken": {
+    "name": "Vare Ostrim, Inquisidor-Comandante",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "AbpnLtjEMYvCbALm",
+      "name": "2 × Espada do Auspício +11 (1d10+5)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 11,
+        "damage_bonus": 5,
+        "weapon": false,
+        "description": "Espada do Auspício",
+        "damage_description": "1d10+5",
+        "damage": "1d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!j88eHoOEI6c8Nh2W.AbpnLtjEMYvCbALm"
+    },
+    {
+      "_id": "fjEGtKpZ7R7HusS2",
+      "name": "1 × Escudo (empurrão) +11 (1d6+5 e JPD ou caído)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 11,
+        "damage_bonus": 5,
+        "weapon": false,
+        "description": "Escudo (empurrão)",
+        "damage_description": "1d6+5 e JPD ou caído",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!j88eHoOEI6c8Nh2W.fjEGtKpZ7R7HusS2"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!j88eHoOEI6c8Nh2W"
+}

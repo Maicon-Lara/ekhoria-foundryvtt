@@ -1,0 +1,142 @@
+{
+  "name": "Enxameiro Mantis",
+  "type": "monster",
+  "_id": "dDWaRhgBNTfx8DQX",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "enxameiro-mantis",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Monstro</p>\nBatedor dos Clãs Mantis das Areias Esquecidas. Não conquista: come e vai embora. BA +5.\n<ul>\n  <li><p><strong>Conta e Volta</strong>: Diante de quatro ou mais oponentes, recua sem lutar e leva o número exato ao clã. Não é covardia: é reconhecimento, e é a razão pela qual Durgrann tem medo.</p></li>\n  <li><p><strong>Mineração é Sacrilégio</strong>: Ataca preferencialmente quem carrega ferramenta de escavação ou minério bruto, mesmo que haja alvos melhores.</p></li>\n  <li><p><strong>Saída marcada</strong>: Deslocamento 15. Nunca persegue além de 60 m. Um grupo que recue está seguro, e isso vale dizer à mesa.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "15",
+    "dv": "5",
+    "hp": {
+      "value": 30,
+      "max": 30
+    },
+    "ca": "16",
+    "jp": "12",
+    "mo": "10",
+    "xp": "500"
+  },
+  "prototypeToken": {
+    "name": "Enxameiro Mantis",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "6G6stNbGjRm3JppU",
+      "name": "2 × Foices frontais +6 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 6,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Foices frontais",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!dDWaRhgBNTfx8DQX.6G6stNbGjRm3JppU"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!dDWaRhgBNTfx8DQX"
+}

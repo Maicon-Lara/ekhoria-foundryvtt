@@ -1,0 +1,142 @@
+{
+  "name": "Irmã Colvet (em jejum de nove dias)",
+  "type": "monster",
+  "_id": "3GY5pFzc74faVBJZ",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "irma-colvet-em-jejum-de-nove-dias",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorada</p>\nDezessete anos. Enfraquecida de propósito para não ser ouvida. Ainda assim treinada desde os nove. BA +6.\n<ul>\n  <li><p><strong>Jejum</strong>: PV e CA já reduzidos pelos nove dias sem o frasco (seriam 44 PV e CA 18). A cada dia adicional perde 1d6 PV máximo. Na quinta-feira, ela cai sozinha, e cai para sempre.</p></li>\n  <li><p><strong>Não Cansa</strong>: Imune a Medo, sono, encanto e veneno. O jejum não altera isso.</p></li>\n  <li><p><strong>Ônix contra o que Ela É</strong>: Os estiletes ferem ancorados e criaturas do Breu como armas mágicas — e a ferem em cheio se voltados contra ela. Ela sabe.</p></li>\n  <li><p><strong>Sem Âncora</strong>: Colvet deixou o relicário para trás, escondido, para não ser rastreada. É a primeira decisão livre da vida dela e ela não sabe disso. Não se reergue quando cai.</p></li>\n  <li><p><strong>Redimível — a segunda chance</strong>: Ver abaixo. Não é a mesma redenção de Nell e não custa seis aventuras. Custa uma coisa material.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "12",
+    "dv": "6",
+    "hp": {
+      "value": 26,
+      "max": 26
+    },
+    "ca": "16",
+    "jp": "10",
+    "mo": "12",
+    "xp": "900"
+  },
+  "prototypeToken": {
+    "name": "Irmã Colvet (em jejum de nove dias)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "3fFMGcJRyqo7d4F7",
+      "name": "2 × Estilete de ônix +8 (1d4+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 8,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Estilete de ônix",
+        "damage_description": "1d4+2",
+        "damage": "1d4"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!3GY5pFzc74faVBJZ.3fFMGcJRyqo7d4F7"
+    }
+  ],
+  "effects": [],
+  "folder": "5YyXSOnGdOhUA6dP",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!3GY5pFzc74faVBJZ"
+}

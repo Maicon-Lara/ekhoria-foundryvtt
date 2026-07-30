@@ -1,0 +1,96 @@
+{
+  "name": "A Última Palavra (arma de fogo · relíquia)",
+  "type": "monster",
+  "_id": "MobQjb337Bi6oTW1",
+  "img": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+  "system": {
+    "odo_id": "a-ultima-palavra-arma-de-fogo-reliquia",
+    "concept": "Constructo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Objeto</p>\nCano longo, coronha de madeira escura sem nó, ferragem sem marca de forja. Não enferruja, não aquece e não tem peso de arma. Cinco palavras em Arkanes na alma do cano, nenhuma delas um substantivo. Ninguém consegue datá-la.\n<ul>\n  <li><p><strong>Dano</strong>: 1d10, alcance 30 m, duas mãos. Estouro (dado máximo rola de novo e soma).</p></li>\n  <li><p><strong>Não Falha</strong>: Imune ao Erro Crítico Instável. Não emperra, não trava, não dá backfire. Nunca.</p></li>\n  <li><p><strong>Sempre Carregada</strong>: Não consome munição e não exige recarga. Está sempre pronta, e sempre esteve.</p></li>\n  <li><p><strong>Discórdia</strong>: SEGREDO. Enquanto a arma estiver a até 30 m: todo teste de Reação (6.15) sofre -4; um resultado Hostil (2-3) não pode ser desescalado naquela cena; e uma vez por dia o Mestre pode transformar qualquer desentendimento entre NPCs em violência, sem rolagem, sem aviso e sem motivo suficiente.</p></li>\n  <li><p><strong>O Rastro</strong>: SEGREDO. Toda comunidade em que a arma passe uma noite tem, nos sete dias seguintes, uma briga que não deveria ter acontecido. O Mestre deve narrar isso à distância, por boato, três ou quatro aventuras seguidas, sem nunca ligar os pontos.</p></li>\n</ul>"
+  },
+  "prototypeToken": {
+    "name": "A Última Palavra (arma de fogo · relíquia)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/constructo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "5YyXSOnGdOhUA6dP",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!MobQjb337Bi6oTW1"
+}

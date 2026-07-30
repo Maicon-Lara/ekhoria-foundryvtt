@@ -25,6 +25,7 @@ import { categorias } from "./data/itens.mjs";
 import { tabelas } from "./data/tabelas.mjs";
 import { tabelasMestre } from "./data/tabelas-mestre.mjs";
 import { grupos as gruposBestiario } from "./data/bestiario.mjs";
+import { ameacas } from "./data/ameacas.mjs";
 import { loreJournal } from "./data/lore.mjs";
 import { loreExtraPages } from "./data/lore-extra.mjs";
 import { worldbuildingPages } from "./data/lore-worldbuilding.mjs";
@@ -200,6 +201,19 @@ function buildBestiarioDocs() {
       docs.push(monsterDoc(m, folder._id, grupo.folder, (i + 1) * 100000));
     });
   }
+  // Ameaças da campanha, transcritas dos blocos od2-monstro do cofre. A pasta-mãe
+  // é criada aqui para aninhaPastas() poder encaixar "Ameaças da Campanha — Arco 1"
+  // dentro dela pelo travessão.
+  const mae = folderDoc("Ameaças da Campanha", "Actor", "ameacas");
+  docs.push(mae);
+  for (const grupo of ameacas) {
+    const pasta = folderDoc(grupo.folder, "Actor", "ameacas");
+    docs.push(pasta);
+    grupo.monstros.forEach((m, i) => {
+      docs.push(monsterDoc(m, pasta._id, grupo.folder, (i + 1) * 100000));
+    });
+  }
+
   return docs;
 }
 

@@ -1,0 +1,176 @@
+{
+  "name": "Vhael-en-Thur, o Arauto Encalhado",
+  "type": "monster",
+  "_id": "djMsyIB77y47DgGa",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-grande.webp",
+  "system": {
+    "odo_id": "vhael-en-thur-o-arauto-encalhado",
+    "concept": "Humanoide Monstruoso",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Aberração (Arauto)</p>\nTrês metros e pouco, forma alongada, placagem que não é armadura nem pele. Arrasta às costas um aro de pedra escura de dois metros, rachado e mal remendado — o caminho de volta que ele mesmo destruiu. É herói local no Nó. Mata quem registra o caminho. NÃO É UM MONSTRO: é a última ordem de alguém que ficou sozinho onze anos. BA +14.\n<ul>\n  <li><p><strong>Numa Ação</strong>: Contra qualquer criatura que carregue mapa, caderno, instrumento de registro ou que o grupo tenha visto anotando o caminho, Vhael-en-Thur ataca UMA vez e o alvo morre. Sem JP, sem rolagem. Isso mata Tallec Sole na Cena 5 e vale contra qualquer PJ que esteja mapeando — AVISE A MESA PELO EXEMPLO, NUNCA PELA REGRA.</p></li>\n  <li><p><strong>Não Persegue Quem Não Registra</strong>: Ignora completamente qualquer criatura que não carregue registro do caminho. Um grupo que largue os mapas no chão, em cena, pode simplesmente passar por ele.</p></li>\n  <li><p><strong>O Aro Ressoa</strong>: FRAQUEZA. Um Cristal de Centelha carregado na presença dele (ação, exige metal e uma pancada) faz o aro zumbir: ele perde ação, JP e movimento por 1 rodada. Funciona sempre; ele nunca aprende. Deve ser PLANTADO VISUALMENTE na Cena 4 (Hrun, o Outro) ou lido na 6c.</p></li>\n  <li><p><strong>Placagem de Arauto</strong>: Reduz em 6 todo dano de fontes não-mágicas (mínimo 1). Imune a veneno, doença, medo, sono e paralisia.</p></li>\n  <li><p><strong>Onze Anos</strong>: Imune a encanto, sugestão e a qualquer tentativa de comunicação por idioma. Comunica-se apenas por IMAGEM, e só com quem parar de atacá-lo primeiro. Se o grupo recuar sem golpear na rodada em que ele estiver abaixo de 20 PV, ele para também, senta, e a reviravolta acontece por conversa.</p></li>\n  <li><p><strong>Ele Não Cai Duas Vezes</strong>: Reduzido a 0 PV, não agoniza: para. O aro se solta e cai. Descreva a morte como libertação, e conceda XP integral mesmo que o grupo o tenha poupado.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "15",
+    "hp": {
+      "value": 96,
+      "max": 96
+    },
+    "ca": "20",
+    "jp": "6",
+    "mo": "12",
+    "xp": "8000"
+  },
+  "prototypeToken": {
+    "name": "Vhael-en-Thur, o Arauto Encalhado",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "RTSoRJMinGAQrdp9",
+      "name": "2 × Corte de passagem +16 (2d10+5)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 16,
+        "damage_bonus": 5,
+        "weapon": false,
+        "description": "Corte de passagem",
+        "damage_description": "2d10+5",
+        "damage": "2d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!djMsyIB77y47DgGa.RTSoRJMinGAQrdp9"
+    },
+    {
+      "_id": "y3vHd7XhOFDD0tsf",
+      "name": "1 × O aro (arremesso) +14 (4d8, JPD para metade, e o alvo fica preso 1 rodada)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 14,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "O aro (arremesso)",
+        "damage_description": "4d8, JPD para metade, e o alvo fica preso 1 rodada",
+        "damage": "4d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!djMsyIB77y47DgGa.y3vHd7XhOFDD0tsf"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!djMsyIB77y47DgGa"
+}

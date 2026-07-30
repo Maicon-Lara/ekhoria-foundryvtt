@@ -1,0 +1,141 @@
+{
+  "name": "Caelith, o Fragmento do Conhecimento",
+  "type": "monster",
+  "_id": "9J4riIdU2EymgPQu",
+  "img": "systems/olddragon2e/assets/monsters-concepts/dragao-colossal.webp",
+  "system": {
+    "odo_id": "caelith-o-fragmento-do-conhecimento",
+    "concept": "Dragão",
+    "size": "colossal",
+    "description": "<p><strong>Tipo (fonte):</strong> Dragão (Lendário)</p>\nO Um tentando compreender o que se tornou. Escamas escritas em idiomas que mudam quando você desvia o olhar. A voz vem de trás do ombro de quem ele responde. NÃO É UM COMBATE — é uma negociação com uma coisa que não tem motivo para negociar. BA +20.\n<ul>\n  <li><p><strong>Fragmento de Conhecimento</strong>: Imune a medo, encanto, sono, paralisia, ilusão, efeitos mentais e morte instantânea. Nenhuma mentira dita na presença dele funciona — ele não a desmente, apenas responde à verdade que ela escondia.</p></li>\n  <li><p><strong>Uma Pergunta por Pessoa</strong>: Cada criatura pode fazer UMA pergunta a Caelith, uma vez na vida. Ele responde com verdade completa e nenhuma clareza. O preço é uma memória específica, escolhida pelo próprio interrogante. Ver a Regra da Cena.</p></li>\n  <li><p><strong>O Preço Se Cobra Sozinho</strong>: A memória some no instante da resposta. Não há JP, não há resistência, não há magia no cenário que a devolva. Um personagem que ofereceu a memória de aprender algo PERDE aquilo na ficha, permanentemente.</p></li>\n  <li><p><strong>A Pergunta de Volta</strong>: Se atacado, não revida. Faz UMA pergunta ao agressor — a coisa que aquele personagem menos quer discutir. JPS ou fica parado 1d4 rodadas respondendo em voz alta, na frente do grupo. Depois Caelith vai embora e as perguntas não feitas se perdem para sempre.</p></li>\n  <li><p><strong>Ele Não Sabe Consertar</strong>: Caelith não devora memórias: ele as lê e as solta, e elas caem fora de quem as tinha. Ele lamenta isso de um jeito distraído e já tentou resolver. Se um PJ perguntar como devolver o que perdeu, essa É a pergunta dele, e a resposta é: 'ainda não sei. Volte quando eu souber. Você não vai conseguir voltar.'</p></li>\n</ul>",
+    "alignment": "neutro",
+    "dv": "20",
+    "hp": {
+      "value": 130,
+      "max": 130
+    },
+    "ca": "22",
+    "jp": "10",
+    "mo": "12",
+    "xp": "0"
+  },
+  "prototypeToken": {
+    "name": "Caelith, o Fragmento do Conhecimento",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/dragao-colossal.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "lfIWJjRImedEzzEY",
+      "name": "0 × Não ataca +0 (—)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 0,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Não ataca",
+        "damage_description": "—",
+        "damage": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!9J4riIdU2EymgPQu.lfIWJjRImedEzzEY"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!9J4riIdU2EymgPQu"
+}

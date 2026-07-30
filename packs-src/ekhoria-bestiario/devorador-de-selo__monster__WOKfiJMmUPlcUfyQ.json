@@ -1,0 +1,142 @@
+{
+  "name": "Devorador de Selo",
+  "type": "monster",
+  "_id": "WOKfiJMmUPlcUfyQ",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+  "system": {
+    "odo_id": "devorador-de-selo",
+    "concept": "Humanoide Monstruoso",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Aberração</p>\nO que a Velha Irmandade selou nas Cavernas Profundas. Uma coluna de coisa fria que empurra contra o mundo, e o mundo range. BA +7.\n<ul>\n  <li><p><strong>Anterior ao Escuro</strong>: Não é morto-vivo e não é afetado por Afastar Mortos-Vivos. Imune a frio, veneno e medo.</p></li>\n  <li><p><strong>Onde a Pressão Entra</strong>: Enquanto estiver a menos de 30 m do selo rompido, regenera 5 PV por rodada. Longe do selo, não regenera nada — e ele sabe disso, e não se afasta.</p></li>\n  <li><p><strong>Fogo é Fogo</strong>: Dano de fogo o afeta normalmente e interrompe a regeneração por uma rodada. É literalmente por isso que a Irmandade Voraz existe.</p></li>\n  <li><p><strong>Saída marcada</strong>: Deslocamento 6 e não deixa a área do selo. Um grupo que corra escapa sempre. Diga isso à mesa.</p></li>\n</ul>",
+    "alignment": "caotico",
+    "mv": "6",
+    "dv": "8",
+    "hp": {
+      "value": 52,
+      "max": 52
+    },
+    "ca": "18",
+    "jp": "10",
+    "mo": "12",
+    "xp": "2000"
+  },
+  "prototypeToken": {
+    "name": "Devorador de Selo",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide_monstruoso-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "KaXP6nNPqPG9ELHp",
+      "name": "2 × Investida fria +9 (2d6+3 e JPC ou -1 de Constituição até descanso longo)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 9,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Investida fria",
+        "damage_description": "2d6+3 e JPC ou -1 de Constituição até descanso longo",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!WOKfiJMmUPlcUfyQ.KaXP6nNPqPG9ELHp"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!WOKfiJMmUPlcUfyQ"
+}

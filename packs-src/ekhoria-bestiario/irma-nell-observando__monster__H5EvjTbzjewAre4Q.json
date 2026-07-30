@@ -1,0 +1,142 @@
+{
+  "name": "Irmã Nell (observando)",
+  "type": "monster",
+  "_id": "H5EvjTbzjewAre4Q",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "irma-nell-observando",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado (não sabe)</p>\nCaçadora de impuros dos Colégios, criada sem saber o que é. NESTA AVENTURA ELA NÃO LUTA. BA +6.\n<ul>\n  <li><p><strong>Farejar o Impuro</strong>: Sabe, a até 30 m e sem teste, se alguém à vista é arcanista, Silente, Cambion ou originário. É assim que ela caça — e é assim que ela nunca percebeu que o sinal mais forte da sala é o dela própria.</p></li>\n  <li><p><strong>Não Cansa</strong>: Não dorme, não come mais do que aparência exige, não adoece. Ela acha que é disciplina.</p></li>\n  <li><p><strong>Papel nesta aventura</strong>: Aparece três vezes: no Degrau (Cena 1), na Cava (uma eliminatória) e na arquibancada da final. Nunca fala. Na terceira vez, encara por três segundos. A redenção dela depende de conversas acumuladas ao longo de seis aventuras — e a primeira delas é o grupo simplesmente NOTAR que ela está lá.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "6",
+    "hp": {
+      "value": 30,
+      "max": 30
+    },
+    "ca": "17",
+    "jp": "11",
+    "mo": "10",
+    "xp": "900"
+  },
+  "prototypeToken": {
+    "name": "Irmã Nell (observando)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "Hcix7vSwp7A4kYpW",
+      "name": "2 × Espada curta de ônix +8 (1d6+3)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 8,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Espada curta de ônix",
+        "damage_description": "1d6+3",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!H5EvjTbzjewAre4Q.Hcix7vSwp7A4kYpW"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!H5EvjTbzjewAre4Q"
+}

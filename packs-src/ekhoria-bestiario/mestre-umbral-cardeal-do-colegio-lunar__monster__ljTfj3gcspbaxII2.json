@@ -1,0 +1,176 @@
+{
+  "name": "Mestre Umbral, Cardeal do Colégio Lunar",
+  "type": "monster",
+  "_id": "ljTfj3gcspbaxII2",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "mestre-umbral-cardeal-do-colegio-lunar",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nSetenta e poucos anos, magro, olhos bons, sem capuz pela primeira vez em oitenta e três anos. Não é fanático — é o único que não é. Não grita, não ameaça e não mente sobre o que faz. BA +12.\n<ul>\n  <li><p><strong>O Devedor</strong>: Carrega o nó vivo do Pacto do Fio no esterno. Enquanto o Pacto estiver de pé, Umbral NÃO PODE MORRER nesta aventura: ao ser reduzido a 0 PV, o Fio o retira do campo instantaneamente e ele reaparece a 300 m, ferido e calmo. A Tecelã protege o devedor. Cortar o Pacto é objetivo do Arco 3, não desta cena.</p></li>\n  <li><p><strong>A Conexão</strong>: Fala dentro da cabeça de qualquer comandante seu no continente. Em batalha em massa, isso se traduz em: uma vez por turno, refaz a rolagem de Poder de QUALQUER unidade aliada dele, em qualquer Hex, sem limite de distância.</p></li>\n  <li><p><strong>Rito Maior da Dispensa</strong>: 3x/combate. JPS ou 6d6 de dano divino num ancorado, Silente ou originário a até 18 m. Metade do dano com JP bem-sucedida. Ele prioriza Ancorados, sempre, porque é o que a contabilidade manda.</p></li>\n  <li><p><strong>Sentença Registrada</strong>: 1x/combate, ação. Diz o nome completo de um PJ e a data em que ele nasceu. JPS ou o alvo fica INCAPAZ DE ATACÁ-LO por 1d4 rodadas — não medo, reconhecimento: ele sabe quem você é e você entende, no osso, que sempre soube.</p></li>\n  <li><p><strong>Não Se Expõe</strong>: Nunca fica em combate corpo a corpo por mais de 3 rodadas. Na quarta, retira-se — a pé, sem pressa, por uma saída que ele já tinha. Perseguir é possível e é exatamente o que ele quer que façam.</p></li>\n  <li><p><strong>Ele Não Mata</strong>: Nenhum ataque de Umbral reduz um alvo abaixo de 0 PV. Um golpe letal deixa o alvo CAÍDO E CAPTURADO. Impuro morto é desperdício de estoque, e ele não desperdiça.</p></li>\n  <li><p><strong>Sem Alavanca</strong>: Imune a medo, encanto, sugestão, intimidação e a qualquer apelo moral. Não porque seja frio: porque já fez todas essas contas, sozinho, doze anos atrás, e chegou onde chegou. Confrontá-lo com o Gambito NÃO o abala — ele agradece a companhia.</p></li>\n  <li><p><strong>A Única Fenda</strong>: Umbral responde toda pergunta com honestidade completa. É vaidade, e é a coisa mais humana nele, e é explorável: um grupo que o mantenha falando o mantém PARADO. Cada pergunta genuína que ele responde é uma rodada em que ele não age — e na Cena 7 isso vale a retirada de mil pessoas.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "14",
+    "hp": {
+      "value": 85,
+      "max": 85
+    },
+    "ca": "21",
+    "jp": "6",
+    "mo": "12",
+    "xp": "12000"
+  },
+  "prototypeToken": {
+    "name": "Mestre Umbral, Cardeal do Colégio Lunar",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "ebnSkjPL1V1DrtCW",
+      "name": "2 × Báculo de escrutínio +14 (1d8+6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 14,
+        "damage_bonus": 6,
+        "weapon": false,
+        "description": "Báculo de escrutínio",
+        "damage_description": "1d8+6",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!ljTfj3gcspbaxII2.ebnSkjPL1V1DrtCW"
+    },
+    {
+      "_id": "ZYGTuEpmcDKwGH5V",
+      "name": "1 × Toque da Dispensa +14 (4d6 + JPC ou paralisia 1d4 rodadas)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 14,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Toque da Dispensa",
+        "damage_description": "4d6 + JPC ou paralisia 1d4 rodadas",
+        "damage": "4d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!ljTfj3gcspbaxII2.ZYGTuEpmcDKwGH5V"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!ljTfj3gcspbaxII2"
+}

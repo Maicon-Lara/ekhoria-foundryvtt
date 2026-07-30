@@ -1,0 +1,142 @@
+{
+  "name": "Sapador de Durgrann",
+  "type": "monster",
+  "_id": "CAbaUJfzT3iWXndb",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "sapador-de-durgrann",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Anão</p>\nEngenheiro de guerra subterrânea. Escava, escora, mina e derruba. Luta bem e prefere não. BA +4.\n<ul>\n  <li><p><strong>Ler a Pedra</strong>: Sabe, sem teste, se um teto vai cair, onde há vazio atrás de uma parede e quanto tempo uma escora aguenta. Num ambiente subterrâneo, nunca é surpreendido.</p></li>\n  <li><p><strong>Escavação Rápida</strong>: Quatro sapadores abrem uma passagem por rocha em uma hora, ou derrubam uma galeria em dez minutos. É isto que a habilidade de unidade Subterrânea representa em escala de exército.</p></li>\n  <li><p><strong>Contrainvestida</strong>: Recebendo uma investida em corredor ou galeria, ataca primeiro e causa dano dobrado se acertar.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "6",
+    "dv": "4",
+    "hp": {
+      "value": 26,
+      "max": 26
+    },
+    "ca": "17",
+    "jp": "13",
+    "mo": "11",
+    "xp": "240"
+  },
+  "prototypeToken": {
+    "name": "Sapador de Durgrann",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "6ldXx88vgWS5VNLI",
+      "name": "1 × Picareta de guerra +5 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Picareta de guerra",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!CAbaUJfzT3iWXndb.6ldXx88vgWS5VNLI"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!CAbaUJfzT3iWXndb"
+}

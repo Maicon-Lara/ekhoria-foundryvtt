@@ -1,0 +1,142 @@
+{
+  "name": "Draska Vell-Ferro, capitã da Corda Curta",
+  "type": "monster",
+  "_id": "UrJugBgRWiYq13En",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "draska-vell-ferro-capita-da-corda-curta",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nBenellikovana, quarenta e quatro anos, cinco meses vigiando estátuas por ouro triárcio. Profissional. Cansada. Não é má pessoa e não é uma boa pessoa. BA +6.\n<ul>\n  <li><p><strong>Conta de Cabeça</strong>: Levanta a mão e negocia na primeira rodada de qualquer combate em que esteja em desvantagem numérica ou de nível. SEMPRE. Nunca ataca primeiro.</p></li>\n  <li><p><strong>Os Onze</strong>: Dez mercenários (DV 2, CA 15, 11 PV, lança 1d8) que fazem exatamente o que ela manda e param exatamente quando ela para.</p></li>\n  <li><p><strong>Não Sabia</strong>: Disseram a ela que as estátuas eram um projeto de arte. Mostrar-lhe a verdade — de preferência despetrificando alguém na frente dela — permite teste de Carisma (1 em 1d6) com Ajuste Fácil para virá-la de lado sem pagar nada.</p></li>\n  <li><p><strong>O que ela vale depois</strong>: Contratada, vira a unidade COMPANHIA DA CORDA CURTA na Aventura 16 — Poder 6, Desl 2, Contrainvestida · Destreinada. Convertida pela verdade em vez de por ouro, não testa Moral na primeira batalha.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "6",
+    "hp": {
+      "value": 34,
+      "max": 34
+    },
+    "ca": "17",
+    "jp": "12",
+    "mo": "9",
+    "xp": "700"
+  },
+  "prototypeToken": {
+    "name": "Draska Vell-Ferro, capitã da Corda Curta",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "vZ15V6Wbut5UuMgq",
+      "name": "2 × Lança curta de cratera +8 (1d8+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 8,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Lança curta de cratera",
+        "damage_description": "1d8+2",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!UrJugBgRWiYq13En.vZ15V6Wbut5UuMgq"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!UrJugBgRWiYq13En"
+}

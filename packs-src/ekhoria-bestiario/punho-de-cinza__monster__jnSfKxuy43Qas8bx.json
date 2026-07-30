@@ -1,0 +1,142 @@
+{
+  "name": "Punho de Cinza",
+  "type": "monster",
+  "_id": "jnSfKxuy43Qas8bx",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "punho-de-cinza",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nGuarda pessoal de Vare Ostrim. Malho de duas mãos e placa de ônix pilhado. BA +5.\n<ul>\n  <li><p><strong>Golpe de Derrubada</strong>: Um alvo atingido faz JPD ou cai caído (levantar custa metade do movimento e concede Ajuste Fácil aos ataques contra ele naquela rodada).</p></li>\n  <li><p><strong>Placa Pilhada</strong>: A armadura é de ônix breoniano confiscado: reduz em 2 o dano de qualquer fonte necrótica ou de magia divina.</p></li>\n  <li><p><strong>Ninguém Passa</strong>: Só pode ser ultrapassado num corredor por quem vencer um teste oposto de Força. Falhando, o personagem para e leva um ataque.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "6",
+    "dv": "5",
+    "hp": {
+      "value": 34,
+      "max": 34
+    },
+    "ca": "18",
+    "jp": "11",
+    "mo": "12",
+    "xp": "600"
+  },
+  "prototypeToken": {
+    "name": "Punho de Cinza",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "QSZMTfyzz5Ko3Rh8",
+      "name": "1 × Malho de ônix +7 (2d6+3)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 7,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Malho de ônix",
+        "damage_description": "2d6+3",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!jnSfKxuy43Qas8bx.QSZMTfyzz5Ko3Rh8"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!jnSfKxuy43Qas8bx"
+}

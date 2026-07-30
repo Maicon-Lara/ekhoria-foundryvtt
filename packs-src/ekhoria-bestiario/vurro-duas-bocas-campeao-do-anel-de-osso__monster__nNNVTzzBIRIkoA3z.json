@@ -1,0 +1,176 @@
+{
+  "name": "Vurro Duas-Bocas, campeão do Anel de Osso",
+  "type": "monster",
+  "_id": "nNNVTzzBIRIkoA3z",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-grande.webp",
+  "system": {
+    "odo_id": "vurro-duas-bocas-campeao-do-anel-de-osso",
+    "concept": "Humanoide",
+    "size": "grande",
+    "description": "<p><strong>Tipo (fonte):</strong> Grimor (cinco Marcas)</p>\n<ul>\n  <li><p><strong>Nunca Mata</strong></p></li>\n  <li><p><strong>Sangue Corrosivo</strong></p></li>\n  <li><p><strong>Lê o Peso</strong></p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "11",
+    "hp": {
+      "value": 74,
+      "max": 74
+    },
+    "ca": "17",
+    "jp": "8",
+    "mo": "12",
+    "xp": "1825"
+  },
+  "prototypeToken": {
+    "name": "Vurro Duas-Bocas, campeão do Anel de Osso",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-grande.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "9nHyqRvNkADcMcCF",
+      "name": "2 × Punhos +13 (1d8+5)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 13,
+        "damage_bonus": 5,
+        "weapon": false,
+        "description": "Punhos",
+        "damage_description": "1d8+5",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!nNNVTzzBIRIkoA3z.9nHyqRvNkADcMcCF"
+    },
+    {
+      "_id": "YDtBBfpGBDEGKpUz",
+      "name": "1 × Agarrão +13 (2d6)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 13,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Agarrão",
+        "damage_description": "2d6",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!nNNVTzzBIRIkoA3z.YDtBBfpGBDEGKpUz"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!nNNVTzzBIRIkoA3z"
+}

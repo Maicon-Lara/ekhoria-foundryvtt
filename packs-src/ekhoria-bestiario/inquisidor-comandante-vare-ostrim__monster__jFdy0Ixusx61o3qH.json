@@ -1,0 +1,142 @@
+{
+  "name": "Inquisidor-Comandante Vare Ostrim",
+  "type": "monster",
+  "_id": "jFdy0Ixusx61o3qH",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "inquisidor-comandante-vare-ostrim",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\n<ul>\n  <li><p><strong>Ferro da Convicção</strong></p></li>\n  <li><p><strong>Executor de Ordens</strong></p></li>\n  <li><p><strong>Rito Maior da Dispensa</strong></p></li>\n  <li><p><strong>O Que Ele Carrega</strong></p></li>\n  <li><p><strong>Não Negocia</strong></p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 62,
+      "max": 62
+    },
+    "ca": "19",
+    "jp": "10",
+    "mo": "12",
+    "xp": "1175"
+  },
+  "prototypeToken": {
+    "name": "Inquisidor-Comandante Vare Ostrim",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "7864bSoJBFmFQaeh",
+      "name": "2 × Martelo de ferro-vela +11 (1d10+4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 11,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Martelo de ferro-vela",
+        "damage_description": "1d10+4",
+        "damage": "1d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!jFdy0Ixusx61o3qH.7864bSoJBFmFQaeh"
+    }
+  ],
+  "effects": [],
+  "folder": "1790BMtOHvyUa4mX",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!jFdy0Ixusx61o3qH"
+}

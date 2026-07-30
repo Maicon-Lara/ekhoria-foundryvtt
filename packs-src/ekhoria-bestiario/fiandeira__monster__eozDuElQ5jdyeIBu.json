@@ -1,0 +1,141 @@
+{
+  "name": "Fiandeira",
+  "type": "monster",
+  "_id": "eozDuElQ5jdyeIBu",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "fiandeira",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Drow</p>\nCavaleira drow montada num versperto — construto alado de asa membranosa e sem cabeça. Luta com lança de fio e não fala. BA +5.\n<ul>\n  <li><p><strong>Rasante</strong>: Ataque mergulhando: Ajuste Difícil no ataque; se acertar alvo surpreso, dano dobrado (LB2 cap.7).</p></li>\n  <li><p><strong>Ancoragem</strong>: Um alvo reduzido a 0 PV pela lança de fio não morre: fica ancorado, inconsciente e com um filamento preso à nuca. Cortar o filamento nas primeiras 24 h liberta sem sequela; depois disso, não.</p></li>\n  <li><p><strong>O Versperto</strong>: A montaria tem CA 15 e 14 PV separados. Destruída, a Fiandeira cai — e drow não usam correia de segurança.</p></li>\n  <li><p><strong>Sem Voz</strong>: Não conjura, não grita, não se rende e não testa Moral enquanto o Tear Suspenso estiver no ar.</p></li>\n</ul>",
+    "alignment": "caotico",
+    "dv": "5",
+    "hp": {
+      "value": 29,
+      "max": 29
+    },
+    "ca": "17",
+    "jp": "12",
+    "mo": "11",
+    "xp": "700"
+  },
+  "prototypeToken": {
+    "name": "Fiandeira",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "yGJwIQvsq6qIGGUi",
+      "name": "1 × Lança de fio +6 (1d10+2)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 6,
+        "damage_bonus": 2,
+        "weapon": false,
+        "description": "Lança de fio",
+        "damage_description": "1d10+2",
+        "damage": "1d10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!eozDuElQ5jdyeIBu.yGJwIQvsq6qIGGUi"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!eozDuElQ5jdyeIBu"
+}

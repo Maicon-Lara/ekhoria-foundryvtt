@@ -1,0 +1,142 @@
+{
+  "name": "Diretora-Comandante Ordelia Renzo",
+  "type": "monster",
+  "_id": "FR82oTyx81cHGSSv",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "diretora-comandante-ordelia-renzo",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nCinquenta e três anos, AnoMinas e Guarda da Cratera, onze dias em pé dentro de uma caixa de luz. A única do Diretorado que já viu uma guerra. BA +7.\n<ul>\n  <li><p><strong>Onze Dias</strong>: Esteve consciente o tempo todo. Sabe exatamente quantos dias passaram, o que foi dito à sua frente e por quem. Não perdoa nenhum dos quatro, e vota sim de qualquer maneira.</p></li>\n  <li><p><strong>Comando</strong>: Se sair viva, comanda os Fuzileiros do SUF na Aventura 16. A unidade deixa de ser Destreinada enquanto ela estiver em campo, e ganha +1 de Poder no primeiro combate de cada batalha.</p></li>\n  <li><p><strong>A Acusação</strong>: Entrar na câmara do Diretorado com ela derruba Karthus Malvaggio na hora: a Guarda da Cratera responde a ela, não ao governo. O voto contrário dele deixa de existir.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "7",
+    "hp": {
+      "value": 38,
+      "max": 38
+    },
+    "ca": "17",
+    "jp": "11",
+    "mo": "11",
+    "xp": "1200"
+  },
+  "prototypeToken": {
+    "name": "Diretora-Comandante Ordelia Renzo",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "yARnEelSqDpoT00Z",
+      "name": "2 × Sabre de mina +9 (1d8+3)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 9,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Sabre de mina",
+        "damage_description": "1d8+3",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!FR82oTyx81cHGSSv.yARnEelSqDpoT00Z"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!FR82oTyx81cHGSSv"
+}

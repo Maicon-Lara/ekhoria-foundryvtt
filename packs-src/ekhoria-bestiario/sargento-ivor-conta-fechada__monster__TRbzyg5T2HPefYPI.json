@@ -1,0 +1,142 @@
+{
+  "name": "Sargento Ivor Conta-Fechada",
+  "type": "monster",
+  "_id": "TRbzyg5T2HPefYPI",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "sargento-ivor-conta-fechada",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado (Tropa Sem Fim, posto de Sal-Alto)</p>\nSargento de pelotão, quarenta anos sem rito, sem rendição e sem ordem nova. Não lembra o próprio nome; lembra o regulamento inteiro. BA +5.\n<ul>\n  <li><p><strong>Eco Antimágico</strong>: Imune a magias arcanas diretas; vulnerável a magia divina.</p></li>\n  <li><p><strong>Corpo Estático</strong>: Sem cura. Reduzido a 0 PV, é destruído em definitivo.</p></li>\n  <li><p><strong>Voz de Comando</strong>: Silentes a até 9 m ganham +1 nos ataques e mantêm a Disciplina Inquebrável mesmo isolados. Se ele cai, a coluna perde o +1 — e não para. Continua andando.</p></li>\n  <li><p><strong>Conta Fechada</strong>: Ivor sabe exatamente quantos saíram de Sal-Alto (33), quantos restam (31) e onde os dois estão enterrados. É a única aritmética que sobrou nele, e ele a recita quando pressionado. Um PJ que peça a conta e escute até o fim ganha Ajuste Fácil na próxima tentativa de conversa.</p></li>\n  <li><p><strong>O Duelo é Sagrado</strong>: Ver A saída (b). Se um duelo formal for aceito, Ivor combate sem a formação, sem Voz de Comando e sem interferência de ninguém — e o resultado do duelo é acatado sem discussão, qualquer que seja.</p></li>\n  <li><p><strong>Sem Exaustão</strong>: Imune a Medo, sono, encanto e veneno. Não dorme, não cansa, não sente dor.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 38,
+      "max": 38
+    },
+    "ca": "18",
+    "jp": "7",
+    "mo": "12",
+    "xp": "600"
+  },
+  "prototypeToken": {
+    "name": "Sargento Ivor Conta-Fechada",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "hoZa1kg7bYsIZtAI",
+      "name": "1 × Espada longa +7 (1d8+3)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 7,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Espada longa",
+        "damage_description": "1d8+3",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!TRbzyg5T2HPefYPI.hoZa1kg7bYsIZtAI"
+    }
+  ],
+  "effects": [],
+  "folder": "5YyXSOnGdOhUA6dP",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!TRbzyg5T2HPefYPI"
+}

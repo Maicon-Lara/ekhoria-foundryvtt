@@ -1,0 +1,142 @@
+{
+  "name": "Tribuna Vetta Sórdano, VI Cohorte (Reserva)",
+  "type": "monster",
+  "_id": "1wfaT53hauGaLi5l",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "tribuna-vetta-sordano-vi-cohorte-reserva",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nQuarenta e um anos. Quatro anos observando esta guerra de longe com três oficiais e um livro de anotações, agora no terceiro volume. Três mil e duzentas linhas. Uma delas lhe tira o sono. NÃO É UM COMBATE. BA +8.\n<ul>\n  <li><p><strong>O Registro</strong>: Tudo o que a mesa fez em vinte aventuras que a Legião testemunhou está anotado, incluindo a violação do parlamento de Sabra Tovin (A16), se houve. Ela lê a linha em voz alta antes de negociar, e a negociação fica dois graus mais cara.</p></li>\n  <li><p><strong>A Lei 6</strong>: Neutralidade absoluta. Nenhum apelo moral, nenhuma quantia e nenhum discurso a movem. A ÚNICA alavanca é a lei 1 (o contrato é sagrado) combinada com a lei 4 (traição se paga com ferro e sangue): prove fraude sobre a natureza da carga e a Legião não entra numa guerra — cobra uma dívida.</p></li>\n  <li><p><strong>O Preço</strong>: Onze nomes no registro cruzado; quatro mortos, sete vivos, dois com filhos em Ferro Velho. Entregar o livro põe doze Cohortes em campo e mata os sete pela lei 4. Ela não argumenta e não pressiona: espera.</p></li>\n  <li><p><strong>Não Aceita Papel</strong>: Em batalha, a Legião cumpre o contrato assinado e nada mais. As Cohortes avançam pela Estrada do Sal em linha reta e não desviam por nada, inclusive por unidades aliadas em apuros.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 52,
+      "max": 52
+    },
+    "ca": "19",
+    "jp": "9",
+    "mo": "12",
+    "xp": "0"
+  },
+  "prototypeToken": {
+    "name": "Tribuna Vetta Sórdano, VI Cohorte (Reserva)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "yqS6MxpTFhBgvkIC",
+      "name": "2 × Gládio de Ferro +10 (1d8+4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 10,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Gládio de Ferro",
+        "damage_description": "1d8+4",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!1wfaT53hauGaLi5l.yqS6MxpTFhBgvkIC"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!1wfaT53hauGaLi5l"
+}

@@ -1,0 +1,142 @@
+{
+  "name": "Ophris Sem-Tom",
+  "type": "monster",
+  "_id": "bMb7MGBCdGz0cUPx",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "ophris-sem-tom",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nVociferante aposentado, corretor de vozes no Mercado de Ares. Não é um combate. É um preço. BA +4.\n<ul>\n  <li><p><strong>O Aro</strong>: Fala através de um aro de arcanita na garganta. O tom sai sempre errado para o conteúdo. Pêsames em tom de piada; ameaças em tom de canção de ninar.</p></li>\n  <li><p><strong>A Barganha</strong>: Vende a localização da Agulha, a senha das runas e um aviso verdadeiro por 1 PONTO PERMANENTE de um atributo de um único PJ voluntário. O jogador escolhe o atributo. Recalcule tudo na hora. É irreversível — não existe cura, dissipar, descanso ou reviravolta futura.</p></li>\n  <li><p><strong>Honesto</strong>: Não mente, não trapaceia, não tem letra miúda, não guarda um punhal. Entrega exatamente o que prometeu. A via longa das Cenas 9-10 é igualmente real e igualmente funcional; nenhuma das duas é a armadilha.</p></li>\n  <li><p><strong>Catorze</strong>: Tem catorze pontos comprados de outras pessoas e não usou nenhum. Quer voltar a cantar uma frase inteira em Arkanes, com o tom certo, uma única vez, porque foi a última coisa que a mulher dele o ouviu não conseguir fazer. Conta se perguntarem.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 22,
+      "max": 22
+    },
+    "ca": "12",
+    "jp": "13",
+    "mo": "6",
+    "xp": "0"
+  },
+  "prototypeToken": {
+    "name": "Ophris Sem-Tom",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "Tt5kXseFPWxTk6YF",
+      "name": "0 × Não luta +0 (—)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 0,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Não luta",
+        "damage_description": "—",
+        "damage": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!bMb7MGBCdGz0cUPx.Tt5kXseFPWxTk6YF"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!bMb7MGBCdGz0cUPx"
+}

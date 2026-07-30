@@ -1,0 +1,142 @@
+{
+  "name": "Confessor-Primeiro Sabien Auvray",
+  "type": "monster",
+  "_id": "Cdg60PCqkktYNkaX",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "confessor-primeiro-sabien-auvray",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano (arcanista converso)</p>\nQuarenta e um anos, arkadiano, Arcano Pleno de Fluxos de Quintessência até nove meses atrás. Hoje comanda os Inquisidores Lunares. Educado, lúcido, feliz. BA +8.\n<ul>\n  <li><p><strong>A Conta Conferida</strong>: Conhece arcanismo por dentro. Toda magia arcana lançada contra ele concede a ele JPS com Ajuste Fácil; se passar, a magia é redirecionada ao conjurador com metade do efeito. Contra milagres divinos ele não tem defesa nenhuma, e sabe disso, e acha justo.</p></li>\n  <li><p><strong>Puxar o Fio</strong>: 1x/combate. Um alvo a até 18 m faz JPC ou começa a INVERTER: 2d6 por rodada durante 3 rodadas, e a pele vira quartzo. Interrompível por qualquer aliado que gaste uma ação inteira segurando a pessoa e dizendo o nome dela em voz alta. Foi assim que Théon Vaskiris morreu.</p></li>\n  <li><p><strong>Petrificar</strong>: 1x/combate, toque. JPC ou suspensão de fluxo: o alvo vira estátua morna e viva. Reversível pelos métodos da Cena 13. Não é morte e ele fará questão de esclarecer isso.</p></li>\n  <li><p><strong>A Alavanca</strong>: Ler em voz alta algo escrito pelo próprio Auvray de antes da conversão o paralisa: ele perde a ação e o grupo tem UMA rodada em que acerta automaticamente e ele falha automaticamente em toda JP. Funciona uma única vez.</p></li>\n  <li><p><strong>A Conta Refeita</strong>: GATILHO: depois de A Alavanca ser usada. Pelo resto do combate, +2 nos ataques, +4 de dano, e imunidade a medo, encanto e a qualquer tentativa de persuasão. Ele agradece pela lembrança.</p></li>\n  <li><p><strong>Ele Para</strong>: Ao chegar a 20 PV, senta-se e encerra o combate. Entrega o Selo. Não é rendição: é ele terminando de coletar o dado que veio coletar.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "9",
+    "dv": "9",
+    "hp": {
+      "value": 55,
+      "max": 55
+    },
+    "ca": "18",
+    "jp": "11",
+    "mo": "12",
+    "xp": "2400"
+  },
+  "prototypeToken": {
+    "name": "Confessor-Primeiro Sabien Auvray",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "DbOCBup6aUwe3VtT",
+      "name": "2 × Vara de anúncio +10 (1d8+4)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 10,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Vara de anúncio",
+        "damage_description": "1d8+4",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!Cdg60PCqkktYNkaX.DbOCBup6aUwe3VtT"
+    }
+  ],
+  "effects": [],
+  "folder": "G3AQTjBwfpfTIPPs",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!Cdg60PCqkktYNkaX"
+}

@@ -1,0 +1,176 @@
+{
+  "name": "Umbral Liquidado — Fase 2, \"O Nó Aberto\"",
+  "type": "monster",
+  "_id": "8Z22JmOYlmn3YaAN",
+  "img": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+  "system": {
+    "odo_id": "umbral-liquidado-fase-2-o-no-aberto",
+    "concept": "Morto-Vivo",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano (tecido)</p>\nO nó do Pacto do Fio, enxertado no esterno há doze anos, ABRIU. Dois metros de fio sem cor saindo para todos os lados: para a vala, para os Fiados, para o Tear parado, para baixo. Ele não virou um monstro. Virou uma instituição — e continua falando, e agora fala no plural sem perceber. BA +14.\n<ul>\n  <li><p><strong>O Passivo</strong>: ⚠ A CADA 10 PONTOS DE DANO QUE UMBRAL SOFRER, DEZ CATIVOS MORREM NA VALA DO ESTOQUE. Anuncie o número corrente em voz alta a cada rodada, sem arredondar. Não esconda, não suavize, não retire.</p></li>\n  <li><p><strong>Os Três Nós</strong>: Três nós de ancoragem visíveis no fio, a até 18 m. Cortar cada um: uma ação e teste de Inteligência (1 em 1d6) ou JPS. Cada nó cortado reduz o Passivo em um terço; os três eliminam o Passivo — E UMBRAL GANHA +4 EM TODOS OS ATAQUES E +2 NA CA, porque o que ele carregava era peso. Este é o trade-off central da luta. Irmã Nell redimida corta um nó sem teste.</p></li>\n  <li><p><strong>Fala no Plural</strong>: As vozes dos mil cativos entram na dele, uma por frase, dizendo coisas administrativas e cordiais em línguas diferentes. Ele continua argumentando, e os argumentos continuam bons, e é isso que assusta. Ele NÃO fica sádico. Não o interprete como sádico.</p></li>\n  <li><p><strong>Ele Ainda Não Mata</strong>: Herda Ele Não Mata da Fase 1. A Tecelã também não desperdiça. Um grupo derrotado aqui acorda amarrado na Vala do Estoque, e a Cena 11 acontece com eles do lado de dentro.</p></li>\n  <li><p><strong>Sem Saída</strong>: Não pode ser retirado do campo, teleportado, banido ou salvo. Pela primeira vez em vinte aventuras, Umbral está preso onde está.</p></li>\n  <li><p><strong>A Oferta</strong>: AOS 20 PV OU MENOS, ele senta e encerra o combate por conta própria. Não continue rolando. Vá para a Cena 11 — o resgate oferecido — e leia o box dos dois lados.</p></li>\n</ul>",
+    "alignment": "ordeiro",
+    "mv": "6",
+    "dv": "16",
+    "hp": {
+      "value": 70,
+      "max": 70
+    },
+    "ca": "24",
+    "jp": "4",
+    "mo": "12",
+    "xp": "30000"
+  },
+  "prototypeToken": {
+    "name": "Umbral Liquidado — Fase 2, \"O Nó Aberto\"",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/morto_vivo-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "nr4MpXe0BpTlzbVx",
+      "name": "3 × O fio, em três direções +16 (2d6+6 e JPD ou o alvo fica preso (ação para escapar))",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 3,
+        "ba": 16,
+        "damage_bonus": 6,
+        "weapon": false,
+        "description": "O fio, em três direções",
+        "damage_description": "2d6+6 e JPD ou o alvo fica preso (ação para escapar)",
+        "damage": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!8Z22JmOYlmn3YaAN.nr4MpXe0BpTlzbVx"
+    },
+    {
+      "_id": "fxSWAUK5m8XmAjmk",
+      "name": "1 × Cobrança +0 (6d6 em raio de 9 m, JPS para metade — e todos os ANCORADOS na área rolam JPS ou obedecem à próxima ordem que ele der)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Cobrança",
+        "damage_description": "6d6 em raio de 9 m, JPS para metade — e todos os ANCORADOS na área rolam JPS ou obedecem à próxima ordem que ele der",
+        "damage": "6d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!8Z22JmOYlmn3YaAN.fxSWAUK5m8XmAjmk"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!8Z22JmOYlmn3YaAN"
+}

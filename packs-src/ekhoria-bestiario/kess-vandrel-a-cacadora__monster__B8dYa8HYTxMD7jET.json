@@ -1,0 +1,176 @@
+{
+  "name": "Kess Vandrel, a Caçadora",
+  "type": "monster",
+  "_id": "B8dYa8HYTxMD7jET",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "kess-vandrel-a-cacadora",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano</p>\nEx-legionária da Cohorte V, dispensada por quebra da lei 3. Trinta e oito anos, magra de fome antiga, três cães e uma rede. NÃO QUER MATAR NINGUÉM — quer um refém vivo para trocar por entrada na Vigília. BA +9.\n<ul>\n  <li><p><strong>Batedora da Cohorte V</strong>: Move-se em terreno difícil sem penalidade, surpreende com 1-4 em 1d6 e nunca é surpreendida. Sabe onde estão as saídas antes de entrar.</p></li>\n  <li><p><strong>Três Cães</strong>: Cães de derrubada (DV 2, CA 13, 9 PV, mordida +4/1d6, derruba com JPD). Mordem e soltam. Nenhum deles persegue quem foge.</p></li>\n  <li><p><strong>Não Mata</strong>: Nenhum ataque de Kess reduz um alvo a menos de 1 PV. Um refém morto não compra nada.</p></li>\n  <li><p><strong>Não Inscrita</strong>: As defesas da Vigília ferem APENAS criaturas não registradas no livro da cidade: 2d6 por rodada, sem JP, e a luz a segue. Os PJs foram registrados na Cena 3 e não sabem disso. É prova visual do que aquele lugar é.</p></li>\n  <li><p><strong>O Irmão</strong>: Está no arco há dezoito meses e não sabe mais o nome dela. Kess se rende imediatamente a qualquer grupo que ofereça ajudá-lo — e cumpre a palavra, e é útil pelo resto do arco.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "9",
+    "hp": {
+      "value": 48,
+      "max": 48
+    },
+    "ca": "17",
+    "jp": "10",
+    "mo": "11",
+    "xp": "1200"
+  },
+  "prototypeToken": {
+    "name": "Kess Vandrel, a Caçadora",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "7yUzStnzdFFuiAzM",
+      "name": "2 × Bordão ferrado +11 (1d6+3 (contundente; nunca letal — reduz a 1 PV, não a 0))",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 11,
+        "damage_bonus": 3,
+        "weapon": false,
+        "description": "Bordão ferrado",
+        "damage_description": "1d6+3 (contundente; nunca letal — reduz a 1 PV, não a 0)",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!B8dYa8HYTxMD7jET.7yUzStnzdFFuiAzM"
+    },
+    {
+      "_id": "eq8NG3dr4ubvKPzz",
+      "name": "1 × Rede lastrada +11 (JPD ou preso (Força 1 em 1d6 para sair))",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 11,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Rede lastrada",
+        "damage_description": "JPD ou preso (Força 1 em 1d6 para sair)",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!B8dYa8HYTxMD7jET.eq8NG3dr4ubvKPzz"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!B8dYa8HYTxMD7jET"
+}

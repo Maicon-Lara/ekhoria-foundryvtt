@@ -1,0 +1,142 @@
+{
+  "name": "Ancel, o Que Ninguém Lembra (aliado)",
+  "type": "monster",
+  "_id": "BfxeNXs4MWF8WAoo",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "ancel-o-que-ninguem-lembra-aliado",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Silente ancorado</p>\n<ul>\n  <li><p><strong>Os Seis Lampiões</strong></p></li>\n  <li><p><strong>Sem Exaustão</strong></p></li>\n  <li><p><strong>Esquecido</strong></p></li>\n  <li><p><strong>Vulnerável ao Divino</strong></p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "9",
+    "dv": "5",
+    "hp": {
+      "value": 30,
+      "max": 30
+    },
+    "ca": "14",
+    "jp": "8",
+    "mo": "12",
+    "xp": "295"
+  },
+  "prototypeToken": {
+    "name": "Ancel, o Que Ninguém Lembra (aliado)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "RQxd5qvKF57XIZ3Z",
+      "name": "1 × Poste de lanterneiro (bordão) +5 (1d6+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 5,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Poste de lanterneiro (bordão)",
+        "damage_description": "1d6+1",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!BfxeNXs4MWF8WAoo.RQxd5qvKF57XIZ3Z"
+    }
+  ],
+  "effects": [],
+  "folder": "H0fudRTEx1Thnlpt",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!BfxeNXs4MWF8WAoo"
+}

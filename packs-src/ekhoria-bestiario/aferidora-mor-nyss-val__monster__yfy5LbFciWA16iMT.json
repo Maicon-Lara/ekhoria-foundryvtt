@@ -1,0 +1,176 @@
+{
+  "name": "Aferidora-Mor Nyss'val",
+  "type": "monster",
+  "_id": "yfy5LbFciWA16iMT",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "aferidora-mor-nyss-val",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humanoide (drow)</p>\nCento e poucos anos. Não odeia ninguém: confere. Conferiu quarenta e um mil, oitocentas e nove pessoas e sabe o número de cabeça, e acrescenta que três mil e duzentas foram devolvidas, porque a taxa está dentro da tolerância e ela tem orgulho disso. BA +9.\n<ul>\n  <li><p><strong>Procedimento</strong>: NÃO LUTA SE HOUVER PROCEDIMENTO DISPONÍVEL. Um documento selado que a exonere formalmente da função — e Sabra Tovin sabe redigir um — faz Nyss'val entregar o Segundo Contador inteiro sem uma rolagem: o registro cruzado, a chave da comporta e os nomes. E ela vai embora andando.</p></li>\n  <li><p><strong>Ela Confere</strong>: Responde a qualquer pergunta sobre números com precisão total e sem emoção. Não mente e não omite. Não vê diferença moral entre conferir pessoas e conferir sacas de grão, e essa ausência é o horror da cena — não crueldade, indiferença profissional.</p></li>\n  <li><p><strong>Desatar Também É Procedimento</strong>: Se lhe pedirem, com autoridade plausível, que desate os quarenta nós da Sala 3, ELA DESATA — mediante recibo. Ninguém pensa em pedir. É a melhor jogada da Cena 4.</p></li>\n  <li><p><strong>Testemunha</strong>: Se convertida, é a segunda testemunha de dentro que a Cena 6 exige quando o registro cruzado foi perdido. Vale quatro Cohortes da Legião de Ferro.</p></li>\n</ul>",
+    "alignment": "neutro",
+    "mv": "12",
+    "dv": "10",
+    "hp": {
+      "value": 58,
+      "max": 58
+    },
+    "ca": "19",
+    "jp": "8",
+    "mo": "9",
+    "xp": "4000"
+  },
+  "prototypeToken": {
+    "name": "Aferidora-Mor Nyss'val",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "CJ8IvT1ysnLRIAzJ",
+      "name": "2 × Estilete de aferição +11 (1d6+4 e JPC ou –2 em todas as rolagens por 1d4 rodadas)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 2,
+        "ba": 11,
+        "damage_bonus": 4,
+        "weapon": false,
+        "description": "Estilete de aferição",
+        "damage_description": "1d6+4 e JPC ou –2 em todas as rolagens por 1d4 rodadas",
+        "damage": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!yfy5LbFciWA16iMT.CJ8IvT1ysnLRIAzJ"
+    },
+    {
+      "_id": "GLNyx9wto6fqVAcJ",
+      "name": "1 × Chamado de fio +0 (convoca 1d4 Fiados adjacentes, 2x/combate)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 0,
+        "damage_bonus": 0,
+        "weapon": false,
+        "description": "Chamado de fio",
+        "damage_description": "convoca 1d4 Fiados adjacentes, 2x/combate",
+        "damage": "1d4"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!yfy5LbFciWA16iMT.GLNyx9wto6fqVAcJ"
+    }
+  ],
+  "effects": [],
+  "folder": "I3BewHyi77gXP04z",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!yfy5LbFciWA16iMT"
+}
