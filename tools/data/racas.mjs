@@ -35,6 +35,12 @@ export const racas = [
     alignment_notes: "Tendem ao Neutro ou ao Ordeiro.",
     habilidades: [
       {
+        nome: "Adaptabilidade",
+        desc:
+          "<p>+1 em uma JP à escolha.</p><p><em>Na ficha:</em> marque no seletor desta habilidade, na aba <strong>Raça</strong>, a Jogada de Proteção escolhida — o +1 vale só para ela.</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
         nome: "Constructo Vivo",
         desc: "<p>A Pedra da Alma concede vida real, mas de natureza única. Autokthons não dormem, não se alimentam, não respiram e não envelhecem; não possuem sistema circulatório. São imunes a sono, venenos, doenças comuns e drenagem de sangue, e não podem beber poções mágicas. Precisam de 8 horas de estudo para memorizar magias. São plenamente suscetíveis a efeitos mentais, morte, paralisia, cegueira, surdez, drenagem de energia, acertos críticos e efeitos que exijam JPC. <em>Aprisionar Alma</em> e <em>Reviver Mortos</em> não os afetam; <em>Curar</em> e <em>Causar Ferimentos</em> os afetam pela metade.</p>",
       },
@@ -64,6 +70,13 @@ export const racas = [
     alignment_tendency: "none",
     habilidades: [
       {
+        nome: "Graça Diabólica",
+        desc:
+          "<p>+1 em JPD.</p><p><em>Na ficha:</em> marque <strong>JPD</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
+        jp: { jpd: true },
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
         nome: "Enganadores",
         desc: "<p>Por parentesco com criaturas metamórficas, alteram ligeiramente a aparência (altura até 15 cm, peso até 25%, cor de pele/olhos/cabelos, gênero, formato do rosto). Não permite se passar por alguém específico, mas modifica testes de reação em +1 ou –1 com quem não conhece sua verdadeira natureza.</p>",
       },
@@ -90,6 +103,19 @@ export const racas = [
     infravision: 18,
     alignment_tendency: "neutro",
     habilidades: [
+      {
+        nome: "Graciosos",
+        desc:
+          "<p>+1 em JPD.</p><p><em>Na ficha:</em> marque <strong>JPD</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
+        jp: { jpd: true },
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
+        nome: "Vulnerabilidade à Luz (desvantagem)",
+        desc:
+          "<p>Sob luz forte, JPs e testes ficam Difíceis (-2).</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
       {
         nome: "Elfos",
         desc: "<p>Elfos Drow são tratados como elfos para todos os efeitos, incluindo o cumprimento de requisitos de classe ou especialização.</p>",
@@ -122,6 +148,19 @@ export const racas = [
     infravision: 18,
     alignment_tendency: "neutro",
     habilidades: [
+      {
+        nome: "Saltadores",
+        desc:
+          "<p>Salta o dobro de um humano (~10m à frente ou 3m para cima).</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
+        nome: "Graciosos",
+        desc:
+          "<p>+1 em JPD.</p><p><em>Na ficha:</em> marque <strong>JPD</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
+        jp: { jpd: true },
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
       {
         nome: "Exoesqueleto",
         desc: "<p>Possuem uma carapaça rígida que garante CA natural 14 + modificador de Destreza (em vez dos 10 + Destreza usuais). Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
@@ -156,6 +195,13 @@ export const racas = [
     alignment_tendency: "ordeiro",
     habilidades: [
       {
+        nome: "Graciosos",
+        desc:
+          "<p>+1 em JPD.</p><p><em>Na ficha:</em> marque <strong>JPD</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
+        jp: { jpd: true },
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
         nome: "Carismáticos",
         desc: "<p>A aura de paz dos Nefilins faz todos tenderem a se sentir bem em sua presença. Havendo um Nefilim no grupo, os testes de Reação são feitos com bônus de +2.</p>",
       },
@@ -184,6 +230,12 @@ export const racas = [
     alignment_tendency: "ordeiro",
     alignment_notes: "Tendem ao Ordeiro, embora o Neutro seja igualmente comum entre os que passaram tempo fora do Império.",
     habilidades: [
+      {
+        nome: "Disciplina de Marcha",
+        desc:
+          "<p>Armaduras contam 1 ponto mais leves para a carga.</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
       {
         nome: "Técnica Refinada",
         desc: "<p>Séculos de duelos rituais e filosofia marcial ensinaram a explorar cada abertura com precisão: +1 no dano com armas cortantes e perfurantes.</p>",
@@ -216,6 +268,12 @@ export const racas = [
     infravision: 30,
     alignment_tendency: "caotico",
     habilidades: [
+      {
+        nome: "Conhecimento das Profundezas",
+        desc:
+          "<p>1-2 em 1d6 p/ info do subterrâneo, 1 em 1d6 p/ superfície (Magos/Clérigos +1, Acadêmicos +2).</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
       {
         nome: "Têmpera das Profundezas",
         desc: "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
@@ -274,6 +332,18 @@ export const racas = [
     infravision_notes: "30 metros embaixo d'água; 18 metros fora dela.",
     alignment_tendency: "ordeiro",
     habilidades: [
+      {
+        nome: "Adaptabilidade",
+        desc:
+          "<p>+1 em uma JP à escolha.</p><p><em>Na ficha:</em> marque no seletor desta habilidade, na aba <strong>Raça</strong>, a Jogada de Proteção escolhida — o +1 vale só para ela.</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
+      {
+        nome: "Letrados",
+        desc:
+          "<p>Lê e escreve o idioma nativo + ao menos 1 idioma adicional.</p>",
+        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
+      },
       {
         nome: "Anfíbios",
         desc: "<p>Respiram sob a água e fora dela, sem nenhuma penalidade para agir ou lutar submersos.</p>",

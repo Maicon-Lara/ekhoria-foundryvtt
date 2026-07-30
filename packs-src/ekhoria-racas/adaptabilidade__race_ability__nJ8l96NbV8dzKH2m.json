@@ -1,14 +1,14 @@
 {
-  "folder": "XkgJX3lK9msYH1eF",
-  "name": "Postura do Sol Poente",
+  "folder": "pARuNgxHhEmoWuYp",
+  "name": "Adaptabilidade",
   "type": "race_ability",
-  "_id": "yh6JjidT0VyfHxcH",
+  "_id": "nJ8l96NbV8dzKH2m",
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
-    "description": "<p>A disciplina física os acostuma a suportar o que quebraria outro: +1 em qualquer teste de JPC.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
+    "description": "<p>+1 em uma JP à escolha.</p><p><em>Na ficha:</em> marque no seletor desta habilidade, na aba <strong>Raça</strong>, a Jogada de Proteção escolhida — o +1 vale só para ela.</p>",
     "xp": null,
     "jp": {
-      "jpc": true,
+      "jpc": false,
       "jpd": false,
       "jps": false
     },
@@ -36,9 +36,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!yh6JjidT0VyfHxcH"
+  "_key": "!items!nJ8l96NbV8dzKH2m"
 }
