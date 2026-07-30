@@ -3,7 +3,7 @@
   "name": "Corvo",
   "type": "class",
   "_id": "ZMBojh1pH1VVXfsr",
-  "img": "systems/olddragon2e/assets/icons/bag.svg",
+  "img": "modules/ekhoria/assets/icones/v2_corvo_halfling.webp",
   "system": {
     "flavor": "<p>A pena negra entra onde o exército não passa. Especialização de Ladrão da Ordem do Corvo (Vale da Águia).</p>",
     "description": "<p>Mensageiro inviolável e neutro, o Corvo é o espião que nunca precisa mentir sobre quem é: passa por postos que barram exércitos, fala a língua de quem o detém e some quando convém. Perde o Ataque Furtivo; os Talentos do Corvo substituem os Talentos de Ladrão. <strong>Juramento da Pena Negra:</strong> não pode iniciar violência letal contra quem respeita sua neutralidade — fazê-lo custa a Inviolabilidade até cumprir penitência junto à Ordem.</p>",

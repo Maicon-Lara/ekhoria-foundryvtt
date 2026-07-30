@@ -3,7 +3,7 @@
   "name": "Guardião da Centelha (Joia)",
   "type": "class",
   "_id": "2xHUuQpW0MWA2IcY",
-  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "img": "modules/ekhoria/assets/icones/guardiao_da_centelha.webp",
   "system": {
     "flavor": "<p>O Guardião cujo Cristal está anexado a uma <strong>joia</strong>. <em>Especialização de Mago.</em></p>",
     "description": "<p>Em Durgrann, onde engenharia é religião, os Guardiões da Centelha tratam magia como engenharia: cada feitiço tem custo calculado e margem de erro aceitável. Dominam os Cristais de Centelha como outros magos dominam componentes arcanos. Devem representar a cultura de Durgrann e ter alinhamento Ordeiro. Conjuram magias arcanas até o 5º círculo e mantêm Ler Magias e Detectar Magias.</p><p><strong>Esta variante já traz o Cristal na joia</strong> — arraste-a para a ficha e o benefício vem escolhido. Para outro benefício, use a variante correspondente ou a versão genérica da classe.</p>",

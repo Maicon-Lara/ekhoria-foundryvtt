@@ -3,7 +3,7 @@
   "name": "Custódio Solar",
   "type": "class",
   "_id": "L4txFcgOaNc0DIPn",
-  "img": "systems/olddragon2e/assets/icons/divine.svg",
+  "img": "modules/ekhoria/assets/icones/custodio_solar.webp",
   "system": {
     "flavor": "<p>A Sentinela Eterna da Luz Primordial. Especialização de Clérigo, exclusiva de Autokthons.</p>",
     "description": "<p>O Custódio Solar não é escolhido por deuses: <em>escolhe</em>, com plena consciência, transferir sua alma para uma Pedra da Alma e renascer como Autokthon vinculado à Luz Primordial. Sua convicção não é emprestada de divindade alguma — quando a Ordem falha, o Custódio permanece. Ao passar pelo Ritual da Renúncia, assume todas as habilidades raciais dos Autokthons.</p>",

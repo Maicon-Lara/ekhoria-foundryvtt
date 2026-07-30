@@ -3,7 +3,7 @@
   "name": "Astromante",
   "type": "class",
   "_id": "y7sIAtA1JEGd1U71",
-  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "img": "modules/ekhoria/assets/icones/v2_astromante_nefilim.webp",
   "system": {
     "flavor": "<p>Quem lê o céu não adivinha — apenas chega antes. Especialização de Mago.</p>",
     "description": "<p>O Astromante amarrou a leitura das estrelas à arte arcana: não arremessa fogo, lê a probabilidade e chega antes dela. Tem pouco dano direto e é mais forte quando previu, mais fraco quando o céu está encoberto. Conjura magias arcanas até o 5º círculo e mantém Ler Magias e Detectar Magia. <strong>Dependência do Céu:</strong> a cada amanhecer observa o céu por 1 turno; privado da visão por mais de 24 h, recebe só 1 Presságio por dia.</p>",

@@ -3,7 +3,7 @@
   "name": "Atlante",
   "type": "race",
   "_id": "oMaTmNyck62JGWyP",
-  "img": "systems/olddragon2e/assets/icons/alignment.svg",
+  "img": "modules/ekhoria/assets/icones/icon_atlante.webp",
   "system": {
     "flavor": "<p>Eruditos errantes das correntes — nômades anfíbios que transformaram o movimento em filosofia.</p>",
     "description": "<p>Sem lar fixo, os Atlantes vivem em frotas-cidade que nunca param de se mover, descendentes dos que fugiram para o mar no Dilúvio Ancestral. Têm guelras, pele em tons aquáticos e carregam o Diário de Corrente com tudo o que viveram. Para um Atlante, parar é morte.</p>",

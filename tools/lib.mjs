@@ -4,6 +4,7 @@
 
 import crypto from "node:crypto";
 import fs from "node:fs";
+import { iconeProprio } from "./data/icones.mjs";
 import path from "node:path";
 
 const ID_ALPHABET =
@@ -342,7 +343,7 @@ export function classDoc(cls, folderId, abilityUuids) {
     name: cls.nome,
     type: "class",
     _id: id,
-    img: cls.img || iconeClasse(cls, ICONS.class),
+    img: cls.img || iconeProprio(cls.nome) || iconeClasse(cls, ICONS.class),
     system: {
       flavor: cls.flavor || "",
       description: cls.descricao || "",
@@ -442,7 +443,7 @@ export function raceDoc(race, folderId, abilityUuids) {
     name: race.nome,
     type: "race",
     _id: id,
-    img: race.img || ICONS.race,
+    img: race.img || iconeProprio(race.nome) || ICONS.race,
     system: sys,
     effects: [],
     flags: {},

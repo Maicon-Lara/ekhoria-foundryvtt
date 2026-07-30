@@ -3,7 +3,7 @@
   "name": "Marcado (Fera-Abissal)",
   "type": "class",
   "_id": "6vRNsVBokvN46a8F",
-  "img": "systems/olddragon2e/assets/icons/melee.svg",
+  "img": "modules/ekhoria/assets/icones/marcado.webp",
   "system": {
     "flavor": "<p>O Marcado da Escola <strong>Fera-Abissal</strong>. <em>Especialização de Guerreiro.</em></p>",
     "description": "<p>O Marcado bebe o que matou e sobrevive: o Rito de Marcação integra toxinas concentradas ao metabolismo, e quem passa desenvolve olhos de pupila vertical. Perde Aparar e Maestria em Arma. <strong>Dependência:</strong> ao consumir substâncias de combate, fica sujeito às regras de Vício e Abstinência.</p><p><strong>Esta variante já traz a Escola Fera-Abissal embutida</strong> — arraste-a para a ficha e a Escola vem junto, com as evoluções de 3º, 6º e 10º nível. Para trocar de Escola depois, use a versão genérica da classe e adicione a Escola pelo compêndio <em>Marcado › Escolas</em>.</p>",

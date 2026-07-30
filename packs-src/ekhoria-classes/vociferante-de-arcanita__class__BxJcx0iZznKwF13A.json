@@ -3,7 +3,7 @@
   "name": "Vociferante de Arcanita",
   "type": "class",
   "_id": "BxJcx0iZznKwF13A",
-  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "img": "modules/ekhoria/assets/icones/v2_vociferante_arcanita.webp",
   "system": {
     "flavor": "<p>A magia que se ordena, não se lança. Especialização de Mago da cultura de Arkádia.</p>",
     "description": "<p>O Vociferante aprendeu Arkanes, o idioma em que o tom é a gramática, e comanda a Arcanita senciente com a voz. Conjura magias arcanas até o 5º círculo e mantém Ler Magias. <strong>Dependência da Voz:</strong> silenciado, amordaçado ou mudo, não conjura nem ativa habilidade alguma; em compensação, dispensa componentes somáticos (conjura amarrado, desde que possa falar).</p>",

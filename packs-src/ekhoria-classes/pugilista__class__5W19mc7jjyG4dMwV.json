@@ -3,7 +3,7 @@
   "name": "Pugilista",
   "type": "class",
   "_id": "5W19mc7jjyG4dMwV",
-  "img": "systems/olddragon2e/assets/icons/melee.svg",
+  "img": "modules/ekhoria/assets/icones/pugilista.webp",
   "system": {
     "flavor": "<p>A Arma Viva da Resistência Inquebrável. Especialização de Guerreiro.</p>",
     "description": "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe uma das Três Escolas — Mãos de Ferro (Benellikov), Dança do Vento (Yorugan) ou Punhos do Vale (Vale da Águia) — que muda o estilo e os códigos, mas não as habilidades mecânicas. Perde Aparar, mantém Maestria em Arma.</p>",
