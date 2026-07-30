@@ -5,11 +5,11 @@
   "_id": "heqxKNTdPOYl1UWY",
   "img": "systems/olddragon2e/assets/icons/melee.svg",
   "system": {
-    "description": "<p>A Escola marcial do Marcado: a toxina afia o golpe em vez de mudar o corpo.</p><p><strong>+2 de dano</strong> com espadas <strong>curtas, longas e bastardas</strong>.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta habilidade <strong>para dentro dessa janela</strong> — ela é sincronizada para o personagem automaticamente.</p><p><em>Atalho:</em> o compêndio de Classes já traz variantes prontas (ex.: <em>Marcado (Couraçado)</em>) com a Escola embutida — basta arrastar a variante e pular este passo.</p>",
+    "description": "<p><em>Equilíbrio marcial — a lâmina e o Eco, um só instrumento.</em></p><p>Inspirada nos <strong>Vermes Escarlates</strong> das Areias Esquecidas, esta Escola não escolhe entre arma e mutação: treina para que os dois sejam o mesmo gesto. Surgiu entre caçadores das bordas do deserto que perceberam que lâmina e Eco, usados no mesmo impulso, eram mais devastadores que qualquer um separado.</p><p><strong>Maestria com Lâminas Curtas e Longas:</strong> <strong>+2 no dano</strong> com espadas curtas, longas ou bastardas.</p><p><strong>Eco Rhoz</strong> <em>(Iniciado)</em>: sopra a palavra sobre o próprio aço e a lâmina esquenta até o vermelho. Pelas próximas <strong>1d4+1 rodadas</strong>, os ataques com essas espadas causam <strong>+1d6 de dano por fogo</strong>. Liberado como <strong>parte</strong> do ataque — não gasta a ação.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe que já está na ficha</strong> (aba Classe, clique no nome) e arraste esta habilidade <strong>para dentro dessa janela</strong> — ela é sincronizada para o personagem automaticamente.</p><p><em>Atalho:</em> o compêndio de Classes já traz variantes prontas (ex.: <em>Marcado (Couraçado)</em>) com a Escola embutida — basta arrastar a variante e pular este passo.</p>",
     "level": 3,
     "level3": "",
-    "level6": "<p><strong>Eco Draum:</strong> libera uma onda que <strong>derruba e atordoa</strong> (<strong>JPD</strong> para evitar).</p>",
-    "level10": "<p><strong>Ataque extra</strong> por rodada com essas espadas.</p>",
+    "level6": "<p><strong>Eco Draum</strong> <em>(Adepto)</em>: uma onda de pressão somática. Os alvos fazem <strong>JPD</strong> ou ficam derrubados e atordoados por <strong>1 rodada</strong>. Pode ser usado como <em>Ação de Ataque</em>, no lugar de um ataque normal.</p>",
+    "level10": "<p><strong>Ataque Extra:</strong> um <strong>segundo ataque por rodada</strong> com espadas curtas, longas ou bastardas.</p>",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,

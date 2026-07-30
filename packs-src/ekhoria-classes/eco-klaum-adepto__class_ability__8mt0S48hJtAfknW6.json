@@ -1,0 +1,50 @@
+{
+  "folder": "ES6wXAqCCQlN4EqM",
+  "name": "Eco Klaum (Adepto)",
+  "type": "class_ability",
+  "_id": "8mt0S48hJtAfknW6",
+  "img": "systems/olddragon2e/assets/icons/movement.svg",
+  "system": {
+    "description": "<p>As fibras das pernas incham e queimam reservas de uma vez. Equivalente à metade <strong>Velocidade</strong> de <em>Lentidão/Velocidade</em>, e <strong>só sobre o próprio Marcado</strong>.</p><p>Ao terminar, ele fica <strong>fatigado por 1 turno</strong> (−2 em tudo).</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe Marcado que já está na ficha</strong> (aba Classe, clique no nome) e arraste este Eco <strong>para dentro dessa janela</strong>.</p><p><em>Lembre do pool:</em> todos os Ecos gastam os mesmos usos diários, contados na habilidade <strong>Ecos de Mutação</strong> — inclusive os da sua Escola.</p>",
+    "level": 6,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8mt0S48hJtAfknW6"
+}

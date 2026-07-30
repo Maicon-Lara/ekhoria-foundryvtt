@@ -411,7 +411,22 @@ export const classes = [
     levels: progressao("guerreiro_esp"),
     habilidades: [
       { nome: "Metabolismo Marcado", level: 1, desc: "<p>O Rito reconfigurou seus processos internos: +2 em JPC contra venenos e toxinas, e consome substâncias de combate com a chance de vício reduzida em 1 (mínimo 1 em 1d6).</p>" },
-      { nome: "Ecos de Mutação (Iniciado)", level: 1, usos_dia: 1, desc: "<p>Resíduos de energia instável permitem liberar Ecos — expressões físicas brutas invocadas por palavras Pré-Primevas. Conjura um número de Ecos por dia igual ao modificador de Constituição (mínimo 1). No 1º nível domina o <strong>Eco Vurk</strong>: calor concentrado pelas mãos ou uma chama curta (como <em>Mãos Flamejantes</em> ou <em>Luz</em>, à escolha no uso).</p>" + AJUSTE_USOS("Constituição") },
+      // Os degraus de uso (Iniciado 1º, Adepto 6º, Mestre 11º) vão no mapa de
+      // usos diários; o 11º não tem campo de evolução no OD2 (só existem
+      // level3/6/10), então a escada inteira fica na descrição, onde o jogador
+      // precisa dela para planejar de qualquer jeito.
+      { nome: "Ecos de Mutação", level: 1, usos_dia: { 1: 1, 6: 2, 11: 3 }, desc:
+        "<p>O Rito deixou resíduos de energia instável no sistema nervoso do Marcado — <strong>Ecos</strong> para a Irmandade, \"interferência somática\" para a Ars Vocalis. São expressões físicas brutas, invocadas por fragmentos guturais copiados das runas Pré-Primevas das Cavernas Profundas: ninguém sabe o sentido original, só que funcionam quando ditas com a garganta certa.</p>" +
+        "<p><strong>Usos por dia.</strong> Libera um número de Ecos por dia igual ao <strong>modificador de Constituição</strong> (mínimo 1), <strong>+1 no Estágio Adepto</strong> e <strong>+1 no Estágio Mestre</strong>. Todos os Ecos saem do <strong>mesmo pool</strong>, inclusive os da Escola.</p>" +
+        "<p><strong>Ecos conhecidos.</strong> No 1º nível domina o <strong>Eco Vurk</strong> — o mais instintivo, e o único que ninguém escolhe — <strong>mais um Eco de Iniciado</strong> à escolha. Aprende <strong>+1 Eco</strong> da Lista Comum no <strong>3º</strong>, no <strong>6º</strong> e no <strong>10º</strong> nível, dentro do Estágio já alcançado. Os Ecos da Escola vêm <strong>por fora dessa conta</strong>.</p>" +
+        "<table><thead><tr><th>Estágio</th><th>Nível</th><th>Libera</th></tr></thead><tbody>" +
+        "<tr><td><strong>Iniciado</strong></td><td>1º</td><td>Ecos de Iniciado</td></tr>" +
+        "<tr><td><strong>Adepto</strong></td><td>6º</td><td>+ Ecos de Adepto · <strong>+1 Eco/dia</strong></td></tr>" +
+        "<tr><td><strong>Mestre</strong></td><td>11º</td><td>+ Ecos de Mestre · <strong>+1 Eco/dia</strong></td></tr>" +
+        "</tbody></table>" +
+        "<p><strong>O que um Eco não é.</strong> Eco não é magia: é o corpo fazendo o que aprendeu a fazer. Nenhum Eco enxerga à distância, adivinha, teleporta ou domina uma mente — se o efeito não sai de carne, glândula, osso ou nervo, <strong>não é um Eco</strong>. Um Marcado sob <em>Silêncio</em> continua conjurando (a palavra é gutural, não verbal), mas um Marcado <strong>amordaçado ou sem ar</strong> não conjura nada.</p>" +
+        "<p><em>Na ficha:</em> os Ecos da Lista Comum estão no compêndio de Classes, em <strong>Marcado › Ecos</strong> — arraste para dentro do item da classe apenas os que você aprendeu. O marcador de usos diários já sobe sozinho no 6º e no 11º; ajuste o valor de partida para o seu modificador de Constituição.</p>",
+        level6: "<p><strong>Estágio Adepto:</strong> passa a liberar os Ecos de Adepto e ganha <strong>+1 Eco por dia</strong>.</p>" },
       { nome: "Escolha da Escola", level: 3, desc: "<p>Escolhe <strong>uma das quatro Escolas</strong> — Verme Escarlate, Águia-Cadáver, Couraçado ou Fera-Abissal. A Escola é a linha de habilidades do Marcado: um caminho que <strong>progride com o nível</strong> nos degraus 3, 6 e 10.</p>", level6: "<p>A Escola escolhida avança para o seu segundo degrau.</p>", level10: "<p>A Escola escolhida avança para o seu degrau final.</p>" },
       { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],

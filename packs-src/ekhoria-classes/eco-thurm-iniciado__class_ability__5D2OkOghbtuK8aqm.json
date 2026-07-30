@@ -1,0 +1,50 @@
+{
+  "folder": "ES6wXAqCCQlN4EqM",
+  "name": "Eco Thurm (Iniciado)",
+  "type": "class_ability",
+  "_id": "5D2OkOghbtuK8aqm",
+  "img": "systems/olddragon2e/assets/icons/movement.svg",
+  "system": {
+    "description": "<p>As palmas e as solas exsudam um adesivo de secagem instantânea. Equivalente a <em>Patas de Aranha</em>.</p><hr><p><strong>Como adicionar na ficha:</strong> o sistema não aceita soltar uma habilidade de classe direto no personagem. Abra o item da <strong>classe Marcado que já está na ficha</strong> (aba Classe, clique no nome) e arraste este Eco <strong>para dentro dessa janela</strong>.</p><p><em>Lembre do pool:</em> todos os Ecos gastam os mesmos usos diários, contados na habilidade <strong>Ecos de Mutação</strong> — inclusive os da sua Escola.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5D2OkOghbtuK8aqm"
+}
