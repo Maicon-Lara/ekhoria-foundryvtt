@@ -45,10 +45,6 @@ export const racas = [
         desc: "<p>A Pedra da Alma concede vida real, mas de natureza única. Autokthons não dormem, não se alimentam, não respiram e não envelhecem; não possuem sistema circulatório. São imunes a sono, venenos, doenças comuns e drenagem de sangue, e não podem beber poções mágicas. Precisam de 8 horas de estudo para memorizar magias. São plenamente suscetíveis a efeitos mentais, morte, paralisia, cegueira, surdez, drenagem de energia, acertos críticos e efeitos que exijam JPC. <em>Aprisionar Alma</em> e <em>Reviver Mortos</em> não os afetam; <em>Curar</em> e <em>Causar Ferimentos</em> os afetam pela metade.</p>",
       },
       {
-        nome: "Núcleo Exposto",
-        desc: "<p>A Pedra da Alma é vida e fraqueza ao mesmo tempo. O Autokthon é suscetível a efeitos mentais (a alma está exposta no cristal) e faz JPS contra eles com Ajuste Difícil (−2). Destruir a Pedra da Alma o mata na hora; removê-la o deixa em coma.</p>",
-      },
-      {
         nome: "Construção Variável",
         desc: "<p>Ao criar o personagem, escolha duas características de construção da lista a seguir (a palavra final é do Mestre).</p>",
         variable_construction: { choices_count: 2, available_options: CONSTRUCAO_VARIAVEL },
@@ -107,12 +103,6 @@ export const racas = [
         // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
       },
       {
-        nome: "Vulnerabilidade à Luz (desvantagem)",
-        desc:
-          "<p>Sob luz forte, JPs e testes ficam Difíceis (-2).</p>",
-        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
-      },
-      {
         nome: "Elfos",
         desc: "<p>Elfos Drow são tratados como elfos para todos os efeitos, incluindo o cumprimento de requisitos de classe ou especialização.</p>",
       },
@@ -124,10 +114,6 @@ export const racas = [
       {
         nome: "Imunidades",
         desc: "<p>Imunes a efeitos e magias que envolvam sono e à paralisia causada por Ghouls. Precisam de apenas 4 horas de meditação por dia como descanso.</p>",
-      },
-      {
-        nome: "Pacto da Teia",
-        desc: "<p>Na cultura drow, o acordo é sagrado. O personagem pode firmar um Pacto com um aliado ou um objetivo jurado: enquanto o cumpre, recebe +1 em ataques e JP ligados a ele. Quebrá-lo conscientemente impõe −2 em todas as jogadas até reparar a falta junto à Teia (a critério do Mestre).</p>",
       },
       {
         nome: "Vulnerabilidade",
@@ -161,10 +147,6 @@ export const racas = [
         nome: "Exoesqueleto",
         desc: "<p>Possuem uma carapaça rígida que garante CA natural 14 + modificador de Destreza (em vez dos 10 + Destreza usuais). Por sua anatomia incomum, não podem usar armaduras de nenhum tipo.</p>",
         natural_armor: 14,
-      },
-      {
-        nome: "Sentidos de Caçador",
-        desc: "<p>Olhos compostos que nunca piscam e membros impulsores: o Mantes não pode ser surpreendido por meios não-mágicos e salta o dobro da distância de um humano — cerca de 10 metros para frente ou 3 metros para cima.</p>",
       },
       {
         nome: "Sem Sono",
@@ -202,10 +184,6 @@ export const racas = [
         desc: "<p>A aura de paz dos Nefilins faz todos tenderem a se sentir bem em sua presença. Havendo um Nefilim no grupo, os testes de Reação são feitos com bônus de +2.</p>",
       },
       {
-        nome: "Luz Celeste",
-        desc: "<p>Herança dos céus: pode emitir Luz (como a magia <em>Luz</em>) à vontade e recebe +1 em JP contra efeitos de Morte, drenagem de energia e mortos-vivos.</p>",
-      },
-      {
         nome: "Pacíficos",
         desc: "<p>Uma vez por dia, podem lançar a magia <em>Santuário</em> como um Clérigo de nível igual aos seus DV.</p>",
         daily_uses: 1,
@@ -226,12 +204,6 @@ export const racas = [
     alignment_tendency: "ordeiro",
     alignment_notes: "Tendem ao Ordeiro, embora o Neutro seja igualmente comum entre os que passaram tempo fora do Império.",
     habilidades: [
-      {
-        nome: "Disciplina de Marcha",
-        desc:
-          "<p>Armaduras contam 1 ponto mais leves para a carga.</p>",
-        // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
-      },
       {
         nome: "Técnica Refinada",
         desc: "<p>Séculos de duelos rituais e filosofia marcial ensinaram a explorar cada abertura com precisão: +1 no dano com armas cortantes e perfurantes.</p>",
@@ -269,11 +241,6 @@ export const racas = [
         desc:
           "<p>1-2 em 1d6 p/ info do subterrâneo, 1 em 1d6 p/ superfície (Magos/Clérigos +1, Acadêmicos +2).</p>",
         // Transcrito de Sistema/Povos no cofre (validação de 2026-07-30).
-      },
-      {
-        nome: "Têmpera das Profundezas",
-        desc: "<p>Endurecido por uma vida sob a terra, recebe +1 em qualquer teste de JPC e tem 1–2 em 1d6 para reconhecer perigos, rotas e estruturas do subterrâneo.</p><p><em>Na ficha:</em> marque <strong>JPC</strong> no seletor desta habilidade, na aba <strong>Raça</strong>, para o +1 ser aplicado.</p>",
-        jp: { jpc: true },
       },
       {
         nome: "Vigorosos",
@@ -343,14 +310,6 @@ export const racas = [
       {
         nome: "Anfíbios",
         desc: "<p>Respiram sob a água e fora dela, sem nenhuma penalidade para agir ou lutar submersos.</p>",
-      },
-      {
-        nome: "Filhos da Corrente",
-        desc: "<p>Para os Atlantes, parar é morte — e o corpo rende no movimento. Em qualquer rodada em que se desloca, recebe +1 na CA e em JPD até o início da próxima rodada. Além disso, nunca sofre penalidade por marcha forçada ou viagens longas.</p>",
-      },
-      {
-        nome: "Erudito Errante",
-        desc: "<p>Criados em frotas letradas, leem e escrevem o próprio idioma e mais um número de idiomas igual ao modificador de Inteligência (mínimo 1), e têm 1–2 em 1d6 para recordar rotas, correntes, culturas e a história dos povos que já cruzaram.</p>",
       },
       {
         nome: "Dependência de Água",
