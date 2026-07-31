@@ -480,7 +480,7 @@ export function raceDoc(race, folderId, abilityUuids) {
 }
 
 // JournalEntry com páginas de texto (HTML).
-export function journalDoc(entry, sort) {
+export function journalDoc(entry, sort, folderId = null) {
   const id = makeId(`journal:${entry.title}`);
   const pages = (entry.pages || [{ title: entry.title, content: entry.content }]).map(
     (p, i) => {
@@ -504,7 +504,7 @@ export function journalDoc(entry, sort) {
     }
   );
   return {
-    folder: null,
+    folder: folderId,
     name: entry.title,
     _id: id,
     pages,

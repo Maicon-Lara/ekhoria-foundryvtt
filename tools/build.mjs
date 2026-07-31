@@ -29,7 +29,7 @@ import { ameacas } from "./data/ameacas.mjs";
 import { loreJournal } from "./data/lore.mjs";
 import { loreExtraPages } from "./data/lore-extra.mjs";
 import { worldbuildingPages } from "./data/lore-worldbuilding.mjs";
-import { campanhaJournal } from "./data/campanha.mjs";
+import { campanhaJournais } from "./data/campanha.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -218,8 +218,16 @@ function buildBestiarioDocs() {
 }
 
 // ── Pack da campanha (material do mestre; ownership restrito no module.json) ──
+// Uma JournalEntry por arco, dentro de uma pasta. Antes era uma entrada só, com
+// as 33 páginas e 1,4 MB dentro: abrir qualquer cena carregava a campanha
+// inteira, e a lista de páginas não cabia na tela.
 function buildCampanhaDocs() {
-  return [journalDoc(campanhaJournal, 100000)];
+  const pasta = folderDoc("A Guerra do Esmaecer", "JournalEntry", "campanha");
+  return [
+    pasta,
+    ...campanhaJournais.map((entrada, i) =>
+      journalDoc(entrada, (i + 1) * 100000, pasta._id)),
+  ];
 }
 
 async function compile(packName, docs) {

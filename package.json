@@ -7,7 +7,8 @@
   "scripts": {
     "build": "node tools/build.mjs",
     "extract": "node tools/extract.mjs",
-    "validar": "node tools/validar.mjs"
+    "validar": "node tools/validar.mjs",
+    "importar-campanha": "node tools/importar-campanha.mjs"
   },
   "author": "Maicon Lara",
   "license": "MIT",
