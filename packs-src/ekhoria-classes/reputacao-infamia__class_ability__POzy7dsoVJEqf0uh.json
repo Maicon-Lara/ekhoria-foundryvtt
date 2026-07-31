@@ -1,8 +1,8 @@
 {
   "folder": "CeZeHfmZTAJdoj6G",
-  "name": "Reputação (Infâmia)",
+  "name": "Reputação — Infâmia",
   "type": "class_ability",
-  "_id": "RWUEWraCqXb6rLaU",
+  "_id": "POzy7dsoVJEqf0uh",
   "img": "systems/olddragon2e/assets/icons/coins.svg",
   "system": {
     "description": "<p>Torna-se figura amplamente temida: obtém Infâmia 1 em 1d6, aumentando +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>",
@@ -46,5 +46,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!RWUEWraCqXb6rLaU"
+  "_key": "!items!POzy7dsoVJEqf0uh"
 }

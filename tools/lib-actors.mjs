@@ -106,44 +106,66 @@ function hpFromDv(dvRaw) {
   return Math.max(1, Math.floor(n * 4.5) + (parseInt(bonus, 10) || 0));
 }
 
-// Deslocamento nas notações que o cofre realmente usa. O OD2 guarda quatro
-// campos: mv (terrestre), mvn (natação), mvv (voo) e mvo (outro, ex.: escavação).
+// Deslocamento. O OD2 guarda quatro campos: mv (terrestre), mvn (natação),
+// mvv (voo) e mvo (outro, ex.: escavação). O cofre escreve isso de sete jeitos
+// diferentes, e a versão anterior — /(\d+)\s*m\s*(?:\(([^)]+)\))?/ — errava em
+// quatro deles:
 //
-//   "9" · "9 m"          → mv 9
-//   "9/9E"               → mv 9  + escavação 9   (sufixo E)
-//   "12/24Vo" · "6/18V"  → mv 12 + voo 24        (sufixo V ou Vo)
-//   "9/12N"              → mv 9  + natação 12    (sufixo N)
-//   "9 m (nadando)"      → mv 9  + natação 9
-//   "6 (voo 36)"         → mv 6  + voo 36
-//   "3 (acorrentado)"    → mv 3, e nada mais: a nota não é um segundo movimento
+//   "9 m (nada 12 m)"      dava natação 9, o valor de TERRA, não o 12
+//   "voa 12 m"             virava 12 m andando; o voo sumia
+//   "9 m, voa 12 m"        perdia o voo em silêncio
+//   "9 m (regeneração...)" punha 9 em "outro deslocamento" — regeneração não é
+//                          deslocamento, mas qualquer nota não reconhecida caía ali
+//   "12/24Vo" · "6 (voo 36)"  não casavam com nada: ficha SEM deslocamento
 //
-// A versão anterior exigia o "m" logo depois do número e devolvia {} para tudo
-// que fugisse disso — as fichas com "12/24Vo" e "6 (voo 36)" ficavam SEM
-// deslocamento nenhum, e as com "9/30Vo" perdiam o voo em silêncio.
+// Agora cada trecho separado por vírgula ou parêntese é lido por conta própria:
+// procura-se o qualificador (voa/nada/escava) e o número que o acompanha. Um
+// número só entra se abrir o trecho ou vier logo depois de um qualificador —
+// é o que impede "1 PV/rodada" de virar movimento. Qualificador sem número
+// herda o valor de terra ("9 m (nadando)" = nada 9 m).
+const QUALIFICADOR = [
+  [/\b(?:voa|voo|voando)\b/, "mvv"],
+  [/\b(?:nada|nado|nadando|natacao)\b/, "mvn"],
+  [/\b(?:escava|escavando|escavacao|cava)\b/, "mvo"],
+];
+
+// Forma compacta do livro: "9/12Vo", "9/9E", "6/18V".
+const SUFIXO = { v: "mvv", vo: "mvv", n: "mvn", e: "mvo" };
+
+const APOS_QUALIFICADOR =
+  /(?:voa|voo|voando|nada|nado|nadando|natacao|escava|escavando|escavacao|cava)\w*\s*(\d+)/;
+
+function campoDeMovimento(txt) {
+  for (const [re, campo] of QUALIFICADOR) if (re.test(txt)) return campo;
+  return null;
+}
+
 function movement(mov) {
   if (!mov) return {};
-  const txt = String(mov).trim();
-  const base = txt.match(/^(\d+)/);
-  if (!base) return {};
-  const out = { mv: base[1] };
+  const txt = normalize(String(mov));
+  const out = {};
 
-  const barra = txt.match(/^\d+\s*\/\s*(\d+)\s*([A-Za-z]*)/);
-  if (barra) {
-    const tipo = normalize(barra[2]);
-    if (tipo.startsWith("v")) out.mvv = barra[1];
-    else if (tipo.startsWith("n")) out.mvn = barra[1];
-    else out.mvo = barra[1]; // E de escavação, e qualquer sufixo desconhecido
+  const compacta = txt.match(/^(\d+)\s*\/\s*(\d+)\s*([a-z]*)/);
+  if (compacta) {
+    out.mv = compacta[1];
+    out[SUFIXO[compacta[3]] ?? "mvo"] = compacta[2];
     return out;
   }
 
-  const nota = txt.match(/\(([^)]+)\)/);
-  if (nota) {
-    const conteudo = normalize(nota[1]);
-    const valor = (conteudo.match(/(\d+)/) || [])[1] || base[1];
-    if (conteudo.startsWith("nad") || conteudo.startsWith("nat")) out.mvn = valor;
-    else if (conteudo.startsWith("vo")) out.mvv = valor;
-    else if (conteudo.startsWith("escav")) out.mvo = valor;
+  const pendentes = [];
+  for (const trecho of txt.split(/[,;()]+/)) {
+    if (!trecho.trim()) continue;
+    const campo = campoDeMovimento(trecho);
+    const m = trecho.match(/^\s*(\d+)\s*m?\b/) || trecho.match(APOS_QUALIFICADOR);
+    if (!m) {
+      if (campo) pendentes.push(campo);
+      continue;
+    }
+    const alvo = campo ?? "mv";
+    if (!out[alvo]) out[alvo] = m[1];
   }
+  // "9 m (nadando)": o qualificador não trouxe número, então vale o de terra.
+  for (const campo of pendentes) if (!out[campo] && out.mv) out[campo] = out.mv;
   return out;
 }
 

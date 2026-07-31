@@ -71,7 +71,7 @@ export const classes = [
       { nome: "Oferenda Reliquial", level: 1, desc: "<p>Troca uma magia memorizada por <em>Causar Ferimentos</em> (1º círculo), causando 1d8 de dano mágico por toque. Mortos-vivos são curados por esse efeito, incluindo o próprio Relicário.</p>", level6: "<p>Pode usar <em>Causar Ferimentos</em> de 3º círculo: até 2d8 de dano.</p>", level10: "<p>Pode usar <em>Causar Ferimentos</em> de 5º círculo: até 3d8 de dano.</p>" },
       { nome: "Erguer os Consagrados", level: 1, usos_dia: 1, desc: "<p>Anima cadáveres como servos temporários (ritual de 1 turno por corpo): Esqueletos (1 DV) ou Zumbis (2 DV). Duração de 1 hora por nível; total máximo de DV igual ao modificador de Sabedoria. Uma vez por dia. Ao fim da duração, os servos viram pó.</p>" },
       { nome: "Veredicto do Relicário", level: 10, usos_dia: 1, desc: "<p>Uma quantidade de vezes por dia igual ao seu <strong>modificador de Sabedoria (mínimo 1)</strong>, aponta para uma criatura a até 9 metros e pronuncia a sentença final. A criatura faz Jogada de Proteção de Constituição (JPC) contra Morte com Ajuste Difícil (−2). Falha: criaturas vivas sofrem 3d8 de dano mágico e mortos-vivos são instantaneamente destruídos (reduzidos a pó). Sucesso: metade do dano ou evita a destruição.</p>" + AJUSTE_USOS("Sabedoria") },
-      { nome: "Reputação (Infâmia)", level: 11, desc: "<p>Torna-se figura amplamente temida: obtém Infâmia 1 em 1d6, aumentando +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
+      { nome: "Reputação — Infâmia", level: 11, desc: "<p>Torna-se figura amplamente temida: obtém Infâmia 1 em 1d6, aumentando +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
   {
