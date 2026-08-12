@@ -74,7 +74,7 @@
       ],
       "drawn": false,
       "_id": "v1j24IKMtVZOMIAT",
-      "text": "Mercador de ônix com a carga saqueada paga bem por escolta até a cidade de Ônix. — <em>Gancho</em>",
+      "text": "Mercador de ônix com a carga saqueada paga bem por escolta até Nihilvale. — <em>Gancho</em>",
       "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
@@ -201,7 +201,7 @@
     "exportSource": null
   },
   "formula": "1d12",
-  "sort": 500000,
+  "sort": 800000,
   "ownership": {
     "default": 0
   },

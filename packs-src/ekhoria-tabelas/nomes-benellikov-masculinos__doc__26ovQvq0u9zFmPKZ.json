@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Benellikov (Masculinos)",
+  "_id": "26ovQvq0u9zFmPKZ",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Benellikov — italiano industrial em cima, alcunha de rua embaixo. <em>Ecoam Massimo Benelli, Karthus Malvaggio, Mulven Fattoreto — e, na poeira, Tavo Ossos-Secos.</em></p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "u3eeBmWMBanLyY27",
+      "text": "Massimo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.u3eeBmWMBanLyY27"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "A7l7Rzjqnh6nQlAY",
+      "text": "Karthus",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.A7l7Rzjqnh6nQlAY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "LphRnAHvQmC6cugE",
+      "text": "Mulven",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.LphRnAHvQmC6cugE"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Q4gkKgthGRgNGhli",
+      "text": "Tavo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.Q4gkKgthGRgNGhli"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "EvXXHeIgiOSbTAYP",
+      "text": "Enzo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.EvXXHeIgiOSbTAYP"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "TklEStIxP0XSImLI",
+      "text": "Duilio",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!26ovQvq0u9zFmPKZ.TklEStIxP0XSImLI"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!26ovQvq0u9zFmPKZ"
+}

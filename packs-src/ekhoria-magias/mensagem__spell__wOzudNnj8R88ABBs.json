@@ -1,0 +1,39 @@
+{
+  "folder": "3Eui4A5ICcpmLTrc",
+  "name": "Mensagem",
+  "type": "spell",
+  "_id": "wOzudNnj8R88ABBs",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "mensagem",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "5 rodadas/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Vociferante de Arcanita.</strong> Sussurra a até 10 m + 3 m/nível e é ouvido apenas por quem escolheu — uma criatura por nível, além de si. As respostas voltam pelo mesmo caminho. Em Arkádia, metade das negociações da Ars Vocalis acontece assim, na mesma sala em que a outra metade acontece em voz alta.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!wOzudNnj8R88ABBs"
+}

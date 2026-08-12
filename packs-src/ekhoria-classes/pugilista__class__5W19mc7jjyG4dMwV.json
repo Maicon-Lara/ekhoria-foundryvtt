@@ -6,7 +6,7 @@
   "img": "modules/ekhoria/assets/icones/pugilista.webp",
   "system": {
     "flavor": "<p>A Arma Viva da Resistência Inquebrável. Especialização de Guerreiro.</p>",
-    "description": "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe uma das Três Escolas — Mãos de Ferro (Benellikov), Dança do Vento (Yorugan) ou Punhos do Vale (Vale da Águia) — que muda o estilo e os códigos, mas não as habilidades mecânicas. Perde Aparar, mantém Maestria em Arma.</p>",
+    "description": "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe no 1º nível uma das Três Escolas, que define estilo, código e uma vantagem própria: <strong>Mãos de Ferro</strong> (Benellikov) dá +1 no dano desarmado; <strong>Dança do Vento</strong> (Yorugan) dá +1 na CA enquanto o Jogo de Perna estiver ativo; <strong>Punhos do Vale</strong> (Vale da Águia) dá +1 na chance de nocaute, somando ao valor do Nocauteador. Perde Aparar, mantém Maestria em Arma, sem progressões adicionais.</p>",
     "hp": 10,
     "high_level_hp_bonus": 2,
     "equipment_restrictions": {
@@ -96,7 +96,7 @@
     },
     "class_abilities": [
       "Compendium.ekhoria.ekhoria-classes.Item.OvGSa9qqeKwKFXnS",
-      "Compendium.ekhoria.ekhoria-classes.Item.ruM6BlOpELqbWC7u",
+      "Compendium.ekhoria.ekhoria-classes.Item.ecoTARj69fPH3aY8",
       "Compendium.ekhoria.ekhoria-classes.Item.uwKELFTdGSFOWsLq",
       "Compendium.ekhoria.ekhoria-classes.Item.DPEDZl7b65tNYHMi",
       "Compendium.ekhoria.ekhoria-classes.Item.Ize8jTAvT0Mv0YVv",

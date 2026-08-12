@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "odo_id": "centelha-solar",
-    "description": "Forjado pela Guilda dos Ferreiros de Benellikov. Em armaduras: +1 em todas as JP contra medo, paralisia ou necromancia. Em armas: no primeiro ataque bem-sucedido de cada combate, +1d6 de dano de fogo. Custo: ×6 o valor base.",
+    "description": "Forjado pela Guilda dos Ferreiros de Benellikov. Em armas: +1d6 de fogo no 1º acerto de cada combate (com Estouro), dobrado contra criaturas vulneráveis a fogo. Em armaduras: emite luz constante; +1 em JP contra medo, paralisia e necromancia.\nO que custa — a luz não apaga. Nunca. Furtividade é impossível vestindo uma, e sacar a arma no escuro anuncia sua posição a tudo que estiver olhando. O cristal é mais valioso justamente onde essa desvantagem dói mais.\nPreço: ×6 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

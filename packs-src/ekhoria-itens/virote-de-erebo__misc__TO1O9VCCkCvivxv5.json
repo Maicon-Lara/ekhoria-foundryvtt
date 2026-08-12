@@ -6,9 +6,9 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-erebo",
-    "description": "Efeito: o alvo faz conjurações com ajuste Difícil (−2) por 1d4 rodadas.",
+    "description": "A conjuração do alvo fica Difícil (−2) por 1d4 rodadas.",
     "quantity": 1,
-    "cost": "50 PO",
+    "cost": "110 PO",
     "weight_in_load": 0,
     "weight_in_grams": 0,
     "magic_item": false,

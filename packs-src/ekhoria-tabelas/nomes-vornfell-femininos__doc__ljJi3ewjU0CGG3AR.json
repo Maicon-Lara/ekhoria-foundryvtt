@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Vornfell (Femininos)",
+  "_id": "ljJi3ewjU0CGG3AR",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Vornfell — nórdico duro, epíteto do que você faz pelo grupo.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "JXG95SZBJmhVKm5E",
+      "text": "Ingra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.JXG95SZBJmhVKm5E"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "XEnaqxnQAYtEoPvW",
+      "text": "Sigrun",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.XEnaqxnQAYtEoPvW"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "vvjJfeqKhFvClJCX",
+      "text": "Astrid",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.vvjJfeqKhFvClJCX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "3rwWbN8xEOwiGJm4",
+      "text": "Runa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.3rwWbN8xEOwiGJm4"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "dF1BBEe9YBaT52Cs",
+      "text": "Hedda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.dF1BBEe9YBaT52Cs"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "hhMsqZPdAg51nUb5",
+      "text": "Vigda",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ljJi3ewjU0CGG3AR.hhMsqZPdAg51nUb5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ljJi3ewjU0CGG3AR"
+}

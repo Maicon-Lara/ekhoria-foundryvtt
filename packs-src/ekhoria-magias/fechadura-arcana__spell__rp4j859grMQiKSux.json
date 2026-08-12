@@ -1,0 +1,39 @@
+{
+  "folder": "mMiZW8Gm3UdC6KQ9",
+  "name": "Fechadura Arcana",
+  "type": "spell",
+  "_id": "rp4j859grMQiKSux",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "fechadura-arcana",
+    "school": "arcane",
+    "circle": "2",
+    "arcane": "2",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "<p><strong>Guardião da Centelha.</strong> Sela permanentemente uma porta, portão ou alçapão. Em Durgrann, o cofre de clã que se abre por procedimento e não por chave é sinal de status — e a Ordem cobra caro para instalar um.</p><p><em>Aprendida no 3º nível.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rp4j859grMQiKSux"
+}

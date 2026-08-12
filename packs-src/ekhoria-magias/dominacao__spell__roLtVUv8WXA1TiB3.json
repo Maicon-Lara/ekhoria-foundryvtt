@@ -1,0 +1,39 @@
+{
+  "folder": "NGrQ2uFXpRRdC8jd",
+  "name": "Dominação",
+  "type": "spell",
+  "_id": "roLtVUv8WXA1TiB3",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "dominacao",
+    "school": "arcane",
+    "circle": "5",
+    "arcane": "5",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "10 metros/nível",
+    "duration": "especial",
+    "jp": "JPS nega, com −2",
+    "description": "<p><strong>Vociferante de Arcanita.</strong> Estabelece um elo telepático e controla as ações do alvo até que a própria Inteligência dele rompa o vínculo. Elfos e meio-elfos resistem como a qualquer Feitiço. É o ponto onde a classe cumpre a promessa do nome — e onde um Vociferante descobre o que faz com ela.</p><p><em>Aprendida no 10º nível.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!roLtVUv8WXA1TiB3"
+}

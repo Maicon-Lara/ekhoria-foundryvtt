@@ -282,6 +282,10 @@ export const racas = [
         desc: "<p>Uma vez por dia, conjuram uma magia de 1º círculo, definida aleatoriamente no nascimento ou escolhida pelo Mestre.</p>",
         daily_uses: 1,
       },
+      {
+        nome: "Cristal à Vista (desvantagem)",
+        desc: "<p>Sempre detectável como criatura mágica; nenhum disfarce mundano o esconde. <strong>Reação Difícil (−2)</strong> em Triarcis, Vornfell e no interior do Vale; <strong>Fácil (+2)</strong> em Arkádia.</p>",
+      },
     ],
   },
   {

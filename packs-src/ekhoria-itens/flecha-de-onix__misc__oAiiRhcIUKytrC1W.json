@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "flecha-de-onix",
-    "description": "Ataque Fácil (+2) nas sombras. +1d4 de dano mágico; realiza crítico com 19–20.",
+    "description": "Ataque Fácil (+2) nas sombras ou pelas costas; realiza crítico com 19–20.",
     "quantity": 1,
     "cost": "40 PO",
     "weight_in_load": 0,

@@ -51,11 +51,24 @@ const norm = (s) =>
     .replace(/\([^)]*\)/g, " ")          // "Ecdise (desvantagem)" == "Ecdise"
     .replace(/[^a-z0-9]+/g, " ").trim();
 
+// Em NOME DE CRIATURA o parêntese é identidade, não qualificador: o cofre tem
+// quatro Silentes Ancorados que só diferem por ele. Com o norm() de cima os
+// quatro viravam a mesma chave, e o Arqueiro era comparado contra o Sargento —
+// onze "erros" que não existiam.
+const normNome = (s) =>
+  String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ").trim();
+
 const semHtml = (s) => String(s ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+
+// O cofre grava CRLF. Normalizar na leitura, e não em cada regex, porque o
+// esquecimento é silencioso: /```od2-monstro\n/ não casava nada, e o bestiário
+// passou a reportar "0 erros" sem nunca ter comparado uma ficha sequer.
+const semCR = (s) => s.replace(/\r\n?/g, "\n");
 
 const leCofre = (rel) => {
   const p = path.join(COFRE, rel);
-  return fs.existsSync(p) ? fs.readFileSync(p, "utf8") : null;
+  return fs.existsSync(p) ? semCR(fs.readFileSync(p, "utf8")) : null;
 };
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -189,6 +202,13 @@ function secao(texto, titulo) {
   return fim === -1 ? resto : resto.slice(0, fim);
 }
 
+// Habilidades que o módulo dá a toda classe e o livro documenta UMA vez, num
+// capítulo próprio ("Reputação no Estágio de Legado": *vale para todas as
+// classes deste capítulo, e por isso não se repete em cada uma*). Sem esta
+// lista são dezesseis avisos idênticos, e dezesseis avisos que nunca são nada
+// treinam a pessoa a ignorar a seção inteira.
+const FORA_DA_SECAO = new Set(["reputacao"]);
+
 function validaClasses() {
   const AREA = "classes";
   const livro = leCofre("Ekhoria_Livro_Mecanicas/03_classes.md");
@@ -229,6 +249,7 @@ function validaClasses() {
     }
     const nomesLivro = new Set(noLivro.map((h) => norm(h.nome)));
     for (const h of cls.habilidades || []) {
+      if (FORA_DA_SECAO.has(norm(h.nome))) continue;
       if (!nomesLivro.has(norm(h.nome))) {
         aviso(AREA, `${cls.nome} › "${h.nome}": está no módulo e não achei no livro.`);
       }
@@ -291,21 +312,21 @@ function validaBestiario() {
 
   const doCofre = new Map();
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".md"))) {
-    const txt = fs.readFileSync(path.join(dir, f), "utf8");
+    const txt = semCR(fs.readFileSync(path.join(dir, f), "utf8"));
     for (const bloco of txt.matchAll(/```od2-monstro\n([\s\S]*?)```/g)) {
       const campos = {};
       for (const linha of bloco[1].split("\n")) {
         const m = linha.match(/^([a-z_]+):\s*(.+?)\s*$/);
         if (m) campos[m[1]] = m[2].replace(/^["']|["']$/g, "");
       }
-      if (campos.nome) doCofre.set(norm(campos.nome), campos);
+      if (campos.nome) doCofre.set(normNome(campos.nome), campos);
     }
   }
 
   let comparados = 0;
   for (const grupo of gruposBestiario) {
     for (const m of grupo.monstros || []) {
-      const fonte = doCofre.get(norm(m.nome));
+      const fonte = doCofre.get(normNome(m.nome));
       if (!fonte) continue;
       comparados++;
       for (const c of ["dv", "pv", "ca", "jp", "moral", "xp"]) {
@@ -317,8 +338,11 @@ function validaBestiario() {
       if (fonte.movimento !== undefined && mv(fonte.movimento) !== mv(m.movimento)) {
         erro(AREA, `${m.nome} › movimento: cofre ${JSON.stringify(fonte.movimento)} chega como ${mv(fonte.movimento)}, módulo ${JSON.stringify(m.movimento)} chega como ${mv(m.movimento)}.`);
       }
-      const hc = new Set((fonte.habilidades ? [] : []).map(norm)); // habilidades ficam em YAML aninhado
-      void hc;
+      // Habilidade não se compara aqui: quem faz isso é o
+      // sincronizar-bestiario.mjs, que sabe ler a lista aninhada do YAML e as
+      // duas formas em que o módulo escreve a dele. O que havia neste lugar era
+      // um Set construído a partir de um ternário com os dois ramos vazios —
+      // sempre vazio, e portanto sempre em silêncio.
     }
   }
   if (!comparados) aviso(AREA, "nenhuma ficha do cofre casou por nome com o bestiário do módulo.");
@@ -330,6 +354,11 @@ const RENOMEADOS = [
   ["Eco Antimágico", "Silêncio Arcano"],
   ["Marcas do Cambion", "Estigmas do Cambion"],
   ["Arkanita", "Arcanita"],
+  ["Filha da Contenção que Falha", "Feita de Escuro"],
+  ["Talentos de Caçador", "Talentos de Voraz"],
+  ["Firmeza do Caçador", "Firmeza do Voraz"],
+  ["Caçada Implacável", "Perseguição Implacável"],
+  ["Bom de Briga", "Punhos como Arma"],
 ];
 
 function validaTermosAntigos() {

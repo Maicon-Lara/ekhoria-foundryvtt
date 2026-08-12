@@ -1,0 +1,50 @@
+{
+  "folder": "8inOyEudBcFpAyXR",
+  "name": "Magias Exclusivas",
+  "type": "class_ability",
+  "_id": "lj3BvIM8xcFgeVWm",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "description": "<p>Escreve no grimório <em>Globos de Luz</em> e <em>Consertar</em> (1º círculo), exclusivas de Guardião da Centelha. Magias exclusivas <strong>não precisam ser memorizadas</strong>, podem ser conjuradas <strong>1×/dia cada, além das magias diárias</strong>, e a JP contra elas é sempre um <strong>teste difícil</strong>; usos adicionais consomem um espaço de magia memorizada.</p><p>Aprende <em>Fechadura Arcana</em> (2º círculo) no 3º nível, <em>Runas Explosivas</em> (3º) no 6º, e <em>Muralha de Ferro</em> (5º) no 10º.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "",
+    "level10": "",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 5
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lj3BvIM8xcFgeVWm"
+}

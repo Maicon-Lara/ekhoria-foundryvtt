@@ -1,0 +1,164 @@
+{
+  "folder": null,
+  "name": "Breu — Consequências: Ruína (2ª falha em diante)",
+  "_id": "BWuUPzDmc96LA4LD",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Falha de quem <strong>já carrega uma Marca</strong>. O que sai daqui não volta.</p><p><em>Por que duas colunas:</em> o Breu deveria piorar, e uma tabela plana não piora — nela, a primeira lanterna que apaga pode custar um olho, e a vigésima pode dar um poder. Com as faixas, o custo alto só chega a quem já sabia do risco e voltou assim mesmo. É a diferença entre azar e escolha.</p><p><em>Sobre agência:</em> só um resultado em vinte tira o personagem das mãos do jogador — <strong>Possessão Parcial</strong>, e apenas aqui.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "R6iLF0cvyMUcrJCp",
+      "text": "<strong>Definhamento</strong> — role 1d6 para o atributo; −1 permanente. Se chegar a 0, morre.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.R6iLF0cvyMUcrJCp"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "MUKwZnPxc4FqBohy",
+      "text": "<strong>Perda de Sentido</strong> — permanente: 1. Visão 2. Audição 3. Olfato 4. Tato 5. Paladar 6. uma magia específica.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.MUKwZnPxc4FqBohy"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "_id": "Yf4zknUTRVj6Q2Ef",
+      "text": "<strong>Toque do Vazio</strong> — cai a 0 PV. Se estabilizado: <strong>Cicatriz de Sombras</strong> (membro negro e frio), −1 CAR permanente, e sente o Breu a 30 m.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.Yf4zknUTRVj6Q2Ef"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "_id": "qMrdPua8jl7NEWQm",
+      "text": "<strong>Mutação do Breu</strong> — alteração física permanente: −1 num atributo, +2 em furtividade e em testes de Medo.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.qMrdPua8jl7NEWQm"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        13
+      ],
+      "drawn": false,
+      "_id": "kqFrBH2G5cCHdGwm",
+      "text": "<strong>Desvanecimento</strong> — NPCs o esquecem segundos depois; sem cura mágica por 1d6 dias.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.kqFrBH2G5cCHdGwm"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "_id": "UNEPB38VUAFuxQXc",
+      "text": "<strong>Marca do Breu</strong> — criaturas do Breu sentem seu rastro: +20% em Encontros Aleatórios.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.UNEPB38VUAFuxQXc"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "_id": "dXNyKqP89jHLtCwU",
+      "text": "<strong>Sono do Sonhar</strong> — coma místico por 1d6 dias; só desperta com <em>Remover Maldição</em>.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.dXNyKqP89jHLtCwU"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        18,
+        19
+      ],
+      "drawn": false,
+      "_id": "Kn3Z18z9Bl4WQKtl",
+      "text": "<strong>Amnésia</strong> — esquece missão, história e os nomes dos aliados (a memória muscular fica).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.Kn3Z18z9Bl4WQKtl"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "IXwU9511WYHihNhq",
+      "text": "<strong>Possessão Parcial</strong> — 1×/dia o Mestre força uma ação, sem direito a teste.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BWuUPzDmc96LA4LD.IXwU9511WYHihNhq"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!BWuUPzDmc96LA4LD"
+}

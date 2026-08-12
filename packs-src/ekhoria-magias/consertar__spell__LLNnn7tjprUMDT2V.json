@@ -1,0 +1,39 @@
+{
+  "folder": "3Eui4A5ICcpmLTrc",
+  "name": "Consertar",
+  "type": "spell",
+  "_id": "LLNnn7tjprUMDT2V",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "consertar",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "30 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "<p><strong>Guardião da Centelha.</strong> Repara uma rachadura: solda um elo de corrente, um anel, uma lâmina; recompõe madeira ou cerâmica quebrada como se nunca tivesse partido; fecha um furo em odre ou bolsa. Não conserta item mágico de espécie alguma — e todo Guardião tem uma opinião sobre isso.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LLNnn7tjprUMDT2V"
+}

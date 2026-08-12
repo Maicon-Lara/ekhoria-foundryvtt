@@ -1,0 +1,39 @@
+{
+  "folder": "gZr7ADXTQ38koILR",
+  "name": "Piscar",
+  "type": "spell",
+  "_id": "hco19f4kRCt6bXxJ",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "piscar",
+    "school": "arcane",
+    "circle": "3",
+    "arcane": "3",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Astromante.</strong> O corpo do Astromante pisca de um ponto a outro em intervalos que ele não escolhe, reaparecendo a três metros da posição anterior. A cada rodada ele rola <strong>2d8 no lugar da própria iniciativa</strong>, e todo ataque que a iniciativa colocar <em>depois</em> da piscada <strong>falha automaticamente</strong>.</p><p>É a única exclusiva do Astromante que age sobre o corpo: ele não fica mais difícil de acertar — fica em outro instante. O custo é a perda de controle sobre a própria iniciativa.</p><p><em>Aprendida no 6º nível.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!hco19f4kRCt6bXxJ"
+}

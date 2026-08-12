@@ -1,0 +1,164 @@
+{
+  "folder": null,
+  "name": "Breu — Consequências: Marca (1ª falha)",
+  "_id": "BXKW8Bv5gK3eK2ok",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>A <strong>primeira</strong> falha de um personagem. Assusta, atrapalha, passa — tudo aqui é reversível.</p><p>Depois de sofrer qualquer Consequência, o personagem fica <strong>imune por 24 horas</strong>: é o que impede um grupo azarado de colecionar Ruínas numa noite só.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "VxCCxqKZm0wbsVAY",
+      "text": "<strong>Enfraquecimento</strong> — Difícil (−2) em todas as jogadas por 1d6 dias.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.VxCCxqKZm0wbsVAY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "4F9hhFQERdCh2GC1",
+      "text": "<strong>Falsa Luz</strong> — alucinações luminosas; percepção Difícil (−2) por 1d6 dias.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.4F9hhFQERdCh2GC1"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "_id": "mOI9Qi4w6QEMnT8n",
+      "text": "<strong>Catatonia</strong> — incapaz de agir, falar ou reagir por 1d6 horas.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.mOI9Qi4w6QEMnT8n"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "_id": "RkxeAkP5aBb79r5H",
+      "text": "<strong>Vazamento Mental</strong> — aliados a 10 m não recuperam PV nem magia no descanso.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.RkxeAkP5aBb79r5H"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        13
+      ],
+      "drawn": false,
+      "_id": "LTMP1kSh0gno5ovX",
+      "text": "<strong>Manifestação</strong> — uma Sombra surge e caça <em>só</em> quem a gerou.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.LTMP1kSh0gno5ovX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "_id": "SIkb9xqtKFp6kKUQ",
+      "text": "<strong>Deslocamento</strong> — acorda a até 1 km dali, em lugar pior.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.SIkb9xqtKFp6kKUQ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "_id": "o2ah7uEGUVtrJCml",
+      "text": "<strong>Voz Invisível</strong> — uma entidade sussurra conselhos úteis e perigosos (o Mestre passa em segredo).",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.o2ah7uEGUVtrJCml"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        18,
+        19
+      ],
+      "drawn": false,
+      "_id": "M6JqFG5zLOKDr2aS",
+      "text": "<strong>Compulsão</strong> — apagar luzes, por 1d6 dias. <em>O jogador interpreta</em>; o Mestre não assume o personagem.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.M6JqFG5zLOKDr2aS"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "7uaW7B6otWy1g302",
+      "text": "<strong>Iluminado</strong> — Visão no Escuro 18 m, e 1d6 de dano por Turno sob sol ou luz intensa.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!BXKW8Bv5gK3eK2ok.7uaW7B6otWy1g302"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!BXKW8Bv5gK3eK2ok"
+}

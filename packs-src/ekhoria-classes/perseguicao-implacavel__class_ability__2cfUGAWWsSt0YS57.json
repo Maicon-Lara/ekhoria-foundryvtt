@@ -1,15 +1,15 @@
 {
-  "folder": "N42isdSQQO4yzSIL",
-  "name": "Bom de Briga",
+  "folder": "WhZxLtkBfBRh2AUX",
+  "name": "Perseguição Implacável",
   "type": "class_ability",
-  "_id": "ruM6BlOpELqbWC7u",
-  "img": "systems/olddragon2e/assets/icons/unarmed.svg",
+  "_id": "2cfUGAWWsSt0YS57",
+  "img": "systems/olddragon2e/assets/icons/kit.svg",
   "system": {
-    "description": "<p>Ao lutar desarmado, não sofre penalidade de Ataque Difícil nem concede Ataque Fácil a inimigos armados. <strong>Dano Letal:</strong> pode optar por causar dano letal (impactante) de 1d2 + modificador de Força, em vez de apenas tentativas de nocaute.</p>",
-    "level": 1,
-    "level3": "<p>O dano desarmado letal sobe para 1d4 + modificador de Força.</p>",
+    "description": "<p><strong>Imunidade:</strong> torna-se imune a efeitos de Medo. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>",
+    "level": 10,
+    "level3": "",
     "level6": "",
-    "level10": "<p>O dano desarmado letal atinge o ápice de 1d6 + modificador de Força.</p>",
+    "level10": "",
     "rogue_talents": [],
     "daily_uses": {
       "1": 0,
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 200000,
+  "sort": 900000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!ruM6BlOpELqbWC7u"
+  "_key": "!items!2cfUGAWWsSt0YS57"
 }

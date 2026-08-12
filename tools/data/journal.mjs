@@ -112,7 +112,7 @@ const paginas = [
 <tbody>
 <tr><td>Saco de Esporos</td><td>25 PO</td><td>50 PO</td><td>Normal</td><td>1 semana</td></tr>
 <tr><td>Cogumelo de Combate</td><td>50 PO</td><td>100 PO</td><td>Normal</td><td>1 semana</td></tr>
-<tr><td>Albinus / Mandra Pura</td><td>250 PO</td><td>500 PO</td><td>Difícil (−5)</td><td>2 semanas</td></tr>
+<tr><td>Albinus / Mandra Pura</td><td>250 PO</td><td>500 PO</td><td>Muito Difícil (−5)</td><td>2 semanas</td></tr>
 </tbody>
 </table>
 <p><em>Além do preço: ignora o teste de vício de uma dose por dia, recebe +3 nos testes de vício e veneno, combina duas substâncias ao mesmo tempo (Coquetel Marcial, do 3º nível) e é imune a gases e esporos.</em></p>

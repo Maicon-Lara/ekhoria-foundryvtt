@@ -1,0 +1,39 @@
+{
+  "folder": "mMiZW8Gm3UdC6KQ9",
+  "name": "Percepção Extrassensorial",
+  "type": "spell",
+  "_id": "kRpKuBGfFideAzwY",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "percepcao-extrassensorial",
+    "school": "arcane",
+    "circle": "2",
+    "arcane": "2",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "5 metros/nível",
+    "duration": "1 rodada/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Astromante.</strong> Lê os pensamentos superficiais de uma criatura por rodada (mortos-vivos não). Meio metro de pedra, cinco centímetros de metal ou qualquer folha de chumbo bloqueiam. Criaturas irracionais entregam o instinto do momento, e às vezes é a informação mais útil da sala.</p><p><em>Aprendida no 3º nível.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kRpKuBGfFideAzwY"
+}

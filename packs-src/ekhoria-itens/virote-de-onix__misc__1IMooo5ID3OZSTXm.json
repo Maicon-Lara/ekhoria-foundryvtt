@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-onix",
-    "description": "+1d6 de dano mágico; cura 1d4 PV do atirador. Contra mortos-vivos: causa Exaustão.",
+    "description": "+1d6 contra mortos-vivos, que também sofrem Exaustão — devora a energia que os anima.",
     "quantity": 1,
     "cost": "50 PO",
     "weight_in_load": 0,

@@ -18,6 +18,14 @@ const EQUIP_GUERREIRO_MAGIC = "Não pode usar cajados, varinhas ou pergaminhos m
 const AJUSTE_USOS = (attr) =>
   `<p><em>Na ficha:</em> o marcador de usos diários vem com <strong>1</strong>, o mínimo da regra. Ajuste para o seu modificador de ${attr} na aba <strong>Mecânicas</strong> da habilidade.</p>`;
 
+// As três especializações arcanas de 6º círculo recebem Magias Exclusivas, e o
+// texto da regra é o mesmo nas três — só mudam os nomes das magias. Escrever a
+// regra uma vez evita o que já aconteceu com a Reputação: a mesma frase copiada
+// em N lugares, e a correção aplicada em N-1.
+const MAGIAS_EXCLUSIVAS = (classe, primeiro, terceiro, sexto, decimo) =>
+  `<p>Escreve no grimório ${primeiro} (1º círculo), exclusivas de ${classe}. Magias exclusivas <strong>não precisam ser memorizadas</strong>, podem ser conjuradas <strong>1×/dia cada, além das magias diárias</strong>, e a JP contra elas é sempre um <strong>teste difícil</strong>; usos adicionais consomem um espaço de magia memorizada.</p>` +
+  `<p>Aprende ${terceiro} (2º círculo) no 3º nível, ${sexto} (3º) no 6º, e ${decimo} (5º) no 10º.</p>`;
+
 // Pontos de talento: o sistema calcula 2 + modificador de DESTREZA, fixo. Três
 // classes de Ekhoria usam o maior entre Destreza e outro atributo. Isso o
 // ekhoria.js corrige em tempo de execução (mesma lógica que o OD2 já usa na
@@ -91,6 +99,7 @@ export const classes = [
     habilidades: [
       { nome: "Maestria em Arma", level: 1, desc: "<p>+1 no dano com uma arma à sua escolha.</p>" },
       { nome: "Conhecimento Químico e Filtros", level: 1, usos_dia: 1, desc: "<p>Domina substâncias químicas e a sobrevivência em ambientes tóxicos. <strong>Máscara de Nurillion:</strong> enquanto a usa, fica imune aos efeitos de Sacos de Esporos e a gases naturais tóxicos. <strong>Uso Seguro:</strong> consome Extrato de Mandra Diluído recuperando 1d4 PV, um número de vezes por dia igual ao modificador de Constituição (mínimo 1), sem risco de vício. <strong>Uso Extra:</strong> além desse limite, a cura é reduzida à metade e o Mestre faz o teste de vício.</p>" + AJUSTE_USOS("Constituição") },
+      { nome: "Receitas de Combate", level: 1, usos_dia: { 1: 1, 6: 2, 10: 3 }, desc: "<p>Qualquer um pode beber uma dose — o Narcoguerreiro é quem <strong>conhece a receita</strong>. Com <strong>1 turno (10 min)</strong> e matéria-prima da região (os Fungos do Degelo em Vornfell, os fungos do deserto nas Areias, o que o lugar oferecer), prepara doses das drogas que conhece: <strong>1 por dia</strong>, subindo para <strong>2 no 6º nível</strong> e <strong>3 no 10º</strong>. Doses caseiras se degradam em 1d6+2 dias.</p><p>Isso não substitui o mercado negro para as raridades — <strong>Albinus</strong> exige sangue de troll das profundezas, e nenhuma receita contorna isso.</p>", level6: "<p>Prepara 2 doses por dia.</p>", level10: "<p>Prepara 3 doses por dia.</p>" },
       { nome: "Coquetel Marcial", level: 3, desc: "<p>Consome dois Fungos do Degelo diferentes simultaneamente. O risco de vício da dose combinada aumenta em +1, e a duração de qualquer exaustão ou penalidade pós-efeito dos fungos é dobrada.</p>" },
       { nome: "Metabolismo Acelerado", level: 6, usos_dia: 1, desc: "<p><strong>Resiliência:</strong> +1 permanente em JPC, e +2 contra venenos. <strong>Maestria em Dosagem:</strong> uma vez por dia consome uma <strong>única</strong> substância sem teste de vício — esse benefício <strong>não se aplica a Coquetéis</strong> (doses combinadas sempre exigem teste). <strong>Supressão de Dor (Nargula):</strong> ignora penalidades de movimento por ferimentos, fadiga, fome ou frio por 2d6+6 horas.</p>", jp: { jpc: true } },
       { nome: "Tolerância de Elite", level: 10, desc: "<p>O personagem atinge o ápice da resistência química. Ao consumir a substância <strong>Albinus</strong>, ativa uma <strong>Efervescência Solar:</strong> recupera 1d4 PV por rodada durante um número de rodadas igual a 1d4 + modificador de Constituição. <strong>Vapor de Proteção:</strong> enquanto a regeneração estiver ativa, emite um vapor protetor que concede +2 na CA. Essa regeneração não cura dano de fogo ou ácido.</p>" },
@@ -104,7 +113,7 @@ export const classes = [
     high_level_hp_bonus: 2,
     flavor: "<p>A Arma Viva da Resistência Inquebrável. Especialização de Guerreiro.</p>",
     descricao:
-      "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe uma das Três Escolas — Mãos de Ferro (Benellikov), Dança do Vento (Yorugan) ou Punhos do Vale (Vale da Águia) — que muda o estilo e os códigos, mas não as habilidades mecânicas. Perde Aparar, mantém Maestria em Arma.</p>",
+      "<p>O Pugilista transforma o próprio corpo em arma com o calo das mãos, a velocidade dos pés e um espírito que aprendeu a não quebrar. Escolhe no 1º nível uma das Três Escolas, que define estilo, código e uma vantagem própria: <strong>Mãos de Ferro</strong> (Benellikov) dá +1 no dano desarmado; <strong>Dança do Vento</strong> (Yorugan) dá +1 na CA enquanto o Jogo de Perna estiver ativo; <strong>Punhos do Vale</strong> (Vale da Águia) dá +1 na chance de nocaute, somando ao valor do Nocauteador. Perde Aparar, mantém Maestria em Arma, sem progressões adicionais.</p>",
     equipment_restrictions: {
       weapons: "Pode usar armas pequenas e médias. Armas grandes impõem Ataque Difícil.",
       armors: "Pode usar apenas armaduras leves.",
@@ -113,9 +122,9 @@ export const classes = [
     levels: progressao("guerreiro_esp"),
     habilidades: [
       { nome: "Maestria em Arma", level: 1, desc: "<p>Torna-se Mestre em uma arma à sua escolha, recebendo +1 no dano com ela.</p>" },
-      { nome: "Bom de Briga", level: 1, desc: "<p>Ao lutar desarmado, não sofre penalidade de Ataque Difícil nem concede Ataque Fácil a inimigos armados. <strong>Dano Letal:</strong> pode optar por causar dano letal (impactante) de 1d2 + modificador de Força, em vez de apenas tentativas de nocaute.</p>", level3: "<p>O dano desarmado letal sobe para 1d4 + modificador de Força.</p>", level10: "<p>O dano desarmado letal atinge o ápice de 1d6 + modificador de Força.</p>" },
+      { nome: "Punhos como Arma", level: 1, desc: "<p>As mãos contam como uma arma. Não sofre as penalidades normais do combate desarmado e não concede <strong>Ajuste Fácil (+2)</strong> a inimigos armados. A cada ataque, opta entre <strong>nocautear</strong> (regras normais) ou causar <strong>Dano Letal impactante</strong> de 1d4 + modificador de Força. Soqueiras, manoplas e afins não somam a esse dado — apenas permitem que o golpe conte como arma para efeitos que exijam uma.</p>", level3: "<p>O dano desarmado letal sobe para 1d6 + modificador de Força.</p>", level6: "<p>O dano desarmado letal sobe para 1d8 + modificador de Força.</p>" },
       { nome: "Jogo de Perna e Manobras", level: 3, desc: "<p><strong>Jogo de Perna:</strong> se realizar uma ação de movimento no turno, todos os ataques contra ele são Difíceis até o início da próxima rodada. <strong>Mestre de Chão:</strong> manobras para imobilizar, derrubar ou desarmar são Ações Fáceis.</p>" },
-      { nome: "Calejado", level: 6, desc: "<p><strong>Resiliência:</strong> recebe +1 Ponto de Vida permanente (uma única vez, adicionado ao seu total); testes para resistir a Medo tornam-se Fáceis (+2). <strong>Queixo de Aço:</strong> a chance de nocauteá-lo é reduzida em 1 (mínimo 1 em 1d6). <strong>Nocauteador:</strong> sua chance de nocaute aumenta para 1 + modificador de Força em 1d6.</p>" },
+      { nome: "Calejado", level: 6, desc: "<p><strong>Resiliência:</strong> recebe +1 Ponto de Vida <strong>por nível</strong>, retroativo ao 1º; Jogadas de Proteção contra Medo tornam-se Fáceis (+2). <strong>Queixo de Aço:</strong> a chance de nocauteá-lo é reduzida em 1 (mínimo 1 em 1d6). <strong>Nocauteador:</strong> sua chance de nocaute aumenta para 1 + modificador de Força em 1d6.</p>" },
       { nome: "Ataque Rápido", level: 10, desc: "<p>Recebe um ataque extra por rodada, desde que ambos os ataques sejam desarmados ou realizados com soqueiras.</p>" },
       { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
@@ -159,6 +168,9 @@ export const classes = [
     },
     levels: progressao("mago_esp"),
     habilidades: [
+      // Uma caixa por magia exclusiva, não uma pela habilidade: cada uma é
+      // 1×/dia por conta própria, e o total sobe quando chega a seguinte.
+      { nome: "Magias Exclusivas", level: 1, usos_dia: { 1: 2, 3: 3, 6: 4, 10: 5 }, desc: MAGIAS_EXCLUSIVAS("Guardião da Centelha", "<em>Globos de Luz</em> e <em>Consertar</em>", "<em>Fechadura Arcana</em>", "<em>Runas Explosivas</em>", "<em>Muralha de Ferro</em>") },
       { nome: "Portador da Centelha", level: 1, desc: "<p>Recebe 1 Cristal de Centelha, anexado a um objeto manufaturado à escolha, concedendo um benefício técnico: <strong>Arma</strong> (+1 na BA e +1 no dano), <strong>Joia</strong> (+1 magia memorizada, do círculo mais alto disponível) ou <strong>Vestimenta</strong> (+1 na CA). Se perder o Cristal, perde as habilidades exclusivas da especialização (mantendo conjuração, Ler Magias e Detectar Magias); requisitar um novo leva 1d4 semanas de canalização.</p>" },
       { nome: "Domínio da Centelha", level: 3, usos_dia: 1, desc: "<p>Enquanto estiver de posse do Cristal, conjura automaticamente, sem memorização prévia, uma das magias <em>Mãos Flamejantes</em>, <em>Luz</em> ou <em>Escudo Arcano</em>, um número de vezes por dia igual ao seu <strong>modificador de Inteligência</strong> (mínimo 1).</p>" + AJUSTE_USOS("Inteligência") },
       { nome: "Sincronia Técnica", level: 6, desc: "<p>O Guardião aprimora a ligação com o seu dispositivo. O bônus escolhido na habilidade <strong>Portador da Centelha</strong> (BA/Dano, Magia Extra ou CA) passa a ser igual ao seu <strong>modificador de Inteligência</strong> (mínimo de +1).</p>" },
@@ -213,9 +225,9 @@ export const classes = [
     levels: progressao("ladrao_esp"),
     habilidades: [
       { nome: "Análise de Campo", level: 1, desc: "<p>Após derrotar uma criatura significativa, faz um teste de perícia que (conforme o resultado) extrai componentes utilizáveis, identifica fraquezas da espécie para encontros futuros, ou descobre propriedades não catalogadas. O Mestre determina o que está disponível.</p>" },
-      { nome: "Golpe de Abate", level: 1, desc: "<p>Ao atacar após uma aproximação furtiva, o ataque é um <strong>Ataque Muito Fácil</strong> e causa <strong>dano ×2</strong>. É a base referenciada pelo Golpe Predatório.</p>" },
+      { nome: "Golpe de Abate", level: 1, desc: "<p>Ao atacar, após uma aproximação furtiva, <strong>uma criatura já identificada por <em>Anatomia das Feras</em></strong>, o ataque é um <strong>Ataque Muito Fácil</strong> e causa <strong>dano ×2</strong>. Contra qualquer outro alvo, o ataque é normal. É a base referenciada pelo Golpe Predatório.</p>" },
       { nome: "Ouvir Ruídos", level: 1, desc: "<p>Em ambiente silencioso e fora de combate, consegue ouvir ruídos sutis (uma conversa do outro lado de uma porta, monstros se aproximando): chance de 1–2 em 1d6.</p>", level3: "<p>Chance de 1–3 em 1d6.</p>", level6: "<p>Chance de 1–4 em 1d6.</p>", level10: "<p>Chance de 1–5 em 1d6.</p>" },
-      { nome: "Talentos de Caçador", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Destreza:</strong> recebe, no 1º nível, 1 ponto extra por ponto de modificador de Destreza.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
+      { nome: "Talentos de Voraz", level: 1, desc: "<p>Começa com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir; máximo de 5 por talento. <strong>Bônus de Destreza:</strong> recebe, no 1º nível, 1 ponto extra por ponto de modificador de Destreza.</p>", level3: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level6: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", level10: "<p>Recebe 2 pontos para evoluir seus talentos.</p>", rogue_talents: [
         // Chave no plural de propósito, igual à do Sabotador: o nome exibido
         // segue o livro (singular no Voraz), mas a CHAVE é o que grava os pontos
         // gastos e o que um bônus de raça teria de casar. Duas chaves para o
@@ -229,8 +241,8 @@ export const classes = [
       { nome: "Anatomia das Feras", level: 1, desc: "<p>Capaz de identificar monstros e animais (ataques, defesas e fraquezas) com um resultado de 1–2 em 1d6.</p>", level10: "<p>A chance aumenta para 1–3 em 1d6.</p>" },
       { nome: "Armadilhas de Abate", level: 1, desc: "<p>Cria armadilhas de campo em 1 turno. Criaturas Grandes ou maiores presas não podem realizar ataques à distância na rodada seguinte e tornam-se Alvos Enredados (ataques contra elas são Fáceis).</p>" },
       { nome: "Golpe Predatório", level: 3, desc: "<p>Contra criaturas identificadas por <em>Anatomia das Feras</em>, ignora bônus de CA por Couro Grosso, Escamas ou Placas Naturais. Se causar o dano ×2 do <em>Golpe de Abate</em>, o alvo faz JPC ou tem o Movimento reduzido à metade por 1d4 rodadas.</p>" },
-      { nome: "Firmeza do Caçador", level: 6, desc: "<p><strong>Resistência:</strong> Teste Fácil em JP contra Medo, incluindo auras aterrorizantes. <strong>Letalidade:</strong> acertos críticos contra criaturas identificadas usam Dano Aumentado (o dado de dano sobe duas categorias antes de ser dobrado; ex.: d6 vira d10).</p>" },
-      { nome: "Caçada Implacável", level: 10, desc: "<p><strong>Imunidade:</strong> torna-se totalmente imune a Medo e Auras Aterrorizantes. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>" },
+      { nome: "Firmeza do Voraz", level: 6, desc: "<p><strong>Resistência:</strong> Ajuste Fácil (+2) em JPS contra Medo. <strong>Letalidade:</strong> acertos críticos contra criaturas identificadas usam Dano Aumentado (o dado de dano sobe duas categorias antes de ser dobrado; ex.: d6 vira d10).</p>" },
+      { nome: "Perseguição Implacável", level: 10, desc: "<p><strong>Imunidade:</strong> torna-se imune a efeitos de Medo. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>" },
       { nome: "Reputação", level: 11, desc: "<p>Obtém Reputação 1 em 1d6, evoluindo +1 até o máximo de 1–5 em 1d6 no 15º nível.</p>" },
     ],
   },
@@ -304,6 +316,9 @@ export const classes = [
     },
     levels: progressao("mago_esp"),
     habilidades: [
+      // Uma caixa por magia exclusiva, não uma pela habilidade: cada uma é
+      // 1×/dia por conta própria, e o total sobe quando chega a seguinte.
+      { nome: "Magias Exclusivas", level: 1, usos_dia: { 1: 2, 3: 3, 6: 4, 10: 5 }, desc: MAGIAS_EXCLUSIVAS("Astromante", "<em>Varinha da Adivinhação</em> e <em>Estimativa de Hornug</em>", "<em>Percepção Extrassensorial</em>", "<em>Piscar</em>", "<em>Contato Extraplanar</em>") },
       { nome: "Presságios", level: 1, usos_dia: 1, desc: "<p>A cada amanhecer registra um número de Presságios igual ao modificador de Inteligência (mínimo 1), acumulando até o dobro. Gasta 1 Presságio para forçar a re-rolagem de qualquer dado (seu, de aliado ou de inimigo a até 18 m) ou aplicar ±2 a uma rolagem, declarado antes do resultado.</p>" + AJUSTE_USOS("Inteligência") + "<p><em>O acúmulo até o dobro não cabe no marcador — controle o estoque acima do modificador à parte.</em></p>" },
       { nome: "Olhar de Chronael", level: 1, usos_dia: { 1: 1, 6: 2 }, desc: "<p>Uma vez por dia, lê as estrelas como a magia <em>Augúrio</em>, sabendo se uma ação trará bonança ou ruína.</p>", level6: "<p>Pode ser usado 2× ao dia e prevê eventos de até um dia inteiro à frente.</p>" },
       { nome: "Antecipação", level: 3, desc: "<p>Uma vez por combate, declara que previu a batalha e escolhe: <strong>Defesa Estelar</strong> (+2 na CA contra um ataque), <strong>Iniciativa Cósmica</strong> (ele ou um aliado age primeiro na rodada) ou <strong>Negação do Destino</strong> (converte um acerto crítico inimigo em acerto normal).</p>" },
@@ -327,6 +342,9 @@ export const classes = [
     },
     levels: progressao("mago_esp"),
     habilidades: [
+      // Uma caixa por magia exclusiva, não uma pela habilidade: cada uma é
+      // 1×/dia por conta própria, e o total sobe quando chega a seguinte.
+      { nome: "Magias Exclusivas", level: 1, usos_dia: { 1: 2, 3: 3, 6: 4, 10: 5 }, desc: MAGIAS_EXCLUSIVAS("Vociferante", "<em>Mensagem</em> e <em>Ventriloquismo</em>", "<em>Vento Sussurrante</em>", "<em>Sugestão</em>", "<em>Dominação</em>") },
       { nome: "Léxico Arkanes", level: 1, desc: "<p>Fala Arkanes e comanda a Arcanita ao redor: mecanismos de Arcanita respondem ao tom correto e ele é imune a armadilhas trancadas por tom. Contra um Construto de Arcanita, emite uma ordem — o Construto faz Teste de Moral (2d6 + nível) ou obedece a um comando simples por 1d6 rodadas.</p>" },
       { nome: "Tom Imperativo", level: 1, usos_dia: 1, desc: "<p>Ao conjurar, pode elevar o tom um número de vezes por dia igual ao modificador de Inteligência (mínimo 1), escolhendo um efeito sobre a magia: +1 dado (magias de dano), dobrar a duração, ou impor Ajuste Difícil (−2) na Jogada de Proteção do alvo.</p>" + AJUSTE_USOS("Inteligência") },
       { nome: "Grito Dissonante", level: 3, desc: "<p>Sacrifica um espaço de magia para emitir uma onda sônica num cone de 6 m: 1d6 de dano por círculo sacrificado (JPD reduz à metade) e os alvos ficam ensurdecidos por 1d4 rodadas (conjuradores ensurdecidos têm 50% de falhar magias verbais).</p>" },

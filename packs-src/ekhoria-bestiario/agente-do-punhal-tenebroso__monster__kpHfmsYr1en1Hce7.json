@@ -7,7 +7,7 @@
     "odo_id": "agente-do-punhal-tenebroso",
     "concept": "Humanoide",
     "size": "medio",
-    "description": "<p><strong>Tipo (fonte):</strong> Anão — Ladino 3º</p>\n<p>Espião da guilda que \"não existe\" em Durgrann — chantageia e quer a verdade sobre a Fenda como arma.</p>\n<ul>\n  <li><p><strong>Ataque Furtivo</strong>: dano dobrado contra alvo desprevenido ou flanqueado.</p></li>\n  <li><p><strong>Conhece o Eixo Torto</strong>: move-se pelas rotas secretas de Durgrann; some numa multidão com facilidade.</p></li>\n  <li><p><strong>Sinais Mudos</strong>: comunica-se e coordena em silêncio (a guilda comanda por sinais, como Ragan Martelo-Mudo).</p></li>\n</ul>",
+    "description": "<p><strong>Tipo (fonte):</strong> Anão — Ladrão 3º</p>\n<p>Espião da guilda que \"não existe\" em Durgrann — chantageia e quer a verdade sobre a Fenda como arma.</p>\n<ul>\n  <li><p><strong>Ataque Furtivo</strong>: dano dobrado contra alvo desprevenido ou flanqueado.</p></li>\n  <li><p><strong>Conhece o Eixo Torto</strong>: move-se pelas rotas secretas de Durgrann; some numa multidão com facilidade.</p></li>\n  <li><p><strong>Sinais Mudos</strong>: comunica-se e coordena em silêncio (a guilda comanda por sinais, como Ragan Martelo-Mudo).</p></li>\n</ul>",
     "flavor": "Guilda que \"não existe\". Espia, chantageia, e quer a verdade sobre a Fenda como arma.",
     "habitat": "Durgrann",
     "alignment": "neutro",

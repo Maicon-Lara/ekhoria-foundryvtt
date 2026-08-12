@@ -1,0 +1,50 @@
+{
+  "folder": "TG3m1fC4rmIEZzQ4",
+  "name": "Receitas de Combate",
+  "type": "class_ability",
+  "_id": "MZGyKU0WUnoXvMDO",
+  "img": "systems/olddragon2e/assets/icons/melee.svg",
+  "system": {
+    "description": "<p>Qualquer um pode beber uma dose — o Narcoguerreiro é quem <strong>conhece a receita</strong>. Com <strong>1 turno (10 min)</strong> e matéria-prima da região (os Fungos do Degelo em Vornfell, os fungos do deserto nas Areias, o que o lugar oferecer), prepara doses das drogas que conhece: <strong>1 por dia</strong>, subindo para <strong>2 no 6º nível</strong> e <strong>3 no 10º</strong>. Doses caseiras se degradam em 1d6+2 dias.</p><p>Isso não substitui o mercado negro para as raridades — <strong>Albinus</strong> exige sangue de troll das profundezas, e nenhuma receita contorna isso.</p>",
+    "level": 1,
+    "level3": "",
+    "level6": "<p>Prepara 2 doses por dia.</p>",
+    "level10": "<p>Prepara 3 doses por dia.</p>",
+    "rogue_talents": [],
+    "daily_uses": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!MZGyKU0WUnoXvMDO"
+}

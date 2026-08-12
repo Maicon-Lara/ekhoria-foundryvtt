@@ -30,6 +30,7 @@ import { loreJournal } from "./data/lore.mjs";
 import { loreExtraPages } from "./data/lore-extra.mjs";
 import { worldbuildingPages } from "./data/lore-worldbuilding.mjs";
 import { campanhaJournais } from "./data/campanha.mjs";
+import { livroLoreJournal } from "./data/livro-lore.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -137,12 +138,16 @@ function buildTabelasDocs() {
 }
 
 // ── Pack de lore (cenário de campanha) ──
+// Duas entradas, de propósito. `loreJournal` é o texto antigo do módulo, escrito
+// antes do Livro de Lore e nunca reconciliado com ele; `livroLoreJournal` é o
+// livro do cofre, importado inteiro. Fundir as duas aqui seria escolher, no
+// build, qual versão de Ekhoria é a verdadeira — e essa escolha não é do build.
 function buildLoreDocs() {
   const entry = {
     ...loreJournal,
     pages: [...loreJournal.pages, ...loreExtraPages, ...worldbuildingPages],
   };
-  return [journalDoc(entry, 100000)];
+  return [journalDoc(entry, 100000), journalDoc(livroLoreJournal, 200000)];
 }
 
 // ── Pack de itens (Arsenal: armas, armaduras, substâncias) ──

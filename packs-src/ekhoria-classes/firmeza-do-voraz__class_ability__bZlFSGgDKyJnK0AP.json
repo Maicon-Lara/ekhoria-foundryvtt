@@ -1,12 +1,12 @@
 {
   "folder": "WhZxLtkBfBRh2AUX",
-  "name": "Caçada Implacável",
+  "name": "Firmeza do Voraz",
   "type": "class_ability",
-  "_id": "jAFCHLZeYeEmtMCT",
-  "img": "systems/olddragon2e/assets/icons/ranged.svg",
+  "_id": "bZlFSGgDKyJnK0AP",
+  "img": "systems/olddragon2e/assets/icons/shield.svg",
   "system": {
-    "description": "<p><strong>Imunidade:</strong> torna-se totalmente imune a Medo e Auras Aterrorizantes. <strong>Maestria Crítica:</strong> acertos críticos contra criaturas identificadas passam a causar dano ×3 (role o dano três vezes e some os bônus).</p>",
-    "level": 10,
+    "description": "<p><strong>Resistência:</strong> Ajuste Fácil (+2) em JPS contra Medo. <strong>Letalidade:</strong> acertos críticos contra criaturas identificadas usam Dano Aumentado (o dado de dano sobe duas categorias antes de ser dobrado; ex.: d6 vira d10).</p>",
+    "level": 6,
     "level3": "",
     "level6": "",
     "level10": "",
@@ -42,9 +42,9 @@
     "lastModifiedBy": "ekhoriabuildtool",
     "exportSource": null
   },
-  "sort": 900000,
+  "sort": 800000,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!jAFCHLZeYeEmtMCT"
+  "_key": "!items!bZlFSGgDKyJnK0AP"
 }

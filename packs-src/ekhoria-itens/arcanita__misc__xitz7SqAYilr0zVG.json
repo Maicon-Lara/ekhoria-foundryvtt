@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "odo_id": "arcanita",
-    "description": "Mineral que sustenta Arkádia, sagrado para os Clãs Mantis. Em armaduras: +1 em todas as JP contra magias. Em armas: o dano é mágico, afetando criaturas imunes a armas normais. Custo: ×5 o valor base.",
+    "description": "Mineral que sustenta Arkádia, sagrado para os Clãs Mantis. Em armas: o dano conta como mágico — fere o que só armas mágicas ferem. Em armaduras: +1 em todas as JP contra magia.\nO que custa: nada. É o cristal sem contrapartida, e por isso a medida dos outros.\nPreço: ×5 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

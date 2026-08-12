@@ -3,7 +3,70 @@
 // Rumores da Estalagem do Contrato, Nomes por Povo, Tesouro e Relíquias).
 // resultados: [{ range: [min, max], text }]
 
+// O relógio do Breu e suas Consequências vêm do capítulo "Regras de Ambiente"
+// (05_regras_de_ambiente.md), que nunca tinha chegado ao módulo — a mesa rolava
+// os encontros de Breônia aqui e ia buscar a regra da exposição no cofre.
+//
+// São TRÊS tabelas e não uma porque cada uma é rolada num momento diferente, e
+// porque o livro é explícito: "role 1d20 e leia a coluna certa". Marca e Ruína
+// numa tabela só obrigariam o Mestre a filtrar a metade errada em voz alta,
+// justamente no instante em que ele não deve dizer o que está acontecendo.
+const BREU = [
+  {
+    nome: "Breu — O relógio (tempo de permanência)",
+    formula: "1d6",
+    desc: "<p><strong>Role em segredo</strong> quando alguém entra em escuridão completa: é quanto tempo o Breu leva para reparar nele.</p>"
+      + "<p>Esgotado o tempo, o personagem fica <strong>Exposto</strong> e faz uma <strong>JPS</strong> — <strong>Difícil (−2)</strong> em áreas profundamente tomadas, <strong>Muito Difícil (−5)</strong> se estiver inconsciente ou indefeso. No sucesso, aguenta: role 1d6 de novo e um relógio novo começa, com o personagem ainda Exposto. Na falha, role nas Consequências.</p>"
+      + "<p>Sair para luz adequada por 1 Turno remove <strong>Exposto</strong> e zera o relógio.</p>"
+      + "<p><em>Por que em segredo:</em> o jogador não deve saber se saiu 1 ou 6. A tensão do Breu não é a rolagem — é que ninguém sabe quanto falta.</p>",
+    resultados: [
+      { range: [1, 1], text: "2d6 rodadas" },
+      { range: [2, 2], text: "1d4 minutos" },
+      { range: [3, 3], text: "3d10 minutos" },
+      { range: [4, 4], text: "6d12 minutos" },
+      { range: [5, 5], text: "1d4 horas" },
+      { range: [6, 6], text: "1 dia" },
+    ],
+  },
+  {
+    nome: "Breu — Consequências: Marca (1ª falha)",
+    formula: "1d20",
+    desc: "<p>A <strong>primeira</strong> falha de um personagem. Assusta, atrapalha, passa — tudo aqui é reversível.</p>"
+      + "<p>Depois de sofrer qualquer Consequência, o personagem fica <strong>imune por 24 horas</strong>: é o que impede um grupo azarado de colecionar Ruínas numa noite só.</p>",
+    resultados: [
+      { range: [1, 3], text: "<strong>Enfraquecimento</strong> — Difícil (−2) em todas as jogadas por 1d6 dias." },
+      { range: [4, 5], text: "<strong>Falsa Luz</strong> — alucinações luminosas; percepção Difícil (−2) por 1d6 dias." },
+      { range: [6, 8], text: "<strong>Catatonia</strong> — incapaz de agir, falar ou reagir por 1d6 horas." },
+      { range: [9, 11], text: "<strong>Vazamento Mental</strong> — aliados a 10 m não recuperam PV nem magia no descanso." },
+      { range: [12, 13], text: "<strong>Manifestação</strong> — uma Sombra surge e caça <em>só</em> quem a gerou." },
+      { range: [14, 15], text: "<strong>Deslocamento</strong> — acorda a até 1 km dali, em lugar pior." },
+      { range: [16, 17], text: "<strong>Voz Invisível</strong> — uma entidade sussurra conselhos úteis e perigosos (o Mestre passa em segredo)." },
+      { range: [18, 19], text: "<strong>Compulsão</strong> — apagar luzes, por 1d6 dias. <em>O jogador interpreta</em>; o Mestre não assume o personagem." },
+      { range: [20, 20], text: "<strong>Iluminado</strong> — Visão no Escuro 18 m, e 1d6 de dano por Turno sob sol ou luz intensa." },
+    ],
+  },
+  {
+    nome: "Breu — Consequências: Ruína (2ª falha em diante)",
+    formula: "1d20",
+    desc: "<p>Falha de quem <strong>já carrega uma Marca</strong>. O que sai daqui não volta.</p>"
+      + "<p><em>Por que duas colunas:</em> o Breu deveria piorar, e uma tabela plana não piora — nela, a primeira lanterna que apaga pode custar um olho, e a vigésima pode dar um poder. Com as faixas, o custo alto só chega a quem já sabia do risco e voltou assim mesmo. É a diferença entre azar e escolha.</p>"
+      + "<p><em>Sobre agência:</em> só um resultado em vinte tira o personagem das mãos do jogador — <strong>Possessão Parcial</strong>, e apenas aqui.</p>",
+    resultados: [
+      { range: [1, 3], text: "<strong>Definhamento</strong> — role 1d6 para o atributo; −1 permanente. Se chegar a 0, morre." },
+      { range: [4, 5], text: "<strong>Perda de Sentido</strong> — permanente: 1. Visão 2. Audição 3. Olfato 4. Tato 5. Paladar 6. uma magia específica." },
+      { range: [6, 8], text: "<strong>Toque do Vazio</strong> — cai a 0 PV. Se estabilizado: <strong>Cicatriz de Sombras</strong> (membro negro e frio), −1 CAR permanente, e sente o Breu a 30 m." },
+      { range: [9, 11], text: "<strong>Mutação do Breu</strong> — alteração física permanente: −1 num atributo, +2 em furtividade e em testes de Medo." },
+      { range: [12, 13], text: "<strong>Desvanecimento</strong> — NPCs o esquecem segundos depois; sem cura mágica por 1d6 dias." },
+      { range: [14, 15], text: "<strong>Marca do Breu</strong> — criaturas do Breu sentem seu rastro: +20% em Encontros Aleatórios." },
+      { range: [16, 17], text: "<strong>Sono do Sonhar</strong> — coma místico por 1d6 dias; só desperta com <em>Remover Maldição</em>." },
+      { range: [18, 19], text: "<strong>Amnésia</strong> — esquece missão, história e os nomes dos aliados (a memória muscular fica)." },
+      { range: [20, 20], text: "<strong>Possessão Parcial</strong> — 1×/dia o Mestre força uma ação, sem direito a teste." },
+    ],
+  },
+];
+
 export const tabelasMestre = [
+  ...BREU,
   // ─────────────────────────────────────────────────────────────
   // ENCONTROS POR REGIÃO — 1d12 por nação
   // ─────────────────────────────────────────────────────────────
@@ -16,7 +79,7 @@ export const tabelasMestre = [
       { range: [2, 2], text: "1d4 Umbras Pávidas emergem quando a última tocha do grupo bruxuleia. — <em>Combate leve</em>" },
       { range: [3, 3], text: "Pelotão de Silentes Ancorados em patrulha: aliados incômodos com salvo-conduto, revista tensa sem ele. — <em>Social</em>" },
       { range: [4, 4], text: "Um viajante implora ônix emprestado; já não lembra o próprio nome — é O Esquecido em formação. — <em>Dilema / horror</em>" },
-      { range: [5, 5], text: "Mercador de ônix com a carga saqueada paga bem por escolta até a cidade de Ônix. — <em>Gancho</em>" },
+      { range: [5, 5], text: "Mercador de ônix com a carga saqueada paga bem por escolta até Nihilvale. — <em>Gancho</em>" },
       { range: [6, 6], text: "O Cristalizado bloqueia uma passagem estreita — foi um viajante que não chegou. — <em>Combate médio</em>" },
       { range: [7, 7], text: "Uma criança segura uma vela no meio do nada. Ninguém na vila lembra de ter tido uma criança. — <em>Mistério</em>" },
       { range: [8, 8], text: "Uma Abominação do Breu farejou o grupo e caça a lembrança fresca. — <em>Combate médio</em>" },
@@ -311,6 +374,102 @@ export const tabelasMestre = [
       { range: [4, 4], text: "Moeda-Justa" },
       { range: [5, 5], text: "Cinza-Fria" },
       { range: [6, 6], text: "Guarda-Memória" },
+    ],
+  },
+  {
+    nome: "Nomes — Vornfell (Masculinos)",
+    formula: "1d6",
+    desc: "<p>Vornfell — nórdico duro, epíteto do que você faz pelo grupo. <em>Ecoam Kaelen \"Lâmina-de-Fogo\", Halvard Conta-Velas, Ingra, Sigrun, Yorick.</em></p>",
+    resultados: [
+      { range: [1, 1], text: "Halvard" },
+      { range: [2, 2], text: "Kaelen" },
+      { range: [3, 3], text: "Yorick" },
+      { range: [4, 4], text: "Torv" },
+      { range: [5, 5], text: "Bergil" },
+      { range: [6, 6], text: "Osk" },
+    ],
+  },
+  {
+    nome: "Nomes — Vornfell (Femininos)",
+    formula: "1d6",
+    desc: "<p>Vornfell — nórdico duro, epíteto do que você faz pelo grupo.</p>",
+    resultados: [
+      { range: [1, 1], text: "Ingra" },
+      { range: [2, 2], text: "Sigrun" },
+      { range: [3, 3], text: "Astrid" },
+      { range: [4, 4], text: "Runa" },
+      { range: [5, 5], text: "Hedda" },
+      { range: [6, 6], text: "Vigda" },
+    ],
+  },
+  {
+    nome: "Nomes — Vornfell (Epíteto / sobrenome)",
+    formula: "1d6",
+    desc: "<p>O epíteto de Breônia é sombrio; o de Vornfell é <strong>útil</strong> — diz o que a pessoa faz para os outros atravessarem a Noite.</p>"
+      + "<p>Quem não tem epíteto ainda é <strong>Brasa</strong>: iniciado, sem feito registrado. Perder o epíteto, por covardia na Noite, é a punição social mais dura de Vornfell — e ninguém precisa dizer em voz alta que aconteceu.</p>",
+    resultados: [
+      { range: [1, 1], text: "Conta-Velas" },
+      { range: [2, 2], text: "Lâmina-de-Fogo" },
+      { range: [3, 3], text: "Carrega-Lenha" },
+      { range: [4, 4], text: "Nunca-Dormiu" },
+      { range: [5, 5], text: "Volta-do-Norte" },
+      { range: [6, 6], text: "Guarda-Brasa" },
+    ],
+  },
+  {
+    nome: "Nomes — Benellikov (Masculinos)",
+    formula: "1d6",
+    desc: "<p>Benellikov — italiano industrial em cima, alcunha de rua embaixo. <em>Ecoam Massimo Benelli, Karthus Malvaggio, Mulven Fattoreto — e, na poeira, Tavo Ossos-Secos.</em></p>",
+    resultados: [
+      { range: [1, 1], text: "Massimo" },
+      { range: [2, 2], text: "Karthus" },
+      { range: [3, 3], text: "Mulven" },
+      { range: [4, 4], text: "Tavo" },
+      { range: [5, 5], text: "Enzo" },
+      { range: [6, 6], text: "Duilio" },
+    ],
+  },
+  {
+    nome: "Nomes — Benellikov (Femininos)",
+    formula: "1d6",
+    desc: "<p>Benellikov — italiano industrial em cima, alcunha de rua embaixo.</p>",
+    resultados: [
+      { range: [1, 1], text: "Renata" },
+      { range: [2, 2], text: "Ottavia" },
+      { range: [3, 3], text: "Bruna" },
+      { range: [4, 4], text: "Lucia" },
+      { range: [5, 5], text: "Marta" },
+      { range: [6, 6], text: "Nera" },
+    ],
+  },
+  {
+    // Duas tabelas de sobrenome para a mesma cultura, e não uma: em Benellikov
+    // o nome diz de que andar da cratera a pessoa veio antes de ela abrir a
+    // boca. Misturar as duas listas apagaria exatamente a informação que elas
+    // carregam — e é por isso que quem sobe da cratera às vezes compra um.
+    nome: "Nomes — Benellikov (Sobrenome, Cidade-Limpa)",
+    formula: "1d6",
+    desc: "<p>Na <strong>Cidade-Limpa</strong> o sobrenome é de família, e vale como credencial.</p>",
+    resultados: [
+      { range: [1, 1], text: "Benelli" },
+      { range: [2, 2], text: "Malvaggio" },
+      { range: [3, 3], text: "Fattoreto" },
+      { range: [4, 4], text: "Vendrame" },
+      { range: [5, 5], text: "Corsi" },
+      { range: [6, 6], text: "Prosperi" },
+    ],
+  },
+  {
+    nome: "Nomes — Benellikov (Alcunha, Cidade-Suja)",
+    formula: "1d6",
+    desc: "<p>Na <strong>Cidade-Suja</strong> o sobrenome é apelido, e diz o que o corpo aguentou.</p>",
+    resultados: [
+      { range: [1, 1], text: "Ossos-Secos" },
+      { range: [2, 2], text: "Pulmão-de-Pedra" },
+      { range: [3, 3], text: "Dedo-Curto" },
+      { range: [4, 4], text: "Nunca-Sobe" },
+      { range: [5, 5], text: "Tosse-Fina" },
+      { range: [6, 6], text: "Come-Poeira" },
     ],
   },
   {

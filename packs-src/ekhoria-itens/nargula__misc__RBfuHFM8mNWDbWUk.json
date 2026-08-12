@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "nargula",
-    "description": "Ignora dor, fome e frio por 2d6 horas. Vício 1. Colateral: paranoia e fúria.",
+    "description": "Ignora dor, fome e frio por 2d6+6 horas. Vício 1. Colateral: paranoia e fúria.",
     "quantity": 1,
     "cost": "—",
     "weight_in_load": 0,

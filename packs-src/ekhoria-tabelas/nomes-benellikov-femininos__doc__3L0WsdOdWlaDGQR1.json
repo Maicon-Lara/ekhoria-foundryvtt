@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Benellikov (Femininos)",
+  "_id": "3L0WsdOdWlaDGQR1",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Benellikov — italiano industrial em cima, alcunha de rua embaixo.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "HRsKXMZXH62eol4S",
+      "text": "Renata",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.HRsKXMZXH62eol4S"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "cKKGqBc1G7yDOB3m",
+      "text": "Ottavia",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.cKKGqBc1G7yDOB3m"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "sPcuL7UaeDxTd5Xf",
+      "text": "Bruna",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.sPcuL7UaeDxTd5Xf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "p18TShW31iqs23mf",
+      "text": "Lucia",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.p18TShW31iqs23mf"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "OS9oFHs7aZCo5vq9",
+      "text": "Marta",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.OS9oFHs7aZCo5vq9"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "PxbtH0I5pEqDVc7A",
+      "text": "Nera",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!3L0WsdOdWlaDGQR1.PxbtH0I5pEqDVc7A"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!3L0WsdOdWlaDGQR1"
+}

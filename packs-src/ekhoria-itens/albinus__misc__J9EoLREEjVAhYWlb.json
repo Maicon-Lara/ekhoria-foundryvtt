@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "albinus",
-    "description": "Cura total (exceto dano de fogo e ácido). Vício 1. Colateral: perda de 1d4 PV máximos por semana. Extraído ritualmente de Trolls das fendas térmicas de Vornfell. Narcoguerreiro fabrica por 250 PO em 2 semanas (JP Difícil −5).",
+    "description": "Cura total (exceto dano de fogo e ácido). Vício 1. Colateral: perda de 1d4 PV máximos por semana. Extraído ritualmente de Trolls das fendas térmicas de Vornfell. Narcoguerreiro fabrica por 250 PO em 2 semanas (JP Muito Difícil −5).",
     "quantity": 1,
     "cost": "500 PO",
     "weight_in_load": 0,

@@ -7,7 +7,7 @@
     "odo_id": "batedor-da-rede-de-sombras",
     "concept": "Humanoide",
     "size": "medio",
-    "description": "<p><strong>Tipo (fonte):</strong> Halfling — Ladino 2º</p>\n<p>Agente da <strong>Rede de Sombras</strong> halfling: informação, não luta. Sabe tudo — ou conhece quem sabe.</p>\n<ul>\n  <li><p><strong>Furtividade Pequena</strong>: esconde-se com facilidade (1-4 em 1d6); atacantes sofrem -2 para acertá-lo.</p></li>\n  <li><p><strong>Rede de Boatos</strong>: sabe (ou tem um primo que sabe) praticamente qualquer informação de uma cidade.</p></li>\n  <li><p><strong>Escrita Ilusória</strong>: troca mensagens que só o destinatário consegue ler. Negocia antes de sacar a adaga.</p></li>\n</ul>",
+    "description": "<p><strong>Tipo (fonte):</strong> Halfling — Ladrão 2º</p>\n<p>Agente da <strong>Rede de Sombras</strong> halfling: informação, não luta. Sabe tudo — ou conhece quem sabe.</p>\n<ul>\n  <li><p><strong>Furtividade Pequena</strong>: esconde-se com facilidade (1-4 em 1d6); atacantes sofrem -2 para acertá-lo.</p></li>\n  <li><p><strong>Rede de Boatos</strong>: sabe (ou tem um primo que sabe) praticamente qualquer informação de uma cidade.</p></li>\n  <li><p><strong>Escrita Ilusória</strong>: troca mensagens que só o destinatário consegue ler. Negocia antes de sacar a adaga.</p></li>\n</ul>",
     "flavor": "Informação, não luta. Sabe tudo — ou conhece quem sabe.",
     "alignment": "neutro",
     "mv": "6",

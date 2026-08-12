@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/ammunition.svg",
   "system": {
     "odo_id": "virote-de-arcanita",
-    "description": "Ataque Muito Fácil (+5) contra alvos de metal. Efeito: em crítico de 20, o alvo faz JPS ou sofre Silêncio por 1d4 rodadas.",
+    "description": "O dano conta como mágico. Em crítico de 20, o alvo faz JPS ou sofre Silêncio por 1d4 rodadas.",
     "quantity": 1,
     "cost": "60 PO",
     "weight_in_load": 0,

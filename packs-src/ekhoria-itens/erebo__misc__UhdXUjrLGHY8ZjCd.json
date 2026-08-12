@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/diamond.svg",
   "system": {
     "odo_id": "erebo",
-    "description": "Cristal raro que consome magia. Em armaduras: ao passar na JP contra uma magia, o efeito é totalmente anulado (sem dano parcial). Em armas: o alvo atingido tem a próxima magia que conjurar absorvida. Em armas mágicas: reduz o bônus em −1 por dia até ser removido. Custo: ×5 o valor base.",
+    "description": "Cristal raro que consome magia. Em armas — caça-conjuradores: ao ferir quem conjura, o alvo faz JP ou perde a magia da próxima rodada; cada acerto dissipa um efeito mágico ativo e ignora bônus mágicos de CA (por exemplo, Escudo Arcano). Em armaduras: toda JP bem-sucedida contra magia anula o efeito por inteiro, em vez de reduzir à metade.\nO que custa — devora sem escolher. A peça não aceita encantamento nem um segundo cristal, e curas e bênçãos mágicas lançadas sobre você valem metade. Carregar Erebo significa que o clérigo do grupo trabalha em dobro por você.\nPreço: ×8 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,

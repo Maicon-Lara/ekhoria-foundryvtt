@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Vornfell (Epíteto / sobrenome)",
+  "_id": "d5s2xlOi02eMKKA3",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>O epíteto de Breônia é sombrio; o de Vornfell é <strong>útil</strong> — diz o que a pessoa faz para os outros atravessarem a Noite.</p><p>Quem não tem epíteto ainda é <strong>Brasa</strong>: iniciado, sem feito registrado. Perder o epíteto, por covardia na Noite, é a punição social mais dura de Vornfell — e ninguém precisa dizer em voz alta que aconteceu.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "5EYCYLXpwwZEMcWB",
+      "text": "Conta-Velas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.5EYCYLXpwwZEMcWB"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "WbozNMQuDpbqejDZ",
+      "text": "Lâmina-de-Fogo",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.WbozNMQuDpbqejDZ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "k8aRaWknPzCiH4Sn",
+      "text": "Carrega-Lenha",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.k8aRaWknPzCiH4Sn"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ak5vVQQEbGo2ySu0",
+      "text": "Nunca-Dormiu",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.ak5vVQQEbGo2ySu0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "D29RQegG2d3tFhly",
+      "text": "Volta-do-Norte",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.D29RQegG2d3tFhly"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WysUXhcEwqbqHjxg",
+      "text": "Guarda-Brasa",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!d5s2xlOi02eMKKA3.WysUXhcEwqbqHjxg"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!d5s2xlOi02eMKKA3"
+}

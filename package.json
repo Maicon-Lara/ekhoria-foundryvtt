@@ -1,6 +1,6 @@
 {
   "name": "ekhoria-foundryvtt",
-  "version": "0.6.6",
+  "version": "0.11.0",
   "description": "Módulo de conteúdo do cenário Ekhoria para o sistema Old Dragon 2e (Foundry VTT). Classes, raças e referência do mestre.",
   "private": true,
   "type": "module",
@@ -8,7 +8,9 @@
     "build": "node tools/build.mjs",
     "extract": "node tools/extract.mjs",
     "validar": "node tools/validar.mjs",
-    "importar-campanha": "node tools/importar-campanha.mjs"
+    "importar-campanha": "node tools/importar-campanha.mjs",
+    "importar-lore": "node tools/importar-lore.mjs",
+    "sincronizar-bestiario": "node tools/sincronizar-bestiario.mjs"
   },
   "author": "Maicon Lara",
   "license": "MIT",

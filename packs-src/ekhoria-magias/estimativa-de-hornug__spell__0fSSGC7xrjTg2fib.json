@@ -1,0 +1,39 @@
+{
+  "folder": "3Eui4A5ICcpmLTrc",
+  "name": "Estimativa de Hornug",
+  "type": "spell",
+  "_id": "0fSSGC7xrjTg2fib",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "estimativa-de-hornug",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "300 metros",
+    "duration": "instantânea",
+    "jp": "nenhuma",
+    "description": "<p><strong>Astromante.</strong> Dá a contagem instantânea e precisa de quantos há num grupo — pessoas, montarias, tendas, barris. Parece pouco até a primeira vez em que o grupo precisa saber, do alto de uma colina e sem se aproximar, se aquilo lá embaixo é uma patrulha ou um exército.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0fSSGC7xrjTg2fib"
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "QE8DpzOssnGBI3p8",
+  "name": "Cristal à Vista (desvantagem)",
+  "type": "race_ability",
+  "_id": "gvPAA6URkDerWMyV",
+  "img": "systems/olddragon2e/assets/icons/gem.svg",
+  "system": {
+    "description": "<p>Sempre detectável como criatura mágica; nenhum disfarce mundano o esconde. <strong>Reação Difícil (−2)</strong> em Triarcis, Vornfell e no interior do Vale; <strong>Fácil (+2)</strong> em Arkádia.</p>",
+    "xp": null,
+    "jp": {
+      "jpc": false,
+      "jpd": false,
+      "jps": false
+    },
+    "bonus_damage": 0,
+    "bonus_damage_condition": "none",
+    "bonus_damage_condition_2": "none",
+    "rogue_talent": "none",
+    "rogue_talent_2": "none",
+    "daily_uses": 0,
+    "natural_armor": 0,
+    "load_modifier": 0,
+    "max_load_override": 0,
+    "armor_weight_modifier": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!gvPAA6URkDerWMyV"
+}

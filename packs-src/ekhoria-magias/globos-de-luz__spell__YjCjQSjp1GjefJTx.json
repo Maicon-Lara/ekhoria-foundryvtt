@@ -1,0 +1,39 @@
+{
+  "folder": "3Eui4A5ICcpmLTrc",
+  "name": "Globos de Luz",
+  "type": "spell",
+  "_id": "YjCjQSjp1GjefJTx",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "globos-de-luz",
+    "school": "arcane",
+    "circle": "1",
+    "arcane": "1",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "40 metros + 10 metros/nível",
+    "duration": "2 rodadas/nível",
+    "jp": "nenhuma",
+    "description": "<p><strong>Guardião da Centelha.</strong> Cria de um a quatro globos luminosos que iluminam como tochas e se movem para onde o conjurador quiser, sem exigir concentração. Ao contrário de <em>Luz</em>, não cega ninguém. Nas galerias de Durgrann é o primeiro procedimento que se aprende: luz que não consome ar.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!YjCjQSjp1GjefJTx"
+}

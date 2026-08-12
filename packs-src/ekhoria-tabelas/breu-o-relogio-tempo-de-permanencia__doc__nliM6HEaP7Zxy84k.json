@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Breu — O relógio (tempo de permanência)",
+  "_id": "nliM6HEaP7Zxy84k",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p><strong>Role em segredo</strong> quando alguém entra em escuridão completa: é quanto tempo o Breu leva para reparar nele.</p><p>Esgotado o tempo, o personagem fica <strong>Exposto</strong> e faz uma <strong>JPS</strong> — <strong>Difícil (−2)</strong> em áreas profundamente tomadas, <strong>Muito Difícil (−5)</strong> se estiver inconsciente ou indefeso. No sucesso, aguenta: role 1d6 de novo e um relógio novo começa, com o personagem ainda Exposto. Na falha, role nas Consequências.</p><p>Sair para luz adequada por 1 Turno remove <strong>Exposto</strong> e zera o relógio.</p><p><em>Por que em segredo:</em> o jogador não deve saber se saiu 1 ou 6. A tensão do Breu não é a rolagem — é que ninguém sabe quanto falta.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "3841qKRf9gT72zyv",
+      "text": "2d6 rodadas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.3841qKRf9gT72zyv"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "WvBC5SeBn7GzdEnY",
+      "text": "1d4 minutos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.WvBC5SeBn7GzdEnY"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "dhI0j3C7pVAWbu4z",
+      "text": "3d10 minutos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.dhI0j3C7pVAWbu4z"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "2ko1OtIF80ttaiK4",
+      "text": "6d12 minutos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.2ko1OtIF80ttaiK4"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "NU2BN3BPXLuKlhhi",
+      "text": "1d4 horas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.NU2BN3BPXLuKlhhi"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "As7KhBkjjg5IwBWx",
+      "text": "1 dia",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!nliM6HEaP7Zxy84k.As7KhBkjjg5IwBWx"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!nliM6HEaP7Zxy84k"
+}

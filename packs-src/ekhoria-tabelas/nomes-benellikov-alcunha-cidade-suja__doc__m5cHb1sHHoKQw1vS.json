@@ -1,0 +1,119 @@
+{
+  "folder": null,
+  "name": "Nomes — Benellikov (Alcunha, Cidade-Suja)",
+  "_id": "m5cHb1sHHoKQw1vS",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Na <strong>Cidade-Suja</strong> o sobrenome é apelido, e diz o que o corpo aguentou.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Qzc8oikUDBiXCw6m",
+      "text": "Ossos-Secos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.Qzc8oikUDBiXCw6m"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "40VGS7tEIeAjXDfX",
+      "text": "Pulmão-de-Pedra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.40VGS7tEIeAjXDfX"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "xPkPnXZO2VnPKO2J",
+      "text": "Dedo-Curto",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.xPkPnXZO2VnPKO2J"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "w8lFVzWBIBGzJGmv",
+      "text": "Nunca-Sobe",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.w8lFVzWBIBGzJGmv"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "dmavqG5RLfV5BMj0",
+      "text": "Tosse-Fina",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.dmavqG5RLfV5BMj0"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "gkTd085X2DNlUD4K",
+      "text": "Come-Poeira",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!m5cHb1sHHoKQw1vS.gkTd085X2DNlUD4K"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!m5cHb1sHHoKQw1vS"
+}

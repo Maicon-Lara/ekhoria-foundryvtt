@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/magic-potion.svg",
   "system": {
     "odo_id": "fungo-escarlate",
-    "description": "Concede Destreza 18 por 1d4 + Nível rodadas. Vício 1. Colateral: exaustão por 1 turno. Cogumelo de Combate: Narcoguerreiro fabrica por 50 PO em 1 semana.",
+    "description": "Concede Destreza 18 por 1d4+1 rodadas. Vício 1. Colateral: exaustão por 1 turno. Cogumelo de Combate: Narcoguerreiro fabrica por 50 PO em 1 semana.",
     "quantity": 1,
     "cost": "100 PO",
     "weight_in_load": 0,

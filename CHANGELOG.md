@@ -4,6 +4,70 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.11.0] — 2026-08-12
+
+Transporte das alterações do cofre Obsidian acumuladas desde 31/07.
+
+> **Nota sobre a numeração.** O `module.json` já estava em 0.10.0 e este arquivo
+> parou no 0.6.8 — as versões 0.7 a 0.10 saíram sem entrada. Não inventei o
+> histórico delas; o `package.json`, que tinha ficado para trás em 0.6.6, foi
+> alinhado ao módulo.
+
+### Adicionado
+- **O Livro de Lore, inteiro.** 18 capítulos, 227 KB, uma página por capítulo na
+  ordem de leitura. Ele nunca esteve no módulo: o que havia no pack de lore é um
+  texto próprio, mais curto, escrito antes do livro e nunca reconciliado com ele.
+  As duas entradas convivem no mesmo pack até você decidir qual fica.
+- **15 magias exclusivas de classe** (Guardião da Centelha, Vociferante,
+  Astromante), em pasta própria — capítulo que não existia no módulo.
+- **O relógio do Breu e suas Consequências**, do capítulo de Regras de Ambiente:
+  três tabelas (tempo de permanência, Marca, Ruína). Também nunca transportado.
+- **Nomes de Vornfell e Benellikov** (7 tabelas). Benellikov tem duas listas de
+  sobrenome porque o nome diz de que andar da cratera a pessoa veio.
+- Narcoguerreiro: **Receitas de Combate**. Arkanim: **Cristal à Vista**.
+
+### Modificado
+- **Bestiário:** JP recalculada em 19 fichas; `tipo` normalizado em 7
+  (`Ladino`→`Ladrão`, `Combatente`→`Guerreiro`, `Caçador`→`Voraz`). Fauce do
+  Breu: *Filha da Contenção que Falha* → **Feita de Escuro**.
+- **Voraz:** *Talentos/Firmeza de Caçador* e *Caçada Implacável* renomeados para
+  **de Voraz** e **Perseguição Implacável**. O **Golpe de Abate** agora só vale
+  contra criatura já identificada por *Anatomia das Feras*.
+- **Pugilista:** *Bom de Briga* → **Punhos como Arma**, com dano de 1d4/1d6/1d8
+  (era 1d2/1d4/1d6). *Calejado* passa a dar **+1 PV por nível**, retroativo, e
+  não mais +1 uma única vez. As Três Escolas deixaram de ser só sabor: cada uma
+  concede +1 em dano, CA ou nocaute.
+- **Cristais:** os quatro reescritos, agora com o custo de cada um como regra
+  (o Ônix satura, a Centelha Solar não apaga, o Erebo devora curas). Erebo passa
+  a ×8. Munições de Erebo remarcadas (40/50/100 → 90/110/180 po).
+- **Fungos:** a duração deixou de escalar com o nível — `1d4 + nível` virou
+  `1d4+1`. Num personagem de 10º isso é 14 rodadas virando 3. Nargula vai a
+  2d6+6 h; Fungo Ébano vira −2 nos ataques contra o usuário, por 1d4+1 horas.
+- Recuperação de vício do Albinus: Difícil (−5) → **Muito Difícil (−5)**.
+
+### Corrigido
+- **O validador nunca conferiu o bestiário.** A regex do bloco ```` od2-monstro ````
+  exigia LF e o cofre grava CRLF: nenhuma ficha casava, e a área reportava
+  "0 erros" com toda confiança enquanto 19 JPs estavam erradas.
+- **Os quatro Silentes Ancorados viravam um só.** O `norm()` apaga parênteses —
+  certo para *Ecdise (desvantagem)*, errado para nome de criatura. O Arqueiro
+  era comparado contra o Sargento de 5º nível: onze erros que não existiam.
+- A comparação de habilidades do `validar.mjs` era um `Set` construído de um
+  ternário com os dois ramos vazios. Sempre vazio, sempre em silêncio. Quem faz
+  isso agora é o `sincronizar-bestiario.mjs`.
+- *Encontros — Breônia*: a escolta do mercador de ônix vai a **Nihilvale**.
+
+### Ferramentas
+- `sincronizar-bestiario.mjs` (novo): troca no bestiário só os campos de que o
+  cofre é dono, preservando a curadoria que não existe na fonte. Aponta renome
+  de habilidade sem mexer na descrição. Idempotente.
+- `importar-lore.mjs` (novo): gera o Livro de Lore a partir do cofre.
+- `markdown.mjs` (novo): o conversor de Markdown saiu de dentro do
+  `importar-campanha.mjs` para ser usado pelos dois importadores. Verificado
+  como neutro — a campanha regerada saiu byte a byte idêntica.
+- `validar.mjs` deixou de repetir dezesseis avisos de *Reputação*: o livro passou
+  a documentá-la uma vez só, num capítulo próprio.
+
 ## [0.6.8] — 2026-06-19
 
 ### Modificado

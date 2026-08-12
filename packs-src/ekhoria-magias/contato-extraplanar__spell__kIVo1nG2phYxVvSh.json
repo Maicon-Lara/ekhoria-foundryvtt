@@ -1,0 +1,39 @@
+{
+  "folder": "NGrQ2uFXpRRdC8jd",
+  "name": "Contato Extraplanar",
+  "type": "spell",
+  "_id": "kIVo1nG2phYxVvSh",
+  "img": "systems/olddragon2e/assets/icons/arcane.svg",
+  "system": {
+    "odo_id": "contato-extraplanar",
+    "school": "arcane",
+    "circle": "5",
+    "arcane": "5",
+    "divine": "null",
+    "necromancer": "null",
+    "illusionist": "null",
+    "reverse": false,
+    "range": "0",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "<p><strong>Astromante.</strong> Projeta a mente a outro plano para consultar o que existe lá. As entidades não gostam de ser incomodadas: respondem <em>sim</em>, <em>não</em>, <em>talvez</em>, <em>irrelevante</em>. Quanto mais distante o plano contatado, melhores as respostas — e maior o risco para quem pergunta. Em Ekhoria, é a coisa mais próxima de falar com Chronael, e Chronael não responde.</p><p><em>Aprendida no 10º nível.</em></p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kIVo1nG2phYxVvSh"
+}

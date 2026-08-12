@@ -7,7 +7,7 @@
     "odo_id": "mercenario",
     "concept": "Humanoide",
     "size": "medio",
-    "description": "<p><strong>Tipo (fonte):</strong> Humano — Combatente 1º</p>\n<p>Mercenário / bandido genérico — o capanga que aparece em dívidas, emboscadas e brigas. Use em bando.</p>\n<ul>\n  <li><p><strong>Coragem de Bando</strong>: moral +1 enquanto houver 4 ou mais de pé.</p></li>\n  <li><p><strong>Sem Lealdade</strong>: testa Moral ao perder metade do bando; rende-se ou foge quando a maré vira. Ninguém aqui morre de graça.</p></li>\n</ul>",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano — Guerreiro 1º</p>\n<p>Mercenário / bandido genérico — o capanga que aparece em dívidas, emboscadas e brigas. Use em bando.</p>\n<ul>\n  <li><p><strong>Coragem de Bando</strong>: moral +1 enquanto houver 4 ou mais de pé.</p></li>\n  <li><p><strong>Sem Lealdade</strong>: testa Moral ao perder metade do bando; rende-se ou foge quando a maré vira. Ninguém aqui morre de graça.</p></li>\n</ul>",
     "flavor": "O capanga que aparece em dívidas, emboscadas e brigas. Use em bando.",
     "alignment": "neutro",
     "mv": "9",

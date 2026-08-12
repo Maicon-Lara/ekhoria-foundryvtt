@@ -6,7 +6,7 @@
   "img": "systems/olddragon2e/assets/icons/gem.svg",
   "system": {
     "odo_id": "onix",
-    "description": "Extraído das Montanhas de Ônix Negro de Breônia. Em armaduras: teste Fácil em Furtividade. Em armas brancas: +2 no dano em Ataques Furtivos ou pelas costas. Em armas de fogo: disparo completamente silencioso. Custo: ×4 o valor base.",
+    "description": "Extraído das Montanhas de Ônix Negro de Breônia. Em armas: fere mortos-vivos a pleno — +1d6 contra o que a necromancia anima; armas de fogo ficam silenciosas. Em armaduras: +2 em JP contra drenagem de energia e efeitos de mortos-vivos, +2 em JP contra o Breu, e Furtividade Fácil (+2).\nO que custa — satura. Depois de uma aventura de uso pesado (o Mestre avisa), o cristal escurece e para de funcionar. Gastar um Fragmento de Ônix o devolve ao normal, em qualquer lugar. Repare no que isso significa: o fragmento no bolso serve para recarregar a armadura ou para 24 horas de imunidade ao Breu, nunca para os dois.\nPreço: ×4 o valor base.",
     "quantity": 1,
     "cost": "",
     "weight_in_load": 0,
