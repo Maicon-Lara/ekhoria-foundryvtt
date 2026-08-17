@@ -181,19 +181,22 @@ Hooks.once("ready", () => {
 //  CONTRATAR — do statblock do livro para uma ficha viva
 // ─────────────────────────────────────────────
 //
-// O Old Dragon 2 tem TRÊS tipos de ator, e dois deles descrevem um contratado
-// de maneiras que não se convertem uma na outra:
+// O Old Dragon 2 tem TRÊS tipos de ator, e dois poderiam descrever um
+// contratado:
 //
-//   monster    o statblock do livro: DV, CA, JP e Moral como números escritos.
-//              É o que está no compêndio Bestiário, nas pastas "Contratando —".
-//   retainer   a pessoa contratada: atributos, bolso, carga, nível. CA e ataque
-//              são DERIVADOS do equipamento, a JP é fixa em 4 por getter e não
-//              existe campo de Moral nenhum.
+//   monster    o statblock do livro: DV, CA, JP, Moral e ataques como campos.
+//   retainer   a pessoa contratada: atributos, bolso, carga, nível. Mas a CA é
+//              DERIVADA do equipamento, a JP é um getter FIXO EM 4 sem campo
+//              nenhum, e Moral simplesmente não existe.
 //
-// Por isso isto não é uma conversão: é uma FICHA NOVA que nasce a partir do
-// statblock. O que o retainer sabe representar, ele representa; o que ele não
-// tem onde guardar (JP do livro, Moral) vai para as notas, escrito, em vez de
-// sumir calado.
+// Isto usou `retainer` primeiro, por ser o tipo que o sistema criou para o
+// papel. Durou até a primeira ficha: um arqueiro saiu com JP 4 onde o livro diz
+// 5, e não havia onde corrigir. O tipo certo é o que tem os campos que a mesa
+// consulta, não o que tem o nome certo.
+//
+// Então a macro CLONA o statblock. Perde-se inventário e atributos; ganha-se a
+// ficha com os números do livro. E, de quebra, os ganhos da Comitiva deixam de
+// ser recado nas notas e viram número: Moral, PV, JP e dano têm campo aqui.
 //
 // Os números vêm do compêndio, e não de uma tabela aqui dentro. Repetir os
 // statblocks neste arquivo criaria a mesma estatística em dois lugares — que é
@@ -231,90 +234,82 @@ function separaCategoria(nomeCompleto) {
     : { nome: nomeCompleto.trim(), profissao: nomeCompleto.trim() };
 }
 
-// A CA do livro entra por `ac_extra`.
+// A ficha criada é uma CÓPIA DO STATBLOCK, do mesmo tipo `monster`.
 //
-// No retainer, ac_total = 10 + mod. DES + ac_extra + escudo + armadura. Com os
-// atributos em 10 (mod. 0) e nada equipado, ac_extra é o único lugar em que a
-// CA do statblock cabe. Isso É uma acomodação, e está dita nas notas da ficha:
-// o livro não nomeia a armadura do mercenário, só declara o resultado. Quando o
-// jogador equipar armadura de verdade, ele deve zerar este campo — senão soma
-// duas vezes.
-function extraDeCA(caDoLivro) {
-  const n = parseInt(String(caDoLivro ?? "").replace(/\D/g, ""), 10);
-  return Number.isFinite(n) ? Math.max(0, n - 10) : 0;
+// A primeira versão montava um `retainer`, porque é o tipo que o sistema criou
+// para contratados. Não deu certo, e o motivo é objetivo: no retainer a JP é um
+// getter fixo em 4 — não existe campo. Um arqueiro contratado saía com JP 4
+// onde o livro diz 5, e não havia onde corrigir. O mesmo vale para Moral, que
+// não existe, e para a CA, que só entrava por uma acomodação em `ac_extra`.
+//
+// Clonar o statblock inverte a troca: perde-se o inventário e os atributos do
+// retainer, e ganha-se a ficha com os números do livro — que é o que a mesa
+// consulta. E há um efeito colateral bom: como `monster` TEM os campos, os
+// ganhos da Comitiva deixam de ser recado nas notas e viram número na ficha.
+
+// Soma um bônus a um campo que o sistema guarda como texto ("5" → "7").
+// Devolve o original intacto quando não há número — melhor a ficha ficar como
+// estava do que virar "NaN".
+function somaAoCampo(valor, bonus) {
+  const n = parseInt(String(valor ?? "").replace(/[^\d-]/g, ""), 10);
+  return Number.isFinite(n) ? String(n + bonus) : valor;
 }
 
-function notasDoContrato(monstro, comitiva) {
-  const s = monstro.system ?? {};
-  const linhas = [];
-
-  linhas.push(`<p><em>Ficha criada a partir do statblock de <strong>${monstro.name}</strong>, no compêndio Ekhoria: Bestiário.</em></p>`);
-
-  if (s.description) linhas.push(s.description);
-
-  linhas.push("<hr><h4>O que a ficha de contratado não guarda</h4><ul>");
-  if (s.jp) {
-    linhas.push(`<li><strong>JP ${s.jp}</strong> no livro. A ficha de contratado calcula <strong>4</strong> e não tem campo para isso — some a diferença à mão.</li>`);
+function notaDaComitiva(mod) {
+  const itens = ["<li><strong>Moral +1</strong> (1º nível) — já aplicado.</li>"];
+  if (mod > 0) {
+    itens.push(`<li><strong>+${mod} PV</strong> pelo modificador de Carisma (6º nível) — já aplicado.</li>`);
+    itens.push(`<li><strong>+${mod} em JP e no dano dos ataques</strong> (10º nível) — já aplicado. <em>Se o Diplomata ainda não tem o 10º nível, desfaça esses dois na ficha.</em></li>`);
   }
-  if (s.mo) {
-    linhas.push(`<li><strong>Moral ${s.mo}</strong>. Não existe campo de Moral no contratado; anote aqui e role à parte.</li>`);
-  }
-  if (s.dv) {
-    linhas.push(`<li><strong>DV ${s.dv}</strong>. O contratado usa <em>nível</em>, que começa em 0 — é o "ainda não pronto para um nível de classe" do Aprendiz. Promova para 1 quando ele estiver.</li>`);
-  }
-  if (s.ca) {
-    linhas.push(`<li><strong>CA ${s.ca}</strong> está em <em>CA extra</em>, porque o livro declara o resultado e não nomeia a armadura. <strong>Ao equipar armadura de verdade, zere aquele campo</strong>, senão a CA soma duas vezes.</li>`);
-  }
-  linhas.push("</ul>");
-
-  if (comitiva) {
-    linhas.push("<hr><h4>Comitiva — do Diplomata</h4><ul>");
-    linhas.push("<li><strong>Moral +1</strong> (1º nível).</li>");
-    if (comitiva.mod > 0) {
-      linhas.push(`<li><strong>+${comitiva.mod} PV</strong> pelo modificador de Carisma (6º nível) — já somado ao PV desta ficha.</li>`);
-      linhas.push(`<li><strong>+${comitiva.mod} em JP e Dano</strong> (10º nível), se o Diplomata já os tiver.</li>`);
-    }
-    linhas.push("<li><strong>Custo −25%</strong> pela Logística.</li>");
-    linhas.push("</ul>");
-  }
-
-  return linhas.join("\n");
+  itens.push("<li><strong>Custo de contratação −25%</strong> pela Logística.</li>");
+  return `<hr><h4>Comitiva — do Diplomata</h4><ul>${itens.join("")}</ul>`;
 }
 
 async function criarContratado(entryId, { quantidade = 1, comitiva = null } = {}) {
   const pack = game.packs.get(PACK_BESTIARIO);
-  const monstro = await pack.getDocument(entryId);
-  if (!monstro) return [];
+  const origem = await pack.getDocument(entryId);
+  if (!origem) return [];
 
-  const { nome, profissao } = separaCategoria(monstro.name);
-  const pvBase = monstro.system?.hp?.max ?? 1;
-  const pv = Math.max(1, pvBase + (comitiva?.mod > 0 ? comitiva.mod : 0));
+  const { nome } = separaCategoria(origem.name);
+  const mod = comitiva?.mod ?? 0;
 
   const dados = [];
   for (let i = 0; i < quantidade; i++) {
-    dados.push({
-      // O número só entra quando há mais de um: "Piqueiro" sozinho não precisa
-      // se chamar "Piqueiro 1".
-      name: quantidade > 1 ? `${nome} ${i + 1}` : nome,
-      type: "retainer",
-      img: monstro.img,
-      system: {
-        level: 0,
-        profession: profissao,
-        hp: { value: pv, max: pv },
-        // O livro não dá atributos a mercenário. 10 é o valor sem modificador:
-        // deixa a ficha mostrar exatamente o que o equipamento acrescentar, em
-        // vez de fingir uma rolagem que ninguém fez.
-        forca: 10, destreza: 10, constituicao: 10,
-        inteligencia: 10, sabedoria: 10, carisma: 10,
-        ac_extra: extraDeCA(monstro.system?.ca),
-        details: { notes: notasDoContrato(monstro, comitiva) },
-      },
-    });
+    const ficha = origem.toObject();
+
+    // Sem os ids da origem: o Foundry cunha os novos. Mantê-los faria as três
+    // cópias de um piqueiro nascerem com o mesmo id de ataque embutido.
+    delete ficha._id;
+    delete ficha.folder;
+    for (const item of ficha.items ?? []) delete item._id;
+
+    // O número só entra quando há mais de um: "Piqueiro" sozinho não precisa
+    // se chamar "Piqueiro 1". E o "(Mercenário)" do statblock sai — ali era
+    // categoria de catálogo, e agora é o nome de alguém que foi contratado.
+    ficha.name = quantidade > 1 ? `${nome} ${i + 1}` : nome;
+
+    if (comitiva) {
+      // Moral +1 vem do 1º nível da Comitiva e vale sempre que ela existe.
+      ficha.system.mo = somaAoCampo(ficha.system.mo, 1);
+
+      if (mod > 0) {
+        const pv = Math.max(1, (ficha.system.hp?.max ?? 1) + mod);
+        ficha.system.hp = { value: pv, max: pv };
+        // JP sobe com o poder no OD2 (1 DV → 5, 8 DV → 10), então o bônus soma.
+        ficha.system.jp = somaAoCampo(ficha.system.jp, mod);
+        for (const item of ficha.items ?? []) {
+          if (item.type !== "monster_attack") continue;
+          item.system.damage_bonus = (item.system.damage_bonus ?? 0) + mod;
+        }
+      }
+
+      ficha.system.description = (ficha.system.description ?? "") + notaDaComitiva(mod);
+    }
+
+    dados.push(ficha);
   }
 
-  const criados = await Actor.createDocuments(dados);
-  return criados;
+  return Actor.createDocuments(dados);
 }
 
 async function contratarDialogo() {
@@ -330,7 +325,7 @@ async function contratarDialogo() {
     .join("");
 
   const corpo = `
-    <p>Cria a <strong>ficha de contratado</strong> a partir do statblock do livro. O que a ficha não souber guardar (JP, Moral) vai escrito nas notas dela.</p>
+    <p>Cria a ficha do contratado <strong>com os números do livro</strong> — DV, CA, JP, Moral e ataques —, pronta para arrastar ao mapa.</p>
     <div class="form-group"><label>Quem</label><select name="quem">${opcoes}</select></div>
     <div class="form-group"><label>Quantos</label><input type="number" name="quantos" value="1" min="1" max="20"></div>
     <div class="form-group">

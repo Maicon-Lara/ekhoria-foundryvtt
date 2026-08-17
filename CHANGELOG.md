@@ -4,6 +4,32 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.13.2] — 2026-08-17
+
+### Corrigido
+- **A macro `Contratar` criava fichas com a JP errada.** Um arqueiro saía com
+  **JP 4** onde o livro diz **5**, e não havia onde corrigir: ela montava um ator
+  do tipo `retainer`, em que a JP é um *getter fixo em 4* — não existe campo.
+  Pelo mesmo motivo, Moral não aparecia e a CA só entrava por uma acomodação.
+
+  A macro agora **clona o statblock** do Bestiário, do mesmo tipo `monster`.
+  Perde-se o inventário e os atributos do `retainer`; ganha-se a ficha com os
+  números do livro, que é o que a mesa consulta. *O tipo certo é o que tem os
+  campos, não o que tem o nome certo.*
+
+### Modificado
+- **Os ganhos da Comitiva deixaram de ser recado e viraram número.** Como
+  `monster` tem os campos, a macro agora aplica de fato: **Moral +1**, **+PV**,
+  **+JP** e **+dano em cada ataque** pelo modificador de Carisma. Um arqueiro
+  contratado por um Diplomata de Carisma +2 sai com JP 7, Moral 9, 7 PV e +2 de
+  dano. A descrição registra o que foi aplicado, para poder ser desfeito se o
+  Diplomata ainda não tiver o 10º nível.
+- A ficha-modelo `Contratado (modelo)` continua sendo `retainer`, mas passou a
+  dizer para que serve: os **especialistas** — alquimista, engenheiro, espião,
+  sábio, capitão, marinheiro —, que o livro descreve por preço e serviço e não
+  por statblock. Para eles o `retainer` é o tipo certo, porque o que importa é
+  profissão, bolso e carga.
+
 ## [0.13.1] — 2026-08-17
 
 ### Corrigido
