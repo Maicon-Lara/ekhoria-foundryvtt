@@ -1,0 +1,177 @@
+{
+  "name": "Cavaleiro de Guerra (Mercenário)",
+  "type": "monster",
+  "_id": "DZ0BR6OjD4D3z1iQ",
+  "img": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+  "system": {
+    "odo_id": "cavaleiro-de-guerra-mercenario",
+    "concept": "Humanoide",
+    "size": "medio",
+    "description": "<p><strong>Tipo (fonte):</strong> Humano — Mercenário</p>\n<p>Cavalaria pesada, e a melhor unidade contratável da tabela: <strong>2 DV, CA 17 e +2 de ataque</strong>, contra 1 DV e +1 de todo o resto. <strong>Montado: Cavalo de Guerra.</strong></p><p><strong>Custo: 20 PO por mês</strong> — dez vezes o Soldado Leve, e é isso que ele vale.</p>\n<ul>\n  <li><p><strong>Moral 9</strong>: um ponto acima da infantaria — cavalaria debanda mais tarde.</p></li>\n</ul>",
+    "flavor": "A única unidade de 2 DV, e a única que custa 20 PO.",
+    "alignment": "neutro",
+    "mv": "16",
+    "dv": "2",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ca": "17",
+    "jp": "5",
+    "mo": "9",
+    "xp": "35"
+  },
+  "prototypeToken": {
+    "name": "Cavaleiro de Guerra (Mercenário)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/olddragon2e/assets/monsters-concepts/humanoide-medio.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "color": null,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "DHgDuBmDdHybYtY5",
+      "name": "1 × Lança longa +2 (1d8+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 2,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Lança longa",
+        "damage_description": "1d8+1",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!DZ0BR6OjD4D3z1iQ.DHgDuBmDdHybYtY5"
+    },
+    {
+      "_id": "I16VDx0PIyf7zjRE",
+      "name": "1 × Espada bastarda +2 (1d8+1)",
+      "type": "monster_attack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "times": 1,
+        "ba": 2,
+        "damage_bonus": 1,
+        "weapon": false,
+        "description": "Espada bastarda",
+        "damage_description": "1d8+1",
+        "damage": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.342",
+        "systemId": "olddragon2e",
+        "systemVersion": "This is auto replaced",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "ekhoriabuildtool",
+        "exportSource": null
+      },
+      "_key": "!actors.items!DZ0BR6OjD4D3z1iQ.I16VDx0PIyf7zjRE"
+    }
+  ],
+  "effects": [],
+  "folder": "L1sYhMTgTnE58Rjj",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!DZ0BR6OjD4D3z1iQ"
+}

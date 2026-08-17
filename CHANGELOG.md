@@ -4,6 +4,45 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.12.0] — 2026-08-17
+
+**Contratando** — as regras de contratação do Old Dragon 2 (LB2, cap. 6), que
+não existiam em lugar nenhum clicável. Verificado com o Maicon que o sistema
+`olddragon2e` não empacota estas fichas, então não há duplicata.
+
+O material foi repartido pelo que se faz com cada parte: **o que se arrasta
+virou ficha, o que se rola virou tabela, o que se lê virou página.**
+
+### Adicionado
+- **9 fichas no bestiário**, em duas pastas novas. *Contratando — Mercenários*:
+  Soldado Leve, Piqueiro, Soldado Pesado/Sargento, Arqueiro, Besteiro,
+  Cavaleiro Leve e Cavaleiro de Guerra, **ordenados por preço** — que é como se
+  lê essa tabela na hora de contratar. *Contratando — Aprendizes e Ajudantes*:
+  Aprendiz e Ajudante.
+- **Teste de Reação** (tabela 6.3) como tabela rolável de 2d6 em *Ekhoria:
+  Tabelas*. A última faixa vai de **12 a 20**, e não "12": o livro escreve
+  "12+", e com modificador de Carisma positivo o 13 e o 14 ficariam sem linha.
+- **Página "Contratando"** na Referência do Mestre: os quatro especialistas, a
+  tabela de perguntas do sábio, o custo de tripulação, as regras de contrato dos
+  mercenários (sargento acima de seis homens, +1 PO de alimentação por homem),
+  lealdade e limite de ajudantes por Carisma, e a divisão de XP dos aprendizes.
+
+### Notas
+- **O Arqueiro causa 1d8 com arco curto, e isso não é engano.** Em OD2 o dano do
+  arco é regido pela flecha empunhada, não pelo arco. Está comentado no código
+  para não ser "corrigido" para 1d6 mais tarde.
+- **Soldado Pesado e Sargento são a mesma ficha.** O sargento é o mesmo homem
+  com +50% de salário, não outra unidade.
+- **Aprendiz é uma ficha só**, com as quatro habilidades de classe listadas como
+  escolha: o statblock é idêntico nos quatro casos, e quatro atores quase iguais
+  só dariam ao Mestre uma decisão a mais na lista.
+- `encontro` e `tesouro` ficaram de fora destas fichas de propósito — as tabelas
+  9.4 e 9.5 são de encontro aleatório, e mercenário contratado não é encontrado:
+  ele chega porque foi pago para chegar.
+- O DV `½+1` do Aprendiz e do Ajudante não casa com o parser numérico de DV, e
+  por isso vai para a ficha como texto. Não quebra nada, porque o `pv` declarado
+  tem precedência sobre o cálculo — mas **vale um olho no Foundry**.
+
 ## [0.11.2] — 2026-08-17
 
 Higienização. Nenhuma regra de jogo mudou.

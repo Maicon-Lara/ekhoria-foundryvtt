@@ -65,7 +65,34 @@ const BREU = [
   },
 ];
 
+// Tabela 6.3 do Old Dragon 2 (LB2). Não é material de Ekhoria — é regra do
+// livro básico, e está aqui porque é rolada na mesa a toda hora e não existia
+// em lugar nenhum clicável.
+//
+// O modificador é o Carisma DE QUEM RECEBE a reação, não de quem a provoca: o
+// alvo do teste é o PJ, e é o carisma dele que inclina a atitude do outro.
+const REACAO = [
+  {
+    nome: "Teste de Reação",
+    formula: "2d6",
+    desc: "<p>Role quando precisar arbitrar como um personagem não jogador reage aos PJs — o monstro virado na esquina da masmorra, o empregado decidindo se trai o patrono, o efeito de uma magia social.</p>"
+      + "<p><strong>2d6 + modificador de Carisma do personagem alvo da reação.</strong></p>"
+      + "<p><em>Isto baliza, não decide.</em> O próprio livro é explícito: muitas vezes a circunstância já deixa claro como o personagem vai agir, e aí não se rola nada. Rolar quando a resposta já é óbvia é entregar ao dado uma cena que era sua.</p>",
+    resultados: [
+      { range: [2, 3], text: "<strong>Hostil.</strong> Age contra os personagens, e atacará ou prejudicará se tiver chance." },
+      { range: [4, 6], text: "<strong>Ameaça.</strong> Não age contra os personagens até ser minimamente provocado ou estimulado." },
+      { range: [7, 9], text: "<strong>Neutralidade.</strong> Não tem opinião sobre os personagens e, até que haja motivo, os ignora completamente." },
+      { range: [10, 11], text: "<strong>Amigável.</strong> Gosta dos personagens e os trata com respeito e admiração sempre que possível." },
+      // O livro diz "12+", não "12": com modificador de Carisma positivo o
+      // resultado passa de 12, e uma faixa fechada em 12 deixaria o 13 e o 14
+      // sem linha nenhuma.
+      { range: [12, 20], text: "<strong>Aliado.</strong> Age a favor dos personagens, e os defenderá ou agirá em seu favor se tiver chance." },
+    ],
+  },
+];
+
 export const tabelasMestre = [
+  ...REACAO,
   ...BREU,
   // ─────────────────────────────────────────────────────────────
   // ENCONTROS POR REGIÃO — 1d12 por nação

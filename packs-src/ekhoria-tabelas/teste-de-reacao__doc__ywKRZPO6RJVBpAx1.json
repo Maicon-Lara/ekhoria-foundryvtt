@@ -1,0 +1,104 @@
+{
+  "folder": null,
+  "name": "Teste de Reação",
+  "_id": "ywKRZPO6RJVBpAx1",
+  "img": "systems/olddragon2e/assets/icons/d6.svg",
+  "description": "<p>Role quando precisar arbitrar como um personagem não jogador reage aos PJs — o monstro virado na esquina da masmorra, o empregado decidindo se trai o patrono, o efeito de uma magia social.</p><p><strong>2d6 + modificador de Carisma do personagem alvo da reação.</strong></p><p><em>Isto baliza, não decide.</em> O próprio livro é explícito: muitas vezes a circunstância já deixa claro como o personagem vai agir, e aí não se rola nada. Rolar quando a resposta já é óbvia é entregar ao dado uma cena que era sua.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "_id": "II1AW4MwcTOjCR9k",
+      "text": "<strong>Hostil.</strong> Age contra os personagens, e atacará ou prejudicará se tiver chance.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ywKRZPO6RJVBpAx1.II1AW4MwcTOjCR9k"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        6
+      ],
+      "drawn": false,
+      "_id": "xgomZSnCzovBCF6Q",
+      "text": "<strong>Ameaça.</strong> Não age contra os personagens até ser minimamente provocado ou estimulado.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ywKRZPO6RJVBpAx1.xgomZSnCzovBCF6Q"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        9
+      ],
+      "drawn": false,
+      "_id": "B7zauKM0tU4MXdCo",
+      "text": "<strong>Neutralidade.</strong> Não tem opinião sobre os personagens e, até que haja motivo, os ignora completamente.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ywKRZPO6RJVBpAx1.B7zauKM0tU4MXdCo"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "_id": "hY6l6enzzcXiEo5l",
+      "text": "<strong>Amigável.</strong> Gosta dos personagens e os trata com respeito e admiração sempre que possível.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ywKRZPO6RJVBpAx1.hY6l6enzzcXiEo5l"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        20
+      ],
+      "drawn": false,
+      "_id": "2LREGXFPi2mhzFUg",
+      "text": "<strong>Aliado.</strong> Age a favor dos personagens, e os defenderá ou agirá em seu favor se tiver chance.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!ywKRZPO6RJVBpAx1.2LREGXFPi2mhzFUg"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "formula": "2d6",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!tables!ywKRZPO6RJVBpAx1"
+}

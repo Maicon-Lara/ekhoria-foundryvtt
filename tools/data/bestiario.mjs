@@ -1687,4 +1687,263 @@ export const grupos = [
       },
     ],
   },
+
+  // ── Contratando (Old Dragon 2, LB2 cap. 6) ────────────────────────────────
+  //
+  // Estes NÃO vêm do cofre: são as unidades contratáveis do livro básico, e por
+  // isso o validar.mjs passa por elas sem dizer nada (ele só compara ficha que
+  // existe nos dois lados). Ficam aqui, e não em ameacas.mjs, porque não são
+  // ameaça: são gente que o grupo paga.
+  //
+  // O "+N" da fonte é BÔNUS DE ATAQUE, não arma mágica — vai no campo `bonus`,
+  // que o attackItem() imprime como "1 × Arco curto +1 (1d8)". Escrever o "+1"
+  // dentro do nome produziria a mesma linha na tela e um item errado por baixo.
+  //
+  // O Arqueiro causa 1d8 com arco curto, e isso NÃO é engano: em OD2 o dano do
+  // arco é regido pela flecha empunhada, não pelo arco. Não "corrija" para 1d6.
+  //
+  // Sem `encontro` e sem `tesouro` de propósito: as tabelas 9.4 e 9.5 são de
+  // encontro aleatório, e ninguém encontra um mercenário contratado numa
+  // esquina de masmorra — ele chega porque foi pago para chegar.
+  {
+    folder: "Contratando — Mercenários",
+    monstros: [
+      {
+        nome: "Soldado Leve (Mercenário)",
+        flavor: "A unidade mais barata que ainda é um combatente.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "1",
+        pv: 5,
+        ca: "13",
+        jp: "5",
+        moral: 8,
+        xp: 15,
+        descricao:
+          "<p>Infantaria leve contratada. <strong>Custo: 2 PO por mês.</strong></p>",
+        ataques: [{ nome: "Espada curta", qtd: 1, bonus: 1, dano: "1d6+1" }],
+      },
+      {
+        nome: "Piqueiro (Mercenário)",
+        flavor: "Alcance de 1d10 por 3 PO — a melhor troca da tabela.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "1",
+        pv: 5,
+        ca: "12",
+        jp: "5",
+        moral: 8,
+        xp: 15,
+        descricao:
+          "<p>Infantaria de haste. O pique dá o maior dado de dano de toda a tabela de mercenários pelo segundo menor preço — a CA 12 é o que se paga por isso.</p>"
+          + "<p><strong>Custo: 3 PO por mês.</strong></p>",
+        ataques: [
+          { nome: "Pique", qtd: 1, bonus: 1, dano: "1d10" },
+          { nome: "Espada curta", qtd: 1, bonus: 1, dano: "1d6" },
+        ],
+      },
+      {
+        nome: "Soldado Pesado / Sargento (Mercenário)",
+        flavor: "A mesma ficha serve às duas funções; muda o salário.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "1",
+        pv: 5,
+        ca: "16",
+        jp: "5",
+        moral: 8,
+        xp: 15,
+        descricao:
+          "<p>Infantaria pesada — a melhor CA entre as unidades de 1 DV. <strong>Custo: 3 PO por mês.</strong></p>"
+          + "<p><strong>É também a ficha do Sargento.</strong> Um grupo com mais de seis mercenários precisa ser comandado por um deles, e o sargento custa <strong>+50% de salário</strong>. Não é outra unidade: é o mesmo homem, promovido.</p>",
+        ataques: [{ nome: "Espada longa", qtd: 1, bonus: 1, dano: "1d8+1" }],
+      },
+      {
+        nome: "Arqueiro (Mercenário)",
+        flavor: "Tiro a distância por 4 PO.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "1",
+        pv: 5,
+        ca: "12",
+        jp: "5",
+        moral: 8,
+        xp: 15,
+        descricao:
+          "<p>Arqueiro contratado. <strong>Custo: 4 PO por mês.</strong></p>"
+          + "<p><em>O dano do arco é regido pela flecha empunhada</em> — daí o 1d8, e não o 1d6 do arco curto nu. Trocar a munição troca o dado.</p>",
+        ataques: [
+          { nome: "Arco curto", qtd: 1, bonus: 1, dano: "1d8" },
+          { nome: "Espada curta", qtd: 1, bonus: 1, dano: "1d6" },
+        ],
+      },
+      {
+        nome: "Besteiro (Mercenário)",
+        flavor: "Menos dano que o arqueiro, e uma CA a mais.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "1",
+        pv: 5,
+        ca: "13",
+        jp: "5",
+        moral: 8,
+        xp: 15,
+        descricao:
+          "<p>Atirador de besta. <strong>Custo: 5 PO por mês.</strong></p>",
+        ataques: [
+          { nome: "Besta", qtd: 1, bonus: 1, dano: "1d6" },
+          { nome: "Espada curta", qtd: 1, bonus: 1, dano: "1d6" },
+        ],
+      },
+      {
+        nome: "Cavaleiro Leve (Mercenário)",
+        flavor: "Montado em Cavalo de Montaria — o dobro do deslocamento.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "18 m",
+        dv: "1",
+        pv: 5,
+        ca: "14",
+        jp: "5",
+        moral: 9,
+        xp: 15,
+        descricao:
+          "<p>Cavalaria leve. <strong>Montado: Cavalo de Montaria</strong> — o deslocamento de 18 m é o da montaria, não o do homem. Desmontado, ele anda 9 m como qualquer um.</p>"
+          + "<p><strong>Custo: 10 PO por mês.</strong></p>",
+        ataques: [
+          { nome: "Lança longa", qtd: 1, bonus: 1, dano: "1d8+1" },
+          { nome: "Espada longa", qtd: 1, bonus: 1, dano: "1d8+1" },
+        ],
+        habilidades: [
+          {
+            nome: "Moral 9",
+            desc: "um ponto acima da infantaria — cavalaria debanda mais tarde.",
+          },
+        ],
+      },
+      {
+        nome: "Cavaleiro de Guerra (Mercenário)",
+        flavor: "A única unidade de 2 DV, e a única que custa 20 PO.",
+        tipo: "Humano — Mercenário",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "16 m",
+        dv: "2",
+        pv: 10,
+        ca: "17",
+        jp: "5",
+        moral: 9,
+        xp: 35,
+        descricao:
+          "<p>Cavalaria pesada, e a melhor unidade contratável da tabela: <strong>2 DV, CA 17 e +2 de ataque</strong>, contra 1 DV e +1 de todo o resto. <strong>Montado: Cavalo de Guerra.</strong></p>"
+          + "<p><strong>Custo: 20 PO por mês</strong> — dez vezes o Soldado Leve, e é isso que ele vale.</p>",
+        ataques: [
+          { nome: "Lança longa", qtd: 1, bonus: 2, dano: "1d8+1" },
+          { nome: "Espada bastarda", qtd: 1, bonus: 2, dano: "1d8+1" },
+        ],
+        habilidades: [
+          {
+            nome: "Moral 9",
+            desc: "um ponto acima da infantaria — cavalaria debanda mais tarde.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    folder: "Contratando — Aprendizes e Ajudantes",
+    monstros: [
+      {
+        nome: "Aprendiz",
+        flavor: "Entra na divisão de XP, mas não acumula experiência.",
+        tipo: "Humano — Aprendiz",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "½+1",
+        pv: 3,
+        ca: "10",
+        jp: "4",
+        moral: 7,
+        xp: 5,
+        descricao:
+          "<p>Futuro aventureiro: já recebeu parte do treinamento, mas não tem experiência para chegar ao 1º nível. Anda com o grupo para aprender o ofício e juntar dinheiro para o próprio equipamento.</p>"
+          + "<p><strong>Pagamento:</strong> não é salário. Aceita uma parte do tesouro — normalmente <strong>3d6 × 10 PO</strong> ao fim da aventura.</p>"
+          + "<p><strong>Lealdade:</strong> alta. Não foge e não trai, exceto em situação limítrofe — está ali pelo que aprende, não só pelo que ganha.</p>"
+          + "<p><strong>Experiência:</strong> <em>o grupo de aprendizes conta como um personagem a mais na divisão do XP</em>, e mesmo assim não acumula experiência. Recebe um nível numa classe básica quando o Mestre entender que está pronto.</p>",
+        ataques: [{ nome: "Arma", qtd: 1, dano: "conforme a arma" }],
+        // As quatro variantes têm o MESMO statblock — só muda a habilidade. Por
+        // isso é uma ficha só com as quatro listadas, e não quatro atores quase
+        // idênticos que o Mestre teria de distinguir na lista.
+        habilidades: [
+          {
+            nome: "Treinamento — escolha uma",
+            desc: "o aprendiz recebe UMA das quatro habilidades abaixo, conforme a classe em que está sendo treinado.",
+          },
+          {
+            nome: "— Guerreiro",
+            desc: "+1 para acertar no primeiro ataque de cada combate.",
+          },
+          {
+            nome: "— Clérigo",
+            desc: "1×/dia, toca um alvo e cura 1 ponto de vida.",
+          },
+          {
+            nome: "— Ladrão",
+            desc: "possui todos os talentos de Ladrão em nível 1.",
+          },
+          {
+            nome: "— Mago",
+            desc: "1×/dia, um truque emulando magia de 1º círculo: não causa dano, não exige Jogada de Proteção e dura no máximo 1 rodada.",
+          },
+        ],
+      },
+      {
+        nome: "Ajudante",
+        flavor: "Está ali pelo dinheiro. Testa moral toda noite.",
+        tipo: "Humano — Ajudante",
+        conceito: "Humanoide",
+        alinhamento: "neutro",
+        tamanho: "medio",
+        movimento: "9 m",
+        dv: "½+1",
+        pv: 3,
+        ca: "10",
+        jp: "4",
+        moral: 7,
+        xp: 5,
+        descricao:
+          "<p>Mão de obra barata e pouco especializada: carregar peso, segurar tocha, cavar. Não precisa gostar de quem o contratou para fazer o serviço por algumas horas.</p>"
+          + "<p><strong>Custo: 2 PP por semana.</strong></p>"
+          + "<p><strong>Limite de contratação:</strong> cada personagem contrata <strong>modificador de Carisma + 1</strong> ajudantes. Carisma 13 (mod. +1) contrata 2; <strong>Carisma 8 ou menos não contrata nenhum</strong>.</p>"
+          + "<p><strong>Experiência:</strong> não acumula, e não entra na divisão de XP — ao contrário do Aprendiz.</p>",
+        ataques: [{ nome: "Arma", qtd: 1, dano: "conforme a arma" }],
+        habilidades: [
+          {
+            nome: "Fuga na Calada",
+            desc: "ao fim de cada dia o Mestre faz, <strong>em segredo</strong>, um teste de moral para cada ajudante. Quem falhar foge durante a noite ou na primeira oportunidade. Empregador bondoso dá +1 no moral; cruel, −1.",
+          },
+        ],
+      },
+    ],
+  },
 ];

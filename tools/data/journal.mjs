@@ -177,6 +177,108 @@ const paginas = [
 <p><em>Outros especialistas têm seus domínios: o Sabotador da Cratera trabalha Minérios e engenhocas; o Lito-arcanista e o Guardião da Centelha, a Arcanita e os Cristais.</em></p>
 `,
   },
+  // Regra do LB2 (cap. 6), não de Ekhoria. Entra aqui porque é consulta de
+  // preço e de procedimento: o que se rola virou tabela (Teste de Reação, em
+  // "Ekhoria: Tabelas") e quem se arrasta virou ficha (pastas "Contratando —",
+  // no bestiário). O que sobra é isto — e isto é para ler, não para clicar.
+  {
+    title: "Contratando — especialistas, mercenários, aprendizes e ajudantes",
+    content: `
+<p>Durante as aventuras é provável que os personagens precisem contratar serviços de terceiros. O Old Dragon 2 separa os contratados em <strong>quatro categorias</strong>, e a diferença entre elas não é só de preço — é de <em>por que aquela pessoa está ali</em>, o que muda como ela se comporta quando as coisas azedam.</p>
+<table>
+<thead><tr><th>Categoria</th><th>O que é</th><th>Está ali por</th></tr></thead>
+<tbody>
+<tr><td><strong>Especialistas</strong></td><td>Conhecimento técnico numa área, para uma tarefa específica. Não são de combate.</td><td>Dinheiro</td></tr>
+<tr><td><strong>Mercenários</strong></td><td>Combatentes contratados como força auxiliar: vigia, patrulha, proteção.</td><td>Dinheiro</td></tr>
+<tr><td><strong>Aprendizes</strong></td><td>Futuros aventureiros, treinados pela metade, ainda abaixo do 1º nível.</td><td>Lealdade e aprendizado</td></tr>
+<tr><td><strong>Ajudantes</strong></td><td>Mão de obra braçal, barata e sem qualificação.</td><td>Dinheiro, e só</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Fichas e rolagem.</strong> As sete unidades mercenárias, o Aprendiz e o Ajudante são atores do compêndio <strong>Ekhoria: Bestiário</strong>, nas pastas <em>Contratando — Mercenários</em> e <em>Contratando — Aprendizes e Ajudantes</em>: arraste para o mapa. O <strong>Teste de Reação</strong> é tabela rolável em <strong>Ekhoria: Tabelas</strong>.</p>
+</blockquote>
+<hr>
+<h3>Especialistas</h3>
+<table>
+<thead><tr><th>Especialista</th><th>Custo</th><th>Para quê</th></tr></thead>
+<tbody>
+<tr><td><strong>Alquimista</strong></td><td>250 PO por semana</td><td>Estudo de substâncias; poções, venenos e antídotos <strong>não mágicos</strong>.</td></tr>
+<tr><td><strong>Engenheiro</strong></td><td>185 PO por semana</td><td>Projeto e administração de obra: fortes, torres, muralhas, pontes. Contrata trabalhadores, negocia com guildas e compra material.</td></tr>
+<tr><td><strong>Espião</strong></td><td>125 PO por semana</td><td>Vigiar alguém, interceptar mensagem, infiltrar-se num grupo.</td></tr>
+<tr><td><strong>Capitão</strong></td><td>70 PO por semana</td><td>Conduzir embarcação por rio ou oceano. Costuma ter navio e tripulação próprios.</td></tr>
+<tr><td><strong>Marinheiro</strong></td><td>1 PO por semana</td><td>Tripulação.</td></tr>
+<tr><td><strong>Remador</strong></td><td>5 PC por semana</td><td>Tripulação.</td></tr>
+</tbody>
+</table>
+<p><strong>Alquimista.</strong> Replica qualquer poção não mágica com os mesmos efeitos, pela <strong>metade</strong> do que um Mago ou Clérigo cobraria. O valor pago a ele <strong>não inclui o material</strong> das poções.</p>
+<p><strong>Espião.</strong> Trabalha essencialmente pelo dinheiro e não pensa duas vezes antes de trocar de patrono se o outro lado oferecer mais — é por isso que é caro. O preço não compra fidelidade; compra tempo.</p>
+<p><strong>Tripulação.</strong> O custo sai do tamanho da embarcação, da tripulação necessária para operá-la e da duração da viagem, com <strong>mínimo de uma semana</strong>. Marinheiros pegam em armas para se defender, mas não são combatentes efetivos.</p>
+<h4>Sábio</h4>
+<p>Especialista em conhecimento teórico — geografia, história, idiomas, biologia. Encontrado em cidades grandes ou em estabelecimentos de ensino. O custo e o prazo dependem <strong>do tipo de pergunta</strong>, e essa é a parte que importa: a mesma dúvida perguntada de três jeitos custa de 50 PO a milhares.</p>
+<table>
+<thead><tr><th>Pergunta</th><th>Exemplo</th><th>Prazo</th><th>Custo</th></tr></thead>
+<tbody>
+<tr><td><strong>Simples</strong></td><td><em>"O que foi o grande êxodo?"</em></td><td>1d8 horas</td><td>50 PO por hora</td></tr>
+<tr><td><strong>Geral</strong></td><td><em>"Qual o papel dos acólitos vermelhos no grande êxodo da 2ª Era?"</em></td><td>1d6 dias</td><td>100 PO por dia</td></tr>
+<tr><td><strong>Específica</strong></td><td><em>"O acólito vermelho Ragandar matou sua esposa no eclipse do grande êxodo da 2ª Era?"</em></td><td>1d4 semanas</td><td>500 PO por semana</td></tr>
+</tbody>
+</table>
+<hr>
+<h3>Mercenários</h3>
+<p>Combatentes contratados para serviço militar, <strong>sem atrelar sua lealdade ao patrono</strong>. O contrato mínimo é de <strong>um mês</strong>.</p>
+<ul>
+<li><strong>Acima de seis homens, exige um sargento.</strong> Um mercenário mais experiente comanda o grupo, com <strong>+50% no salário</strong>. É a mesma ficha do Soldado Pesado.</li>
+<li><strong>Alimentação e hospedagem</strong> somam <strong>1 PO por homem contratado</strong>, além do salário.</li>
+</ul>
+<table>
+<thead><tr><th>Unidade</th><th>DV</th><th>CA</th><th>MO</th><th>Ataque</th><th>Custo por mês</th></tr></thead>
+<tbody>
+<tr><td><strong>Soldado Leve</strong></td><td>1</td><td>13</td><td>8</td><td>Espada curta +1 (1d6+1)</td><td>2 PO</td></tr>
+<tr><td><strong>Piqueiro</strong></td><td>1</td><td>12</td><td>8</td><td>Pique +1 (1d10)</td><td>3 PO</td></tr>
+<tr><td><strong>Soldado Pesado</strong></td><td>1</td><td>16</td><td>8</td><td>Espada longa +1 (1d8+1)</td><td>3 PO</td></tr>
+<tr><td><strong>Arqueiro</strong></td><td>1</td><td>12</td><td>8</td><td>Arco curto +1 (1d8)</td><td>4 PO</td></tr>
+<tr><td><strong>Besteiro</strong></td><td>1</td><td>13</td><td>8</td><td>Besta +1 (1d6)</td><td>5 PO</td></tr>
+<tr><td><strong>Cavaleiro Leve</strong></td><td>1</td><td>14</td><td>9</td><td>Lança longa +1 (1d8+1)</td><td>10 PO</td></tr>
+<tr><td><strong>Cavaleiro de Guerra</strong></td><td>2</td><td>17</td><td>9</td><td>Lança longa +2 (1d8+1)</td><td>20 PO</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Leia a tabela pelo preço, não pelo dano.</strong> O Piqueiro custa 3 PO e traz o maior dado de dano da lista; o Cavaleiro de Guerra custa dez vezes o Soldado Leve e é a única unidade de 2 DV. Entre esses dois extremos está toda a decisão tática de quem contrata.</p>
+</blockquote>
+<hr>
+<h3>Aprendizes</h3>
+<p>Futuros aventureiros: treinamento incompleto, sem dinheiro para equipamento, ainda não prontos para um nível de classe. Veem no grupo um jeito barato de aprender; o grupo vê neles mão de obra mais qualificada que a média.</p>
+<ul>
+<li><strong>Pagamento:</strong> não há salário fixo. Aceitam parte do tesouro — normalmente <strong>3d6 × 10 PO</strong> ao fim da aventura.</li>
+<li><strong>Lealdade:</strong> alta. Não fogem e não traem, exceto em situação limítrofe. Estão ali pelo conhecimento, não só pelo dinheiro.</li>
+<li><strong>Experiência:</strong> <em>o grupo de aprendizes conta como um personagem a mais na divisão do XP</em> — e ainda assim <strong>não acumula experiência</strong>. Recebem um nível numa classe básica quando o Mestre entender que estão prontos para partir sozinhos.</li>
+</ul>
+<p>O aprendiz recebe <strong>uma</strong> habilidade, conforme a classe em que treina:</p>
+<table>
+<thead><tr><th>Treinamento</th><th>Habilidade</th></tr></thead>
+<tbody>
+<tr><td><strong>Guerreiro</strong></td><td>+1 para acertar no primeiro ataque de cada combate.</td></tr>
+<tr><td><strong>Clérigo</strong></td><td>1×/dia, toca um alvo e cura 1 ponto de vida.</td></tr>
+<tr><td><strong>Ladrão</strong></td><td>Todos os talentos de Ladrão em nível 1.</td></tr>
+<tr><td><strong>Mago</strong></td><td>1×/dia, um truque emulando magia de 1º círculo: sem dano, sem Jogada de Proteção, no máximo 1 rodada.</td></tr>
+</tbody>
+</table>
+<hr>
+<h3>Ajudantes</h3>
+<p>Qualquer camponês presta serviço a um grupo de aventureiros. Nem todo carregador vira aventureiro, e ninguém contratado para segurar tocha por algumas horas precisa gostar de quem o contratou. <strong>Estes estão ali só pelo dinheiro</strong> — e a regra de moral existe para lembrar disso.</p>
+<ul>
+<li><strong>Custo:</strong> 2 PP por semana.</li>
+<li><strong>Limite:</strong> cada personagem contrata <strong>modificador de Carisma + 1</strong> ajudantes. Carisma 13 (mod. +1) contrata 2. <strong>Carisma 8 ou menos não contrata nenhum.</strong></li>
+<li><strong>Lealdade:</strong> ao fim de cada dia o Mestre faz, <strong>em segredo</strong>, um teste de moral por ajudante. Quem falhar foge à noite ou na primeira oportunidade. Empregador bondoso dá <strong>+1</strong> no moral; cruel, <strong>−1</strong>.</li>
+<li><strong>Experiência:</strong> não acumula, e não entra na divisão do XP.</li>
+</ul>
+<blockquote>
+<p><strong>A diferença que a mesa sente.</strong> Aprendiz e Ajudante têm a mesma ficha — DV ½+1, CA 10, moral 7. O que os separa não está no statblock: o aprendiz fica, o ajudante some. Um teste de moral secreto por noite é o que transforma "contratei seis carregadores" numa decisão sobre como você trata gente.</p>
+</blockquote>
+<hr>
+<p><em>Regras de contratação e Teste de Reação do <strong>Old Dragon 2ª edição</strong> (LB2, cap. 6) © 2023 da Old Dragon Editora · CC BY-SA 4.0. Reproduzidas aqui para uso de mesa no cenário Ekhoria.</em></p>
+`,
+  },
 ];
 
 export const journalPages = [
