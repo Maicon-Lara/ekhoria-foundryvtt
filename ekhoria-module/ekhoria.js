@@ -255,14 +255,60 @@ function somaAoCampo(valor, bonus) {
   return Number.isFinite(n) ? String(n + bonus) : valor;
 }
 
-function notaDaComitiva(mod) {
-  const itens = ["<li><strong>Moral +1</strong> (1º nível) — já aplicado.</li>"];
-  if (mod > 0) {
-    itens.push(`<li><strong>+${mod} PV</strong> pelo modificador de Carisma (6º nível) — já aplicado.</li>`);
-    itens.push(`<li><strong>+${mod} em JP e no dano dos ataques</strong> (10º nível) — já aplicado. <em>Se o Diplomata ainda não tem o 10º nível, desfaça esses dois na ficha.</em></li>`);
+// Os quatro degraus da Comitiva, cada um com o nível em que o Diplomata o
+// destrava. Ficam numa lista só para que a aplicação e o texto da ficha leiam a
+// MESMA fonte: quando os dois eram escritos à parte, a ficha dizia "já aplicado"
+// sobre um bônus que a classe ainda não tinha.
+const COMITIVA = [
+  { nivel: 1, rotulo: "Moral +1", automatico: true },
+  { nivel: 1, rotulo: "Custo de contratação −25% (Logística)", automatico: false },
+  { nivel: 3, rotulo: "Ataques de proteção da comitiva são Ações Fáceis", automatico: false },
+  { nivel: 6, rotulo: (m) => `+${m} PV pelo modificador de Carisma`, automatico: true },
+  { nivel: 10, rotulo: (m) => `+${m} em JP e no dano dos ataques`, automatico: true },
+];
+
+function notaDaComitiva({ nivel, mod }) {
+  const texto = (g) => (typeof g.rotulo === "function" ? g.rotulo(mod) : g.rotulo);
+
+  const ativos = COMITIVA.filter((g) => nivel >= g.nivel);
+  const pendentes = COMITIVA.filter((g) => nivel < g.nivel);
+
+  const linhas = [`<hr><h4>Comitiva — Diplomata de ${nivel}º nível`
+    + (mod ? `, Carisma ${mod >= 0 ? "+" : ""}${mod}` : "") + "</h4>"];
+
+  if (ativos.length) {
+    linhas.push("<ul>");
+    for (const g of ativos) {
+      const como = g.automatico
+        ? (mod > 0 || g.nivel === 1 ? " — <strong>já aplicado nesta ficha</strong>" : " — sem efeito com este Carisma")
+        : " — vale na mesa, não há campo na ficha";
+      linhas.push(`<li>${texto(g)}${como}</li>`);
+    }
+    linhas.push("</ul>");
   }
-  itens.push("<li><strong>Custo de contratação −25%</strong> pela Logística.</li>");
-  return `<hr><h4>Comitiva — do Diplomata</h4><ul>${itens.join("")}</ul>`;
+
+  // O que ainda não vale aparece, mas marcado. Dizer só o que está ativo faria
+  // o jogador reabrir o livro para lembrar o que vem depois — e dizer tudo sem
+  // marcar foi o defeito da versão anterior desta nota.
+  if (pendentes.length) {
+    linhas.push("<p><em>Ainda travado:</em></p><ul>");
+    for (const g of pendentes) {
+      linhas.push(`<li><em>${texto(g)} — a partir do ${g.nivel}º nível.</em></li>`);
+    }
+    linhas.push("</ul>");
+  }
+
+  return linhas.join("");
+}
+
+// Personagens do mundo que são Diplomata. A classe é um Item embutido na ficha
+// do OD2 (não há system.classe), do mesmo jeito que o selo da ficha já lê.
+function diplomatasDoMundo() {
+  return game.actors.filter((a) => {
+    if (a.type !== "character") return false;
+    const classe = a.items.find((i) => i.type === "class");
+    return classe && normalizarNome(classe.name) === "diplomata";
+  });
 }
 
 async function criarContratado(entryId, { quantidade = 1, comitiva = null } = {}) {
@@ -289,12 +335,20 @@ async function criarContratado(entryId, { quantidade = 1, comitiva = null } = {}
     ficha.name = quantidade > 1 ? `${nome} ${i + 1}` : nome;
 
     if (comitiva) {
-      // Moral +1 vem do 1º nível da Comitiva e vale sempre que ela existe.
-      ficha.system.mo = somaAoCampo(ficha.system.mo, 1);
+      const nivel = comitiva.nivel ?? 0;
 
-      if (mod > 0) {
+      // Cada degrau só entra a partir do nível em que a classe o concede. Antes
+      // isto aplicava os três de uma vez e pedia, por escrito, que o jogador
+      // desfizesse o que ainda não valia — o que põe a conferência das regras
+      // nas costas de quem devia estar jogando.
+      if (nivel >= 1) {
+        ficha.system.mo = somaAoCampo(ficha.system.mo, 1);
+      }
+      if (nivel >= 6 && mod > 0) {
         const pv = Math.max(1, (ficha.system.hp?.max ?? 1) + mod);
         ficha.system.hp = { value: pv, max: pv };
+      }
+      if (nivel >= 10 && mod > 0) {
         // JP sobe com o poder no OD2 (1 DV → 5, 8 DV → 10), então o bônus soma.
         ficha.system.jp = somaAoCampo(ficha.system.jp, mod);
         for (const item of ficha.items ?? []) {
@@ -303,7 +357,7 @@ async function criarContratado(entryId, { quantidade = 1, comitiva = null } = {}
         }
       }
 
-      ficha.system.description = (ficha.system.description ?? "") + notaDaComitiva(mod);
+      ficha.system.description = (ficha.system.description ?? "") + notaDaComitiva({ nivel, mod });
     }
 
     dados.push(ficha);
@@ -320,29 +374,73 @@ async function contratarDialogo() {
     );
   }
 
+  const esc = (s) => foundry.utils.escapeHTML?.(s) ?? s;
+
   const opcoes = lista
-    .map((e) => `<option value="${e._id}">${foundry.utils.escapeHTML?.(e.name) ?? e.name}</option>`)
+    .map((e) => `<option value="${e._id}">${esc(e.name)}</option>`)
     .join("");
+
+  // O Diplomata é LIDO da mesa: nível e Carisma saem da ficha dele, e não de
+  // dois campos que alguém preenche de memória a cada contratação. É a mesma
+  // razão de os statblocks virem do compêndio — número digitado duas vezes é
+  // número que diverge.
+  const diplomatas = diplomatasDoMundo();
+  const opcoesDiplomata = [
+    `<option value="">— sem Comitiva —</option>`,
+    ...diplomatas.map((a) =>
+      `<option value="${a.id}">${esc(a.name)} — ${a.system.level ?? 0}º nível, Carisma ${a.system.mod_carisma >= 0 ? "+" : ""}${a.system.mod_carisma ?? 0}</option>`),
+    `<option value="manual">Informar à mão…</option>`,
+  ].join("");
+
+  const semDiplomata = diplomatas.length
+    ? ""
+    : `<p class="notes">Nenhum personagem com a classe <strong>Diplomata</strong> neste mundo — use <em>Informar à mão</em> se precisar.</p>`;
 
   const corpo = `
     <p>Cria a ficha do contratado <strong>com os números do livro</strong> — DV, CA, JP, Moral e ataques —, pronta para arrastar ao mapa.</p>
     <div class="form-group"><label>Quem</label><select name="quem">${opcoes}</select></div>
     <div class="form-group"><label>Quantos</label><input type="number" name="quantos" value="1" min="1" max="20"></div>
+    <hr>
     <div class="form-group">
-      <label>Comitiva (mod. de Carisma do Diplomata)</label>
-      <input type="number" name="carisma" value="0" min="0" max="5">
-      <p class="hint">0 = sem Comitiva. Acima de 0, soma os PV do 6º nível e anota os demais ganhos nas notas.</p>
+      <label>Comitiva</label>
+      <select name="diplomata">${opcoesDiplomata}</select>
+      ${semDiplomata}
+      <p class="hint">Cada ganho da Comitiva entra só a partir do nível em que o Diplomata o recebe: Moral no 1º, PV no 6º, JP e dano no 10º.</p>
+    </div>
+    <div class="form-group">
+      <label>À mão — nível e mod. de Carisma</label>
+      <input type="number" name="nivel" value="1" min="1" max="15" style="width:5em">
+      <input type="number" name="carisma" value="0" min="-3" max="5" style="width:5em">
+      <p class="hint">Usados <strong>apenas</strong> quando a Comitiva acima estiver em "Informar à mão".</p>
     </div>`;
 
   const aplica = async (form) => {
     const quantidade = Math.max(1, parseInt(form.quantos.value, 10) || 1);
-    const mod = Math.max(0, parseInt(form.carisma.value, 10) || 0);
-    const criados = await criarContratado(form.quem.value, {
-      quantidade,
-      comitiva: mod > 0 || form.carisma.value !== "" ? { mod } : null,
-    });
+    const escolha = form.diplomata.value;
+
+    let comitiva = null;
+    if (escolha === "manual") {
+      comitiva = {
+        nivel: Math.max(1, parseInt(form.nivel.value, 10) || 1),
+        mod: parseInt(form.carisma.value, 10) || 0,
+      };
+    } else if (escolha) {
+      const diplomata = game.actors.get(escolha);
+      if (diplomata) {
+        comitiva = {
+          nivel: diplomata.system.level ?? 0,
+          mod: diplomata.system.mod_carisma ?? 0,
+        };
+      }
+    }
+
+    const criados = await criarContratado(form.quem.value, { quantidade, comitiva });
+    if (!criados.length) return ui.notifications.warn("Ekhoria: nada foi criado.");
     if (criados.length === 1) criados[0].sheet.render(true);
-    ui.notifications.info(`Ekhoria: ${criados.length} ficha(s) de contratado criada(s).`);
+    ui.notifications.info(
+      `Ekhoria: ${criados.length} ficha(s) criada(s)`
+      + (comitiva ? ` com a Comitiva de um Diplomata de ${comitiva.nivel}º nível.` : "."),
+    );
   };
 
   // DialogV2 no v13; Dialog continua existindo, mas depreciado. Tentamos o novo

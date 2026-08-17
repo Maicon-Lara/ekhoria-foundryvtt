@@ -4,6 +4,27 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.13.3] — 2026-08-17
+
+### Corrigido
+- **A Comitiva aplicava todos os ganhos de uma vez**, independentemente do nível
+  do Diplomata, e a ficha pedia por escrito que o jogador *desfizesse* o que
+  ainda não valia. Isso põe a conferência das regras nas costas de quem devia
+  estar jogando. Agora cada degrau entra **só a partir do nível em que a classe
+  o concede**: Moral no 1º, PV no 6º, JP e dano no 10º.
+
+### Modificado
+- **A macro lê o Diplomata da mesa.** O diálogo lista os personagens do mundo
+  que têm a classe Diplomata, com nível e Carisma, e tira os dois números da
+  ficha dele — em vez de pedir que alguém os digite de memória a cada
+  contratação. Mesma razão de os statblocks virem do compêndio: número digitado
+  duas vezes é número que diverge. Continua havendo a opção *Informar à mão*,
+  para mundo sem Diplomata ou para simular.
+- **A descrição da ficha mostra os cinco degraus da Comitiva**, marcando o que
+  está ativo e o que ainda falta, com o nível de destrave — o jogador vê o que
+  vem sem reabrir o livro. O texto e a aplicação leem a **mesma** tabela no
+  código, então não há como a ficha afirmar um bônus que não foi aplicado.
+
 ## [0.13.2] — 2026-08-17
 
 ### Corrigido
