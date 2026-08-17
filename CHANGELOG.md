@@ -4,6 +4,49 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.13.0] — 2026-08-17
+
+**Ficha de contratado**, para a Comitiva do Diplomata. O statblock do livro
+serve para jogar um corpo no mapa; ele não serve para o jogador *gerir* um
+seguidor, que é o que a classe pede.
+
+### Adicionado
+- **Novo compêndio `Ekhoria: Ferramentas`** (tipo Macro) com a macro
+  **Contratar**. Ela lista os contratados do Bestiário, pergunta quantos e qual
+  o modificador de Carisma do Diplomata, e cria as fichas prontas. Os números
+  saem **do próprio compêndio**, não de uma tabela dentro do script — repetir os
+  statblocks no código criaria a mesma estatística em dois lugares, que é como
+  elas divergem.
+- **Ficha-modelo `Contratado (modelo)`** (ator do tipo `retainer`), na pasta
+  *Fichas de Contratado* do Bestiário. Serve para quem não está no livro (um
+  especialista, um marinheiro, um NPC da mesa) e para quando não se quer depender
+  do JavaScript do módulo.
+- `game.ekhoria.contratar()` e `game.ekhoria.contratos()` na API do módulo.
+
+### Notas
+O Old Dragon 2 tem três tipos de ator, e **`monster` e `retainer` não se
+convertem um no outro** — por isso o módulo entrega os dois, e a macro cria uma
+ficha *a partir* do statblock em vez de fingir que são a mesma coisa:
+
+| | `monster` (statblock do livro) | `retainer` (ficha de contratado) |
+|---|---|---|
+| CA | número escrito | **derivada** de DES + equipamento |
+| JP | número escrito | **fixa em 4**, é getter, não tem campo |
+| Moral | tem campo | **não existe** |
+| DV | tem campo | não existe; existe `level`, inicial 0 |
+
+O que o `retainer` não sabe guardar, a macro **escreve nas notas da ficha** em
+vez de deixar sumir calado. A CA do livro entra por *CA extra*, porque o livro
+declara o resultado e não nomeia a armadura — e a nota avisa para zerar aquele
+campo ao equipar armadura de verdade, senão a CA soma duas vezes.
+
+O `level: 0` inicial do `retainer` é, por acaso, exatamente o estado do
+Aprendiz: *"não estão prontos para receber um nível em uma classe"*.
+
+Os ganhos da **Comitiva** (+1 Moral, +PV, +JP e Dano por Carisma) não têm campo
+em nenhum dos dois tipos. A macro soma os PV do 6º nível ao máximo da ficha e
+escreve os demais nas notas.
+
 ## [0.12.0] — 2026-08-17
 
 **Contratando** — as regras de contratação do Old Dragon 2 (LB2, cap. 6), que

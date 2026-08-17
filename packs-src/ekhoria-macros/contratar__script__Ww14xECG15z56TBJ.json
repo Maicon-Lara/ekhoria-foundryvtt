@@ -1,0 +1,27 @@
+{
+  "folder": null,
+  "name": "Contratar",
+  "_id": "Ww14xECG15z56TBJ",
+  "type": "script",
+  "author": null,
+  "img": "icons/svg/village.svg",
+  "scope": "global",
+  "command": "// Cria a ficha de contratado (retainer) a partir do statblock do livro.\n// A lógica está em ekhoria.js — veja a função contratarDialogo().\nif (!game.ekhoria?.contratar) {\n  ui.notifications.error(\"Ekhoria: o módulo não está ativo neste mundo.\");\n} else {\n  game.ekhoria.contratar();\n}\n",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "_key": "!macros!Ww14xECG15z56TBJ"
+}

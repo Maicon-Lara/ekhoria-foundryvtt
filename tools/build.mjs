@@ -11,9 +11,9 @@ import { compilePack } from "@foundryvtt/foundryvtt-cli";
 
 import {
   folderDoc, aninhaPastas, classDoc, classAbilityDoc, raceDoc, raceAbilityDoc,
-  journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, rollTableDoc, itemUuid, writeSource,
+  journalDoc, spellDoc, weaponDoc, armorDoc, miscDoc, rollTableDoc, macroDoc, itemUuid, writeSource,
 } from "./lib.mjs";
-import { monsterDoc } from "./lib-actors.mjs";
+import { monsterDoc, retainerDoc } from "./lib-actors.mjs";
 
 import { classes } from "./data/classes.mjs";
 import { classAbilitiesAvulsas } from "./data/avulsas.mjs";
@@ -31,6 +31,8 @@ import { loreExtraPages } from "./data/lore-extra.mjs";
 import { worldbuildingPages } from "./data/lore-worldbuilding.mjs";
 import { campanhaJournais } from "./data/campanha.mjs";
 import { livroLoreJournal } from "./data/livro-lore.mjs";
+import { macros } from "./data/macros.mjs";
+import { contratadosModelo } from "./data/contratados.mjs";
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), "../..");
 const SRC = path.join(ROOT, "packs-src");
@@ -45,6 +47,7 @@ const TABELAS_PACK = "ekhoria-tabelas";
 const BESTIARIO_PACK = "ekhoria-bestiario";
 const CAMPANHA_PACK = "ekhoria-campanha";
 const LORE_PACK = "ekhoria-lore";
+const MACROS_PACK = "ekhoria-macros";
 
 // ── Pack de classes (classes + class_abilities, agrupadas em folders) ──
 // Nome de exibicao do chassi do OD2 sobre o qual cada classe roda. As 16
@@ -219,6 +222,15 @@ function buildBestiarioDocs() {
     });
   }
 
+  // A ficha-modelo de contratado. Fica numa pasta que NÃO começa com
+  // "Contratando" de propósito: aquele prefixo é o que a macro usa para achar
+  // os statblocks de origem, e o modelo não é origem de nada.
+  const modelo = folderDoc("Fichas de Contratado", "Actor", "contratados");
+  docs.push(modelo);
+  contratadosModelo.forEach((r, i) => {
+    docs.push(retainerDoc(r, modelo._id, "contratados", (i + 1) * 100000));
+  });
+
   return docs;
 }
 
@@ -233,6 +245,10 @@ function buildCampanhaDocs() {
     ...campanhaJournais.map((entrada, i) =>
       journalDoc(entrada, (i + 1) * 100000, pasta._id)),
   ];
+}
+
+function buildMacrosDocs() {
+  return macros.map((m, i) => macroDoc(m, (i + 1) * 100000));
 }
 
 async function compile(packName, docs) {
@@ -258,6 +274,7 @@ async function main() {
   await compile(LORE_PACK, buildLoreDocs());
   await compile(JOURNAL_PACK, buildJournalDocs());
   await compile(CAMPANHA_PACK, buildCampanhaDocs());
+  await compile(MACROS_PACK, buildMacrosDocs());
   console.log("Concluído.");
 }
 

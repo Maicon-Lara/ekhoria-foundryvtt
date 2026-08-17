@@ -672,6 +672,33 @@ export function rollTableDoc(table, sort) {
   };
 }
 
+// Macro de compêndio.
+//
+// O `command` fica com UMA linha, que chama uma função de ekhoria.js. A lógica
+// não mora aqui de propósito: macro dentro de LevelDB não aparece em diff, não
+// tem lint e não é revisável — quem a lê no compêndio vê o resultado, não a
+// história. Em ekhoria.js ela é código versionado como qualquer outro.
+export function macroDoc(macro, sort) {
+  const id = makeId(`macro:${macro.nome}`);
+  return {
+    folder: null,
+    name: macro.nome,
+    _id: id,
+    type: "script",
+    author: null,
+    img: macro.img || `${OD2I}/d6.svg`,
+    scope: "global",
+    command: macro.comando,
+    // `default: 0` deixa a macro visível e executável por jogador — é o jogador
+    // do Diplomata que contrata a comitiva, não o Mestre por ele.
+    ownership: { default: 0 },
+    flags: {},
+    _stats: stats(),
+    sort,
+    _key: `!macros!${id}`,
+  };
+}
+
 // Caminho de UUID de um item dentro de um pack deste módulo.
 export function itemUuid(packName, itemId) {
   return `Compendium.ekhoria.${packName}.Item.${itemId}`;

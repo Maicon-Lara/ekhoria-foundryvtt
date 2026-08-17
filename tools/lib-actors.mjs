@@ -333,3 +333,58 @@ export function monsterDoc(monstro, folderId, seedPrefix, sort) {
     _key: `!actors!${id}`,
   };
 }
+
+// Ator do tipo "retainer" — a ficha de contratado.
+//
+//   olddragon2e-foundryvtt-main/src/module/actors/OD2RetainerDataModel.js
+//     level, hp{value,max}, forca..carisma, ac_extra, economy{...},
+//     details{notes}, profession, odo_id, url
+//
+// NÃO é um monstro com outro rótulo, e a diferença importa na hora de usar:
+//
+//   ca      é DERIVADA — 10 + mod. DES + ac_extra + escudo + armadura. Não há
+//           campo `ca`. A CA do livro entra por `ac_extra`, e quem equipar
+//           armadura de verdade depois precisa zerar aquele campo.
+//   jp      é getter fixo em 4. Não há campo. JP 5 do livro não cabe.
+//   moral   não existe.
+//   dv      não existe; existe `level`, que começa em 0 — que por acaso é
+//           exatamente o estado do Aprendiz ("ainda não pronto para um nível").
+//
+// Por isso o módulo entrega as duas representações: o monstro carrega os
+// números do livro, e o contratado é a ficha que o jogador vive. Converter uma
+// na outra perde coisa nos dois sentidos, e é melhor dizer isso do que fingir
+// equivalência.
+export function retainerDoc(r, folderId, seedPrefix, sort) {
+  const id = makeId(`retainer:${seedPrefix}:${r.nome}`);
+  const img = r.img || "icons/svg/village.svg";
+  const pv = r.pv ?? 1;
+
+  return {
+    name: r.nome,
+    type: "retainer",
+    _id: id,
+    img,
+    system: {
+      odo_id: slug(r.nome),
+      level: r.nivel ?? 0,
+      profession: r.profissao || "",
+      hp: { value: pv, max: pv },
+      // 10 em tudo é o valor SEM modificador: deixa a ficha mostrar exatamente
+      // o que o equipamento acrescenta, em vez de fingir uma rolagem que
+      // ninguém fez. O livro não dá atributos a contratado.
+      forca: 10, destreza: 10, constituicao: 10,
+      inteligencia: 10, sabedoria: 10, carisma: 10,
+      ac_extra: r.caExtra ?? 0,
+      details: { notes: r.notas || "" },
+    },
+    prototypeToken: prototypeToken(r.nome, img),
+    items: [],
+    effects: [],
+    folder: folderId,
+    flags: {},
+    _stats: stats(),
+    sort,
+    ownership: { default: 0 },
+    _key: `!actors!${id}`,
+  };
+}
