@@ -16,7 +16,7 @@
     "range": "10 metros",
     "duration": "1 rodada/nível",
     "jp": "nenhuma",
-    "description": "<p>Revela ao mago se um indivíduo ou criatura está infectado por alguma doença, normal ou mágica. Há ainda 10% de chance por nível do mago de identificar com precisão qual é a doença.</p>"
+    "description": "<p>Revela ao mago, <strong>sem teste</strong>, se um indivíduo ou criatura está infectado por alguma doença — normal ou mágica. Saber <strong>qual</strong> exige um teste de <strong>Inteligência</strong>: <strong>Normal</strong> para uma doença conhecida, <strong>Difícil (−2)</strong> para uma de origem mágica, <strong>Muito Difícil (−5)</strong> para algo que ninguém catalogou ainda.</p>"
   },
   "effects": [],
   "flags": {},

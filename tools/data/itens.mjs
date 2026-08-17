@@ -27,6 +27,13 @@ export const categorias = [
     tipo: "armor",
     itens: [
       { nome: "Couraça Lagarto-Gelo", bonus_ca: 3, cost: "40 PO", weight_in_load: 1, desc: "<p>Armadura Leve de couro (Carga 1), feita com o couro de répteis das tundras de Vornfell. <strong>Antifuro:</strong> concede +1 na CA contra armas perfurantes, incluindo flechas, lanças e estocadas.</p>" },
+      // As três armaduras de Núcleo Lítico são extensões do sistema vital Arkanim —
+      // em quem não tem núcleo mineral ativo causam colapso térmico, calcificação ou
+      // implosão, todos fatais, e por isso são inúteis como espólio. O requisito, porém,
+      // não é o mesmo nas três: a Malha basta o núcleo, enquanto Vestimenta e Panóplia
+      // exigem também o treino de Lito-arcanista, porque canalizam carga que um núcleo
+      // destreinado não sustenta.
+      { nome: "Malha de Núcleo Aflorado", bonus_ca: 2, cost: "30 PO", weight_in_load: 1, desc: "<p>Armadura Leve de Arcanita, <strong>exclusiva de Arkanim</strong> — basta o núcleo, sem exigir o treino de Lito-arcanista. A peça do dia a dia em Arkádia: trama fina costurada de modo que as cristalizações do corpo <em>aflorem através dela</em> em vez de serem cobertas. Não esconde nada, e não foi feita para esconder.</p><p>Enquanto vestida, <strong>Filhos de Arkádia</strong> passa a detectar num raio de <strong>18 metros</strong> em vez de 9; a chance continua sendo <strong>1 em 1d6</strong>. Um Lito-arcanista a carrega em <strong>Carga 0</strong> pelo redutor da classe, e é a única armadura que ele consegue comprar com uma renda inicial ruim.</p>" },
       { nome: "Vestimenta de Núcleo Condutor", bonus_ca: 3, cost: "40 PO", weight_in_load: 1, desc: "<p>Armadura Média de Arcanita, <strong>exclusiva de Lito-arcanistas</strong> (extensão do sistema vital Arkanim — fatal para quem não tem núcleo mineral ativo). Concede +1 em JPC para Concentração.</p>" },
       { nome: "Panóplia do Núcleo de Ruptura", bonus_ca: 5, cost: "1.500 PO", weight_in_load: 2, desc: "<p>Armadura Pesada de Arcanita, <strong>exclusiva de Lito-arcanistas</strong>. Concede +2 em JPC física e +1d6 no dano da habilidade Ruptura do Núcleo.</p>" },
     ],

@@ -16,7 +16,7 @@
     "range": "0",
     "duration": "1 rodada/nível",
     "jp": "nenhuma",
-    "description": "<p>Os itens mágicos tocados pelo mago podem ser identificados. As 8 horas anteriores devem ser gastas purificando os itens. A chance de obter uma informação é de 10% por nível, até 90%. Resultados de 96 a 00 indicam leitura errônea; de 91 a 95, nenhuma informação.</p>"
+    "description": "<p>Identifica <strong>um</strong> item mágico tocado, após 8 horas prévias de purificação. Teste de <strong>Inteligência</strong>: <strong>Normal</strong> para item mágico comum, <strong>Difícil (−2)</strong> para item potente ou amaldiçoado, <strong>Muito Difícil (−5)</strong> para artefato.</p><ul><li><strong>Sucesso:</strong> as propriedades do item, e se há maldição.</li><li><strong>Falha:</strong> nada. O item resiste, e outra conjuração hoje não adianta.</li><li><strong>20 natural — leitura errada:</strong> o Mestre dá uma informação <strong>falsa e plausível</strong>, e não avisa que o teste falhou. O conjurador sai convencido de que sabe o que tem nas mãos.</li></ul>"
   },
   "effects": [],
   "flags": {},

@@ -16,7 +16,7 @@
     "range": "0",
     "duration": "1 rodada/nível",
     "jp": "nenhuma",
-    "description": "<p>Permite analisar a essência arcana de um objeto, criatura ou local, revelando encantamentos, propriedades mágicas e a origem de qualquer magia que afete o alvo. Chance de 15% por nível, até 90%. <em>Valorizada pela Ars Vocalis de Arkádia para catalogação de artefatos.</em></p>"
+    "description": "<p>Permite analisar a essência arcana de um objeto, criatura <strong>ou local</strong>, revelando encantamentos, propriedades mágicas e a origem de qualquer magia que afete o alvo. Funciona como <em>Identificação</em>, com as duas diferenças que justificam o círculo: o teste de <strong>Inteligência</strong> é <strong>Fácil (+2)</strong> em vez de Normal, e o alvo não precisa ser um item. A regra do <strong>20 natural</strong> vale igual — leitura errada, dita com confiança. <em>Valorizada pela Ars Vocalis de Arkádia para catalogação de artefatos.</em></p>"
   },
   "effects": [],
   "flags": {},

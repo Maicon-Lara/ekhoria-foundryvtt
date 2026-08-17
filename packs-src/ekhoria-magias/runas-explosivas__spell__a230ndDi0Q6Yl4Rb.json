@@ -16,7 +16,7 @@
     "range": "toque",
     "duration": "especial",
     "jp": "JPD reduz",
-    "description": "<p><strong>Guardião da Centelha.</strong> Escreve uma armadilha sobre livro, mapa ou qualquer superfície com texto: quem ler sem autorização detona a runa. Difícil de detectar (5% por nível para conjuradores; 5% fixos para ladrões), embora magias de detectar armadilhas sempre a encontrem. É como a Ordem protege esquemas técnicos — e é por isso que ninguém rouba um projeto de Cristal de Centelha duas vezes.</p><p><em>Aprendida no 6º nível.</em></p>"
+    "description": "<p><strong>Guardião da Centelha.</strong> Escreve uma armadilha sobre livro, mapa ou qualquer superfície com texto: quem ler sem autorização detona a runa. Detectá-la sem magia é quase impossível — um conjurador precisa de um teste de <strong>Inteligência Muito Difícil (−5)</strong>, e o talento <strong>Armadilhas</strong> de um Ladrão só a encontra num resultado <strong>1</strong>. Magias de detectar armadilhas, essas, sempre a acham. É como a Ordem protege esquemas técnicos — e é por isso que ninguém rouba um projeto de Cristal de Centelha duas vezes.</p><p><em>Aprendida no 6º nível.</em></p>"
   },
   "effects": [],
   "flags": {},

@@ -4,6 +4,38 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.11.1] — 2026-08-17
+
+Alterações do cofre feitas depois da build de 0.11.0.
+
+### Modificado
+- **Cinco magias trocaram porcentagem por teste de atributo**, acompanhando a
+  conversão feita no livro de mecânicas: *Detectar Doença* (INT Normal/−2/−5 para
+  saber **qual** doença; a infecção em si passa a ser detectada sem teste),
+  *Identificação* (INT, com resultado explícito para sucesso, falha e 20 natural),
+  *Análise Essencial de Alamir* (INT Fácil +2, e o alvo não precisa ser item) e
+  *Runas Explosivas* (INT Muito Difícil −5; o talento **Armadilhas** de um Ladrão
+  só a encontra num resultado 1).
+- ***Aura Esotérica de Nystul*** deixou de ser "50% de notar a fraude": agora torna
+  *Identificação* e *Análise Essencial de Alamir* **Muito Difíceis (−5)** sobre o
+  item, e na falha o conjurador lê a aura plantada como verdadeira.
+- **Filhos de Arkádia** (Arkanim) ganhou o raio que faltava na descrição: **9 m**,
+  chance de 1 em 1d6.
+
+### Adicionado
+- **Malha de Núcleo Aflorado** (armadura leve, CA 2, 30 po, Carga 1) — a peça do
+  dia a dia em Arkádia. Enquanto vestida, **Filhos de Arkádia** detecta a **18 m**
+  em vez de 9. Com ela, o requisito das armaduras de Núcleo Lítico deixa de ser
+  uniforme: a Malha **basta o núcleo** e serve a qualquer Arkanim, enquanto
+  Vestimenta e Panóplia continuam exigindo o treino de Lito-arcanista.
+
+### Notas
+- Divergências conhecidas e **não** transportadas nesta versão, por estarem fora do
+  alcance dos importadores atuais: a tabela geral *Experiência e Progressão — 1º ao
+  15º* (o módulo só tem a versão específica de *A Guerra do Esmaecer*) e a campanha
+  **Companhia** inteira, com 8 arquivos — o `importar-campanha.mjs` tem
+  `"A Guerra do Esmaecer"` fixo no caminho e só enxerga uma campanha.
+
 ## [0.11.0] — 2026-08-12
 
 Transporte das alterações do cofre Obsidian acumuladas desde 31/07.

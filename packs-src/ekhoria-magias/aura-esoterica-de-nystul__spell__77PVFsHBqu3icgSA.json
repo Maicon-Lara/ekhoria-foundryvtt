@@ -16,7 +16,7 @@
     "range": "toque",
     "duration": "1 dia/nível",
     "jp": "nenhuma",
-    "description": "<p>Um item de até 2 kg por nível recebe uma aura mágica falsa, do tipo que o mago especificar (Alteração, Ilusão, Convocação etc.), disfarçando a aura verdadeira (exceto a de artefatos). Se examinado por Identificação, há 50% de chance de perceber a fraude.</p>"
+    "description": "<p>Um item de até 2 kg por nível recebe uma aura mágica falsa, do tipo que o mago especificar (Alteração, Ilusão, Convocação etc.), disfarçando a aura verdadeira (exceto a de artefatos). <em>Identificação</em> e <em>Análise Essencial de Alamir</em> aplicadas ao item passam a ser <strong>Muito Difíceis (−5)</strong>, e só um sucesso revela o engodo — na falha, o conjurador lê a aura plantada como se fosse verdadeira. <em>Útil em Triarcis, onde clérigos detectam alinhamento.</em></p>"
   },
   "effects": [],
   "flags": {},

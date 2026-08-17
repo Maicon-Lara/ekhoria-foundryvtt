@@ -271,7 +271,7 @@ export const racas = [
     habilidades: [
       {
         nome: "Filhos de Arkádia",
-        desc: "<p>Por nascerem em Arkádia, detectam anomalias mágicas com 1 em 1d6, mesmo sem analisar ativamente (como sob o efeito de Detectar Magias).</p>",
+        desc: "<p>Por nascerem em Arkádia, detectam passivamente anomalias ou a presença de magia num raio de <strong>9 metros</strong>, com chance de <strong>1 em 1d6</strong>, mesmo sem analisar ativamente — como se estivessem sob o efeito de <em>Detectar Magias</em>.</p><p>Vestindo a <strong>Malha de Núcleo Aflorado</strong>, o raio passa a <strong>18 metros</strong>; a chance continua 1 em 1d6.</p>",
       },
       {
         nome: "Infecção Mágica",

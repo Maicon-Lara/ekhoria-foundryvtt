@@ -1,0 +1,36 @@
+{
+  "folder": "EEFFZ8nqBZDdirEU",
+  "name": "Malha de Núcleo Aflorado",
+  "type": "armor",
+  "_id": "jesGAOFU21mgGM3g",
+  "img": "systems/olddragon2e/assets/icons/armor.svg",
+  "system": {
+    "odo_id": "malha-de-nucleo-aflorado",
+    "description": "Armadura Leve de Arcanita, exclusiva de Arkanim — basta o núcleo, sem exigir o treino de Lito-arcanista. A peça do dia a dia em Arkádia: trama fina costurada de modo que as cristalizações do corpo aflorem através dela em vez de serem cobertas. Não esconde nada, e não foi feita para esconder.\nEnquanto vestida, Filhos de Arkádia passa a detectar num raio de 18 metros em vez de 9; a chance continua sendo 1 em 1d6. Um Lito-arcanista a carrega em Carga 0 pelo redutor da classe, e é a única armadura que ele consegue comprar com uma renda inicial ruim.",
+    "quantity": 1,
+    "cost": "30 PO",
+    "weight_in_load": 1,
+    "weight_in_grams": 0,
+    "magic_item": false,
+    "is_equipped": false,
+    "bonus_ca": 2
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "olddragon2e",
+    "systemVersion": "This is auto replaced",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "ekhoriabuildtool",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jesGAOFU21mgGM3g"
+}
