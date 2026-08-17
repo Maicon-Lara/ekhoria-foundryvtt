@@ -36,10 +36,11 @@ import { makeId } from "./lib.mjs";
 import { ameacas } from "./data/ameacas.mjs";
 import { grupos as gruposBestiario } from "./data/bestiario.mjs";
 
-const COFRE = path.join(
+const COMPENDIO = path.join(
   os.homedir(), "Documents", "Ekhoria", "10 Ekhoria", "Compendio",
-  "Campanhas", "A Guerra do Esmaecer",
 );
+const COFRE = path.join(COMPENDIO, "Campanhas", "A Guerra do Esmaecer");
+const COFRE_LORE = path.join(COMPENDIO, "Ekhoria_Livro_Lore");
 const RAIZ = path.dirname(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")));
 const SAIDA = path.join(RAIZ, "tools", "data", "campanha.mjs");
 
@@ -151,7 +152,10 @@ for (const entrada of entradas) {
 
 const uuidLink = (uuid, rotulo) => `@UUID[${uuid}]{${rotulo}}`;
 
-const contagem = { wikiPagina: 0, wikiCriatura: 0, wikiSolto: 0, mencoes: 0, blocos: 0 };
+const contagem = {
+  wikiPagina: 0, wikiCriatura: 0, wikiSolto: 0, mencoes: 0, blocos: 0,
+  refPagina: 0, refLore: 0, refDescartada: 0,
+};
 
 function contextoDe(pagina) {
   // Cada página liga a PRIMEIRA menção de cada criatura. Ligar as 34 de "Irmã
@@ -233,6 +237,73 @@ function ligaMencoes(html, ctx) {
   });
 }
 
+// ── Referências a arquivos do cofre ─────────────────────────────────────────
+//
+// O texto do cofre cita arquivos em crase: `02_nacoes.md`, `10_segredos.md:31`,
+// `01_Ordem_de_Batalha.md`. No Obsidian isso é navegação — clica e abre. No
+// Foundry vira <code> com o nome de um arquivo que o leitor não tem, e que ele
+// não faz ideia de onde procurar. Eram 38 dessas espalhadas pelos cinco arcos.
+//
+// Não são [[wikilinks]], então passaram inteiras pelo conversor: para ele, crase
+// é código, e código se preserva. Só que aqui a crase não marcava código —
+// marcava um caminho.
+//
+// O número de linha (`:31`) some sempre. Ele endereça uma linha de um arquivo
+// que não acompanha o módulo, e envelhece na primeira edição do cofre.
+const TITULO_LORE = (() => {
+  const m = new Map();
+  if (!fs.existsSync(COFRE_LORE)) return m;
+  for (const f of fs.readdirSync(COFRE_LORE)) {
+    if (!f.endsWith(".md") || f === "index.md") continue;
+    const md = fs.readFileSync(path.join(COFRE_LORE, f), "utf8").replace(/\r\n?/g, "\n");
+    const h1 = md.match(/^#\s+(.+)$/m);
+    if (h1) m.set(normaliza(path.basename(f, ".md")), h1[1].trim());
+  }
+  return m;
+})();
+
+const semExtensao = (ref) => normaliza(path.basename(ref.trim(), ".md"));
+
+const REF_ARQUIVO = /<code>([^<>]*?\.md)(?::\d+)?<\/code>/g;
+
+function resolveRefsDeArquivo(html, pagina) {
+  return html
+    .replace(REF_ARQUIVO, (todo, ref) => {
+      const chave = semExtensao(ref);
+
+      const pag = PAGINA_POR_ARQUIVO.get(chave);
+      if (pag && chave !== normaliza(pagina.base)) {
+        contagem.refPagina++;
+        return uuidLink(pag.uuid, pag.titulo);
+      }
+      // A própria página: o leitor já está nela.
+      if (pag) {
+        contagem.refDescartada++;
+        return "";
+      }
+
+      // Capítulo do Livro de Lore. Fica como nome, não como link: os ids das
+      // páginas do pack de lore são cunhados pelo build, e forjá-los aqui
+      // criaria uma segunda definição da mesma coisa — que é exatamente como
+      // manifest e download passaram a discordar no v0.7.3.
+      const cap = TITULO_LORE.get(chave);
+      if (cap) {
+        contagem.refLore++;
+        return `<em>${esc(cap)}</em>`;
+      }
+
+      // Sem destino conhecido. Melhor não dizer nada do que mandar o leitor
+      // procurar um arquivo — mas avisa, porque referência que some calada é
+      // como o conteúdo desaparece sem ninguém notar.
+      contagem.refDescartada++;
+      avisos.push(`${pagina.base}: referência a "${ref}" sem destino no módulo — removida.`);
+      return "";
+    })
+    // Sobra de referência removida: " (…)" que ficou vazio, ou vírgula solta.
+    .replace(/\s*\(\s*(?:,\s*)*\)/g, "")
+    .replace(/\(\s*,\s*/g, "(");
+}
+
 // ── Escrita ─────────────────────────────────────────────────────────────────
 
 const saida = entradas.map((entrada) => ({
@@ -244,6 +315,9 @@ const saida = entradas.map((entrada) => ({
     let html = desprotege(paraHtml(p.corpo, ctx));
     const t1 = Date.now();
     html = ligaMencoes(html, ctx);
+    // Depois de ligaMencoes: as referências resolvidas viram @UUID, e passar
+    // @UUID recém-criado pelo varredor de nomes convidaria link dentro de link.
+    html = resolveRefsDeArquivo(html, p);
     const t2 = Date.now();
     if (process.env.PERF) console.error(`   ${p.base.padEnd(34)} html ${t1 - t0}ms  links ${t2 - t1}ms`);
     return { title: p.titulo, content: html };
@@ -274,6 +348,8 @@ for (const e of saida) {
 console.log(`\n  links: ${contagem.wikiPagina} wikilinks para páginas, ${contagem.wikiCriatura} para criaturas,`);
 console.log(`         ${contagem.mencoes} menções soltas ligadas, ${contagem.blocos} blocos od2-monstro resumidos`);
 if (contagem.wikiSolto) console.log(`         ${contagem.wikiSolto} wikilinks sem destino (viraram negrito)`);
+console.log(`  refs a arquivo do cofre: ${contagem.refPagina} viraram link, ${contagem.refLore} viraram nome de capítulo,`);
+console.log(`         ${contagem.refDescartada} removidas`);
 if (avisos.length) {
   console.log(`
   ${avisos.length} aviso(s) sobre a fonte no cofre:`);

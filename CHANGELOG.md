@@ -4,6 +4,37 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.11.2] — 2026-08-17
+
+Higienização. Nenhuma regra de jogo mudou.
+
+### Corrigido
+- **Sumiram os nomes de arquivo do cofre de dentro dos journals da campanha.**
+  Eram 38 referências como `` `02_nacoes.md` `` e `` `10_segredos.md:31` ``,
+  espalhadas pelos cinco arcos. No Obsidian isso é navegação — clica e abre. No
+  Foundry era o caminho de um arquivo que o leitor não tem. Não eram
+  `[[wikilinks]]`, então passaram inteiras pelo conversor: para ele crase é
+  código, e código se preserva. Agora **10 viraram link** para a página
+  correspondente da campanha, **28 viraram o nome do capítulo** do Livro de Lore,
+  e **2 foram removidas** por não terem destino no módulo — estas duas saem
+  anunciadas no aviso do importador, não em silêncio. O número de linha (`:31`)
+  é sempre descartado: endereça um arquivo que não acompanha o módulo e envelhece
+  na primeira edição do cofre.
+
+### Removido
+- `_msg.txt` da raiz — rascunho de mensagem de commit que virou arquivo
+  rastreado no v0.6.8.
+- `assets/icones/_mapa.json` — duplicata do mapa `ARQUIVO` de
+  `tools/data/icones.mjs`. Ninguém lia, e viajava no zip.
+
+### Modificado
+- O cabeçalho de `tools/data/icones.mjs` dizia "Gerado por
+  `tools/make-icones.py` — não edite à mão". **Esse script nunca existiu**, nem
+  no repositório nem na história dele. Era a mesma mentira que `campanha.mjs`
+  contava antes do `ca09490`, e custa o mesmo: quem lê acredita que pode
+  regenerar, não edita ali, e o mapa apodrece. Agora o cabeçalho diz a verdade e
+  explica como acrescentar um ícone à mão.
+
 ## [0.11.1] — 2026-08-17
 
 Alterações do cofre feitas depois da build de 0.11.0.

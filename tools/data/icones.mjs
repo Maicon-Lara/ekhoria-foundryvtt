@@ -7,8 +7,16 @@
 // CLASSE usa retrato (Obsidian-classes — a pessoa). Uma raça é uma marca; uma
 // classe é alguém.
 //
-// Gerado por tools/make-icones.py. Para trocar uma imagem, mexa no acervo e
-// rode o script — não edite este arquivo à mão.
+// MANTIDO À MÃO. Este cabeçalho já disse "gerado por tools/make-icones.py", e
+// esse script nunca existiu — nem neste repositório, nem na história dele. Era a
+// mesma mentira que campanha.mjs contava ("GERADO a partir do cofre", sem
+// gerador), e ela custa caro do mesmo jeito: quem lê acredita que pode
+// regenerar, não edita aqui, e o mapa apodrece.
+//
+// Para acrescentar um ícone: converta a arte do acervo do cofre
+// (Compendio/Imagens) para webp de 128px, ponha em ekhoria-module/assets/icones
+// e adicione a linha abaixo. A chave é o NOME exato da raça ou classe, porque é
+// por ele que iconeProprio() é chamado.
 
 const PASTA = "modules/ekhoria/assets/icones";
 
