@@ -145,17 +145,36 @@ async function migrarChaveArmadilhas() {
 Hooks.once("ready", () => {
   console.log("Ekhoria | Módulo pronto.");
 
-  aplicarTema(game.settings.get(ID_MODULO, "tema"));
-  corrigirPontosDeTalento();
-  migrarChaveArmadilhas();
-  carregarNomesEkhoria();
-
+  // A API ENTRA PRIMEIRO, antes de tudo que pode falhar.
+  //
+  // Ela ficava por último, depois do tema e das duas migrações. Uma exceção em
+  // qualquer uma delas abortava o resto do gancho e `game.ekhoria` nunca era
+  // criado — e o sintoma que chegava ao usuário era a macro dizendo "o módulo
+  // não está ativo neste mundo", que é falso e manda procurar no lugar errado.
+  // Nada aqui depende de migração ter rodado.
   game.ekhoria = {
     abrir: abrirDoCompendio,
     nomes: NOMES_EKHORIA,
     contratar: contratarDialogo,
     contratos: listarContratos,
   };
+
+  // Cada tarefa isolada: uma falhar não pode levar as outras junto. O `catch`
+  // registra em vez de engolir — erro silencioso aqui vira "o tema não aplicou"
+  // sem nenhuma pista de por quê.
+  for (const [nome, tarefa] of [
+    ["tema", () => aplicarTema(game.settings.get(ID_MODULO, "tema"))],
+    ["pontos de talento", corrigirPontosDeTalento],
+    ["migração de talentos", migrarChaveArmadilhas],
+    ["nomes do cenário", carregarNomesEkhoria],
+  ]) {
+    try {
+      const r = tarefa();
+      if (r instanceof Promise) r.catch((e) => console.error(`Ekhoria | ${nome}:`, e));
+    } catch (e) {
+      console.error(`Ekhoria | ${nome}:`, e);
+    }
+  }
 });
 
 // ─────────────────────────────────────────────

@@ -6,7 +6,7 @@
   "author": null,
   "img": "icons/svg/village.svg",
   "scope": "global",
-  "command": "// Cria a ficha de contratado (retainer) a partir do statblock do livro.\n// A lógica está em ekhoria.js — veja a função contratarDialogo().\nif (!game.ekhoria?.contratar) {\n  ui.notifications.error(\"Ekhoria: o módulo não está ativo neste mundo.\");\n} else {\n  game.ekhoria.contratar();\n}\n",
+  "command": "// Cria a ficha de contratado (retainer) a partir do statblock do livro.\n// A lógica está em ekhoria.js — veja a função contratarDialogo().\nconst mod = game.modules.get(\"ekhoria\");\nif (!mod?.active) {\n  ui.notifications.error(\"Ekhoria: o módulo não está ativo neste mundo.\");\n} else if (!game.ekhoria?.contratar) {\n  ui.notifications.error(\n    `Ekhoria ${mod.version}: o módulo está ativo, mas o script não registrou a função. `\n    + \"Recarregue com Ctrl+Shift+R (o navegador guarda o ekhoria.js em cache). \"\n    + \"Se persistir, abra o console com F12 e procure por 'Ekhoria |'.\"\n  );\n} else {\n  game.ekhoria.contratar();\n}\n",
   "ownership": {
     "default": 0
   },

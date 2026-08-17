@@ -4,6 +4,21 @@ Todas as mudanças relevantes deste módulo são documentadas aqui.
 O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 e o versionamento segue o [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.13.1] — 2026-08-17
+
+### Corrigido
+- **A API do módulo (`game.ekhoria`) era registrada por último**, depois do tema
+  e das duas migrações. Uma exceção em qualquer uma delas abortava o resto do
+  gancho `ready` e a API nunca era criada — e o sintoma que chegava ao usuário
+  era a macro *Contratar* dizendo "o módulo não está ativo neste mundo", que é
+  falso e manda procurar no lugar errado. Agora a API entra **primeiro**, e cada
+  tarefa de inicialização roda isolada: uma falhar não leva as outras junto, e o
+  erro vai para o console com o nome da tarefa em vez de sumir.
+- **A mensagem de erro da macro afirmava algo que não tinha verificado.**
+  Agora ela separa os dois casos: módulo realmente inativo, ou módulo ativo com o
+  script não carregado — que é o cache do navegador, e nesse caso a mensagem já
+  diz `Ctrl+Shift+R` e aponta o console.
+
 ## [0.13.0] — 2026-08-17
 
 **Ficha de contratado**, para a Comitiva do Diplomata. O statblock do livro
